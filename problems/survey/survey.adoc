@@ -141,4 +141,4 @@ In order to submit this problem, create a zipfile containing all of the files an
 - `cd module10`
 - `zip -r survey.zip survey`
 
-Now your new file `finance.zip` will be put next to the `finance` directory. You can download it via the Download option in the CS50 IDE. Make sure that the file is not unzipped on your own computer, but instead left as-is, so you can add it to the form below.
+Now your new file `survey.zip` will be put next to the `survey` directory. You can download it via the Download option in the CS50 IDE. Make sure that the file is not unzipped on your own computer, but instead left as-is, so you can add it to the form below.
