@@ -107,7 +107,7 @@ Finally, here are some general tips and tricks that might be useful:
 
 - Letter position matters just as much as letter frequency. When computing word families, it's not enough to count the number of times a particular letter appears in a word; you also have to consider their positions. For example, "BEER" and "HERE" are in two different families even though they both have two E's in them. Consequently, representing word families as numbers representing the frequency of the letter in the word will get you into trouble.
 
-- Watch out for gaps in the dictionary. When the user specifies a word length, you will need to check that there are indeed words of that length in the dictionary. You might initially assume that if the requested word length is less than the length of the longest word in the dictionary, there must be some word of that length. Unfortunately, the dictionary contains a few "gaps." The longest word in the dictionary has length 29, but there are no words of length 27 or 26. Be sure to take this into account when checking if a word length is valid.
+- Watch out for gaps in the dictionary. When the user specifies a word length, you will need to check that there are indeed words of that length in the dictionary. You might initially assume that if the requested word length is less than the length of the longest word in the dictionary, there must be some word of that length. Unfortunately, the dictionary contains a few "gaps." The longest word in the dictionary has length 29, but there are no words of length 26. Be sure to take this into account when checking if a word length is valid.
 
 ## Steps
 
@@ -162,7 +162,7 @@ If you followed step 0 correctly, it should just load the Lexicon class and do n
 
 Note that the `pop` method for a list removes the last element from the list and returns it. So `print(words.pop())` removes the last element from the list of length-8 words and prints it.
 
-Check if everything is in order. Is the number of words reasonable? It should be more than 10000 for length 8? Are each of the three random words actually 8 letters long? To add to this, in the description above, you can find some oddities that you might verify, too (e.g. how many words are there of length 27?).
+Check if everything is in order. Is the number of words reasonable? It should be more than 10000 for length 8? Are each of the three random words actually 8 letters long? To add to this, in the description above, you can find some oddities that you might verify, too (e.g. how many words are there of length 26?).
 
 > You should not put testing code like the above in `hangman.py` as you might have done in earlier assignments. This is because `check50` should be able to load your program and perform its own tests. Your tests would interfere with the checks.
 
