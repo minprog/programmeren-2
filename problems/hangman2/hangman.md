@@ -83,6 +83,7 @@ Download the lexicons via:
 	cd ~/module8
 	wget https://prog2.mprog.nl/course/problems/hangman/dictionaries.zip
 	unzip dictionaries.zip
+    rm -f dictionaries.zip
 
 Create a file called `hangman.py` and add a `Lexicon` class. This class should have two methods: `__init__()` to initialize, and `get_words()` to extract a list of words with a  specific length to play Hangman:
 
