@@ -65,7 +65,7 @@ Your program will consist of three major parts.
 
 For the Lexicon and Hangman classes, we will prescribe how they should work, like in previous assignments. They can be checked with `check50`. For the user interface, you have some freedom, but be careful to stick to the specification.
 
-By the way, watch out for gaps in the dictionary. When the user specifies a word length, you will need to check that there are indeed words of that length in the dictionary. You might initially assume that if the requested word length is less than the length of the longest word in the dictionary, there must be some word of that length. Unfortunately, the dictionary contains a few "gaps." The longest word in the dictionary has length 29, but there are no words of length 27 or 26. Be sure to take this into account when checking if a word length is valid.
+By the way, watch out for gaps in the dictionary. When the user specifies a word length, you will need to check that there are indeed words of that length in the dictionary. You might initially assume that if the requested word length is less than the length of the longest word in the dictionary, there must be some word of that length. Unfortunately, the dictionary contains a few "gaps." The longest word in the dictionary has length 29, but there are no words of length 26. Be sure to take this into account when checking if a word length is valid.
 
 
 ## Steps
@@ -82,7 +82,8 @@ Download the lexicons via:
 
 	cd ~/module8
 	wget https://prog2.mprog.nl/course/problems/hangman/dictionaries.zip
-	unzip dictionary.zip
+	unzip dictionaries.zip
+    rm -f dictionaries.zip
 
 Create a file called `hangman.py` and add a `Lexicon` class. This class should have two methods: `__init__()` to initialize, and `get_words()` to extract a list of words with a  specific length to play Hangman:
 
