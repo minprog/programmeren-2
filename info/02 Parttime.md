@@ -7,7 +7,7 @@
 
 ## Docenten
 
-Je docenten en assistenten zijn Martijn Stegeman (coördinator), Jelle van Assema, Edwin Steffens, Gracia Redder, Kim de Bie, Floor van de Leur en Nigel van Herwijnen.
+Je docenten en assistenten zijn Martijn Stegeman (coördinator), Edwin Steffens, Gracia Redder, Julien Fer, Floor van de Leur en Nigel van Herwijnen.
 
 
 ## Activiteiten
@@ -17,9 +17,8 @@ Om de cursus tot een goed einde te brengen, verwachten we dat je:
 - alle hoorcolleges bekijkt,
 - alle werkgroepen bijwoont,
 - voldoende uren aanwezig bent in het lab,
-- alle opdrachten volledig uitgewerkt instuurt,
-- alle toetsjes maakt en haalt, en
-- het tentamen maakt en haalt.
+- alle opdrachten volledig uitgewerkt instuurt, en
+- het **tentamen** maakt en haalt.
 
 
 ## Vragen stellen
@@ -42,44 +41,38 @@ Het eindcijfer voor deze cursus wordt bepaald door het aantal gescoorde punten v
 1. zichtbare aandacht voor een beperkt aantal aspecten
 {: start="5" reversed=""}
 
-Op basis van bovenstaand schema is de maximumscore voor deze cursus XXXX punten (4 modules x 5 punten). Deze score wordt omgerekend naar een cijfer tussen 1 en 10, zoals gebruikelijk. Daarnaast kan het doen van een "hacker edition" van een opdracht, indien beschikbaar, een extra punt voor een module opleveren. Toetsjes en het tentamen leveren geen punten op voor het eindcijfer, maar moeten wel gehaald worden.
+Op basis van bovenstaand schema is de maximumscore voor deze cursus 20 punten (4 modules x 5 punten). Deze score wordt omgerekend naar een cijfer tussen 1 en 10, zoals gebruikelijk. Daarnaast kan het doen van een "hacker edition" van een opdracht, indien beschikbaar, een extra punt voor een module opleveren. Toetsjes en het tentamen leveren geen punten op voor het eindcijfer, maar moeten wel gehaald worden.
 
 
 ## Deadlines
 
 Elke module moet op de vooraf bepaalde deadline ingeleverd zijn. Een voorlopig schema van deadlines vind je hieronder. Alle deadlines zijn om 23:59 op de genoemde datum.
 
-| deadline | parttime  |
-| ---------| --------- |
-| Module 0 | vr  6 sep |
-| Module 1 | vr 13 sep |
-| Module 2 | vr 20 sep |
-| Module 3 | vr  4 okt |
-| Module 4 | vr 18 okt |
-| Module 5 | vr 18 okt |
+| module | deadline  |                              |  
+| -----: | --------- | ---------------------------- |  
+|      6 | do 31 okt | moet af, maar telt niet mee  |  
+|      7 | do  7 nov |                              |  
+|      8 | do 21 nov | opdracht wordt nog aangepast |  
+|      9 | do  5 dec | opdracht wordt nog aangepast |  
+|     10 | do 12 dec |                              |  
 
-Module 5 is een optionele extra uitdaging voor studenten die erg snel door de cursus heen gaan.
+In het geval van planningsproblemen of ziekte is het mogelijk de deadline met 1 dag op te schuiven, in ruil voor een bescheiden puntenaftrek. Dit gaat volledig automatisch bij later inleveren en hoeft dus in beginsel niet gemeld te worden. Toch is het verstandig om je mentor aan te spreken om te overleggen of advies te vragen over het halen van verdere deadlines.
 
-In het geval van planningsproblemen of ziekte is het mogelijk de deadline met 1 tot 3 dagen op te schuiven, in ruil voor een bescheiden puntenaftrek. Dit gaat volledig automatisch bij later inleveren en hoeft dus in beginsel niet gemeld te worden. Toch is het verstandig om je mentor aan te spreken om te overleggen of advies te vragen over het halen van verdere deadlines.
+| uitstel         | aftrek |  
+| --------------- | ------ |  
+| maximaal 24 uur | 1 punt |  
 
-| uitstel          | aftrek   |  
-| ---------------- | -------- |  
-| maximaal 1 dag   | 1/2 punt |  
-| maximaal 3 dagen | 1 punt   |  
+Als je nog later inlevert krijg je 0 punten voor de opdracht. Let op dat je ook in dat geval de opdracht wel 100% werkend moet inleveren om het vak te halen.
 
-Voor modules 0 en 5 is geen uitstel mogelijk.
-
-Nog later ingeleverd werk kan normaliter niet geaccepteerd worden, behalve bij medische noodgevallen. In dat geval is het noodzakelijk om direct contact op te nemen met de docenten, maar zeker vóór je doorgaat met werken aan de opdrachten.
+Bij medische noodgevallen is het noodzakelijk om direct contact op te nemen met de docenten, maar zeker vóór je doorgaat met werken aan de opdrachten.
 
 
-## Hoorcolleges
+## Videocolleges
 
-In hoorcolleges bespreekt David Malan van Harvard de theorie waarmee je programmeerproblemen kunt oplossen en die je voorbereidt op de toetsjes. Kijk de video's vóór of onderweg naar het lab, zodat je je tijd in het lab goed kan gebruiken voor programmeren en vragen stellen.
+In videocolleges bespreekt David Malan van Harvard de theorie waarmee je programmeerproblemen kunt oplossen en die je voorbereidt op de toetsjes. Kijk de video's vóór of onderweg naar het lab, zodat je je tijd in het lab goed kan gebruiken voor programmeren en vragen stellen.
 
 
 ## Werkgroepen
-
-**Geldt  niet in periode 1.**
 
 Werkgroepen zijn bijeenkomsten van zo'n 30--60 minuten met je mentor. In de werkgroepen krijg je de kans om samen de voortgang te bespreken, tips uit te wisselen over het aanpakken van problemen en om je medestudenten en mentor beter te leren kennen. Aanwezigheid is vereist.
 
@@ -90,17 +83,11 @@ Tijdens de practicumuren kun je terecht in het programmeerlab voor het werken aa
 
 Locatie: A1.22
 
-- maandag 11--15 uur
-- dinsdag 11--13 uur
-- woensdag 13--17 uur
-- donderdag 13--15 uur
-- vrijdag 11-15 uur
-
-## Toetsjes
-
-Wekelijks vinden toetsjes plaats waarin de stof van de vorige weken wordt herhaald en scherper gemaakt. Voor een deel van de toetsjes studeer je in het "Basisboek Programmeren" waarvan delen worden verspreid in het lab. Andere toetsjes hebben directer betrekking op de opdrachten en vragen doorgaans niet om veel voorbereiding.
-
-Alle toetsjes moeten gehaald worden om de cursus te voltooien, maar alle toetsjes kunnen zonodig binnen enkele dagen herkanst worden. Meer informatie krijg je bij het afnemen van de toetsjes.
+- maandag 12--16 uur
+- dinsdag 13--17 uur
+- woensdag 12--16 uur
+- donderdag 12--16 uur
+- vrijdag 12-16 uur
 
 
 ## Herkansingen
