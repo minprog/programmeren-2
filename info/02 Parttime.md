@@ -48,13 +48,13 @@ Op basis van bovenstaand schema is de maximumscore voor deze cursus 20 punten (4
 
 Elke module moet op de vooraf bepaalde deadline ingeleverd zijn. Een voorlopig schema van deadlines vind je hieronder. Alle deadlines zijn om 23:59 op de genoemde datum.
 
-| module | deadline  |                              |  
-| -----: | --------- | ---------------------------- |  
-|      6 | do 31 okt | moet af, maar telt niet mee  |  
-|      7 | do  7 nov |                              |  
-|      8 | do 21 nov | opdracht wordt nog aangepast |  
-|      9 | do  5 dec | opdracht wordt nog aangepast |  
-|     10 | do 12 dec |                              |  
+| week | module | deadline  |                              |  
+| ---: | -----: | --------- | ---------------------------- |  
+|    1 |      6 | do 31 okt | moet af, maar telt niet mee  |  
+|    2 |      7 | do  7 nov |                              |  
+|  3-4 |      8 | do 21 nov | opdracht wordt nog aangepast |  
+|  5-6 |      9 | do  5 dec | opdracht wordt nog aangepast |  
+|    7 |     10 | do 12 dec |                              |  
 
 In het geval van planningsproblemen of ziekte is het mogelijk de deadline met 1 dag op te schuiven, in ruil voor een bescheiden puntenaftrek. Dit gaat volledig automatisch bij later inleveren en hoeft dus in beginsel niet gemeld te worden. Toch is het verstandig om je mentor aan te spreken om te overleggen of advies te vragen over het halen van verdere deadlines.
 
