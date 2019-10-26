@@ -64,7 +64,7 @@ In het geval van planningsproblemen of ziekte is het mogelijk de deadline met 1 
 
 Als je nog later inlevert krijg je 0 punten voor de opdracht. Let op dat je ook in dat geval de opdracht wel 100% werkend moet inleveren om het vak te halen.
 
-Bij medische noodgevallen is het noodzakelijk om direct contact op te nemen met de docenten, maar zeker vóór je doorgaat met werken aan de opdrachten.
+Bij noodgevallen die je planning in de war gaan schoppen is het noodzakelijk om direct contact op te nemen met de docenten, maar zeker vóór je doorgaat met werken aan de opdrachten.
 
 
 ## Videocolleges
