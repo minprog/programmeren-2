@@ -96,11 +96,11 @@ Het opnieuw insturen van modules is niet meer mogelijk na de deadline of zodra d
 
 - Opnieuw insturen van opdrachten kan pas in het volgende semester.
 
-- Alle modules die onvoldoende waren moeten opnieuw ingestuurd worden en krijgen een nieuw cijfer.
+- Alle modules die onvoldoende of niet af waren moeten opnieuw ingestuurd worden en krijgen een nieuw cijfer.
 
 - Modules die voldoende waren mogen niet opnieuw worden ingestuurd. Het oude cijfer blijft staan.
 
-- Alle opdrachten uit een module moeten opnieuw worden ingestuurd en moeten werken zonder bugs.
+- Bij opnieuw insturen moeten alle opdrachten uit de module volledig werken zonder bugs.
 
 - Herinzendingen moeten volledig gedaan zijn vóór een eventuele herkansing van het tentamen.
 
