@@ -47,6 +47,7 @@ grades:
     m10: *manual
 
     tentamen: *test
+    ik-check: *test
 
 modules:
     m6:
@@ -68,9 +69,8 @@ modules:
 calculation:
     final:
         mods: 100
-# resit:
-#     tests: 0
-#     modules: 100
+    final-ik:
+        mods-ik: 100
 
 mods:
     submits:
@@ -78,6 +78,14 @@ mods:
         m7: 1
         m8: 1
         m9: 1
+        m10: 1
+
+mods-ik:
+    submits:
+        ik-check: 0
+        m8: 1
+        m9: 1
+        m10: 1
 
 tentamen:
     required: true
