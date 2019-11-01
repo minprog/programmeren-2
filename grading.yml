@@ -69,8 +69,10 @@ modules:
 calculation:
     final:
         mods: 100
+        tentamen: 0
     final-ik:
         mods-ik: 100
+        tentamen: 0
 
 mods:
     submits:
