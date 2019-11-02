@@ -63,7 +63,7 @@ Because each object needs such a list from the very beginning, the line above sh
 
 Before you go on, add this method to the top of the `Queue` class definition.
 
-Now, each time a new object is created using the `Queue()` syntax, it will also create an internal list.
+Now, each time a new object is created using the `Queue()` syntax, it will also create an internal list, which is accessible using `self._data`
 
 {% next %}
 
