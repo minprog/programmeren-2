@@ -114,7 +114,7 @@ Implement these operations and add some testing code below to see if it all work
 
 Having implemented the queue class, you should notice what it *doesn't* support. You can't, for example, take a look at the second element of a queue, unless you remove the first one. And you definitely can't dequeue an element from the back of the queue.
 
-The idea of a queue is used in many applications, but an important one is scheduling. Computers can administer many tasks that have to be performed, and when one task is done, another may be started. The list of open tasks is kept in a queue, ensuring that the oldest task is scheduled first.
+The idea of a queue is used in many applications, but an important one is scheduling. Computers can administer many tasks that have to be performed, and when one task is done, another may be started. The list of open tasks is kept in a queue, ensuring that the oldest task is always scheduled next.
 
 All in all, a queue is a lot less flexible than a standard Python structure such as a list or a dictionary. So why use a queue at all? Because it provides a very simple to use *interface* for a very specific task. This makes the code that *uses* the queue much simpler to read. An experienced programmer recognizes the queue structure with its enqueue and dequeue operations and immediately understands what's going on.
 
