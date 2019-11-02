@@ -5,4 +5,4 @@ lab50:
     - terminal
   files:
     - !exclude "*"
-    - !include cardgame.py
+    - !include queue.py
