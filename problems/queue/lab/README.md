@@ -9,8 +9,7 @@ The very basic goal of a queue it to be able to store items that you might retri
 
 Note our use of "front" and "back". The most important thing about queues is that elements are added to one end, while removing elements is done at the other end. This ensures that elements which are first into the queue, will also be removed first (this is often called first-in-first-out, or FIFO).
 
-
-From the description you can see that although a queue is its essence a list of items, it supports two very specific operations whose behavior complement each other.
+From the description you can see that although a queue is, in its essence, a list of items, it supports two very specific operations whose behavior complement each other.
 
 These two operations form the core *interface* of the queue data structure.
 
@@ -38,22 +37,20 @@ And when fully implemented (note the `TODO`s!) one would probably want to use th
     q.enqueue(1)         # add number 1 to back of queue
     print(q.dequeue())   # prints first number "in", so 3
 
-Before you go on, copy the class definition above into the editor on the right.
+Before you go on, copy the class definition from above into the editor on the right. You can also copy the testing code.
 
-We have now defined the *class interface* in Python. The interface, consisting of two methods, prescribes how you could **use** the class.
+We have now defined the *class interface* in Python. The interface, consisting of two methods, prescribes how you could **use** the class by calling its methods.
 
 {% next %}
 
 
 ## Choosing an internal representation
 
-To implement the class, we need some kind of data storage: a place to store the elements which are added and later removed.
+To implement the class, we need some kind of data storage: a place to store the elements which are added and later removed. Each `Queue` object needs some private data storage.
 
-As mentioned, a queue isn't much more than a list, yet with a different set of supported operations. Because Python supports dynamic lists, let's use that.
+As mentioned, a queue isn't much more than a list, yet with a different set of supported operations. Because Python supports lists, let's use those.
 
-Now if we were to instantiate a `Queue` object, like in the sample code in the previous section, it should have its own list object to store elements in. To be more precise, each `Queue` object needs some private data storage.
-
-To create an object that is internal to the object, we should store and retrieve it using the `self` keyword:
+To create an object that is internal to an object, we should store and retrieve it using the `self` keyword:
 
     self._data = []
 
