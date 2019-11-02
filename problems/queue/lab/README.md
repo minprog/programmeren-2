@@ -46,7 +46,7 @@ We have now defined the *class interface* in Python. The interface, consisting o
 
 ## Choosing an internal representation
 
-To implement the class, we need some kind of data storage: a place to store the elements which are added and later removed. Each `Queue` object needs some private data storage.
+Each `Queue` object needs some private data storage: a place to store the elements which are added and later removed.
 
 As mentioned, a queue isn't much more than a list, yet with a different set of supported operations. Because Python supports lists, let's use those.
 
@@ -54,9 +54,9 @@ To create an object that is internal to an object, we should store and retrieve 
 
     self._data = []
 
-This line creates a new list and stores it in the object under the name `_data`. We chose to start the name with an underscore (`_`) to indicate that the variable is private to the object, and that one should not to write code to manipulate that variable anywhere else.
+This line creates a new list and stores it in the object under the name `_data`. We chose to start the name with an underscore (`_`) to indicate that the variable is private to the object, and that one should not to write code to manipulate that variable from anywhere else but the class itself.
 
-Because each object needs such a list from the very beginning, the line above should be placed in the object initializer. That initializer could look like this:
+Because each object needs such a list from the very beginning, the line above should be placed in the *object initializer*. That initializer could look like this:
 
     def __init__(self):
         self._data = []
