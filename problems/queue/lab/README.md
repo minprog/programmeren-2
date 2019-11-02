@@ -2,14 +2,13 @@
 
 Let's see what it means to define a useful *interface* for a class. To do this, our starting point is the **queue** data structure, which is often used to efficiently implement algorithms...
 
-By definition, a queue supports two core operations:
+The very basic goal of a queue it to be able to store items that you might retrieve later. As such, a queue supports two core operations:
 
 - **enqueue**, which adds an item to the back of queue, waiting to be collected again
 - **dequeue**, which removes an item from the front of the queue
 
 Note our use of "front" and "back". The most important thing about queues is that elements are added to one end, while removing elements is done at the other end. This ensures that elements which are first into the queue, will also be removed first (this is often called first-in-first-out, or FIFO).
 
-The very simple goal of a queue it to be able to store items that you might retrieve later.
 
 From the description you can see that although a queue is its essence a list of items, it supports two very specific operations whose behavior complement each other.
 
@@ -39,7 +38,7 @@ And when fully implemented (note the `TODO`s!) one would probably want to use th
     q.enqueue(1)         # add number 1 to back of queue
     print(q.dequeue())   # prints first number "in", so 3
 
-> Before you go on, copy the class definition above into the editor on the right.
+Before you go on, copy the class definition above into the editor on the right.
 
 We have now defined the *class interface* in Python. The interface, consisting of two methods, prescribes how you could **use** the class.
 
@@ -65,7 +64,7 @@ Because each object needs such a list from the very beginning, the line above sh
     def __init__(self):
         self._data = []
 
-> Before you go on, add this method to the top of the `Queue` class definition.
+Before you go on, add this method to the top of the `Queue` class definition.
 
 Now, each time a new object is created using the `Queue()` syntax, it will also create an internal list.
 
@@ -78,7 +77,7 @@ Now it's time to implement `enqueue()`. Recall that items should be stored at on
 
 Python lists support a variety of operations for adding and removing items. [Have a look at the documentation](https://docs.python.org/3/library/stdtypes.html#mutable-sequence-types). You probably know `append()` to add an item to the "end" of a list. That seems a good starting point.
 
-> Implement `enqueue()` to append the given element to the internal `_data` list.
+Implement `enqueue()` to append the given element to the internal `_data` list.
 
 {% next %}
 
@@ -91,7 +90,7 @@ There's a catch! What use is it to remove elements from a queue if we can't do a
 
 Take another look at the Python documentation for lists and see if you can find a method that you can use to remove elements from the start of a list.
 
->  Implement `dequeue()` to remove the frontmost element from the internal `_data` list and return it.
+Implement `dequeue()` to remove the frontmost element from the internal `_data` list and return it.
 
 {% next %}
 
