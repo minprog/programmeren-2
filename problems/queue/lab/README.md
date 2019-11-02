@@ -63,7 +63,7 @@ Because each object needs such a list from the very beginning, the line above sh
 
 Before you go on, add this method to the top of the `Queue` class definition.
 
-Now, each time a new object is created using the `Queue()` syntax, it will also create an internal list, which is accessible using `self._data`
+Now, each time a new object is created using the `Queue()` syntax, it will also create an internal list, which is accessible using `self._data`.
 
 {% next %}
 
@@ -92,4 +92,25 @@ Implement `dequeue()` to remove the frontmost element from the internal `_data` 
 {% next %}
 
 
+## Features
+
+While `enqueue()` and `dequeue()` are quite essential for implementing the queue data structure, there are some additional features that may come in handy.
+
+We now ask you to implement three of those operations as methods of the `Queue` class:
+
+- **size**, which returns the number of elements "waiting" in the queue
+- **peek**, which returns the frontmost element but does not remove it from the queue (yet)
+- **empty**, which clears the queue, removing all elements
+
+Implement these operations and add some testing code below to see if it all works well.
+
+{% next %}
+
+
 This was Queue!
+
+
+
+
+
+
