@@ -19,7 +19,7 @@ These two operations form the core *interface* of the queue data structure, whic
 {% next "Let's get started" %}
 
 
-## Defining an interface
+## Defining a class interface
 
 Classes may be used to implement structures like queues. If we structure a class using the information in the previous section, it might look like this:
 
@@ -42,22 +42,20 @@ And when fully implemented (note the `TODO`s!) one would probably want to use th
 
 Before you go on, copy the class definition from above into the editor on the right. You can also copy the testing code.
 
-We have now defined the *class interface* in Python. The class interface, consisting of two methods, prescribes how you could **use** the class by calling its methods.
+We have now defined the *class interface* in Python. The class interface, consisting of two methods, prescribes how you could **use** the class by calling its methods. However, our interface does not have an implementation yet, so the testing code doesn't work.
 
 {% next %}
 
 
 ## Choosing an internal representation
 
-Each `Queue` object needs some private data storage: a place to store the elements which are added and later removed.
+As we mentioned, a queue is similar to a list, yet with a different set of supported operations. Any queue-type object needs to have some data storage. We will use a standard Python list to build our class around. Each queue object will *contain* its own private list object.
 
-As mentioned, a queue isn't much more than a list, yet with a different set of supported operations. Because Python supports lists, let's use those.
-
-To create an object that is internal to an object, we should store and retrieve it using the `self` keyword:
+To create an object that is internal to our queue objects, we should store and retrieve it using the `self` keyword:
 
     self._data = []
 
-This line creates a new list and stores it in the object under the name `_data`. We chose to start the name with an underscore (`_`) to indicate that the variable is private to the object, and that one should not to write code to manipulate that variable from anywhere else but the class itself.
+This line creates a new list and stores it in the object under the name `_data`. We chose to start the name with an underscore (`_`) to indicate that the variable is private to the object, and that one should not to write code to manipulate that variable from anywhere else but the code of the class itself.
 
 Because each object needs such a list from the very beginning, the line above should be placed in the *object initializer*. That initializer could look like this:
 
@@ -66,16 +64,18 @@ Because each object needs such a list from the very beginning, the line above sh
 
 Before you go on, add this method to the top of the `Queue` class definition.
 
-Now, each time a new object is created using the `Queue()` syntax, it will also create an internal list, which is accessible using `self._data`.
+Now, each time a new object is created using the `Queue()` syntax, it will also create an internal list, which is accessible from the class code using `self._data`.
 
 {% next %}
 
 
 ## Enqueueing
 
-Now it's time to implement `enqueue()`. Recall that items should be stored at one end, but removed at the other end of the queue. How could we do this using a standard Python list?
+Now that we have storage, it's time to implement `enqueue()`. Recall that items should be stored at one end, but removed at the other end of the queue. How could we do this using the standard Python list that we chose to use?
 
 Python lists support a variety of operations for adding and removing items. [Have a look at the documentation](https://docs.python.org/3/library/stdtypes.html#mutable-sequence-types). You probably know `append()` to add an item to the "end" of a list. That seems a good starting point.
+
+> Do make note, however, that in the image above, the "back" of the queue was pictured to the left, while you might imagine the "end" of a list being on the right. This is an implementation detail. It is not wrong per se, as long as you make sure that elements are enqueued and dequeued on opposite sides. Anyone writing code using the `Queue` class should not worry about data being on the left or the right, as long as the queue definition is adhered to.
 
 Implement `enqueue()` to append the given element to the internal `_data` list.
 
@@ -88,7 +88,7 @@ Now that you have implemented this method, how should you implement `dequeue()`?
 
 There's a catch! What use is it to remove elements from a queue if we can't do anything with those? The method should not only remove the element but also `return` it.
 
-Take another look at the Python documentation for lists and see if you can find a method that you can use to remove elements from the start of a list.
+Take another look at the Python documentation for lists and see if you can find a method that you can use to remove elements from the start of a list (in other words: elements that are furthest from the end of the list).
 
 Implement `dequeue()` to remove the frontmost element from the internal `_data` list and return it.
 
