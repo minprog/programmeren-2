@@ -9,7 +9,7 @@ The very basic goal of a queue it to be able to store items that you might retri
 
 Note our use of "front" and "back". The most important thing about queues is that elements are added to one end, while removing elements is done at the other end. This ensures that elements which are first into the queue, will also be removed first (this is often called first-in-first-out, or FIFO).
 
-From the description you can see that although a queue is, in its essence, a list of items, it supports two very specific operations whose behavior complement each other.
+From the description you might understand that a queue is, in its essence, a list of items, but that it supports a very specific way of dealing with that data --- using the two core operations.
 
 These two operations form the core *interface* of the queue data structure.
 
