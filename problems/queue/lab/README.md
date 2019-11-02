@@ -118,7 +118,7 @@ The idea of a queue is used in many applications, but an important one is schedu
 
 All in all, a queue is a lot less flexible than a standard Python structure such as a list or a dictionary. So why use a queue at all? Because it provides a very simple to use *interface* for a very specific task. This makes the code that *uses* the queue much simpler to read. A programmer recognizes the queue structure with its enqueue and dequeue operations and immediately understands what's going on.
 
-There are a few standard structures like queues that you might be aware of as a programming. One that you might have encountered before is the **stack**. You could look that one up on Wikipedia, for example, and try to implement its operations in a Python class. It is quite similar to a queue, yet very different in its behavior and its applications!
+There are a few standard structures like queues that you might be aware of as a programming. One that you might have encountered before is the **stack**. Having done the exercises above, you might look up the stack data type on Wikipedia and try to implement its operations in a Python class. It is quite similar to a queue, yet very different in its behavior and its applications!
 
 This was Queue!
 
