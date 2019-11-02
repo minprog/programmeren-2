@@ -10,11 +10,12 @@ The goal of a queue is to be able to store items that you might retrieve later, 
 ![A visual description of the queue structure. It is a row of elements. One end is labeled 'back' and the other end 'front'. On the periphery near the back is another element, with an arrow pointing from that element to the back, labeled 'enqueue'. From the front an arrow points to a different element outside the queue. That arrow is labeled 'dequeue'.](wikipedia_queue.png){:style="max-width:300px"}  
 <small>Image by [Vegpuff/Wikipedia](https://commons.wikimedia.org/wiki/File:Data_Queue.svg).</small>
 
-Note our use of "front" and "back". The most important thing about queues is that elements are added to one end, while removing elements is done at the other end. This ensures that elements which are first into the queue, will also be removed first (this is often called first-in-first-out, or FIFO).
+The idea of a queue is used in many applications, but an important one is scheduling. Computers can administer many tasks that have to be performed, and when one task is done, another may be started. The list of open tasks is kept in a queue, ensuring that the oldest task is always scheduled next.
 
-From the description you might understand that a queue is, in its essence, a list of items, but that it enables a very specific way of dealing with that data --- using the two core operations.
+Note our use of "front" and "back" in the description above. The most important thing about queues is that elements are added to one end, while removing elements is done at the other end. This ensures that elements which are first into the queue, will also be removed first (this is often called first-in-first-out, or FIFO).
 
-These two operations form the core *interface* of the queue data structure, which defines how it is supposed to be used.
+From the description you might understand that a queue is, in its essence, a list of items, but that it enables a very specific way of dealing with that data --- using the two core operations. These two operations form the *interface* of the queue data structure, which defines how it is supposed to be used.
+
 
 {% next "Let's get started" %}
 
@@ -110,7 +111,7 @@ Implement these operations and add some testing code below to see if it all work
 {% next %}
 
 
-## Helping debuggers
+## Helping to debug
 
 When you're going to use the `Queue` class somewhere in your own project, you might encounter an error when trying to `dequeue()` when the queue is actually empty. Depending on how you chose to implement that method, you will get some kind of exception. This exception is not very queue-specific.
 
@@ -129,11 +130,11 @@ Note an error such as this will not help the *user* of a program in which your `
 
 ## Resume
 
-Having implemented the queue class, you should notice what it *doesn't* support. You can't, for example, take a look at the second element of a queue, unless you remove the first one. And you definitely can't dequeue an element from the back of the queue.
+Having implemented the queue class, you should notice what it *doesn't* support. You can't, for example, take a look at the second element of a queue, unless you remove the first one. And you definitely can't dequeue an element from the back of the queue. All in all, a queue is a lot less flexible than a standard Python structure such as a list or a dictionary. So why use a queue at all? Two principles of object oriented programming are at play here:
 
-The idea of a queue is used in many applications, but an important one is scheduling. Computers can administer many tasks that have to be performed, and when one task is done, another may be started. The list of open tasks is kept in a queue, ensuring that the oldest task is always scheduled next.
+1. Our class provides a simple to use *interface* for a very specific task. This makes the code that *uses* the queue much simpler to read. In this case, an experienced programmer recognizes the enqueue and dequeue operations and immediately understands what's going on.
 
-All in all, a queue is a lot less flexible than a standard Python structure such as a list or a dictionary. So why use a queue at all? Because it provides a very simple to use *interface* for a very specific task. This makes the code that *uses* the queue much simpler to read. An experienced programmer recognizes the queue structure with its enqueue and dequeue operations and immediately understands what's going on.
+2. Our class *hides its implementation*. Because we use Python, it's obvious that we can use a list as the storage mechanism for the queue. But the fact that we do isn't visible to the programmer who uses the class. They only need to be concerned with the queue operations. And if you want to change the inner workings of the queue "under the hood", that's no problem: the interface stays the same.
 
 There are a few standard structures like queues that you might be aware of as a programmer. One that you might have encountered before is the **stack**. Having done the exercises above, you might look up the stack data type on Wikipedia and try to implement its operations in a Python class. It is quite similar to a queue, yet very different in its behavior and its applications!
 
