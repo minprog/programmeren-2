@@ -12,15 +12,13 @@ The idea of a queue is used in many applications, but an important one is schedu
 
 Note our use of "front" and "back" in the description above. The most important thing about queues is that elements are added to one end, while removing elements is done at the other end. This ensures that elements which are first into the queue, will also be removed first (this is often called first-in-first-out, or FIFO).
 
-From the description you might understand that a queue is, in its essence, a list of items, but that it enables a very specific way of dealing with that data --- using the two core operations. These two operations form the *interface* of the queue data structure, which defines how it is supposed to be used.
-
 
 {% next "Let's get started" %}
 
 
 ## Defining a class interface
 
-Classes may be used to implement structures like queues. If we structure a class using the information in the previous section, it might look like this:
+From the description above you might understand that a queue is, in its essence, a list of items, but that it enables a very specific way of dealing with that data --- using the two core operations. These two operations form the *interface* of the queue data structure, which defines how it is supposed to be used. Classes may be used to implement structures like queues. If we structure a class using the information in the previous section, it might look like this:
 
     class Queue:
 
