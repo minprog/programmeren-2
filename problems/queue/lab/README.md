@@ -110,6 +110,23 @@ Implement these operations and add some testing code below to see if it all work
 {% next %}
 
 
+## Helping debuggers
+
+When you're going to use the `Queue` class somewhere in your own project, you might encounter an error when trying to `dequeue()` when the queue is actually empty. Depending on how you chose to implement that method, you will get some kind of exception. This exception is not very queue-specific.
+
+One method to alert yourself to potential problems is to add **assertions** to your code. In this case you can add the following assertion to the very top of your `dequeue()` method.
+
+    assert self.size() > 0
+
+Once you have done this, and some other part of the code tries to dequeue an element while the queue is empty, you will get an `AssertionError` on the line you just added. This helps you immediately understand that there's a problem in `dequeue()` and that the problem is that the queue size is `0`.
+
+Add the assertion above to the `dequeue()` method and add a test to check if an error can be triggered.
+
+Note an error such as this will not help the *user* of a program in which your `Queue` class is implemented. To a user, an `AssertionError` means nothing! So, assertions are first and foremost a tool to help find the root cause of problems in your own code.
+
+{% next %}
+
+
 ## Resume
 
 Having implemented the queue class, you should notice what it *doesn't* support. You can't, for example, take a look at the second element of a queue, unless you remove the first one. And you definitely can't dequeue an element from the back of the queue.
