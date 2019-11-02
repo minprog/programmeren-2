@@ -15,6 +15,8 @@ From the description you can see that although a queue is its essence a list of 
 
 These two operations form the core *interface* of the queue data structure.
 
+{% next "Let's get started" %}
+
 
 ## Defining an interface
 
@@ -41,6 +43,8 @@ And when fully implemented (note the `TODO`s!) one would probably want to use th
 
 We have now defined the *class interface* in Python. The interface, consisting of two methods, prescribes how you could **use** the class.
 
+{% next %}
+
 
 ## Choosing an internal representation
 
@@ -65,6 +69,8 @@ Because each object needs such a list from the very beginning, the line above sh
 
 Now, each time a new object is created using the `Queue()` syntax, it will also create an internal list.
 
+{% next %}
+
 
 ## Enqueueing
 
@@ -73,6 +79,8 @@ Now it's time to implement `enqueue()`. Recall that items should be stored at on
 Python lists support a variety of operations for adding and removing items. [Have a look at the documentation](https://docs.python.org/3/library/stdtypes.html#mutable-sequence-types). You probably know `append()` to add an item to the "end" of a list. That seems a good starting point.
 
 > Implement `enqueue()` to append the given element to the internal `_data` list.
+
+{% next %}
 
 
 ## Dequeueing
@@ -85,4 +93,7 @@ Take another look at the Python documentation for lists and see if you can find 
 
 >  Implement `dequeue()` to remove the frontmost element from the internal `_data` list and return it.
 
+{% next %}
 
+
+This was Queue!
