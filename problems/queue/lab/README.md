@@ -1,8 +1,6 @@
 # Queue
 
-Let's see what it means to define a useful *interface* for a class. To do this, our starting point is the **queue** data structure, which is often used to efficiently implement algorithms...
-
-The goal of a queue is to be able to store items that you might retrieve later, in the order in which they were stored. As such, a queue supports two core operations:
+Let's see what it means to define a useful *interface* for a class by implementing a **queue** data structure. The goal of a queue is to be able to store items that you might retrieve later, in the order in which they were stored. As such, a queue supports two core operations:
 
 - **enqueue**, which adds an item to the back of queue, waiting to be collected again
 - **dequeue**, which removes an item from the front of the queue
