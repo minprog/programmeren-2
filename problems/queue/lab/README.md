@@ -8,7 +8,6 @@ The goal of a queue is to be able to store items that you might retrieve later, 
 - **dequeue**, which removes an item from the front of the queue
 
 ![A visual description of the queue structure. It is a row of elements. One end is labeled 'back' and the other end 'front'. On the periphery near the back is another element, with an arrow pointing from that element to the back, labeled 'enqueue'. From the front an arrow points to a different element outside the queue. That arrow is labeled 'dequeue'.](wikipedia_queue.png){:style="max-width:300px"}
-
 <small>Image by [Vegpuff/Wikipedia](https://commons.wikimedia.org/wiki/File:Data_Queue.svg).</small>
 
 Note our use of "front" and "back". The most important thing about queues is that elements are added to one end, while removing elements is done at the other end. This ensures that elements which are first into the queue, will also be removed first (this is often called first-in-first-out, or FIFO).
