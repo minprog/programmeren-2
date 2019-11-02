@@ -9,9 +9,9 @@ The very basic goal of a queue it to be able to store items that you might retri
 
 Note our use of "front" and "back". The most important thing about queues is that elements are added to one end, while removing elements is done at the other end. This ensures that elements which are first into the queue, will also be removed first (this is often called first-in-first-out, or FIFO).
 
-From the description you might understand that a queue is, in its essence, a list of items, but that it supports a very specific way of dealing with that data --- using the two core operations.
+From the description you might understand that a queue is, in its essence, a list of items, but that it enables a very specific way of dealing with that data --- using the two core operations.
 
-These two operations form the core *interface* of the queue data structure.
+These two operations form the core *interface* of the queue data structure, which defines how it is supposed to be used.
 
 {% next "Let's get started" %}
 
@@ -39,7 +39,7 @@ And when fully implemented (note the `TODO`s!) one would probably want to use th
 
 Before you go on, copy the class definition from above into the editor on the right. You can also copy the testing code.
 
-We have now defined the *class interface* in Python. The interface, consisting of two methods, prescribes how you could **use** the class by calling its methods.
+We have now defined the *class interface* in Python. The class interface, consisting of two methods, prescribes how you could **use** the class by calling its methods.
 
 {% next %}
 
