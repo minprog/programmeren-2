@@ -47,6 +47,7 @@ grades:
     m10: *manual
 
     tentamen: *test
+    hertentamen: *test
     ik-check: *test
 
 modules:
