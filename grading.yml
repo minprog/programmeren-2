@@ -71,9 +71,12 @@ calculation:
     final:
         mods: 100
         tentamen: 0
-    final-ik:
-        mods-ik: 100
-        tentamen: 0
+    # final-ik:
+    #     mods-ik: 100
+    #     tentamen: 0
+    final-her:
+        mods: 100
+        hertentamen: 0
 
 mods:
     submits:
@@ -94,3 +97,8 @@ tentamen:
     required: true
     submits:
         tentamen: 1
+
+hertentamen:
+    required: true
+    submits:
+        hertentamen: 1
