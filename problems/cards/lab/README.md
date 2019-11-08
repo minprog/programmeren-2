@@ -238,7 +238,7 @@ You won't submit this lab. If you'd like to save the `Card` and `Deck` classes t
 
 {% next %}
 
-## New concepts
+## Concepts
 
 **Class** --- all of the code that defines a series of objects. You can instantiate several objects of a class, each containing separate data. For example, in the exercises, you needed 52 individual cards, each with different names. But the code for each card is the same, and defined in the `Card` class.
 
