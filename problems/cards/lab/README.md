@@ -17,7 +17,7 @@ The attributes of a `Card` will contain the minimum of information needed to uni
 
 In a UML diagram, the class looks like this:
 
-![A UML diagram of a class called Card with two attributes: one is called suit of type string, the other is called value, also of type string.](card_class.png){: style="width:202px;"}
+![A UML diagram of a class called Card with two attributes: one is called suit of type string, the other is called value, also of type string.](card_class.png){: style="max-width:202px;"}
 
 UML, or unified modeling language, provides us with a way to draw diagrams of how we want classes to be programmed. It is not meant to be complicated: just a box with the class name, and below that, the contents of the class. In this case the "suit" and "value" attributes are specified. Both attributes are supposed to be strings.
 
@@ -108,7 +108,7 @@ Now try it out! In the Terminal, **run** `python cardgame.py` and verify the res
 
 In this lab, a Deck will be a standard deck of hearts, diamonds, clubs and spades, with values Ace through King. It will have two methods: one to shuffle, and one to deal a card out of the deck:
 
-![A UML representation of the Deck class, containing a cards attribute, which is a list of Card objects and two methods, one called shuffle and one called deal. both take no arguments.](deck_class.png)
+![A UML representation of the Deck class, containing a cards attribute, which is a list of Card objects and two methods, one called shuffle and one called deal. both take no arguments.](deck_class.png){: style="max-width:200px;"}
 
 Before writing those methods, let's declare the class and add an initializer.
 
@@ -212,7 +212,7 @@ Now test the `shuffle` method! Call it in your testing code and verify that the 
 
 Your classes now should look like this:
 
-![A UML diagram comprising the Deck and Card classes as described earlier.](overview.png)
+![A UML diagram comprising the Deck and Card classes as described earlier.](overview.png){: style="max-width:454px;"}
 
 Note that some of the methods that you wrote aren't in this diagram. Usually, we keep everything that's not relevant out of the diagrams.
 
@@ -228,7 +228,7 @@ If you're keen to check your implementation *exactly*, press Next for a UML diag
 
 This is what your classes should look like from an implementation perspective:
 
-![A UML diagram that's augmented from the earlier diagrams. For the card class, it adds the init and str methods. For the deck class, it adds the init and str methods, as well as the cards, suits and values attributes.](overview_implementation.png)
+![A UML diagram that's augmented from the earlier diagrams. For the card class, it adds the init and str methods. For the deck class, it adds the init and str methods, as well as the cards, suits and values attributes.](overview_implementation.png){: style="width:454px;"}
 
 If not quite the same, think about the differences and why you decided to do it differently. Your design might as well be better! Ask your neighbor to discuss.
 
