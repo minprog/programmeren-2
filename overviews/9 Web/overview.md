@@ -16,6 +16,18 @@ For information on (or help with) this week:
 Do keep in mind the course's policy on [academic honesty](/syllabus#academic_honesty) (like plagiarism), particularly its ["regret clause"](/syllabus#regret).
 
 
+## Grading
+
+As soon as you have submitted working solutions for all problems below, your mentor will assess your programs, assign a grade for "quality", and provide you with some written feedback. This week, your programs will be primarily graded on:
+
+- [Nesting](/quality/nesting)
+- [Dead code](/quality/dead-code)
+- [Duplicated effort](/quality/duplicated-effort)
+- [Scope](/quality/scope)
+
+And we'll also take these into account from previous weeks: [comments](/quality/comments), [naming](/quality/naming), [indentation](/quality/indentation), [whitespace](/quality/whitespace), [duplication](/quality/duplication), [magic numbers](/quality/magic-numbers), and [choosing loops](/quality/loops).
+
+
 ## Getting Started
 
 Alright, here we go again, for the last time!
