@@ -114,7 +114,7 @@ Before writing those methods, let's declare the class and add an initializer.
 
 **Add** a declaration for the `Deck` class to your code. Then, **add** an initializer. The initializer for this class doesn't take any arguments besides `self`, because any `Deck` will always have the same set of cards.
 
-The initializer is a good place for default values. Let us provide you with the declarations of two important attributes for this class:
+The initializer is a good place for *default* values. Let us provide you with the declarations of two important attributes for this class:
 
     self.suits = ['Hearts','Diamonds','Clubs','Spades']
     self.values = ['A','2','3','4','5','6','7','8','9','10','J','Q','K']
