@@ -40,7 +40,7 @@ After writing the declaration, press Next to go on.
 A method is a function that is attached to a particular class. That is why the code for a method should reside *inside* a class definition. Because `Card` is a data class, there are only two methods that are really needed to make it useful:
 
 - `__init__` to set values when creating one specific object of type `Card`
-- `__str__` to provide an easily readable description of the `Card` object
+- `description` to provide an easily readable description of the `Card` object
 
 **First**, write an initializer that takes `suit` and `value` parameters and initializes attributes with the same name.
 
@@ -55,9 +55,9 @@ In the parameter list of the `__init__` method, you define for which attributes 
 
 {% next %}
 
-## Card: __str__
+## Card: description
 
-**Second**, write a `__str__` method. It doesn't take any parameters other than `self`, and should `return` a string that properly describes the object. In this case, the returned string might look like this:
+**Second**, write a `description` method. It doesn't take any parameters other than `self`, and should `return` a string that properly describes the object. In this case, the returned string might look like this:
 
     Ace of spades
 
@@ -96,9 +96,8 @@ And after those statements, **add** a few statements that print the objects from
 {% spoiler "Syntax Help" %}
 Use the following syntax:
 
-    print(var1)
+    print(var1.description())
 
-When used like this, `print` will automatically use the `__str__` method that you wrote to provide a human-readable description of the object contents.
 {% endspoiler %}
 
 Now try it out! In the Terminal, **run** `python cardgame.py` and verify the results.
@@ -146,14 +145,14 @@ The list of cards should be an attribute (using `self`), so it will be stored in
 
 ## Deck: testing
 
-**Add** a `__str__` method to `Deck`:
+**Add** a `description` method to `Deck`:
 
     return f"{len(self.cards)} cards in the deck"
 
 Now you can test the class. Go to the `if __name__ == "__main__"` section of your program and **replace** the contents with the following lines:
 
     deck = Deck()
-    print(deck)
+    print(deck.description())
 
 This creates one instance of a `Deck` and prints it. When run, your program will hopefully report that the deck contains 52 cards! If not, retrace your steps and ask for help.
 
@@ -203,7 +202,7 @@ In your testing code, add
 
     card = deck.deal()
 
-right after creating the `Deck`. Because the deck hasn't been shuffled at that point, this card should be the King of Spades. Use `print(card)` to print the card. **Try** it out!
+right after creating the `Deck`. Because the deck hasn't been shuffled at that point, this card should be the King of Spades. Use `print(card.description())` to print the card. **Try** it out!
 
 Now test the `shuffle` method! Call it in your testing code and verify that the shuffling is indeed pseudorandom.
 
