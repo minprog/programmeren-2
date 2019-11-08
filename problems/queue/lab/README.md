@@ -18,7 +18,7 @@ Note our use of "front" and "back" in the description above. The most important 
 
 ## Defining a class interface
 
-From the description above you might understand that a queue is, in its essence, a list of items, but that it enables a very specific way of dealing with that data --- using the **enqueue** and **dequeue** operations. These two operations form the *interface* of the queue data structure, which defines how it is supposed to be used. Now if we fully implement this class in Python, we might use the class like this:
+From the description above you might understand that a queue is, in its essence, a list of items, but that it enables a very specific way of dealing with that data --- using the **enqueue** and **dequeue** operations. These two operations form the *interface* of the queue data structure, which defines how it is supposed to be used by a programmer. Now if we fully implement this class in Python, we might use the class like this:
 
     q = Queue()          # create new queue
     q.enqueue(3)         # add number 3 to back of queue
@@ -37,7 +37,7 @@ This means that the class definition must look like this:
         def dequeue(self):
             # TODO
 
-**Before you go on**, copy the class definition from above into the editor on the right. You can also copy the testing code. Study it well.
+**Before you go on**, copy the class definition from above into the editor on the right. You can also copy the testing code below it. Study it well.
 
 We have now defined the *class interface* in Python. The class interface, consisting of two methods, prescribes how you could **use** the class by calling its methods. However, our interface does not have an implementation yet, so the testing code doesn't work.
 

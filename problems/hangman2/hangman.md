@@ -88,6 +88,7 @@ Download the lexicons via:
 Create a file called `hangman.py` and add a `Lexicon` class. This class should have two methods: `__init__()` to initialize, and `get_words()` to extract a list of words with a  specific length to play Hangman:
 
     import random
+    
     class Lexicon:
 
         def __init__(self):
@@ -124,7 +125,7 @@ If you followed step 0 correctly, it should just load the Lexicon class and do n
 
 Check if everything is in order. Are the words reasonable, i.e., of the right length? Do you get a different word each time? If something is still wrong, consider testing `get_words()` specifically, instead of `get_word()`. For example, if you `print(lex.get_words(2))`, are all printed words of length 2?
 
-> You should not put testing code like the above in `hangman.py` like you might have done in earlier assignments. This is because `check50` should be able to load your program and perform its own tests. Your tests would interfere with the checks.
+> You should not put testing code like the above in `hangman.py` like you might have done in earlier assignments. This is because `check50` should be able to load your program and perform its own tests. Your tests would interfere with the checks. This is why `python -i` is a handy tool for testing.
 
 You can now test using `check50` for the first time!
 
