@@ -106,9 +106,13 @@ Now try it out! In the Terminal, **run** `python cardgame.py` and verify the res
 
 ## Deck: a class that contains cards
 
+Before you continue, check your code using `check50`. This ensures that it will work with the remainder of the lab:
+
+    check50 --local minprog/cs50x/2019/cards
+
 In this lab, a Deck will be a standard deck of hearts, diamonds, clubs and spades, with values Ace through King. It will have two methods: one to shuffle, and one to deal a card out of the deck:
 
-![A UML representation of the Deck class, containing a cards attribute, which is a list of Card objects and two methods, one called shuffle and one called deal. both take no arguments.](deck_class.png){: style="max-width:200px;"}
+![A UML representation of the Deck class, containing a cards attribute, which is a list of Card objects and three methods called shuffle, deal and description. None of the methods take arguments.](deck_class.png){: style="max-width:200px;"}
 
 Before writing those methods, let's declare the class and add an initializer.
 
@@ -222,7 +226,9 @@ To determine what is relevant, we look at classes from another programmer's pers
 
 In other words, classes' data is kept private and only through their methods should their attributes be manipulated. This idea is called *encapsulation*. However, data classes like `Card` are an exception to this rule. Data classes are purposely designed to hold some basic data, just like a `struct` in C, and attributes are usually manipulated directly, not through methods.
 
-If you're keen to check your implementation *exactly*, press Next for a UML diagram that contains all methods and attributes from an implementation perspective.
+Don't forget to run `check50` again:
+
+    check50 --local minprog/cs50x/2019/cards
 
 {% next %}
 
@@ -230,7 +236,7 @@ If you're keen to check your implementation *exactly*, press Next for a UML diag
 
 This is what your classes should look like from an implementation perspective:
 
-![A UML diagram that's augmented from the earlier diagrams. For the card class, it adds the init and str methods. For the deck class, it adds the init and str methods, as well as the cards, suits and values attributes.](overview_implementation.png){: style="width:454px;"}
+![A UML diagram that's augmented from the previous diagram. For the card class, it adds the init method. For the deck class, it adds the init method, as well as the cards, suits and values attributes.](overview_implementation.png){: style="width:454px;"}
 
 If not quite the same, think about the differences and why you decided to do it differently. Your design might as well be better! Ask your neighbor to discuss.
 
