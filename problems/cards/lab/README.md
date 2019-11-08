@@ -127,7 +127,9 @@ As you can see, we *hardcode* the suits and values, because in our program, thes
 
 The purpose of a "deck" will be to *contain* a set of 52 cards. In Python, we choose to store these cards in a list. With the `suits` and `values` we defined in the previous step, there is enough information in the `Deck` class to be able to create a `Card` instance for each of 52 combinations.
 
-**Write** code to generate all 52 `Card`s and add them to a list called `cards`. Code to do this should be added to the end of the initializer.
+**Write** code to generate all 52 `Card`s and add them to a list called `_cards`. Code to do this should be added to the end of the initializer.
+
+> The list should be called `_cards` with an underscore because we want it to be encapsulated by the class. Code outside of the class should not need to access this list directly.
 
 {% spoiler "Syntax Help" %}
 Here is one suggestion for the pseudocode:
