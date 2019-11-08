@@ -104,7 +104,7 @@ We now ask you to implement three of those operations as methods of the `Queue` 
 - **peek**, which returns the frontmost element but does not remove it from the queue (yet)
 - **empty**, which clears the queue, removing all elements
 
-Implement these operations and add some testing code below to see if it all works well.
+**Implement** these operations and add some testing code at the bottom of `queue.py` to see if it all works well.
 
 {% next %}
 
@@ -119,16 +119,16 @@ One method to alert yourself to potential problems is to add **assertions** to y
 
 Once you have done this, and some other part of the code tries to dequeue an element while the queue is empty, you will get an `AssertionError` on the line you just added. This helps you immediately understand that there's a problem in `dequeue()` and that the problem is that the queue size is `0`.
 
-Add the assertion above to the `dequeue()` method and add a test to check if an error can be triggered.
+**Add the assertion** above to the `dequeue()` method and add a test to check if an error can be triggered.
 
-Note an error such as this will not help the *user* of a program in which your `Queue` class is implemented. To a user, an `AssertionError` means nothing! So, assertions are first and foremost a tool to help find the root cause of problems in your own code.
+Note that such an error will **not** help the *user* of a program in which your `Queue` class is implemented. To a user, an `AssertionError` means nothing but confusion! So, assertions are first and foremost a tool to help find the root cause of problems in your own code.
 
 {% next %}
 
 
-## Resume
+## Conclusion
 
-Having implemented the queue class, you should notice what it *doesn't* support. You can't, for example, take a look at the second element of a queue, unless you remove the first one. And you definitely can't dequeue an element from the back of the queue. All in all, a queue is a lot less flexible than a standard Python structure such as a list or a dictionary. So why use a queue at all? Two principles of object oriented programming are at play here:
+Having implemented the `Queue` class, you should notice what it *doesn't* support. You can't, for example, take a look at the second element of a queue, unless you remove the first one. And you definitely can't dequeue an element from the back of the queue. All in all, a queue is a lot less flexible than a standard Python structure such as a list or a dictionary. So why use a queue at all? Two principles of object oriented programming are at play here:
 
 1. Our class provides a simple to use *interface* for a very specific task. This makes the code that *uses* the queue much simpler to read. In this case, an experienced programmer recognizes the enqueue and dequeue operations and immediately understands what's going on.
 
@@ -136,10 +136,4 @@ Having implemented the queue class, you should notice what it *doesn't* support.
 
 There are a few standard structures like queues that you might be aware of as a programmer. One that you might have encountered before is the **stack**. Having done the exercises above, you might look up the stack data type on Wikipedia and try to implement its operations in a Python class. It is quite similar to a queue, yet very different in its behavior and its applications!
 
-This was Queue!
-
-
-
-
-
-
+This was Queue.
