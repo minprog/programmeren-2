@@ -17,7 +17,7 @@ The attributes of a `Card` will contain the minimum of information needed to uni
 
 In a UML diagram, the class looks like this:
 
-![A UML diagram of a class called Card with two attributes: one is called suit of type string, the other is called value, also of type string.](card_class.png)
+![A UML diagram of a class called Card with two attributes: one is called suit of type string, the other is called value, also of type string.](card_class.png){: style="width:202px;"}
 
 UML, or unified modeling language, provides us with a way to draw diagrams of how we want classes to be programmed. It is not meant to be complicated: just a box with the class name, and below that, the contents of the class. In this case the "suit" and "value" attributes are specified. Both attributes are supposed to be strings.
 
