@@ -18,7 +18,14 @@ Note our use of "front" and "back" in the description above. The most important 
 
 ## Defining a class interface
 
-From the description above you might understand that a queue is, in its essence, a list of items, but that it enables a very specific way of dealing with that data --- using the two core operations. These two operations form the *interface* of the queue data structure, which defines how it is supposed to be used. Classes may be used to implement structures like queues. If we structure a class using the information in the previous section, it might look like this:
+From the description above you might understand that a queue is, in its essence, a list of items, but that it enables a very specific way of dealing with that data --- using the **enqueue** and **dequeue** operations. These two operations form the *interface* of the queue data structure, which defines how it is supposed to be used. Now if we fully implement this class in Python, we might use the class like this:
+
+    q = Queue()          # create new queue
+    q.enqueue(3)         # add number 3 to back of queue
+    q.enqueue(1)         # add number 1 to back of queue
+    print(q.dequeue())   # prints first number "in", so 3
+
+This means that the class definition must look like this:
 
     class Queue:
 
@@ -26,18 +33,11 @@ From the description above you might understand that a queue is, in its essence,
         def enqueue(self, element):
             # TODO
 
-        # remove element from front of queue
+        # remove and return element from front of queue
         def dequeue(self):
             # TODO
 
-And when fully implemented (note the `TODO`s!) one would probably want to use the class like this:
-
-    q = Queue()          # create new queue
-    q.enqueue(3)         # add number 3 to back of queue
-    q.enqueue(1)         # add number 1 to back of queue
-    print(q.dequeue())   # prints first number "in", so 3
-
-Before you go on, copy the class definition from above into the editor on the right. You can also copy the testing code.
+**Before you go on**, copy the class definition from above into the editor on the right. You can also copy the testing code.
 
 We have now defined the *class interface* in Python. The class interface, consisting of two methods, prescribes how you could **use** the class by calling its methods. However, our interface does not have an implementation yet, so the testing code doesn't work.
 
