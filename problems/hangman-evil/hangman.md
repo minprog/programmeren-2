@@ -267,39 +267,37 @@ Again, test your game interactively by running `python` and then `from hangman i
     print(game.pattern())
     print(game)
 
-### Intermezzo: handling exceptions
+### 5. Debugging with assertions
 
 What happens when you want to create a Hangman game that does not follow the specifications? For example, what should happen if someone uses your class like the following:
 
 	game = Hangman(-5, 6)
 
-Try it yourself! Most likely, your code will indeed try to create a hangman game with a word of length -5. But that is not going not work, ever.
+Try it yourself! Most likely, your code will indeed try to create a hangman game with a word of length -5. But that is not going not work (ever!).
 
-Because the `Hangman` object does not interface directly with the user, it makes no sense for it to reprompt the user for new input. However, we still need to be able to signal when something is wrong.
+Because the `Hangman` object does not interface directly with the user, it makes no sense for it to re-prompt the user for new input. However, it also makes no sense to just continue the program. It would only lead to errors further down the line. We can take this opportunity to proactively check for problems in our code. To do this, we use Python **assertions**. To create an assertion, we need to understand what would be *correct* input. We have two parameters that influence the inner workings of the Hangman object:
 
-When you write code that does not interface with a person, you should still be able to deal with faulty input. To do so, Python (and many other languages) uses *exceptions*. Exceptions are like a warning signal: "Something went wrong! I'm stopping here!"
+- The parameter `length` is the length of a word to play Hangman with. Negative length is not going to work - and 0-length words will not lead to a working game either. Other options we have to think about a little bit harder: is a game for words of size 1 fun? Do 1-letter words even exist? You can check that yourself. The same goes for 2-letter words. And at the other end you could check that the `length` isn't much longer than say... 10?
 
-Try running the following Python code to see an exception being created:
+- For `num_guesses` you should also think about what realistic input would be. But don't take it too far. We're mostly looking to constrain the parameters to *sane* values - values that make sure the program/algorithm will not crash and will provide the "right answer".
 
-    my_list = [1, 2, 3, 4]
-    my_value = my_list[5]
+After having defined those constraints, you can formulate an assertion:
 
-There is no element in the list at index 5, so something goes wrong. You should get a message about an `IndexError`, which is indeed an "exception". It makes no sense to continue computation, because we don't know what the value of `my_value` should be. So the program halts.
+    assert length > 0 and length < 10
 
-In order for your Hangman class to be easy to work with, it should deal with wrong inputs using exceptions, instead of just going on. This means that running `game = Hangman(-5, 6)` should cause some kind of exception. For example:
+Putting this simple stament in your code will make sure that Python halts the program if at that point the assertion "fails".
 
     class Hangman:
         def __init__(self, length, num_guesses):
-            if length < 1:
-                raise Exception("Hangman word needs to have positive length.")
-            if num_guesses < 1:
-                raise Exception("You need at least one guess to play Hangman.")
+            assert length > 0 and length < 10
             # ... and here follows other code.
 
-Note that `check50` for this problem expects that such checks, with accompanying exceptions, are present in your code!
+Now if for some reason you (or someone else) tries to create a program that creates a Hangman object using a `length` of -5, Python will halt it immediately. You can then immediately see why it halted: the assertion failed, which means the parameter had an "impossible" value. You can than trace back **why** that parameter was -5 in the first place. Probably a mistake!
+
+Note that `check50` for this problem expects that such assertions are present in your code. In particular, you should **also** handle invalid input for the `guess()` method, as specified by `check50`.
 
 
-### 5. Implementing user interaction
+### 6. Implementing user interaction
 
 While the `Hangman` class has all you need to play Hangman, someone who does not know your program won't understand that you have to write things like `game = Hangman(8, 6)` to start a game and `game.guess("e")` to guess a letter. So, let's make a **user interface**.
 
