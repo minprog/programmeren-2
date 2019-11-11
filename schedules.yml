@@ -11,23 +11,19 @@ Parttime:
     Module 8 - Hangman:
         Overview & Grading: /overviews/hangman
         Preparation:
-            "Video: Main ideas": https://www.lynda.com/Python-tutorials/Object-oriented-thinking/731735/5002881-4.html
-            "Video: Basics": https://www.youtube.com/watch?v=apACNr7DC_s
-        # Game of Cards:
-        #     Register at GitHub: https://github.com/join
-        #     Implement Game of Cards: https://lab.cs50.io/minprog/programmeren-2/master/problems/cards/lab
-        More preparation:
-            "Video: Details 1": https://www.youtube.com/watch?v=wYYzteRKU7U
-            "Video: Details 2": https://www.youtube.com/watch?v=Umpt43ZzmqM
-        # Hangman:
-        #     "Implement either of:":
-        #         Lovely Hangman: /problems/hangman2
-        #         Evil Hangman: /problems/hangman
-    # Module 9 - Adventure:
-    #     Overview & Grading: /overviews/adventure
-    #     "Implement either of:":
-    #         Adventure: /problems/adventure-less
-    #         Adventure (Hacker): /problems/adventure-more
+            "Lecture: OOP": /lectures/oop
+        Labs:
+            Implement Queue: /problems/queue
+            Implement Game of Cards: /problems/cards
+        Hangman:
+            "Implement either of:":
+                Hangman: /problems/hangman2
+                Evil Hangman (Hacker): /problems/hangman
+    Module 9 - Adventure:
+        Overview & Grading: /overviews/adventure
+        "Implement either of:":
+            Adventure: /problems/adventure-less
+            Adventure (Hacker): /problems/adventure-more
     Module 10 - Web:
         Overview & Grading: /overviews/web
 Fulltime:
