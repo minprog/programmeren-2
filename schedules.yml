@@ -17,8 +17,8 @@ Parttime:
             Implement Game of Cards: /problems/cards
         Hangman:
             "Implement either of:":
-                Hangman: /problems/hangman2
-                Evil Hangman (Hacker): /problems/hangman
+                Classic Hangman: /problems/hangman-classic
+                Evil Hangman (Hacker): /problems/hangman-evil
     Module 9 - Adventure:
         Overview & Grading: /overviews/adventure
         "Implement either of:":

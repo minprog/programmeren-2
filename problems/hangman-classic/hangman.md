@@ -1,4 +1,4 @@
-# Hangman
+# Classic Hangman
 
 ## tl;dr
 
