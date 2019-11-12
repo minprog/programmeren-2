@@ -57,6 +57,8 @@ modules:
         - sentimental
         - bleep
     m8:
+        - queue
+        - cards
         - hangman
         - lovely-hangman
     m9:
