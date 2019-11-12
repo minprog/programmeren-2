@@ -27,6 +27,8 @@ grades:
     homepage: *fullyauto
     sentimental: *fullyauto
     bleep: *fullyauto
+    queue: *fullyauto
+    cards: *fullyauto
     hangman: *fullyauto
     lovely-hangman: *fullyauto
     adventure-less: *fullyauto
