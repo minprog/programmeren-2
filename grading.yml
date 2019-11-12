@@ -27,7 +27,14 @@ grades:
     homepage: *fullyauto
     sentimental: *fullyauto
     bleep: *fullyauto
-    queue: *fullyauto
+    queue:
+        type: pass
+        subgrades:
+            correctness: integer
+        automatic:
+            correctness: -1
+        calculation: -1
+        hide_calculated: true
     cards: *fullyauto
     hangman: *fullyauto
     lovely-hangman: *fullyauto
