@@ -137,6 +137,8 @@ To store information about the room itself, implement a basic data class. Create
 - room name (string)
 - room description (string)
 
+> Tip: do not use `id` as a variable name. This is a Python keyword which already has a particular meaning. So instead, use something like `room_id` or `ident`.
+
 To store information about the connections, you will need to create a new empty dictionary in the initializer. After loading the game map, a connections dictionary inside a `Room` object might look like this:
 
 	connections = {
