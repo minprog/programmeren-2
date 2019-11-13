@@ -134,8 +134,8 @@ The first step in building the game is creating a class that describes "Room" ob
 To store information about the room itself, implement a basic data class. Create a file called `room.py`, with a class called `Room`. The initializer should accept and store:
 
 - room ID (integer)
-- short description (string)
-- long description (string)
+- room name (string)
+- room description (string)
 
 To store information about the connections, you will need to create a new empty dictionary in the initializer. After loading the game map, a connections dictionary inside a `Room` object might look like this:
 
@@ -236,7 +236,7 @@ Having done the above should lead to a fully initialized `self.rooms` dictionary
 Finally, below that code, add a few assertions you know to be true:
 
     assert 1 in self.rooms
-    assert self.rooms[1].short_description == "Outside building"
+    assert self.rooms[1].name == "Outside building"
 
 You can then run `adventure.py` and make sure none of the assertions fail. (You should later remove any assertions that depend on particular descriptions, because your program may be used using a different data file!)
 
@@ -253,9 +253,10 @@ To actually connect rooms, you will have to look them up in `self.rooms` by numb
     destination_room = self.rooms[2]
     source_room.add_connection("WEST", destination_room)
 
-When finished, add a few assertions you know to be true:
+When finished, add a few assertions that should be true after making connections.
 
     assert self.rooms[1].has_connection("WEST")
+    assert self.rooms[2].get_connection("EAST").name == "Outside building"
 
 You can again run `adventure.py` and make sure none of the assertions fail.
 
