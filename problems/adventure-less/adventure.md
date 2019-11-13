@@ -196,10 +196,10 @@ However, in this assignment, we can't easily use this idea, because there are se
 
 What we can do is write our own loops that read lines for one section each. We then read only a single line of the file per iteration. This is done using the `readline()` method. Here's an example for opening a file and reading two lines:
 
-with open("TinyAdv.dat") as f:
-    for i in range(2):
-        line = f.readline()
-    print(line)
+    with open("TinyAdv.dat") as f:
+        for i in range(2):
+            line = f.readline()
+        print(line)
 
 As you might imagine, this short piece of code will print something like `2	End of road...` etc.
 
