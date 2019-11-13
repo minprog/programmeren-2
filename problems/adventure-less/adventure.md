@@ -145,7 +145,7 @@ To store information about the connections, you will need to create a new empty 
 		"EAST": <room.Room object at 0x7f325cbc4fd0>
 	}
 
-This means that the dictionary maps a **direction** (string) to another `Room` object. This is very important! The description above means that `Room` objects will point to each other, meaning that when the game map is loaded, a [**graph**](https://en.wikipedia.org/wiki/Graph_(discrete_mathematics)) is created of rooms and connections. The goal of the game is to *navigate that graph*.
+This means that the dictionary maps a **direction** (string) to another `Room` object. This is very important! The description above means that `Room` objects will point to each other, meaning that when the game map is loaded, a [**graph**](https://en.wikipedia.org/wiki/Graph_(discrete_mathematics)) is created of rooms and connections. The goal of the game is to *navigate that graph*. A graph, incidentally, is one kind of Abstract Data Type!
 
 For example, if we load the **Tiny** game map, the result should be that we have 4 objects in memory, all pointing to each other:
 
@@ -181,39 +181,53 @@ Be sure to test manually like above before continuing!
 
 ## Step 1: Reading data files and the code
 
-Take another look at the data in `TinyRooms.txt`. Each room has 4 parts:
+Take another look at the data in `TinyAdv.dat`. **Parsing** is the task of loading this information into memory in a useful way. For this version of adventure, you are going to read the room information (the first section of the file) as well as the connections information (the second section of the file). We'll leave the third section, with game objects, for another time.
 
-	<id>
-	<name>
-	<description>
-	-----
-	<route1>
-	<route2>
-	...
+As it happens, the way the data is structured makes it easier to use it. We need to implement parsing in two **phases**: first create all rooms, then make all connections (think about why this is essential!).
 
-Any `<routeX>` line contains both a `<direction>` and an `<id>`. For example, room 2 is connected to room 1 by directions `EAST` and `DOWN`. **Parsing** is the task of loading this information into memory in a useful way. 
+### A small intermezzo on reading files
 
+You may have seen that it's possible to load information from a file using a `for`-loop:
 
-### Reading the data files
+    for line in file:
+        # do something for each line
 
-In `adventure.py`, you're provided with the `parse_rooms` method, wich loads all lines from a data file, and puts it into a list of data:
+However, in this assignment, we can't easily use this idea, because there are several sections in the datafile and each section has a different structure.
 
-	[[room_data], ..., [room_data]]
+What we can do is write our own loops that read lines for one section each. We then read only a single line of the file per iteration. This is done using the `readline()` method. Here's an example for opening a file and reading two lines:
 
-And each [room_data] list might look like this:
+with open("TinyAdv.dat") as f:
+    for i in range(2):
+        line = f.readline()
+    print(line)
 
-	[id, name, description, connection, ..., connection]
+As you might imagine, this short piece of code will print something like `2	End of road...` etc.
 
-> We have provided this method in full because the format of the adventure data files is not ideally suited for Python. In modern applications, you might have data files in CSV or JSON format. You'll learn more about those in future assignments.
+Important to note is that when using `readline`, the string it returns will usually end in a newline character. In fact, there are three main options:
 
+- a line containing text, ending in a newline character
+- an empty line, for which `readline` returns just the newline character (`"\n"`)
+- the end of the file, for which `readline` returns an empty string (`""`)
 
-### Creating rooms
+By making use of this particular behavior of `readline` we can parse section by section of our datafile.
 
-The "list of lists" from the previous step is a temporary structure, which is passed on to the `load_rooms` method. This method is going to create the "map" of rooms in memory.
+### Phase 1: creating rooms
 
-The first phase is creating each room. For each list of room data we know that the zeroth element is the `room_id`, the first element is its `name` and the second element is a `description`. We use those variables to make a `Room`, which is immediately placed into the `self.rooms` dictionary. We use a dictionary so we can make a mapping between a room number and the `Room` object, which in turn allows us to look up a room object by its ID.
+Now implement the first phase of `load_rooms` in `adventure.py`. Start with the usual:
 
-This means that we should now have a fully initialized `self.rooms` dictionary:
+    with open(filename) as f:
+
+Then write a loop to read the room data:
+
+1. read a line
+2. `split()` it into a list 
+3. create a new room object using the data from the list
+4. add the room to `self.rooms` for later use, mapping the room ID to the room object itself
+5. go to 1
+
+Make sure the loop ends as soon as `readline` returns *just* a newline character. Also, in the code above, did you clean the data? Each of the data lines has a newline character at the end, and this character should *not* end up in the room object description! Recall how to remove a stray newline from the end of a string?
+
+Having done the above should lead to a fully initialized `self.rooms` dictionary:
 
 	self.rooms = {
 		1: <room.Room object at 0x7f325cbc4d68>,
@@ -221,7 +235,7 @@ This means that we should now have a fully initialized `self.rooms` dictionary:
 	}
 
 
-### Making connections
+### Phase 2: making connections
 
 The second phase of `load_rooms` is making connections. Because all rooms have now been created, we can loop through the data again and make each connection (can you think of the reason that we have to do this in two phases?).
 
