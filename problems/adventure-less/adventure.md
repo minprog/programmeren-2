@@ -263,7 +263,7 @@ You can again run `adventure.py` and make sure none of the assertions fail.
 
 ## Step 2: Moving around
 
-Now that we have a couple of rooms, we can start implementing the game itself. We'll start by implementing some methods for the `Adventure` class. These methods define the actions in the game. Later, we'll write code for the game loop, where a player can actually enter commands, after which the game loop will call upon the methods of an `Adventure` object.
+Now that we have a couple of rooms, we can start implementing the game itself. We'll start by implementing a `move` method for the `Adventure` class. This methods defines an action in the game. Then, we'll write code for the game loop, where a player can actually enter commands, after which the game loop will call upon the methods of an `Adventure` object.
 
 ### Implement `move`
 
@@ -271,7 +271,7 @@ The most basic function of this game is moving around between rooms. Remember th
 
 The `move` method has one parameter, `direction`, which should let you lookup (via the `current_room`) which room we're going to move on to. Just set `current_room` to that room and you're done.
 
-- `move` should return True or False depending on whether the move was possible. The main program can use this result to notify the user if the move could not be performed.
+`move` should also return a boolean `True` or `False` depending on whether the move was possible. The main program can use this result to notify the user if the move could not be performed.
 
 
 ### Prompting for commands
@@ -292,7 +292,7 @@ We're going to support a few different commands, but first of all, let's allow y
 		to the west.
 		>
 
-- Not all users read the docs! Be sure to allow for both UPPER and lower case commands.
+- Not all users read the docs! Be sure to allow for both UPPER and lower case directions.
 
 - If the player attempts a command that cannot be executed tell them they attempted an "Invalid command." and prompt for another command using the '>'.
 
@@ -300,16 +300,15 @@ We're going to support a few different commands, but first of all, let's allow y
 		Invalid command.
 		>
 
-You should now be able to pass an extra test in `check50`.
 
 
 ## Step 3: Short and long descriptions?
 
 If a player enters a room they've already seen, only give them the short description. How should we keep track of that?
 
-- First, add a new attribute to `Room.__init__`: self.visited. It should probably be False when the room is first initialized.
+- First, add a new attribute to `Room.__init__`: self.visited. It should be `False` when the room is first initialized.
 
-- Then, add a `set_visited()` method to `Room`, which marks it as visited. Also, add a `get_visited()` method, which returns False or True depending on the current state of the room.
+- Then, add a `set_visited()` method to `Room`, which marks it as visited. Also, add a `already_visited()` method, which returns False or True depending on the current state of the room.
 
 - Having done that, you can change `Adventure`'s `move` method to set a room to visited **right before moving to another room**. Use the new `set_visited` method to do that.
 
@@ -327,11 +326,6 @@ As a final step for making the basic game work, we'll add a few commands that ma
 		QUIT quits the game.
 		HELP prints instructions for the game.
 		LOOK lists the complete description of the room and its contents.
-
--   `QUIT` lets the player stop the game. Print `Thanks for playing!` and terminate the program cleanly.
-
-		> QUIT
-		Thanks for playing!
 
 -   `LOOK` prints a full description of the room the player is currently in, even if the room was visited earlier.
 
@@ -353,22 +347,16 @@ The adventure game has a special feature called `FORCED` movements. If a player 
 
 - You'll most likely want to do a check each time you move to a new room. If there's a `FORCED` connection in the new room, take a good look around and follow the forced route.
 
-- As you're going to have to print the description, handle this in the main game loop and not in the `move` method!
+- As you're going to have to print the description, handle this in the main game loop and not in the `move` method! To accomplish this, you have to add two new methods to the `Adventure` class:
+
+    - `is_forced` will allow us to check if the current room has a forced connection
+
+    - `get_long_description` will always return the long description, because if a forced room is entered, the long description always has to be printed
 
 
-## Step 7: The winner takes all, the loser cries
+## Step 7: Synonyms
 
-> Note: slightly changed on Tue, Oct 15 at 16:00.
-
-Now that you have implemented all the features of Adventure, your game should be fully playable. What's left is to make the game winnable or losable. As you might recall from earlier, a "final" room is indicated by having a `FORCED` connection to room 0 (which does not exist).
-
-To implement the end of the game, you'll have to:
-
-- Change the `Room` class to add an attribute that indicates it's a "final" room. Also add methods to set this attribute (called `set_final`) and to request it (called (`is_final`)).
-
-- Change the phase 2 algorithm in `load_rooms` to set a room to "final" as soon as it encounters a `FORCED` connection to room 0.
-
-- Change the main game loop to make use of this new information. It should gracefully terminate the game as soon as a final room is encountered.
+Implement Synonyms. Note that your adventure game does not implement all commands in the synonyms data file! Implement it in such a way that everything still works as expected, and do not accept commands like `I` or `INVENTORY`!
 
 
 ## Step 8: Check your work
@@ -377,14 +365,9 @@ Have a good look at the constraints we **noted earlier**:
 
 - A hard constraint in this program is that the `Room` class may not access (use) other classes. Its methods may only manipulate `self` and any access only objects that are passed to it as arguments to method calls.
 
-- A hard constraint in this program is that the `Adventure` class may not `print` anything, except in the `move` method. All other printing should be done in the `__main__` part. And in return, the `__main__` part may, aside from printing things, only call methods in the `Adventure` class. It may not access methods and/or attributes from the `Room class`.
+- A hard constraint in this program is that the `Adventure` class may not `print` anything. And in return, the `__main__` part may, aside from printing things, only call methods in the `Adventure` class. It may not ever directly access methods and/or attributes from the `Room class`!
 
 - Watch out! You should hand in your program with the "Small" adventure loaded (atop the main). The checks depend on this particular version of Crowther's Adventure.
-
-
-## Step 9: Synonyms
-
-Step 9 doesn't exist. This was Adventure!
 
 
 ### `check50`
