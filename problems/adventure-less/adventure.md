@@ -75,79 +75,34 @@ Implement an object-oriented version of Crowther's Adventure game using the clas
 
 ### `data/`
 
-The `data` directory contains data files with which you can create two versions of adventure:
+The `data` directory contains data files with which you can create two versions of adventure. `TinyAdv.dat` is the smallest adventure game, consisting of 4 rooms. Here are its contents in full:
 
-- `TinyRooms.txt` is the smallest adventure game, consisting of 4 rooms. It's quite useful for testing purposes. You can see below that the file contains multiple "rooms", with a room id and descriptions. Below the line are "connections" that each point to one of the other rooms. The game player should be able to enter the names of those connections as commands (like "WEST").
+    1	Outside building	You are standing at the end of a road before a small brick building.  A small stream flows out of the building and down a gully to the south.  A road runs up a small hill to the west.
+    2	End of road	You are at the end of a road at the top of a small hill. You can see a small building in the valley to the east.
+    3	Inside building	You are inside a building, a well house for a large spring.
+    4	Victory	You have found the hidden well of winning a tiny game. Congratulations!
 
-		1
-		Outside building
-		You are standing at the end of a road before a small brick
-		building.  A small stream flows out of the building and
-		down a gully to the south.  A road runs up a small hill
-		to the west.
-		-----
-		WEST     2
-		UP       2
-		NORTH    3
-		IN       3
+    1	WEST	2	UP	2	NORTH	3	IN	3
+    2	EAST	1	DOWN	1
+    3	SOUTH	1	OUT	1	DOWN	4
+    4	FORCED	0
 
-		2
-		End of road
-		You are at the end of a road at the top of a small hill.
-		You can see a small building in the valley to the east.
-		-----
-		EAST     1
-		DOWN     1
+    KEYS	a set of keys	3
+    LAMP	a brightly shining brass lamp	2
 
-		3
-		Inside building
-		You are inside a building, a well house for a large spring.
-		-----
-		SOUTH     1
-		OUT       1
+The file comprises three parts, divided by two blank lines. The first part describes the "rooms", with on each line an identifying number, then a TAB character, then a short description, then another TAB character, and then a long description:
 
-		4
-		Victory
-		You have found the hidden well of winning a tiny game. Congratulations!
-		-----
-		FORCED    0
+    1	Outside building	You are standing at the end of ...
 
-- `SmallRooms.txt` is a bit larger and includes more advanced interactions.
+The second part describes connections between rooms. In fact, this section defines the "commands" that players can type to navigate from one room to another. Of each line, the first part is a room identifier (the place where the connection starts) and then there are one or more connections, each having a command, then a TAB, and the number of the room it connects to.
+
+    2	EAST	1	DOWN	1
+
+The third and final part describes objects that may be found in the game. A line contains first a "command" that can be typed to manipulate the object, then a TAB, then a short description of the object, then a TAB and finally the number of the room that the object will initially be placed in.
+
+Also included in your distribution is `SmallAdv.dat`, which is a bit larger and includes more advanced interactions.
 
 
-### `room.py`
-
-This file contains the `Room` class definition. Each room contains basic descriptions, as well as links to the other rooms it is connected to in the game map. These are saved in a **dictionary**. The `connections` dictionary for a room might look like this:
-
-	connections = {
-		"WEST": <room.Room object at 0x7f325cbc4d68>,
-		"EAST": <room.Room object at 0x7f325cbc4fd0>
-	}
-
-This means that the dictionary maps a **direction** (string) to a `Room` object.
-
-For example, if we load the **Tiny** game map, the result should be that we have 4 objects in memory, all pointing to each other:
-
-![](tiny.png)
-
-1. The `__init__` method initializes a room with an id, name and description. For example, you should be able to create a `Room` object using the following syntax:
-
-		room = Room(3, 'Inside building', 'You are inside a building, a well house for a large spring.')
-
-2. The `add_connection` method allows us to connect the room to a new one. Given the `room` variable that we created in the previous step, we should be able to use it like this:
-
-		some_other_room_object = Room(5, 'Outside', 'You are outside.')
-		room.add_connection("WEST", some_other_room_object)
-
-3. The `has_connection` method does nothing more than checking whether a connection is available in a particular direction. For example:
-
-		print(room.has_connection("WEST"))  # should print True, given step 2 above
-
-4. The `get_connection` method assumes the connection is there and returns the room object that may be found in that direction.
-
-		new_room = room.get_connection("WEST")  # we should now have access to the "other" room
-
-> A hard constraint in this program is that the `Room` class may not access (use) other classes. Its methods may only manipulate `self` and any access only objects that are passed to it as arguments to method calls.
 
 ### `adventure.py`
 
@@ -171,24 +126,42 @@ Take a look at `adventure.py`. The file has three main components.
 
 ## Step 0: Implement the Room class
 
-Above, you have seen how the `Room` class is supposed to be *used* in code. We should be able to create rooms, and then connect different rooms to each other. The `__init__` method has already been implemented.
+The first step in building the game is creating a class that describes "Room" objects. The objects of this class will have two main responsibilities:
 
-For you `TODO` are three other methods that manage connections. The main idea is to always use these methods to change or find connections, and never to access the `connections` dictionary from outside the `Room` class.
+1. Storing information about one room; in particular its ID, short description and long description. These are stored in a few object variables.
 
-Implement the `add_connection`, `has_connection` and `get_connection` methods, recalling that the `connections` dictionary is a map between directions like "EAST" and room objects.
+2. Storing information about the connections to other rooms, and the commands typed to go there. These should ideally be stored in a dictionary.
+
+To store information about the room itself, implement a basic data class. Create a file called `room.py`, with a class called `Room`. The initializer should accept and store:
+
+- room ID (integer)
+- short description (string)
+- long description (string)
+
+To store information about the connections, you will need to create a new empty dictionary in the initializer. After loading the game map, a connections dictionary inside a `Room` object might look like this:
 
 	connections = {
 		"WEST": <room.Room object at 0x7f325cbc4d68>,
 		"EAST": <room.Room object at 0x7f325cbc4fd0>
 	}
 
-1. In `add_connection` you need to add an item to the `connections` dictionary. How do you add items to a dictionary?
+This means that the dictionary maps a **direction** (string) to another `Room` object. This is very important! The description above means that `Room` objects will point to each other, meaning that when the game map is loaded, a [**graph**](https://en.wikipedia.org/wiki/Graph_(discrete_mathematics)) is created of rooms and connections. The goal of the game is to *navigate that graph*.
 
-2. In `has_connection` you need to check whether there is an item in the dictionary with a particular key, like "EAST". How do you check if a dictionary contains some key?
+For example, if we load the **Tiny** game map, the result should be that we have 4 objects in memory, all pointing to each other:
 
-3. In `get_connection` you need to retrieve an item from the dictionary, given a particular direction. How do you retrieve items in a dictionary?
+![](tiny.png)
 
-After implementing, you might test the class by starting Python and creating `Room` objects:
+Then you need to add three methods for managing and looking up connections:
+
+- `add_connection` which accepts a direction (string) and a room (another Room object), and stores those in the dictionary
+- `has_connection` which accepts a direction (string), and checks whether there is a connection in the dictionary under that name
+- `get_connection` which accepts a direction (string), and retrieves the actual Room object that it connects to
+
+Now, implement the three methods for managing connections. You might need to read up on [dictionaries](https://docs.python.org/3/tutorial/datastructures.html#dictionaries).
+
+> A hard constraint in this program is that the `Room` class may not access (use) other classes. Its methods may only manipulate `self` and any access only objects that are passed to it as arguments to method calls.
+
+After implementing, you should test the class by starting Python and creating `Room` objects:
 
 	$ python -i room.py
 	>>> r1 = Room(1, "Room 1", "Description 1")
@@ -203,7 +176,7 @@ After implementing, you might test the class by starting Python and creating `Ro
 
 In that last line, you find the Python description of a `Room` object, along with its assigned memory address. Seems to work! (The address on your computer will most likely be different.)
 
-Be sure to test manually like above!
+Be sure to test manually like above before continuing!
 
 
 ## Step 1: Reading data files and the code
