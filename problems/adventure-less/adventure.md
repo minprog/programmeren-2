@@ -85,7 +85,6 @@ The `data` directory contains data files with which you can create two versions 
     1	WEST	2	UP	2	NORTH	3	IN	3
     2	EAST	1	DOWN	1
     3	SOUTH	1	OUT	1	DOWN	4
-    4	FORCED	0
 
     KEYS	a set of keys	3
     LAMP	a brightly shining brass lamp	2
@@ -213,19 +212,19 @@ By making use of this particular behavior of `readline` we can parse section by 
 
 ### Phase 1: creating rooms
 
-Now implement the first phase of `load_rooms` in `adventure.py`. Start with the usual:
+Now implement the first phase of `load_rooms` in `adventure.py`. Start with the file:
 
     with open(filename) as f:
 
 Then write a loop to read the room data:
 
 1. read a line
-2. `split()` it into a list 
+2. `split()` it into a list, making sure you split on the TAB character ("\t")
 3. create a new room object using the data from the list
 4. add the room to `self.rooms` for later use, mapping the room ID to the room object itself
 5. go to 1
 
-Make sure the loop ends as soon as `readline` returns *just* a newline character. Also, in the code above, did you clean the data? Each of the data lines has a newline character at the end, and this character should *not* end up in the room object description! Recall how to remove a stray newline from the end of a string?
+Make sure the loop ends as soon as `readline` returns *just* a newline character. Also, don't forget to clean the data. Each line has a newline character at the end, and this character should *not* end up in the room object description! Recall how to remove a stray newline from the end of a string?
 
 Having done the above should lead to a fully initialized `self.rooms` dictionary:
 
@@ -234,25 +233,40 @@ Having done the above should lead to a fully initialized `self.rooms` dictionary
 		2: <room.Room object at 0x7f325cbc4fd0>
 	}
 
+Finally, below that code, add a few assertions you know to be true:
+
+    assert 1 in self.rooms
+    assert self.rooms[1].short_description == "Outside building"
+
+You can then run `adventure.py` and make sure none of the assertions fail. (You should later remove any assertions that depend on particular descriptions, because your program may be used using a different data file!)
+
 
 ### Phase 2: making connections
 
-The second phase of `load_rooms` is making connections. Because all rooms have now been created, we can loop through the data again and make each connection (can you think of the reason that we have to do this in two phases?).
+Because all rooms have now been created, we can read the connection data and make the actual connections between the rooms.
 
-Take a look at the code for phase 2. The connections are again retrieved from the `room_data`. The first three elements were room descriptions that we have already used, the next element is a separator line, and the remaining elements are indeed connections.
+We leave designing the loop up to you, but remember that each line starts with the room number that the connection starts from, and that each line may contain *multiple* other rooms to connect to. This is good moment to take out pen and paper and design the algorithm!
 
-So it's these elements that we extract from the list using a slice operator (`[4:]`), then loop through each element, **split** the text into a direction and a room number (of the room that the connection will be made to).
+To actually connect rooms, you will have to look them up in `self.rooms` by number, and then make a connection:
 
-And that's where you'll find your next `TODO`. At that point in your program, you have enough information to make a connection. Use the `add_connection` method from `Room` to create them. The are a couple of fine points that you have to figure out when doing this, but it shouldn't be more than a couple of lines of code!
+    source_room = self.rooms[1]
+    destination_room = self.rooms[2]
+    source_room.add_connection("WEST", destination_room)
 
-- One particular fine point is that the final "winning" room is indicated by a connection to a room 0 (which does not exist). So for now, if you encounter a connection to 0, skip over it.
+When finished, add a few assertions you know to be true:
+
+    assert self.rooms[1].has_connection("WEST")
+
+You can again run `adventure.py` and make sure none of the assertions fail.
 
 
 ## Step 2: Moving around
 
+Now that we have a couple of rooms, we can start implementing the game itself. We'll start by implementing some methods for the `Adventure` class. These methods define the actions in the game. Later, we'll write code for the game loop, where a player can actually enter commands, after which the game loop will call upon the methods of an `Adventure` object.
+
 ### Implement `move`
 
-Now that we have a couple of rooms, we can start implementing the game itself. The most basic function of this game is moving around between rooms. Remember that the `Adventure` class has a variable that keeps track of the "current room" for the game. It also has a still-empty `move` method that's supposed to set the current room to a new one.
+The most basic function of this game is moving around between rooms. Remember that the `Adventure` class has a variable that keeps track of the "current room" for the game. It also has a still-empty `move` method that's supposed to set the current room to a new one.
 
 The `move` method has one parameter, `direction`, which should let you lookup (via the `current_room`) which room we're going to move on to. Just set `current_room` to that room and you're done.
 
