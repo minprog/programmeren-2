@@ -328,7 +328,7 @@ Like in "Game of Cards", the game code should be added inside an `if __name__ ==
 
 ## Testing
 
-	check50 minprog/cs50x/2019/hangman --local
+	check50 minprog/cs50x/2019/hangman/evil --local
 
 ## Extensions
 
