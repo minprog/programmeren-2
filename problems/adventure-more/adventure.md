@@ -359,7 +359,7 @@ As a final step for making the basic game work, we'll add a few commands that ma
 For the latter, should implement a method `get_long_description` in `Adventure`, which will always return the long description.
 
 
-## Step 5: Try `SmallRooms`
+## Step 5: Try a larger map
 
 Before continuing, make sure your program still works if you transition from the **Tiny** map to the **Small** map! You'll need it for the next part.
 
