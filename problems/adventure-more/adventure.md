@@ -361,7 +361,9 @@ For the latter, should implement a method `get_long_description` in `Adventure`,
 
 ## Step 5: Try a larger map
 
-Before continuing, make sure your program still works if you transition from the **Tiny** map to the **Small** map! You'll need it for the next part.
+Before continuing, make sure your program still works if you transition from the **Tiny** map to the **Small** map! From now on, when testing, run the game like this:
+
+    $ python adventure.py Small
 
 
 ## Step 6: Forced movement
@@ -429,6 +431,11 @@ To do this:
 
 - and finally, you can implement user interface code for items, in particular by modifying the `LOOK` command and implementing `TAKE` and `DROP` commands. But, note that you should always call methods on the `Adventure` class to do these actions! Do not directly manipulate elements (variables) from that class or from other classes.
 
+And to test, don't forget to load the Crowther map:
+
+    $ python adventure.py Crowther
+
+
 ## Step 8: Conditional movement
 
 Having objects in possession can allow your player to move to different rooms than without those objects, which opens up possibilities not seen before (like winning!). This is encoded in the Crowther data file. For example, room 9 has the following connections:
@@ -453,7 +460,7 @@ Have a good look at the constraints we **noted earlier**:
 
 - A hard constraint in this program is that the `Adventure` class may not `print` anything. And in return, the `__main__` part may, aside from printing things, only call methods in the `Adventure` class. It may not ever directly access methods and/or attributes from the `Room class`!
 
-- Watch out! You should hand in your program with the "Crowther" adventure loaded (atop the main). The checks depend on this particular version of Crowther's Adventure.
+- Remember that only a few things work with the Tiny map. You should normally test the game using the Crowther map. `check50` will certainly do so!
 
 - If you need help testing "winning" the game, this [solution](win.txt) (spoiler alert!) may come in handy.
 

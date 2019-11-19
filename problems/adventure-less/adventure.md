@@ -338,7 +338,9 @@ For the latter, should implement a method `get_long_description` in `Adventure`,
 
 ## Step 5: Try a larger map
 
-Before continuing, make sure your program still works if you transition from the **Tiny** map to the **Small** map! You'll need it for the next part.
+Before continuing, make sure your program still works if you transition from the **Tiny** map to the **Small** map! From now on, when testing, run the game like this:
+
+    $ python adventure.py Small
 
 
 ## Step 6: Forced movement
@@ -369,7 +371,7 @@ Have a good look at the constraints we **noted earlier**:
 
 - A hard constraint in this program is that the `Adventure` class may not `print` anything. And in return, the `__main__` part may, aside from printing things, only call methods in the `Adventure` class. It may not ever directly access methods and/or attributes from the `Room class`!
 
-- Watch out! You should hand in your program with the "Small" adventure loaded (atop the main). The checks depend on this particular version of Crowther's Adventure.
+- Remember that only a few things work with the Tiny map. You should normally test the game using the Small map. `check50` will certainly do so!
 
 
 ### `check50`
