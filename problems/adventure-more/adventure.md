@@ -42,7 +42,7 @@ From the previous example you could see that the second time a room is entered a
 Besides moving and looking there is also interaction with items. These items are located within rooms and are yours to take and drop (`TAKE` <item>, `DROP` <item>).
 
 Forgot what you've picked up throughout your journey? Using the `INVENTORY` command you get a list of what you're carrying around. Interacting with items would look like this:
-----
+
     Inside building
     You are inside a building, a well house for a large spring.
     There is a a set of keys here
@@ -55,7 +55,6 @@ Forgot what you've picked up throughout your journey? Using the `INVENTORY` comm
     > INVENTORY
     inventory is empty.
     >
-----
 
 A player can use these items to pass otherwise unpassable blockades, such as the "strong steel grate".
 
