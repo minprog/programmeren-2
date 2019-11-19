@@ -1,4 +1,4 @@
-# Adventure
+# Adventure (Hacker edition)
 
 ## tl;dr
 
@@ -7,7 +7,7 @@
 
 ## Background
 
-Back in the days, before dedicated graphics cards were a thing, text-based adventure games were incredibly popular. This type of game consists entirely out of text, and is traversed by commands much like the ones you would enter in the terminal. One such game is Colossal Cave Adventure, created by [William Crowther](https://en.wikipedia.org/wiki/William_Crowther_(programmer)) in 1975, that served as the inspiration for the text adventure game genre.
+Back in the days, before graphics cards were a thing, text-based adventure games were incredibly popular. This type of game consists entirely out of text, and is traversed by commands much like the ones you would enter in the terminal. One such game is Colossal Cave Adventure, created by [William Crowther](https://en.wikipedia.org/wiki/William_Crowther_(programmer)) in 1975, that served as the inspiration for the text adventure game genre.
 
 In Adventure you have to navigate between "Rooms" through commands such as "WEST" and "EAST", but also "IN" or "OUT":
 
@@ -39,7 +39,27 @@ From the previous example you could see that the second time a room is entered a
     to the west.
     >
 
-The adventure "map" is provided in a few **data files**, that contain room names and description, and in particular, information about which rooms are connected to other rooms, and using which commands.
+Besides moving and looking there is also interaction with items. These items are located within rooms and are yours to take and drop (`TAKE` <item>, `DROP` <item>).
+
+Forgot what you've picked up throughout your journey? Using the `INVENTORY` command you get a list of what you're carrying around. Interacting with items would look like this:
+----
+    Inside building
+    You are inside a building, a well house for a large spring.
+    There is a a set of keys here
+    > TAKE keys
+    Taken.
+    > INVENTORY
+    KEYS, a set of keys
+    > DROP keys
+    Dropped.
+    > INVENTORY
+    inventory is empty.
+    >
+----
+
+A player can use these items to pass otherwise unpassable blockades, such as the "strong steel grate".
+
+For this assignment, the adventure "map" is provided in a few **data files**, that contain room names and description, and in particular, information about which rooms are connected to other rooms, and using which commands.
 
 Though Crowther originally wrote his game in Fortran, an imperative programming language that has been around since the 1950s, we will be taking a more modern approach to its implementation, using object-oriented programming (OOP). OOP is particularly suited to Adventure, because its main idea is a series of rooms that are connected. Each room will be an object, and all of these objects will point to each other.
 
@@ -50,19 +70,20 @@ Implement an object-oriented version of Crowther's Adventure game using the clas
 
 1. implement **loading** of the map:
 	* handling command line arguments to open a given datafile
-	* loading map data into a series of objects
+	* loading game data into a series of objects
 2. implement user **interaction**:
 	* prompting the user for commands and execute those
 	* warn about non-existent commands
 	* moving the player from room to room
 3. implement game **logic**:
-	* forced movements
+    * forced movements
+    * managing items and inventory
 
 
 ### Distribution
 
 	$ cd ~/module9
-	$ wget https://prog2.mprog.nl/course/problems/adventure-less/adventure.zip
+	$ wget https://prog2.mprog.nl/course/problems/adventure-more/adventure.zip
 	$ unzip adventure.zip
 	$ rm adventure.zip
 	$ cd adventure
@@ -96,11 +117,9 @@ The second part describes connections between rooms. In fact, this section defin
 
     2	EAST	1	DOWN	1
 
-The third and final part describes objects that may be found in the game. You will not use these in the "standard edition" of this problem.
+The third and final part describes "objects" that may be found in the game. A line contains first a "command" that can be typed to manipulate the object, then a TAB, then a short description of the object, then a TAB and finally the number of the room that the object will initially be placed in.
 
-Also included in your distribution is `SmallAdv.dat`, which is a bit larger and includes more advanced interactions.
-
-
+Also included in your distribution is `SmallAdv.dat`, which is a bit larger and includes more advanced interactions, as well as `CrowtherAdv.dat`, which is the complete original adventure game!
 
 ### `adventure.py`
 
@@ -176,7 +195,7 @@ After implementing, you should test the class by starting Python and creating `R
 
 In that last line, you find the Python description of a `Room` object, along with its assigned memory address. Seems to work! (The address on your computer will most likely be different.)
 
-Be sure to test manually like above before continuing!
+**Be sure to test manually before continuing!**
 
 
 ## Step 1: Reading data files and the code
@@ -203,7 +222,7 @@ What we can do is write our own loops that read lines for one section each. We t
 
 As you might imagine, this short piece of code will print something like `2	End of road...` etc.
 
-Important to note is that when using `readline`, the string it returns will usually end in a newline character. In fact, there are three main options:
+Important to note is that when using `readline()`, the string it returns will usually end in a newline character. In fact, there are three main options:
 
 - a line containing text, ending in a newline character
 - an empty line, for which `readline` returns just the newline character (`"\n"`)
@@ -219,13 +238,13 @@ Now implement the first phase of `load_rooms` in `adventure.py`. Start with the 
 
 Then write a loop to read the room data:
 
-1. read a line
+1. read one line into a string
 2. `split()` it into a list, making sure you split on the TAB character ("\t")
 3. create a new room object using the data from the list
 4. add the room to `self.rooms` for later use, mapping the room ID to the room object itself
 5. go to 1
 
-Make sure the loop ends as soon as `readline` returns *just* a newline character. Also, don't forget to clean the data. Each line has a newline character at the end, and this character should *not* end up in the room object description! Recall how to remove a stray newline from the end of a string?
+Make sure the loop ends as soon as `readline` returns *just* a newline character (think well about designing your loop!). Also, don't forget to clean the data. Each line has a newline character at the end, and this character should *not* end up in the room object description! Recall from lecture how to remove a stray newline from the end of a string?
 
 Having done the above should lead to a fully initialized `self.rooms` dictionary:
 
@@ -244,7 +263,7 @@ You can then run `adventure.py` and make sure none of the assertions fail. (You 
 
 ### Phase 2: making connections
 
-Because all rooms have now been created, we can read the connection data and make the actual connections between the rooms.
+Because all rooms have now been created, we can read the connection data from the same file and make the actual connections between the rooms.
 
 We leave designing the loop up to you, but remember that each line starts with the room number that the connection starts from, and that each line may contain *multiple* other rooms to connect to. This is good moment to take out pen and paper and design the algorithm!
 
@@ -261,6 +280,7 @@ When finished, add a few assertions that should be true after making connections
 
 You can again run `adventure.py` and make sure none of the assertions fail.
 
+(Note that in a later step, you'll add code for reading the objects.)
 
 ## Step 2: Moving around
 
@@ -322,19 +342,23 @@ As a final step for making the basic game work, we'll add a few commands that ma
 
 -   `HELP` prints instructions to remind the player of their commands and how to use them. It should behave as follows:
 
-		> HELP
-		You can move by typing directions such as EAST/WEST/IN/OUT
-		QUIT quits the game.
-		HELP prints instructions for the game.
-		LOOK lists the complete description of the room and its contents.
+        > HELP
+        You can move by typing directions such as EAST/WEST/IN/OUT
+        QUIT quits the game.
+        HELP prints instructions for the game.
+        INVENTORY lists the item in your inventory.
+        LOOK lists the complete description of the room and its contents.
+        TAKE <item> take item from the room.
+        DROP <item> drop item from your inventory.
 
 -   `LOOK` prints a full description of the room the player is currently in, even if the room was visited earlier.
 
-		Inside building
-		> LOOK
-		You are inside a building, a well house for a large spring.
+        Inside building
+        > LOOK
+        You are inside a building, a well house for a large spring.
 
 For the latter, should implement a method `get_long_description` in `Adventure`, which will always return the long description.
+
 
 ## Step 5: Try `SmallRooms`
 
@@ -356,12 +380,26 @@ The adventure game has a special feature called `FORCED` movements. If a player 
     - note that you can use the existing `get_long_description`!
 
 
-## Step 7: Synonyms
+## Step 7: Adding "objects"
 
-Implement Synonyms. Note that your adventure game does not implement all commands in the synonyms data file! Implement it in such a way that everything still works as expected, and do not accept commands like `I` or `INVENTORY`! In this case, it's advisable to not write a full class to manage synonyms, but use a standard dictionary instead.
+Now that you are sure the game is playable using the Tiny and Small maps, let's implement the remaining feature needed to be able to play the Crowther map as well. As seen above, the data file contains descriptions for objects that are placed in the game (each in a default room) and then picked up, taken along, and dropped again by the player. The Crowther game is designed in a way that some routes can only be taken when the player is carrying certain objects.
+
+To do this:
+
+- you must implement a new `Item` class that represents objects within the game (it should be obvious that it would not be advisable to name a class `Object`, hence the alternative that we propose here). Place it in its own file `item.py`.
+
+- then you should add variables such that each `Room` object can "contain" or point to several `Item` objects. And, because a game item cannot only reside in a given room, but also be picked up and kept by the player, you should also create a place in the `Adventure` class to contain `Item` objects.
+
+- then you need to make sure objects are loaded from the data file and place into the correct initial rooms after loading.
+
+- and finally, you must implement user interface code for items, in particular by modifying the `LOOK` command and implementing `TAKE` and `DROP` commands. But, note that you should always call methods on the `Adventure` class to do these actions! Do not directly manipulate elements (variables) from that class or from other classes.
 
 
-## Step 8: Check your work
+## Step 8: Synonyms
+
+Implement Synonyms. Note that your adventure game does not implement all commands in the synonyms data file! Implement it in such a way that everything still works as expected! In this case, it's advisable to not write a full class to manage synonyms, but use a standard dictionary instead. We can do this because the synonyms are not really part of the game itself, but more of the user interface for the game.
+
+## Step 9: Check your work
 
 Have a good look at the constraints we **noted earlier**:
 
