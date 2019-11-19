@@ -39,7 +39,7 @@ From the previous example you could see that the second time a room is entered a
     to the west.
     >
 
-Besides moving and looking there is also interaction with items. These items are located within rooms and are yours to take and drop (`TAKE` <item>, `DROP` <item>).
+Besides moving and looking there is also interaction with items. These items are located within rooms and are yours to take and drop (`TAKE <item>`, `DROP <item>`).
 
 Forgot what you've picked up throughout your journey? Using the `INVENTORY` command you get a list of what you're carrying around. Interacting with items would look like this:
 
