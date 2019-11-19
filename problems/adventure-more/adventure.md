@@ -407,12 +407,13 @@ Have a good look at the constraints we **noted earlier**:
 
 - A hard constraint in this program is that the `Adventure` class may not `print` anything. And in return, the `__main__` part may, aside from printing things, only call methods in the `Adventure` class. It may not ever directly access methods and/or attributes from the `Room class`!
 
-- Watch out! You should hand in your program with the "Small" adventure loaded (atop the main). The checks depend on this particular version of Crowther's Adventure.
+- Watch out! You should hand in your program with the "Crowther" adventure loaded (atop the main). The checks depend on this particular version of Crowther's Adventure.
 
+- If you need help testing "winning" the game, this [solution](win.txt) (spoiler alert!) may come in handy.
 
 ### `check50`
 
-	check50 minprog/cs50x/2019/adventure/less
+	check50 minprog/cs50x/2019/adventure/more
 
 
 ### `style50`
