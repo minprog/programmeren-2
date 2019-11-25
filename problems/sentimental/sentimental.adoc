@@ -9,10 +9,10 @@
 
 == Problems
 
-. Implement the below exactly as specified but in Python:
+. Implement the below exactly as specified:
 +
 --
-* https://lab.cs50.io/uva/cs50x/master/problems/hello/[Hello], in `module7/hello.py`
+* A program that prints "hello, world", in `module7/hello.py`
 --
 . Implement the below exactly as specified but in Python:
 +
