@@ -21,19 +21,19 @@ templates:
         calculation: passed
         is_test: true
         hide_calculated: true
+    2: &checked
+        type: pass
+        subgrades:
+            checked: boolean
+        calculation: checked.to_i
+        hide_calculated: true
+
 
 grades:
     homepage: *fullyauto
     sentimental: *fullyauto
     bleep: *fullyauto
-    queue:
-        type: pass
-        subgrades:
-            correctness: integer
-        automatic:
-            correctness: -1
-        calculation: -1
-        hide_calculated: true
+    queue: *checked
     cards: *fullyauto
     hangman: *fullyauto
     lovely-hangman: *fullyauto
@@ -43,12 +43,7 @@ grades:
     simil-more: *fullyauto
     survey: *fullyauto
 
-    m6:
-        type: pass
-        subgrades:
-            checked: boolean
-        calculation: checked.to_i
-        hide_calculated: true
+    m6: *checked
     m7: *manual
     m8: *manual
     m9: *manual
