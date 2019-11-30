@@ -84,6 +84,7 @@ calculation:
         hertentamen: 0
 
 mods:
+    show_progress: true
     submits:
         m6: 0
         m7: 1
