@@ -31,7 +31,7 @@ Let op! De assistenten kunnen meedenken over je voortgang maar zijn **niet** alt
 
 Alle studenten moeten minimaal een geheel correcte oplossing voor elk opdracht inleveren, alle toetsjes halen en het tentamen halen om een voldoende te halen voor het vak, tenzij daarop een schriftelijke uitzondering is gegeven door de vakdocenten.
 
-Het eindcijfer voor deze cursus wordt bepaald door het aantal gescoorde punten voor elke module. De modules kunnen 1--5 punten opleveren, en voor elke module zijn diverse aspecten aangegeven op basis waarvan de punten voornamelijk (maar niet uitsluitend) worden bepaald. De schaal is als volgt:
+Het eindcijfer voor deze cursus wordt bepaald door het aantal gescoorde punten voor elke module. De modules kunnen 1--6 punten opleveren, en voor elke module zijn diverse aspecten aangegeven op basis waarvan de punten voornamelijk (maar niet uitsluitend) worden bepaald. De schaal is als volgt:
 
 6. uitzonderlijk goed resultaat met doordacht ontwerp
 5. uitstekende kwaliteit op alle aspecten
@@ -41,7 +41,7 @@ Het eindcijfer voor deze cursus wordt bepaald door het aantal gescoorde punten v
 1. enige aandacht voor een beperkt aantal aspecten
 {: start="6" reversed=""}
 
-Op basis van bovenstaand schema is de maximumscore voor deze cursus 24 punten (4 modules x 6 punten). Deze score wordt omgerekend naar een cijfer tussen 1 en 10, zoals gebruikelijk. Daarnaast kan het doen van alle "hacker"-onderdelen van een opdracht, indien beschikbaar, een extra punt voor een module opleveren. Het tentamen levert geen punten op voor het eindcijfer, maar moet wel gehaald worden.
+Op basis van bovenstaand schema is de maximumscore voor deze cursus 24 punten (4 modules x 6 punten). Deze uiteindelijke score wordt omgerekend naar een cijfer tussen 1 en 10, zoals gebruikelijk. Daarnaast kan het doen van alle "hacker"-onderdelen van een opdracht, indien beschikbaar, een extra punt voor een module opleveren. Het tentamen levert geen punten op voor het eindcijfer, maar moet wel gehaald worden.
 
 
 ## Deadlines
@@ -50,10 +50,10 @@ Elke module moet op de aangegeven deadline correct werkend ingeleverd zijn, waar
 
 | onderdeel | deadline oplossing | deadline verbeterd |
 | --------- | ------------------ | ------------------ |
-| Module 5  | ma 17 feb          | wo 19 feb          |
-| Module 6  | ma 24 feb          | wo 26 feb          |
-| Module 7  | ma  9 mrt          | wo 11 mrt          |
-| Module 8  | ma 23 mrt          | wo 25 mrt          |
+| Module 5  | ma 17 feb 13:59    | wo 19 feb 13:59    |
+| Module 6  | ma 24 feb 13:59    | wo 26 feb 13:59    |
+| Module 7  | ma  9 mrt 13:59    | wo 11 mrt 13:59    |
+| Module 8  | ma 23 mrt 13:59    | wo 25 mrt 13:59    |
 
 In het geval van planningsproblemen of ziekte is het mogelijk de deadline met 1 of 2 dagen op te schuiven, in ruil voor een bescheiden puntenaftrek. Dit gaat volledig automatisch bij later inleveren en hoeft dus in beginsel niet gemeld te worden. Toch is het verstandig om je mentor aan te spreken om te overleggen of advies te vragen over het halen van verdere deadlines.
 
