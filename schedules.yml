@@ -60,16 +60,16 @@ Fulltime:
         Overview & Grading: /overviews/web
 
 Parttime Vroege Lente:
-    Module 5:
+    Module 5 - Mispellings:
         Overview & Grading: /overviews/mispellings
         "Lecture: Data Structures": /lectures/data-structures
         Implement Speller: /problems/speller
-    Module 7 - Python:
+    Module 6 - Python:
         Overview & Grading: /overviews/python
         "Lecture: Python": /lectures/python
         Implement Sentimental: /problems/sentimental
         Implement Bleep: /problems/bleep
-    Module 8 - Hangman:
+    Module 7 - Hangman:
         Overview & Grading: /overviews/hangman
         Preparation:
             "Lecture: OOP": /lectures/oop
@@ -80,7 +80,7 @@ Parttime Vroege Lente:
             "Implement either of:":
                 Classic Hangman: /problems/hangman-classic
                 Evil Hangman (Hacker): /problems/hangman-evil
-    Module 9 - Adventure:
+    Module 8 - Adventure:
         Overview & Grading: /overviews/adventure
         "Implement either of:":
             Adventure: /problems/adventure-less
