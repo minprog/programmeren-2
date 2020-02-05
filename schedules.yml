@@ -58,3 +58,36 @@ Fulltime:
             Adventure (Hacker): /problems/adventure-more
     Module 10 - Web:
         Overview & Grading: /overviews/web
+
+Parttime Lente:
+    Module 5:
+        Overview & Grading: /overviews/mispellings
+        "Lecture: Data Structures": /lectures/data-structures
+        Implement Mispellings: /overviews/mispellings
+    Module 6 - Homepage:
+        Overview & Grading: /overviews/homepage
+        "Lecture: HTTP": /lectures/http
+        Implement Homepage: /problems/homepage
+    Module 7 - Python:
+        Overview & Grading: /overviews/python
+        "Lecture: Python": /lectures/python
+        Implement Sentimental: /problems/sentimental
+        Implement Bleep: /problems/bleep
+    Module 8 - Hangman:
+        Overview & Grading: /overviews/hangman
+        Preparation:
+            "Lecture: OOP": /lectures/oop
+        Labs:
+            Implement Queue: /problems/queue
+            Implement Game of Cards: /problems/cards
+        Hangman:
+            "Implement either of:":
+                Classic Hangman: /problems/hangman-classic
+                Evil Hangman (Hacker): /problems/hangman-evil
+    Module 9 - Adventure:
+        Overview & Grading: /overviews/adventure
+        "Implement either of:":
+            Adventure: /problems/adventure-less
+            Adventure (Hacker): /problems/adventure-more
+    Module 10 - Web:
+        Overview & Grading: /overviews/web
