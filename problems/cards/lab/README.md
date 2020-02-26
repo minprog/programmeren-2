@@ -129,7 +129,7 @@ As you can see, we *hardcode* the suits and values, because in our program, thes
 
 ## Deck: instantiating cards
 
-The purpose of a "deck" will be to *contain* a set of 52 cards. In Python, we choose to store these cards in a list. With the `suits` and `values` we defined in the previous step, there is enough information in the `Deck` class to be able to create a `Card` instance for each of 52 combinations.
+The purpose of a "deck" will be to *contain* a set of 52 cards. In Python, we choose to store these cards in a list. With the `_suits` and `_values` we defined in the previous step, there is enough information in the `Deck` class to be able to create a `Card` instance for each of 52 combinations.
 
 **Write** code to generate all 52 `Card`s and add them to a list called `_cards`. Code to do this should be added to the end of the initializer.
 
@@ -153,7 +153,7 @@ The list of cards should be an attribute (using `self`), so it will be stored in
 
 **Add** a `description` method to `Deck`:
 
-    return f"{len(self.cards)} cards in the deck"
+    return f"{len(self._cards)} cards in the deck"
 
 Now you can test the class. Go to the `if __name__ == "__main__"` section of your program and **replace** the contents with the following lines:
 
@@ -198,7 +198,7 @@ Now that the deck may be shuffled, it should also be possible to draw cards from
 
 **Create** a method `deal` that removes the top card from the `cards` list and `return` it. To remove means that after calling `deal`, the number of cards in `cards` will have decreased by 1.
 
-Once again, it's possible to re-use standard Python functionality to remove one `Card` from `cards`. Take a look at the docs for [Python lists](https://docs.python.org/3/tutorial/datastructures.html) and find an appropriate method to do this. Then use that method in your own `deal` method! Don't forget to actually `return` the card that you got from the deck.
+Once again, it's possible to re-use standard Python functionality to remove one `Card` from `_cards`. Take a look at the docs for [Python lists](https://docs.python.org/3/tutorial/datastructures.html) and find an appropriate method to do this. Then use that method in your own `deal` method! Don't forget to actually `return` the card that you got from the deck.
 
 {% next %}
 
@@ -222,7 +222,7 @@ Your classes now should look like this:
 
 Note that some of the methods that you wrote aren't in this diagram. Usually, we keep everything that's not relevant out of the diagrams.
 
-To determine what is relevant, we look at classes from another programmer's perspective. They might want to use your card classes to implement a game. What information do they need to use the class well? For example, they would not need to know that `Deck` stores all cards in a list called `cards`. They would want to know about the methods they would need to call when implementing a game: `shuffle` and `deal`. Everything else is *implementation detail*.
+To determine what is relevant, we look at classes from another programmer's perspective. They might want to use your card classes to implement a game. What information do they need to use the class well? For example, they would not need to know that `Deck` stores all cards in a list called `_cards`. They would want to know about the methods they would need to call when implementing a game: `shuffle` and `deal`. Everything else is *implementation detail*.
 
 In other words, classes' data is kept private and only through their methods should their attributes be manipulated. This idea is called *encapsulation*. However, data classes like `Card` are an exception to this rule. Data classes are purposely designed to hold some basic data, just like a `struct` in C, and attributes are usually manipulated directly, not through methods.
 
