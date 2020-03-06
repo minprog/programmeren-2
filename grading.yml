@@ -44,6 +44,11 @@ grades:
     simil-more: *fullyauto
     survey: *fullyauto
 
+    m5: *manual
+    m6a: *manual
+    m7a: *manual
+    m8a: *manual
+    
     m6: *checked
     m7: *manual
     m8: *manual
