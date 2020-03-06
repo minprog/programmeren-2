@@ -4,8 +4,8 @@ templates:
         subgrades:
             correctness: integer
         automatic:
-            correctness: (correctness_score * 5).floor
-        calculation: -(correctness/5)
+            correctness: (correctness_score * 100).floor
+        calculation: -(correctness/100)
     3: &manual
         type: float
         subgrades:
@@ -30,6 +30,7 @@ templates:
 
 
 grades:
+    speller: *fullyauto
     homepage: *fullyauto
     sentimental: *fullyauto
     bleep: *fullyauto
@@ -43,6 +44,11 @@ grades:
     simil-more: *fullyauto
     survey: *fullyauto
 
+    m5: *manual
+    m6a: *manual
+    m7a: *manual
+    m8a: *manual
+    
     m6: *checked
     m7: *manual
     m8: *manual
@@ -54,23 +60,36 @@ grades:
     ik-check: *test
 
 modules:
-    m6:
-        - homepage
-    m7:
+    m5:
+        - speller
+    # m6:
+    #     - homepage
+    m6a:
         - sentimental
         - bleep
-    m8:
+    # m7:
+    #     - sentimental
+    #     - bleep
+    m7a:
         - queue
         - cards
         - hangman
         - lovely-hangman
-    m9:
+    # m8:
+    #     - queue
+    #     - cards
+    #     - hangman
+    #     - lovely-hangman
+    m8a:
         - adventure-less
         - adventure-more
-    m10:
-        - simil-less
-        - simil-more
-        - survey
+    # m9:
+    #     - adventure-less
+    #     - adventure-more
+    # m10:
+    #     - simil-less
+    #     - simil-more
+    #     - survey
 
 calculation:
     final:
