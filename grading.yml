@@ -5,7 +5,7 @@ templates:
             correctness: integer
         automatic:
             correctness: (correctness_score * 5).floor
-        calculation: -(correctness/5)
+        calculation: -(correctness/100)
     3: &manual
         type: float
         subgrades:
