@@ -55,16 +55,29 @@ grades:
     ik-check: *test
 
 modules:
-    m6:
+    m5:
         - speller
+    m6:
+        - homepage
+    m6a:
+        - sentimental
+        - bleep
     m7:
         - sentimental
         - bleep
+    m7a:
+        - queue
+        - cards
+        - hangman
+        - lovely-hangman
     m8:
         - queue
         - cards
         - hangman
         - lovely-hangman
+    m8a:
+        - adventure-less
+        - adventure-more
     m9:
         - adventure-less
         - adventure-more
