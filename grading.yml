@@ -30,6 +30,7 @@ templates:
 
 
 grades:
+    speller: *fullyauto
     homepage: *fullyauto
     sentimental: *fullyauto
     bleep: *fullyauto
@@ -55,7 +56,7 @@ grades:
 
 modules:
     m6:
-        - homepage
+        - speller
     m7:
         - sentimental
         - bleep
