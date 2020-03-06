@@ -62,34 +62,34 @@ grades:
 modules:
     m5:
         - speller
-    m6:
-        - homepage
+    # m6:
+    #     - homepage
     m6a:
         - sentimental
         - bleep
-    m7:
-        - sentimental
-        - bleep
+    # m7:
+    #     - sentimental
+    #     - bleep
     m7a:
         - queue
         - cards
         - hangman
         - lovely-hangman
-    m8:
-        - queue
-        - cards
-        - hangman
-        - lovely-hangman
+    # m8:
+    #     - queue
+    #     - cards
+    #     - hangman
+    #     - lovely-hangman
     m8a:
         - adventure-less
         - adventure-more
-    m9:
-        - adventure-less
-        - adventure-more
-    m10:
-        - simil-less
-        - simil-more
-        - survey
+    # m9:
+    #     - adventure-less
+    #     - adventure-more
+    # m10:
+    #     - simil-less
+    #     - simil-more
+    #     - survey
 
 calculation:
     final:
