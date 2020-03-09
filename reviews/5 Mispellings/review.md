@@ -17,10 +17,10 @@ In order to keep the task within reasonable limits, for each module we will prov
 
 Below, you will submit improved versions of your programs. These are only the "standard" editions of the problems, not the "hacker" editions.
 
-In addition, you will need to submit a file called **review.txt**:
+In addition, you will need to submit a file called **changes.txt**:
 
 - write down the names of one or more students who reviewed your code
-- describe in detail what changes you made to the problems as you submitted them earlier on
+- describe in detail what changes you made to the problems with respect to how you have submitted them earlier on
 
 ## Grading
 
