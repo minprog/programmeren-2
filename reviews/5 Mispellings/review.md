@@ -8,8 +8,8 @@ In order to keep the task within reasonable limits, for each module we will prov
 
 1. For this module, you will assess and improve your code along just two criteria:
 
-  - Style: can someone easily read your code and infer the underlying structure?
-  - Design: is your solution well thought-out and elegant?
+    - Style: can someone easily read your code and infer the underlying structure?
+    - Design: is your solution well thought-out and elegant?
 
 2. Then, you should find a partner to do code reviews with. You will review their code on the criteria above, and they will review your code.
 

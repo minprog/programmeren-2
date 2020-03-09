@@ -3,3 +3,4 @@ files:
     required:
         - dictionary.c
         - dictionary.h
+        - changes.txt
