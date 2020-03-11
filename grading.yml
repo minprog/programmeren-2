@@ -44,11 +44,11 @@ grades:
     simil-more: *fullyauto
     survey: *fullyauto
 
-    m5: *manual
+    module 5: *manual
     m6a: *manual
     m7a: *manual
     m8a: *manual
-    
+
     m6: *checked
     m7: *manual
     m8: *manual
@@ -60,7 +60,7 @@ grades:
     ik-check: *test
 
 modules:
-    m5:
+    module 5:
         - speller
     # m6:
     #     - homepage

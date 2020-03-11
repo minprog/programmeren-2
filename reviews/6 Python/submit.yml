@@ -1,0 +1,8 @@
+name: m6a
+files:
+    required:
+        - changes.txt
+        - mario.py
+        - greedy.py
+        - vigenere.py
+        - bleep.py

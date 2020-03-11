@@ -98,6 +98,8 @@ Fulltime Lente:
         "Lecture: Python": /lectures/python
         Implement Sentimental: /problems/sentimental
         Implement Bleep: /problems/bleep
+        Code review (donderdag):
+            Instructies: /reviews/python
     Module 7 - Hangman:
         Overview & Grading: /overviews/hangman
         Preparation:
@@ -109,8 +111,12 @@ Fulltime Lente:
             "Implement either of:":
                 Classic Hangman: /problems/hangman-classic
                 Evil Hangman (Hacker): /problems/hangman-evil
+        Code review (donderdag):
+            Instructies: /reviews/hangman
     Module 8 - Adventure:
         Overview & Grading: /overviews/adventure
         "Implement either of:":
             Adventure: /problems/adventure-less
             Adventure (Hacker): /problems/adventure-more
+        Code review (donderdag):
+            Instructies: /reviews/adventure
