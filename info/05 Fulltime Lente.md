@@ -47,7 +47,7 @@ Op basis van bovenstaand schema is de maximumscore voor deze cursus 24 punten (4
 
 ## Deadlines
 
-Elke module moet op de aangegeven deadline correct werkend ingeleverd zijn, waarbij de correcte werking automatisch wordt getest met `check50`. Alle deadlines zijn om **17:59** op de hieronder genoemde datum.
+Elke module moet normaal op de aangegeven deadline correct werkend ingeleverd zijn, waarbij de correcte werking automatisch wordt getest met `check50`. Alle deadlines zijn om **17:59** op de hieronder genoemde datum.
 
 | onderdeel | deadline oplossing | deadline verbeterd |
 | --------- | ------------------ | ------------------ |
@@ -56,14 +56,7 @@ Elke module moet op de aangegeven deadline correct werkend ingeleverd zijn, waar
 | Module 7  | wo 18 mrt 17:59    | do 19 mrt 10:59    |
 | Module 8  | wo 25 mrt 17:59    | do 26 mrt 10:59    |
 
-In het geval van planningsproblemen of ziekte is het mogelijk de deadline met 1 of 2 dagen op te schuiven, in ruil voor een bescheiden puntenaftrek. Dit gaat volledig automatisch bij later inleveren en hoeft dus in beginsel niet gemeld te worden. Toch is het verstandig om je mentor aan te spreken om te overleggen of advies te vragen over het halen van verdere deadlines.
-
-| uitstel         | consequentie                                                   |  
-| --------------- | -------------------------------------------------------------- |
-| maximaal 24 uur | hacker-opdracht telt niet mee, maximaal 5 punten te verkrijgen |  
-| maximaal 48 uur | maximaal 4 punten te verkrijgen                                |  
-
-Als je nog later inlevert krijg je 0 punten voor de opdracht. Let op dat je ook in dat geval de opdracht wel 100% werkend moet inleveren om het vak te halen.
+Je kunt zelf beslissen of je de opdracht wat later wil inleveren, maar weeg de consequenties voor je planning af. Let op dat de Hacker-opdrachten geen punten meer kunnen opleveren na de deadline.
 
 Bij noodgevallen die je planning in de war gaan schoppen is het noodzakelijk om direct contact op te nemen met de docenten via e-mail (**niet met je mentor**), maar zeker vóór je doorgaat met werken aan de opdrachten. We denken graag actief mee!
 
@@ -82,12 +75,24 @@ In videocolleges bespreekt David Malan van Harvard de theorie waarmee je program
 
 Werkgroepen zijn bijeenkomsten van zo'n 30--60 minuten met je mentor. In de werkgroepen krijg je de kans om samen de voortgang te bespreken, tips uit te wisselen over het aanpakken van problemen en om je medestudenten en mentor beter te leren kennen. Aanwezigheid is verplicht.
 
+- Sam op dinsdag om 11 uur via https://us04web.zoom.us/j/8823003923
+- Lotte op dinsdag om 16 uur via https://us04web.zoom.us/j/2966758396
+- Emma op woensdag om 10 uur via https://us04web.zoom.us/j/2322335446
+- Quinten op woensdag om 10 uur via https://us04web.zoom.us/j/8941549653
+- Marijn op woensdag om 11 uur via https://zoom.us/j/2030811065
 
-## Practicumuren
 
-Tijdens de practicumuren, dagelijks van 9 tot 17 uur, kun je terecht in het programmeerlab voor het werken aan je opdrachten en uitwisselen van ideeën met medestudenten. Tussen 13 en 17 uur zijn altijd studentassistenten aanwezig om vragen aan te stellen.
+## Hulp bij opdrachten
 
-Heb je 's ochtends urgente assistentie nodig, bijvoorbeeld omdat je je harde schijf hebt leeggegooid, of omdat niemand om je heen begrijpt wat die fout betekent in jouw code, stuur dan een e-mail naar <help@mprog.nl> en vermeld je locatie. We sturen dan z.s.m. bericht terug hoe laat iemand langskomt.
+Voor vragen gebruik je normaal [Ed](https://us.edstem.org/), een online forum waar je op elk moment terecht kunt. Assistenten en medestudenten kunnen reageren op je vragen en je verder helpen. Vragen kunnen bijvoorbeeld zijn:
+
+- Een deel van de opdracht is wat onduidelijk of onbegrijpelijk
+- Je weet niet hoe je een idee uit de colleges kunt toepassen in je opdracht
+- Je hebt een bug in je code
+
+Daarnaast is het mogelijk een afspraak te maken met een assistent tijdens de practicumuren. Je kunt alleen kort tevoren een afspraak maken, via de volgende link:
+
+<https://calendly.com/mprog/assistentie>
 
 
 ## Herkansingen
