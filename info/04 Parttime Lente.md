@@ -87,7 +87,7 @@ Voor vragen gebruik je normaal [Ed](https://us.edstem.org/), een online forum wa
 
 Daarnaast is het mogelijk een afspraak te maken met een assistent tijdens de practicumuren. Je kunt alleen kort tevoren een afspraak maken, via de volgende link:
 
-<https://calendly.com/mprog/assistentie>
+<https://calendly.com/mprog-parttime/assistentie>
 
 
 ## Herkansingen
