@@ -26,6 +26,7 @@ Parttime:
             Adventure (Hacker): /problems/adventure-more
     Module 10 - Web:
         Overview & Grading: /overviews/web
+
 Fulltime:
     Module 6 - Homepage:
         Overview & Grading: /overviews/homepage
@@ -59,16 +60,20 @@ Fulltime:
     Module 10 - Web:
         Overview & Grading: /overviews/web
 
-Parttime Vroege Lente:
+Parttime Lente:
     Module 5 - Mispellings:
         Overview & Grading: /overviews/mispellings
         "Lecture: Data Structures": /lectures/data-structures
         Implement Speller: /problems/speller
+        Code review (maandag):
+            Instructies: /reviews/mispellings
     Module 6 - Python:
         Overview & Grading: /overviews/python
         "Lecture: Python": /lectures/python
         Implement Sentimental: /problems/sentimental
         Implement Bleep: /problems/bleep
+        Code review (donderdag):
+            Instructies: /reviews/python
     Module 7 - Hangman:
         Overview & Grading: /overviews/hangman
         Preparation:
@@ -80,11 +85,15 @@ Parttime Vroege Lente:
             "Implement either of:":
                 Classic Hangman: /problems/hangman-classic
                 Evil Hangman (Hacker): /problems/hangman-evil
+        Code review (donderdag):
+            Instructies: /reviews/hangman
     Module 8 - Adventure:
         Overview & Grading: /overviews/adventure
         "Implement either of:":
             Adventure: /problems/adventure-less
             Adventure (Hacker): /problems/adventure-more
+        Code review (donderdag):
+            Instructies: /reviews/adventure
 
 Fulltime Lente:
     Module 5 - Mispellings:

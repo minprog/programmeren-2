@@ -56,7 +56,7 @@ Elke module moet normaal op de aangegeven deadline correct werkend ingeleverd zi
 | Module 7  | wo 18 mrt 17:59    | do 19 mrt 10:59    |
 | Module 8  | wo 25 mrt 17:59    | do 26 mrt 10:59    |
 
-Je kunt zelf beslissen of je de opdracht wat later wil inleveren, maar weeg de consequenties voor je planning af. Let op dat de Hacker-opdrachten geen punten meer kunnen opleveren na de deadline.
+Je kunt zelf beslissen of je de opdracht wat later wil inleveren, maar weeg de consequenties voor je planning af. Let op dat de Hacker-opdrachten **geen punten** meer kunnen opleveren na de genoemde deadline.
 
 Bij noodgevallen die je planning in de war gaan schoppen is het noodzakelijk om direct contact op te nemen met de docenten via e-mail (**niet met je mentor**), maar zeker vóór je doorgaat met werken aan de opdrachten. We denken graag actief mee!
 
