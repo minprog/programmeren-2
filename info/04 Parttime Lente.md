@@ -77,17 +77,17 @@ Werkgroepen zijn bijeenkomsten van zo'n 30--60 minuten met je mentor. In de werk
 - Nigel - https://zoom.us/j/2975989503
 
 
-## Practicumuren
+## Hulp bij opdrachten
 
-Tijdens de practicumuren kun je terecht in het programmeerlab voor het werken aan je opdrachten, uitwisselen van ideeën met medestudenten en het stellen van vragen aan studentassistenten.
+Voor vragen gebruik je normaal [Ed](https://us.edstem.org/), een online forum waar je op elk moment terecht kunt. Assistenten en medestudenten kunnen reageren op je vragen en je verder helpen. Vragen kunnen bijvoorbeeld zijn:
 
-Locatie: A1.22
+- Een deel van de opdracht is wat onduidelijk of onbegrijpelijk
+- Je weet niet hoe je een idee uit de colleges kunt toepassen in je opdracht
+- Je hebt een bug in je code
 
-- maandag 12--16 uur
-- dinsdag 13--17 uur
-- woensdag 12--16 uur
-- donderdag 12--16 uur
-- vrijdag 12-16 uur
+Daarnaast is het mogelijk een afspraak te maken met een assistent tijdens de practicumuren. Je kunt alleen kort tevoren een afspraak maken, via de volgende link:
+
+<https://calendly.com/mprog/assistentie>
 
 
 ## Herkansingen
