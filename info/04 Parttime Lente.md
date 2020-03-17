@@ -32,39 +32,33 @@ Heb je een schriftelijke vraag, bijvoorbeeld omdat je een uitzondering nodig heb
 
 Alle studenten moeten minimaal een geheel correcte oplossing voor elk opdracht inleveren, alle toetsjes halen en het tentamen halen om een voldoende te halen voor het vak, tenzij daarop een schriftelijke uitzondering is gegeven door de vakdocenten.
 
-Het eindcijfer voor deze cursus wordt bepaald door het aantal gescoorde punten voor elke module. De modules kunnen 1--5 punten opleveren, en voor elke module zijn diverse aspecten aangegeven op basis waarvan de punten voornamelijk (maar niet uitsluitend) worden bepaald. De schaal is als volgt:
+Het eindcijfer voor deze cursus wordt bepaald door het aantal gescoorde punten voor elke module. De modules kunnen 1--6 punten opleveren, en voor elke module zijn diverse aspecten aangegeven op basis waarvan de punten voornamelijk (maar niet uitsluitend) worden bepaald. De schaal is als volgt:
 
-5. uitzonderlijk goed resultaat met doordacht ontwerp
-4. goed resultaat op alle aspecten
-3. zichtbare aandacht voor alle aspecten, goed resultaat op sommige
-2. zichtbare aandacht voor de meeste aspecten
-1. zichtbare aandacht voor een beperkt aantal aspecten
-{: start="5" reversed=""}
+6. uitzonderlijk goed resultaat met doordacht ontwerp
+5. uitstekende kwaliteit op alle aspecten
+4. degelijke kwaliteit, met redelijk wat ruimte voor verbetering
+3. voldoende kwaliteit op de meeste aspecten, maar erg veel ruimte voor verbetering
+2. onvoldoende zichtbare aandacht voor de kwaliteitsaspecten
+1. enige aandacht voor een beperkt aantal aspecten
+{: start="6" reversed=""}
 
-Op basis van bovenstaand schema is de maximumscore voor deze cursus 20 punten (4 modules x 5 punten). Deze score wordt omgerekend naar een cijfer tussen 1 en 10, zoals gebruikelijk. Daarnaast kan het doen van een "hacker edition" van een opdracht, indien beschikbaar, een extra punt voor een module opleveren. Toetsjes en het tentamen leveren geen punten op voor het eindcijfer, maar moeten wel gehaald worden.
+Op basis van bovenstaand schema is de maximumscore voor deze cursus 24 punten (4 modules x 6 punten). Deze uiteindelijke score wordt omgerekend naar een cijfer tussen 1 en 10, zoals gebruikelijk. Daarnaast kan het doen van alle "hacker"-onderdelen van een opdracht, indien beschikbaar, een extra punt voor een module opleveren. Het tentamen levert geen punten op voor het eindcijfer, maar moet wel gehaald worden.
 
 
 ## Deadlines
 
-Elke module moet op de vooraf bepaalde deadline ingeleverd zijn. Een voorlopig schema van deadlines vind je hieronder. Alle deadlines zijn om 23:59 op de genoemde datum.
+Elke module moet normaal op de aangegeven deadline correct werkend ingeleverd zijn, waarbij de correcte werking automatisch wordt getest met `check50`. Alle deadlines zijn om **17:59** op de hieronder genoemde datum.
 
-| week | module | deadline  |                              |  
-| ---: | -----: | --------- | ---------------------------- |  
-|    1 |      6 | do 31 okt | moet af, maar telt niet mee  |  
-|    2 |      7 | do  7 nov |                              |  
-|  3-4 |      8 | do 21 nov | opdracht wordt nog aangepast |  
-|  5-6 |      9 | do  5 dec | opdracht wordt nog aangepast |  
-|    7 |     10 | do 12 dec |                              |  
+| onderdeel | tijd    | deadline oplossing | deadline verbeterd |  
+| --------- | ------- | ------------------ | ------------------ |  
+| Module 5  | 2 weken | do  9 apr 17:59    | do 16 apr 17:59    |  
+| Module 6  | 1 week  | do 16 apr 17:59    | do 12 apr 17:59    |  
+| Module 7  | 2 weken | vr  8 mei 17:59    | vr 15 mei 17:59    |  
+| Module 8  | 2 weken | vr 22 mei 17:59    | vr 29 mei 17:59    |  
 
-In het geval van planningsproblemen of ziekte is het mogelijk de deadline met 1 dag op te schuiven, in ruil voor een bescheiden puntenaftrek. Dit gaat volledig automatisch bij later inleveren en hoeft dus in beginsel niet gemeld te worden. Toch is het verstandig om je mentor aan te spreken om te overleggen of advies te vragen over het halen van verdere deadlines.
+Je kunt zelf beslissen of je de opdracht wat later wil inleveren, maar weeg de consequenties voor je planning af. Let op dat de Hacker-opdrachten **geen punten** meer kunnen opleveren na de genoemde deadline.
 
-| uitstel         | aftrek |  
-| --------------- | ------ |  
-| maximaal 24 uur | 1 punt |  
-
-Als je nog later inlevert krijg je 0 punten voor de opdracht. Let op dat je ook in dat geval de opdracht wel 100% werkend moet inleveren om het vak te halen.
-
-Bij noodgevallen die je planning in de war gaan schoppen is het noodzakelijk om direct contact op te nemen met de docenten, maar zeker vóór je doorgaat met werken aan de opdrachten.
+Bij noodgevallen die je planning in de war gaan schoppen is het noodzakelijk om direct contact op te nemen met de docenten via e-mail (**niet met je mentor**), maar zeker vóór je doorgaat met werken aan de opdrachten. We denken graag actief mee!
 
 
 ## Videocolleges
@@ -75,6 +69,12 @@ In videocolleges bespreekt David Malan van Harvard de theorie waarmee je program
 ## Werkgroepen
 
 Werkgroepen zijn bijeenkomsten van zo'n 30--60 minuten met je mentor. In de werkgroepen krijg je de kans om samen de voortgang te bespreken, tips uit te wisselen over het aanpakken van problemen en om je medestudenten en mentor beter te leren kennen. Aanwezigheid is vereist.
+
+- Julien - https://zoom.us/j/7472354537
+- Natasja - https://us04web.zoom.us/j/3073718959
+- Edwin - https://us04web.zoom.us/j/9337054829
+- Floor - TBA
+- Nigel - https://zoom.us/j/2975989503
 
 
 ## Practicumuren
