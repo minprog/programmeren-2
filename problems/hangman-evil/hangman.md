@@ -283,13 +283,13 @@ Because the `Hangman` object does not interface directly with the user, it makes
 
 After having defined those constraints, you can formulate an assertion:
 
-    assert length > 0 and length < 10
+    assert length > [MIN] and length < [MAX]
 
-Putting this simple stament in your code will make sure that Python halts the program if at that point the assertion "fails".
+Putting this simple stament in your code will make sure that Python halts the program if at that point the assertion "fails". Of course, [MIN] and [MAX] should be replaced with the actual minimum and maximum values you want to enforce.
 
     class Hangman:
         def __init__(self, length, num_guesses):
-            assert length > 0 and length < 10
+            assert length > [MIN] and length < [MAX]
             # ... and here follows other code.
 
 Now if for some reason you (or someone else) tries to create a program that creates a Hangman object using a `length` of -5, Python will halt it immediately. You can then immediately see why it halted: the assertion failed, which means the parameter had an "impossible" value. You can than trace back **why** that parameter was -5 in the first place. Probably a mistake!
