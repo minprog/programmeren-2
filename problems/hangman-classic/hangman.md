@@ -271,19 +271,19 @@ Try it yourself! Most likely, your code will indeed try to create a hangman game
 
 Because the `Hangman` object does not interface directly with the user, it makes no sense for it to re-prompt the user for new input. However, it also makes no sense to just continue the program. It would only lead to errors further down the line. We can take this opportunity to proactively check for problems in our code. To do this, we use Python **assertions**. To create an assertion, we need to understand what would be *correct* input. We have two parameters that influence the inner workings of the Hangman object:
 
-- The parameter `length` is the length of a word to play Hangman with. Negative length is not going to work - and 0-length words will not lead to a working game either. Other options we have to think about a little bit harder: is a game for words of size 1 fun? Do 1-letter words even exist? You can check that yourself. The same goes for 2-letter words. And at the other end you could check that the `length` isn't much longer than say... 10?
+- The parameter `length` is the length of a word to play Hangman with. Negative length is not going to work - and 0-length words will not lead to a working game either. Other options we have to think about a little bit harder: is a game for words of size 1 fun? Do 1-letter words even exist? You can check that yourself. The same goes for 2-letter words. And at the other end you could check that the `length` isn't much longer than the maximum 'length' that corresponds with the longest word from the dictionary.
 
 - For `num_guesses` you should also think about what realistic input would be. But don't take it too far. We're mostly looking to constrain the parameters to *sane* values - values that make sure the program/algorithm will not crash and will provide the "right answer".
 
 After having defined those constraints, you can formulate an assertion:
 
-    assert length > 0 and length < 10
+    assert length > [MIN] and length < [MAX]
 
-Putting this simple stament in your code will make sure that Python halts the program if at that point the assertion "fails".
+Putting this simple stament in your code will make sure that Python halts the program if at that point the assertion "fails". Of course, [MIN] and [MAX] should be replaced with the actual minimum and maximum values you want to enforce.
 
     class Hangman:
         def __init__(self, length, num_guesses):
-            assert length > 0 and length < 10
+            assert length > [MIN] and length < [MAX]
             # ... and here follows other code.
 
 Now if for some reason you (or someone else) tries to create a program that creates a Hangman object using a `length` of -5, Python will halt it immediately. You can then immediately see why it halted: the assertion failed, which means the parameter had an "impossible" value. You can than trace back **why** that parameter was -5 in the first place. Probably a mistake!
