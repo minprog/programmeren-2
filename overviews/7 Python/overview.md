@@ -17,15 +17,15 @@ For information on (or help with) this module:
 
 ## What to Do
 
-#### 1. Preparations
+### 1. Preparations
 
 Watch the lecture on [Python](/lectures/python).
 
-#### 2. Sentimental
+### 2. Sentimental
 
 Implement [Sentimental](/problems/sentimental).
 
-#### 3. Bleep
+### 3. Bleep
 
 Implement [Bleep](/problems/bleep).
 
