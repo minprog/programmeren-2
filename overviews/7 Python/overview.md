@@ -29,9 +29,9 @@ Implement [Sentimental](/problems/sentimental).
 
 Implement [Bleep](/problems/bleep).
 
-#### 4. Submit
+### 4. Code review
 
-You can submit your solutions on the problem pages linked above. Before submitting, keep in mind the course's policy on [academic honesty](/syllabus#samenwerken-fraude-en-plagiaat) (like plagiarism).
+[Instructions](/reviews/python)
 
 
 ## Reference

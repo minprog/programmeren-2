@@ -17,11 +17,11 @@ For information on (or help with) this module:
 
 ## What to Do
 
-#### 1. Preparation
+### 1. Preparation
 
 Watch the lecture on [OOP](/lectures/oop).
 
-#### 2. Labs
+### 2. Labs
 
 1. If you haven't yet, create an account at [GitHub](https://github.com/join). For now, you'll only need it to access the Game of Cards exercises, but in later courses you'll be submitting your programs on this website!
 
@@ -29,7 +29,7 @@ Watch the lecture on [OOP](/lectures/oop).
 
 1. Practice with [Game of Cards](https://lab.cs50.io/minprog/programmeren-2/master/problems/cards/lab) and submit your solution.
 
-#### 3. Hangman
+### 3. Hangman
 
 Implement either of:
 
@@ -37,9 +37,9 @@ Implement either of:
 
 - [Evil Hangman](/problems/hangman-evil) (Hacker)
 
-#### 5. Code review
+### 4. Code review
 
-[Instructions](/reviews/adventure)
+[Instructions](/reviews/hangman)
 
 
 ## Reference

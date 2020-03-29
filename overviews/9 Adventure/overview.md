@@ -17,14 +17,16 @@ For information on (or help with) this module:
 
 ## What to Do
 
+### 1. Adventure
+
 Implement either of:
 
 - [Adventure](/problems/adventure-less)
-
 - [Adventure, Hacker edition](/problems/adventure-more)
 
-You can submit your solutions on the problem pages linked above. Before submitting, keep in mind the course's policy on [academic honesty](/syllabus#samenwerken-fraude-en-plagiaat) (like plagiarism).
+### 2. Code review
 
+[Instructions](/reviews/hangman)
 
 ## Reference
 
