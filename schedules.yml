@@ -79,10 +79,9 @@ Parttime Lente:
         Labs:
             Implement Queue: /problems/queue
             Implement Game of Cards: /problems/cards
-        Hangman:
-            "Implement either of:":
-                Classic Hangman: /problems/hangman-classic
-                Evil Hangman (Hacker): /problems/hangman-evil
+        "Implement either of:":
+            Classic Hangman: /problems/hangman-classic
+            Evil Hangman (Hacker): /problems/hangman-evil
         Code review: /reviews/hangman
     Module 8 - Adventure:
         Overview & Grading: /overviews/adventure
