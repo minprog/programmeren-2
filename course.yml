@@ -1,6 +1,6 @@
 name: Programmeren 2
 short_name: Prog2
-language: en
+language: nl
 
 links:
     '<img src="/course/info/book.svg" class="mr-1" style="vertical-align: -4px;" width="20" height="20"> CS50 Reference': https://man.cs50.io/
