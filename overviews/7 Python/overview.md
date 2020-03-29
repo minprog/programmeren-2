@@ -1,4 +1,4 @@
-# Module 7: Python
+# Python
 
 In this module, you'll learn about a new programming language called Python. It's used for things like conducting science as well as publishing interactive websites.
 
@@ -13,20 +13,6 @@ For information on (or help with) this module:
 
 3. Visit (or e-mail) the course's heads.
 {: start="0"}
-
-
-## Grading
-
-As soon as you have submitted working solutions for all problems below, your mentor will assess your programs, assign a grade for "quality", and provide you with some written feedback. This week, your programs will be primarily graded on:
-
-This week we focus on:
-
-- [Comments](/quality/comments)
-- [Naming](/quality/naming)
-- [Indenting code](/quality/indentation)
-- [Whitespace](/quality/whitespace)
-
-Don't forget to use `style50` to automatically suggest corrections for indentation and whitespace! However, `style50` is a very simple tool, so do not depend on it too much.
 
 
 ## What to Do

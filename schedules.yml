@@ -62,18 +62,23 @@ Fulltime:
 
 Parttime Lente:
     Module 5 - Mispellings:
-        Overview & Grading: /overviews/mispellings
-        "Lecture: Data Structures": /lectures/data-structures
-        Implement Speller: /problems/speller
+        Overview: /overviews/mispellings
+        Preparation:
+            "Lecture: Data Structures": /lectures/data-structures
+        Speller:
+            Implement Speller: /problems/speller
+            Big Board (optional): https://bigboard.quinner.nl/
         Code review: /reviews/mispellings
     Module 6 - Python:
-        Overview & Grading: /overviews/python
-        "Lecture: Python": /lectures/python
-        Implement Sentimental: /problems/sentimental
-        Implement Bleep: /problems/bleep
+        Overview: /overviews/python
+        Preparation:
+            "Lecture: Python": /lectures/python
+        Implement both:
+            Sentimental: /problems/sentimental
+            Bleep: /problems/bleep
         Code review: /reviews/python
     Module 7 - Hangman:
-        Overview & Grading: /overviews/hangman
+        Overview: /overviews/hangman
         Preparation:
             "Lecture: OOP": /lectures/oop
         Labs:
@@ -84,7 +89,7 @@ Parttime Lente:
             Evil Hangman (Hacker): /problems/hangman-evil
         Code review: /reviews/hangman
     Module 8 - Adventure:
-        Overview & Grading: /overviews/adventure
+        Overview: /overviews/adventure
         "Implement either of:":
             Adventure: /problems/adventure-less
             Adventure (Hacker): /problems/adventure-more

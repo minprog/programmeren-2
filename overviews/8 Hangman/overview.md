@@ -1,4 +1,4 @@
-# Module 8: Hangman
+# Hangman
 
 In this module, you'll implement a game while learning about object-oriented programming. This style of programming isn't available in C, but in Python, many people use it!
 
@@ -15,23 +15,11 @@ For information on (or help with) this module:
 {: start="0"}
 
 
-## Grading
-
-As soon as you have submitted working solutions for all problems below, your mentor will assess your programs, assign a grade for "quality", and provide you with some written feedback. This week, your programs will be primarily graded on:
-
-- [Magic numbers](/quality/magic-numbers)
-- [Loops](/quality/loops)
-- [Duplication](/quality/duplication)
-- [Nesting](/quality/nesting)
-
-And we'll also take these into account from last week: [comments](/quality/comments), [naming](/quality/naming), [indentation](/quality/indentation), [whitespace](/quality/whitespace).
-
-
 ## What to Do
 
 #### 1. Preparation
 
-1. Watch the lecture on [OOP](/lectures/oop).
+Watch the lecture on [OOP](/lectures/oop).
 
 #### 2. Labs
 
@@ -49,9 +37,9 @@ Implement either of:
 
 - [Evil Hangman](/problems/hangman-evil) (Hacker)
 
-#### 5. Submit
+#### 5. Code review
 
-You can submit your solutions on the problem pages linked above. Before submitting, keep in mind the course's policy on [academic honesty](/syllabus#samenwerken-fraude-en-plagiaat) (like plagiarism).
+[Instructions](/reviews/adventure)
 
 
 ## Reference

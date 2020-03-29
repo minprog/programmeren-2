@@ -1,4 +1,4 @@
-# Module 5: Mispellings
+# Mispellings
 
 In this module, you'll learn about data structures by implementing a spell checker in C.
 
@@ -16,23 +16,24 @@ For information on (or help with) this module:
 1. Visit (or e-mail) the course's heads.
 {: start="0"}
 
+
 ## What to Do
 
-#### 1. Preparation
+### 1. Preparation
 
 Watch [Lecture 5](/lectures/data-structures)
 
-#### 2. Speller
+### 2. Speller
 
 Implement [Speller](/problems/speller)
 
-#### 3. Big Board
+### 3. Big Board
 
 If you'd like to benchmark your code against classmates' solutions, upload it to the [Big Board](https://bigboard.quinner.nl/)
 
-#### 4. Submit
+### 4. Code review
 
-You can submit your solutions on the problem pages linked above. Before submitting, keep in mind the course's policy on [academic honesty](/syllabus#samenwerken-fraude-en-plagiaat) (like plagiarism).
+[Instructions](/reviews/adventure)
 
 
 ## Reference
