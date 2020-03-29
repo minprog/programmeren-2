@@ -371,15 +371,6 @@ check50 minprog/cs50x/2019/speller
 
 Note that `check50` will also check for memory leaks, so be sure you've run `valgrind` as well.
 
-== Staff's Solution
-
-How to assess just how fast (and correct) your code is? Well, as always, feel free to play with the staff's solution, as with the below, and compare its numbers against yours.
-
-[source]
-----
-~cs50/2019/x/pset4/speller dictionaries/large texts/lalaland.txt
-----
-
 == Big Board
 
 If you'd like to put your code to the test against classmates' code (just for fun), upload your solution to our https://bigboard.quinner.nl/[Big Board] website before or after you submit!
