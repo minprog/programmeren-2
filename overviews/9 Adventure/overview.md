@@ -26,7 +26,7 @@ Implement either of:
 
 ### 2. Code review
 
-[Instructions](/reviews/hangman)
+[Instructions](/reviews/adventure)
 
 ## Reference
 
