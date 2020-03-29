@@ -73,7 +73,7 @@ Parttime Lente:
         Overview: /overviews/python
         Preparation:
             "Lecture: Python": /lectures/python
-        Implement both:
+        "Implement both of:":
             Sentimental: /problems/sentimental
             Bleep: /problems/bleep
         Code review: /reviews/python
