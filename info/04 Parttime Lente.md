@@ -70,10 +70,10 @@ In videocolleges bespreekt David Malan van Harvard de theorie waarmee je program
 
 Werkgroepen zijn bijeenkomsten van zo'n 30--60 minuten met je mentor. In de werkgroepen krijg je de kans om samen de voortgang te bespreken, tips uit te wisselen over het aanpakken van problemen en om je medestudenten en mentor beter te leren kennen. Aanwezigheid is vereist.
 
-- Julien - https://zoom.us/j/7472354537
-- Natasja - https://zoom.us/j/3073718959
-- Edwin - https://zoom.us/j/9337054829
-- Floor - https://zoom.us/j/4973755130
+- Julien - maandag 12:00 - https://zoom.us/j/7472354537
+- Natasja - dinsdag 12:00 - https://zoom.us/j/3073718959
+- Edwin - woensdag 12:00 - https://zoom.us/j/9337054829
+- Floor - donderdag 12:00 - https://zoom.us/j/4973755130
 
 
 ## Hulp bij opdrachten
