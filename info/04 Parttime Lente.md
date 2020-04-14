@@ -51,8 +51,8 @@ Elke module moet normaal op de aangegeven deadline correct werkend ingeleverd zi
 
 | onderdeel | tijd    | deadline oplossing | deadline verbeterd |  
 | --------- | ------- | ------------------ | ------------------ |  
-| Module 5  | 2 weken | do  9 apr 17:59    | do 16 apr 17:59    |  
-| Module 6  | 1 week  | do 16 apr 17:59    | do 12 apr 17:59    |  
+| Module 5  | 2 weken | do  9 apr 17:59    | vr 17 apr 17:59    |  
+| Module 6  | 1 week  | do 16 apr 17:59    | vr 24 apr 17:59    |  
 | Module 7  | 2 weken | vr  8 mei 17:59    | vr 15 mei 17:59    |  
 | Module 8  | 2 weken | vr 22 mei 17:59    | vr 29 mei 17:59    |  
 
