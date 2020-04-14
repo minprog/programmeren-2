@@ -30,16 +30,16 @@ Let op! De assistenten kunnen meedenken over je voortgang maar zijn **niet** alt
 
 ## Cijfers
 
-Alle studenten moeten minimaal een geheel correcte oplossing voor elk opdracht inleveren, alle toetsjes halen en het tentamen halen om een voldoende te halen voor het vak, tenzij daarop een schriftelijke uitzondering is gegeven door de vakdocenten.
+Alle studenten moeten minimaal een geheel correcte oplossing voor elk opdracht inleveren en het tentamen halen om een voldoende te halen voor het vak, tenzij daarop een *schriftelijke* uitzondering is gegeven door de vakdocenten.
 
 Het eindcijfer voor deze cursus wordt bepaald door het aantal gescoorde punten voor elke module. De modules kunnen 1--6 punten opleveren, en voor elke module zijn diverse aspecten aangegeven op basis waarvan de punten voornamelijk (maar niet uitsluitend) worden bepaald. De schaal is als volgt:
 
-6. uitzonderlijk goed resultaat met doordacht ontwerp
-5. uitstekende kwaliteit op alle aspecten
-4. degelijke kwaliteit, met redelijk wat ruimte voor verbetering
-3. voldoende kwaliteit op de meeste aspecten, maar erg veel ruimte voor verbetering
-2. onvoldoende zichtbare aandacht voor de kwaliteitsaspecten
-1. enige aandacht voor een beperkt aantal aspecten
+6. uitzonderlijk goede kwaliteit op basis van een doordacht ontwerp
+5. zeer goede kwaliteit, beperkt ruimte voor verbetering
+4. degelijke kwaliteit op de genoemde aspecten, met ruimte voor verbetering
+3. net voldoende aandacht voor de genoemde aspecten, erg veel ruimte voor verbetering
+2. enige zichtbare aandacht voor een beperkt aantal aspecten
+1. onvoldoende zichtbare aandacht voor de kwaliteitsaspecten
 {: start="6" reversed=""}
 
 Op basis van bovenstaand schema is de maximumscore voor deze cursus 24 punten (4 modules x 6 punten). Deze uiteindelijke score wordt omgerekend naar een cijfer tussen 1 en 10, zoals gebruikelijk. Daarnaast kan het doen van alle "hacker"-onderdelen van een opdracht, indien beschikbaar, een extra punt voor een module opleveren. Het tentamen levert geen punten op voor het eindcijfer, maar moet wel gehaald worden.
