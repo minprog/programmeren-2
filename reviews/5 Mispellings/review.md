@@ -6,24 +6,28 @@ In order to keep the task within reasonable limits, for each module we will prov
 
 ## What to do
 
-1. For this module, you will assess and improve your code along just two criteria:
+1.  For this module, you will assess and improve your code along just two criteria:
 
     - Style: can someone easily read your code and infer the underlying structure?
+	    - Is your choice of indentation etc. applied consistently?
+	    - Are your comments well-written and appropriately placed?
+	    - (and everything you learned previously)
     - Design: is your solution well thought-out and elegant?
+	    - Does the code make good use of everything the language has to offer?
+	    - Are parts of the code as simple as possible?
+	    - Is the whole of the code as simple as possible? (trade-off!)
+	    - (you previously learned about things to keep an eye on, such as excessive nesting)
 
-2. Then, you should find a partner to do code reviews with. You will review their code on the criteria above, and they will review your code.
+2.  Then, you should find a partner to do code reviews with. You will review their code on the criteria above, and they will review your code.
+
+3.  Finally, **improve your programs** by considering the feedback that you got in the review.
 
 ## What to submit
 
-Below, you will submit improved versions of your programs. These are only the "standard" editions of the problems, not the "hacker" editions.
+Below, you will submit improved versions of your programs. In addition, you are going to document who helped you review your code and what changes you made in response to the review. That information is needed for grading!
 
-In addition, you will need to submit a file called **changes.txt**:
+Which student(s) contributed to reviewing your code?
+<input name="form[reviewers]" type="text" required>
 
-- write down the names of one or more students who reviewed your code
-- describe in detail what changes you made to the problems with respect to how you have submitted them earlier on
-
-## Grading
-
-After the code reviews, your mentor will assess your programs, assign a grade for quality, and provide you with some written feedback.
-
-Note that the mentor feedback will never be "everything" that can be improved, but a small sample. When you receive it, compare it to the ideas that you got during your own code review, and think how you could improve on your review next time.
+What changes did you make to your code in response to the reviews and feedback that you received?
+<textarea name="form[changes]" rows="8" required></textarea>
