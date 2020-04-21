@@ -1,6 +1,5 @@
 name: m8a
 files:
     required:
-        - changes.txt
         - adventure.py
         - room.py

@@ -1,7 +1,6 @@
 name: m7a
 files:
     required:
-        - changes.txt
         - queue.py
         - cardgame.py
         - hangman.py
