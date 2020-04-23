@@ -33,7 +33,7 @@ If you'd like to benchmark your code against classmates' solutions, upload it to
 
 ### 4. Code review
 
-[Instructions](/reviews/adventure)
+[Instructions](/reviews/mispellings)
 
 
 ## Reference
