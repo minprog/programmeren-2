@@ -1,0 +1,12 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = https://github.com/minprog/cs50x.git
+	branch = 2020
+	commit = 9ba83d05c79e86ca0ca8c6dadb2dd74c6b42637f
+	parent = 239e6cd2f548b77931886f48d922913f1d66f0a0
+	method = merge
+	cmdver = 0.4.1
