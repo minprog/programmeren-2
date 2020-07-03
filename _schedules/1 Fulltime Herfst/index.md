@@ -1,6 +1,6 @@
-# Programmeren 2
+# Fulltime Programmeren 2
 
-## Studiewijzer Fulltime<br><small>Herfst 2020</small>
+## Studiewijzer<br><small>Herfst 2020</small>
 
 > "Introduction to the intellectual enterprises of computer science and the art of programming. This course teaches you how to think algorithmically and solve problems efficiently. Topics include abstraction, algorithms, data structures, encapsulation, resource management, security, software engineering, and web development. Languages include C, Python and SQL plus CSS and HTML. Problem sets inspired by real-world domains of biology, cryptography, finance, forensics, and gaming. Designed for concentrators and non-concentrators alike, with or without prior programming experience." --- CS50 at Harvard.
 
