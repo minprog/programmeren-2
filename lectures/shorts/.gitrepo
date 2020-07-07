@@ -1,0 +1,12 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = https://github.com/minprog/cs50-shorts.git
+	branch = main
+	commit = e8735a799662ab56f71654df63b481a25d12c371
+	parent = b598edcc9f0f88f865c4be6d4cba55c8ab527ba5
+	method = merge
+	cmdver = 0.4.1
