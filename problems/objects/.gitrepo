@@ -6,7 +6,7 @@
 [subrepo]
 	remote = https://github.com/minprog/objects.git
 	branch = master
-	commit = 8a29532689aacb860576021b507b22785b6e6fd8
-	parent = 6dfa58d1862d34a5c6c5acd071982dbcce180155
+	commit = 4b7fac35759153b0f9eeaadaab8822256d7018da
+	parent = ab69401b7b5cb4a6fe3e2bb5c48fb8c960a2885c
 	method = merge
 	cmdver = 0.4.1
