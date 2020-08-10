@@ -2,131 +2,206 @@
 
 ## Studiewijzer<br><small>Herfst 2020</small>
 
-> "Introduction to the intellectual enterprises of computer science and the art of programming. This course teaches you how to think algorithmically and solve problems efficiently. Topics include abstraction, algorithms, data structures, encapsulation, resource management, security, software engineering, and web development. Languages include C, Python and SQL plus CSS and HTML. Problem sets inspired by real-world domains of biology, cryptography, finance, forensics, and gaming. Designed for concentrators and non-concentrators alike, with or without prior programming experience." --- CS50 at Harvard.
+> "Introduction to the intellectual enterprises of computer science and the art of programming. This course teaches you how to think algorithmically and solve problems efficiently. Topics include abstraction, algorithms, data structures, encapsulation, resource management, security, software engineering, and web development. Languages include Scratch, C and Python. Problem sets inspired by real-world domains of biology, cryptography, finance, forensics, and gaming. Designed for concentrators and non-concentrators alike, with or without prior programming experience." --- CS50 at Harvard.
 
 
-## Docenten
+## Mentor
 
-Je docenten zijn Martijn Stegeman (coördinator), Simon Pauw, en Wouter Vrielink. Assistenten zijn Marijn Jansen, Natasja Wezel, Quinten van der Post, Sam Verhezen, Rebecca Davidsson, Miguel Pieters, Jasper den Duijf, Emma Hokken, Bram van den Heuvel, Lotte Heek, Julia Anten en Kiki van Rongen.
+Je wordt bij dit vak ingedeeld in een mentorgroep met 8--10 andere studenten. Je mentor is een ouderejaars student of een docent die alles over onze cursus weet. Je mentor helpt je wegwijs maken, doet voor hoe je het beste de opdrachten kunt aanpakken, kijkt je werk na, en kan jouw vragen over de organisatie van het vak beantwoorden. Je maakt kennis met je mentor tijdens de eerste bijeenkomst.
+
+| Groep | Mentor | Link voor werkgroep |
+| ----- | ------ | ------------------- |
+| A     |        |                     |
+| B     |        |                     |
+| C     |        |                     |
+| D     |        |                     |
+| E     |        |                     |
+
+Docenten zijn Jelle van Assema en Martijn Stegeman. Zij geven het vak vorm en verzorgen de organisatie. Je kunt ze bereiken via e-mail op <help@mprog.nl>.
 
 
-## Activiteiten
+## Opdrachten
 
-Om de cursus tot een goed einde te brengen, verwachten we dat je:
+In dit vak ga je verreweg de meeste tijd besteden aan het oplossen van programmeerproblemen. Het vak bestaat uit vijf modules die weer bestaan uit enkele opdrachten. Je werkt steeds volgens dit proces:
 
-- alle hoorcolleges bekijkt,
-- alle werkgroepen bijwoont,
-- het electronica-practicum doet,
-- alle uren aanwezig bent in het lab,
-- alle opdrachten volledig uitgewerkt instuurt, en
-- het tentamen maakt en haalt.
+![](../proces.png)
+
+Iedere week tijdens de werkgroepen neemt je mentor het initiatief om te kijken wie gaat samenwerken en met welke partner. Code reviews zijn per definitie altijd met een andere student en je mentor zal zorgen dat er gerouleerd wordt. Zo doe je ervaring op met verschillende manieren om de opdrachten uit te werken en met verschillende ideeën rondom goede stijl.
 
 
 ## Vragen stellen
 
-Het team van deze cursus bestaat uit je docenten en een heleboel studentassistenten. We sporen je aan om in het lab goed gebruik te maken van de mogelijkheid deze mensen te spreken en van ze te leren. Zij staan voor je klaar om je te helpen met het oplossen van programmeerproblemen en het beantwoorden van vragen over de stof.
+Tijdens dit vak zul je vaak de hulp inroepen van de assistenten en medestudenten. Er zijn vier belangrijke opties voor het stellen van vragen. De beste optie hangt af van het soort vraag dat je wil stellen.
 
-Heb je een schriftelijke vraag, bijvoorbeeld omdat je een uitzondering nodig hebt? Stuur gerust een e-mail naar de docenten op <help@mprog.nl>.
+1. Heb je vragen over hoe de cursus werkt, hoe je een vraag moet stellen, problemen met je computer of andere dingen die niet per se met de opdrachten te maken hebben, dan kun je deze het beste eerst stellen op de [Slack](/slack) van je mentorgroep. Je medestudenten en mentor denken met je mee. (Let op dat je mentor zeker niet 24/7 beschikbaar kan zijn, dus wees bescheiden.)
+2. Voor vragen over de stof, hulp met programmeren, technische ondersteuning, plaats je zoveel mogelijk een vraag op [Ed](https://us.edstem.org/courses/365). Dit forum is online en altijd beschikbaar. Medestudenten en assistenten zullen zoveel mogelijk vragen beantwoorden.
+3. Als je niet weet hoe je een vraag moet stellen of je weet niet waar je moet beginnen met het implementeren van je opdracht, dan is er video-assistentie. De assistentie is beschikbaar van maandag t/m vrijdag tussen 13 en 17 uur, en aanvragen doe je via deze website <svg class="bi" width="16" height="16" fill="currentColor"><use xlink:href="/icons/bootstrap-icons.svg#question-circle-fill"/></svg>. Let op dat het rondom deadlines vaak erg druk is en dat de wachttijd kan oplopen!
+4. Voor het maken van persoonlijke planningsafspraken en het op de hoogte houden van de docenten over later inleveren stuur je een officiële mail naar <help@mprog.nl>.
+
+<details markdown="1"><summary markdown="span">Kom je helemaal niet verder en heb je even geen hulp?</summary>
+
+- Neem een halfuurtje echt even afstand van je computer; dit helpt je brein afstand nemen van het probleem. Met een frisse blik kom je dan toch weer verder.
+
+- Ga even door met de volgende opdracht van de module om te kijken hoe je daar mee gaat.
+
+- Of ga oefenen in het basisboek, want dit staat helemaal los van de opdrachten.
+</details>
 
 
-## Cijfers
+## Verwachtingen
 
-Alle studenten moeten minimaal een geheel correcte oplossing voor elk opdracht inleveren en het tentamen halen om een voldoende te halen voor het vak, tenzij daarop een schriftelijke uitzondering is gegeven door de vakdocenten.
+Om het vak te kunnen halen is het nodig dat je:
 
-Het eindcijfer voor deze cursus wordt bepaald door het aantal gescoorde punten voor elke module. De modules kunnen 1--5 punten opleveren, en voor elke module zijn diverse aspecten aangegeven op basis waarvan de punten voornamelijk (maar niet uitsluitend) worden bepaald. De schaal is als volgt:
+- alle **opdrachten** volgens bovenstaande proces maakt en inlevert,
+- alle **videocolleges** bekijkt ter voorbereiding van de opdrachten,
+- alle **werkgroepen** met je mentor bijwoont,
+- alle dagen om 9:30 uur een **checkup** doet met je mentorgroep,
+- alle **oefenopdrachten** doet,
+- laag scoort op de **plagiaatschaal**, en
+- tijdig **hulp** zoekt bij de medewerkers van de minor.
 
-5. uitzonderlijk goed resultaat met doordacht ontwerp
-4. goed resultaat op alle aspecten
-3. zichtbare aandacht voor alle aspecten, goed resultaat op sommige
-2. zichtbare aandacht voor de meeste aspecten
-1. zichtbare aandacht voor een beperkt aantal aspecten
-{: start="5" reversed=""}
+Studenten moeten minimaal aan bovenstaande **minimumeisen** voldoen om een voldoende te halen voor het vak. Dat moet goed te doen zijn! Is er een reden dat je niet aan een minimum kunt voldoen, dan moet je een *schriftelijke* uitzondering vragen aan de vakdocenten. We zullen daarin heel redelijk zijn.
 
-Op basis van bovenstaand schema is de maximumscore voor deze cursus 20 punten (4 modules x 5 punten). Deze score wordt omgerekend naar een cijfer tussen 1 en 10, zoals gebruikelijk. Daarnaast kan het doen van een "hacker edition" van een module, indien beschikbaar, een extra punt opleveren. Het tentamen levert geen punten op voor het eindcijfer, maar moet wel gehaald worden.
+Alle opdrachten worden wekelijks onderling en met eerdere inzendingen vergeleken met behulp van een detectieprogramma. De uitslag noemen we de **plagiaatschaal**. Scoor je hoog op de schaal dan spreek je op korte termijn met één van de docenten die je zal voorlichten en helpen met de beste aanpak voor dit vak. De ervaring leert dat je niet hoog scoort op de plagiaatschaal als je niet naar andermans uitwerkingen kijkt bij het maken van je eigen uitwerking. Maak je er dus geen zorgen over; ons doel is je te helpen dit te voorkomen.
+
+Dit vak kent een **mondeling tentamen** dat na inleveren van de laatste opdracht op afspraak afgenomen kan worden. Scoor je systematisch laag op de plagiaatschaal, dan krijg je vrijstelling van het tentamen, omdat we dan voldoende informatie hebben om tot een eindoordeel te kunnen komen. Het mondeling bestaat uit het uitgebreid doorspreken van één of meer opdrachten, waarbij jij kunt uitleggen hoe je programma's precies werken en laten zien hoe je bepaalde aanpassingen zou kunnen doen.
+
+
+## Uitzonderingen in tijden van Corona
+
+Bij een fulltimecursus is het missen van een aantal dagen nogal lastig om in te halen, laat staan enkele weken. We hebben enige ruimte ingebouwd om met jou een persoonlijke planning af te kunnen spreken in gevallen van nood. Het enige dat je hoeft te doen is je bij ziekte direct te **melden** bij je mentor, en je **nogmaals** melden zodra je weer zo fit bent dat je kunt programmeren. Ben je langer dan een paar dagen ziek, neem dan zelf niet alleen contact op met je mentor, maar ook met de docenten.
 
 
 ## Deadlines
 
-Elke module moet op de vooraf bepaalde deadline ingeleverd zijn. Een **voorlopig** schema van deadlines vind je hieronder. Alle deadlines zijn om 23:59 op de genoemde datum.
+Elke module moet op de vooraf bepaalde deadline volledig werkend ingeleverd zijn, waarbij de correcte werking automatisch wordt getest met `check50`. Daarna volgt een deadline waarvoor je je werkende programma's verbetert en nogmaals inlevert.
 
-| deadline  | fulltime  |  
-| --------- | --------- |  
-| Module 6  | vr  4 okt |  
-| Module 7  | vr  4 okt |  
-| Module 8  | wo  9 okt |  
-| Module 9  | vr 18 okt |  
-| Module 10 | do 24 okt |  
+| onderdeel | deadline oplossing | deadline verbeterd | telt mee |  
+| --------- | ------------------ | ------------------ | -------- |
+| Module 5  | do  1 okt  20:59   | ma  5 okt  20:59   | 25%      |  
+| Module 6  | do  8 okt  20:59   | ma 12 okt  20:59   | 25%      |  
+| Module 7  | do 15 okt  20:59   | ma 19 okt  20:59   | 25%      |  
+| Module 8  | do 22 okt  20:59   | vr 23 okt  20:59   | 25%      |  
 
-In het geval van planningsproblemen of ziekte is het mogelijk de deadline met 1 tot 3 dagen op te schuiven, in ruil voor een bescheiden puntenaftrek. Dit gaat volledig automatisch bij later inleveren en hoeft dus in beginsel niet gemeld te worden. Toch is het verstandig om je mentor aan te spreken om te overleggen of advies te vragen over het halen van verdere deadlines.
+<details markdown="1"><summary markdown="span">Wat als ik ziek ben of achterloop?</summary>
 
-| uitstel          | aftrek   |  
-| ---------------- | -------- |  
-| maximaal 1 dag   | 1/2 punt |  
-| maximaal 3 dagen | 1 punt   |  
+In het geval van planningsproblemen of een dag ziek zijn kun je in overleg met je mentor de deadline één of twee dagen opschuiven. Je opdracht wordt dan gewoon nagekeken. Breng altijd direct je mentor op de hoogte en vraag om advies over het halen van verdere deadlines. Systematisch achterlopen is niet mogelijk.
 
-Nog later ingeleverd werk kan normaliter niet geaccepteerd worden, behalve bij medische noodgevallen. In dat geval is het noodzakelijk om direct contact op te nemen met de docenten, maar zeker vóór je doorgaat met werken aan de opdrachten.
+Nog later ingeleverd werk kan normaliter niet geaccepteerd worden, behalve in medische noodgevallen. Dat betekent dat je het vak niet kunt halen als je het tempo echt niet bijhoudt. In dat geval is het noodzakelijk om direct contact op te nemen met de docenten via <help@mprog.nl>, maar zeker vóór je doorgaat met werken aan de opdrachten. Vaak zijn er nog wel oplossingen te verzinnen.
 
-
-## Hoorcolleges
-
-In hoorcolleges bespreekt David Malan van Harvard de theorie waarmee je programmeerproblemen kunt oplossen. Kijk de video's vóór of onderweg naar het lab, zodat je je tijd in het lab goed kan gebruiken voor programmeren en vragen stellen.
+Raak je helemaal uit tempo? Dan kun je overwegen om de stap naar Parttime te zetten. Het is belangrijk dat je dit snel bespreekt met één van de docenten. Zij kunnen je hierover adviseren.
+</details>
 
 
-## Werkgroepen
+## Cijfers
 
-Werkgroepen zijn bijeenkomsten van zo'n 30--60 minuten met je mentor. In de werkgroepen krijg je de kans om samen de voortgang te bespreken, tips uit te wisselen over het aanpakken van problemen en om je medestudenten en mentor beter te leren kennen. Aanwezigheid is vereist.
+Modules 1 t/m 4 kunnen elk 0--6 punten opleveren. Voor elke module zijn diverse aspecten aangegeven op basis waarvan de punten voornamelijk (maar niet uitsluitend) worden bepaald.
+De aspecten gaan over *codekwaliteit*, waarover je in module 1 meer leert. De schaal is als volgt:
+
+6. uitzonderlijk goede kwaliteit op basis van een doordacht ontwerp
+5. zeer goede kwaliteit, beperkt ruimte voor verbetering
+4. degelijke kwaliteit op de genoemde aspecten, met ruimte voor verbetering
+3. net voldoende aandacht voor de genoemde aspecten, erg veel ruimte voor verbetering
+2. enige zichtbare aandacht voor een beperkt aantal aspecten
+1. onvoldoende zichtbare aandacht voor de kwaliteitsaspecten
+0. niet genoeg code om te beoordelen
+{: start="6" reversed=""}
+
+<!-- Bij later inleveren voor de **oplossingsdeadline** geldt de volgende aftrek:
+
+| uitstel          | aftrek                            |
+| ---------------- | --------------------------------- |
+| maximaal 1 dag   | 1/2 punt, en hacker telt niet mee |
+| maximaal 3 dagen | 1 punt                            |   -->
+
+### Eindcijfer
+
+Het eindcijfer voor deze cursus wordt bepaald door het totaal aantal punten voor de modules. De puntenscore leidt tot een cijfer tussen 1 en 10, afgerond op halven, zoals gebruikelijk. Dat komt neer op de volgende weging tussen de modules:
+
+| onderdeel | telt mee |  
+| --------- | -------- |
+| Module 5  | 25%      |  
+| Module 6  | 25%      |  
+| Module 7  | 25%      |  
+| Module 8  | 25%      |  
+
+<!-- Toetsjes leveren geen punten op voor het eindcijfer, maar moeten wel gehaald worden. -->
+
+### Hackerpunten
+
+Voor veel opdrachten bieden we ook een zogenaamde "hackerversie" aan. Deze is bedoeld voor studenten die zich wat comfortabeler voelen met programmeren en extra uitdaging zoeken. Wil je die inleveren, zorg dan dat je éérst de normale versie van de opdracht maakt en inlevert. Dat is namelijk de versie die beoordeeld zal worden en waarmee je een review doet.
+
+Toch kan het leuk zijn om de hackerversies te doen, omdat het uitdagende puzzels zijn waar je veel van leert. Je krijgt 1 punt extra als je voor een module **alle** hackerversies hebt ingeleverd, omdat ze moeilijker zijn en je vaak ook meer code schrijft. Let daarbij dus op dat je zowel de normale versies als de hackerversies van de opdrachten inlevert.
+
+Het is niet mogelijk om via video-assistentie hulp te krijgen voor de hackeropdrachten. Wel kun je er vragen over stellen via Ed.
 
 
-## Practicumuren
+## Onderdelen
 
-Tijdens de practicumuren, dagelijks van 9 tot 17 uur, kun je terecht in het programmeerlab voor het werken aan je opdrachten, uitwisselen van ideeën met medestudenten en het stellen van vragen aan studentassistenten.
+### Hoorcolleges
 
+In hoorcolleges bespreekt David Malan van Harvard de theorie waarmee je programmeerproblemen kunt oplossen en die je voorbereidt op de oefeningen. De video's zijn een voorbereiding op de opdrachten en bevatten allerlei voorbeelden die je vaak direct kunt toepassen. <!-- Kijk de video's vóór of onderweg naar het lab, zodat je je tijd in het lab goed kan gebruiken voor programmeren en vragen stellen. -->
 
-## Boeken
+### Werkgroepen
 
-Er zijn geen boeken benodigd voor deze cursus. Wil je de stof een keer op een andere manier benaderen, dan vind je in de volgende boeken wellicht wat je zoekt:
+Werkgroepen zijn bijeenkomsten van zo'n 30--60 minuten met je mentor. In de werkgroepen krijg je de kans om samen de voortgang te bespreken, de oefeningen door te nemen, tips uit te wisselen over het aanpakken van problemen en om je medestudenten en mentor beter te leren kennen. Gebruik van camera is vereist (laat weten als je omgeving niet geschikt is om te kunnen videobellen, dan kijken we of we een alternatieve werkplek kunnen vinden).
 
-*For Those Less Comfortable*
+### Oefeningen
 
-C Programming Absolute Beginner's Guide, Third Edition  
-Greg Perry, Dean Miller  
-Pearson Education, 2014  
-ISBN 9780789751980
+Wekelijks zijn er oefeningen waarin de stof van de vorige weken wordt herhaald en aangescherpt. Gedeeltelijk studeer je in het [Basisboek Programmeren](https://www.stgm.nl/basics/) dat vrij beschikbaar is. De resterende oefeningen zijn te vinden op deze website. Jouw antwoorden op de oefeningen worden doorgenomen tijdens de werkgroepen.
 
-*For Those More Comfortable*
+### Werkuren
 
-Programming in C, Fourth Edition  
-Stephen G. Kochan  
-Pearson Education, 2015  
-ISBN 9780321776419
+Tijdens de werkuren, dagelijks van 9 tot 17 uur, word je geacht te werken aan dit vak. Je ontwerpt en programmeert dan aan je opdrachten en je wisselt ideeën en oefeningen uit met de studenten uit je mentorgroep. Let daarbij wel op dat je op een "redelijke" manier samenwerkt, zoals vermeld aan het einde van deze studiewijzer.
+
+### Checkup
+
+Elke dag om 9:30 doe je een video-checkup met je mentorgroep, maar zonder je mentor. Daarbij laat je weten hoe je ervoor staat met je opdracht, waar je aan gewerkt hebt en vooral waar je vandaag aan wil werken. Je kunt ook om advies vragen over je aanpak, bijvoorbeeld als je vastzit. Misschien is er een groepsgenoot die hetzelfde probleem al is tegengekomen.
 
 
 ## Herkansingen
 
-Het opnieuw insturen van modules is niet meer mogelijk na de deadline of zodra deze zijn nagekeken. Haal je de cursus niet doordat je onvoldoendes hebt voor enkele opdrachten, dan gelden de volgende regels voor herkansing:
+Onderstaande regelingen zijn wat streng geformuleerd, maar het is niet de bedoeling dat ze echt nodig zijn! Als je doorzet en de opdrachten afmaakt dan zou je de cursus gewoon moeten halen. Maak je er dus niet teveel zorgen over, maar neem wel direct contact op met de docenten (niet de assistenten) als je denkt dat je in de problemen komt met de planning en/of je cijfers. Wij hebben veel ervaring en kunnen je adviseren!
 
-- Opnieuw insturen van opdrachten kan pas in het volgende semester.
+<details markdown="1"><summary markdown="span">Ik heb alles werkend, maar sta een onvoldoende en wil herkansen</summary>
 
-- Alle modules die onvoldoende waren moeten opnieuw ingestuurd worden en krijgen een nieuw cijfer.
+  - Alle modules, ook die voldoende waren, moeten opnieuw worden ingeleverd.
 
-- Modules die voldoende waren mogen niet opnieuw worden ingestuurd. Het oude cijfer blijft staan.
+  - Alle programma's moeten verbeterd worden ten aanzien van de kwaliteitsaspecten.
 
-- Alle opdrachten uit een module moeten opnieuw worden ingestuurd en moeten werken zonder bugs.
+  - Het maximumcijfer is in dit geval een 6.0 en wordt alleen toegekend als alle programma's aantoonbaar van voldoende kwaliteit zijn (waarmee je aantoont het betreffende leerdoel gehaald te hebben).
+</details>
 
-- Herinzendingen moeten volledig gedaan zijn vóór een eventuele herkansing van het tentamen.
+<details markdown="1"><summary markdown="span">Ik heb een opdracht niet werkend ingeleverd en wil herkansen</summary>
+  - Herkansen kan pas vanaf het eerstvolgende semester waarin het vak wordt gegeven.
 
-- Opdrachten kunnen niet voor een derde keer herkanst worden.
+  - Alle modules die niet af waren (en dus niet beoordeeld) moeten opnieuw of alsnog worden ingeleverd.
+
+  - Modules die af en beoordeeld waren mogen niet opnieuw worden ingestuurd. Het oude cijfer blijft staan, met uitzondering van opdrachten die zijn vervangen door nieuwe.
+
+  - Vernieuwde opdrachten moeten op moment van herkansen gewoon gedaan worden.
+
+  - Alle nieuwe beoordelingen vinden plaats zoals gangbaar op het moment van herkansen.
+</details>
+
+<details markdown="1"><summary markdown="span">Ik heb niet aan de minimumeisen voldaan en wil herkansen</summary>
+  - Herkansen kan pas vanaf het eerstvolgende semester waarin het vak wordt gegeven.
+
+  - Er moet een concrete afspraak zijn over het inhalen van minimumeisen vóór je start. Neem hiervoor contact op met de docenten.
+</details>
+
+<!-- - Alle toetsjes moeten opnieuw gedaan worden indien de samenstelling inmiddels is veranderd. -->
 
 
 ## Samenwerken, fraude en plagiaat
 
-"Wees redelijk", dat is kort samengevat het beleid van dit vak. We realiseren ons dat het nuttig is om interactie te hebben met je klasgenoten en dat dit kan helpen bij het beheersen van de stof. Natuurlijk is er een grens tussen het vragen van hulp aan een ander en het inleveren van werk van een ander. Hier karakteriseren we beide kanten van die grens.
+"Wees redelijk" is kort samengevat het beleid van dit vak. Natuurlijk is het nuttig om interactie te hebben met je medestudenten en dat dit kan helpen bij het beheersen van de stof. Nog sterker, we stimuleren dit door je te vragen samen een ontwerp te maken van je programma's vóórdat je ze zelfstandig implementeert. Maar er is een grens tussen het vragen van hulp aan een ander en het inleveren van werk van een ander. Hier karakteriseren we beide kanten van die grens.
 
-De essentie van alles wat je inlevert moet van jou zijn. Je mag niet samenwerken aan de opdracht. Met als uitzondering dat je klasgenoten en anderen voor hulp mag vragen, zolang dat er niet op neer komt dat een ander het werk voor jou doet. Over het algemeen, als je vraagt om hulp, mag je jouw code laten zien, maar kijk je niet naar de code van een ander.
+De essentie van alles wat je inlevert moet van jou afkomstig zijn. Je mag niet samenwerken aan de *implementatie* van je programma's. Uitzondering is dat je klasgenoten en anderen om hulp mag vragen, zolang dat er niet op neer komt dat een ander een deel van het werk voor jou doet. Over het algemeen mag je, als je om hulp vraagt, jouw code laten zien, maar kijk je niet naar de code van een ander. Je laat je dus ook niks voorzeggen.
 
-Hieronder vind je een incomplete lijst van voorbeelden die een beeld schetsen van welke handelingen we als redelijk en onredelijk bestempelen. Twijfel je of een handeling redelijk is, wacht dan tot je geschreven toestemming hebt gekregen van een docent. Onredelijke handelingen worden streng afgehandeld.
+Hieronder vind je een incomplete lijst van voorbeelden die een beeld schetsen van welke handelingen we als redelijk en onredelijk bestempelen. Twijfel je of een handeling redelijk is, vraag het, en wacht tot je per e-mail toestemming hebt gekregen van een docent. Als je onredelijk handelt dan zal dit leiden tot een melding bij de examencommissie.
 
-## Redelijk
+<details markdown="1"><summary markdown="span">Voorbeelden van **redelijke** acties</summary>
 
 * Praten met je klasgenoten over de opdrachten in het Nederlands (of een ander gesproken taal).
 
@@ -149,8 +224,9 @@ Hieronder vind je een incomplete lijst van voorbeelden die een beeld schetsen va
 * Het uittekenen of uitwerken van oplossingen op een whiteboard door middel van diagrammen of pseudocode, maar niet "echte" code.
 
 * Werken met (en zelfs betalen voor) een tutor om je te helpen met het vak, gegeven dat de tutor niet het werk voor je doet.
+</details>
 
-## Onredelijk
+<details markdown="1"><summary markdown="span">Voorbeelden van **onredelijke** acties</summary>
 
 * Een oplossing van een opdracht inzien voordat je jouw opdracht hebt ingeleverd.
 
@@ -177,5 +253,6 @@ Hieronder vind je een incomplete lijst van voorbeelden die een beeld schetsen va
 * Het inleveren van werk voor dit vak, waarbij je intentie is om dit ook ergens anders voor in te zetten (zeg voor een baan), zonder daar eerst toestemming voor te hebben gekregen van een docent.
 
 * Naar de oplossing voor een opdracht van iemand anders kijken, en vervolgens jouw oplossing daarop baseren.
+</details>
 
-In alle gevallen volgen we de [plagiaatregeling](http://uva.nl/plagiaat) van de Universiteit van Amsterdam en de richtlijnen voor de Bachelor Informatica/Minor Programmeren.
+In alle gevallen volgen we de [plagiaatregeling](http://uva.nl/plagiaat) van de Universiteit van Amsterdam en de richtlijnen van de examencommissie voor de Minor Programmeren.
