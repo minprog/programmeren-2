@@ -6,7 +6,7 @@
 [subrepo]
 	remote = https://github.com/minprog/cs50-shorts.git
 	branch = main
-	commit = e8735a799662ab56f71654df63b481a25d12c371
-	parent = b598edcc9f0f88f865c4be6d4cba55c8ab527ba5
+	commit = f79b53dc4060d8a10574b1d65fd9c0434cd0227c
+	parent = 5cb514a704e53be866053beced7be6d047c2d2e7
 	method = merge
 	cmdver = 0.4.1
