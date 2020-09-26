@@ -1,5 +1,5 @@
-name: crypto
+name: caesar2
 files:
     required:
+        - initials.c
         - caesar.c
-        - vigenere.c

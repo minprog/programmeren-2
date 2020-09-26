@@ -1,5 +1,4 @@
-name: fifteen
+name: find
 files:
     required:
         - helpers.c
-        - fifteen.c
