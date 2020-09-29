@@ -1,0 +1,8 @@
+name: speller
+files:
+    required:
+        - dictionary.c
+        - dictionary.h
+check:
+    tool: check50
+    slug: minprog/cs50x/2020/speller

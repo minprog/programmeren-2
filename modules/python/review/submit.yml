@@ -1,6 +1,0 @@
-name: python
-files:
-    required:
-        - greedy.py
-        - readability.py
-        - dna.py

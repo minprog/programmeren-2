@@ -1,8 +1,0 @@
-name: caesar
-files:
-    required:
-        - analysis.pdf
-        - caesar.c
-check:
-    tool: check50
-    slug: minprog/cs50x/2020/caesar
