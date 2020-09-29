@@ -1,4 +1,4 @@
-# Code review: Data
+# Code review: Genetics
 
 Learning to assess your own code, and finding ways to improve it, is an important part of learning to program. For each module, you will do a code review with one or more other students. Here, you will give each other feedback and advice on improving your code.
 
@@ -14,7 +14,7 @@ In order to keep the task within reasonable limits, for each module we will prov
     - [Cleanup](/quality/aspects/python/cleanup)
     - [Nesting](/quality/aspects/python/nesting)
     - [Loops](/quality/aspects/python/loops)
-    - [Scope](/quality/aspects/python/scope) (NEW!)
+    - [Scope](/quality/aspects/python/scope)
 
 2.  Before you start, don't forget to use `style50` to automatically suggest corrections for indentation and whitespace! However, `style50` is a very simple tool, so do not depend on it too much. And feel free to ignore the suggestions if you feel your code's layout is more consistent like it is.
 

@@ -1,0 +1,5 @@
+name: genetics
+files:
+    required:
+        - bleep.py
+        - climate.ipynb

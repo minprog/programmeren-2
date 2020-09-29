@@ -1,4 +1,4 @@
-# Retrospective: Data
+# Retrospective: Genetics
 
 > Warning: the retrospective is linked to the formal **feedback** that you receive from the staff. Wait until feedback is published (it may take a while!) and then complete the retrospective below.
 {:.bg-warning}
@@ -25,7 +25,7 @@ For this module you reviewed your code using the following aspects:
 - [Cleanup](/quality/aspects/python/cleanup)
 - [Nesting](/quality/aspects/python/nesting)
 - [Loops](/quality/aspects/python/loops)
-- [Scope](/quality/aspects/python/scope) (NEW!)
+- [Scope](/quality/aspects/python/scope)
 
 Your mentor has provided you with feedback---you can find it on the [Submissions](/submissions) page.
 
