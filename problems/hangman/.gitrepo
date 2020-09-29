@@ -6,7 +6,7 @@
 [subrepo]
 	remote = https://github.com/minprog/hangman.git
 	branch = 2020
-	commit = c931696efaebd31d1d7d352ca4d6cbc470eaf19f
-	parent = 5b84e880dd94cfd0aaa7c48be30b84ee9524c45a
+	commit = a296d550357400d46aaaf8522d7b4d85c8401d6b
+	parent = b0055158d9899986532a746c10711d029df51e2a
 	method = merge
 	cmdver = 0.4.1
