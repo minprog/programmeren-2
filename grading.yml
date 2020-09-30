@@ -6,6 +6,8 @@ templates:
         automatic:
             correctness: (correctness_score * 100).floor
         calculation: -(correctness/100)
+        auto_publish: true
+        hide_subgrades: true
     2: &manual
         type: float
         subgrades:
