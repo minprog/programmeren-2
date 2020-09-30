@@ -38,12 +38,12 @@ grades:
     python: *manual
     hangman: *manual
     adventure: *manual
-    
+
     r-mispellings: *manual
     r-python: *manual
     r-hangman: *manual
     r-adventure: *manual
-    
+
     q-mispellings: *manual
     q-python: *manual
     # q-hangman: *manual
