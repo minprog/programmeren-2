@@ -1,12 +1,12 @@
 templates:
-    1: &fullyauto
+    1: &automatic
         type: pass
         subgrades:
             correctness: integer
         automatic:
             correctness: (correctness_score * 100).floor
         calculation: -(correctness/100)
-    3: &manual
+    2: &manual
         type: float
         subgrades:
             points: integer
@@ -14,115 +14,67 @@ templates:
             late: float
         calculation: ((points + hacker) / 6.0 * 9 + 1).round(1)
         hide_calculated: true
-    4: &test
-        type: pass
-        subgrades:
-            passed: integer
-        calculation: passed
-        is_test: true
-        hide_calculated: true
-    2: &checked
+    3: &checked
         type: pass
         subgrades:
             checked: boolean
         calculation: checked.to_i
         hide_calculated: true
 
-
 grades:
-    speller: *fullyauto
-    homepage: *fullyauto
-    sentimental: *fullyauto
-    bleep: *fullyauto
+    speller: *automatic
+
+    mario: *automatic
+
     queue: *checked
-    cards: *fullyauto
-    hangman: *fullyauto
-    lovely-hangman: *fullyauto
-    adventure-less: *fullyauto
-    adventure-more: *fullyauto
-    simil-less: *fullyauto
-    simil-more: *fullyauto
-    survey: *fullyauto
+    cards: *automatic
+    hangman-less: *automatic
+    hangman-more: *automatic
 
-    module 5: *manual
-    m6a: *manual
-    m7a: *manual
-    m8a: *manual
+    adventure-less: *automatic
+    adventure-more: *automatic
 
-    m6: *checked
-    m7: *manual
-    m8: *manual
-    m9: *manual
-    m10: *manual
-
-    tentamen: *test
-    hertentamen: *test
-    ik-check: *test
+    mispellings: *manual
+    python: *manual
+    hangman: *manual
+    adventure: *manual
+    
+    r-mispellings: *manual
+    r-python: *manual
+    r-hangman: *manual
+    r-adventure: *manual
+    
+    q-mispellings: *manual
+    q-python: *manual
+    # q-hangman: *manual
+    # q-adventure: *manual
 
 modules:
-    module 5:
+    mispellings:
         - speller
-    # m6:
-    #     - homepage
-    m6a:
-        - sentimental
-        - bleep
-    # m7:
-    #     - sentimental
-    #     - bleep
-    m7a:
+        - q-mispellings
+    python:
+        - mario
+        - readability
+        - dna
+        - q-python
+    hangman:
         - queue
         - cards
-        - hangman
-        - lovely-hangman
-    # m8:
-    #     - queue
-    #     - cards
-    #     - hangman
-    #     - lovely-hangman
-    m8a:
+        - hangman-less
+        - q-hangman
+    adventure:
         - adventure-less
-        - adventure-more
-    # m9:
-    #     - adventure-less
-    #     - adventure-more
-    # m10:
-    #     - simil-less
-    #     - simil-more
-    #     - survey
+        - q-adventure
 
 calculation:
     final:
         mods: 100
-        # tentamen: 0
-    # final-ik:
-    #     mods-ik: 100
-    #     tentamen: 0
-    final-her:
-        mods: 100
-        hertentamen: 0
 
-mods:
+assingments:
     show_progress: true
     submits:
-        module 5: 1
-        m6a: 1
-        m7a: 1
-        m8a: 1
-
-mods-ik:
-    submits:
-        ik-check: 0
-        m8: 1
-        m9: 1
-        m10: 1
-
-tentamen:
-    required: true
-    submits:
-        tentamen: 1
-
-hertentamen:
-    required: true
-    submits:
-        hertentamen: 1
+        mispellings: 1
+        python: 1
+        hangman: 1
+        adventure: 1
