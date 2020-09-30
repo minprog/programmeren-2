@@ -62,10 +62,10 @@ modules:
         - queue
         - cards
         - hangman-less
-        - q-hangman
+        #- q-hangman
     adventure:
         - adventure-less
-        - q-adventure
+        #- q-adventure
 
 calculation:
     final:
