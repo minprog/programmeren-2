@@ -70,11 +70,29 @@ modules:
 calculation:
     final:
         mods: 100
+        questions: 0
+        retrospectives: 0
 
-assingments:
+assignments:
     show_progress: true
     submits:
         mispellings: 1
         python: 1
         hangman: 1
         adventure: 1
+
+questions:
+    show_progress: true
+    submits:
+        q-mispellings: 1
+        q-python: 1
+        q-hangman: 1
+        q-adventure: 1
+
+retrospectives:
+    show_progress: true
+    submits:
+        r-mispellings: 1
+        r-python: 1
+        r-hangman: 1
+        r-adventure: 1
