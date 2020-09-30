@@ -24,7 +24,9 @@ templates:
 grades:
     speller: *automatic
 
-    mario: *automatic
+    pymario: *automatic
+    readability: *automatic
+    dna: *automatic
 
     queue: *checked
     cards: *automatic
@@ -54,7 +56,7 @@ modules:
         - speller
         - q-mispellings
     python:
-        - mario
+        - pymario
         - readability
         - dna
         - q-python
