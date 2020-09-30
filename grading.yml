@@ -39,15 +39,15 @@ grades:
     hangman: *manual
     adventure: *manual
 
-    r-mispellings: *manual
-    r-python: *manual
-    r-hangman: *manual
-    r-adventure: *manual
+    r-mispellings: *checked
+    r-python: *checked
+    r-hangman: *checked
+    r-adventure: *checked
 
-    q-mispellings: *manual
-    q-python: *manual
-    q-hangman: *manual
-    q-adventure: *manual
+    q-mispellings: *checked
+    q-python: *checked
+    q-hangman: *checked
+    q-adventure: *checked
 
 modules:
     mispellings:
