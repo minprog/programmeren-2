@@ -69,7 +69,7 @@ modules:
 
 calculation:
     final:
-        mods: 100
+        assignments: 100
         questions: 0
         retrospectives: 0
 
