@@ -8,19 +8,25 @@ templates:
         calculation: -(correctness/100)
         auto_publish: true
         hide_subgrades: true
-    2: &manual
+    3: &manual
         type: float
         subgrades:
             points: integer
-            hacker: integer
-            late: float
-        calculation: ((points + hacker) / 6.0 * 9 + 1).round(1)
+            extra: integer
+        calculation: ([points + extra, 6].min / 6.0 * 9 + 1).round(1)
         hide_calculated: true
-    3: &checked
+    4: &test
         type: pass
         subgrades:
-            checked: boolean
-        calculation: checked.to_i
+            passed: integer
+        calculation: passed
+        is_test: true
+        hide_calculated: true
+    5: &checked
+        type: pass
+        subgrades:
+            done: boolean
+        calculation: done
         hide_calculated: true
 
 grades:
