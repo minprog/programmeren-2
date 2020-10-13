@@ -1,6 +1,6 @@
-# Genetics
+# Sudoku
 
-In deze module ga je aan de slag met DNA en simulaties. Aan de ene kant leer je hoe je informatie in strings kunt opslaan en bewerken, en aan de andere kant leer je over simuleren, een veel gebruikte techniek om inzicht te krijgen in complexe fenomenen.
+In deze module ga je een groter programma implementeren: een sudoku-solver en, als alles goed werkt, een sudoku-generator. Het belangrijkste daarbij zijn de algoritmen uit de informatica en kunstmatige intelligentie die goed van pas komen.
 
 ## Becijfering
 
