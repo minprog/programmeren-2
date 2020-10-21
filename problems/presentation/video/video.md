@@ -1,4 +1,4 @@
-# Video Presentation
+# Videopresentatie
 
 Maak een korte videopresentatie van maximaal 6 minuten (harde grens) waarin je zo goed mogelijk laat zien wat je hebt geleerd bij dit vak. Doe dit door een deel van een recent gemaakte opdracht uit te leggen. Kies daarvoor een stuk code uit die opdracht waarover jij goed kan vertellen. Vertel bijvoorbeeld:
 
