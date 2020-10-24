@@ -29,8 +29,8 @@ Op die manier kunnen je mentor en de docenten een goed beeld vormen van jouw voo
 Bij deze cursus wordt je cijfer bepaald door de uitwerkingen van programmeeropdrachten. De opdrachten zijn verdeeld over modules, die als volgt meewegen:
 
 | onderdeel | telt mee |  
-| --------- | -------- |  
-| Module 5  | 25%       |  
+| --------- | -------- |
+| Module 5  | 25%      |  
 | Module 6  | 25%      |  
 | Module 7  | 25%      |  
 | Module 8  | 25%      |  
