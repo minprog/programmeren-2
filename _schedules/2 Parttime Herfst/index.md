@@ -17,7 +17,7 @@ Bovendien is het nodig dat je *zichtbaar* actief meedoet en leert van het vak. D
 4. alle [werkgroepen](#werkgroepen) bijwonen en actief contact houden met je mentor
 {: start="2"}
 
-Tot slot moeten je ingeleverd uitwerkingen zonder twijfels jouw eigen intellectueel werk zijn:
+Tot slot moeten je ingeleverde uitwerkingen zonder twijfels jouw eigen intellectueel werk zijn:
 
 5. laag scoren op de ["plagiaatschaal"](#plagiaat)
 {: start="4"}
@@ -116,12 +116,13 @@ Elke module moet op de vooraf bepaalde deadline volledig werkend ingeleverd zijn
 
 | module   | onderdeel             | deadline oplossing | deadline verbeterd |
 | -------- | --------------------- | ------------------ | ------------------ |
-| Module 5 | voorbereiding         | do 29 okt  17:59   | -                  |
-|          | load + hash           | di  3 nov  17:59   | -                  |
-|          | size + check + unload | di 10 nov  17:59   | vr 13 okt  17:59   |
-| Module 6 |                       | di 17 nov  17:59   | vr 20 okt  17:59   |
-| Module 7 |                       | di 24 nov  17:59   | vr 27 okt  17:59   |
-| Module 8 |                       | di  8 dec  17:59   | vr 11 dec  17:59   |
+| Module 5 | analyse               | wo 28 okt  17:59   | -                  |
+|          | load                  | ma  2 nov  17:59   | -                  |
+|          | size + check + unload | vr  6 nov  17:59   | di 10 nov  17:59   |
+| Module 6 |                       | vr 13 nov  17:59   | di 17 okt  17:59   |
+| Module 7 | queue + cards         | do 26 nov  17:59   | -                  |
+|          | hangman               | vr 27 nov  17:59   | di  1 dec  17:59   |
+| Module 8 |                       | vr 11 dec  17:59   | di 15 dec  17:59   |
 
 <details markdown="1"><summary markdown="span">Wat als ik ziek ben of achterloop?</summary>
 
