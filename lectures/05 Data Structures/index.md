@@ -1,6 +1,6 @@
 # Lecture: Data Structures
 
-![embed](https://www.youtube.com/embed/r15JIzFHbbM&start=671&end=9905&offset=-31666)
+![embed](https://www.youtube.com/embed/r15JIzFHbbM&start=671&end=9905)
 
 [Open in CS50 video player](https://video.cs50.io/r15JIzFHbbM?screen=YbdTBk5n9ds&start=671&end=9905&offset=-31666)
 
