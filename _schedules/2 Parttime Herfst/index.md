@@ -121,8 +121,8 @@ Elke module moet op de vooraf bepaalde deadline volledig werkend ingeleverd zijn
 | Module 5 | analyse               | wo 28 okt  17:59   | -                  |
 |          | load                  | ma  2 nov  17:59   | -                  |
 |          | size + check + unload | vr  6 nov  17:59   | di 10 nov  17:59   |
-| Module 6 |                       | vr 13 nov  17:59   | di 17 okt  17:59   |
-| Module 7 | queue + cards         | do 26 nov  17:59   | -                  |
+| Module 6 |                       | vr 13 nov  17:59   | di 17 nov  17:59   |
+| Module 7 | queue + cards         | do 19 nov  17:59   | -                  |
 |          | hangman               | vr 27 nov  17:59   | di  1 dec  17:59   |
 | Module 8 |                       | vr 11 dec  17:59   | di 15 dec  17:59   |
 
