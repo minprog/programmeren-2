@@ -75,6 +75,7 @@ modules:
         - q-hangman
     adventure:
         - adventure-less
+        - adventure-more
         - q-adventure
 
 calculation:
