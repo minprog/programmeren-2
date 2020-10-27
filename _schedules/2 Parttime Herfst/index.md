@@ -126,6 +126,8 @@ Elke module moet op de vooraf bepaalde deadline volledig werkend ingeleverd zijn
 |          | hangman               | vr 27 nov  17:59   | di  1 dec  17:59   |
 | Module 8 |                       | vr 11 dec  17:59   | di 15 dec  17:59   |
 
+[Download blokkenschema](blokkenschema.pdf)
+
 <details markdown="1"><summary markdown="span">Wat als ik ziek ben of achterloop?</summary>
 
 In het geval van planningsproblemen of een dag ziek zijn kun je in overleg met je mentor de deadline één of twee dagen opschuiven. Je opdracht wordt dan gewoon nagekeken. Breng altijd direct je mentor op de hoogte en vraag om advies over het halen van verdere deadlines. Systematisch achterlopen is niet mogelijk.
