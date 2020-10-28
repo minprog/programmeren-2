@@ -59,6 +59,8 @@ grades:
     q-python: *checked
     q-hangman: *checked
     q-adventure: *checked
+    
+    presentation-video: *checked
 
 modules:
     mispellings:
@@ -108,3 +110,4 @@ retrospectives:
         r-python: 1
         r-hangman: 1
         r-adventure: 1
+        presentation-video: 1
