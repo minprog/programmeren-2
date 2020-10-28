@@ -30,6 +30,7 @@ templates:
         hide_calculated: true
 
 grades:
+    a-mispellings: *checked
     speller: *automatic
 
     pymario: *automatic
