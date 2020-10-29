@@ -59,7 +59,7 @@ grades:
     q-python: *checked
     q-hangman: *checked
     q-adventure: *checked
-    
+
     presentation-video: *checked
 
 modules:
