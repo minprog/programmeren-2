@@ -75,11 +75,11 @@ modules:
         - queue
         - cards
         - hangman-less
-        - q-hangman
+        # - q-hangman
     adventure:
         - adventure-less
         - adventure-more
-        - q-adventure
+        # - q-adventure
 
 calculation:
     final:
