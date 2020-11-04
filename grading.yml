@@ -85,7 +85,7 @@ calculation:
     final:
         assignments: 100
         # questions: 0
-        retrospectives: 0
+        # retrospectives: 0
 
 assignments:
     show_progress: true
