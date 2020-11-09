@@ -101,8 +101,8 @@ questions:
     submits:
         q-mispellings: 1
         q-python: 1
-        q-hangman: 1
-        q-adventure: 1
+        # q-hangman: 1
+        # q-adventure: 1
 
 retrospectives:
     show_progress: true
