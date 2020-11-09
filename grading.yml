@@ -84,8 +84,8 @@ modules:
 calculation:
     final:
         assignments: 100
-        # questions: 0
-        # retrospectives: 0
+        questions: 0
+        retrospectives: 0
         afronding: 0
 
 assignments:
