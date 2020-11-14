@@ -37,7 +37,7 @@ grades:
     readability: *automatic
     dna: *automatic
 
-    queue: *checked
+    queue: *automatic
     cards: *automatic
     hangman-less: *automatic
     hangman-more: *automatic
