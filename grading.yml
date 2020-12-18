@@ -64,6 +64,7 @@ grades:
 
 modules:
     mispellings:
+        - a-mispellings
         - speller
         - q-mispellings
     python:
