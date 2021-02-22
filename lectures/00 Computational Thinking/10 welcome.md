@@ -1,8 +1,10 @@
 # Lecture: Computational thinking
 
-![embed](https://www.youtube.com/embed/Tpl7k8IOT6E?start=739)
+<div markdown="1" class="extend">
+[![](thumbnail.jpg)](https://video.cs50.io/YoXxevp1WRQ?screen=mu28ADhzRQE)
+</div>
 
-[Open in CS50 video player](https://video.cs50.io/Tpl7k8IOT6E?start=739)
+[Open in CS50 video player](https://video.cs50.io/YoXxevp1WRQ?screen=mu28ADhzRQE)
 
 ## Welcome
 
@@ -150,7 +152,7 @@
 
 *   We can write **pseudocode**, which is a representation of our algorithm in precise English (or some other human language):
 
-    <pre>1  Pick up phone book
+    1  Pick up phone book
     2  Open to middle of phone book
     3  Look at page
     4  If person is on page
@@ -163,12 +165,11 @@
     11     Go back to line 3
     12 Else
     13     Quit
-    </pre>
 
     *   With these steps, we check the middle page, decide what to do, and repeat. If the person isn't on the page, and there's no more pages in the book left, then we stop. And that final case is particularly important to remember. When other programs on our computers forgot that final case, they might appear to freeze or stop responding, since they've encountered a case that wasn't accounted for, or continue to repeat the same work over and over behind the scenes without making any progress.
 *   Some of these lines start with verbs, or actions. We'll start calling these _functions_:
 
-    <pre>1  **Pick up** phone book
+    1  **Pick up** phone book
     2  **Open to** middle of phone book
     3  **Look at** page
     4  If person is on page
@@ -181,11 +182,10 @@
     11     Go back to line 3
     12 Else
     13     **Quit**
-    </pre>
 
 *   We also have branches that lead to different paths, like forks in the road, which we'll call _conditions_:
 
-    <pre>1  Pick up phone book
+    1  Pick up phone book
     2  Open to middle of phone book
     3  Look at page
     4  **If** person is on page
@@ -198,11 +198,10 @@
     11     Go back to line 3
     12 **Else**
     13     Quit
-    </pre>
 
 *   And the questions that decide where we go are called _Boolean expressions_, which eventually result in a value of yes or no, or true or false:
 
-    <pre>1  Pick up phone book
+    1  Pick up phone book
     2  Open to middle of phone book
     3  Look at page
     4  If **person is on page**
@@ -215,11 +214,10 @@
     11     Go back to line 3
     12 Else
     13     Quit
-    </pre>
 
 *   Lastly, we have words that create cycles, where we can repeat parts of our program, called _loops_:
 
-    <pre>1  Pick up phone book
+    1  Pick up phone book
     2  Open to middle of phone book
     3  Look at page
     4  If person is on page
@@ -232,7 +230,6 @@
     11     **Go back to line 3**
     12 Else
     13     Quit
-    </pre>
 
 
 
@@ -251,20 +248,12 @@
 *   Before we learn to use a text-based programming language called C, we'll use a graphical programming language called [Scratch](https://scratch.mit.edu/), where we'll drag and drop blocks that contain instructions.
 *   A simple program in C that prints out "hello, world", would look like this:
 
-    <div class="language-c highlighter-rouge">
-
-    <div class="highlight">
-
         #include <stdio.h>
 
         int main(void)
         {
             printf("hello, world\n");
         }
-
-    </div>
-
-    </div>
 
     *   There's a lot of symbols and syntax, or arrangement of these symbols, that we would have to figure out.
 *   The programming environment for Scratch is a little more friendly:  

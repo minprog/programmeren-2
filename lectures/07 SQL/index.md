@@ -1,8 +1,10 @@
 # Lecture: SQL
 
-![embed](https://www.youtube.com/embed/u5pDdEKnbKA)
+<div markdown="1" class="extend">
+[![](thumbnail.jpg)](https://video.cs50.io/SAmkH5WFQ-8?screen=1Yroj3rwKGI)
+</div>
 
-[Open in CS50 video player](https://video.cs50.io/u5pDdEKnbKA?screen=-nHi1mI60oI)
+[Open in CS50 video player](https://video.cs50.io/SAmkH5WFQ-8?screen=1Yroj3rwKGI)
 
 ## Spreadsheets
 

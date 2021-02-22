@@ -1,6 +1,8 @@
 # Lecture: Information
 
+<div markdown="1" class="extend">
 ![embed](https://www.youtube.com/embed/suzS0NWu8uQ)
+</div>
 
 [Open in CS50 video player](https://video.cs50.io/suzS0NWu8uQ?screen=pdwATvi0Sxw)
 

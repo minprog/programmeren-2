@@ -1,8 +1,10 @@
 # Lecture: Data Structures
 
-![embed](https://www.youtube.com/embed/r15JIzFHbbM&start=671)
+<div markdown="1" class="extend">
+[![](thumbnail.jpg)](https://video.cs50.io/2T-A_GFuoTo?screen=QdhPqzoTyUE)
+</div>
 
-[Open in CS50 video player](https://video.cs50.io/r15JIzFHbbM?screen=YbdTBk5n9ds&start=671&end=9905&offset=-31666)
+[Open in CS50 video player](https://video.cs50.io/2T-A_GFuoTo?screen=QdhPqzoTyUE)
 
 ## Resizing arrays
 

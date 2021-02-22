@@ -1,8 +1,10 @@
 # Lecture: C
 
-![embed](https://www.youtube.com/embed/iRkKEHybf9M?start=490)
+<div markdown="1" class="extend">
+[![](thumbnail.jpg)](https://video.cs50.io/zYierUhIFNQ?screen=VmZ-cWfb2QM)
+</div>
 
-[Open in CS50 video player](https://video.cs50.io/iRkKEHybf9M?start=490)
+[Open in CS50 video player](https://video.cs50.io/zYierUhIFNQ?screen=VmZ-cWfb2QM)
 
 ## C
 

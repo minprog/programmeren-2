@@ -1,8 +1,10 @@
 # Lecture: Python<br><small>David Malan</small>
 
-![embed](https://www.youtube.com/embed/kM4oZTJaO8k?start=624&end=10665&offset=-37900)
+<div markdown="1" class="extend">
+[![](thumbnail.jpg)](https://video.cs50.io/ZEQh45W_UDo?screen=A4eeGBU4qTE)
+</div>
 
-[Open in CS50 video player](https://video.cs50.io/kM4oZTJaO8k?screen=UwfRLdcC3-I&start=624&end=10665&offset=-37900)
+[Open in CS50 video player](https://video.cs50.io/ZEQh45W_UDo?screen=A4eeGBU4qTE)
 
 ## Python Basics
 

@@ -1,8 +1,10 @@
 # Lecture: Memory
 
-![embed](https://www.youtube.com/embed/pcbmiLUzr0w&offset=-90990&start=537)
+<div markdown="1" class="extend">
+[![](thumbnail.jpg)](https://video.cs50.io/NKTfNv2T0FE?screen=7y81o-2rjeM)
+</div>
 
-[Open in CS50 video player](https://video.cs50.io/pcbmiLUzr0w?screen=-OMjoLA7A60&offset=-90990&start=537)
+[Open in CS50 video player](https://video.cs50.io/NKTfNv2T0FE?screen=7y81o-2rjeM)
 
 ## Hexadecimal
 
