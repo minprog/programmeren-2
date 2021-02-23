@@ -6,8 +6,10 @@ Week 1:
         "Videocollege: Data structures": /lectures/data-structures
     Dag 2:
         Linked list: /exercises/writing/linked
+        "Speller: kennismaking": /problems/cs50/speller/getting-started
         Analyseer Speller: /modules/mispellings/analysis
     Dag 3:
+        "Speller: implementatie": /problems/cs50/speller/specification
         Implementeer Speller: /problems/cs50/speller
     Dag 5:
         Questions: /modules/mispellings/questions
