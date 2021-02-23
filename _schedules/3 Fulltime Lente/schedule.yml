@@ -1,36 +1,35 @@
 Welkom:
     - syllabus
 Week 1:
-    Dag 1:
+    Maandag:
         Beatles: /exercises/writing/beatles
         "Videocollege: Data structures": /lectures/data-structures
-    Dag 2:
+    Dinsdag:
         Linked list: /exercises/writing/linked
         "Speller: kennismaking": /problems/cs50/speller/getting-started
         Analyseer Speller: /modules/mispellings/analysis
-    Dag 3:
+    Vanaf woensdag:
         "Speller: implementatie": /problems/cs50/speller/specification
         Implementeer Speller: /problems/cs50/speller
-    Dag 5:
+    Vrijdag:
         Questions: /modules/mispellings/questions
 Week 2:
-    Dag 1:
+    Maandag:
         'Videocollege: Python': /lectures/python-david
         Implementeer Mario: /problems/cs50/py/mario
         Implementeer Readability: /problems/cs50/py/readability
-    Dag 2:
+    Dinsdag:
         Implementeer DNA: /problems/cs50/dna
-    Dag 3:
+    Woensdag:
         Questions: /modules/python/questions
-Week 3:
-    Dag 1:
         "Videocollege: OOP": /problems/objects/lecture
         Implementeer Queue: /problems/objects/queue
         Implementeer Game of Cards: /problems/objects/cards
-    Dag 2:
+    Donderdag en vrijdag:
         Hangman [samen]: /problems/hangman/classic
         Questions: /modules/hangman/questions
-    Dag 3:
+Week 3:
+    Maandag:
         Adventure: /problems/adventure/less
     Extra opdracht:
         Adventure (Hacker): /problems/adventure/more
