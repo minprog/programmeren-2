@@ -1,12 +1,8 @@
 # Hello
 
-Meet Zamyla! She'll be offering us tips and tricks throughout the modules of this course.
+> Deze opdracht is niet bedoeld voor samenwerken, maar je hoeft 'm ook niet helemaal alleen te doen. Het doel is ervaring opdoen met technieken en daarom moet je alles zelf oefenen. Maar schroom niet hulp te vragen, en als het nodig is kan iemand het even voordoen. Als je naderhand maar zelf alle stappen doorlopen hebt.
 
-![embed](https://www.youtube.com/embed/DmE9lCvrxgU)
-
-## Hello, World
-
-Meet your first C program:
+Here's your first C program:
 
     #include <stdio.h>
 
@@ -15,27 +11,60 @@ Meet your first C program:
         printf("hello, world\n");
     }
 
+You have seen it in lecture, and now you're ready to try running it yourself.
+
+
+## Getting your own IDE
+
+The CS50 IDE is an online environment in which you can write code, compile your programs and debug those using built-in tools. Use the following steps to request your personal IDE account.
+
+- Create an account on [GitHub](https://github.com/join). This website is used by software developers around the world to collaborate. In later courses, you might use the website directly to put your own programs on! However, for this course, we just use GitHub's login mechanism to allow you access to a few other websites created by Harvard's CS50 team.
+
+- Head to [ide.cs50.io](https://ide.cs50.io/) and log into CS50 IDE using the GitHub account that you created. If all is well, you should then be informed that CS50 IDE (aka Cloud9, the software that underlies CS50 IDE) is "creating your workspace" and "creating your container," which might take a moment. You should eventually see your workspace. If not, take it up with the support staff right away!
+
+
 ## Dive into the IDE
 
-Hello, world! Hopefully you have succeeded in creating a CS50 IDE instance for yourself. You should have watched Doug's video on its use before continuing here. Let's make programs!
+Head to [ide.cs50.io](https://ide.cs50.io/) and click "Sign in with GitHub" to access. Once your IDE loads, you should see that (by default) it's divided into three parts. Toward the top of CS50 IDE is your "text editor", where you'll write all of your programs. Toward the bottom of is a "terminal window" (light blue, by default), a command-line interface (CLI) that allows you to explore your workspace's files and directories, compile code, run programs, and even install new software. And on the left is your "file browser", which shows you all of the files and folders currently in your IDE.
 
-Go to the Terminal and issue the following command:
+Start by clicking inside your terminal window. You should find that its "prompt" resembles the below.
 
-    mkdir ~/module0
+    ~/ $
 
-You should see in the file list on the left that your first folder has been created. We call it `module0` so it can contain all programs that you write for the current module.
+Click inside of that terminal window and then type
 
-Now, point to the File menu and choose New. This will open a new editor with a blank "Untitled1" file in it. First thing to do is to give it a name and save it into your new directory. Press **CTRL-S** or **Cmd-S** to open the file dialog. For **Filename**, type `hello.c`. Then below, choose (click) the `module1` folder that you just created and click on **Save**.
+    mkdir ~/problems
+
+followed by Enter in order to make a directory (i.e., folder) called `problems` inside of your home directory. You should see in the file list on the left that your first folder has been created. We call it `problems` so it can contain all programs that you write for the course.
+
+Here on out, to execute (i.e., run) a command means to type it into a terminal window and then hit Enter. Commands are "case-sensitive," so be sure not to type in uppercase when you mean lowercase or vice versa.
+
+Now execute
+
+    cd ~/problems/
+
+to move yourself into (i.e., open) that directory. Your prompt should now resemble the below.
+
+    ~/problems/ $
+
+If not, retrace your steps and see if you can determine where you went wrong.
+
+Now execute
+
+    mkdir ~/problems/hello
+
+to create a new directory called `hello` inside of your `problems` directory. Then execute
+
+    cd ~/problems/hello
+
+to move yourself into that directory.
+
+Now, point to the File menu and choose New. This will open a new editor with a blank "Untitled1" file in it. First thing to do is to give it a name and save it into your new directory. Press **CTRL-S** or **Cmd-S** to open the file dialog. For **Filename**, type `hello.c`. Then below, choose (click) the `problems` and then `hello` folder that you just created and click on **Save**.
 
 In your new file, type the C code for "Hello, World" as seen above. Save it once more.
 
-Let's point the terminal towards our new folder:
 
-    cd ~/module0
-
-The **prompt** is what the Terminal shows on your screen to "prompt" you to enter a new command. The prompt includes a portion to show what folder the Terminal is pointed towards. It should look like this, indicating that the **current folder** for the Terminal is indeed `~/module0`.
-
-    ~/module0/ $
+## Listing files
 
 Next, type precisely the below (in lowercase), then hit Enter:
 
@@ -43,9 +72,8 @@ Next, type precisely the below (in lowercase), then hit Enter:
 
 You should see just `hello.c`. That's because you've just listed the files in that same folder, this time using a command-line interface (CLI), using just your keyboard, rather than the graphical user interface (GUI) represented by that folder icon. In particular, you *executed* (i.e., ran) a command called `ls`, which is shorthand for "list." (It's such a frequently used command that its authors called it just `ls` to save keystrokes.) Make sense?
 
-Here on out, to execute (i.e., run) a command means to type it into a terminal window and then hit Enter. Commands are "case-sensitive," so be sure not to type in uppercase when you mean lowercase or vice versa.
 
-## Compiling Programs
+## Compiling programs
 
 Now, before we can execute the program at right, recall that we must *compile* it with a *compiler* (e.g., `clang`), translating it from *source code* into *machine code* (i.e., zeroes and ones). Execute the command below to do just that:
 
@@ -63,7 +91,8 @@ Now run the program by executing the below.
 
 Hello, world, indeed!
 
-## Naming Programs
+
+## Naming programs
 
 Now, `a.out` isn't the most user-friendly name for a program. Let's compile `hello.c` again, this time saving the machine code in a file called, more aptly, `hello`. Execute the below.
 
@@ -79,7 +108,8 @@ You should now see not only `hello.c` (and `a.out` from before) but also `hello`
 
 Hello there again!
 
-## Making Things Easier
+
+## Making things easier
 
 Recall that we can automate the process of executing `clang`, letting `make` figure out how to do so for us, thereby saving us some keystrokes. Execute the below to compile this program one last time.
 
@@ -93,7 +123,8 @@ Now execute the program itself one last time by executing the below.
 
 Phew!
 
-## Getting User Input
+
+## Specification: getting user input
 
 Suffice it to say, no matter how you compile or execute this program, it only ever prints `hello, world`. Let's personalize it a bit, just as we did in class.
 
@@ -112,16 +143,17 @@ And be sure to execute your program, testing it a few times with different input
 
     ./hello
 
-### Staff's Solution
 
-To try out the staff's implementation of this problem, execute
+## Walkthrough
 
-    ./hello
+<div markdown="1" class="extend">
+[![](hello.jpg)](https://www.youtube.com/watch?v=wSk1KSDUEYA)
+</div>
 
-within [this sandbox](http://bit.ly/2Qp0a2g). You can do that to be 100% sure that you understand
-what is required of your own program.
+[Open video on Youtube](https://www.youtube.com/watch?v=wSk1KSDUEYA)
 
-### Hints
+
+## Hints
 
 #### Don't recall how to prompt the user for their name?
 
@@ -147,20 +179,22 @@ Recall that, to use `get_string`, you need to include `cs50.h` (in which `get_st
 
 ## Testing
 
-To verify whether your program is indeed running well, you may use `check50` in the Terminal. Make sure that your Terminal is still pointing towards the directory that your `hello.c` resides in!
+To verify whether your program is indeed running according to the specification, you may use `check50` in the Terminal. Make sure that your Terminal is still pointing towards the directory that your `hello.c` resides in!
 
     check50 -l minprog/cs50x/2020/hello
 
-## Submitting
+## How to submit
 
 As soon as you're done, submit your `hello.c` implementation, below! 
 
-1. Toward CS50 IDE's top-left corner, within its "file browser" (not within a terminal window), control-click or right-click your `hello.c` file (that's within your `module0` directory) and then select **Download**. You should find that your browser has downloaded `hello.c`.
+1. Toward CS50 IDE's top-left corner, within its "file browser" (not within a terminal window), control-click or right-click your `hello.c` file (that's within your `~/problems/hello` directory) and then select **Download**. You should find that your browser has downloaded `hello.c`.
 
 2. Make sure you are signed in to **this** website!
 
-3. In the form below, choose the file that you just downloaded.
+3. Enter how much time you spent on this assignment top-to-bottom: <input name="form[time]" type="text" required>
+
+4. In the form below, choose the file that you just downloaded.
 
 4. Press "Submit for grading". Presto!
 
-Your program will then again be checked using `check50` and the result will be recorded on this website. If the check fails, be sure to try if `check50` is still satisfied when you run it in your IDE's Terminal!
+Your program will then again be checked using `check50` and the result will be recorded on this website. Should the check fail on this website, double-check if your code still works well in the IDE!

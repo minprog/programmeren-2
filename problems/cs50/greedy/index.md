@@ -84,7 +84,6 @@ Study this pseudocode; discuss the details. Do you understand every part? Do you
 > <svg class="bi" width="24" height="24" fill="currentColor" size="24x24" style="svertical-align:-0.255em; float:left; margin-right:0.75rem;"><use xlink:href="/icons/bootstrap-icons.svg#exclamation-triangle"></use></svg>
 >
 > Warning! This phase should be done **individually**. Keep in mind that you do not share C code with other students or tell each other what kinds of C code to use. Do ask for help from the course's staff!
-{:.bg-warning}
 
 To get started implementing this algorithm, create a file called `greedy.c` and insert a standard `main` function. Within that `main` function, insert the following two lines, which create the variables that are needed for the algorithm:
 
@@ -149,7 +148,13 @@ And so, before making change, you'll probably want to convert the user's input e
 
 ## Usage
 
-When finished, your program should behave per the example below.
+When finished, your program should behave per the examples below. Do check if each works correctly!
+
+~~~~
+$ ./greedy
+Change owed: 0.01
+1
+~~~~
 
 ~~~~
 $ ./greedy
@@ -166,7 +171,12 @@ Change owed: 0.41
 4
 ~~~~
 
-> Make sure to only calculate the result using the specified denominations of quarters (25¢), dimes (10¢), nickels (5¢), and pennies (1¢).
+~~~~
+$ ./greedy
+Change owed: 1.00
+4
+~~~~
+
 
 ## Testing
 

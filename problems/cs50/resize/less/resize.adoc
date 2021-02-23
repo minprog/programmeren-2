@@ -1,10 +1,9 @@
 ---
-layout: 2018/spring
 ---
 
 = Resize
 
-== tl;dr
+> Samenwerken bij deze opdracht is niet toegestaan; het is prima om medestudenten en anderen om hulp te vragen, als het er maar niet op neerkomt dat iemand anders een deel van het werk voor je doet. Voorbeelden van "redelijke" en "onredelijke" manieren van samenwerken vind je in de studiewijzer.
 
 Implement a program that resizes BMPs, per the below.
 
@@ -41,7 +40,7 @@ Be sure you're familiar with the structure of 24-bit uncompressed BMPs, as intro
 
 Implement a program called `resize` that resizes (i.e., enlarges) 24-bit uncompressed BMPs by a factor of `n`.
 
-* Implement your program in a file called `resize.c` inside of `~/module4/resize/less/`.
+* Implement your program in a file called `resize.c` inside of `~/problems/resize/less/`.
 * Your program should accept exactly three command-line arguments, whereby
 +
 --

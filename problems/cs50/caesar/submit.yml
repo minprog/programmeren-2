@@ -1,7 +1,7 @@
 name: caesar
 files:
     required:
-        - analysis.pdf
+        - pseudocode.txt
         - caesar.c
 check:
     tool: check50

@@ -3,6 +3,9 @@
 
 = Whodunit
 
+> Bij deze opdracht is het helemaal prima om samen te werken met één of twee medestudenten. Zorg dat je gezamenlijk op één scherm kunt kijken en echt samen het probleem probeert op te lossen. Heeft iemand een goed idee, dan moet die zorgen dat de anderen het ook begrijpen. De bedoeling is dat alle samenwerkers evenveel hebben bijgedragen aan de opdracht. Iedereen levert uiteindelijk een eigen versie in.
+
+
 == tl;dr
 
 Answer some questions and then implement a program that reveals a hidden message in a BMP, per the below.
@@ -18,6 +21,8 @@ $ [underline]#./whodunit clue.bmp verdict.bmp#
 
 [source,subs="macros"]
 ----
+$ mkdir ~/problems/whodunit
+$ cd ~/problems/whodunit
 $ wget https://github.com/minprog/cs50x/raw/2020/whodunit/whodunit.zip
 $ unzip whodunit.zip
 $ rm whodunit.zip
@@ -253,6 +258,6 @@ When submitting this problem, you'll be asked whodunit!
 
 Because `whodunit` can be implemented in several ways, afraid you can't check your implementation's correctness with `check50`!
 
-== Staff's Solution
+== How to submit
 
-No solution from the staff, lest it spoil your fun!
+Below, you will not only submit your implementation of `whodunit.c`, but also the `verdict.bmp` that comes out of it!
