@@ -1,10 +1,34 @@
 Welkom:
     - syllabus
-Module 5:
-    - mispellings
-Module 6:
-    - python
-Module 7:
-    - hangman
-Module 8:
-    - adventure
+Week 1:
+    Dag 1:
+        Beatles: /exercises/writing/beatles
+        "Videocollege: Data structures": /lectures/data-structures
+    Dag 2:
+        Linked list: /exercises/writing/linked
+        Analyseer Speller: /modules/mispellings/analysis
+    Dag 3:
+        Implementeer Speller: /problems/cs50/speller
+    Dag 5:
+        Questions: /modules/mispellings/questions
+Week 2:
+    Dag 1:
+        'Videocollege: Data structures': /lectures/data-structures
+        Implementeer Mario: /problems/cs50/py/mario
+        Implementeer Readability: /problems/cs50/readability
+    Dag 2:
+        Implementeer DNA: /problems/cs50/dna
+    Dag 3:
+        Questions: /modules/python/questions
+Week 3:
+    Dag 1:
+        "Videocollege: OOP": /problems/objects/lecture
+        Implementeer Queue: /problems/objects/queue
+        Implementeer Game of Cards: /problems/objects/cards
+    Dag 2:
+        Hangman [samen]: /problems/hangman/classic
+        Questions: /modules/hangman/questions
+    Dag 3:
+        Adventure: /problems/adventure/less
+    Extra opdracht:
+        Adventure (Hacker): /problems/adventure/more
