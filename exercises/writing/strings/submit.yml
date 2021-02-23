@@ -1,0 +1,11 @@
+name: strings
+form: true
+files:
+  required:
+    - vertical.c
+    - skip.c
+    - eek.c
+  optional:
+    - palindrome.c
+    - bob.c
+    - taboo.c

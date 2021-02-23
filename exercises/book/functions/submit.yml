@@ -1,0 +1,5 @@
+name: basics-functions
+form: true
+files:
+  required:
+    - screenshot.png

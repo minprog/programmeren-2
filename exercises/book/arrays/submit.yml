@@ -1,0 +1,5 @@
+name: basics-arrays
+form: true
+files:
+  required:
+    - screenshot.png

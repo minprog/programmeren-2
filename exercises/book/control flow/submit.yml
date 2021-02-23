@@ -1,0 +1,5 @@
+name: basics-control-flow
+form: true
+files:
+  required:
+    - screenshot.png
