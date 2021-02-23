@@ -2,7 +2,6 @@
 
 > Warning: do not start code review until you **and** your partner are completely done and have submitted working versions of each program in the module. If you haven't finished your programs you should ask for help on that specifically and never look at someone else's code.
 > Additionaly, your mentor should assign a partner for you: each week, it will be a **different** one. This is make sure that you encounter as many insights as possible about writing good code.
-{:.bg-warning}
 
 Learning to assess your own code, and finding ways to improve it, is an important part of learning to program. For each module, you will do a code review with one or more other students. In the code review, you will give each other feedback and advice on improving your code.
 
@@ -34,7 +33,7 @@ Below, you will submit improved versions of your programs. In addition, you are 
 Which student(s) contributed to reviewing your code?
 <input name="form[reviewers]" type="text" required>
 
-What changes did you make to your code in response to the reviews, and why?
+What changes did you make to your code in response to the reviews, and why? Take into account all of the listed aspects.
 <textarea name="form[changes]" rows="8" required></textarea>
 
 What did you **not** change in response to the reviews, and why?
