@@ -6,18 +6,18 @@ Week 1:
         "Videocollege: Data structures": /lectures/data-structures
     Dinsdag:
         Linked list [samen]: /exercises/writing/linked
-        "Speller: getting started": /problems/cs50/speller/startup
-        "Speller: specification": /problems/cs50/speller/specification
+        "Speller: getting started [samen]": /problems/cs50/speller/startup
+        "Speller: specification [samen]": /problems/cs50/speller/specification
     Woensdag:
-        "Speller: load": /problems/cs50/speller/load
+        "Speller: load [individueel]": /problems/cs50/speller/load
     Donderdag:
-        "Speller: check": /problems/cs50/speller/check
-        "Speller: hash": /problems/cs50/speller/hash
-        "Speller: size": /problems/cs50/speller/size
+        "Speller: check [individueel]": /problems/cs50/speller/check
+        "Speller: hash [individueel]": /problems/cs50/speller/hash
+        "Speller: size [individueel]": /problems/cs50/speller/size
     Vrijdag:
-        "Speller: unload": /problems/cs50/speller/unload
-        "Speller: submit": /problems/cs50/speller/submit
-        Questions: /modules/mispellings/questions
+        "Speller: unload [individueel]": /problems/cs50/speller/unload
+        "Speller: submit [individueel]": /problems/cs50/speller/submit
+        Questions [individueel]: /modules/mispellings/questions
 Week 2:
     Maandag:
         'Videocollege: Python': /lectures/python-david
