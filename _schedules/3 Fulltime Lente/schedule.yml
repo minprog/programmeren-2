@@ -7,7 +7,7 @@ Week 1:
     Dinsdag:
         Linked list: /exercises/writing/linked
         "Speller: getting started": /problems/cs50/speller/startup
-        "Speller: analysis": /modules/mispellings/analysis
+        "Speller: analysis": /problems/cs50/speller/analysis
     Vanaf woensdag:
         "Speller: implementatie": /problems/cs50/speller/specification
     Vrijdag:
