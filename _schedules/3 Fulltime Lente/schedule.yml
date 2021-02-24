@@ -8,9 +8,15 @@ Week 1:
         Linked list: /exercises/writing/linked
         "Speller: getting started": /problems/cs50/speller/startup
         "Speller: analysis": /problems/cs50/speller/analysis
-    Vanaf woensdag:
-        "Speller: implementatie": /problems/cs50/speller/specification
+        "Speller: specification": /problems/cs50/speller/specification
+    Woensdag:
+        "Speller: load": /problems/cs50/speller/load
+    Donderdag:
+        "Speller: check": /problems/cs50/speller/check
+        "Speller: hash": /problems/cs50/speller/hash
     Vrijdag:
+        "Speller: size": /problems/cs50/speller/size
+        "Speller: unload": /problems/cs50/speller/unload
         Questions: /modules/mispellings/questions
 Week 2:
     Maandag:
