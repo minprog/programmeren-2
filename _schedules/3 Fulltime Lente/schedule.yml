@@ -13,8 +13,8 @@ Week 1:
     Donderdag:
         "Speller: check": /problems/cs50/speller/check
         "Speller: hash": /problems/cs50/speller/hash
-    Vrijdag:
         "Speller: size": /problems/cs50/speller/size
+    Vrijdag:
         "Speller: unload": /problems/cs50/speller/unload
         "Speller: submit": /problems/cs50/speller/submit
         Questions: /modules/mispellings/questions
