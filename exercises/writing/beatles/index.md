@@ -45,7 +45,7 @@ Write a program that prints the following information:
 
 We're going to use **structs** to accomplish this!
 
-## 1, John
+## Just John
 
 The first goal is to create and print a "musician" struct variable for John.
 
@@ -88,7 +88,7 @@ Compile and test. Does the function print all information about John, as shown a
 
 Congratulations, you finished the first challenge!
 
-## 2, Beatles
+## The Fab Four
 
 Now let's add the other Beatles. We're not going to create 4 separately named variables for each individual, but instead an array that will contain information about all four Beatles.
 
