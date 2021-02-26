@@ -16,9 +16,7 @@ Execute in a terminal window
 
     mkdir -p ~/exercises/linked
     cd ~/exercises/linked
-    wget https://github.com/minprog/exercises/raw/main/writing/linked/linked.zip
-    unzip linked.zip
-    rm linked.zip
+    wget https://github.com/minprog/exercises/raw/main/writing/linked/linked.c
 
 ## Linked lists
 
