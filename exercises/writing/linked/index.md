@@ -2,13 +2,12 @@
 
 > Bij deze opdracht is het helemaal prima om samen te werken met één of twee medestudenten. Zorg dat je gezamenlijk op één scherm kunt kijken en echt samen het probleem probeert op te lossen. Heeft iemand een goed idee, dan moet die zorgen dat de anderen het ook begrijpen. De bedoeling is dat alle samenwerkers evenveel hebben bijgedragen aan de opdracht. Iedereen levert uiteindelijk een eigen versie in.
 
-## Goal
-
-Get a better understanding of how linked lists work and implement some basic concepts from the sections.
+This exercises gets you started building linked lists and deepening your understanding. Start out with a detailed explanation video and then just try implementing that data structure in C! This exercise specifially prepares you for the next, larger assignment, so definitely go and spend quite a bit of time on this one.
 
 ## Background
 
-Have another look at linked lists with this video:
+Have detailed look at linked lists with this video:
+
 ![embed](https://www.youtube.com/embed/xdkSNe43iNM)
 
 ## Getting started
@@ -20,12 +19,6 @@ Execute in a terminal window
     wget https://github.com/minprog/exercises/raw/main/writing/linked/linked.zip
     unzip linked.zip
     rm linked.zip
-
-## Data structures
-
-In file called `answers.md`, answer the following question in your own words (preferably in Dutch).
-
-> Explain the difference between a hash table structure and a trie structure
 
 ## Linked lists
 
