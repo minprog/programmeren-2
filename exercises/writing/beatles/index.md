@@ -2,6 +2,8 @@
 
 > Deze opdracht is niet bedoeld voor samenwerken, maar je hoeft 'm ook niet helemaal alleen te doen. Het doel is ervaring opdoen met technieken en daarom moet je alles zelf oefenen. Maar schroom niet hulp te vragen, en als het nodig is kan iemand het even voordoen. Als je naderhand maar zelf alle stappen doorlopen hebt.
 
+This exercise helps you practice creating `struct`s and variables of some struct type. Using structs, you'll be neatly organizing data that you have about the members of the band The Beatles.
+
 ## Background
 
 ![embed](https://www.youtube.com/embed/E4lb2gkyXr8)

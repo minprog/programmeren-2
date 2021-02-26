@@ -2,7 +2,7 @@
 
 > Bij deze opdracht is het helemaal prima om samen te werken met één of twee medestudenten. Zorg dat je gezamenlijk op één scherm kunt kijken en echt samen het probleem probeert op te lossen. Heeft iemand een goed idee, dan moet die zorgen dat de anderen het ook begrijpen. De bedoeling is dat alle samenwerkers evenveel hebben bijgedragen aan de opdracht. Iedereen levert uiteindelijk een eigen versie in.
 
-This exercises gets you started building linked lists and deepening your understanding. Start out with a detailed explanation video and then just try implementing that data structure in C! This exercise specifially prepares you for the next, larger assignment, so definitely go and spend quite a bit of time on this one.
+This exercise gets you started building linked lists and deepening your understanding. Start out with a detailed explanation video and then just try implementing that data structure in C! This exercise specifially prepares you for the next, larger assignment, so definitely go and spend quite a bit of time on this one.
 
 ## Background
 
