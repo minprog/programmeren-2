@@ -6,6 +6,14 @@
 
 ![embed](https://www.youtube.com/embed/E4lb2gkyXr8)
 
+Watch the video and then precisely answer the following questions. The video may not suffice for answering the questions, so we encourage you to seek additional information online.
+
+1. What is the "dot operator"?
+
+2. What is "dereferencing" a pointer?
+
+3. What are structs used for, according to Doug?
+
 ## Getting started
 
     mkdir -p ~/exercises/beatles
