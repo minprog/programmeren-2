@@ -4,14 +4,14 @@ Week 1:
     Maandag:
         Beatles: /exercises/writing/beatles
         "Videocollege: Data structures": /lectures/data-structures
-    Dinsdag:
         Linked list [samen]: /exercises/writing/linked
+    Dinsdag:
         "Speller: getting started [samen]": /problems/cs50/speller/startup
         "Speller: specification [samen]": /problems/cs50/speller/specification
-    Woensdag:
         "Speller: load [individueel]": /problems/cs50/speller/load
-    Donderdag:
+    Woensdag:
         "Speller: check [individueel]": /problems/cs50/speller/check
+    Donderdag:
         "Speller: hash [individueel]": /problems/cs50/speller/hash
         "Speller: size [individueel]": /problems/cs50/speller/size
     Vrijdag:
