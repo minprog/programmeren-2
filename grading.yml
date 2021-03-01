@@ -32,11 +32,11 @@ templates:
 grades:
     beatles: *checked
     linked: *checked
-    
+
     speller-started: *checked
     speller-spec: *checked
     speller-load: *checked
-    
+
     speller-check: *checked
     speller-hash: *checked
     speller-size: *checked
@@ -74,25 +74,25 @@ grades:
 
     presentation-video: *checked
 
-modules:
-    mispellings:
-        - a-mispellings
-        - speller
-        - q-mispellings
-    python:
-        - pymario
-        - readability
-        - dna
-        - q-python
-    hangman:
-        - queue
-        - cards
-        - hangman-less
-        # - q-hangman
-    adventure:
-        - adventure-less
-        - adventure-more
-        # - q-adventure
+# modules:
+#     mispellings:
+#         - a-mispellings
+#         - speller
+#         - q-mispellings
+#     python:
+#         - pymario
+#         - readability
+#         - dna
+#         - q-python
+#     hangman:
+#         - queue
+#         - cards
+#         - hangman-less
+#         # - q-hangman
+#     adventure:
+#         - adventure-less
+#         - adventure-more
+#         # - q-adventure
 
 calculation:
     final:
@@ -108,7 +108,7 @@ assignments:
     submits:
         mispellings: 1
         python: 1
-        hangman: 1
+        # hangman: 1
         adventure: 1
 
 other:
