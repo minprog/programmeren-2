@@ -30,7 +30,19 @@ templates:
         hide_calculated: true
 
 grades:
-    a-mispellings: *checked
+    beatles: *checked
+    linked: *checked
+    
+    speller-started: *checked
+    speller-spec: *checked
+    speller-load: *checked
+    
+    speller-check: *checked
+    speller-hash: *checked
+    speller-size: *checked
+    speller-unload: *checked
+
+    # a-mispellings: *checked
     speller: *automatic
 
     pymario: *automatic
@@ -85,6 +97,7 @@ modules:
 calculation:
     final:
         assignments: 100
+        other: 0
         # questions: 0
         # retrospectives: 0
         # afronding: 0
@@ -97,22 +110,31 @@ assignments:
         hangman: 1
         adventure: 1
 
-questions:
+other:
     show_progress: true
     submits:
-        q-mispellings: 1
-        q-python: 1
+        beatles: 1
+        linked: 1
+        speller-started: 1
+        speller-spec: 1
+        speller-load: 1
+        speller-check: 1
+        speller-hash: 1
+        speller-size: 1
+        speller-unload: 1
+        # q-mispellings: 1
+        # q-python: 1
         # q-hangman: 1
         # q-adventure: 1
 
-retrospectives:
-    show_progress: true
-    submits:
-        r-mispellings: 1
-        r-python: 1
-        r-hangman: 1
+# retrospectives:
+#     show_progress: true
+#     submits:
+#         r-mispellings: 1
+#         r-python: 1
+#         r-hangman: 1
 
-afronding:
-    submits:
-        # r-adventure: 1
-        presentation-video: 1
+# afronding:
+#     submits:
+#         # r-adventure: 1
+#         presentation-video: 1
