@@ -97,6 +97,7 @@ modules:
 calculation:
     final:
         assignments: 100
+        speller: 0
         other: 0
         # questions: 0
         # retrospectives: 0
@@ -115,6 +116,10 @@ other:
     submits:
         beatles: 1
         linked: 1
+
+speller:
+    show_progress: true
+    submits:
         speller-started: 1
         speller-spec: 1
         speller-load: 1
