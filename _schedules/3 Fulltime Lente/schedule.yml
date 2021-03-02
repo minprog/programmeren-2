@@ -26,10 +26,10 @@ Week 2:
         Mario: /problems/cs50/py/mario
         Readability: /problems/cs50/py/readability
     Woensdag:
-        World Cup: /problems/cs50/worldcup
-        DNA: /problems/cs50/dna
+        World Cup [samen]: /problems/cs50/worldcup
+        DNA [individueel]: /problems/cs50/dna
     Donderdag:
-        DNA: /problems/cs50/dna
+        DNA [individueel]: /problems/cs50/dna
         Questions: /modules/python/questions
     Vrijdag:
         "Videocollege: OOP": /problems/objects/lecture
@@ -40,6 +40,6 @@ Week 3:
         Hangman [samen]: /problems/hangman/classic
         Questions: /modules/hangman/questions
     Dinsdag:
-        Adventure: /problems/adventure/less
+        Adventure [individueel]: /problems/adventure/less
     Extra opdracht:
         Adventure (Hacker): /problems/adventure/more
