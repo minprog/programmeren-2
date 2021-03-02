@@ -4,11 +4,11 @@ This is your last assignment in C! It's all about **abstract data types**. What 
 
 - C has many built-in **data types** such as `int`, `float` and "pointer".
 
-- C also has some data types that you can use to manage **collections** of data: structs and arrays:
+- C also has some data types that you can use to manage **collections** of data:
 
     - For structs, you have to specify which fields are in it and what types those fields have. The number of fields and their names and types are fixed.
 
-    - For arrays, you specify just a single type, because each element in an array has the same type. You have to known in advanced how many entries you will need.
+    - For arrays, you specify just a single type, because each element in an array has the same type. You have to known in advance how many entries you will need.
 
 - Using all of these built-in data types, we can create our own **dynamic data structures**, which can be designed to work well with certain algorithms (like a well-designed hash table structure that will make a dictionary lookup function *very* fast).
 
@@ -53,6 +53,8 @@ These operations enable you to create multiple stacks (instances) in a running p
 This operation is commonly defined for collection data types.
 
 ## Building a stack
+
+Download the starter file: [`stack.c`](stack.c).
 
 We're now going to build a Stack in C. Let's start with the `node` type that we're going to use as a building block. It's the same as the node that we used for linked lists (and that is to be expected, because a stack is a kind of list, right?). For this assignment, we will store single integers in the list. Have a look:
 
