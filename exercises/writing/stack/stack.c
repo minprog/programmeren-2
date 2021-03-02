@@ -8,7 +8,7 @@ typedef struct node
     struct node* next;
 } node;
 
-// root node type
+// stack node type
 typedef struct stack
 {
     struct node* root;

@@ -65,9 +65,9 @@ We're now going to build a Stack in C. Let's start with the `node` type that we'
         struct node* next;
     } node;
 
-What we're going to add this time is a **root node type**. In earlier assignments, the root was always some kind of plain variable (it was a single pointer in the "Linked list" assignment, and a full array of pointers in "Speller"). By adding a root node type, we can dynamically create and delete stacks! All we need is this:
+What we're going to add this time is a **stack node type**. In earlier assignments, the root of a list was always some kind of plain variable (it was a single pointer in the "Linked list" assignment, and a full array of pointers in "Speller"). By adding a stack node type, we can dynamically create and delete stacks. All we need is this:
 
-    // root node type
+    // stack node type
     typedef struct stack
     {
         struct node* root;
@@ -76,7 +76,7 @@ What we're going to add this time is a **root node type**. In earlier assignment
 
 Notice two things:
 
-- The root node type is **not** self-referential like the number node type is. It just exists to store a pointer to the first element in the stack (or none, if it is empty).
+- The stack node type is **not** self-referential like the number node type is, so it does not contain a pointer to another stack node. It just exists to store a pointer to the first element in the stack (or none, if it is empty).
 
 - We add a field called `size`, which will store the number of values that is in the stack at any time. This will save us counting each value separately when the size is requested. Keeping track of such a value separately is called "memoization".
 
