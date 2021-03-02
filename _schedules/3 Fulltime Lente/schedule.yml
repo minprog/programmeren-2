@@ -20,17 +20,19 @@ Week 1:
         Questions [individueel]: /modules/mispellings/questions
 Week 2:
     Maandag:
+        Stack [samen]: /exercises/writing/stack
+    Dinsdag:
         'Videocollege: Python': /lectures/python-david
         Implementeer Mario: /problems/cs50/py/mario
         Implementeer Readability: /problems/cs50/py/readability
-    Dinsdag:
-        Implementeer DNA: /problems/cs50/dna
     Woensdag:
+        Implementeer DNA: /problems/cs50/dna
+    Donderdag:
         Questions: /modules/python/questions
         "Videocollege: OOP": /problems/objects/lecture
         Implementeer Queue: /problems/objects/queue
         Implementeer Game of Cards: /problems/objects/cards
-    Donderdag en vrijdag:
+    Vrijdag:
         Hangman [samen]: /problems/hangman/classic
         Questions: /modules/hangman/questions
 Week 3:
