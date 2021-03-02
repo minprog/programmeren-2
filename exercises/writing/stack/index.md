@@ -156,7 +156,7 @@ Use the testing code in two ways:
 
 1. Implement the function in such a way that this test code executes correctly.
 
-2. Even better, check using valgrind that your program doesn't leave a single trace in memory when finished.
+2. Check using valgrind that your program doesn't leave a single trace in memory when finished.
 
 
 ## Submit
