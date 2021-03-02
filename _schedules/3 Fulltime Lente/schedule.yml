@@ -23,20 +23,23 @@ Week 2:
         Stack [samen]: /exercises/writing/stack
     Dinsdag:
         'Videocollege: Python': /lectures/python-david
-        Implementeer Mario: /problems/cs50/py/mario
-        Implementeer Readability: /problems/cs50/py/readability
+        Mario: /problems/cs50/py/mario
+        Readability: /problems/cs50/py/readability
     Woensdag:
-        Implementeer DNA: /problems/cs50/dna
+        World Cup: /problems/cs50/worldcup
+        DNA: /problems/cs50/dna
     Donderdag:
+        DNA: /problems/cs50/dna
         Questions: /modules/python/questions
+    Vrijdag:
         "Videocollege: OOP": /problems/objects/lecture
         Implementeer Queue: /problems/objects/queue
         Implementeer Game of Cards: /problems/objects/cards
-    Vrijdag:
-        Hangman [samen]: /problems/hangman/classic
-        Questions: /modules/hangman/questions
 Week 3:
     Maandag:
+        Hangman [samen]: /problems/hangman/classic
+        Questions: /modules/hangman/questions
+    Dinsdag:
         Adventure: /problems/adventure/less
     Extra opdracht:
         Adventure (Hacker): /problems/adventure/more
