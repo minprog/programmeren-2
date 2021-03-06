@@ -120,9 +120,9 @@ Dit zijn de **uiterste** deadlines voor de verbeterde versies:
 
 | module | opdrachten            | deadline            |
 | ------ |---------------------- | ------------------: |
-|      1 | Speller               | do 11 mrt  12:59    |
-|      2 | Python                | di 16 mrt  17:59    |
-|      3 | Games                 | di 23 mrt  17:59    |
+|      1 | Speller               | di  9 mrt  17:59    |
+|      2 | Python                | di 23 mrt  17:59    |
+|      3 | Games                 | vr 26 mrt  17:59    |
 
 Dit schema is afhankelijk van de werkgroeproostering en volledig onder voorbehoud. Het geeft wel een indicatie van wat de bedoeling is.
 
