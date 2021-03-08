@@ -4,6 +4,7 @@ Deze week is het herhalen of verdiepen. Misschien heb je het idee dat je wat din
 
 De opdrachten zijn 100% bedoeld om jouw **individuele skills op te bouwen**, dus het is allemaal individueel werk. Toch willen we dat je niet de hele week "alleen" bezig bent. Hieronder vind je nog wat meer informatie daarover, maar eerst iets over de opdrachten!
 
+
 ## Opties
 
 Wat kun je kiezen?
@@ -31,6 +32,9 @@ De opdracht: <https://cs50.harvard.edu/x/2020/psets/3/tideman/>
 
 Voor alle opties geldt: jij doet je eigen werk. Je kiest iets dat bij jouw niveau past, iets dat je goed aan kunt maar ook leerzaam gaat zijn (eerlijk gezegd zullen ze allemaal wel leerzaam zijn, je moet alleen zorgen dat je op een prettige manier uitgedaagd wordt).
 
+We gaan waar mogelijk groepjes maken, en het ligt voor de hand om aan het eind van de dag je werk te kunnen vergelijken met dat van een andere student. Gebruik beschikbaarheid van medestudenten *niet* om je keuze te maken! Kies echt voor jezelf.
+
+
 ## Beoordeling
 
 Alle opties worden beoordeeld met de volgende aspecten:
@@ -44,6 +48,7 @@ En dan steeds 0, 1 of 2 punten voor "niet echt", "net genoeg", "goed".
 De bal ligt bij jou om dit goed duidelijk te maken aan het einde van de week. Je maakt dus een document waar je uitlegt wat je gedaan hebt en wat je er van geleerd hebt, dat je inlevert en op basis waarvan we kunnen beoordelen (samen met de code die je hebt geschreven!).
 
 Misschien ten overvloede: er wordt niet beoordeeld op "heel ver komen" en of "meer werk doen dan gevraagd". Het gaat echt om de kwaliteit van wat je doet en wat je er van leert.
+
 
 ## Submit
 
