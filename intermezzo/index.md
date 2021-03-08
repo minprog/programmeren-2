@@ -23,7 +23,7 @@ De opdrachten: <https://cs50.harvard.edu/x/2020/tracks/games/>
 
 ### 3. Tideman
 
-Deze opdracht wordt bij CS50 gezien als verreweg te moeilijkste. [Tideman](https://en.wikipedia.org/wiki/Tideman_alternative_method) is een manier om verkiezingen te organiseren waarbij elke deelnemer een "ranking" geeft (in plaats van één enkele keuze). Er zijn vele van dit soort verschillende methodes---ook in Nederland overweegt men om kleine aanpassingen te doen aan de manier van stemmen voor de Tweede Kamer. 
+Deze opdracht wordt bij CS50 gezien als verreweg de moeilijkste. [Tideman](https://en.wikipedia.org/wiki/Tideman_alternative_method) is een manier om verkiezingen te organiseren waarbij elke deelnemer een "ranking" geeft (in plaats van één enkele keuze). Er zijn vele van dit soort verschillende methodes---ook in Nederland overweegt men om kleine aanpassingen te doen aan de manier van stemmen voor de Tweede Kamer. 
 
 De opdracht: <https://cs50.harvard.edu/x/2020/psets/3/tideman/>
 
