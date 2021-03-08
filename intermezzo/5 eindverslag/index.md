@@ -6,6 +6,8 @@ Hier lever je je eindverslag in en de definitieve code die je hebt geschreven. H
 2. expliciete linkjes naar het studiemateriaal dat je hebt gebruikt en wat je daarvan geleerd hebt
 3. uitgebreide antwoorden op de volgende vragen
 
+Let goed op de manier waarop dit beoordeeld wordt. Onderstaande is een "invuloefening" maar die leidt niet altijd tot volle diepgang. Hoe beter jij zelf structuur aanbrengt in het overzicht van wat jij hebt geleerd, hoe hoger je scoort.
+
 ## Vraag 1
 
 Vul uitgebreid aan "Van mijn activiteiten bij het intermezzo heb ik geleerd dat/hoe...".

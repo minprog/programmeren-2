@@ -37,17 +37,31 @@ We gaan waar mogelijk groepjes maken, en het ligt voor de hand om aan het eind v
 
 ## Beoordeling
 
-Alle opties worden beoordeeld met de volgende aspecten:
+Beoordeling gebeurt enerzijds op dagelijkse inzet:
 
-- In hoeverre heb je evident tijd en energie gestoken in de opdrachten?
-- In hoeverre heb je geoefend met iets dat je nog niet kende of eerder niet goed begreep?
+- In hoeverre heb je evident dagelijks tijd en energie gestoken in de opdrachten?
+
+    - 0 pt: geen tussentijdse updates met duidelijk beschreven voortgang
+    - 1 pt: 1-2 tussentijdse updates met duidelijk beschreven voortgang
+    - 2 pt: 3 tussentijdse updates met duidelijk beschreven voortgang
+    - 3 pt: 4 tussentijdse updates met duidelijk beschreven voortgang
+
+Let op: je moet elke dag insturen wat je gedaan hebt. Naderhand zeggen dat je dagelijks bezig bent geweest is niet genoeg. Voortgang hoeft niet letterlijk te zijn dat er veel code bij is gekomen, het kan ook zijn dat je tijd hebt besteed aan dingen uitzoeken en leren. Daar kun je gewoon over schrijven in je verslagen.
+
+Anderzijds krijg je punten op basis van hoe goed je in je eindverslag uitlegt wat je hebt geleerd:
+
 - In hoeverre kun je uitleggen wat je precies geleerd hebt door het doen van de opdrachten?
 
-En dan steeds 0, 1 of 2 punten voor "niet echt", "net genoeg", "goed".
+    - 0 pt: wel een opsomming maar geen verdere uitleg van wat er geleerd is
+    - 1 pt: uitleg scherp, to the point, maar beperkt tot het werk van deze week
+    - 2 pt: uitleg scherp, to the point en gerelateerd aan wat en in welke situatie eerder (niet) geleerd is
+    - 3 pt: een goed georganiseerd essay waarin de kernpunten van het leren overzichtelijk worden gepresenteerd met voorbeelden, met vergelijkingen tussen geleerde uit deze week en eerdere momenten
 
 De bal ligt bij jou om dit goed duidelijk te maken aan het einde van de week. Je maakt dus een document waar je uitlegt wat je gedaan hebt en wat je er van geleerd hebt, dat je inlevert en op basis waarvan we kunnen beoordelen (samen met de code die je hebt geschreven!).
 
-Misschien ten overvloede: er wordt niet beoordeeld op "heel ver komen" en of "meer werk doen dan gevraagd". Het gaat echt om de kwaliteit van wat je doet en wat je er van leert.
+Misschien ten overvloede: er wordt niet (extra) beoordeeld op "heel ver komen" en of "meer werk doen dan gevraagd". Het gaat echt om de kwaliteit van wat je doet en wat je er van leert.
+
+Mocht je voortijdig klaar zijn, dan kun je daarna direct aan de slag met één van de andere opties. Stop je, dan heeft dat invloed op het aantal punten dat je kunt halen, omdat je dan geen voortgang meer maakt.
 
 
 ## Submit
