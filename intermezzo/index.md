@@ -39,6 +39,8 @@ Alle opties worden beoordeeld met de volgende aspecten:
 - In hoeverre heb je geoefend met iets dat je nog niet kende of eerder niet goed begreep?
 - In hoeverre kun je uitleggen wat je precies geleerd hebt door het doen van de opdrachten?
 
+En dan steeds 0, 1 of 2 punten voor "niet echt", "net genoeg", "goed".
+
 De bal ligt bij jou om dit goed duidelijk te maken aan het einde van de week. Je maakt dus een document waar je uitlegt wat je gedaan hebt en wat je er van geleerd hebt, dat je inlevert en op basis waarvan we kunnen beoordelen (samen met de code die je hebt geschreven!).
 
 Misschien ten overvloede: er wordt niet beoordeeld op "heel ver komen" en of "meer werk doen dan gevraagd". Het gaat echt om de kwaliteit van wat je doet en wat je er van leert.
