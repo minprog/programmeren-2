@@ -45,6 +45,8 @@ grades:
     # a-mispellings: *checked
     speller: *automatic
 
+    stack: *checked
+
     pymario: *automatic
     readability: *automatic
     dna: *automatic
@@ -116,6 +118,7 @@ other:
     submits:
         beatles: 1
         linked: 1
+        stack: 1
 
 speller:
     show_progress: true
