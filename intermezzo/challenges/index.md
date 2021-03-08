@@ -22,11 +22,11 @@ De volgende stappen geven aan hoe je zou moeten werken:
 
 ### 1.1 Fietsvakantie
 
-Je gaat op fietsvakantie. De kosten van een binnenband bedragen 7 euro, de kosten van een buitenband beadragen 17,50, en het laten plakken van een lek kost 15 euro. Na elke 1000 kilometer fietsen zijn zowel binnen- als buitenband aan vervanging toe. Je neemt niet de makkelijkste route, dus elke 75 kilometer rijd je lek. Schrijf een programma dat de kosten van bandenonderhoud berekent aan de hand van het aantal gereden kilometers (ingevoerd door een gebruiker). Voer zowel de totale kosten als de kosten per post (binnenbanden, buitenbanden en plakken) uit.
+Je gaat op fietsvakantie. De kosten van een binnenband bedragen 7 euro, de kosten van een buitenband bedragen 17,50, en het laten plakken van een lek kost 15 euro. Na elke 1000 kilometer fietsen zijn zowel binnen- als buitenband aan vervanging toe. Je neemt niet de makkelijkste route, dus elke 75 kilometer rijd je lek. Schrijf een programma dat de kosten van bandenonderhoud berekent aan de hand van het aantal gereden kilometers (ingevoerd door een gebruiker). Voer zowel de totale kosten als de kosten per post (binnenbanden, buitenbanden en plakken) uit.
 
 ### 1.2 Pizza's
 
-Sommige pizzeria's hanteren geen vaste rpijzen voor hun pizza's maar berekenen die aan de hand van de grootte van de pizza en de wensen die de klant heeft met betrekking tot de ingrediënten waarmee de pizza wordt belegd. Voor elke pizza geldt een basisprijs van 3,50. De klant geeft zelf aan hoe groot zijn pizza moet worden en omdat pizza's altijd exact rond zijn wordt dat opgegeven als straal. Bovenop de basiskosten wordt dan één euro per vierkante decimeter in rekening gebracht. De klant kan verder opgeven hoe zijn pizza versierd moet worden en de pizzeria brengt voor elk ingrediënt (kaas, ham, ansjovis, etc.) nog een tien cent per dm2 in rekening. Schrijf een programma dat bij een pizzza van de gewenste omvang (de straal van de pizza) en decoratie (het aantal ingrediënten) de prijs uitrekent.
+Sommige pizzeria's hanteren geen vaste rpijzen voor hun pizza's maar berekenen die aan de hand van de grootte van de pizza en de wensen die de klant heeft met betrekking tot de ingrediënten waarmee de pizza wordt belegd. Voor elke pizza geldt een basisprijs van 3,50. De klant geeft zelf aan hoe groot zijn pizza moet worden en omdat pizza's altijd exact rond zijn wordt dat opgegeven als straal. Bovenop de basiskosten wordt dan één euro per vierkante decimeter in rekening gebracht. De klant kan verder opgeven hoe zijn pizza versierd moet worden en de pizzeria brengt voor elk ingrediënt (kaas, ham, ansjovis, etc.) nog een tien cent per dm2 in rekening. Schrijf een programma dat bij een pizza van de gewenste omvang (de straal van de pizza) en decoratie (het aantal ingrediënten) de prijs uitrekent.
 
 ### 1.3 Zwartrijden
 
@@ -34,7 +34,7 @@ Wanneer je vroeger in de trein stapte zonder kaartje betaalde je bij controle do
 
 ### 2.1 Babysitten
 
-Babysitten is tegenwoordig een luctratief bijbaantje. Wanneer babies zich koest houden kun je lekker studeren zonder te worden afgeleid, en je krijgt er nog voor betaald ook. Marieke krijgt vóór 12 uur 's nachts een vergoeding van 6 euro per uur en ná middernacht wordt dat 10. De meeste mensen waar ze opde  kleine kinderen past zijn soepel en ronden de tijd dat ze heeft opgepast op een vriendelijke manier af. Voor de tijd van aankomst nemen ze het laatste hele uur voorafgaand aan de werkelijke tijd van aankomst en de tijd van vertrek ronden ze af op het hele uur naar boven toe. Schrijf een programma waarmee Marieke kan uitrekenen wat ze verdienen zal, gegeven een willekeurig begintijdstip (na 7 uur 's avonds) en een willekeurig eindtijdstip (vóór 3 uur 's nachts).
+Babysitten is tegenwoordig een lucratief bijbaantje. Wanneer babies zich koest houden kun je lekker studeren zonder te worden afgeleid, en je krijgt er nog voor betaald ook. Marieke krijgt vóór 12 uur 's nachts een vergoeding van 6 euro per uur en ná middernacht wordt dat 10. De meeste mensen waar ze op de  kleine kinderen past zijn soepel en ronden de tijd dat ze heeft opgepast op een vriendelijke manier af. Voor de tijd van aankomst nemen ze het laatste hele uur voorafgaand aan de werkelijke tijd van aankomst en de tijd van vertrek ronden ze af op het hele uur naar boven toe. Schrijf een programma waarmee Marieke kan uitrekenen wat ze verdienen zal, gegeven een willekeurig begintijdstip (na 7 uur 's avonds) en een willekeurig eindtijdstip (vóór 3 uur 's nachts).
 
 ### 2.2 Zwartrijden 2
 
@@ -54,7 +54,7 @@ Schrijf *functies* die een vierkant en een gevuld vierkant, een ruit en een gevu
 
 ### 4.1 Zeer eenvoudig, maar zeer inefficiënt sorteren
 
-Een methode van sorteren die wel gegarandeerd correct is, maar ongeveer de slechtste die je kunt verzinnen, is *Simpel Sort*. Stel dat we een array A met N elementen willen sorteren. We gaan als volgt te werk:
+Een methode van sorteren die wel gegarandeerd correct is, maar ongeveer de slechtste die je kunt verzinnen, is *Simple Sort*. Stel dat we een array A met N elementen willen sorteren. We gaan als volgt te werk:
 
 Onderzoek de elementen A[k] vanaf k=1 tot en met k=N-1, en telkens wanneer je een element A[k] tegenkomt dat kleiner is dan A[0] verwissel je dat element met A[0]. Het resultaat daarvan is dat het kleinste element uit het array op de plaats 0 terecht komt.
 
