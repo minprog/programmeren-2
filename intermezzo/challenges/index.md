@@ -1,4 +1,4 @@
-# Challenges
+# Mini-challenges
 
 Deze opdrachten werden vrijwel exact in de onderstaande formulering door eerstejaarsstudenten gedaan in het studiejaar 1998-1999. Als oefening blijven ze actueel!
 

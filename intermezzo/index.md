@@ -8,7 +8,7 @@ De opdrachten zijn 100% bedoeld om jouw **individuele skills op te bouwen**, dus
 
 Wat kun je kiezen?
 
-### 1. Challenges
+### 1. Mini-challenges
 
 Dit is een herhalingsopdracht. Je gaat elk dagdeel aan de slag met een challenge. Dit is een probleemomschrijving waarbij jij een programma gaat ontwerpen, implementeren en zorgvuldig uittesten en verbeteren. Het oefenen zit hier echt in het systematisch werken, kennis van programmeerconstructies verder uitbouwen en zelfstandig leren testen van je uitwerkingen. Je slaat niks over en zorgt dat je alles begrijpt wat je maakt.
 
