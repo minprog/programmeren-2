@@ -46,15 +46,15 @@ Beoordeling gebeurt enerzijds op dagelijkse inzet:
     - 2 pt: 3 tussentijdse updates met duidelijk voortgang in code en/of studieverslag
     - 3 pt: 4 tussentijdse updates met duidelijk voortgang in code en/of studieverslag
 
-Let op: je moet elke dag insturen wat je gedaan hebt. Naderhand zeggen dat je dagelijks bezig bent geweest is niet genoeg. Voortgang hoeft niet letterlijk te zijn dat er veel code bij is gekomen, het kan ook zijn dat je tijd hebt besteed aan dingen uitzoeken en leren. Daar kun je gewoon over schrijven in je verslagen.
+Let op: je moet elke dag insturen wat je gedaan hebt. Naderhand zeggen dat je dagelijks bezig bent geweest is niet genoeg. Voortgang hoeft niet letterlijk te zijn dat er veel code bij is gekomen, het kan ook zijn dat je tijd hebt besteed aan dingen uitzoeken en leren. Daar kun je gewoon over schrijven in je *tussen*verslagen.
 
 Anderzijds krijg je punten op basis van hoe goed je in je eindverslag uitlegt wat je hebt geleerd:
 
 - In hoeverre kun je uitleggen wat je precies geleerd hebt door het doen van de opdrachten?
 
-    - 0 pt: wel een opsomming maar geen verdere uitleg van wat er geleerd is
-    - 1 pt: uitleg scherp, to the point, maar beperkt tot het werk van deze week
-    - 2 pt: uitleg scherp, to the point en gerelateerd aan wat en in welke situatie eerder (niet) geleerd is
+    - 0 pt: wel een opsomming maar geen gestructureerde uitleg van wat er geleerd is
+    - 1 pt: gestructureerde uitleg van wat er geleerd is, beperkt tot het werk van deze week
+    - 2 pt: gestructureerde uitleg van wat er geleerd is, gerelateerd aan wat en in welke situatie eerder in de cursus (niet) geleerd is
     - 3 pt: een goed georganiseerd essay waarin de kernpunten van het leren overzichtelijk worden gepresenteerd met voorbeelden, met vergelijkingen tussen geleerde uit deze week en eerdere momenten
 
 De bal ligt bij jou om dit goed duidelijk te maken aan het einde van de week. Je maakt dus een document waar je uitlegt wat je gedaan hebt en wat je er van geleerd hebt, dat je inlevert en op basis waarvan we kunnen beoordelen (samen met de code die je hebt geschreven!).
