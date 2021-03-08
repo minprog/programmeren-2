@@ -41,10 +41,10 @@ Beoordeling gebeurt enerzijds op dagelijkse inzet:
 
 - In hoeverre heb je evident dagelijks tijd en energie gestoken in de opdrachten?
 
-    - 0 pt: geen tussentijdse updates met duidelijk beschreven voortgang
-    - 1 pt: 1-2 tussentijdse updates met duidelijk beschreven voortgang
-    - 2 pt: 3 tussentijdse updates met duidelijk beschreven voortgang
-    - 3 pt: 4 tussentijdse updates met duidelijk beschreven voortgang
+    - 0 pt: geen tussentijdse updates met duidelijk voortgang in code en/of studieverslag
+    - 1 pt: 1-2 tussentijdse updates met duidelijk voortgang in code en/of studieverslag
+    - 2 pt: 3 tussentijdse updates met duidelijk voortgang in code en/of studieverslag
+    - 3 pt: 4 tussentijdse updates met duidelijk voortgang in code en/of studieverslag
 
 Let op: je moet elke dag insturen wat je gedaan hebt. Naderhand zeggen dat je dagelijks bezig bent geweest is niet genoeg. Voortgang hoeft niet letterlijk te zijn dat er veel code bij is gekomen, het kan ook zijn dat je tijd hebt besteed aan dingen uitzoeken en leren. Daar kun je gewoon over schrijven in je verslagen.
 
