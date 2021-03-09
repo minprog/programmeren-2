@@ -1,0 +1,5 @@
+name: intermezzo
+files:
+    required:
+        - verslag.txt
+        - code.zip
