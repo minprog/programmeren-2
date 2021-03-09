@@ -76,6 +76,12 @@ grades:
 
     presentation-video: *checked
 
+    intermezzo: *manual
+    inter-1: *checked
+    inter-2: *checked
+    inter-3: *checked
+    inter-4: *checked
+
 # modules:
 #     mispellings:
 #         - a-mispellings
@@ -134,6 +140,14 @@ speller:
         # q-python: 1
         # q-hangman: 1
         # q-adventure: 1
+
+intermezzo:
+    show_progress: true
+    submits:
+        inter-1: 1
+        inter-2: 1
+        inter-3: 1
+        inter-4: 1
 
 # retrospectives:
 #     show_progress: true
