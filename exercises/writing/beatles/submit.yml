@@ -1,5 +1,0 @@
-name: beatles
-files:
-  required:
-    - answers.md
-    - beatles.c

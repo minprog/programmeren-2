@@ -1,4 +1,0 @@
-name: linked
-files:
-  required:
-    - linked.c
