@@ -24,25 +24,25 @@ Week 2:
     Intermezzoweek:
         Alle opdrachten: /intermezzo
 Week 3:
-    Dinsdag:
+    Maandag:
         'Videocollege: Python': /lectures/python-david
         Mario: /cs50/py/mario
         Readability: /cs50/py/readability
-    Woensdag:
+    Dinsdag:
         World Cup [samen]: /cs50/worldcup
         DNA [individueel]: /cs50/dna
-    Donderdag:
+    Woensdag:
         DNA [individueel]: /cs50/dna
         Questions: /modules/python/questions
-    Vrijdag:
+    Donderdag:
         "Videocollege: OOP": /objects/lecture
         Implementeer Queue: /objects/queue
         Implementeer Game of Cards: /objects/cards
-Week 4:
-    Maandag:
+    Vrijdag:
         Hangman [samen]: /hangman/classic
         Questions: /modules/hangman/questions
-    Dinsdag:
+Week 4:
+    Maandag:
         Adventure [individueel]: /adventure/less
     Extra opdracht:
         Adventure (Hacker): /adventure/more
