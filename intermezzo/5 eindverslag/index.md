@@ -13,7 +13,11 @@ Hier lever je je eindverslag in en de definitieve code die je hebt geschreven. H
 
 2. een uitgebreide reflectie op wat je geleerd hebt, met als input de vragen hieronder
 
-Dit zijn twee aparte delen! Ga dus bij onderdeel 2 **niet** alles weer per dag opsommen, maar breng een eigen organisatie aan die overzichtelijk maakt wat je geleerd hebt, en niet wanneer. Je kunt natuurlijk wel terugverwijzen naar de activiteiten die je bij onderdeel 1 noemt.
+3. conclusie met ruimte voor persoonlijke opmerkingen en verzuchtingen
+
+Dit zijn drie aparte delen! Ga dus bij onderdeel 2 **niet** alles weer per dag opsommen, maar breng een eigen organisatie aan die overzichtelijk maakt wat je geleerd hebt, en niet wanneer. Je kunt natuurlijk wel terugverwijzen naar de activiteiten die je bij onderdeel 1 noemt.
+
+Probeer deel 1 en 2 zakelijk en overzichtelijk te houden, maar bij deel 3 kun je gerust wat meer persoonlijk terugkijken. Ook opmerkingen over de opzet van de week worden gewaardeerd!
 
 ## Opmaak
 
