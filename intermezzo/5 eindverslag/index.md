@@ -8,6 +8,16 @@ Hier lever je je eindverslag in en de definitieve code die je hebt geschreven. H
 
 Dit zijn drie aparte delen! Ga dus bij onderdeel 3 alles weer per dag opsommen, maar breng een eigen organisatie aan die overzichtelijk maakt wat je geleerd hebt, en niet wanneer. Je kunt natuurlijk wel terugverwijzen naar de activiteiten die je bij onderdeel 1 noemt.
 
+## Opmaak
+
+Je moet je verslag inleveren als Markdown-bestand. Dat is eigenlijk gewoon een tekstbestand maar met een simpel algoritme kan het netjes gepresenteerd worden op een website (bijv. bij de beoordeling).
+
+Hier meer informatie: <https://www.markdownguide.org/basic-syntax/>
+
+Je hoeft geen programma te downloaden om Markdown te kunnen schrijven, maar het kan het wel makkelijker maken om te zien of het netjes wordt.
+
+Dit is verder niet bedoeld als iets heel ingewikkelds, maar kijk wel even hoe je een net document maakt!
+
 ## Beoordeling
 
 Je verslag beoordelen we op hoe goed je kunt uitleggen wat je precies geleerd hebt door het doen van de opdrachten.
@@ -76,3 +86,6 @@ Hiermee beschrijf je wat je aan uitzonderingen en verrassingen over jezelf gelee
 
 Probeer het zo uitgebreid mogelijk te doen, maar hou het bij dingen die je echt zelf geleerd hebt (met of zonder hulp!).
 
+## Inleveren
+
+Maak een nette zipfile waar alléén de bestanden in staan die je voor het intermezzo hebt gemaakt (dus geen Stack enz.). Dit is om te kunnen inspecteren wat je uiteindelijk hebt gemaakt, maar het wordt niet inhoudelijk beoordeeld op werking en ook niet op stijl!
