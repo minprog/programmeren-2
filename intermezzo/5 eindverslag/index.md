@@ -6,6 +6,8 @@ Hier lever je je eindverslag in en de definitieve code die je hebt geschreven. H
 2. expliciete linkjes naar het meeste interessante studiemateriaal dat je hebt gebruikt en wat je daarvan geleerd hebt
 3. een uitgebreide reflectie op wat je geleerd hebt, met als input de vragen hieronder
 
+Dit zijn drie aparte delen! Ga dus bij onderdeel 3 alles weer per dag opsommen, maar breng een eigen organisatie aan die overzichtelijk maakt wat je geleerd hebt, en niet wanneer. Je kunt natuurlijk wel terugverwijzen naar de activiteiten die je bij onderdeel 1 noemt.
+
 ## Beoordeling
 
 Je verslag beoordelen we op hoe goed je kunt uitleggen wat je precies geleerd hebt door het doen van de opdrachten.
