@@ -3,10 +3,17 @@
 Hier lever je je eindverslag in en de definitieve code die je hebt geschreven. Het verslag schrijf je in drie onderdelen in een simpel maar netjes opgemaakt .txt-bestand:
 
 1. samenvattende omschrijvingen wat je per dag gedaan hebt (geen copy-paste van dagverslag, korter!)
-2. expliciete linkjes naar het meeste interessante studiemateriaal dat je hebt gebruikt en wat je daarvan geleerd hebt
-3. een uitgebreide reflectie op wat je geleerd hebt, met als input de vragen hieronder
 
-Dit zijn drie aparte delen! Ga dus bij onderdeel 3 alles weer per dag opsommen, maar breng een eigen organisatie aan die overzichtelijk maakt wat je geleerd hebt, en niet wanneer. Je kunt natuurlijk wel terugverwijzen naar de activiteiten die je bij onderdeel 1 noemt.
+    - bepaalde opdracht/onderdeel gedaan
+    - iets uitgezocht in de theorie/college/website (met link)
+    - debugging-sessie van een specifiek probleem
+    - herhaling van ...
+    - opnieuw gekeken naar bepaald onderdeel van een opdracht
+    - ...?
+
+2. een uitgebreide reflectie op wat je geleerd hebt, met als input de vragen hieronder
+
+Dit zijn twee aparte delen! Ga dus bij onderdeel 2 **niet** alles weer per dag opsommen, maar breng een eigen organisatie aan die overzichtelijk maakt wat je geleerd hebt, en niet wanneer. Je kunt natuurlijk wel terugverwijzen naar de activiteiten die je bij onderdeel 1 noemt.
 
 ## Opmaak
 
