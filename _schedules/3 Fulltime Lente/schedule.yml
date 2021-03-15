@@ -43,6 +43,14 @@ Week 3:
         Questions: /modules/hangman/questions
 Week 4:
     Maandag:
-        Adventure [individueel]: /adventure/less
-    Extra opdracht:
-        Adventure (Hacker): /adventure/more
+        "Adventure: introduction": /adventure/intro
+        "Adventure: room class": /adventure/room
+        "Adventure: data files": /adventure/data
+    Dinsdag:
+        "Adventure: moving around": /adventure/move
+        "Adventure: forced movement": /adventure/forced
+    Woensdag:
+        "Adventure: objects": /adventure/objects
+    Donderdag:
+        "Adventure: final touches": /adventure/commands
+        "Adventure: submit": /adventure/submit
