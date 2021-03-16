@@ -135,6 +135,9 @@ other:
         pymario: 1
         readability-py: 1
         worldcup: 1
+        hangman-less: 1
+        queue: 1
+        cards: 1
 
 # speller:
 #     show_progress: true
