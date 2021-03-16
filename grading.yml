@@ -48,7 +48,8 @@ grades:
     stack: *checked
 
     pymario: *automatic
-    readability: *automatic
+    readability-py: *automatic
+    worldcup: *automatic
     dna: *automatic
 
     queue: *automatic
