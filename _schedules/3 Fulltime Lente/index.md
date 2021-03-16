@@ -38,7 +38,7 @@ Op die manier kunnen je mentor en de docenten een goed beeld vormen van jouw voo
 
 Je cijfer voor het vak wordt als volgt bepaald:
 
-- 25% is op basis van het aftekenen van de Oefenopdrachten en Samenwerkopdrachten. Deze punten heb je al binnen zodra alles af is.
+- 25% is op basis van het aftekenen van het Intermezzo. Deze punten heb je binnen zodra je vier dagen vol gewerkt hebt aan het intermezzo en een diepgaand verslag hebt geschreven.
 - 75% is op basis van de beoordeling van de Individuele Opdrachten. Je krijgt voor deze opdrachten dan ook feedback waarvan je kunt leren over het schrijven van "goede code".
 
 Voordat je een eindcijfer kunt krijgen moet je alle opdrachten werkend hebben ingeleverd en aan alle bovengenoemde [verwachtingen](#verwachtingen) hebben voldaan, tenzij je een *schriftelijke* uitzondering hebt gekregen van de examinator of coördinator. Voel je vrij om te overleggen of jouw omstandigheden een uitzondering rechtvaardigen (via een mail naar <help@mprog.nl>). We denken graag mee!
