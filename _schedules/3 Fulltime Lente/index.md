@@ -119,8 +119,9 @@ Dit zijn de **uiterste** deadlines voor de verbeterde versies:
 | module | opdrachten            | deadline            |
 | ------ |---------------------- | ------------------: |
 |      1 | Speller               | di  9 mrt  17:59    |
-|      2 | Python                | di 23 mrt  17:59    |
-|      3 | Games                 | vr 26 mrt  17:59    |
+|      2 | Intermezzo            | per dag             |
+|      3 | Python                | di 23 mrt  17:59    |
+|      4 | Games                 | vr 26 mrt  17:59    |
 
 Dit schema is afhankelijk van de werkgroeproostering en volledig onder voorbehoud. Het geeft wel een indicatie van wat de bedoeling is.
 
@@ -146,7 +147,7 @@ Ben je vroeg klaar met je opdrachten dan zijn er twee verwachtingen voor jou:
 
 ## Opdrachtcijfers
 
-De modules 1 t/m 4 kunnen elk maximaal 6 punten opleveren. Voor elke module zijn diverse aspecten aangegeven op basis waarvan de punten voornamelijk (maar niet uitsluitend) worden bepaald. Deze aspecten gaan over *codekwaliteit*, waarover je in de eerste weken meer leert. De schaal is als volgt:
+De modules 1 t/m 4 kunnen elk maximaal 6 punten opleveren. Voor elke module zijn diverse aspecten aangegeven op basis waarvan de punten voornamelijk (maar niet uitsluitend) worden bepaald. Deze aspecten gaan over *codekwaliteit*, waarover je in de eerste weken meer leert. De schaal voor modules 1, 3 en 4 is als volgt:
 
 6. uitzonderlijk goede kwaliteit op basis van een doordacht ontwerp
 5. zeer goede kwaliteit, beperkt ruimte voor verbetering
