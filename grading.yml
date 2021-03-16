@@ -107,6 +107,7 @@ calculation:
     final:
         assignments: 100
         speller: 0
+        exercises: 0
         other: 0
         # questions: 0
         # retrospectives: 0
@@ -121,12 +122,16 @@ assignments:
         # hangman: 1
         adventure: 1
 
-other:
+exercises:
     show_progress: true
     submits:
         beatles: 1
         linked: 1
         stack: 1
+
+other:
+    show_progress: true
+    submits:
         pymario: 1
         readability-py: 1
         worldcup: 1
