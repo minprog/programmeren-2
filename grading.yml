@@ -106,7 +106,7 @@ grades:
 calculation:
     final:
         assignments: 100
-        speller: 0
+        # speller: 0
         exercises: 0
         other: 0
         # questions: 0
