@@ -50,7 +50,7 @@ Week 4:
         "Adventure: moving around": /adventure/steps/move
         "Adventure: forced movement": /adventure/steps/forced
     Woensdag:
-        "Adventure: objects": /adventure/steps/objects
+        "Adventure: items": /adventure/steps/items
         "Adventure: conditional movement": /adventure/steps/conditional
     Donderdag:
         "Adventure: additional commands": /adventure/steps/commands
