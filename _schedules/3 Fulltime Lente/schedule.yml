@@ -51,6 +51,8 @@ Week 4:
         "Adventure: forced movement": /adventure/steps/forced
     Woensdag:
         "Adventure: objects": /adventure/steps/objects
+        "Adventure: conditional movement": /adventure/steps/conditional
     Donderdag:
-        "Adventure: final touches": /adventure/steps/commands
+        "Adventure: additional commands": /adventure/steps/commands
+        "Adventure: synonyms": /adventure/steps/synonyms
         "Adventure: submit": /adventure/steps/submit
