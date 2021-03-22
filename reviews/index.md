@@ -11,6 +11,7 @@ Na afloop van de werkgroep neem je nog een uurtje om je code helemaal netjes te 
 Hieronder de link(s) naar de code-reviewinstructies van de verschillende modules.
 
 - [Code review: Speller](/modules/mispellings/review)
+- [Code review: Python](/modules/python/review)
 
 
 ## Retrospectives
@@ -19,4 +20,5 @@ Zodra je opdrachten zijn nagekeken krijg je een aantal feedbackpunten van je men
 
 Retrospectives zijn er om je te helpen nog even actief naar de feedback te kijken voordat je verder gaat. Op de pagina's hieronder vul je een retrospective in. Er is daar ook ruimte om aan te geven dat je een deel van de feedback niet begrijpt---maar vraag je mentor vooral gewoon om hulp als dit nodig is!
 
-- Retrospective: speller, nog niet actief
+- [Retrospective: speller](modules/mispellings/retrospective)
+- Retrospective: python, nog niet actief
