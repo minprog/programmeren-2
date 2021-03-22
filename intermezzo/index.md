@@ -5,6 +5,11 @@ Deze week is het herhalen of verdiepen. Misschien heb je het idee dat je wat din
 De opdrachten zijn 100% bedoeld om jouw **individuele skills op te bouwen**, dus het is allemaal individueel werk. Toch willen we dat je niet de hele week "alleen" bezig bent. Hieronder vind je nog wat meer informatie daarover, maar eerst iets over de opdrachten!
 
 
+## Inschrijving
+
+First things first! [Schrijf je nu in voor de week via dit formulier](https://forms.office.com/Pages/ResponsePage.aspx?id=zcrxoIxhA0S5RXb7PWh05StZDK23dCxCgrv7HMsauLFUMDNVVzEyTk9CQzVEQ0NRMzhCVUs3NEFRRS4u)
+
+
 ## Opties
 
 Wat kun je kiezen?

@@ -6,41 +6,53 @@ Week 1:
         "Videocollege: Data structures": /lectures/data-structures
         Linked list [samen]: /exercises/writing/linked
     Dinsdag:
-        "Speller: getting started [samen]": /problems/cs50/speller/startup
-        "Speller: specification [samen]": /problems/cs50/speller/specification
-        "Speller: load [individueel]": /problems/cs50/speller/load
+        "Speller: getting started [samen]": /cs50/speller/startup
+        "Speller: specification [samen]": /cs50/speller/specification
+        "Speller: load [individueel]": /cs50/speller/load
     Woensdag:
-        "Speller: check [individueel]": /problems/cs50/speller/check
+        "Speller: check [individueel]": /cs50/speller/check
     Donderdag:
-        "Speller: hash [individueel]": /problems/cs50/speller/hash
-        "Speller: size [individueel]": /problems/cs50/speller/size
+        "Speller: hash [individueel]": /cs50/speller/hash
+        "Speller: size [individueel]": /cs50/speller/size
     Vrijdag:
-        "Speller: unload [individueel]": /problems/cs50/speller/unload
-        "Speller: submit [individueel]": /problems/cs50/speller/submit
+        "Speller: unload [individueel]": /cs50/speller/unload
+        "Speller: submit [individueel]": /cs50/speller/submit
         Questions [individueel]: /modules/mispellings/questions
 Week 2:
     Maandag:
         Stack [samen]: /exercises/writing/stack
+    Intermezzoweek:
+        Alle opdrachten: /intermezzo
 Week 3:
-    Dinsdag:
+    Maandag:
+        Eindverslag Intermezzo: /intermezzo/eindverslag
         'Videocollege: Python': /lectures/python-david
-        Mario: /problems/cs50/py/mario
-        Readability: /problems/cs50/py/readability
+    Dinsdag:
+        Mario [zelf]: /cs50/py/mario
+        Readability [zelf]: /cs50/py/readability
+        World Cup [samen]: /cs50/worldcup
     Woensdag:
-        World Cup [samen]: /problems/cs50/worldcup
-        DNA [individueel]: /problems/cs50/dna
-    Donderdag:
-        DNA [individueel]: /problems/cs50/dna
+        DNA [individueel]: /cs50/dna
         Questions: /modules/python/questions
+    Donderdag:
+        "Videocollege: OOP": /objects/lecture
+        Implementeer Queue: /objects/queue
+        Implementeer Game of Cards: /objects/cards
     Vrijdag:
-        "Videocollege: OOP": /problems/objects/lecture
-        Implementeer Queue: /problems/objects/queue
-        Implementeer Game of Cards: /problems/objects/cards
+        Hangman [samen]: /hangman/classic
+        Questions: /modules/hangman/questions
 Week 4:
     Maandag:
-        Hangman [samen]: /problems/hangman/classic
-        Questions: /modules/hangman/questions
+        "Adventure: introduction": /adventure/steps/introduction
+        "Adventure: room class": /adventure/steps/room
+        "Adventure: data files": /adventure/steps/data
     Dinsdag:
-        Adventure [individueel]: /problems/adventure/less
-    Extra opdracht:
-        Adventure (Hacker): /problems/adventure/more
+        "Adventure: moving around": /adventure/steps/move
+        "Adventure: forced movement": /adventure/steps/forced
+    Woensdag:
+        "Adventure: items": /adventure/steps/items
+        "Adventure: conditional movement": /adventure/steps/conditional
+    Donderdag:
+        "Adventure: additional commands": /adventure/steps/commands
+        "Adventure: synonyms": /adventure/steps/synonyms
+        "Adventure: submit": /adventure/steps/submit

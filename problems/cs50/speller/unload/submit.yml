@@ -1,4 +1,0 @@
-name: speller-unload
-files:
-    required:
-        - dictionary.c

@@ -2,8 +2,6 @@
 
 ## Studiewijzer<br><small>Lente 2021</small>
 
-**ALLE DATA EN OPDRACHTEN ZIJN NOG ONDER VOORBEHOUD**
-
 > "Introduction to the intellectual enterprises of computer science and the art of programming. This course teaches you how to think algorithmically and solve problems efficiently. Topics include abstraction, algorithms, data structures, encapsulation, resource management, security, software engineering, and web development. Languages include C, Python and SQL plus CSS and HTML. Problem sets inspired by real-world domains of biology, cryptography, finance, forensics, and gaming. Designed for concentrators and non-concentrators alike, with or without prior programming experience." --- CS50 at Harvard.
 
 De coördinator van dit vak is Jelle van Assema en de examinator is Martijn Stegeman. Zij geven het vak vorm en verzorgen de organisatie. Je kunt ze bereiken via e-mail op <help@mprog.nl>.
@@ -40,7 +38,7 @@ Op die manier kunnen je mentor en de docenten een goed beeld vormen van jouw voo
 
 Je cijfer voor het vak wordt als volgt bepaald:
 
-- 25% is op basis van het aftekenen van de Oefenopdrachten en Samenwerkopdrachten. Deze punten heb je al binnen zodra alles af is.
+- 25% is op basis van het aftekenen van het Intermezzo. Deze punten heb je binnen zodra je vier dagen vol gewerkt hebt aan het intermezzo en een diepgaand verslag hebt geschreven.
 - 75% is op basis van de beoordeling van de Individuele Opdrachten. Je krijgt voor deze opdrachten dan ook feedback waarvan je kunt leren over het schrijven van "goede code".
 
 Voordat je een eindcijfer kunt krijgen moet je alle opdrachten werkend hebben ingeleverd en aan alle bovengenoemde [verwachtingen](#verwachtingen) hebben voldaan, tenzij je een *schriftelijke* uitzondering hebt gekregen van de examinator of coördinator. Voel je vrij om te overleggen of jouw omstandigheden een uitzondering rechtvaardigen (via een mail naar <help@mprog.nl>). We denken graag mee!
@@ -121,8 +119,9 @@ Dit zijn de **uiterste** deadlines voor de verbeterde versies:
 | module | opdrachten            | deadline            |
 | ------ |---------------------- | ------------------: |
 |      1 | Speller               | di  9 mrt  17:59    |
-|      2 | Python                | di 23 mrt  17:59    |
-|      3 | Games                 | vr 26 mrt  17:59    |
+|      2 | Intermezzo            | per dag             |
+|      3 | Python                | di 23 mrt  17:59    |
+|      4 | Games                 | vr 26 mrt  17:59    |
 
 Dit schema is afhankelijk van de werkgroeproostering en volledig onder voorbehoud. Het geeft wel een indicatie van wat de bedoeling is.
 
@@ -148,7 +147,7 @@ Ben je vroeg klaar met je opdrachten dan zijn er twee verwachtingen voor jou:
 
 ## Opdrachtcijfers
 
-De modules 1 t/m 4 kunnen elk maximaal 6 punten opleveren. Voor elke module zijn diverse aspecten aangegeven op basis waarvan de punten voornamelijk (maar niet uitsluitend) worden bepaald. Deze aspecten gaan over *codekwaliteit*, waarover je in de eerste weken meer leert. De schaal is als volgt:
+De modules 1 t/m 4 kunnen elk maximaal 6 punten opleveren. Voor elke module zijn diverse aspecten aangegeven op basis waarvan de punten voornamelijk (maar niet uitsluitend) worden bepaald. Deze aspecten gaan over *codekwaliteit*, waarover je in de eerste weken meer leert. De schaal voor modules 1, 3 en 4 is als volgt:
 
 6. uitzonderlijk goede kwaliteit op basis van een doordacht ontwerp
 5. zeer goede kwaliteit, beperkt ruimte voor verbetering
@@ -163,21 +162,6 @@ Wil je goed scoren (rond de 4 punten), dan bestudeer je goed de aspecten die we 
 Wil je erg hoog scoren (richting 6 punten), dan zul je niet alleen de aangeleverde materialen moeten bestuderen, maar ook externe bronnen. Bij de aspecten zijn verwijzingen te vinden naar hoofdstukken met meer informatie, en je kunt zelf ook op zoek naar kritische bronnen (overleg even of ze van voldoende kwaliteit zijn!).
 
 Het totaal van 24 punten staat voor 75% van je eindcijfer.
-
-
-### Extra opdrachten
-
-Er zijn één of meer "extra opdrachten" in de cursus. Deze zijn bedoeld voor studenten die zich wat comfortabeler voelen met programmeren en extra uitdaging zoeken. Wil je die inleveren, zorg dan dat je éérst de andere opdrachten maakt en inlevert. Dat zijn namelijk de opdrachten waarvoor je een review doet en die beoordeeld zullen worden.
-
-Toch kan het leuk zijn om de extra opdrachten te doen, omdat het uitdagende puzzels zijn waar je veel van leert. Per extra opdracht kun je een extra punt verdienen voor het onderdeel individuele opdrachten. Maar als je niet genoeg tijd hebt gewoon overslaan! De volgende deadlines gelden:
-
-| module | extra opdracht     | deadline        |
-| ------ |------------------- | --------------: |
-|      1 | Speller Comparison | di  9 mrt 17:59 |
-|      2 | Python (?)         | di 16 mrt 17:59 |
-|      3 | Adventure (?)      | do 25 mrt 17:59 |
-
-Het is niet mogelijk om via video-assistentie hulp te krijgen voor de extra opdrachten. Wel kun je er vragen over stellen via Ed. Het is aan te raden om te kijken of je er medestudenten bij kunt betrekken en samen de oplossing te ontwerpen voordat je deze zelf gaat implementeren in code.
 
 
 ## Onderdelen

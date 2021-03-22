@@ -1,4 +1,0 @@
-name: speller-size
-files:
-    required:
-        - dictionary.c

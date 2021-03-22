@@ -48,7 +48,8 @@ grades:
     stack: *checked
 
     pymario: *automatic
-    readability: *automatic
+    readability-py: *automatic
+    worldcup: *automatic
     dna: *automatic
 
     queue: *automatic
@@ -76,6 +77,12 @@ grades:
 
     presentation-video: *checked
 
+    intermezzo: *manual
+    inter-1: *checked
+    inter-2: *checked
+    inter-3: *checked
+    inter-4: *checked
+
 # modules:
 #     mispellings:
 #         - a-mispellings
@@ -99,7 +106,8 @@ grades:
 calculation:
     final:
         assignments: 100
-        speller: 0
+        # speller: 0
+        exercises: 0
         other: 0
         # questions: 0
         # retrospectives: 0
@@ -109,31 +117,50 @@ assignments:
     show_progress: true
     submits:
         mispellings: 1
+        intermezzo: 1
         python: 1
         # hangman: 1
         adventure: 1
 
-other:
+exercises:
     show_progress: true
     submits:
         beatles: 1
         linked: 1
         stack: 1
 
-speller:
+other:
     show_progress: true
     submits:
-        speller-started: 1
-        speller-spec: 1
-        speller-load: 1
-        speller-check: 1
-        speller-hash: 1
-        speller-size: 1
-        speller-unload: 1
-        # q-mispellings: 1
-        # q-python: 1
-        # q-hangman: 1
-        # q-adventure: 1
+        pymario: 1
+        readability-py: 1
+        worldcup: 1
+        hangman-less: 1
+        queue: 1
+        cards: 1
+
+# speller:
+#     show_progress: true
+#     submits:
+#         speller-started: 1
+#         speller-spec: 1
+#         speller-load: 1
+#         speller-check: 1
+#         speller-hash: 1
+#         speller-size: 1
+#         speller-unload: 1
+#         # q-mispellings: 1
+#         # q-python: 1
+#         # q-hangman: 1
+#         # q-adventure: 1
+
+intermezzo:
+    show_progress: true
+    submits:
+        inter-1: 1
+        inter-2: 1
+        inter-3: 1
+        inter-4: 1
 
 # retrospectives:
 #     show_progress: true
