@@ -59,6 +59,7 @@ grades:
 
     adventure-less: *automatic
     adventure-more: *automatic
+    adventure-steps: *automatic
 
     mispellings: *manual
     python: *manual
