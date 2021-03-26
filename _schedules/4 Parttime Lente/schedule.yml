@@ -13,14 +13,16 @@ Week 1 (5 april):
         "Speller: load [individueel]": /cs50/speller/load
 Week 2 (12 april):
     Maandag:
-        "Speller: check [individueel]": /cs50/speller/check
+        "Speller: load [individueel]": /cs50/speller/load
     Dinsdag:
-        "Speller: hash [individueel]": /cs50/speller/hash
+        "Speller: check [individueel]": /cs50/speller/check
     Woensdag:
+        "Speller: hash [individueel]": /cs50/speller/hash
         "Speller: size [individueel]": /cs50/speller/size
     Donderdag:
         "Speller: unload [individueel]": /cs50/speller/unload
     Vrijdag:
+        "Speller: unload [individueel]": /cs50/speller/unload
         "Speller: submit [individueel]": /cs50/speller/submit
         Questions [individueel]: /modules/mispellings/questions
 Week 3 (19 april):
