@@ -1,10 +1,68 @@
 Welkom:
     - syllabus
-Module 5:
-    - mispellings
-Module 6:
-    - python
-Module 7:
-    - hangman
-Module 8:
-    - adventure
+Week 1 (5 april):
+    Dinsdag:
+        Beatles [zelfstandig]: /exercises/writing/beatles
+        "Videocollege: Data structures": /lectures/data-structures
+    Woensdag:
+        Linked list [samen]: /exercises/writing/linked
+    Donderdag:
+        "Speller: getting started [samen]": /cs50/speller/startup
+        "Speller: specification [samen]": /cs50/speller/specification
+    Vrijdag:
+        "Speller: load [individueel]": /cs50/speller/load
+Week 2 (12 april):
+    Maandag:
+        "Speller: check [individueel]": /cs50/speller/check
+    Dinsdag:
+        "Speller: hash [individueel]": /cs50/speller/hash
+    Woensdag:
+        "Speller: size [individueel]": /cs50/speller/size
+    Donderdag:
+        "Speller: unload [individueel]": /cs50/speller/unload
+    Vrijdag:
+        "Speller: submit [individueel]": /cs50/speller/submit
+        Questions [individueel]: /modules/mispellings/questions
+Week 3 (19 april):
+    Maandag:
+        Stack [samen]: /exercises/writing/stack
+    Dinsdag:
+        'Videocollege: Python': /lectures/python-david
+    Woensdag:
+        Mario [zelf]: /cs50/py/mario
+    Donderdag:
+        Readability [zelf]: /cs50/py/readability
+    Vrijdag:
+        World Cup [samen]: /cs50/worldcup
+Week 4 (26 april):
+    Vanaf woensdag:
+        DNA [individueel]: /cs50/dna
+        Questions: /modules/python/questions
+Week 5 (10 mei):
+    Maandag:
+        "Videocollege: OOP": /objects/lecture
+        Implementeer Queue [zelfstandig]: /objects/queue
+        Implementeer Game of Cards [zelfstandig]: /objects/cards
+    Dinsdag en woensdag:
+        Hangman [samen]: /hangman/classic
+        Questions: /modules/hangman/questions
+Week 6 (17 mei):
+    Maandag:
+        "Adventure: introduction": /adventure/steps/introduction
+        "Adventure: room class": /adventure/steps/room
+    Dinsdag en woensdag:
+        "Adventure: data files": /adventure/steps/data
+    Donderdag:
+        "Adventure: moving around": /adventure/steps/move
+    Vrijdag:
+        "Adventure: forced movement": /adventure/steps/forced
+Week 7 (24 mei):
+    Dinsdag en woensdag:
+        "Adventure: items": /adventure/steps/items
+    Donderdag en vrijdag:
+        "Adventure: conditional movement": /adventure/steps/conditional
+    Optioneel:
+        "Adventure: additional commands": /adventure/steps/commands
+        "Adventure: synonyms": /adventure/steps/synonyms
+    Insturen:
+        "Adventure: submit": /adventure/steps/submit
