@@ -6,8 +6,18 @@ This is CS50x.
 
 Deze studiewijzer is een ingekorte versie. Als je inlogt en registreert op de website krijg je toegang tot de volledige studiewijzer voor fulltime of parttime. Wil je meer informatie over dit vak? Kijk op <https://mprog.nl/> of stuur een e-mail naar <help@mprog.nl>.
 
+## Changelog
+
+**Nieuw in versie herfst 2021**
+
+- Intermezzo is verplaatst naar Programmeren 1, en Whodunit/Anonymize is nu onderdeel van dit vak.
+
+- De oefening Numbers is weggehaald.
+
+- Het vak is ingepland voor 3,5 week in fulltime, en 7 weken in parttime.
+
 ## Acknowledgements
 
-CS50 is copyright 2011--2019 David J. Malan. http://cs50.tv/2017/fall/
+CS50 is copyright 2011--2021 David J. Malan. http://cs50.tv/2017/fall/
 
-This course's content is licensed by David J. Malan of Harvard University under a [Creative Commons Attribution-Noncommercial-Share Alike 3.0 Unported License](http://creativecommons.org/licenses/by-nc-sa/3.0/).
+This course's content is licensed by David J. Malan of Harvard University under a [Attribution-NonCommercial-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-nc-sa/4.0/).

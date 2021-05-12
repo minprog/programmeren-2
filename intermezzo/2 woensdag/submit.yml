@@ -1,7 +1,0 @@
-name: inter-2
-files:
-    required:
-        - dagverslag.txt
-    optional:
-        - code.c
-        - code.lua
