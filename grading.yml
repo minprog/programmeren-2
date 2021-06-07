@@ -118,7 +118,7 @@ assignments:
     show_progress: true
     submits:
         mispellings: 1
-        intermezzo: 1
+        #intermezzo: 1
         python: 1
         # hangman: 1
         adventure: 1
