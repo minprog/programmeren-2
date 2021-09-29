@@ -87,61 +87,37 @@ grades:
     inter-3: *checked
     inter-4: *checked
 
-# modules:
-#     mispellings:
-#         - a-mispellings
-#         - speller
-#         - q-mispellings
-#     python:
-#         - pymario
-#         - readability
-#         - dna
-#         - q-python
-#     hangman:
-#         - queue
-#         - cards
-#         - hangman-less
-#         # - q-hangman
-#     adventure:
-#         - adventure-less
-#         - adventure-more
-#         # - q-adventure
-
 calculation:
     final:
         assignments: 100
-        # speller: 0
         exercises: 0
         other: 0
-        # questions: 0
-        # retrospectives: 0
-        # afronding: 0
 
 assignments:
     show_progress: true
     submits:
+        filter: 1
         mispellings: 1
-        intermezzo: 1
         python: 1
-        # hangman: 1
         adventure: 1
 
 exercises:
     show_progress: true
     submits:
+        whodunit: 1
         beatles: 1
         linked: 1
         stack: 1
 
-other:
-    show_progress: true
-    submits:
-        pymario: 1
-        readability-py: 1
-        worldcup: 1
-        hangman-less: 1
-        queue: 1
-        cards: 1
+# other:
+#     show_progress: true
+#     submits:
+#         pymario: 1
+#         readability-py: 1
+#         worldcup: 1
+#         hangman-less: 1
+#         queue: 1
+#         cards: 1
 
 # speller:
 #     show_progress: true
@@ -157,14 +133,6 @@ other:
 #         # q-python: 1
 #         # q-hangman: 1
 #         # q-adventure: 1
-
-intermezzo:
-    show_progress: true
-    submits:
-        inter-1: 1
-        inter-2: 1
-        inter-3: 1
-        inter-4: 1
 
 # retrospectives:
 #     show_progress: true
