@@ -99,7 +99,7 @@ opdrachten:
     submits:
         filter_less: 1
 
-reviews:
+punten:
     show_progress: true
     submits:
         filter: 1
@@ -107,7 +107,7 @@ reviews:
         python: 1
         adventure: 1
 
-exercises:
+oefeningen:
     show_progress: true
     submits:
         whodunit: 1
