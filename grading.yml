@@ -64,6 +64,7 @@ grades:
     adventure-more: *automatic
     adventure-steps: *automatic
 
+    filter: *manual
     mispellings: *manual
     python: *manual
     hangman: *manual
@@ -93,7 +94,12 @@ calculation:
         exercises: 0
         other: 0
 
-assignments:
+opdrachten:
+    show_progress: true
+    submits:
+        filter_less: 1
+
+reviews:
     show_progress: true
     submits:
         filter: 1
