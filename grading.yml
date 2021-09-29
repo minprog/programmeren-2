@@ -90,9 +90,10 @@ grades:
 
 calculation:
     final:
-        assignments: 100
-        exercises: 0
-        other: 0
+        punten: 100
+        opdrachten: 0
+        oefeningen: 0
+        # other: 0
 
 opdrachten:
     show_progress: true
