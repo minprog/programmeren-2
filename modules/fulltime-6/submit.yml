@@ -1,0 +1,4 @@
+name: fulltime_6
+files:
+    required:
+        - helpers.c
