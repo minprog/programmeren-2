@@ -16,9 +16,9 @@ lectures:
 # adventure:
 #     remote: https://github.com/minprog/adventure.git
 #     branch: 2020
-# hangman:
-#     remote: https://github.com/minprog/hangman.git
-#     branch: 2020
+hangman:
+    remote: https://github.com/minprog/hangman.git
+    branch: 2020
 # objects:
 #     remote: https://github.com/minprog/objects.git
 #     branch: master
