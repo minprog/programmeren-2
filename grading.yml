@@ -126,20 +126,16 @@ oefeningen:
 #         queue: 1
 #         cards: 1
 
-# speller:
-#     show_progress: true
-#     submits:
-#         speller-started: 1
-#         speller-spec: 1
-#         speller-load: 1
-#         speller-check: 1
-#         speller-hash: 1
-#         speller-size: 1
-#         speller-unload: 1
-#         # q-mispellings: 1
-#         # q-python: 1
-#         # q-hangman: 1
-#         # q-adventure: 1
+speller:
+    show_progress: true
+    submits:
+        speller-started: 1
+        speller-spec: 1
+        speller-load: 1
+        speller-check: 1
+        speller-hash: 1
+        speller-size: 1
+        speller-unload: 1
 
 # retrospectives:
 #     show_progress: true
