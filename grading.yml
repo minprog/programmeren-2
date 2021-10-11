@@ -35,14 +35,14 @@ grades:
     beatles: *checked
     linked: *checked
 
-    speller-started: *checked
-    speller-spec: *checked
-    speller-load: *checked
+    speller_started: *checked
+    speller_spec: *checked
+    speller_load: *checked
 
-    speller-check: *checked
-    speller-hash: *checked
-    speller-size: *checked
-    speller-unload: *checked
+    speller_check: *checked
+    speller_hash: *checked
+    speller_size: *checked
+    speller_unload: *checked
 
     # a-mispellings: *checked
     speller: *automatic
@@ -127,13 +127,13 @@ oefeningen:
 speller:
     show_progress: true
     submits:
-        speller-started: 1
-        speller-spec: 1
-        speller-load: 1
-        speller-check: 1
-        speller-hash: 1
-        speller-size: 1
-        speller-unload: 1
+        speller_started: 1
+        speller_spec: 1
+        speller_load: 1
+        speller_check: 1
+        speller_hash: 1
+        speller_size: 1
+        speller_unload: 1
 
 # retrospectives:
 #     show_progress: true
