@@ -82,11 +82,10 @@ grades:
 
     presentation-video: *checked
 
-    intermezzo: *manual
-    inter-1: *checked
-    inter-2: *checked
-    inter-3: *checked
-    inter-4: *checked
+    fulltime_4: *manual
+    fulltime_5: *manual
+    fulltime_6: *manual
+    fulltime_7: *manual
 
 calculation:
     final:
