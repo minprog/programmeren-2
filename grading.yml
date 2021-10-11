@@ -100,13 +100,13 @@ opdrachten:
     submits:
         filter_less: 1
 
-punten:
+cijfers_fulltime:
     show_progress: true
     submits:
-        filter: 1
-        mispellings: 1
-        python: 1
-        adventure: 1
+        fulltime_4: 1
+        fulltime_5: 1
+        fulltime_6: 1
+        fulltime_7: 1
 
 oefeningen:
     show_progress: true
