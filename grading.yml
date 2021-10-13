@@ -98,6 +98,8 @@ opdrachten:
     submits:
         filter_less: 1
         speller: 1
+        dna: 1
+        adventure: 1
 
 cijfers_fulltime:
     show_progress: true
@@ -114,6 +116,11 @@ oefeningen:
         beatles: 1
         linked: 1
         stack: 1
+        pymario: 1
+        readability-py: 1
+        worldcup: 1
+        hangman: 1
+        
 
 # other:
 #     show_progress: true
