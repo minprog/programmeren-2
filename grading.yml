@@ -120,7 +120,7 @@ oefeningen:
         readability-py: 1
         worldcup: 1
         hangman: 1
-        
+
 
 # other:
 #     show_progress: true
