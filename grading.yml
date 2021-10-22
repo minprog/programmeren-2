@@ -99,7 +99,7 @@ opdrachten:
         filter_less: 1
         speller: 1
         dna: 1
-        adventure: 1
+        adventure-steps: 1
 
 cijfers_fulltime:
     show_progress: true
