@@ -49,8 +49,8 @@ grades:
 
     stack: *checked
 
-    pymario: *automatic
-    readability-py: *automatic
+    mario_py: *automatic
+    readability_py: *automatic
     worldcup: *automatic
     dna: *automatic
 
@@ -75,7 +75,7 @@ grades:
     r-adventure: *checked
 
     q-mispellings: *checked
-    q-python: *checked
+    python_questions: *checked
     q-hangman: *checked
     q-adventure: *checked
 
@@ -116,10 +116,12 @@ oefeningen:
         beatles: 1
         linked: 1
         stack: 1
-        pymario: 1
-        readability-py: 1
+        mario_py: 1
+        readability_py: 1
         worldcup: 1
         hangman: 1
+        python_questions: 1
+        q-hangman: 1
 
 
 # other:
@@ -132,17 +134,17 @@ oefeningen:
 #         queue: 1
 #         cards: 1
 
-speller:
-    show_progress: true
-    submits:
-        speller_started: 1
-        speller_spec: 1
-        speller_load: 1
-        speller_check: 1
-        speller_hash: 1
-        speller_size: 1
-        speller_unload: 1
-
+# speller:
+#     show_progress: true
+#     submits:
+#         speller_started: 1
+#         speller_spec: 1
+#         speller_load: 1
+#         speller_check: 1
+#         speller_hash: 1
+#         speller_size: 1
+#         speller_unload: 1
+#
 # retrospectives:
 #     show_progress: true
 #     submits:
