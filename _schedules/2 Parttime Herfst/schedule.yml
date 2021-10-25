@@ -1,66 +1,86 @@
 Welkom:
     Lees hier even rustig door de studiewijzer om te ontdekken hoe het vak in elkaar zit: /syllabus
 
-Week 4:
-    Woensdag:
+Week 1:
+    Maandag:
         'Videocollege: Memory': /lectures/memory
+    Dinsdag: 
         'Whodunit [samen]': /cs50/whodunit
-    Donderdag en vrijdag:
+    Woensdag en donderdag:
         Filter [individueel, cijfer]: /cs50/filter/less
-    Vrijdagochtend:
+    Vrijdag:
         Beatles [zelf]: /exercises/writing/beatles
+
+Week 2:
+    Maandag:
+        'Videocollege: Data structures': /lectures/data-structures
+    Dinsdag:
+        Linked list [samen]: /exercises/writing/linked
+    Woensdag:
+        "Speller: getting started [samen]": /cs50/speller/startup
+        "Speller: specification [samen]": /cs50/speller/specification
+    Donderdag:
+        "Speller: load [individueel]": /cs50/speller/load
+    Vrijdag:
+        "Speller: check [individueel]": /cs50/speller/check
+
+Week 3:
+    Maandag:
+        "Speller: hash [individueel]": /cs50/speller/hash
+    Dinsdag:
+        "Speller: size [individueel]": /cs50/speller/size
+    Woensdag:
+        "Speller: unload [individueel]": /cs50/speller/unload
+    Donderdag:
+        "Speller: submit [individueel]": /cs50/speller/submit
+    Vrijdag:
+        Questions [individueel]: /modules/mispellings/questions
+
+Week 4:
+    Maandag en dinsdag:
+        Stack [samen]: /exercises/writing/stack
+    Woensdag:
+        'Videocollege: Python': /lectures/python-david
+    Donderdag:
+        Mario [zelf]: /cs50/py/mario
+    Vrijdag:
+        Readability [zelf]: /cs50/py/readability
 
 Week 5:
     Maandag:
-        'Videocollege: Data structures': /lectures/data-structures
-        Linked list [samen]: /exercises/writing/linked
-    Dinsdag:
-        "Speller: getting started [samen]": /cs50/speller/startup
-        "Speller: specification [samen]": /cs50/speller/specification
-        "Speller: load [individueel]": /cs50/speller/load
-    Woensdag:
-        "Speller: check [individueel]": /cs50/speller/check
-    Donderdag:
-        "Speller: hash [individueel]": /cs50/speller/hash
-        "Speller: size [individueel]": /cs50/speller/size
-    Vrijdag:
-        "Speller: unload [individueel]": /cs50/speller/unload
-        "Speller: submit [individueel]": /cs50/speller/submit
-        # Questions [individueel]: /modules/mispellings/questions
-
-Week 6:
-    Maandag:
-        Stack [samen]: /exercises/writing/stack
-        'Videocollege: Python': /lectures/python-david
-    Dinsdag:
-        Mario [zelf]: /cs50/py/mario
-        Readability [zelf]: /cs50/py/readability
         World Cup [samen]: /cs50/worldcup
-    Woensdag:
+    Dinsdag en woensdag:
         Questions: /questions/python
         DNA [individueel]: /cs50/dna
     Donderdag:
         "Videocollege: OOP": /objects/lecture
+    Vrijdag:
         Implementeer Queue: /objects/queue
         Implementeer Game of Cards: /objects/cards
-    Vrijdag:
+
+Week 6:
+    Maandag t/m woensdag:
         Hangman [samen]: /hangman/classic
+        Questions: /hangman/questions
+    Donderdag:
+        "Adventure: introduction": /adventure/steps/introduction
+        "Adventure: room class": /adventure/steps/room
+    Vrijdag:
+        "Adventure: data files": /adventure/steps/data
 
 Week 7:
     Maandag:
-        Hangman (afmaken?) [samen]: /hangman/classic
-        Questions: /hangman/questions
-    Dinsdag:
-        "Adventure: introduction": /adventure/steps/introduction
-        "Adventure: room class": /adventure/steps/room
-        "Adventure: data files": /adventure/steps/data
-    Woensdag:
         "Adventure: moving around": /adventure/steps/move
+    Dinsdag:
         "Adventure: forced movement": /adventure/steps/forced
-    Donderdag:
+    Woensdag:
         "Adventure: items": /adventure/steps/items
+    Donderdag:
         "Adventure: conditional movement": /adventure/steps/conditional
     Vrijdag:
         "Adventure: additional commands": /adventure/steps/commands
         "Adventure: synonyms": /adventure/steps/synonyms
         "Adventure: submit": /adventure/steps/submit
+
+Week 8:
+    Uitloop: '#'
