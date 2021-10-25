@@ -1,4 +1,7 @@
 name: fulltime_7
 files:
     required:
-        - helpers.c
+        - adventure.py
+        - room.py
+        - loader.py
+        - item.py
