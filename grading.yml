@@ -86,9 +86,20 @@ grades:
     fulltime_6: *manual
     fulltime_7: *manual
 
+    parttime_6: *manual
+    parttime_7: *manual
+    parttime_8: *manual
+    parttime_9: *manual
+
 calculation:
-    final:
-        punten: 100
+    final_fulltime:
+        cijfers_fulltime: 100
+        opdrachten: 0
+        oefeningen: 0
+        # other: 0
+
+    final_parttime:
+        cijfers_parttime: 100
         opdrachten: 0
         oefeningen: 0
         # other: 0
@@ -109,6 +120,14 @@ cijfers_fulltime:
         fulltime_6: 1
         fulltime_7: 1
 
+cijfers_parttime:
+    show_progress: true
+    submits:
+        parttime_6: 1
+        parttime_7: 1
+        parttime_8: 1
+        parttime_9: 1
+
 oefeningen:
     show_progress: true
     submits:
@@ -119,8 +138,10 @@ oefeningen:
         mario_py: 1
         readability_py: 1
         worldcup: 1
-        hangman-less: 1
         python_questions: 1
+        queue: 1
+        cards: 1
+        hangman-less: 1
         q-hangman: 1
 
 
