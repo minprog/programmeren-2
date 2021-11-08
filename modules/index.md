@@ -17,10 +17,10 @@ Na afloop van de werkgroep neem je nog een uurtje om je code helemaal netjes te 
 
 **Parttime**
 
+- [Code review: Parttime 6](/modules/parttime-6)
+- [Code review: Parttime 7](/modules/parttime-7)
 - [Code review: Parttime 8](/modules/parttime-8)
 - [Code review: Parttime 9](/modules/parttime-9)
-- [Code review: Parttime 10](/modules/parttime-10)
-- [Code review: Parttime 11](/modules/parttime-11)
 
 ## Retrospectives
 
