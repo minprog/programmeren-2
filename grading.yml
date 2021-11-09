@@ -88,7 +88,7 @@ grades:
 
 calculation:
     final:
-        punten: 100
+        cijfers_fulltime: 100
         opdrachten: 0
         oefeningen: 0
         # other: 0
