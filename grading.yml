@@ -88,9 +88,9 @@ grades:
 
 calculation:
     final:
-        cijfers_fulltime: 100
+        cijfers_fulltime: 75
         opdrachten: 0
-        oefeningen: 0
+        oefeningen: 25
         # other: 0
 
 opdrachten:
