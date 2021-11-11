@@ -121,10 +121,10 @@ cijfers_fulltime:
 cijfers_parttime:
     show_progress: true
     submits:
-        fulltime_6: 1
-        fulltime_7: 1
-        fulltime_8: 1
-        fulltime_9: 1
+        parttime_6: 1
+        parttime_7: 1
+        parttime_8: 1
+        parttime_9: 1
 
 oefeningen:
     show_progress: true
