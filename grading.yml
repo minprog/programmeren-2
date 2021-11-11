@@ -86,12 +86,21 @@ grades:
     fulltime_6: *manual
     fulltime_7: *manual
 
+    parttime_6: *manual
+    parttime_7: *manual
+    parttime_8: *manual
+    parttime_9: *manual
+
 calculation:
     final:
         cijfers_fulltime: 75
         opdrachten: 0
         oefeningen: 25
         # other: 0
+    final_parttime:
+        cijfers_parttime: 75
+        opdrachten: 0
+        oefeningen: 25
 
 opdrachten:
     show_progress: true
@@ -108,6 +117,14 @@ cijfers_fulltime:
         fulltime_5: 1
         fulltime_6: 1
         fulltime_7: 1
+
+cijfers_parttime:
+    show_progress: true
+    submits:
+        fulltime_6: 1
+        fulltime_7: 1
+        fulltime_8: 1
+        fulltime_9: 1
 
 oefeningen:
     show_progress: true
