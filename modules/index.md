@@ -22,6 +22,8 @@ Na afloop van de werkgroep neem je nog een uurtje om je code helemaal netjes te 
 - [Code review: Parttime 8](/modules/parttime-8)
 - [Code review: Parttime 9](/modules/parttime-9)
 
+<!--
+
 ## Retrospectives
 
 Zodra je opdrachten zijn nagekeken krijg je een aantal feedbackpunten van je mentor. Dit kunnen nooit alle dingen zijn die verbeterd kunnen worden aan je uitwerking, maar een aantal belangrijke punten worden er wel uitgelicht. Aan jou om te kijken hoe je de feedback in volgende opdrachten kunt toepassen.
@@ -38,3 +40,5 @@ De retrospectives gelden zowel voor Parttime als Fulltime, maar die laatste groe
 - [Retrospective 9](/modules/retrospective-9)
 - [Retrospective 10](/modules/retrospective-10)
 - [Retrospective 11](/modules/retrospective-11)
+
+-->
