@@ -2,3 +2,4 @@ name: fulltime_6
 files:
     required:
         - dna.py
+
