@@ -136,6 +136,8 @@ oefeningen:
         mario_py: 1
         readability_py: 1
         worldcup: 1
+        queue: 1
+        cards: 1
         hangman-less: 1
         python_questions: 1
         q-hangman: 1
