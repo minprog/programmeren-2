@@ -102,7 +102,7 @@ calculation:
         opdrachten: 0
         oefeningen: 25
     final_parttime_zonder_adv:
-        cijfers_parttime: 75
+        cijfers_parttime_zonder_adv: 75
         opdrachten: 0
         oefeningen: 25
 
@@ -113,13 +113,6 @@ opdrachten:
         speller: 1
         dna: 1
         adventure-steps: 1
-
-opdrachten_zonder_adv:
-    submits:
-        filter_less: 1
-        speller: 1
-        dna: 1
-        adventure-steps: 0
 
 cijfers_fulltime:
     show_progress: true
@@ -136,6 +129,13 @@ cijfers_parttime:
         parttime_7: 1
         parttime_8: 1
         parttime_9: 1
+
+cijfers_parttime_zonder_adv:
+    show_progress: true
+    submits:
+        parttime_6: 1
+        parttime_7: 1
+        parttime_8: 1
 
 oefeningen:
     show_progress: true
