@@ -107,10 +107,10 @@ Dit zijn de **uiterste** deadlines voor de verbeterde versies:
 
 | opdrachten  | deadline            |
 |------------ | ------------------: |
-| Filter      | di  5 okt  17:59    |
-| Speller     | di 12 okt  17:59    |
-| Python      | di 19 okt  17:59    |
-| Games       | di 26 okt  17:59    |
+| Filter      | di  8 mrt  17:59    |
+| Speller     | di 15 mrt  17:59    |
+| Python      | di 22 mrt  17:59    |
+| Games       | di 29 mrt  17:59    |
 
 Bovenstaand schema is afhankelijk van de werkgroeproostering en onder voorbehoud. Het geeft wel een indicatie van wat de bedoeling is.
 
