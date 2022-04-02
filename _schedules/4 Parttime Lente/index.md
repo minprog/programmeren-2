@@ -77,7 +77,7 @@ Tijdens dit vak zul je vaak de hulp inroepen van de assistenten en medestudenten
 - meedenken over grote problemen met het vak
 - andere officiële zaken
 - administratie na afloop van het vak
-- aanmelden via [afsprakensysteem](https://balie.mprog.nl/planner/3) of mail <help@mprog.nl>
+- aanmelden via mail <help@mprog.nl>
 
 <details markdown="1"><summary markdown="span">Kom je helemaal niet verder en heb je even geen hulp?</summary>
 Juist even niet aan de opdracht werken kan je verder helpen!
@@ -157,33 +157,9 @@ In hoorcolleges bespreekt David Malan van Harvard de theorie waarmee je programm
 
 Werkgroepen zijn bijeenkomsten van maximaal 90 minuten met je mentor. In de werkgroepen krijg je de kans om samen de voortgang te bespreken, de oefeningen door te nemen, tips uit te wisselen over het aanpakken van problemen en om je medestudenten en mentor beter te leren kennen. Gebruik van camera is vereist als de werkgroep online plaatsvindt.
 
-### Basisboek
-
-Wekelijks zijn er oefeningen waarin de stof van de vorige weken wordt herhaald en aangescherpt. Je studeert in het [Basisboek Programmeren](https://www.stgm.nl/basics/) dat vrij beschikbaar is. De oefeningen worden inhoudelijk besproken tijdens de werkgroepen.
-
-### Aanvullende literatuur
-
-Wil je naast de videocolleges nog eens rustig lezen over de verschillende onderwerpen, dan kunnen de volgende boeken je verder op weg helpen. Ze zijn niet noodzakelijk voor het halen van het vak.
-
-<details markdown="1"><summary markdown="span">Voor mensen die nog nooit geprogrammeerd hebben</summary>
-
-C Programming Absolute Beginner's Guide, Third Edition  
-Greg Perry, Dean Miller  
-Pearson Education, 2014  
-ISBN 9780789751980
-</details>
-
-<details markdown="1"><summary markdown="span">Voor studenten met iets meer ervaring</summary>
-
-Programming in C, Fourth Edition  
-Stephen G. Kochan  
-Pearson Education, 2015  
-ISBN 9780321776419
-</details>
-
 ### Tentamen
 
-Tijdens het tentamen ga je aan de slag met een selectie van kleine programmeerproblemen. Aan jou de taak om deze te analyseren en een mooie oplossing te schrijven (op de computer!). De kennis en ervaring die je nodig hebt om dit te doen bouw je op tijdens het maken van de verschillende opdrachten in de cursus. Om te wennen aan de vorm is er natuurlijk ook een oefententamen.
+TBD
 
 ## Samenwerken
 
