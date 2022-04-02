@@ -103,12 +103,18 @@ Voor de individuele opdrachten zijn er steeds twee deadlines:
 
 Dit zijn de **uiterste** deadlines voor de opdrachten:
 
-| opdrachten  | deadline werkend    | deadline verbeterd  |
-|------------ | ------------------: | ------------------: |
-| Filter      | vr  5 nov  17:59    | wo 10 nov  17:59    |
-| Speller     | vr 19 nov  17:59    | wo 24 nov  17:59    |
-| DNA         | vr  3 dec  17:59    | wo  8 dec  17:59    |
-| Games       | vr 17 dec  17:59    | wo 22 dec  17:59    |
+| opdrachten                    | deadline werkend    | deadline verbeterd          |
+|------------------------------ | ------------------: | --------------------------: |
+| Filter, Beatles               | vr  8 apr  17:59    | 1 dag na volgende werkgroep |
+| Speller: Load & Check         | do 14 apr  17:59    | 1 dag na volgende werkgroep |
+| Speller: Hash & Size & Unload | vr 22 apr  17:59    | 1 dag na volgende werkgroep |
+| Stack, Mario, Readability     | vr 29 apr  17:59    | 1 dag na volgende werkgroep |
+| -- | -- | -- |
+| meivakantie | | |
+| -- | -- | -- |
+| nog onbekend                  | vr 13 mei  17:59    | 1 dag na volgende werkgroep |
+| nog onbekend                  | vr 20 mei  17:59    | 1 dag na volgende werkgroep |
+| nog onbekend                  | wo 25 mei  17:59    | 1 dag na volgende werkgroep |
 
 Bovenstaand schema is afhankelijk van de werkgroeproostering en onder voorbehoud. Het geeft wel een indicatie van wat de bedoeling is.
 

@@ -6,57 +6,58 @@ Week 1:
         'Videocollege: Memory': /lectures/memory
     Dinsdag:
         'Whodunit [samen]': /cs50/whodunit
-    Woensdag en donderdag:
-        Filter [individueel, cijfer]: /cs50/filter/less
+    Woensdag:
+        Filter (t/m reflection) [individueel]: /cs50/filter/less
+    Donderdag:
+        Filter (blur) [individueel]: /cs50/filter/less
     Vrijdag:
         Beatles [zelf]: /exercises/writing/beatles
 
 Week 2:
     Maandag:
         'Videocollege: Data structures': /lectures/data-structures
+    # Dinsdag:
+    #     Linked list [samen]: /exercises/writing/linked
     Dinsdag:
-        Linked list [samen]: /exercises/writing/linked
-    Woensdag:
         "Speller: getting started [samen]": /cs50/speller/startup
         "Speller: specification [samen]": /cs50/speller/specification
-    Donderdag:
+    Woensdag:
         "Speller: load [individueel]": /cs50/speller/load
-    Vrijdag:
+    Donderdag:
         "Speller: check [individueel]": /cs50/speller/check
 
 Week 3:
-    Maandag:
-        "Speller: hash [individueel]": /cs50/speller/hash
     Dinsdag:
-        "Speller: size [individueel]": /cs50/speller/size
+        "Speller: hash [individueel]": /cs50/speller/hash
     Woensdag:
-        "Speller: unload [individueel]": /cs50/speller/unload
+        "Speller: size [individueel]": /cs50/speller/size
     Donderdag:
-        "Speller: submit [individueel]": /cs50/speller/submit
+        "Speller: unload [individueel]": /cs50/speller/unload
     Vrijdag:
+        "Speller: submit [individueel]": /cs50/speller/submit
         Questions [individueel]: /questions/mispellings
 
 Week 4:
     Maandag en dinsdag:
-        Stack [samen]: /exercises/writing/stack
-    Woensdag:
-        'Videocollege: Python': /lectures/python-david
+        Stack: /exercises/writing/stack
     Donderdag:
-        Mario [zelf]: /cs50/py/mario
+        'Videocollege: Python': /lectures/python-david
+        Mario: /cs50/py/mario
     Vrijdag:
-        Readability [zelf]: /cs50/py/readability
+        Readability: /cs50/py/readability
+        Questions: /questions/python
 
 Week 5:
     Maandag:
         World Cup [samen]: /cs50/worldcup
     Dinsdag en woensdag:
-        Questions: /questions/python
         DNA [individueel]: /cs50/dna
     Donderdag:
         "Videocollege: OOP": /objects/lecture
-    Vrijdag:
         Implementeer Queue: /objects/queue
         Implementeer Game of Cards: /objects/cards
+    Vrijdag:
+        s: s
 
 Week 6:
     Maandag t/m woensdag:
