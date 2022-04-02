@@ -92,7 +92,7 @@ Juist even niet aan de opdracht werken kan je verder helpen!
 
 ## Deadlines
 
-Voor de hele cursus is er een **dagschema** dat het gewenste tempo aangeeft. De hoeveelheid werk is afgestemd op beginnende programmeurs, dus zonder ervaring. De bedoeling is dat je dit schema volledig kunt aanhouden, en dat je elke opdracht inlevert zodra je die af hebt. Er zijn dus dagelijkse deadlines.
+Voor de hele cursus is er een **dagschema** dat het gewenste tempo aangeeft. De bedoeling is dat je dit schema goed kunt aanhouden, maar in verband met andere vakken kan het nodig zijn wat te schuiven.
 
 Voor de individuele opdrachten zijn er steeds twee deadlines:
 
@@ -102,18 +102,22 @@ Voor de individuele opdrachten zijn er steeds twee deadlines:
 
 Dit zijn de **uiterste** deadlines voor de opdrachten:
 
-| opdrachten                    | deadline werkend    | deadline verbeterd          |
-|------------------------------ | ------------------: | --------------------------: |
-| Filter, Beatles               | vr  8 apr  17:59    | 1 dag na de werkgroep |
-| Speller: Load & Check         | do 14 apr  17:59    | 1 dag na de werkgroep |
-| Speller: Hash & Size & Unload | vr 22 apr  17:59    | 1 dag na de werkgroep |
-| Stack, Mario, Readability     | vr 29 apr  17:59    | 1 dag na de werkgroep |
-| -- | -- | -- |
-| meivakantie | | |
-| -- | -- | -- |
-| nog onbekend                  | vr 13 mei  17:59    | 1 dag na de werkgroep |
-| nog onbekend                  | vr 20 mei  17:59    | 1 dag na de werkgroep |
-| nog onbekend                  | wo 25 mei  17:59    | 1 dag na de werkgroep |
+| opdrachten                                            | deadline            |
+|------------------------------------------------------ | ------------------: |
+| Whodunit, Filter, Beatles                             | vr  8 apr  17:59    |
+| - als Whodunit vrijdag helemaal correct ingeleverd is | zo 10 apr  17:59    |
+| Speller: Getting Started, Specification, Load, Check  | do 14 apr  17:59    |
+| - als Getting Started + Spec donderdag klaar zijn     | zo 17 apr  17:59    |
+| Speller: Hash, Size, Unload, Questions                | vr 22 apr  17:59    |
+| - als Hash en Size vrijdag correct ingeleverd zijn    | zo 24 apr  17:59    |
+| Stack, Mario, Readability, Questions                  | vr 29 apr  17:59    |
+| - als Stack vrijdag correct ingeleverd is             | zo  1 mei  17:59    |
+| -- | -- | -- | -- |
+| meivakantie | | | |
+| -- | -- | -- | -- |
+| nog onbekend                  | vr 13 mei  17:59 |
+| nog onbekend                  | vr 20 mei  17:59 |
+| nog onbekend                  | wo 25 mei  17:59 |
 
 Heb je een keer een dag waarop je niet zo goed kunt focussen, of de opdracht ligt je niet zo goed, dan krijg je de opdracht misschien niet af. Geen probleem. **Je kunt één keer je deadline uitstellen met maximaal 2 dagen. Hiervoor moet je een afspraak maken met de docenten via een mail naar help@mprog.nl. Alleen contact met je mentor is niet voldoende.**
 
