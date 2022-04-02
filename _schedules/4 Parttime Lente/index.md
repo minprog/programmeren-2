@@ -23,7 +23,7 @@ Bij dit vak werk je aan verschillende soorten opdrachten. Samenwerken is een ess
 
 - Beoordeling individuele programmeeropdrachten (75%). Ze worden automatisch gecheckt op correcte werking, en als dat helemaal goed gaat, dan kijkt je mentor ze na en geeft punten en feedback. Deze opdrachten doe je alleen, omdat je er een beoordeling voor krijgt. Je kunt wel altijd hulp krijgen van de docenten en assistenten.
 
-- Beoordeling tentamen (0%). Dit is een reflectief take-home tentamen, anders van opzet dan het tentamen van Programmeren 1. Het telt niet mee voor je eindcijfer, maar je moet het volledig en serieus gemaakt hebben om het vak af te kunnen ronden.
+- Beoordeling tentamen (0%). Het telt niet mee voor je eindcijfer, maar je moet het goed gemaakt hebben om het vak af te kunnen ronden.
 
 Voordat je een eindcijfer kunt krijgen moet je alle opdrachten werkend hebben ingeleverd en aan alle minimumeisen (zie onder) hebben voldaan, tenzij je een *schriftelijke* uitzondering hebt gekregen van de docenten. Voel je vrij om te overleggen of jouw omstandigheden een uitzondering rechtvaardigen. We denken graag mee! Let op dat je mentor of een assistent geen uitzonderingen kan verlenen.
 
