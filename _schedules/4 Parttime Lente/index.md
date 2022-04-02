@@ -55,13 +55,14 @@ Met je mentor heb je elke week een **werkgroep** waar alle teamleden aan deelnem
 
 Tijdens dit vak zul je vaak de hulp inroepen van de assistenten en medestudenten. Er zijn diverse opties voor het stellen van vragen. De beste optie hangt af van het soort vraag dat je wil stellen.
 
-**Programmeerbalie:** direct contact met een assistent, voor hulp bij programmeren.
+**Hands:** direct contact met een assistent, voor hulp bij programmeren.
 
-- hulp op locatie (lokaal A1.22) of via een videogesprek
+- hulp op locatie (lokaal A1.16) of via een videogesprek
 - je weet niet waar te beginnen of een onvindbare bug, of alles loopt vast
 - moeite met verzinnen oplossing
-- dagelijks beschikbaar, vooraf afspraak maken via [afsprakensysteem](https://balie.mprog.nl/planner/1)
-- beperkt ruimte voor inloop bij urgente vragen
+- dagelijks beschikbaar, zet jezelf in de rij via het menu:
+
+    ![](../hands-menu.png)
 
 **Slack:** direct contact met je team.
 
@@ -93,7 +94,7 @@ Juist even niet aan de opdracht werken kan je verder helpen!
 
 Voor de hele cursus is er een **dagschema** dat het gewenste tempo aangeeft. De hoeveelheid werk is afgestemd op beginnende programmeurs, dus zonder ervaring. De bedoeling is dat je dit schema volledig kunt aanhouden, en dat je elke opdracht inlevert zodra je die af hebt. Er zijn dus dagelijkse deadlines.
 
-Heb je een keer een dag waarop je niet zo goed kunt focussen, of de opdracht ligt je niet zo goed, dan krijg je de opdracht misschien niet af. Geen probleem. Je gaat de volgende dag naar het docentenspreekuur om afspraken te maken over het weer op gang komen, of om gewoon even je hart te luchten.
+Heb je een keer een dag waarop je niet zo goed kunt focussen, of de opdracht ligt je niet zo goed, dan krijg je de opdracht misschien niet af. Geen probleem. **Je kunt één keer je deadline uitstellen met maximaal 2 dagen. Hiervoor moet je een afspraak maken met de docenten via een mail naar help@mprog.nl. Alleen contact met je mentor is niet voldoende.**
 
 Voor de individuele opdrachten zijn er steeds twee deadlines:
 
@@ -122,9 +123,9 @@ Bovenstaand schema is afhankelijk van de werkgroeproostering en onder voorbehoud
 
 Als je ziek bent dan meld je het in ieder geval meteen even aan je mentor via een berichtje op Slack. Je hoeft het niet uitgebreid uit te leggen, maar wel meteen melden. Het contact hierover houden is het belangrijkste dat je kunt doen en een harde eis als je later een uitzondering nodig hebt.
 
-- Ben je een paar dagen ziek of je hebt de opdracht niet af, maak dan zo snel mogelijk een afspraak bij het docentenspreekuur ([maak een afspraak](https://balie.mprog.nl/planner/3)).
+- Ben je een paar dagen ziek of je hebt de opdracht niet af, maak dan zo snel mogelijk een afspraak via een mail naar <mailto:help@mprog.nl>.
 
-- Heb je een medisch noodgeval en ben je hierdoor bijvoorbeeld een hele week uit de running? Dan bespreek je naderhand met een docent hoe je dit kunt oplossen (houd wel contact!). Daarbij speelt natuurlijk ook mee hoe makkelijk het programmeren je af gaat en hoeveel energie je hebt om te steken in het inhalen. Op basis van al die informatie kijken we samen wat mogelijk is.
+- Heb je een medisch noodgeval en ben je hierdoor bijvoorbeeld een hele week uit de running? Dan bespreek je naderhand met een docent hoe je dit kunt oplossen (houd wel contact!). Daarbij speelt natuurlijk ook mee hoe makkelijk het programmeren je af gaat. Op basis van het hele verhaal kijken we samen wat mogelijk is.
 
 - Raak je helemaal uit tempo omdat je bijvoorbeeld toch teveel andere dingen te doen hebt of niet genoeg focus kan vinden? Het is belangrijk dat je dit snel bespreekt met een docent (niet je mentor). Stuur maar een [mailtje](mailto:help@mprog.nl)!
 
