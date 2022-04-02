@@ -112,9 +112,9 @@ Dit zijn de **uiterste** deadlines voor de opdrachten:
 | - als Hash en Size vrijdag correct ingeleverd zijn    | zo 24 apr  17:59    |
 | Stack, Mario, Readability, Questions                  | vr 29 apr  17:59    |
 | - als Stack vrijdag correct ingeleverd is             | zo  1 mei  17:59    |
-| -- | -- | -- | -- |
-| meivakantie | | | |
-| -- | -- | -- | -- |
+| -- | -- |
+| meivakantie | |
+| -- | -- |
 | nog onbekend                  | vr 13 mei  17:59 |
 | nog onbekend                  | vr 20 mei  17:59 |
 | nog onbekend                  | wo 25 mei  17:59 |
