@@ -94,8 +94,6 @@ Juist even niet aan de opdracht werken kan je verder helpen!
 
 Voor de hele cursus is er een **dagschema** dat het gewenste tempo aangeeft. De hoeveelheid werk is afgestemd op beginnende programmeurs, dus zonder ervaring. De bedoeling is dat je dit schema volledig kunt aanhouden, en dat je elke opdracht inlevert zodra je die af hebt. Er zijn dus dagelijkse deadlines.
 
-Heb je een keer een dag waarop je niet zo goed kunt focussen, of de opdracht ligt je niet zo goed, dan krijg je de opdracht misschien niet af. Geen probleem. **Je kunt één keer je deadline uitstellen met maximaal 2 dagen. Hiervoor moet je een afspraak maken met de docenten via een mail naar help@mprog.nl. Alleen contact met je mentor is niet voldoende.**
-
 Voor de individuele opdrachten zijn er steeds twee deadlines:
 
 1. De deadline voor het volledig **werkend** hebben van de opdracht. Met de tool `check50` kun je nagaan of je uitwerking helemaal aan de eisen voldoet. Is dat zo, dan lever je de uitwerking meteen in op de website. Je hoeft de uitwerking nog niet netjes te maken.
@@ -106,18 +104,18 @@ Dit zijn de **uiterste** deadlines voor de opdrachten:
 
 | opdrachten                    | deadline werkend    | deadline verbeterd          |
 |------------------------------ | ------------------: | --------------------------: |
-| Filter, Beatles               | vr  8 apr  17:59    | 1 dag na volgende werkgroep |
-| Speller: Load & Check         | do 14 apr  17:59    | 1 dag na volgende werkgroep |
-| Speller: Hash & Size & Unload | vr 22 apr  17:59    | 1 dag na volgende werkgroep |
-| Stack, Mario, Readability     | vr 29 apr  17:59    | 1 dag na volgende werkgroep |
+| Filter, Beatles               | vr  8 apr  17:59    | 1 dag na de werkgroep |
+| Speller: Load & Check         | do 14 apr  17:59    | 1 dag na de werkgroep |
+| Speller: Hash & Size & Unload | vr 22 apr  17:59    | 1 dag na de werkgroep |
+| Stack, Mario, Readability     | vr 29 apr  17:59    | 1 dag na de werkgroep |
 | -- | -- | -- |
 | meivakantie | | |
 | -- | -- | -- |
-| nog onbekend                  | vr 13 mei  17:59    | 1 dag na volgende werkgroep |
-| nog onbekend                  | vr 20 mei  17:59    | 1 dag na volgende werkgroep |
-| nog onbekend                  | wo 25 mei  17:59    | 1 dag na volgende werkgroep |
+| nog onbekend                  | vr 13 mei  17:59    | 1 dag na de werkgroep |
+| nog onbekend                  | vr 20 mei  17:59    | 1 dag na de werkgroep |
+| nog onbekend                  | wo 25 mei  17:59    | 1 dag na de werkgroep |
 
-Bovenstaand schema is afhankelijk van de werkgroeproostering en onder voorbehoud. Het geeft wel een indicatie van wat de bedoeling is.
+Heb je een keer een dag waarop je niet zo goed kunt focussen, of de opdracht ligt je niet zo goed, dan krijg je de opdracht misschien niet af. Geen probleem. **Je kunt één keer je deadline uitstellen met maximaal 2 dagen. Hiervoor moet je een afspraak maken met de docenten via een mail naar help@mprog.nl. Alleen contact met je mentor is niet voldoende.**
 
 ### Ziekte en inhalen
 
