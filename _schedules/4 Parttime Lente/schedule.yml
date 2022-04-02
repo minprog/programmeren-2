@@ -5,7 +5,7 @@ Week 1:
     Maandag:
         'Videocollege: Memory': /lectures/memory
     Dinsdag:
-        'Whodunit': /cs50/whodunit
+        'Whodunit [zelf]': /cs50/whodunit
     Woensdag:
         Filter (t/m reflection) [individueel]: /cs50/filter/less
     Donderdag:
@@ -19,8 +19,8 @@ Week 2:
     # Dinsdag:
     #     Linked list [samen]: /exercises/writing/linked
     Dinsdag:
-        "Speller: getting started [samen]": /cs50/speller/startup
-        "Speller: specification [samen]": /cs50/speller/specification
+        "Speller: getting started [zelf]": /cs50/speller/startup
+        "Speller: specification [zelf]": /cs50/speller/specification
     Woensdag:
         "Speller: load [individueel]": /cs50/speller/load
     Donderdag:
@@ -39,23 +39,23 @@ Week 3:
 
 Week 4:
     Maandag en dinsdag:
-        Stack: /exercises/writing/stack
+        Stack [zelf]: /exercises/writing/stack
     Donderdag:
         'Videocollege: Python': /lectures/python-david
-        Mario: /cs50/py/mario
+        Mario [zelf]: /cs50/py/mario
     Vrijdag:
-        Readability: /cs50/py/readability
+        Readability [zelf]: /cs50/py/readability
         Questions: /questions/python
 
 Week 5:
     Maandag:
-        World Cup [samen]: /cs50/worldcup
+        World Cup [zelf]: /cs50/worldcup
     Dinsdag en woensdag:
         DNA [individueel]: /cs50/dna
     Donderdag:
         "Videocollege: OOP": /objects/lecture
-        Implementeer Queue: /objects/queue
-        Implementeer Game of Cards: /objects/cards
+        Implementeer Queue [zelf]: /objects/queue
+        Implementeer Game of Cards [zelf]: /objects/cards
     Vrijdag:
         s: s
 
