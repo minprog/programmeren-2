@@ -100,18 +100,14 @@ Voor de individuele opdrachten zijn er steeds twee deadlines:
 
 2. De deadline voor de **verbeterde** versie van je uitwerking. Tijdens de werkgroep zul je een code review doen met een medestudent, op basis waarvan je je uitwerking helemaal kunt verbeteren. Dat is de versie waarvoor je punten en feedback krijgt van je mentor.
 
-Dit zijn de **uiterste** deadlines voor de opdrachten:
+Hieronder de uiterste deadlines voor de opdrachten. Heb je een drukke week dan neem je vooraf contact op om uit te leggen op welke dagen je aan de opdrachten kunt werken. De deadline kan één keer naar zondag worden verplaatst.
 
 | opdrachten                                            | deadline            |
 |------------------------------------------------------ | ------------------: |
 | Whodunit, Filter, Beatles                             | vr  8 apr  17:59    |
-| - als Whodunit vrijdag helemaal correct ingeleverd is | zo 10 apr  17:59    |
 | Speller: Getting Started, Specification, Load, Check  | do 14 apr  17:59    |
-| - als Getting Started + Spec donderdag klaar zijn     | zo 17 apr  17:59    |
 | Speller: Hash, Size, Unload, Questions                | vr 22 apr  17:59    |
-| - als Hash en Size vrijdag correct ingeleverd zijn    | zo 24 apr  17:59    |
 | Stack, Mario, Readability, Questions                  | vr 29 apr  17:59    |
-| - als Stack vrijdag correct ingeleverd is             | zo  1 mei  17:59    |
 | -- | -- |
 | meivakantie | |
 | -- | -- |
@@ -119,7 +115,7 @@ Dit zijn de **uiterste** deadlines voor de opdrachten:
 | nog onbekend                  | vr 20 mei  17:59 |
 | nog onbekend                  | wo 25 mei  17:59 |
 
-Heb je een keer een dag waarop je niet zo goed kunt focussen, of de opdracht ligt je niet zo goed, dan krijg je de opdracht misschien niet af. Geen probleem. **Je kunt één keer je deadline uitstellen met maximaal 2 dagen. Hiervoor moet je een afspraak maken met de docenten via een mail naar help@mprog.nl. Alleen contact met je mentor is niet voldoende.**
+De verbeterde versies van de opdrachten moeten op de dag van de werkgroep ingeleverd zijn.
 
 ### Ziekte en inhalen
 
