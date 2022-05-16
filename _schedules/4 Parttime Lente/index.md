@@ -111,9 +111,8 @@ Hieronder de uiterste deadlines voor de opdrachten. Heb je een drukke week dan n
 | -- | -- |
 | meivakantie | |
 | -- | -- |
-| nog onbekend                  | vr 13 mei  17:59 |
-| nog onbekend                  | vr 20 mei  17:59 |
-| nog onbekend                  | wo 25 mei  17:59 |
+| DNA                  | vr 13 mei  17:59 |
+| Adventure                  | wo 25 mei  17:59 |
 
 De verbeterde versies van de opdrachten moeten op de dag van de werkgroep ingeleverd zijn.
 
