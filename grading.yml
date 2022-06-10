@@ -141,7 +141,7 @@ oefeningen:
     submits:
         whodunit: 1
         beatles: 1
-        linked: 1
+        #linked: 1
         stack: 1
         mario_py: 1
         readability_py: 1
