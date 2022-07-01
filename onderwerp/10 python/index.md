@@ -37,6 +37,6 @@ Kennismaken met types in Python:
 
 Kennismaking met testen in Python:
 
-- [Testing theory](/onderwerp/python/testing)
+- [How to test in Python](/onderwerp/python/testing)
 - [Rotate](/onderwerp/python/testing/rotate)
 - [Tennis](/onderwerp/python/testing/tennis)
