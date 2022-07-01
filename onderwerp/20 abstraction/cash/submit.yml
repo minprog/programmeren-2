@@ -1,0 +1,5 @@
+name: testing_cash
+form: true
+files:
+    required:
+        - test_cash.py
