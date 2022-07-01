@@ -1,7 +1,0 @@
-name: parttime_9
-files:
-    required:
-        - adventure.py
-        - room.py
-        - loader.py
-        - item.py

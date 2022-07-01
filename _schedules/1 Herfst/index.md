@@ -1,13 +1,13 @@
-# Fulltime Programmeren 2
+# Parttime Programmeren 2
 
-## Studiewijzer<br><small>Lente 2021</small>
+## Studiewijzer<br><small>Herfst 2022</small>
 
-> "Introduction to the intellectual enterprises of computer science and the art of programming. This course teaches you how to think algorithmically and solve problems efficiently. Topics include abstraction, algorithms, data structures, encapsulation, resource management, security, software engineering, and web development. Languages include Scratch, C and Python. Problem sets inspired by real-world domains of biology, cryptography, finance, forensics, and gaming. Designed for concentrators and non-concentrators alike, with or without prior programming experience." --- CS50 at Harvard.
+Let op! Dit vak is flink aangepast ten opzichte van vorige jaren. Was je eerder al eens begonnen met het vak, dan moet je nu beginnen vanaf het begin.
 
 
 ## Docenten en assistenten
 
-De docenten bij dit vak zijn Jelle van Assema, Simon Pauw, Wouter Vrielink en Martijn Stegeman. Zij geven het vak vorm en verzorgen de organisatie. Je kunt ze bereiken via e-mail op <help@mprog.nl>.
+De docenten bij dit vak zijn Jelle van Assema, Simon Pauw en Martijn Stegeman. Zij geven het vak vorm en verzorgen de organisatie. Je kunt ze bereiken via e-mail op <help@mprog.nl>.
 
 Daarnaast zijn er veel student-assistenten, die de cursus goed kennen omdat ze 'm zelf gedaan hebben, en jou gaan helpen op de momenten dat het nodig is. Eén van de assistenten zal daarnaast je mentor zijn, die je wekelijks ziet bij de werkgroep en die bovendien je werk nakijkt.
 
@@ -33,11 +33,9 @@ Voordat je een eindcijfer kunt krijgen moet je alle opdrachten werkend hebben in
 Alle opdrachten en toetsjes netjes (dagelijks!) werkend inleveren is de basiseis om het vak te halen. Het is dus niet mogelijk om opdrachten over te slaan! Daarnaast is het nodig dat je *zichtbaar* actief meedoet en leert van het vak. Dat doe je onder andere op de volgende manieren:
 
 1. meedoen aan alle wekelijkse [werkgroepen](#werkgroepen)
-2. bijwonen van alle [checkups](#checkups) met je team
-3. enkele keren individueel contact met je mentor
-4. regelmatig contact met assistenten over je opdrachten (hulp vragen!)
-5. laag scoren op de ["plagiaatschaal"](#plagiaat)
-6. algemene aanwezigheid van 9 tot 17 uur
+2. enkele keren individueel contact met je mentor
+3. regelmatig contact met assistenten over je opdrachten (hulp vragen!)
+4. laag scoren op de ["plagiaatschaal"](#plagiaat)
 
 Op die manier kunnen je mentor en de docenten een goed beeld vormen van jouw voortgang en constateren dat je aan de leerdoelen van het vak hebt voldaan. Daarnaast is er een tentamen.
 
@@ -46,7 +44,7 @@ Lukt het niet om systematisch laag te scoren op de plagiaatschaal, dan moet je j
 
 ## Team en mentor
 
-Je zit bij dit vak in een team met twaalf à veertien andere studenten. In het team zul je onder andere samen werken aan het ontwerpen van oplossingen voor de opdrachten en het bespreken en verbeteren van jouw code. De **indeling** wordt op de eerste dag bekend gemaakt.
+Je zit bij dit vak in een team met acht à twaalf andere studenten. In het team zul je onder andere samen werken aan het ontwerpen van oplossingen voor de opdrachten en het bespreken en verbeteren van jouw code. De **indeling** wordt op de eerste dag bekend gemaakt.
 
 Je **mentor** is een studentassistent die het vak eerder heeft gevolgd of een docent die alles over onze cursus weet. Je mentor helpt je wegwijs maken, doet voor hoe je het beste de opdrachten kunt aanpakken, kijkt je werk na, en kan jouw vragen over de organisatie van het vak beantwoorden. Je ontvangt van je mentor een uitnodiging voor een chatomgeving (Slack), vooral bedoeld voor snelle coördinatie met je mentor en team.
 
@@ -59,10 +57,10 @@ Tijdens dit vak zul je vaak de hulp inroepen van de assistenten en medestudenten
 
 **Programmeerbalie:** direct contact met een assistent, voor hulp bij programmeren.
 
-- hulp op locatie (lokaal A1.24) of via een videogesprek
+- hulp op locatie (lokaal A1.22) of via een videogesprek
 - je weet niet waar te beginnen of een onvindbare bug, of alles loopt vast
 - moeite met verzinnen oplossing
-- dagelijks beschikbaar, vooraf afspraak maken via [afsprakensysteem](#)
+- dagelijks beschikbaar, vooraf afspraak maken via [afsprakensysteem](https://balie.mprog.nl/planner/1)
 - beperkt ruimte voor inloop bij urgente vragen
 
 **Slack:** direct contact met je team.
@@ -78,7 +76,7 @@ Tijdens dit vak zul je vaak de hulp inroepen van de assistenten en medestudenten
 - meedenken over grote problemen met het vak
 - andere officiële zaken
 - administratie na afloop van het vak
-- aanmelden via [afsprakensysteem](#) of mail <help@mprog.nl>
+- aanmelden via [afsprakensysteem](https://balie.mprog.nl/planner/3) of mail <help@mprog.nl>
 
 <details markdown="1"><summary markdown="span">Kom je helemaal niet verder en heb je even geen hulp?</summary>
 Juist even niet aan de opdracht werken kan je verder helpen!
@@ -99,18 +97,18 @@ Heb je een keer een dag waarop je niet zo goed kunt focussen, of de opdracht lig
 
 Voor de individuele opdrachten zijn er steeds twee deadlines:
 
-1. De deadline voor het volledig **werkend** hebben van de opdracht. Met de tool `check50` kun je nagaan of je uitwerking helemaal aan de eisen voldoet. Is dat zo, dan lever je de uitwerking meteen in op de website. Je hoeft de uitwerking nog niet netjes te maken. De deadline wordt bepaald door het dagschema.
+1. De deadline voor het volledig **werkend** hebben van de opdracht. Met de tool `check50` kun je nagaan of je uitwerking helemaal aan de eisen voldoet. Is dat zo, dan lever je de uitwerking meteen in op de website. Je hoeft de uitwerking nog niet netjes te maken.
 
 2. De deadline voor de **verbeterde** versie van je uitwerking. Tijdens de werkgroep zul je een code review doen met een medestudent, op basis waarvan je je uitwerking helemaal kunt verbeteren. Dat is de versie waarvoor je punten en feedback krijgt van je mentor.
 
-Dit zijn de **uiterste** deadlines voor de verbeterde versies:
+Dit zijn de **uiterste** deadlines voor de opdrachten:
 
-| opdrachten  | deadline            |
-|------------ | ------------------: |
-| week 4      | di  8 mrt  17:59    |
-| week 5      | di 15 mrt  17:59    |
-| week 6      | di 22 mrt  17:59    |
-| week 7      | di 29 mrt  17:59    |
+| opdrachten  | deadline werkend    | deadline verbeterd  |
+|------------ | ------------------: | ------------------: |
+| Filter      | vr  5 nov  17:59    | wo 10 nov  17:59    |
+| Speller     | vr 19 nov  17:59    | wo 24 nov  17:59    |
+| DNA         | vr  3 dec  17:59    | wo  8 dec  17:59    |
+| Games       | vr 17 dec  17:59    | wo 22 dec  17:59    |
 
 Bovenstaand schema is afhankelijk van de werkgroeproostering en onder voorbehoud. Het geeft wel een indicatie van wat de bedoeling is.
 
@@ -118,7 +116,7 @@ Bovenstaand schema is afhankelijk van de werkgroeproostering en onder voorbehoud
 
 Als je ziek bent dan meld je het in ieder geval meteen even aan je mentor via een berichtje op Slack. Je hoeft het niet uitgebreid uit te leggen, maar wel meteen melden. Het contact hierover houden is het belangrijkste dat je kunt doen en een harde eis als je later een uitzondering nodig hebt.
 
-- Ben je één of twee dagen ziek of je hebt de opdracht niet af, dan ga je de volgende morgen direct naar het docentenspreekuur ([maak een afspraak](#)). Let op dat systematisch achterlopen niet mogelijk is. Ga je regelmatig één of twee dagen achterlopen dan zullen we je naar de parttime-versie van het vak verwijzen.
+- Ben je een paar dagen ziek of je hebt de opdracht niet af, maak dan zo snel mogelijk een afspraak bij het docentenspreekuur ([maak een afspraak](https://balie.mprog.nl/planner/3)).
 
 - Heb je een medisch noodgeval en ben je hierdoor bijvoorbeeld een hele week uit de running? Dan bespreek je naderhand met een docent hoe je dit kunt oplossen (houd wel contact!). Daarbij speelt natuurlijk ook mee hoe makkelijk het programmeren je af gaat en hoeveel energie je hebt om te steken in het inhalen. Op basis van al die informatie kijken we samen wat mogelijk is.
 
@@ -150,19 +148,11 @@ In hoorcolleges bespreekt David Malan van Harvard de theorie waarmee je programm
 
 ### Werkgroepen
 
-Werkgroepen zijn bijeenkomsten van een uur met je mentor. In de werkgroepen krijg je de kans om samen de voortgang te bespreken, de oefeningen door te nemen, tips uit te wisselen over het aanpakken van problemen en om je medestudenten en mentor beter te leren kennen. Gebruik van camera is vereist als de werkgroep online plaatsvindt.
+Werkgroepen zijn bijeenkomsten van maximaal 90 minuten met je mentor. In de werkgroepen krijg je de kans om samen de voortgang te bespreken, de oefeningen door te nemen, tips uit te wisselen over het aanpakken van problemen en om je medestudenten en mentor beter te leren kennen. Gebruik van camera is vereist als de werkgroep online plaatsvindt.
 
 ### Basisboek
 
 Wekelijks zijn er oefeningen waarin de stof van de vorige weken wordt herhaald en aangescherpt. Je studeert in het [Basisboek Programmeren](https://www.stgm.nl/basics/) dat vrij beschikbaar is. De oefeningen worden inhoudelijk besproken tijdens de werkgroepen.
-
-### Werkuren
-
-Tijdens de werkuren, dagelijks van 9 tot 17 uur, word je geacht te werken aan dit vak. Je ontwerpt en programmeert dan aan je opdrachten en je wisselt ideeën en oefeningen uit met de studenten uit je mentorgroep. Let daarbij wel op dat je op een "redelijke" manier samenwerkt, zoals vermeld aan het einde van deze studiewijzer.
-
-### Checkups
-
-Elke dag om 9:00 doe je een checkup met je mentorgroep, maar zonder je mentor. Daarbij laat je weten hoe je ervoor staat met je opdracht, waar je aan gewerkt hebt en vooral waar je vandaag aan wil werken. Je kunt ook om advies vragen over je aanpak, bijvoorbeeld als je vastzit. Misschien is er een groepsgenoot die hetzelfde probleem al is tegengekomen.
 
 ### Aanvullende literatuur
 

@@ -1,8 +1,0 @@
-name: fulltime_7
-files:
-    required:
-        - adventure.py
-        - room.py
-        - loader.py
-        - item.py
-
