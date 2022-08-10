@@ -30,7 +30,7 @@ Oefenen met bestanden inlezen en verwerken (data processing):
 - [World Cup]()
 - [DNA]()
 
-Kennismaken met types in Python:
+Kennismaking met types in Python:
 
 - [Typing theory](/onderwerp/python/typing)
 - [Type hints](/onderwerp/python/typing/hints)
