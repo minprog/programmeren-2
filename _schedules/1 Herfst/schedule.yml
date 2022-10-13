@@ -3,18 +3,17 @@ Welkom:
 
 Week 1:
     Overzicht: /onderwerp/python
-    Maandag:
+    Voorbereiding:
         'Videocollege: Python': /lectures/python-david
-    Dinsdag:
-        Mario [zelf]: /cs50/py/mario
-        Readability [zelf]: /cs50/py/readability
-    Woensdag:
-        World Cup [samen]: /cs50/worldcup
-    Donderdag:
-        DNA [individueel]: /cs50/dna
-    Vrijdag:
-        Type checking: /type_checkers/theory
         Questions: /onderwerp/python/questions
+    "C => Python":
+        Mario [samen programmeren]: /problems/mario
+        Readability [opdracht]: /problems/readability
+    Opdracht:
+        DNA [opdracht]: /cs50/dna
+    Types:
+        Type checking: /type_checkers/theory
+    Testing:
         Pytest: /testers/theory
         Rotate: /testers/rotate
         Tennis: /testers/tennis
