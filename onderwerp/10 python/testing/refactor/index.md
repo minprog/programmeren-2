@@ -7,7 +7,7 @@ Upon submission we will run your test cases against various buggy and correct su
 > **IMPORTANT** Do not download or look at these submissions before you have implemented and submitted your own implementation of `mario`, `readability` and `dna`. Needless to say, these submissions are full of spoilers!
 
     TODO DOWNLOAD LINK
-    
+
 
 ## Testing without side effects
 
@@ -34,7 +34,7 @@ We could test this function by calling it with different inputs and by expecting
 
 As you are about to find out, testing code with side effects is quite a bit more difficult and messy than the above. This is why it is good practice to separate things like prompts for input and prints for output to small separate functions. That way you can more easily test all your other code using short and simple tests like the above.
 
-That said, you can't always avoid IO (input-output). Below you'll find how you can still test your functions even if they do contain IO side effects.
+That said, you cannot always avoid IO (input-output). Below you will find how you can still test your functions even if they do contain IO side effects.
 
 
 ### Testing with print statements (stdout)
@@ -60,7 +60,7 @@ In this case we need our testing code to be able read from stdout. That is the o
         # assert that exactly "9 divides 3!\n" was printed
         assert captured.out == "9 divides 3!\n"
 
-> Note that you don't have to check for exact output. Python comes with a bunch of useful string functions that allow for rough comparisons . For instance, maybe you are satisfied with just the word "divides" being printed. You could test for this with `assert "divides" in captured.out`. Or perhaps you don't want to check with capitalization like so: `assert captured.out.lower() == "9 divides 3!\n"`. Or maybe it's fine that a newline is omitted? `assert captured.out.strip() == "9 divides 3!"`
+> Note that you do not have to check for exact output. Python comes with a bunch of useful string functions that allow for rough comparisons. For instance, maybe you are satisfied with just the word "divides" being printed. You could test for this with `assert "divides" in captured.out`. Or perhaps you do not want to check with capitalization like so: `assert captured.out.lower() == "9 divides 3!\n"`. Or maybe it is fine that a newline is omitted? `assert captured.out.strip() == "9 divides 3!"`
 
 
 ### Testing with user input (stdin)
@@ -101,4 +101,4 @@ Mocking or otherwise changing code while the code is running is called [monkey p
         # Test whether get_positive_number reads our input correctly
         assert get_positive_number() == 10
 
-> For the technically curious, `sys.stdin` is how you'd access `stdin` in Python. Don't forget to `import sys` first. `io` is a Python module for dealing with input-output streams. You can find the docs [here](https://docs.python.org/3/library/io.html).
+> For the technically curious, `sys.stdin` is how you would access `stdin` in Python. Do not forget to `import sys` first. `io` is a Python module for dealing with input-output streams. You can find the docs [here](https://docs.python.org/3/library/io.html).
