@@ -7,16 +7,17 @@ Week 1:
         'Videocollege: Python': /lectures/python-david
         Questions: /onderwerp/python/questions
     "C => Python":
+    Opdrachten:
         Mario [samen programmeren]: /problems/mario
         Readability [opdracht]: /problems/readability
-    Opdracht:
         DNA [opdracht]: /cs50/dna
     Types:
-        Type checking: /type_checkers/theory
+        Theory: /onderwerp/python/typing
+        Questions: /onderwerp/python/typing/hints
+        Refactoring [opdracht]: /onderwerp/python/typing/refactor
     Testing:
-        Pytest: /testers/theory
-        Rotate: /testers/rotate
-        Tennis: /testers/tennis
+        Theory: /onderwerp/python/testing
+        Refactoring [opdracht]: /onderwerp/python/testing/refactor
 
 Week 2:
     Overzicht: /onderwerp/abstraction
