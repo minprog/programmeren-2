@@ -15,7 +15,7 @@ Implement a program that computes the approximate grade level needed to comprehe
 
     *   Recall that the Coleman-Liau index is computed as `0.0588 * L - 0.296 * S - 15.8`, where `L` is the average number of letters per 100 words in the text, and `S` is the average number of sentences per 100 words in the text.
 
-*   Use `get_string` from the CS50 Library to get the user's input, and `print` to output your answer.
+*   Use `input` to get the user's input, and `print` to output your answer.
 
 *   Your program should count the number of letters, words, and sentences in the text. You may assume that a letter is any lowercase character from `a` to `z` or any uppercase character from `A` to `Z`, any sequence of characters separated by spaces should count as a word, and that any occurrence of a period, exclamation point, or question mark indicates the end of a sentence.
 
