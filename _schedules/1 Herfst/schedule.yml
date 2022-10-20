@@ -7,10 +7,9 @@ Week 1:
         'Videocollege: Python': /lectures/python-david
         Questions: /onderwerp/python/questions
     "C => Python":
-    Opdrachten:
         Mario [samen programmeren]: /problems/mario
         Readability [opdracht]: /problems/readability
-        DNA [opdracht]: /cs50/dna
+        DNA [opdracht]: /problems/dna
     Types:
         Theory: /onderwerp/python/typing
         Questions: /onderwerp/python/typing/hints
