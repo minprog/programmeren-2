@@ -47,6 +47,3 @@ So why is this important? Well, Python will run any code in a Python source file
 
 
 > In short, `if __name__ == "__main__"` is Python's equivalent for a main function similar to languages like C & Java. Its use is optional, but generally good practica.
-
-
-## Submit
