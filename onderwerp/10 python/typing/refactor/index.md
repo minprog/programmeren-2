@@ -1,5 +1,9 @@
 # Once more with functions and type hints
 
+> **Individueel.**
+>
+> Samenwerken bij deze opdracht is niet toegestaan; het is prima om medestudenten en anderen om hulp te vragen, als het er maar niet op neerkomt dat iemand anders een deel van het werk voor je doet. Voorbeelden van "redelijke" en "onredelijke" manieren van samenwerken vind je in de studiewijzer.
+
 Refactor your code from `mario`, `readability` and `dna` with type hints. You can check for any missing types or type errors by running:
 
     mypy --strict mario.py
