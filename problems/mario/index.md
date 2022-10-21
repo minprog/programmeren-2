@@ -15,6 +15,7 @@ In deze opdracht ga je Mario schrijven in Python. Gebruik de analyse die je eerd
       ##
      ###
     ####
+
 ^
 
     $ python mario.py
@@ -26,10 +27,10 @@ In deze opdracht ga je Mario schrijven in Python. Gebruik de analyse die je eerd
 
 ## Specificatie
 
-* Schrijf een programma genaamd `~/problems/mario.py` dat een Mario-piramide tekent met gebruik van hash-tekens (`#`).
-* De gebruiker van het programma mag zelf de hoogte van de pyramide aangeven.
-* De hoogte van de pyramide mag niet groter dan 23 blokken hoog zijn, en niet kleiner dan 0. Wordt er een andere waarde ingevuld, dan moet je de gebruiker opnieuw om invoer vragen.
-* Je mag aannemen dat de gebruiker alleen integers invoert.
+- Schrijf een programma genaamd `~/problems/mario.py` dat een Mario-piramide tekent met gebruik van hash-tekens (`#`).
+- De gebruiker van het programma mag zelf de hoogte van de pyramide aangeven.
+- De hoogte van de pyramide mag niet groter dan 23 blokken hoog zijn, en niet kleiner dan 0. Wordt er een andere waarde ingevuld, dan moet je de gebruiker opnieuw om invoer vragen.
+- Je mag aannemen dat de gebruiker alleen integers invoert.
 
 ## Tips
 
@@ -37,4 +38,4 @@ In het videocollege worden diverse tips gegeven over het printen van tekens op h
 
 ## Testen
 
-    check50 -l minprog/cs50x/2020/py/mario
+    check50 -l minprog/checks/2022/mario/python
