@@ -1,0 +1,6 @@
+name: kalender
+files:
+    required:
+        - kalender.py
+        - test_kalender.py
+        - ontwerp_kalender.pdf
