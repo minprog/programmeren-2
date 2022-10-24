@@ -65,6 +65,12 @@ Implementeer het bovenstaande programma, waarbij je je houdt aan de volgende aan
 
 - Vermeld type hints voor alle parameters en return values.
 
+    - Controleer zelf de typing in je programma met `mypy --strict`.
+
 - Schrijf in een apart bestand unit tests voor de kalender-functionaliteit.
+
+    - Controleer zelf je tests met `pytest`.
+    
+    - Denk goed na over de tests die je voor elke functie zou kunnen schrijven. Vanuit de preconditions weet je welke waarden "geldig" zijn als invoer voor een functie. Je kunt en wilt geen test schrijven voor *álle* mogelijke combinaties van parameters. Kun je wellicht verschillende *soorten* waarden ontdekken, en tests bedenken voor elke combinatie van *soorten* waarden?
 
 - Beschrijf in je ontwerpdocument ook eventuele debug-stappen die je hebt genomen. Als het goed is gaat het debuggen op een andere, preciezere manier als je je pre- en postconditions goed gedefinieerd hebt en ook assertions en tests gebruikt.
