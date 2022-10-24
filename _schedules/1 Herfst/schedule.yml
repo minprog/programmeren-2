@@ -15,14 +15,14 @@ Week 1:
         Type hints: /onderwerp/python/type-hints
         Type aliases and variables: /onderwerp/python/type-aliases
         Duck typing: /onderwerp/python/duck-typing
-        Flexible typing: /onderwerp/python/complex-typing
+        Flexible typing: /onderwerp/python/flexible-typing
         Refactoring [opdracht]: /onderwerp/python/refactor-types
-    Testing:
-        Theory: /onderwerp/python/testing
-        Refactoring [opdracht]: /onderwerp/python/testing/refactor
 
 Week 2:
     Overzicht: /onderwerp/abstraction
+    Testing:
+        Theory: /onderwerp/python/testing
+        Refactoring [opdracht]: /onderwerp/python/testing/refactor
     Maandag en dinsdag:
         Unit testing (Cash): /cash
     Woensdag t/m vrijdag:
