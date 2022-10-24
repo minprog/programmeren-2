@@ -10,12 +10,13 @@ Week 1:
         Mario [samen programmeren]: /problems/mario
         Readability [samen programmeren]: /problems/readability
         DNA [opdracht]: /problems/dna
-    Types:
+    Oefenen met types:
         "Background: typing in Python": /onderwerp/python/typing
         Type hints: /onderwerp/python/type-hints
         Type aliases and variables: /onderwerp/python/type-aliases
         Duck typing: /onderwerp/python/duck-typing
         Flexible typing: /onderwerp/python/flexible-typing
+    Opdracht:
         Refactoring [opdracht]: /onderwerp/python/refactor-types
 
 Week 2:
