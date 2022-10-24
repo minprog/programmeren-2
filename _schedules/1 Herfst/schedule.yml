@@ -2,7 +2,7 @@ Welkom:
     Lees hier even rustig door de studiewijzer om te ontdekken hoe het vak in elkaar zit: /syllabus
 
 Week 1:
-    Overzicht: /onderwerp/python
+    "Overzicht: Starten met Python": /onderwerp/python
     Voorbereiding:
         'Videocollege: Python': /lectures/python-david
         Questions: /onderwerp/python/questions
@@ -20,7 +20,7 @@ Week 1:
         Refactoring [opdracht]: /onderwerp/python/refactor-types
 
 Week 2:
-    Overzicht: /onderwerp/abstraction
+    "Overzicht: Design en Testen": /onderwerp/abstraction
     Oefenen met testen:
         Theory: /onderwerp/python/testing
         Refactoring [opdracht]: /onderwerp/python/testing/refactor

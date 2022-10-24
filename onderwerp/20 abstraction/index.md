@@ -1,16 +1,20 @@
-# Week 2: Abstraction and analysis
+# Week 2: Design en testen
 
-Deze week gaat over *abstractie* ...
+Deze week gaat over design, ofwel het bedachtzaam ontwerpen van je programma's. Voorheen hebben we je vaak hints gegeven hoe je programma's gestructureerd moeten zijn. Maar hoe kom je nou op een goed ontwerp voor je programma? Eén insteek is "top-down design" waarbij je vooral nadenkt over het doel van je programma en de subdoelen die je dan kunt definiëren.
+
+Testen speelt een belangrijke rol in design van programma's. Als je nadenkt over de *testbaarheid* van je code dan ga je vanzelf proberen om kleinere functies te schrijven en daarbij nadenken over wat het doel van een functie eigenlijk is. Als je je tests aan het definiëren bent zul je dus vaak nog veranderingen maken in het ontwerp van je code. En dat is precies het idee!
+
+Ontwerpen en ontwikkelen van programma's is een iteratief proces. Dat betekent dat je eerste gedachte niet altijd de scherpste is, maar dat je deze gedachte pakt, analyseert en gebruikt als een basis om verder te komen.
 
 ## Leerdoelen
 
-Je gaat deze week:
+Je gaat deze week aan de slag met:
 
-- Analytisch ontwerpen van programmastructuur top-down met functies
-- Pre-post conditions formuleren
+- Analytisch ontwerpen van programmastructuur, top-down met functies
+- Pre- en postconditions formuleren
 - Preconditions checken met assertions in de code zelf
 - Postconditions testen met tests in aparte bestanden
-- Complexiteit analyse (big-O)
+- Complexiteitsanalyse van je eigen functies (big-O)
 
 ## Lesstof
 
@@ -18,20 +22,3 @@ Uit het boek lees je hoofdstuk 1 tot je het zo goed mogelijk begrijpt.
 
 - 1.1 Overview
 - 1.2 Functional abstraction
-- 1.3 Algorithm analysis
-
-## Vragen
-
-...
-
-## Opdrachten
-
-- [Testing Cash](/onderwerp/abstraction/cash)
-- Calendar / Climate-dashboard als designopdracht
-    1. Top-down design
-    2. Pre-post conditions
-    3. Assertions
-    4. Tests using Pytest
-    5. Big-T analysis per function
-    6. Mention the Side-effects!
-- Refactoring for efficiency, cf statistics example
