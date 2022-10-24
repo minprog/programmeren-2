@@ -11,9 +11,12 @@ Week 1:
         Readability [samen programmeren]: /problems/readability
         DNA [opdracht]: /problems/dna
     Types:
-        Theory: /onderwerp/python/typing
-        Questions: /onderwerp/python/typing/hints
-        Refactoring [opdracht]: /onderwerp/python/typing/refactor
+        "Background: typing in Python": /onderwerp/python/typing
+        Type hints: /onderwerp/python/type-hints
+        Type aliases and variables: /onderwerp/python/type-aliases
+        Duck typing: /onderwerp/python/duck-typing
+        Flexible typing: /onderwerp/python/complex-typing
+        Refactoring [opdracht]: /onderwerp/python/refactor-types
     Testing:
         Theory: /onderwerp/python/testing
         Refactoring [opdracht]: /onderwerp/python/testing/refactor
