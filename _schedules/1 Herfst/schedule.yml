@@ -21,13 +21,12 @@ Week 1:
 
 Week 2:
     Overzicht: /onderwerp/abstraction
-    Testing:
+    Oefenen met testen:
         Theory: /onderwerp/python/testing
         Refactoring [opdracht]: /onderwerp/python/testing/refactor
-    Maandag en dinsdag:
         Unit testing (Cash): /onderwerp/abstraction/cash
-    Woensdag t/m vrijdag:
-        Calendar designopdracht: /onderwerp/abstraction/calendar
+    Opdracht:
+        Kalender designopdracht: /onderwerp/abstraction/kalender
 
 Week 3:
     Overzicht: /onderwerp/oop
