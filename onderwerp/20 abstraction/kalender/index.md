@@ -41,6 +41,11 @@ Voor het werken met command line arguments gebruik je in Python de variabele `sy
 Zie de [documentatie over sys.argv](https://docs.python.org/3.10/library/sys.html?highlight=argv#sys.argv) voor de precieze werking.
 
 
+## Main
+
+Zorg dat je het verwerken van de command-line arguments, met daarbij het eventueel printen van errors, isoleert in de `if __name__ == '__main__'`-sectie.
+
+
 ## Opdracht
 
 Implementeer het bovenstaande programma, waarbij je je houdt aan de volgende aanwijzingen:
