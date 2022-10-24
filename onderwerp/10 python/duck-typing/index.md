@@ -1,4 +1,4 @@
-## Duck typing
+# Duck typing
 
 So far we have looked at concrete types, such as integers, strings and lists. These types are expressive, you know exactly what you are working with. But, often these concrete types limit design. Take for instance this function:
 
