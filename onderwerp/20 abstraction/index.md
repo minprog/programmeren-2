@@ -4,7 +4,7 @@ Deze week gaat over design, ofwel het bedachtzaam ontwerpen van je programma's. 
 
 Testen speelt een belangrijke rol in design van programma's. Als je nadenkt over de *testbaarheid* van je code dan ga je vanzelf proberen om kleinere functies te schrijven en daarbij nadenken over wat het doel van een functie eigenlijk is. Als je je tests aan het definiëren bent zul je dus vaak nog veranderingen maken in het ontwerp van je code. En dat is precies het idee!
 
-Ontwerpen en ontwikkelen van programma's is een iteratief proces. Dat betekent dat je eerste gedachte niet altijd de scherpste is, maar dat je deze gedachte pakt, analyseert en gebruikt als een basis om verder te komen.
+Ontwerpen en ontwikkelen van programma's is een iteratief proces. Dat betekent dat je eerste gedachte niet altijd de scherpste is, maar dat je deze gedachte pakt, analyseert en gebruikt als een basis om verder te komen. En zo kom je na vele stappen tot een goede, leesbare, begrijpelijke en efficiënte oplossing.
 
 ## Leerdoelen
 
