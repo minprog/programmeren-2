@@ -21,6 +21,8 @@ Week 1:
 
 Week 2:
     "Overzicht: Design en Testen": /onderwerp/abstraction
+    Voorbereiding:
+        "Boek: top-down design": /onderwerp/abstraction/voorbereiding
     Oefenen met testen:
         "Achtergrond: testen in Python": /onderwerp/abstraction/testing
         Oefenen met testen: /onderwerp/abstraction/refactor
