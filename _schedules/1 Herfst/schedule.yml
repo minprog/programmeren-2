@@ -22,19 +22,20 @@ Week 1:
 Week 2:
     "Overzicht: Design en Testen": /onderwerp/abstraction
     Oefenen met testen:
-        Theory: /onderwerp/python/testing
-        Refactoring [opdracht]: /onderwerp/python/testing/refactor
-        Unit testing (Cash): /onderwerp/abstraction/cash
+        "Achtergrond: testen in Python": /onderwerp/abstraction/testing
+        Oefenen met testen: /onderwerp/abstraction/testing/refactor
+        Many submissions of cash: /onderwerp/abstraction/cash
     Opdracht:
         Kalender designopdracht: /onderwerp/abstraction/kalender
 
 Week 3:
     Overzicht: /onderwerp/oop
-    Maandag t/m woensdag:
+    Voorbereiding:
         "Videocollege: OOP": /objects/lecture
-        Konijnen en vossen: /konijn/uitleg
-    Donderdag en vrijdag:
-        ImageMagick: /images
+    Opdrachten:
+        LISP: /onderwerp/oop/lisp
+        Figuren: /onderwerp/oop/figuren
+        Knapsack: /onderwerp/oop/knapsack
 
 Week 4:
     Overzicht: /onderwerp/adts
