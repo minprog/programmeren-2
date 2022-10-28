@@ -1,5 +1,7 @@
 # Type hints
 
+**Let op! Deze en de volgende pagina's bevatten oefeningen met invulvelden. Je zult deze opdrachten echter niet submitten. Als je de pagina opnieuw laadt zullen je ingevulde antwoorden ook verdwenen zijn. Het is dus aan te raden de opdrachten zelf apart op te slaan.**
+
 A type hint in the simplest form looks like this:
 
     foo: int
