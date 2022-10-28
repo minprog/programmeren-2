@@ -1,6 +1,6 @@
 # Once more with functions and type hints
 
-Refactor your code from `mario`, `readability` and `dna` with type hints. 
+Herschrijf je code voor `mario`, `readability` en `schuifpuzzel` en voeg type hints toe.
 
 
 ## Individuele opdracht
@@ -8,20 +8,20 @@ Refactor your code from `mario`, `readability` and `dna` with type hints.
 Samenwerken bij deze opdracht is niet toegestaan; het is prima om medestudenten en anderen om hulp te vragen, als het er maar niet op neerkomt dat iemand anders een deel van het werk voor je doet. Voorbeelden van "redelijke" en "onredelijke" manieren van samenwerken vind je in de studiewijzer.
 
 
-## Check your work
+## Controleer je type hints
 
-You can check for any missing types or type errors by running:
+Je kunt je code controleren op type hints door `mypy` te runnen:
 
     mypy --strict mario.py
 
-Or to check all python files in the current directory:
+Of om alle bestanden in de huidige map te controleren:
 
     mypy --strict .
 
 
-## Functions first
+## Functies
 
-If you have not already done so, make sure your most of your code resides inside functions and that any other code is run only when `__name__ == "__main__"`. For instance you might refactor `mario.py` to something resembling the following:
+Om goed type hints te kunnen gebruiken (en zoals in de volgende module, om code goed te kunnen testen) is het belangrijk om code op te delen in functies. Zorg ervoor dat je je code eventueel nog wat meer opdeelt. Zet daarnaast eventuele losse testcode altijd in een if-name-is-main. Voor `mario.py` kunt je bijvoorbeeld aan het volgende denken:
 
     def good_name_for_drawing_a_pyramid(height):
         # TODO
@@ -37,7 +37,7 @@ If you have not already done so, make sure your most of your code resides inside
         good_name_for_drawing_a_pyramid(height)
 
 
-## What's up with `if __name__ == "__main__"`?
+## Wat is die if-name-is-main?
 
 `__name__ == "__main__"` checks whether the hidden variable `__name__` is set to `"__main__"`. This will only be the case if that python file is run directly. 
 
