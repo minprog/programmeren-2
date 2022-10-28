@@ -146,8 +146,8 @@ module_3:
         figuren: 3
         knapsack: 5
 
-tentamen:
-    show_progress: true
-    required: true
-    submits:
-        tentamen: 1
+# tentamen:
+#     show_progress: true
+#     required: true
+#     submits:
+#         tentamen: 1
