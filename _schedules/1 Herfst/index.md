@@ -20,7 +20,7 @@ Bij dit vak werk je aan verschillende soorten opdrachten. Samenwerken is een ess
 
 - Beoordeling tentamen (0%). Dit tentamen is anders van opzet dan het tentamen van Programmeren 1 (meer info later). Het telt niet mee voor je eindcijfer, maar je moet het volledig en serieus gemaakt hebben om het vak af te kunnen ronden.
 
-Bij dit vak is het **niet** verplicht om alle opdrachten af te maken. De deadlines zijn dan ook **strikt**, zelfs in geval van ziekte. Dit om de werkdruk redelijk te houden naast het vak Programmeerproject.
+Bij dit vak is het **niet** verplicht om alle opdrachten af te maken. De deadlines zijn dan ook **strikt**, zelfs in geval van ziekte. Dit om de werkdruk redelijk te houden naast het vak Programmeerproject, en de organisatie werkbaar te houden.
 
 
 ## Werkgroep en mentor
@@ -34,9 +34,9 @@ Vanaf de tweede week heb je elke week een **werkgroep** met je mentor waar alle 
 
 ## Aanwezigheid
 
-Studenten die de Minor Programmeren fulltime volgen hebben een aanwezigheidsplicht.
+Studenten die de Minor Programmeren fulltime volgen hebben een aanwezigheidsplicht zoals apart bekend gemaakt.
 
-Er is geen minimale aanwezigheidsplicht bij de parttime minor. Als je aan bovenstaande minimumeisen voldoet en het tentamen haalt, dan hebben we genoeg informatie om in te staan voor jouw persoonlijke voortgang in dit vak. We raden studenten aan om regelmatig een studieplek op te zoeken in Lab42. Je kunt daar ook prettig afspreken met medestudenten om de samenwerkopdrachten te doen.
+Er is geen minimale aanwezigheidsplicht bij de parttime minor. Als je een voldoende staat en het tentamen haalt, dan hebben we genoeg informatie om in te staan voor jouw persoonlijke voortgang in dit vak. We raden studenten aan om regelmatig een studieplek op te zoeken in Lab42. Je kunt daar ook prettig afspreken met medestudenten om de samenwerkopdrachten te doen.
 
 ## Vragen stellen
 
@@ -93,11 +93,13 @@ Alle deadlines zijn strikt, dus er zijn geen uitzonderingen mogelijk.
 
 Als je ziek bent dan meld je het in ieder geval meteen even aan je mentor via e-mail. Je hoeft het niet uitgebreid uit te leggen, maar wel meteen melden. Het contact hierover houden is het belangrijkste dat je kunt doen en een harde eis als je later een uitzondering nodig hebt.
 
-- Ben je één of twee dagen ziek dan is dat geen probleem en kun je de deadline vaak nog halen. Kom je toch niet uit met de laatste opdracht van de week, dan meld je heel duidelijk de stand van zaken aan je mentor en haal je deze opdracht tijdens het weekend in. Dit mag alleen als je de andere opdrachten al hebt ingeleverd.
+-   Ben je één of twee dagen ziek dan is dat geen probleem en kun je de deadline vaak nog halen. Het kan handig zijn om even te overleggen op welke opdrachten je je het best kunt richten.
 
-- Heb je een medisch noodgeval en ben je hierdoor bijvoorbeeld een hele week uit de running? Dan bespreek je naderhand met een docent hoe je dit kunt oplossen. Daarbij speelt natuurlijk ook mee hoe makkelijk het programmeren je af gaat en hoeveel energie je hebt om te steken in het inhalen. Op basis van al die informatie kijken we samen wat mogelijk is.
+-   Heb je een medisch noodgeval en ben je hierdoor bijvoorbeeld een hele week uit de running? Dan bespreek je naderhand met een docent hoe je dit kunt oplossen, bijvoorbeeld door een klein deel van de opdrachten nog te doen zodat je kennis op peil is.
 
-- Raak je helemaal uit tempo omdat je bijvoorbeeld toch teveel andere dingen te doen hebt of niet genoeg focus kan vinden? Het is belangrijk dat je dit snel bespreekt met een docent (niet je mentor). Stuur maar een [mailtje](mailto:help@mprog.nl)!
+    Daarbij speelt natuurlijk ook mee hoe makkelijk het programmeren je afgaat en hoeveel energie je hebt. Op basis van al die informatie kijken we samen wat mogelijk is. Je krijgt ook bij inhalen geen punten voor de opdrachten; het is echt gericht om snel weer mee te doen met de groep.
+
+-   Raak je helemaal uit tempo omdat je bijvoorbeeld toch teveel andere dingen te doen hebt of niet genoeg focus kan vinden? Het is belangrijk dat je dit snel bespreekt met een docent (niet je mentor). Stuur maar een [mailtje](mailto:help@mprog.nl)!
 
 
 ## Cijfers
