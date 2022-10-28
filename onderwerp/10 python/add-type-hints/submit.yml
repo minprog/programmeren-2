@@ -3,7 +3,7 @@ files:
   required:
     - mario.py
     - readability.py
-    - dna.py
+    - schuifpuzzel.py
 check:
   tool: check50
   slug: minprog/checks/2022/types
