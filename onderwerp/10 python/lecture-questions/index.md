@@ -4,15 +4,15 @@ Beantwoord de volgende vragen in je eigen woorden, in Nederlands of Engels.
 
 1.  In het college schreef David een spellingchecker in Python. Waarom kun je een spellingchecker implementeren in Python met minder regels code dan in C nodig is?
 
-    <textarea name="form[q1a]" rows="8" required></textarea>
+    <textarea name="form[q1]" rows="8" required></textarea>
 
 2.  Waarom werkte de spellingchecker in Python waarschijnlijk langzamer dan de spellingchecker die in C geschreven is?
 
-    <textarea name="form[q1b]" rows="8" required></textarea>
+    <textarea name="form[q2]" rows="8" required></textarea>
 
 3.  In het college heb je geleerd dat C-programma's worden gecompileerd, terwijl Python-programma's worden *geïnterpreteerd*. Wat betekent het, in je eigen woorden, dat een programmeertaal een geïnterpreteerde taal is?
 
-    <textarea name="form[q2]" rows="8" required></textarea>
+    <textarea name="form[q3]" rows="8" required></textarea>
 
 4.  Je herinnert je vast nog wel dat je in C de volgende constructie nodig hebt om een positief geheel getal tussen 1 and 8 op te vragen bij een gebruiker.
 
@@ -32,4 +32,4 @@ Beantwoord de volgende vragen in je eigen woorden, in Nederlands of Engels.
 
     Leg uit hoe deze beide uitwerkingen *logisch equivalent* zijn, dat wil zeggen dat ze voor dezelfde invoer dezelfde resultaten opleveren. Doe dit door voor beide uitwerkingen de code regel voor regel uit te leggen en deze twee te vergelijken.
 
-    <textarea name="form[q3]" rows="8" required></textarea>
+    <textarea name="form[q4]" rows="8" required></textarea>
