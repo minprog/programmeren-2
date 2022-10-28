@@ -1,4 +1,4 @@
-# Once more with functions and type hints
+# Type hints toevoegen
 
 Herschrijf je code voor `mario`, `readability` en `schuifpuzzel` en voeg type hints toe.
 
