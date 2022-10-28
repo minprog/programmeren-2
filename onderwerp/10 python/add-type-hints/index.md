@@ -1,10 +1,16 @@
 # Once more with functions and type hints
 
-> **Individueel.**
->
-> Samenwerken bij deze opdracht is niet toegestaan; het is prima om medestudenten en anderen om hulp te vragen, als het er maar niet op neerkomt dat iemand anders een deel van het werk voor je doet. Voorbeelden van "redelijke" en "onredelijke" manieren van samenwerken vind je in de studiewijzer.
+Refactor your code from `mario`, `readability` and `dna` with type hints. 
 
-Refactor your code from `mario`, `readability` and `dna` with type hints. You can check for any missing types or type errors by running:
+
+## Individuele opdracht
+
+Samenwerken bij deze opdracht is niet toegestaan; het is prima om medestudenten en anderen om hulp te vragen, als het er maar niet op neerkomt dat iemand anders een deel van het werk voor je doet. Voorbeelden van "redelijke" en "onredelijke" manieren van samenwerken vind je in de studiewijzer.
+
+
+## Check your work
+
+You can check for any missing types or type errors by running:
 
     mypy --strict mario.py
 
@@ -49,5 +55,13 @@ However, if you run the file indirectly, by perhaps `import`ing `foo.py` in anot
 
 So why is this important? Well, Python will run any code in a Python source file upon importing. This is why we see `foo` printed even though the only code in `bar.py` is `import foo`. Now you can imagine that this is often unwanted. For instance, `bar.py` might want to reuse some code from `foo.py`, but not needlesly run all of the code inside `foo.py` and end up with prints on the screen. This is why it is good practice to "guard" any code that should only run if the user decides to run that file directly with `if __name__ == "__main__":`.  
 
-
 > In short, `if __name__ == "__main__"` is Python's equivalent for a main function similar to languages like C & Java. Its use is optional, but generally good practica.
+
+
+## Submit
+
+Je kunt hieronder je uitwerkingen opsturen.
+
+Je kunt 1 punt extra verdienen voor deze module als je programma's zichtbaar uitblinken in toepassing van Python-achtige constructies, opdeling van functies die verder gaat dan de opdracht, en in de toepassing van type hints. Geef in dat geval hier aan hoe je dat hebt gedaan:
+
+<textarea name="form[extra_punt]" rows="5" required=""></textarea>

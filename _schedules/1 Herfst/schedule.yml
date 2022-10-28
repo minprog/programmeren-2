@@ -5,11 +5,11 @@ Week 1:
     "Overzicht: Starten met Python": /onderwerp/python
     Voorbereiding:
         'Videocollege: Python': /lectures/python-david
-        Questions: /onderwerp/python/questions
+        Vragen over het college: /onderwerp/python/questions
     "C => Python":
         Mario [samen programmeren]: /problems/mario
         Readability [samen programmeren]: /problems/readability
-        DNA [opdracht]: /problems/dna
+        Schuifpuzzel [opdracht]: /onderwerp/python/schuifpuzzel
     Oefenen met types:
         "Background: typing in Python": /onderwerp/python/typing
         Type hints: /onderwerp/python/type-hints
@@ -17,7 +17,7 @@ Week 1:
         Duck typing: /onderwerp/python/duck-typing
         Flexible typing: /onderwerp/python/flexible-typing
     Opdracht:
-        Refactoring [opdracht]: /onderwerp/python/refactor-types
+        Type hints [opdracht]: /onderwerp/python/add-type-hints
 
 Week 2:
     "Overzicht: Design en Testen": /onderwerp/abstraction

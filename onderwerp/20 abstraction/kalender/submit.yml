@@ -1,4 +1,4 @@
-name: kalender
+name: kalender_tests
 files:
     required:
         - kalender.py

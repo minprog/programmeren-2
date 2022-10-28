@@ -10,3 +10,15 @@ Je gaat deze week:
 - Werken met lists, dicts en sets
 - Kleine programmeeropdrachten in Python uitwerken
 - Type hints in Python gebruiken
+
+## Puntentelling
+
+- Vragen over het college goed beantwoord: 1 punt
+- Eerste versies van
+    - Mario: 2 punten
+    - Readability: 2 punten
+    - Schuifpuzzel: 2 punten
+    - allemaal mits netjes gedocumenteerd en met goede stijl
+- Alle programma's nog eens inleveren met nette type hints: 3 punten
+
+Je kunt 1 punt extra verdienen als je programma's zichtbaar uitblinken in toepassing van Python-achtige constructies, opdeling van functies die verder gaat dan de opdracht, en in de toepassing van type hints.

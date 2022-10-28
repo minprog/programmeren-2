@@ -1,4 +1,4 @@
-name: testing_cash
+name: cash_tests
 form: true
 files:
     required:
