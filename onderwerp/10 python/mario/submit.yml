@@ -1,4 +1,4 @@
-name: mario_py
+name: mario
 files:
   required:
     - mario.py

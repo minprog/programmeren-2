@@ -1,4 +1,4 @@
-name: readability_py
+name: readability
 files:
   required:
     - readability.py
