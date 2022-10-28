@@ -7,8 +7,8 @@ Week 1:
         'Videocollege: Python': /lectures/python-david
         Vragen over het college: /onderwerp/python/lecture-questions
     "C => Python":
-        Mario [samen programmeren]: /problems/mario
-        Readability [samen programmeren]: /problems/readability
+        Mario [samen programmeren]: /onderwerp/python/mario
+        Readability [samen programmeren]: /onderwerp/python/readability
         Schuifpuzzel [opdracht]: /onderwerp/python/schuifpuzzel
     Oefenen met types:
         "Background: typing in Python": /onderwerp/python/typing
