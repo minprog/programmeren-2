@@ -15,3 +15,10 @@ Je gaat deze week aan de slag met:
 - Preconditions checken met assertions in de code zelf
 - Postconditions testen met tests in aparte bestanden
 - Complexiteitsanalyse van je eigen functies (big-O)
+
+## Puntentelling
+
+- Many submissions of cash: 5 punten
+- Kalender designopdracht: 5 punten
+
+Je kunt 1 punt extra verdienen als je programma's zichtbaar uitblinken in toepassing van Python-achtige constructies, opdeling van functies die verder gaat dan de opdracht, en in het ontwerp van je tests.

@@ -75,6 +75,12 @@ grades:
     dna: *automatic
     python_type_hints: *check
 
+    cash_tests: *check
+    kalender_tests: *check
+
+    lisp: *check
+    figuren: *check
+    knapsack: *check
 
 # CALCULATIONS - define the final grades for the course and the weights between
 # subcomponents for each. Often, multiple final grades are differentiated by the
@@ -95,6 +101,8 @@ grades:
 calculation:
     eindcijfer:
         module_1: 1
+        module_2: 1
+        module_3: 1
         tentamen: 0
 
 # SUB-CALCULATIONS - define the components of the course that may be used in
@@ -128,8 +136,15 @@ module_1:
 module_2:
     show_progress: true
     submits:
-        cash_tests: 1
-        kalender_tests: 1
+        cash_tests: 5
+        kalender_tests: 5
+
+module_3:
+    show_progress: true
+    submits:
+        lisp: 2
+        figuren: 3
+        knapsack: 5
 
 tentamen:
     show_progress: true

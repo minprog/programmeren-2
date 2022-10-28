@@ -9,3 +9,11 @@ Je gaat deze week:
 - Leren hoe je classes definieert
 - Leren hoe je objecten instantieert in het geheugen
 - Functionaliteit verbergen in classes
+
+## Puntentelling
+
+- LISP: 2 punten
+- Figuren: 3 punten
+- Knapsack: 5 punten
+
+Je kunt 1 punt extra verdienen als je programma's zichtbaar uitblinken in toepassing van Python-achtige constructies, opdeling van functies die verder gaat dan de opdracht, in het ontwerp van je tests en de toepassing van OOP.
