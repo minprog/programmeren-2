@@ -12,8 +12,13 @@ Je gaat deze week:
 
 ## Puntentelling
 
-- LISP: 2 punten
-- Figuren: 3 punten
-- Knapsack: 5 punten
+- LISP: 1 punt (indien helemaal gedaan)
+- Figuren: 2 punten (volle punten indien helemaal gedaan)
+- Knapsack: 7 punten
+    - 7: Een werkende inzending die voldoet aan alle vereisten voor de opdracht, met zowel solide functionaliteit als een goede stijl. Het weerspiegelt een goed uitgevoerde taak met de mogelijkheid van enkele kleine fouten.
+    - 5: Een werkende inzending die voldoet aan de meeste eisen voor de opdracht, mogelijk met wat problemen.
+    - 3: Een werkende inzending die problemen heeft die ernstig genoeg zijn om niet aan de vereisten voor de opdracht te voldoen.
+    - 2: Een werkende inzending die zeer ernstige problemen heeft, maar toch enige inspanning en begrip toont.
+    - 0: Een inzending die weinig inspanning toont en geen voorbijgaand werk vertegenwoordigt.
 
 Je kunt 1 punt extra verdienen als je programma's zichtbaar uitblinken in toepassing van Python-achtige constructies, opdeling van functies die verder gaat dan de opdracht, in het ontwerp van je tests en de toepassing van OOP.

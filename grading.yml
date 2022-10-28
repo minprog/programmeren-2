@@ -3,13 +3,13 @@
 # The section does not need to be called `templates` necessarily.
 
 templates:
-    1: &automatic
+    1: &automatisch
         type: pass
         subgrades:
-            done: boolean
+            akkoord: boolean
         automatic:
-            done: -(correctness_score.floor)
-        calculation: done
+            akkoord: -(correctness_score.floor)
+        calculation: akkoord
         auto_publish: true
         hide_calculated: true
     4: &semiautomatic
@@ -20,17 +20,17 @@ templates:
             done: -(correctness_score.floor)
         calculation: done==-1 && 1.5 || 0
         hide_calculated: true
-    2: &manual
+    2: &punten
         type: float
         subgrades:
-            points: integer
-        calculation: (points / 6.0 * 9 + 1).round(1)
+            punten: float
+        calculation: (punten / 6.0 * 9 + 1).round(1)
         hide_calculated: true
-    3: &check
+    3: &aftekenen
         type: pass
         subgrades:
-            done: boolean
-        calculation: done
+            akkoord: boolean
+        calculation: akkoord
         hide_calculated: true
 
 # GRADES - contains definitions of how grades are structured. The names of the
@@ -69,14 +69,20 @@ templates:
 
 grades:
 
-    python_questions: *check
-    mario: *automatic
-    readability: *automatic
-    dna: *automatic
-    python_type_hints: *check
+    python_questions: *aftekenen
+    mario: *automatisch
+    readability: *automatisch
+    dna: *automatisch
+    python_type_hints:
+        <<: *punten
+        calculation: (punten / 3.0 * 9 + 1).round(1)
 
-    cash_tests: *check
-    kalender_tests: *check
+    cash_tests:
+        <<: *punten
+        calculation: (punten / 5.0 * 9 + 1).round(1)
+    kalender_tests:
+        <<: *punten
+        calculation: (punten / 5.0 * 9 + 1).round(1)
 
     lisp: *check
     figuren: *check
