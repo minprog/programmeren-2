@@ -1,44 +1,44 @@
 # Readability
 
-Implement a program that computes the approximate grade level needed to comprehend some text, per the below.
+Schrijf een programma dat bij benadering het niveau berekent dat nodig is om tekst te begrijpen, zoals hieronder beschreven.
 
     $ python readability.py
     Text: Congratulations! Today is your day. You're off to Great Places! You're off and away!
     Grade 3
+
 
 ## Samenwerkopdracht
 
 Bij deze opdracht is het helemaal prima om samen te werken met één of twee medestudenten. Zorg dat je gezamenlijk op één scherm kunt kijken en echt samen het probleem probeert op te lossen. Heeft iemand een goed idee, dan moet die zorgen dat de anderen het ook begrijpen. De bedoeling is dat alle samenwerkers evenveel hebben bijgedragen aan de opdracht. Iedereen levert uiteindelijk een eigen versie in.
 
 
-
 ## Specification
 
-*   Write, in a file called `readability.py` in `~/problems/readability/`, a program that first asks the user to type in some text, and then outputs the grade level for the text, according to the Coleman-Liau formula.
+*   Schrijf in een bestand met de naam `readability.py` in `~/problems/readability/` een programma dat de gebruiker eerst vraagt ​​om wat tekst in te typen en vervolgens het cijferniveau voor de tekst uitvoert, volgens de Coleman- Liau-formule.
 
-    *   Recall that the Coleman-Liau index is computed as `0.0588 * L - 0.296 * S - 15.8`, where `L` is the average number of letters per 100 words in the text, and `S` is the average number of sentences per 100 words in the text.
+    *   Bedenk dat de Coleman-Liau-index wordt berekend als 0,0588 * L - 0,296 * S - 15,8, waarbij 'L' het gemiddelde aantal letters per 100 woorden in de tekst is en 'S' het gemiddelde aantal zinnen is per 100 woorden in de tekst.
 
-*   Use `input` to get the user's input, and `print` to output your answer.
+*   Gebruik `input` om de invoer van de gebruiker te krijgen, en `print` om het berekende antwoord terug te geven.
 
-*   Your program should count the number of letters, words, and sentences in the text. You may assume that a letter is any lowercase character from `a` to `z` or any uppercase character from `A` to `Z`, any sequence of characters separated by spaces should count as a word, and that any occurrence of a period, exclamation point, or question mark indicates the end of a sentence.
+*   Je programma moet het aantal letters, woorden en zinnen in de tekst tellen. Je mag aannemen dat een letter een kleine letter is van `a` tot `z` of een hoofdletter van `A` tot `Z`, elke reeks tekens gescheiden door spaties moet tellen als een woord, en dat elk voorkomen van een punt, uitroepteken of vraagteken geeft het einde van een zin aan.
 
-*   Your program should print as output `"Grade X"` where `X` is the grade level computed by the Coleman-Liau formula, rounded to the nearest integer.
+*   Je programma moet als uitvoer `"Grade X"` afdrukken, waarbij `X` het niveau is dat is berekend met de Coleman-Liau-formule, afgerond op het dichtstbijzijnde gehele getal.
 
-*   If the resulting index number is 16 or higher (equivalent to or greater than a senior undergraduate reading level), your program should output `"Grade 16+"` instead of giving the exact index number. If the index number is less than 1, your program should output `"Before Grade 1"`.
+*   Als het resulterende indexnummer 16 of hoger is (gelijk aan of hoger dan een leesniveau van een senior undergraduate), moet uw programma `"Grade 16+"` weergeven in plaats van het exacte indexnummer te geven. Als het indexnummer kleiner is dan 1, moet uw programma `"Before Grade 1"` printen.
 
 
-## Usage
+## Voorbeeld
 
-Your program should behave per the example below.
+Je programma zou zich moeten gedragen volgens het onderstaande voorbeeld.
 
     $ python readability.py
     Text: Congratulations! Today is your day. You're off to Great Places! You're off and away!
     Grade 3
 
 
-## Testing
+## Testen
 
-While `check50` is available for this problem, you're encouraged to instead test your code on your own for each of the following.
+Hoewel `check50` beschikbaar is voor dit probleem, word je aangemoedigd om in plaats daarvan uw code zelf te testen voor elk van de volgende gevallen.
 
 *   Run your program as `python readability.py`, and wait for a prompt for input. Type in `One fish. Two fish. Red fish. Blue fish.` and press enter. Your program should output `Before Grade 1`.
 
