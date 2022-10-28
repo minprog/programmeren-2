@@ -14,10 +14,10 @@ Je gaat deze week:
 ## Puntentelling
 
 - Vragen over het college goed beantwoord: 1 punt
-- Eerste versies van
+- Volledige correcte versies van
     - Mario: 2 punten
     - Readability: 2 punten
     - Schuifpuzzel: 2 punten
-- Alle programma's nog eens inleveren met nette stijl en type hints: 3 punten
+- Alle bovenstaande programma's nog eens inleveren met nette stijl en type hints: 3 punten
 
 Je kunt 1 punt extra verdienen als je programma's zichtbaar uitblinken in toepassing van Python-achtige constructies, opdeling van functies die verder gaat dan de opdracht, en in de toepassing van type hints.
