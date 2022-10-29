@@ -1,4 +1,4 @@
-# Parttime Programmeren 2
+# Programmeren 2
 
 ## Studiewijzer<br><small>Herfst 2022</small>
 
