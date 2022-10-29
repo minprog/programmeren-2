@@ -23,12 +23,12 @@ Beantwoord de volgende vragen in je eigen woorden, in Nederlands of Engels.
         5  }
         6  while (n < 1 || n > 8);
 
-    In Python zijn er geen while-loops, dus we zouden het benodigde stuk code als volgt kunnen schrijven.
+    In Python zijn er geen `do ... while` loops, dus we zouden het benodigde stuk code als volgt kunnen schrijven.
 
         1  while True:
-        2  n = get_int("Height: ")
-        3  if n >= 1 and n <= 8:
-        4      break
+        2      n = get_int("Height: ")
+        3      if n >= 1 and n <= 8:
+        4          break
 
     Leg uit hoe deze beide uitwerkingen *logisch equivalent* zijn, dat wil zeggen dat ze voor dezelfde invoer dezelfde resultaten opleveren. Doe dit door voor beide uitwerkingen de code regel voor regel uit te leggen en deze twee te vergelijken.
 
