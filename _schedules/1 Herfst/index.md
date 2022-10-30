@@ -50,13 +50,14 @@ Tijdens dit vak zul je vaak de hulp inroepen van de assistenten en medestudenten
 - dagelijks beschikbaar, zet jezelf in de rij
 - parttime-studenten vanaf 13 uur
 
-**Spreekuur en e-mail:** contact met de docenten.
+**E-mail:** contact met de docenten.
 
 - maken van persoonlijke planningsafspraken
 - meedenken over grote problemen met het vak
 - andere officiële zaken
 - administratie na afloop van het vak
-- mail <help@mprog.nl> of kom langs tijdens het spreekuur
+- je kunt ook even een afspraak maken om iets door te spreken
+- mail <help@mprog.nl>
 
 <details markdown="1"><summary markdown="span">Kom je helemaal niet verder en heb je even geen hulp?</summary>
 Juist even niet aan de opdracht werken kan je verder helpen!
@@ -73,7 +74,7 @@ Juist even niet aan de opdracht werken kan je verder helpen!
 
 Voor de hele cursus is er een **dagschema** dat het gewenste tempo aangeeft. De hoeveelheid werk is afgestemd op beginnende programmeurs, dus zonder ervaring. De bedoeling is dat je dit schema volledig kunt aanhouden, en dat je elke opdracht inlevert zodra je die af hebt. Er zijn dus dagelijkse deadlines.
 
-Heb je een keer een dag waarop je niet zo goed kunt focussen, of de opdracht ligt je niet zo goed, dan krijg je de opdracht misschien niet af. Geen probleem. Je gaat de volgende dag naar het docentenspreekuur om afspraken te maken over het weer op gang komen, of om gewoon even je hart te luchten.
+Heb je een keer een dag waarop je niet zo goed kunt focussen, of de opdracht ligt je niet zo goed, dan krijg je de opdracht misschien niet af. Geen probleem. Je hebt nog tijd om in te halen en als je iets mist is het ook niet zo erg. Vraag eventueel advies aan de docenten over strategisch inhalen en overslaan.
 
 Voor de inleveropdrachten zijn de deadlines als volgt:
 
@@ -180,44 +181,3 @@ Vinden we overeenkomsten, dan gaat een docent direct met je in gesprek om je voo
 In alle gevallen is het ons doel om dit soort situaties te voorkomen, omdat ze niet leerzaam zijn en veel werk opleveren voor iedereen. Vraag daarom vooral om advies als je denkt dat het misgaat! Er is vaak meer te redden dan je denkt, zelfs al is de deadline nabij.
 
 De [plagiaatregeling](https://student.uva.nl/content/az/fraude-plagiaat-en-bronvermelding/plagiaat-en-fraude.html) van de Universiteit van Amsterdam geeft algemene aanwijzingen over plagiaat en is de basis voor bovenstaande regelingen.
-
-## Herkansingen
-
-Onderstaande regelingen zijn wat streng geformuleerd, maar het is niet de bedoeling dat ze echt nodig zijn! Als je doorzet en de opdrachten afmaakt dan zou je de cursus gewoon moeten halen. Maak je er dus niet teveel zorgen over, maar neem wel direct contact op met je mentor als je denkt dat je in de problemen komt met de planning en/of je cijfers. Ook de coördinator spreekt graag met je als je advies nodig hebt.
-
-<details markdown="1"><summary markdown="span">Ik heb alles werkend, maar sta een onvoldoende en wil herkansen</summary>
-
-Dit betekent dat je onvoldoende aandacht hebt besteed aan de kwaliteit van je programma's. De herkansing komt erop neer dat je dit alsnog doet. Deze vorm van herkansing kan alleen direct na bekendmaking van de eindcijfers.
-
-- Alle individuele opdrachten, ook die voldoende waren, moeten opnieuw worden ingeleverd.
-
-- Deze individuele opdrachten moeten verbeterd worden ten aanzien van de kwaliteitsaspecten.
-
-- Het maximumcijfer is in dit geval een 6.0 en wordt alleen toegekend als alle programma's aantoonbaar van voldoende kwaliteit zijn (waarmee je aantoont het betreffende leerdoel gehaald te hebben).
-</details>
-
-<details markdown="1"><summary markdown="span">Ik heb een opdracht niet werkend ingeleverd en wil herkansen</summary>
-
-Dit betekent dat je ergens tijdens het vak een opdracht niet af hebt gemaakt, hiervoor geen duidelijke reden had, en geen contact hebt gezocht op het moment dat het niet lukte.
-
-- Herkansen kan pas vanaf het eerstvolgende semester waarin het vak wordt gegeven.
-
-- Alle modules die niet af waren (en dus niet beoordeeld) moeten opnieuw of alsnog worden ingeleverd.
-
-- Modules die af en beoordeeld waren mogen niet opnieuw worden ingestuurd. Het oude cijfer blijft staan, met uitzondering van opdrachten die zijn vervangen door nieuwe.
-
-- Vernieuwde opdrachten moeten op moment van herkansen gewoon gedaan worden.
-
-- Alle nieuwe beoordelingen vinden plaats zoals gangbaar op het moment van herkansen.
-</details>
-
-<details markdown="1"><summary markdown="span">Ik heb niet aan de verwachtingen van het vak voldaan en wil herkansen</summary>
-
-Dit betekent dat je niet mee hebt gedaan met verplichte onderdelen of op een andere manier geen contact hebt onderhouden.
-
-- Herkansen kan pas vanaf het eerstvolgende semester waarin het vak wordt gegeven.
-
-- Er moet een concrete afspraak zijn over het inhalen van minimumeisen vóór je start. Neem hiervoor contact op met de docenten.
-
-- Alle opdrachten en toetsjes moeten opnieuw gedaan worden indien de samenstelling inmiddels is veranderd.
-</details>
