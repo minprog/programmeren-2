@@ -75,7 +75,7 @@ grades:
     schuifpuzzel:
         <<: *automatisch
         automatic:
-            done: -(correctness_score.floor/6)
+            akkoord: -(correctness_score.floor/6)
     python_type_hints:
         <<: *punten
         calculation: (punten / 3.0 * 9 + 1).round(1)
