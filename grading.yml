@@ -72,7 +72,10 @@ grades:
     python_questions: *aftekenen
     mario: *automatisch
     readability: *automatisch
-    dna: *automatisch
+    schuifpuzzel:
+        <<: *automatisch
+        automatic:
+            done: -(correctness_score.floor/6)
     python_type_hints:
         <<: *punten
         calculation: (punten / 3.0 * 9 + 1).round(1)
@@ -138,7 +141,7 @@ module_1:
         python_questions: 1
         mario: 1
         readability: 1
-        dna: 1
+        schuifpuzzel: 1
         python_type_hints: 3
 
 module_2:
