@@ -43,9 +43,9 @@ Schrijf, in een bestand genaamd `schuifpuzzel.py`, een programma dat een speler 
 
 ## Code
 
-Ontwerp je code zoals hieronder beschreven. Vul de docstrings aan met doctests en verdere uitleg van de aanpak die je gekozen hebt. Zoals je ziet hebben we voor deze opdracht het hoofdprogramma al voor je geschreven; je hoeft dus alleen de andere functies aan te vullen.
+Ontwerp je code zoals hieronder beschreven. Vul de docstrings (`"""`) aan met verdere uitleg van de aanpak die je gekozen hebt. Zoals je ziet hebben we voor deze opdracht het hoofdprogramma al voor je geschreven; je hoeft dus alleen de andere functies aan te vullen.
 
-Het wordt ook bij deze opdracht aangemoedigd om extra functies te introduceren die een klein deel van het probleem oplossen. Die moeten dan ook types hebben en doctests.
+Het wordt ook bij deze opdracht aangemoedigd om extra functies te introduceren die een klein deel van het probleem oplossen.
 
     def is_won(board):
         """
