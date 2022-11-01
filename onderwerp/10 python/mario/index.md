@@ -26,10 +26,17 @@ Op sommige systemen moet je `python mario.py` geven om je programma te starten.
 
 ## Specificatie
 
-- Schrijf een programma genaamd `~/problems/mario.py` dat een Mario-piramide tekent met gebruik van hash-tekens (`#`).
-- De gebruiker van het programma mag zelf de hoogte van de pyramide aangeven.
-- De hoogte van de pyramide mag niet groter dan 23 blokken hoog zijn, en niet kleiner dan 0. Wordt er een andere waarde ingevuld, dan moet je de gebruiker opnieuw om invoer vragen.
-- Je mag aannemen dat de gebruiker alleen integers invoert.
+-   Schrijf een programma genaamd `~/problems/mario.py` dat een Mario-piramide tekent met gebruik van hash-tekens (`#`).
+
+-   De gebruiker van het programma mag zelf de hoogte van de pyramide aangeven.
+
+-   De hoogte van de pyramide mag niet groter dan 23 blokken hoog zijn, en niet kleiner dan 0. Wordt er een andere waarde ingevuld, dan moet je de gebruiker opnieuw om invoer vragen.
+
+-   Je mag aannemen dat de gebruiker alleen integers invoert.
+
+-   Maak je gebruik van de CS50 library, zoals in het college? Dan moet je deze eerst installeren. Dit doe je via het volgende commando:
+
+        pip3 install cs50
 
 ## Tips
 
