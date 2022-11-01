@@ -23,4 +23,4 @@ Je gaat deze week:
     - Met goede type hints en uitstekende, consistente stijl: 2 punten
     - Met goede type hints, mooie stijl en goede documentatie: 3 punten
 
-Je kunt 1 punt extra verdienen als je programma's zichtbaar uitblinken in toepassing van Python-achtige constructies, opdeling van functies die verder gaat dan de opdracht, en in de toepassing van type hints.
+Je kunt 1 punt extra verdienen als je programma's zichtbaar uitblinken in toepassing van bijvoorbeeld Python-achtige constructies, opdeling van functies die verder gaat dan de opdracht, en in de toepassing van type hints.

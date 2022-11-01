@@ -254,3 +254,11 @@ opgedeeld. Enkele voorbeelden daarvan:
 ## Afronding
 
 Vergeet je doctests niet en voeg zo veel mogelijk type hints toe als mogelijk is.
+
+## Submit
+
+Je kunt hieronder je uitwerkingen opsturen.
+
+Je kunt 1 punt extra verdienen als je programma's zichtbaar uitblinken in bijvoorbeeld toepassing van Python-achtige constructies, opdeling van functies die verder gaat dan de opdracht, in het ontwerp van je tests en de toepassing van OOP. Als je hiervoor specifieke dingen hebt gedaan die we misschien over het hoofd zien, geef het dan hier aan.
+
+<textarea name="form[extra_punt]" rows="5"></textarea>

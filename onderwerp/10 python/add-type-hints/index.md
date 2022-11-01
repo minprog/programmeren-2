@@ -62,6 +62,6 @@ So why is this important? Well, Python will run any code in a Python source file
 
 Je kunt hieronder je uitwerkingen opsturen.
 
-Je kunt 1 punt extra verdienen voor deze module als je programma's zichtbaar uitblinken in toepassing van Python-achtige constructies, opdeling van functies die verder gaat dan de opdracht, en in de toepassing van type hints. Geef in dat geval hier aan hoe je dat hebt gedaan:
+Je kunt 1 punt extra verdienen voor deze module als je programma's zichtbaar uitblinken in bijvoorbeeld toepassing van Python-achtige constructies, opdeling van functies die verder gaat dan de opdracht, en in de toepassing van type hints. Geef in dat geval hier aan hoe je dat hebt gedaan:
 
-<textarea name="form[extra_punt]" rows="5" required=""></textarea>
+<textarea name="form[extra_punt]" rows="5"></textarea>
