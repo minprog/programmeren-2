@@ -31,10 +31,11 @@ Bij deze opdracht is het helemaal prima om samen te werken met één of twee med
 
 Je programma zou zich moeten gedragen volgens het onderstaande voorbeeld.
 
-    $ python readability.py
+    $ python3 readability.py
     Text: Congratulations! Today is your day. You're off to Great Places! You're off and away!
     Grade 3
 
+Op sommige systemen moet je `python readability.py` geven om je programma te starten.
 
 ## Testen
 

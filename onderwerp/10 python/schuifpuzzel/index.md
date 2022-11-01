@@ -103,7 +103,7 @@ Het wordt ook bij deze opdracht aangemoedigd om extra functies te introduceren d
 
 Je programma moet uiteindelijk werken zoals in de voorbeelden hieronder.
 
-    $ python schuifpuzzel.py
+    $ python3 schuifpuzzel.py
     Welkom bij de schuifpuzzel!
      15 14 13 12
      11 10  9  8
@@ -140,6 +140,8 @@ Je programma moet uiteindelijk werken zoals in de voorbeelden hieronder.
      13 14 15 12
     Tegel die je wil schuiven: 12
     Gefeliciteerd, je hebt de schuifpuzzel opgelost!
+
+Op sommige systemen moet je `python3 mario.py` geven om je programma te starten.
 
 ## Testen
 
