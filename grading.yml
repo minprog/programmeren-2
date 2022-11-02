@@ -148,6 +148,7 @@ module_1:
 module_2:
     show_progress: true
     submits:
+        python_tests: 0
         cash_tests: 5
         kalender_tests: 5
 
