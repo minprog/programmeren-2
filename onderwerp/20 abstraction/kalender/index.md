@@ -1,7 +1,5 @@
 # Kalender, revisited
 
-> Voor deze opdracht werk je individueel. Overleg alleen heel globaal over je aanpak en zorg dat je je werkproces en ontwerpstappen goed beschrijft in een documentje.
-
 Deze opdracht ken je van Programmeren 1, maar je gaat 'm nu helemaal vanaf het begin uitwerken in Python. Nog even wat de bedoeling is:
 
     $ python kalender.py 9 2022
@@ -14,6 +12,13 @@ Deze opdracht ken je van Programmeren 1, maar je gaat 'm nu helemaal vanaf het b
      18  19  20  21  22  23  24
      25  26  27  28  29  30
 
+## Individuele opdracht
+
+Samenwerken bij deze opdracht is niet toegestaan; het is prima om medestudenten en anderen om hulp te vragen, als het er maar niet op neerkomt dat iemand anders een deel van het werk voor je doet. Voorbeelden van "redelijke" en "onredelijke" manieren van samenwerken vind je in de studiewijzer.
+
+## Werkproces documenteren
+
+Zorg dat je je werkproces en ontwerpstappen goed beschrijft in een documentje. Dit lever je hieronder ook in.
 
 ## Specificatie
 

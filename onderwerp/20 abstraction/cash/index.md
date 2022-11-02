@@ -2,7 +2,6 @@
 
 We asked students to implement the following function:
 
-
     def number_of_coins(change: int, coins: list[int]) -> int:
         """
         Given an amount of change in cents, and a list of coins in cents,
@@ -11,13 +10,9 @@ We asked students to implement the following function:
         Raises a ValueError in case of negative values, or coins of value 0.
         """
 
-
 For example:
 
-
     print(number_of_coins(41, [25, 10, 5, 1])) # prints 4
-
-
 
 To further restrict the assignment we added:
 
@@ -27,6 +22,13 @@ To further restrict the assignment we added:
 * In case the change cannot be met exactly, give as much as possible, without exceeding the total. For instance if there are only quarters (25) as coins and the change is 97, give 3 quarters,
 
 At the end of the day, thirteen students submitted their work. You can find each implementation in the `submissions` folder. That however leaves us with the following challenge: grading. Which of these thirteen submissions are incorrect and why?
+
+
+## Individuele opdracht
+
+Samenwerken bij deze opdracht is niet toegestaan; het is prima om medestudenten en anderen om hulp te vragen, als het er maar niet op neerkomt dat iemand anders een deel van het werk voor je doet. Voorbeelden van "redelijke" en "onredelijke" manieren van samenwerken vind je in de studiewijzer.
+
+Het is **niet** erg als het niet lukt om alles op te lossen. Je verdient snel punten hier en een deel oplossen is ook prima.
 
 
 ### What to do

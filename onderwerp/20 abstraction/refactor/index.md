@@ -1,14 +1,10 @@
-# Once more with tests
-
-> **Individueel.**
->
-> Samenwerken bij deze opdracht is niet toegestaan; het is prima om medestudenten en anderen om hulp te vragen, als het er maar niet op neerkomt dat iemand anders een deel van het werk voor je doet. Voorbeelden van "redelijke" en "onredelijke" manieren van samenwerken vind je in de studiewijzer.
+# Oefenen met testen
 
 Refactor your code from `mario`, `readability` and `schuifpuzzel` with `pytest` unit tests. Write these tests in a file called `test_mario.py` for each assignment respectively. It is up to you design the tests for each assignment, but you can take inspiration from the various test cases supplied with each assignment.
 
-Upon submission we will run your test cases against various buggy and correct submissions. You can download all these submissions like so:
+## Oefenopdracht
 
-> **IMPORTANT** Do not download or look at these submissions before you have implemented and submitted your own implementation of `mario`, `readability` and `schuifpuzzel`. Needless to say, these submissions are full of spoilers!
+Bij deze opdracht is het de bedoeling dat je deze zoveel mogelijk zelfstandig doet, maar voel je vrij om gedeeltelijk samen te werken. De bedoeling is dat je met de kennis uit deze opdracht goed voorbereid bent voor de volgende individuele opdrachten.
 
 ## Testing without side effects
 
