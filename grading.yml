@@ -80,6 +80,7 @@ grades:
         <<: *punten
         calculation: (punten / 3.0 * 9 + 1).round(1)
 
+    python_tests: *aftekenen
     cash_tests:
         <<: *punten
         calculation: (punten / 5.0 * 9 + 1).round(1)
