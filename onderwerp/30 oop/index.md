@@ -21,4 +21,4 @@ Je gaat deze week:
     - 2: Een werkende inzending die zeer ernstige problemen heeft, maar toch enige inspanning en begrip toont.
     - 0: Een inzending die weinig inspanning toont en geen voorbijgaand werk vertegenwoordigt.
 
-Je kunt 1 punt extra verdienen als je programma's zichtbaar uitblinken in bijvoorbeeld toepassing van Python-achtige constructies, opdeling van functies die verder gaat dan de opdracht, in het ontwerp van je tests en de toepassing van OOP.
+Je kunt 1 punt extra verdienen als je programma's zichtbaar uitblinken in bijvoorbeeld toepassing van Python-achtige constructies, opdeling van functies die verder gaat dan de opdracht, in het ontwerp van je tests en de toepassing van OOP. Kortom, bijzonder uitvoerig.
