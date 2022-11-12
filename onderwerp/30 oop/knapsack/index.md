@@ -71,7 +71,7 @@ Met dit type kunnen we nu gemakkelijk resources op en aftellen en vergelijken, b
     r1 -= r2
     print(r1)        # Resources(weight:100 volume:200)
 
-**Opdracht:** Neem deze definitie over en voeg doctests toe die testen of dit type goed werkt.
+**Opdracht:** Neem deze definitie over.
 
 ## Item type
 
@@ -289,8 +289,7 @@ in compartimenten opgedeeld. Enkele voorbeelden hiervan:
 
 ## Afronding
 
-Voeg doctests toe die testen of je code goed werkt en voeg zo veel
-mogelijk type hints toe als mogelijk is.
+Voeg zo veel mogelijk type hints toe als mogelijk is.
 
 ## Submit
 
