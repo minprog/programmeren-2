@@ -88,8 +88,17 @@ grades:
         <<: *punten
         calculation: (punten / 5.0 * 9 + 1).round(1)
 
-    lisp: *automatisch
-    figuren: *automatisch
+    lisp:
+        <<: *automatisch
+        automatic:
+            akkoord: -(correctness_score.floor/4)
+        calculation: -akkoord * 9 + 1
+    figuren:
+        <<: *automatisch
+        automatic:
+            akkoord: -(correctness_score.floor/1)
+        auto_publish: true
+        calculation: -akkoord * 9 + 1
     knapsack:
         <<: *punten
         calculation: (punten / 7.0 * 9 + 1).round(1)
