@@ -38,7 +38,7 @@ Werk de classes voor `Square`, `Rectangle` en `Circle` uit in een bestand genaam
 
 *   Er moet daarnaast een class `Shape` zijn waarvan alle figuur-classes afgeleid zijn (met inheritance). Deze class bevat nog geen methods en heeft ook geen `__init__()` nodig. Geef aan dat de andere classes hiervan zijn afgeleid. Voeg daarom ook een *lege* methode `area()` toe zodat duidelijk is dat alle afgeleide classes deze methode nodig hebben.
 
-Je hebt nu vier classes en je kunt al testen door een instantie te maken en de oppervlakte op te vragen. Je kunt ook al doctests maken voor `area()`, zoals voorgedaan in het boek op pagina 292.
+Je hebt nu vier classes en je kunt al testen door een instantie te maken en de oppervlakte op te vragen.
 
 ## Implementatie van less-than
 
@@ -102,8 +102,8 @@ Zodra elke shape een positie heeft kunnen we bijvoorbeeld de afstand tussen twee
 
 ## Afronding
 
-Om het programma compleet te maken voeg je overal de juiste type hints toe en controleer je of je bij alle functies en methods voldoende doctests hebt geschreven.
+Om het programma compleet te maken voeg je overal de juiste type hints toe.
 
 ## Beoordeling
 
-Je programma wordt automatisch gecontroleerd op doctests en type hints. De werking van de code wordt na de deadline handmatig beoordeeld. Zorg ervoor dat je programma voldoet aan de bovenstaande eisen en gebruik maakt van de ideeën die in de opgave worden aangereikt.
+Je programma wordt automatisch gecontroleerd type hints. De werking van de code wordt na de deadline handmatig beoordeeld. Zorg ervoor dat je programma voldoet aan de bovenstaande eisen en gebruik maakt van de ideeën die in de opgave worden aangereikt.

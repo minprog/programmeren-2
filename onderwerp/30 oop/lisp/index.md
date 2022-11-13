@@ -30,10 +30,8 @@ We vragen je hier specifiek om een validator in een class te bouwen. Deze class 
 
 Voor het checken van de geldigheid kun je door de string heen gaan en bijhouden hoeveel haakjes openen je bent tegengekomen. Vind je er één, dan tel je die bij de statistieken. Vind je een haakje sluiten, dan trek je die er vanaf. Het programma is alleen geldig als je op 0 eindigt.
 
-## Doctests
-
-Hierboven vind je al doctests. Deze testen het complete gebruik van de class, inclusief een aanroep van de methode `is_valid`. Je kunt de tests toevoegen aan de docstring van `is_valid`. Schrijf er daarna nog een paar!
-
 ## Main
 
-Heeft dit programma een `if __name__ == '__main__'` nodig? Nee, dat is niet zo! Het mag wel, maar de class werkt ook zo en zou via een `import` in een ander programma gebruikt kunnen worden.
+Heeft dit programma een `if __name__ == '__main__'` nodig? Nee, dat is niet zo! We hebben nu alleen een class geschreven die het controleren van een LISP-programma op verzoek kan uitvoeren.
+
+Je kunt natuurlijk wel een compleet programma maken met een `if __name__ == '__main__'`. Dan heb je een Python-programma waarmee je LISP-programma's kunt checken. Maar het doel van de opdracht is om een class te schrijven.
