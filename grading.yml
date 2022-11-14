@@ -93,12 +93,13 @@ grades:
         automatic:
             akkoord: -(correctness_score.floor/4)
         calculation: -akkoord * 9 + 1
+        auto_publish: false
     figuren:
         <<: *automatisch
         automatic:
             akkoord: -(correctness_score.floor/1)
-        auto_publish: true
         calculation: -akkoord * 9 + 1
+        auto_publish: false
     knapsack:
         <<: *punten
         calculation: (punten / 7.0 * 9 + 1).round(1)
