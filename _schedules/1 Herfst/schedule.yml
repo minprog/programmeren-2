@@ -42,15 +42,13 @@ Week 3:
 
 Week 4:
     Overzicht: /onderwerp/adts
+    Voorbereiding:
+        "Boek 2: Data Abstractions": /onderwerp/adts/boek
     ADTs:
-        Pytest: /onderwerp/week-4/pytest
-        Oefenopdracht: /onderwerp/week-4/cards
-        Opdracht Deck: /onderwerp/week-4/deck
-        Opdracht Queue: /w
-    Automatic checking:
-        Linters: ...
-    Complexity:
-        Cyclomatic: ...
+        Testen met twee implementaties: /onderwerp/adts/card
+        Een-en-twintigen: /onderwerp/adts/deck
+    Quality:
+        Verbeter je code: /onderwerp/adts/quality
 
 Week 5:
     Overzicht: /onderwerp/containers

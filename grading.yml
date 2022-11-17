@@ -104,6 +104,10 @@ grades:
         <<: *punten
         calculation: (punten / 7.0 * 9 + 1).round(1)
 
+    card_implementations: *aftekenen
+    deck_21: *aftekenen
+    quality: *aftekenen
+
 # CALCULATIONS - define the final grades for the course and the weights between
 # subcomponents for each. Often, multiple final grades are differentiated by the
 # choice of grades that are used for the calculation, for example calculating
@@ -168,6 +172,13 @@ module_3:
         lisp: 1
         figuren: 2
         knapsack: 7
+
+module_4:
+    show_progress: true
+    submits:
+        card_implementations: 1
+        deck_21: 2
+        quality: 7
 
 # tentamen:
 #     show_progress: true

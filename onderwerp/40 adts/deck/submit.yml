@@ -1,0 +1,6 @@
+name: deck_21
+files:
+    required:
+        - card.py
+        - deck.py
+        - 21.py
