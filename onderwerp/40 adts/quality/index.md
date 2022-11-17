@@ -20,6 +20,8 @@ Flake8 is een tool die een aantal andere tools combineert om problemen in code t
 
 2. Gebruik de tool om je 21/Deck/Card te controleren op "violations" van de regels (`flake8 *.py` bijvoorbeeld).
 
+3. Je vindt [hier](https://flake8.pycqa.org/en/latest/user/error-codes.html) en [hier](https://pycodestyle.pycqa.org/en/latest/intro.html#error-codes) de mogelijke error codes.
+
 Ga nog niet verbeteren, maar lees eerst alle instructies hieronder.
 
 ## Cyclomatic complexity
