@@ -11,10 +11,8 @@ De details van de implementatie worden in het contract (of de beschrijving) van 
 Je gaat deze week:
 
 - Goed begrijpen wat een ADT is
-- Enkele basisvoorbeelden van ADTs leren kennen
-- Ervaren hoe je classes en objecten kunt gebruiken
-- ...
-
+- Enkele basisvoorbeelden van ADT's leren kennen
+- Ervaren hoe je classes en objecten kunt gebruiken voor het implementeren van ADT's
 
 ## Lesstof
 
@@ -26,7 +24,3 @@ Uit het boek lees je hoofdstuk 2 tot je het zo goed mogelijk begrijpt. Paragraaf
 - 2.4 Dataset
 - 2.5 Rational
 - 2.6 (overslaan, dit komt op een andere manier terug in de opdrachten)
-
-## Vragen
-
-...
