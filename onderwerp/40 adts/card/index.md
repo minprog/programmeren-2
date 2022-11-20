@@ -2,7 +2,7 @@
 
 In deze opdracht ga je tests schrijven voor de `Card` class uit het boek en daarna een *tweede* implementatie maken van de `Card` class. De bedoeling is dat je tests goed werken met beide implementaties.
 
-1. Neem de `Card` class uit paragraaf 2.3 van het boek in een file `card.py`.
+1. Neem de `Card` class uit paragraaf 2.3 van het boek in een file `card.py` (download [card.py](card.py) en [printcards.py](printcards.py)).
 
 2. Schrijf unit tests voor de class `Card` in een file `test_card.py`. Net als in eerdere modules gebruiken wij de module `pytest` om te testen. Bedenk hoe de class gebruikt kan worden en schrijf diverse tests.
 
