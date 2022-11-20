@@ -5,6 +5,7 @@ Uit het boek lees je de volgende paragrafen uit hoofdstuk 2 tot je alles zo goed
 - 2.1 Overview
 - 2.2 ADTs
 - 2.3 ADTs and objects
+    - 2.3.4 is een gedeeltelijke herhaling, maar net als in elk boek is het handig de juiste definities op een rijtje te hebben voor het begrijpen van de volgende delen
 - 2.4 Dataset
 - 2.5 Rational
 - 2.6 (overslaan, dit komt op een andere manier terug in de opdrachten)
