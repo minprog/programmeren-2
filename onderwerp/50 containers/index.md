@@ -1,16 +1,16 @@
 # Week 5: Container classes
 
-Deze week gaat over *container classes* ...
+Deze week gaat over *container classes* in Python en hoe die zijn opgebouwd. Inmiddels ben je bekend met een aantal van de standaardopties in Python, maar hoe die dan werken ten opzichte van een handgemaakte hash table in C is nog niet bekend. Dit onderwerp is nauw verbonden met het idee van *performance*, want de keuze in datastructuren heeft een effect op de snelheid van je programma's.
 
 ## Leerdoelen
 
 Je gaat deze week:
 
-- Optimalisatie aan de hand van theoretische analyse
-- Optimalisatie aan de hand van praktijk analyse
+- Optimaliseren van code aan de hand van theoretische analyse
+- Optimaliseren van cdoe aan de hand van praktijkanalyse
 - Kiezen voor de juiste datastructuur
-- List implementatie in Python
-- Dict implementatie in Python
+- List-implementatie in Python
+- Dict-implementatie in Python
 
 ## Lesstof
 
@@ -23,20 +23,4 @@ Uit het boek lees je hoofdstuk 3 tot je het zo goed mogelijk begrijpt. Paragraaf
 - 3.5 Python list implementation
 - 3.6 Python dictionaries (3.6.4 overslaan)
 
-## Vragen
-
-- True/false 1, 6, ...
-- Short answer
-
-## Oefeningen
-
-- Short answer 3 (person storage)
-- Short answer 4 (set class design)
-- Programming exercise 15 (your own dictionary class)
-
-# Opdrachten
-
-- Python structures (platforms)
-- Complexity questions
-- Jaccard
-- Indexing words
+## Puntentelling

@@ -1,0 +1,5 @@
+name: profilers
+form: true
+files:
+    required:
+        - sudoku.py

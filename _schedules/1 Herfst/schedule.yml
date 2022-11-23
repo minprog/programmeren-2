@@ -52,10 +52,16 @@ Week 4:
 
 Week 5:
     Overzicht: /onderwerp/containers
-    Oefeningen: /onderwerp/containers/oefeningen
-    Complexity questions 2: /onderwerp/containers/complexity
-    Jaccard: /onderwerp/containers/jaccard
-    Indexing words: /onderwerp/containers/indexer
+    Voorbereiding:
+        "Boek 3: Container Classes": /onderwerp/containers/boek
+    Opdrachten:
+        List structure: /onderwerp/containers/list
+        Set structure: /onderwerp/containers/set
+        Dictionary structure: /onderwerp/containers/dict
+        Profiling: /onderwerp/containers/profiling
+    # Complexity questions 2: /onderwerp/containers/complexity
+    # Jaccard: /onderwerp/containers/jaccard
+    # Indexing words: /onderwerp/containers/indexer
 
 Week 6:
     Overzicht: /onderwerp/linked
