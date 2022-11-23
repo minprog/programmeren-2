@@ -24,3 +24,12 @@ Uit het boek lees je hoofdstuk 2 tot je het zo goed mogelijk begrijpt. Paragraaf
 - 2.4 Dataset
 - 2.5 Rational
 - 2.6 (overslaan, dit komt op een andere manier terug in de opdrachten)
+
+## Puntentelling
+
+- Twee implementaties: 1 punt (indien helemaal gedaan)
+- 21: 4 punten (volle punten indien voldoende code)
+- Codekwaliteit: 4 punten
+    - 4: Zeer diverse wijzigingen gedaan
+    - 3: Voldoende wijzigingen gedaan met gevraagde documentatie
+    - 0: Te grote screenshots, onoverzichtelijk, lastig te begrijpen
