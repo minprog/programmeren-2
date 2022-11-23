@@ -27,7 +27,7 @@ Uit het boek lees je hoofdstuk 2 tot je het zo goed mogelijk begrijpt. Paragraaf
 
 ## Puntentelling
 
-- Twee implementaties: 1 punt (indien helemaal gedaan)
+- Twee implementaties: 2 punten (indien helemaal gedaan)
 - 21: 4 punten (volle punten indien voldoende code)
 - Codekwaliteit: 4 punten
     - 4: Zeer diverse wijzigingen gedaan
