@@ -19,6 +19,6 @@ Je gaat deze week:
     - 5: Een werkende inzending die voldoet aan de meeste eisen voor de opdracht, mogelijk met wat problemen.
     - 3: Een werkende inzending die problemen heeft die ernstig genoeg zijn om niet aan de vereisten voor de opdracht te voldoen.
     - 2: Een werkende inzending die zeer ernstige problemen heeft, maar toch enige inspanning en begrip toont.
-    - 0: Een inzending die weinig inspanning toont en geen voorbijgaand werk vertegenwoordigt.
+    - 0: Een inzending die weinig inspanning toont en geen voldoende werk vertegenwoordigt.
 
 Je kunt 1 punt extra verdienen als je programma's zichtbaar uitblinken in bijvoorbeeld toepassing van Python-achtige constructies, opdeling van functies, en de toepassing van OOP, die verder gaan dan de opdracht. Kortom, bijzonder uitvoerig.
