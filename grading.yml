@@ -4,14 +4,14 @@
 
 templates:
     1: &automatisch
-        type: pass
+        type: points
         subgrades:
             akkoord: boolean
         automatic:
             akkoord: -(correctness_score.floor)
         calculation: akkoord
         auto_publish: true
-        hide_calculated: true
+        hide_subgrades: true
     4: &semiautomatic
         type: float
         subgrades:
@@ -21,17 +21,17 @@ templates:
         calculation: done==-1 && 1.5 || 0
         hide_calculated: true
     2: &punten
-        type: float
+        type: points
         subgrades:
             punten: float
-        calculation: (punten / 6.0 * 9 + 1).round(1)
-        hide_calculated: true
+        calculation: punten
+        hide_subgrades: true
     3: &aftekenen
-        type: pass
+        type: points
         subgrades:
             akkoord: boolean
         calculation: -akkoord
-        hide_calculated: true
+        hide_subgrades: true
 
 # GRADES - contains definitions of how grades are structured. The names of the
 # grades match the names of submits that may be defined in `submit.yml`
