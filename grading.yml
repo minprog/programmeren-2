@@ -156,6 +156,7 @@ calculation:
 # You can leave these out if unused in the `calculation` section.
 
 module_1:
+    type: points
     show_progress: true
     submits:
         python_questions: 1
