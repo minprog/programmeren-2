@@ -56,7 +56,7 @@ Week 5:
         "Boek 3: Container Classes": /onderwerp/containers/boek
     Opdrachten:
         List structure: /onderwerp/containers/lists
-        Set structure: /onderwerp/containers/sets
+        # Set structure: /onderwerp/containers/sets
         Dictionary structure: /onderwerp/containers/dicts
         Profiling: /onderwerp/containers/profiling
     # Complexity questions 2: /onderwerp/containers/complexity
