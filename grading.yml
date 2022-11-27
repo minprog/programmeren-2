@@ -30,7 +30,7 @@ templates:
         type: pass
         subgrades:
             akkoord: boolean
-        calculation: akkoord && 1 || 0
+        calculation: -akkoord
         hide_calculated: true
 
 # GRADES - contains definitions of how grades are structured. The names of the
