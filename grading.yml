@@ -81,37 +81,29 @@ grades:
         automatic:
             akkoord: -(correctness_score.floor/4)
         calculation: -akkoord * 2
-    python_type_hints:
-        <<: *punten
-        calculation: punten
+    python_type_hints: *punten
 
     python_tests: *aftekenen
-    cash_tests:
-        <<: *punten
-        calculation: (punten / 5.0 * 9 + 1).round(1)
-    kalender_tests:
-        <<: *punten
-        calculation: (punten / 5.0 * 9 + 1).round(1)
+    cash_tests: *punten
+    kalender_tests: *punten
 
     lisp:
         <<: *automatisch
         automatic:
             akkoord: -(correctness_score.floor/4)
-        calculation: -akkoord * 9 + 1
+        calculation: -akkoord
         auto_publish: false
     figuren:
         <<: *automatisch
         automatic:
             akkoord: -(correctness_score.floor/1)
-        calculation: -akkoord * 9 + 1
+        calculation: -akkoord * 2
         auto_publish: false
-    knapsack:
-        <<: *punten
-        calculation: (punten / 7.0 * 9 + 1).round(1)
+    knapsack: *punten
 
     card_implementations: *aftekenen
     deck_21: *aftekenen
-    quality: *aftekenen
+    quality: *punten
 
 # CALCULATIONS - define the final grades for the course and the weights between
 # subcomponents for each. Often, multiple final grades are differentiated by the
@@ -163,9 +155,10 @@ module_1:
         mario: 1
         readability: 1
         schuifpuzzel: 1
-        python_type_hints: 3
+        python_type_hints: 1
 
 module_2:
+    type: points
     show_progress: true
     submits:
         python_tests: 0
@@ -173,6 +166,7 @@ module_2:
         kalender_tests: 5
 
 module_3:
+    type: points
     show_progress: true
     submits:
         lisp: 1
@@ -180,6 +174,7 @@ module_3:
         knapsack: 7
 
 module_4:
+    type: points
     show_progress: true
     submits:
         card_implementations: 1
