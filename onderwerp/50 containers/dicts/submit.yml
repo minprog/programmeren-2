@@ -1,2 +1,5 @@
 name: containers_dicts
-form: true
+files:
+    required:
+        - dictionary.py
+        - test_dictionary.py
