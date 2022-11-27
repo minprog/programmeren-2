@@ -83,7 +83,7 @@ grades:
         calculation: -akkoord * 2
     python_type_hints:
         <<: *punten
-        calculation: (punten / 3.0 * 9 + 1).round(1)
+        calculation: punten
 
     python_tests: *aftekenen
     cash_tests:
