@@ -70,12 +70,17 @@ templates:
 grades:
 
     python_questions: *aftekenen
-    mario: *automatisch
-    readability: *automatisch
+    mario:
+        <<: *automatisch
+        calculation: -akkoord * 2
+    readability:
+        <<: *automatisch
+        calculation: -akkoord * 2
     schuifpuzzel:
         <<: *automatisch
         automatic:
             akkoord: -(correctness_score.floor/4)
+        calculation: -akkoord * 2
     python_type_hints:
         <<: *punten
         calculation: (punten / 3.0 * 9 + 1).round(1)
