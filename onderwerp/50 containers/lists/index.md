@@ -13,6 +13,8 @@ Nu heb je de keuze uit een aantal *onderliggende* structuren om de data in op te
 
 1. Je kunt de objecten opslaan in een standaard Python-lijst in de volgorde waarin ze zijn aangemaakt
 2. Je kunt de objecten opslaan in een standaard Python-lijst die altijd gesorteerd is op naam
+     * **"Altijd gesorteerd" betekent dat na het invoegen van een element de interne lijst nog steeds gesorteerd is, het invoegen moet dus op de "juiste" plek gebeuren.**
+     * **Als je een lijst hebt met elementen `[1,4,5]` en je voegt `3` in, dan moet de lijst daarna `[1,3,4,5]` zijn, en niet `[1,4,5,3]` zoals wanneer je append gebruikt.**
 3. Je kunt de objecten opslaan in een standaard Python-dictionary die de naam als key gebruikt
 
 Het gaat er bij deze opdracht om dat je begrijpt hoe je een specialistische datastructuur kunt bouwen door intern een standaard Python-structuur te bouwen. Je gaat geen code schrijven maar redeneren op basis van een idee over welke Python-operaties je nodig zou hebben om je eigen structuur te implementeren.
@@ -33,7 +35,7 @@ Als voorbeeld: voor `add` zou je hier de `append` operatie van de Python list ge
 
 Beschrijf hier voor optie 2 de efficientie van de add, remove, lookup en list\_all-operaties, met daarbij een uitleg van hoe je elke operatie zou moeten implementeren.
 
-Een Python-lijst kan niet zelf automatisch sorteren op naam, dus de stappen om de operaties te implementeren zijn hier wat ingewikkelder.
+Een Python-lijst kan niet zelf automatisch sorteren op naam **(want als je append gebruikt komt het element achteraan de lijst, in plaats van op de "juiste plek")**, dus de stappen om de operaties te implementeren zijn hier wat ingewikkelder.
 
 <textarea name="form[listordered]" rows="10"></textarea>
 
