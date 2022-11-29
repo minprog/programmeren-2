@@ -101,8 +101,12 @@ grades:
         auto_publish: false
     knapsack: *punten
 
-    card_implementations: *aftekenen
-    deck_21: *aftekenen
+    card_implementations:
+        <<: *aftekenen
+        calculation: -akkoord * 2
+    deck_21:
+        <<: *aftekenen
+        calculation: -akkoord * 4
     quality: *punten
 
     containers_lists: *punten
