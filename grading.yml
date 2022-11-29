@@ -105,6 +105,12 @@ grades:
     deck_21: *aftekenen
     quality: *punten
 
+    containers_lists: *punten
+    containers_dicts:
+        <<: *aftekenen
+        calculation: -akkoord * 2
+    profilers: *punten
+
 # CALCULATIONS - define the final grades for the course and the weights between
 # subcomponents for each. Often, multiple final grades are differentiated by the
 # choice of grades that are used for the calculation, for example calculating
@@ -180,6 +186,14 @@ module_4:
         card_implementations: 1
         deck_21: 2
         quality: 7
+
+module_5:
+    type: points
+    show_progress: true
+    submits:
+        containers_lists: 3
+        containers_dicts: 3
+        profilers: 3.5
 
 # tentamen:
 #     show_progress: true

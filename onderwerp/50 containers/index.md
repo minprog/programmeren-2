@@ -26,5 +26,5 @@ Uit het boek lees je hoofdstuk 3 tot je het zo goed mogelijk begrijpt. Paragraaf
 ## Puntentelling
 
 - List structure: 1 punt voor goede antwoorden, 2 punten indien ook goed onderbouwd
-- Dictionary: 2 punt voor een uitwerking waarvan de tests aantonen dat de dictionary naar behoren werkt
+- Dictionary: 3.5 punt voor een uitwerking waarvan de tests aantonen dat de dictionary naar behoren werkt (geen deelpunten mogelijk)
 - Profiling/Sudoku: 0.5 punt per goed onderbouwde aanpassing (de aanpassing hoeft niet per se een verbetering te blijken, als je maar beschrijft waarom je deze structurele aanpassing had gedaan, wat je ervan had verwacht en wat het resultaat is en waarom)
