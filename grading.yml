@@ -108,7 +108,7 @@ grades:
     containers_lists: *punten
     containers_dicts:
         <<: *aftekenen
-        calculation: -akkoord * 2
+        calculation: -akkoord * 3.5
     profilers: *punten
 
 # CALCULATIONS - define the final grades for the course and the weights between
@@ -191,9 +191,9 @@ module_5:
     type: points
     show_progress: true
     submits:
-        containers_lists: 3
-        containers_dicts: 3
-        profilers: 3.5
+        containers_lists: 1
+        containers_dicts: 1
+        profilers: 1
 
 # tentamen:
 #     show_progress: true
