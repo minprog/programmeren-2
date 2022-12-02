@@ -176,25 +176,25 @@ module_2:
     type: points
     show_progress: true
     submits:
-        python_tests: 0
-        cash_tests: 5
-        kalender_tests: 5
+        python_tests: 0 # oefenopdracht
+        cash_tests: 1
+        kalender_tests: 1
 
 module_3:
     type: points
     show_progress: true
     submits:
         lisp: 1
-        figuren: 2
-        knapsack: 7
+        figuren: 1
+        knapsack: 1
 
 module_4:
     type: points
     show_progress: true
     submits:
         card_implementations: 1
-        deck_21: 2
-        quality: 7
+        deck_21: 1
+        quality: 1
 
 module_5:
     type: points
@@ -204,9 +204,9 @@ module_5:
         containers_dicts: 1
         profilers: 1
 
-# tentamen:
-#     show_progress: true
-#     required: true
-#     submits:
-#         tentamen: 1
-
+module_6:
+    type: points
+    show_progress: true
+    submits:
+        palindrome: 1
+        adventure-more: 1
