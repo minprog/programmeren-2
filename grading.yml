@@ -141,6 +141,9 @@ calculation:
         module_1: 1
         module_2: 1
         module_3: 1
+        module_4: 1
+        module_5: 1
+        module_6: 1
         tentamen: 0
 
 # SUB-CALCULATIONS - define the components of the course that may be used in
