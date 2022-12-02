@@ -3,6 +3,9 @@ lectures:
     branch: 2020
 adventure:
     remote: https://github.com/minprog/adventure.git
+    branch: 2020
+adventure2:
+    remote: https://github.com/minprog/adventure.git
     branch: 2022
 hangman:
     remote: https://github.com/minprog/hangman.git
