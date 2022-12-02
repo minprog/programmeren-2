@@ -29,4 +29,4 @@ En dan hoofdstuk 5 tot je het zo goed mogelijk begrijpt.
 ## Puntentelling
 
 - 2 punten voor een goed uitgevoerde Palindrome-oefening
-- tot 8 punten voor Adventure, afhankelijk van hoe ver je komt met de implementatie en de wijze waarop je het geleerde uit Programmeren 2 toepast in deze implementatie
+- tot 18 punten voor Adventure, afhankelijk van hoe ver je komt met de implementatie en de wijze waarop je het geleerde uit Programmeren 2 toepast in deze implementatie
