@@ -63,8 +63,10 @@ Week 5:
     # Jaccard: /onderwerp/containers/jaccard
     # Indexing words: /onderwerp/containers/indexer
 
-Week 6:
+Week 6-7:
     Overzicht: /onderwerp/linked
-
-Week 7:
-    Overzicht: /onderwerp/recursion
+    Voorbereiding:
+        "Boek 4-5: Structures": /onderwerp/linked/boek
+    Opdrachten:
+        Palindrome: /onderwerp/linked/palindrome
+        Adventure: /adventure2/more
