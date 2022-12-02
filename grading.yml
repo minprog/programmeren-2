@@ -143,8 +143,7 @@ calculation:
         module_3: 1
         module_4: 1
         module_5: 1
-        module_6: 1
-        tentamen: 0
+        module_6: 2 # is twee modules gecombineerd
 
 # SUB-CALCULATIONS - define the components of the course that may be used in
 # final grade calculations. A few constraints can be specified.
