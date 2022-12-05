@@ -85,8 +85,7 @@ Voor de inleveropdrachten zijn de deadlines als volgt:
 | Module 3    | vr 18 nov  17:59 |
 | Module 4    | vr 25 nov  17:59 |
 | Module 5    | vr  2 dec  17:59 |
-| Module 6    | vr  9 dec  17:59 |
-| Module 7    | vr 16 dec  17:59 |
+| Module 6/7  | vr 16 dec  17:59 |
 
 Alle deadlines zijn strikt, dus er zijn geen uitzonderingen mogelijk.
 
