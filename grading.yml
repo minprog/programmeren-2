@@ -213,7 +213,7 @@ module_5:
 
 module_6:
     type: points
-    total_points: 10
+    total_points: 20
     show_progress: true
     submits:
         palindrome: 1
