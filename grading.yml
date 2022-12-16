@@ -166,6 +166,7 @@ calculation:
 
 module_1:
     type: points
+    total_points: 10
     show_progress: true
     submits:
         python_questions: 1
@@ -176,6 +177,7 @@ module_1:
 
 module_2:
     type: points
+    total_points: 10
     show_progress: true
     submits:
         python_tests: 0 # oefenopdracht
@@ -184,6 +186,7 @@ module_2:
 
 module_3:
     type: points
+    total_points: 10
     show_progress: true
     submits:
         lisp: 1
@@ -192,6 +195,7 @@ module_3:
 
 module_4:
     type: points
+    total_points: 10
     show_progress: true
     submits:
         card_implementations: 1
@@ -200,6 +204,7 @@ module_4:
 
 module_5:
     type: points
+    total_points: 10
     show_progress: true
     submits:
         containers_lists: 1
@@ -208,6 +213,7 @@ module_5:
 
 module_6:
     type: points
+    total_points: 10
     show_progress: true
     submits:
         palindrome: 1
