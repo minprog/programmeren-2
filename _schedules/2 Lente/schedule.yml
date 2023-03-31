@@ -2,84 +2,71 @@ Welkom:
     Lees hier even rustig door de studiewijzer om te ontdekken hoe het vak in elkaar zit: /syllabus
 
 Week 1:
-    Maandag:
-        'Videocollege: Memory': /lectures/memory
-    Dinsdag:
-        'Whodunit [zelf]': /cs50/whodunit
-    Woensdag:
-        Filter (t/m reflection) [individueel]: /cs50/filter/less
-    Donderdag:
-        Filter (blur) [individueel]: /cs50/filter/less
-    Vrijdag:
-        Beatles [zelf]: /exercises/writing/beatles
+    "Overzicht: Starten met Python": /onderwerp/python
+    Voorbereiding:
+        'Videocollege: Python': /lectures/python-david
+        Vragen over het college: /onderwerp/python/lecture-questions
+    "C => Python":
+        Mario [samen programmeren]: /onderwerp/python/mario
+        Readability [samen programmeren]: /onderwerp/python/readability
+        Schuifpuzzel [opdracht]: /onderwerp/python/schuifpuzzel
 
 Week 2:
-    Maandag:
-        'Videocollege: Data structures': /lectures/data-structures
-    # Dinsdag:
-    #     Linked list [samen]: /exercises/writing/linked
-    Dinsdag:
-        "Speller: getting started [zelf]": /cs50/speller/startup
-        "Speller: specification [zelf]": /cs50/speller/specification
-    Woensdag:
-        "Speller: load [individueel]": /cs50/speller/load
-    Donderdag:
-        "Speller: check [individueel]": /cs50/speller/check
+    Oefenen met types:
+        "Background: typing in Python": /onderwerp/python/typing
+        Type hints: /onderwerp/python/type-hints
+        Type aliases and variables: /onderwerp/python/type-aliases
+        Duck typing: /onderwerp/python/duck-typing
+        Flexible typing: /onderwerp/python/flexible-typing
+    Opdracht:
+        Type hints toevoegen [opdracht]: /onderwerp/python/add-type-hints
+    "Overzicht: Design en Testen": /onderwerp/abstraction
+    Voorbereiding:
+        "Boek: top-down design": /onderwerp/abstraction/voorbereiding
+    Oefenen met testen:
+        "Achtergrond: testen in Python": /onderwerp/abstraction/testing
+        Oefenen met testen: /onderwerp/abstraction/refactor
+    # Opdrachten:
+    #     Many submissions of cash: /onderwerp/abstraction/cash
+    #     Kalender designopdracht: /onderwerp/abstraction/kalender
 
 Week 3:
-    Dinsdag:
-        "Speller: hash [individueel]": /cs50/speller/hash
-    Woensdag (kort):
-        "Speller: size [individueel]": /cs50/speller/size
-    Woensdag en donderdag:
-        "Speller: unload [individueel]": /cs50/speller/unload
-    Vrijdag:
-        "Speller: submit [individueel]": /cs50/speller/submit
-        Questions [individueel]: /questions/mispellings
+    Overzicht: /onderwerp/oop
+    Voorbereiding:
+        "Videocollege: OOP": /objects/lecture
+        "Boek 1a: OOP": /onderwerp/oop/boek
+    Opdrachten:
+        LISP: /onderwerp/oop/lisp
+        Figuren: /onderwerp/oop/figuren
+        Knapsack: /onderwerp/oop/knapsack
+    Overzicht: /onderwerp/adts
+    Voorbereiding:
+        "Boek 2: Data Abstractions": /onderwerp/adts/boek
 
 Week 4:
-    Maandag en dinsdag:
-        Stack [zelf]: /exercises/writing/stack
-    Donderdag:
-        'Videocollege: Python': /lectures/python-david
-        Mario [zelf]: /cs50/py/mario
-    Vrijdag:
-        Readability [zelf]: /cs50/py/readability
-        Questions: /questions/python
+    ADTs:
+        Testen met twee implementaties: /onderwerp/adts/card
+        Een-en-twintigen: /onderwerp/adts/deck
 
 Week 5:
-    Maandag:
-        World Cup [zelf]: /cs50/worldcup
-    Dinsdag en woensdag:
-        DNA [individueel]: /cs50/dna
-    Donderdag:
-        "Videocollege: OOP": /objects/lecture
-        Implementeer Queue [zelf]: /objects/queue
-        Implementeer Game of Cards [zelf]: /objects/cards
+    Quality:
+        Verbeter je code: /onderwerp/adts/quality
+    Overzicht: /onderwerp/containers
+    Voorbereiding:
+        "Boek 3: Container Classes": /onderwerp/containers/boek
+    Opdrachten:
+        List structure: /onderwerp/containers/lists
+        # Set structure: /onderwerp/containers/sets
+        Dictionary structure: /onderwerp/containers/dicts
+        Profiling: /onderwerp/containers/profiling
+    Overzicht: /onderwerp/linked
+    Voorbereiding:
+        "Boek 4-5: Structures": /onderwerp/linked/boek
+    # Complexity questions 2: /onderwerp/containers/complexity
+    # Jaccard: /onderwerp/containers/jaccard
+    # Indexing words: /onderwerp/containers/indexer
 
-Week 6:
-    Maandag t/m woensdag:
-        Hangman [samen]: /hangman/classic
-        Questions: /hangman/questions
-    Donderdag:
-        "Adventure: introduction": /adventure/steps/introduction
-        "Adventure: room class": /adventure/steps/room
-    Vrijdag:
-        "Adventure: data files": /adventure/steps/data
-
-Week 7:
-    Maandag:
-        "Adventure: moving around": /adventure/steps/move
-    Dinsdag:
-        "Adventure: forced movement": /adventure/steps/forced
-    Woensdag:
-        "Adventure: items": /adventure/steps/items
-    Donderdag:
-        "Adventure: conditional movement": /adventure/steps/conditional
-    Vrijdag:
-        "Adventure: additional commands": /adventure/steps/commands
-        "Adventure: synonyms": /adventure/steps/synonyms
-        "Adventure: submit": /adventure/steps/submit
-
-Week 8:
-    Uitloop: '#'
+Week 6-7:
+    Opdrachten:
+        Palindrome: /onderwerp/linked/palindrome
+        Adventure: /adventure2/more
