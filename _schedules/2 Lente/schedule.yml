@@ -11,7 +11,8 @@ Python:
         Readability [samen programmeren]: /onderwerp/python/readability
         Schuifpuzzel [opdracht]: /onderwerp/python/schuifpuzzel
 
-Types:
+Typing:
+    "Overzicht: Typing": /onderwerp/typing
     Oefenen met types:
         "Background: typing in Python": /onderwerp/python/typing
         Type hints: /onderwerp/python/type-hints

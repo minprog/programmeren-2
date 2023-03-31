@@ -1,6 +1,6 @@
 # Programmeren 2
 
-## Studiewijzer<br><small>Herfst 2022</small>
+## Studiewijzer<br><small>Lente 2023</small>
 
 Let op! Dit vak is flink aangepast ten opzichte van vorige jaren. Was je eerder al eens begonnen met het vak, dan moet je nu beginnen vanaf het begin.
 
@@ -10,14 +10,15 @@ De docenten bij dit vak zijn Jelle van Assema en Martijn Stegeman. Zij geven het
 
 Daarnaast zijn er veel student-assistenten, die de cursus goed kennen omdat ze 'm zelf gedaan hebben, en jou gaan helpen op de momenten dat het nodig is. Eén van de assistenten zal daarnaast je mentor zijn, die je wekelijks ziet bij de werkgroep en die bovendien je werk nakijkt.
 
+## Ingangseisen
+
+Je moet Programmeren 1 hebben gehaald om dit vak te mogen volgen.
 
 ## Opdrachten en eindcijfer
 
 Bij dit vak werk je aan verschillende soorten opdrachten. Samenwerken is een essentieel onderdeel van het vak, maar een deel van de opdrachten is juist individueel. De cursus bestaat uit de volgende onderdelen:
 
 - Beoordeling opdrachten (100%). Sommige opdrachten worden automatisch gecheckt op correcte werking, en als dat helemaal goed gaat, dan kijkt je mentor ze na en geeft punten en feedback.
-
-- Beoordeling tentamen (0%). Dit tentamen is anders van opzet dan het tentamen van Programmeren 1 (meer info later). Het telt niet mee voor je eindcijfer, maar je moet het volledig en serieus gemaakt hebben om het vak af te kunnen ronden.
 
 Bij dit vak is het **niet** verplicht om alle opdrachten af te maken. De deadlines zijn dan ook **strikt**, zelfs in geval van ziekte. Dit om de werkdruk redelijk te houden naast het vak Programmeerproject, en de organisatie werkbaar te houden.
 
@@ -28,14 +29,18 @@ Je zit bij dit vak in een groep met ~15 andere studenten. Binnen deze groep zul 
 
 Je **mentor** is een studentassistent die het vak eerder heeft gevolgd of een docent die alles over onze cursus weet. Je mentor helpt je wegwijs maken, doet voor hoe je het beste de opdrachten kunt aanpakken, kijkt je werk na, en kan jouw vragen over de organisatie van het vak beantwoorden.
 
-Vanaf de tweede week heb je elke week een **werkgroep** met je mentor waar alle teamleden aan deelnemen. De inroostering hiervan wordt in de eerste week gedaan, daarna vind je de tijd en locatie in je normale rooster op datanose.nl.
+<!-- Vanaf de tweede week heb je elke week een **werkgroep** met je mentor waar alle teamleden aan deelnemen. De inroostering hiervan wordt in de eerste week gedaan, daarna vind je de tijd en locatie in je normale rooster op datanose.nl. -->
 
 
 ## Aanwezigheid
 
-Studenten die de Minor Programmeren fulltime volgen hebben een aanwezigheidsplicht zoals apart bekend gemaakt.
+1. Alle studenten zijn verplicht aanwezig bij hun ingedeelde werkgroep om met elkaar en de mentor de voortgang door te spreken. De locaties en tijden staan in het rooster.
 
-Er is geen minimale aanwezigheidsplicht bij de parttime minor. Als je een voldoende staat en het tentamen haalt, dan hebben we genoeg informatie om in te staan voor jouw persoonlijke voortgang in dit vak. We raden studenten aan om regelmatig een studieplek op te zoeken in Lab42. Je kunt daar ook prettig afspreken met medestudenten om de samenwerkopdrachten te doen.
+2. Voor aanwezigheid in het lab geldt:
+
+    - Studenten die de Minor Programmeren fulltime volgen hebben een aanwezigheidsplicht zoals apart bekend gemaakt.
+
+    - Er is geen minimale aanwezigheidsplicht in het lab bij de parttime minor. Als je een voldoende staat en het tentamen haalt, dan hebben we genoeg informatie om in te staan voor jouw persoonlijke voortgang in dit vak. We raden studenten aan om regelmatig een studieplek op te zoeken in Lab42. Je kunt daar ook prettig afspreken met medestudenten om de samenwerkopdrachten te doen.
 
 ## Vragen stellen
 
@@ -43,11 +48,10 @@ Tijdens dit vak zul je vaak de hulp inroepen van de assistenten en medestudenten
 
 **Assistentie:** direct contact met een assistent, voor hulp bij programmeren.
 
-- hulp op locatie (lokaal L0.09--L0.10)
+- hulp op locatie (lokaal L0.09)
 - je weet niet waar te beginnen of een onvindbare bug, of alles loopt vast
 - moeite met verzinnen oplossing
-- parttime-studenten vanaf 13 uur
-- dagelijks beschikbaar, zet jezelf in de rij via het menu:
+- dagelijks beschikbaar tussen 9 en 17 uur, zet jezelf in de rij via het menu:
 
     ![](../hands-menu.png)
 
@@ -73,27 +77,30 @@ Juist even niet aan de opdracht werken kan je verder helpen!
 
 ## Deadlines
 
-Voor de hele cursus is er een **dagschema** dat het gewenste tempo aangeeft. De hoeveelheid werk is afgestemd op beginnende programmeurs, dus zonder ervaring. De bedoeling is dat je dit schema volledig kunt aanhouden, en dat je elke opdracht inlevert zodra je die af hebt. Er zijn dus dagelijkse deadlines.
-
-Heb je een keer een dag waarop je niet zo goed kunt focussen, of de opdracht ligt je niet zo goed, dan krijg je de opdracht misschien niet af. Geen probleem. Je hebt nog tijd om in te halen en als je iets mist is het ook niet zo erg. Vraag eventueel advies aan de docenten over strategisch inhalen en overslaan.
-
 Voor de inleveropdrachten zijn de deadlines als volgt:
 
-| opdrachten  | deadline werkend |
-|-------------|-----------------:|
-| Module 1    | vr  7 apr  17:59 |  let op 7 is vrij
-| Module 2    | vr 14 apr  17:59 |
-| Module 3    | vr 21 apr  17:59 |
-| Module 4    | vr 28 mei  17:59 |  let op 27/28 is vrij
-| ------------| -----------------|
-| Module 5    | vr 12 mei  17:59 |
-| Module 6    | vr 26 mei  17:59 |
+| opdrachten  | deadline fulltime | deadline parttime |
+|-------------|------------------:|-------------------|
+| Module 1    |  do  6 apr  17:59 |  za  8 apr  17:59 |
 
-Alle deadlines zijn strikt, dus er zijn geen uitzonderingen mogelijk.
+<!--
+| Module 2    |  vr 14 apr  17:59 |  za 15 apr  17:59 |
+| Module 3    |  vr 21 apr  17:59 |  za 22 apr  17:59 |
+| Module 4    |  vr 28 mei  17:59 |  za 29 apr  17:59 |
+| ------------|-------------------|-------------------|
+| Module 5    |  vr 12 mei  17:59 |  za 13 mei  17:59 |
+| Module 6    |  vr 26 mei  17:59 |  za 27 mei  17:59 |
+-->
+
+De deadline voor fulltime geldt voor alle studenten die tegelijk Programmeren 2 en Programmeerproject volgen.
+
+Alle deadlines zijn strikt, dus er zijn geen uitzonderingen mogelijk (ook niet bij ziekte!). Dat betekent dat je na de deadline nooit punten kunt halen voor de bijbehorende opdrachten. Mis je de deadline en loop je achter, dan is het belangrijk je achterstand weg te werken, bijvoorbeeld door met een medestudent de uitwerkingen door te nemen. Zo kom je op een handige manier bij en kun je de week erna gewoon weer punten halen.
+
+De overige deadlines volgen nog, maar er is een wekelijkse regelmaat.
 
 ### Ziekte en inhalen
 
-Als je ziek bent dan meld je het in ieder geval meteen even aan je mentor via e-mail. Je hoeft het niet uitgebreid uit te leggen, maar wel meteen melden. Het contact hierover houden is het belangrijkste dat je kunt doen en een harde eis als je later een uitzondering nodig hebt.
+Als je ziek bent dan meld je het in ieder geval meteen even aan je docenten (niet je mentor) via een e-mail naar <mailto:help@mprog.nl>. Je hoeft het niet uitgebreid uit te leggen, maar wel meteen melden. Het contact hierover houden is het belangrijkste dat je kunt doen.
 
 -   Ben je één of twee dagen ziek dan is dat geen probleem en kun je de deadline vaak nog halen. Het kan handig zijn om even te overleggen op welke opdrachten je je het best kunt richten.
 
@@ -106,7 +113,7 @@ Als je ziek bent dan meld je het in ieder geval meteen even aan je mentor via e-
 
 ## Cijfers
 
-Per module krijg je 10 punten voor het voldoende oplossen van de verschillende opdrachten. Bij elke module staat aangegeven hoeveel punten elke opdracht waard is en hoe de beoordeling plaatsvindt. Er is nog 1 extra punt te verdienen voor het insturen van een bijzonder uitvoerige uitwerking. Ook hierover staat meer informatie bij de modules.
+Per module krijg je 10 punten voor het voldoende oplossen van de verschillende opdrachten. Bij elke module staat aangegeven hoeveel punten elke opdracht waard is en hoe de beoordeling plaatsvindt.
 
 
 ## Samenwerken
