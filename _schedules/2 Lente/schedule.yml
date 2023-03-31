@@ -1,7 +1,7 @@
 Welkom:
     Lees hier even rustig door de studiewijzer om te ontdekken hoe het vak in elkaar zit: /syllabus
 
-Week 1:
+Python:
     "Overzicht: Starten met Python": /onderwerp/python
     Voorbereiding:
         'Videocollege: Python': /lectures/python-david
@@ -11,7 +11,7 @@ Week 1:
         Readability [samen programmeren]: /onderwerp/python/readability
         Schuifpuzzel [opdracht]: /onderwerp/python/schuifpuzzel
 
-Week 2:
+Types:
     Oefenen met types:
         "Background: typing in Python": /onderwerp/python/typing
         Type hints: /onderwerp/python/type-hints
@@ -20,6 +20,8 @@ Week 2:
         Flexible typing: /onderwerp/python/flexible-typing
     Opdracht:
         Type hints toevoegen [opdracht]: /onderwerp/python/add-type-hints
+
+Testing:
     "Overzicht: Design en Testen": /onderwerp/abstraction
     Voorbereiding:
         "Boek: top-down design": /onderwerp/abstraction/voorbereiding
@@ -30,7 +32,7 @@ Week 2:
     #     Many submissions of cash: /onderwerp/abstraction/cash
     #     Kalender designopdracht: /onderwerp/abstraction/kalender
 
-Week 3:
+OOP:
     Overzicht: /onderwerp/oop
     Voorbereiding:
         "Videocollege: OOP": /objects/lecture
@@ -39,18 +41,20 @@ Week 3:
         LISP: /onderwerp/oop/lisp
         Figuren: /onderwerp/oop/figuren
         Knapsack: /onderwerp/oop/knapsack
+
+ADTs:
     Overzicht: /onderwerp/adts
     Voorbereiding:
         "Boek 2: Data Abstractions": /onderwerp/adts/boek
-
-Week 4:
     ADTs:
         Testen met twee implementaties: /onderwerp/adts/card
         Een-en-twintigen: /onderwerp/adts/deck
 
-Week 5:
+Quality:
     Quality:
         Verbeter je code: /onderwerp/adts/quality
+
+Containers:
     Overzicht: /onderwerp/containers
     Voorbereiding:
         "Boek 3: Container Classes": /onderwerp/containers/boek
@@ -59,6 +63,8 @@ Week 5:
         # Set structure: /onderwerp/containers/sets
         Dictionary structure: /onderwerp/containers/dicts
         Profiling: /onderwerp/containers/profiling
+
+Linked structures:
     Overzicht: /onderwerp/linked
     Voorbereiding:
         "Boek 4-5: Structures": /onderwerp/linked/boek
@@ -66,7 +72,7 @@ Week 5:
     # Jaccard: /onderwerp/containers/jaccard
     # Indexing words: /onderwerp/containers/indexer
 
-Week 6-7:
+Eindopdrachten:
     Opdrachten:
         Palindrome: /onderwerp/linked/palindrome
         Adventure: /adventure2/more
