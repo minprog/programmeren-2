@@ -37,10 +37,10 @@ Tools:
         Oefenen met testen: /onderwerp/abstraction/refactor
     Quality:
         Verbeter je code: /onderwerp/adts/quality
-    Challenge (telt mee):
+    Extra onderwerp (telt gewoon mee):
         Many submissions of cash: /onderwerp/abstraction/cash
 
-ADTs:
+Abstractions:
     Data Abstractions:
         Overzicht: /onderwerp/adts
         "Boek 2: Data Abstractions": /onderwerp/adts/boek
@@ -53,14 +53,14 @@ ADTs:
         # Set structure: /onderwerp/containers/sets
         Dictionary structure: /onderwerp/containers/dicts
 
-Linked structures:
+Structures:
     Overzicht: /onderwerp/linked
     Voorbereiding:
         "Boek 4-5: Structures": /onderwerp/linked/boek
     Opdrachten:
         Palindrome: /onderwerp/linked/palindrome
         Adventure: /adventure2/more
-    Challenge (telt mee):
+    Extra onderwerp (telt gewoon mee):
         Profiling: /onderwerp/containers/profiling
 
 # Complexity questions 2: /onderwerp/containers/complexity

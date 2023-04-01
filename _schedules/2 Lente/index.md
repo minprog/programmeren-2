@@ -79,17 +79,21 @@ Juist even niet aan de opdracht werken kan je verder helpen!
 
 Voor de inleveropdrachten zijn de deadlines als volgt:
 
-| opdrachten  | hoeveelheid werk |  normale deadline   |  coulante deadline  |
-|-------------|------------------:|---------------------:|-------------------:|
-| Module 1    | 1 week  |  za  8 apr  17:59   |  za 22 apr  17:59 |
-| Module 2    | 1 week  |  za 15 apr  17:59   |  za 22 apr  17:59 |
-| Module 3    | 1 week  |  za 22 apr  17:59   |  za 29 apr  17:59 |
-| Module 4    | 1 week  |  za 29 apr  17:59   |  za  6 mei  17:59 |
-| Module 5    | 3 weken |  za 13 mei  17:59   |  -                |
+| module       |  hoeveelheid werk |  normale deadline   | coulante deadline |
+|--------------|------------------:|--------------------:|------------------:|
+| Python       |            1 week |  za  8 apr  17:59   |  za 22 apr  17:59 |
+| Objects      |            1 week |  za 15 apr  17:59   |  za 22 apr  17:59 |
+| Tools        |            1 week |  za 22 apr  17:59   |  za 29 apr  17:59 |
+| Abstractions |            1 week |  za 29 apr  17:59   |  za  6 mei  17:59 |
+| Structures   |           3 weken |  za 13 mei  17:59   |  <- ook 13 mei    |
 
-Alle deadlines zijn strikt, dus er zijn geen uitzonderingen mogelijk (ook niet bij ziekte!). Dat betekent dat je na de deadline nooit punten kunt halen voor de bijbehorende opdrachten. Mis je de deadline en loop je achter, dan is het belangrijk je achterstand weg te werken, bijvoorbeeld door met een medestudent de uitwerkingen door te nemen. Zo kom je op een handige manier bij en kun je de week erna gewoon weer punten halen.
+In normale omstandigheden zou je de "normale deadline" moeten aanhouden die hierboven vermeld is. Dan heb je ruimte om problemen op te vangen tijdens het vak. Maar als het nou moeilijk is, je hebt een planningsprobleem of je wordt ziek, dan kun je dit opvangen door gebruik te maken van de coulante deadline. Hiervoor hoef je niets af te stemmen, je mag gewoon later inleveren. Er is geen sprake van puntenaftrek als je hier gebruik van maakt.
 
-<!-- De overige deadlines volgen nog, maar er is een wekelijkse regelmaat. -->
+Na de "coulante deadline" kun je helemaal geen punten meer krijgen voor de opdrachten die op dat moment nog niet correct en naar verwachting van de opdracht ingeleverd zijn.
+
+De laatste module is erg groot (ongeveer drie weken werk) en moet uiterlijk op 13 mei om 17:59 zijn ingeleverd. Hiervoor is **geen** alternatieve deadline. De verwachting is dat je je planning voor deze weken zelf goed in de gaten houdt.
+
+Er zijn enkele opdrachten die minder belangrijk zijn om te maken. Sommige van die opdrachten behandelen "extra onderwerpen" die later erg van pas kunnen komen. Al deze opdrachten **tellen gewoon mee**, maar mocht je tijd tekort komen dan zijn dat de opdrachten die je het best kunt overslaan.
 
 ### Ziekte en inhalen
 
