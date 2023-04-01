@@ -80,7 +80,7 @@ Juist even niet aan de opdracht werken kan je verder helpen!
 Voor de inleveropdrachten zijn de deadlines als volgt:
 
 | opdrachten  | hoeveelheid werk |  normale deadline   |  coulante deadline  |
-|-------------|------------------|---------------------|-------------------|
+|-------------|------------------:|---------------------:|-------------------:|
 | Module 1    | 1 week  |  za  8 apr  17:59   |  za 22 apr  17:59 |
 | Module 2    | 1 week  |  za 15 apr  17:59   |  za 22 apr  17:59 |
 | Module 3    | 1 week  |  za 22 apr  17:59   |  za 29 apr  17:59 |
