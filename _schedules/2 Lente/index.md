@@ -28,12 +28,9 @@ Er zijn enkele opdrachten die onderwerpen behandelen die je niet direct nodig zu
 
 ## Werkgroep en mentor
 
-Je zit bij dit vak in een groep met ~15 andere studenten. Binnen deze groep zul je onder andere samen werken aan het ontwerpen van oplossingen voor de opdrachten en het bespreken en verbeteren van jouw code. De **groepsindeling** wordt na de eerste week bekend gemaakt.
+Je zit bij dit vak in een **groep** met ~15 andere studenten. Binnen deze groep zul je onder andere samen werken aan het ontwerpen van oplossingen voor de opdrachten en het bespreken en verbeteren van jouw code. De verplichte wekelijkse bijeenkomst staat in het rooster als werkcollege.
 
-Je **mentor** is een studentassistent die het vak eerder heeft gevolgd of een docent die alles over onze cursus weet. Je mentor helpt je wegwijs maken, doet voor hoe je het beste de opdrachten kunt aanpakken, kijkt je werk na, en kan jouw vragen over de organisatie van het vak beantwoorden.
-
-<!-- Vanaf de tweede week heb je elke week een **werkgroep** met je mentor waar alle teamleden aan deelnemen. De inroostering hiervan wordt in de eerste week gedaan, daarna vind je de tijd en locatie in je normale rooster op datanose.nl. -->
-
+Je **mentor** is een studentassistent die het vak eerder heeft gevolgd of een docent die alles over onze cursus weet. Je mentor helpt je wegwijs maken, doet voor hoe je het beste de opdrachten kunt aanpakken, kijkt je werk na, en kan je helpen de juiste informatie te vinden.
 
 ## Aanwezigheid
 
