@@ -16,14 +16,15 @@ Je moet Programmeren 1 hebben gehaald om dit vak te mogen volgen.
 
 ## Opdrachten en eindcijfer
 
-Bij dit vak werk je aan verschillende soorten opdrachten. Samenwerken is een essentieel onderdeel van het vak, maar een deel van de opdrachten is juist individueel. De cursus bestaat uit de volgende onderdelen:
+Bij dit vak werk je aan verschillende soorten **opdrachten**. De meeste opdrachten doe je individueel. Soms zijn het oefeningen, dan weer schrijf je een flink groot programma en op een aantal momenten ga je met tools aan de slag om te leren je Python-code zelf beter te maken.
 
-- Beoordeling opdrachten (100%). Sommige opdrachten worden automatisch gecheckt op correcte werking, en als dat helemaal goed gaat, dan kijkt je mentor ze na en geeft punten en feedback.
+Het **eindcijfer** bestaat uit de opgetelde punten voor de opdrachten. Het maximaal aantal punten is 42, wat staat voor een 10 als eindcijfer. Sommige opdrachten worden automatisch gecheckt op correcte werking, en als dat helemaal goed gaat, dan kijkt je mentor ze na en geeft punten en feedback.
 
-Bij dit vak is het **niet** verplicht om alle opdrachten af te maken. De deadlines zijn dan ook **strikt**, zelfs in geval van ziekte. Dit om de werkdruk redelijk te houden naast het vak Programmeerproject, en de organisatie werkbaar te houden.
+Bij elke module staat aangegeven hoeveel punten elke opdracht waard is en hoe de **beoordeling** plaatsvindt.
+
+Bij dit vak is het **niet** verplicht om alle opdrachten af te maken. De deadlines zijn dan ook strikt, zelfs in geval van ziekte (zie onder). Dit om de werkdruk redelijk te houden naast het vak Programmeerproject, en de algemene organisatie werkbaar te houden.
 
 Er zijn enkele opdrachten die onderwerpen behandelen die je niet direct nodig zult hebben in volgende modules. Dit zijn "extra onderwerpen", die niettemin later erg van pas kunnen komen. Al deze opdrachten **tellen gewoon mee**, maar mocht je tijd tekort komen dan zijn dat de opdrachten die je het best kunt overslaan.
-
 
 ## Werkgroep en mentor
 
@@ -106,11 +107,6 @@ Als je ziek bent dan meld je het in ieder geval meteen even aan je docenten (nie
     Daarbij speelt natuurlijk ook mee hoe makkelijk het programmeren je afgaat en hoeveel energie je hebt. Op basis van al die informatie kijken we samen wat mogelijk is. Je krijgt ook bij inhalen geen punten voor de opdrachten; het is echt gericht om snel weer mee te doen met de groep.
 
 -   Raak je helemaal uit tempo omdat je bijvoorbeeld toch teveel andere dingen te doen hebt of niet genoeg focus kan vinden? Het is belangrijk dat je dit snel bespreekt met een docent (niet je mentor). Stuur maar een [mailtje](mailto:help@mprog.nl)!
-
-
-## Cijfers
-
-Per module krijg je 10 punten voor het voldoende oplossen van de verschillende opdrachten. Bij elke module staat aangegeven hoeveel punten elke opdracht waard is en hoe de beoordeling plaatsvindt.
 
 
 ## Samenwerken
