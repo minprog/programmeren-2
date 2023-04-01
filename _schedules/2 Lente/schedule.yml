@@ -11,69 +11,60 @@ Python:
         Readability [samen programmeren]: /onderwerp/python/readability
         Schuifpuzzel [opdracht]: /onderwerp/python/schuifpuzzel
 
-Typing:
-    "Overzicht: Typing": /onderwerp/typing
-    Oefenen met types:
-        "Background: typing in Python": /onderwerp/python/typing
-        Type hints: /onderwerp/python/type-hints
-        Type aliases and variables: /onderwerp/python/type-aliases
-        Duck typing: /onderwerp/python/duck-typing
-        Flexible typing: /onderwerp/python/flexible-typing
-    Opdracht:
-        Type hints toevoegen [opdracht]: /onderwerp/python/add-type-hints
-
-Testing:
-    "Overzicht: Design en Testen": /onderwerp/abstraction
-    Voorbereiding:
-        "Boek: top-down design": /onderwerp/abstraction/voorbereiding
-    Oefenen met testen:
-        "Achtergrond: testen in Python": /onderwerp/abstraction/testing
-        Oefenen met testen: /onderwerp/abstraction/refactor
-    # Opdrachten:
-    #     Many submissions of cash: /onderwerp/abstraction/cash
-    #     Kalender designopdracht: /onderwerp/abstraction/kalender
-
-OOP:
+Objects:
     Overzicht: /onderwerp/oop
     Voorbereiding:
         "Videocollege: OOP": /objects/lecture
         "Boek 1a: OOP": /onderwerp/oop/boek
     Opdrachten:
-        LISP: /onderwerp/oop/lisp
-        Figuren: /onderwerp/oop/figuren
-        Knapsack: /onderwerp/oop/knapsack
+        Queue: /objects/queue
+        Game of Cards: /objects/cards
+        Hangman: /hangman/classic
 
-ADTs:
-    Overzicht: /onderwerp/adts
-    Voorbereiding:
-        "Boek 2: Data Abstractions": /onderwerp/adts/boek
-    ADTs:
-        Testen met twee implementaties: /onderwerp/adts/card
-        Een-en-twintigen: /onderwerp/adts/deck
-
-Quality:
+Tools:
+    Types in Python:
+        "Overzicht: Typing": /onderwerp/typing
+        "Background: typing in Python": /onderwerp/python/typing
+        Type hints: /onderwerp/python/type-hints
+        Type aliases and variables: /onderwerp/python/type-aliases
+        Duck typing: /onderwerp/python/duck-typing
+        Flexible typing: /onderwerp/python/flexible-typing
+        Type hints toevoegen [opdracht]: /onderwerp/python/add-type-hints
+    Testen in Python:
+        "Overzicht: Design en Testen": /onderwerp/abstraction
+        "Boek: top-down design": /onderwerp/abstraction/voorbereiding
+        "Achtergrond: testen in Python": /onderwerp/abstraction/testing
+        Oefenen met testen: /onderwerp/abstraction/refactor
     Quality:
         Verbeter je code: /onderwerp/adts/quality
+    Challenge (telt mee):
+        Many submissions of cash: /onderwerp/abstraction/cash
 
-Containers:
-    Overzicht: /onderwerp/containers
-    Voorbereiding:
+ADTs:
+    Data Abstractions:
+        Overzicht: /onderwerp/adts
+        "Boek 2: Data Abstractions": /onderwerp/adts/boek
+        Testen met twee implementaties: /onderwerp/adts/card
+        # Een-en-twintigen: /onderwerp/adts/deck
+    Containers:
+        Overzicht: /onderwerp/containers
         "Boek 3: Container Classes": /onderwerp/containers/boek
-    Opdrachten:
         List structure: /onderwerp/containers/lists
         # Set structure: /onderwerp/containers/sets
         Dictionary structure: /onderwerp/containers/dicts
-        Profiling: /onderwerp/containers/profiling
 
 Linked structures:
     Overzicht: /onderwerp/linked
     Voorbereiding:
         "Boek 4-5: Structures": /onderwerp/linked/boek
-    # Complexity questions 2: /onderwerp/containers/complexity
-    # Jaccard: /onderwerp/containers/jaccard
-    # Indexing words: /onderwerp/containers/indexer
-
-Eindopdrachten:
     Opdrachten:
         Palindrome: /onderwerp/linked/palindrome
         Adventure: /adventure2/more
+    Challenge (telt mee):
+        Profiling: /onderwerp/containers/profiling
+
+# Complexity questions 2: /onderwerp/containers/complexity
+# Jaccard: /onderwerp/containers/jaccard
+# Indexing words: /onderwerp/containers/indexer
+# Opdrachten:
+#     Kalender designopdracht: /onderwerp/abstraction/kalender
