@@ -91,7 +91,7 @@ In normale omstandigheden zou je de "normale deadline" moeten aanhouden die hier
 
 Na de "coulante deadline" kun je helemaal geen punten meer krijgen voor de opdrachten die op dat moment nog niet correct en naar verwachting van de opdracht ingeleverd zijn.
 
-De laatste module is erg groot (ongeveer drie weken werk) en moet uiterlijk op 13 mei om 17:59 zijn ingeleverd. Hiervoor is **geen** alternatieve deadline. De verwachting is dat je je planning voor deze weken zelf goed in de gaten houdt.
+De laatste module is erg groot (ongeveer drie weken werk) en moet uiterlijk op 26 mei om 17:59 zijn ingeleverd. Dit is de enige deadline voor die laatste module. De verwachting is dat je je planning voor deze weken zelf goed in de gaten houdt.
 
 Er zijn enkele opdrachten die minder belangrijk zijn om te maken. Sommige van die opdrachten behandelen "extra onderwerpen" die later erg van pas kunnen komen. Al deze opdrachten **tellen gewoon mee**, maar mocht je tijd tekort komen dan zijn dat de opdrachten die je het best kunt overslaan.
 
