@@ -22,6 +22,8 @@ Bij dit vak werk je aan verschillende soorten opdrachten. Samenwerken is een ess
 
 Bij dit vak is het **niet** verplicht om alle opdrachten af te maken. De deadlines zijn dan ook **strikt**, zelfs in geval van ziekte. Dit om de werkdruk redelijk te houden naast het vak Programmeerproject, en de organisatie werkbaar te houden.
 
+Er zijn enkele opdrachten die onderwerpen behandelen die je niet direct nodig zult hebben in volgende modules. Dit zijn "extra onderwerpen", die niettemin later erg van pas kunnen komen. Al deze opdrachten **tellen gewoon mee**, maar mocht je tijd tekort komen dan zijn dat de opdrachten die je het best kunt overslaan.
+
 
 ## Werkgroep en mentor
 
@@ -92,8 +94,6 @@ In normale omstandigheden zou je de "normale deadline" moeten aanhouden die hier
 Na de "coulante deadline" kun je helemaal geen punten meer krijgen voor de opdrachten die op dat moment nog niet correct en naar verwachting van de opdracht ingeleverd zijn.
 
 De laatste module is erg groot (ongeveer drie weken werk) en moet uiterlijk op 26 mei om 17:59 zijn ingeleverd. Dit is de enige deadline voor die laatste module. De verwachting is dat je je planning voor deze weken zelf goed in de gaten houdt.
-
-Er zijn enkele opdrachten die minder belangrijk zijn om te maken. Sommige van die opdrachten behandelen "extra onderwerpen" die later erg van pas kunnen komen. Al deze opdrachten **tellen gewoon mee**, maar mocht je tijd tekort komen dan zijn dat de opdrachten die je het best kunt overslaan.
 
 ### Ziekte en inhalen
 
