@@ -87,7 +87,7 @@ Voor de inleveropdrachten zijn de deadlines als volgt:
 | Abstractions |            1 week |  vr 28 apr  17:59   |  za  6 mei  17:59 |
 | Structures   |           3 weken |  vr 26 mei  17:59   |  <- ook **vrijdag 26 mei**    |
 
-In normale omstandigheden zou je de "normale deadline" moeten aanhouden die hierboven vermeld is. Dan heb je ruimte om problemen op te vangen tijdens het vak. Maar als het nou moeilijk is, je hebt een planningsprobleem of je wordt ziek, dan kun je dit opvangen door gebruik te maken van de coulante deadline. Hiervoor hoef je niets af te stemmen, je mag gewoon later inleveren. Er is geen sprake van puntenaftrek als je hier gebruik van maakt.
+In normale omstandigheden zou je de "normale deadline" moeten aanhouden die hierboven vermeld is. Dan heb je ruimte om problemen op te vangen tijdens het vak. Als het dan moeilijk wordt, je hebt een planningsprobleem of je wordt ziek, dan kun je dit opvangen door gebruik te maken van de coulante deadline. Hiervoor hoef je niets af te stemmen, je mag gewoon later inleveren. Er is geen sprake van puntenaftrek als je hier gebruik van maakt.
 
 Na de "coulante deadline" kun je helemaal geen punten meer krijgen voor de opdrachten die op dat moment nog niet correct en naar verwachting van de opdracht ingeleverd zijn.
 
