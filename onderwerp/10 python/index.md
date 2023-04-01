@@ -14,10 +14,7 @@ Je gaat deze week:
 
 Let op dat de punten nog aangepast kunnen worden (eind van week 1 moet dit helemaal duidelijk zijn!). Maar het doel is doel om onderstaande opdrachten geheel en correct te maken. Voor Mario, Readability en Schuifpuzzel staan automatische checks klaar.
 
-- Vragen over het college goed beantwoord: 1 punt
 - Volledige correcte versies van
     - Mario: 2 punten
     - Readability: 2 punten
     - Schuifpuzzel: 2 punten
-
-<!-- Je kunt 1 punt extra verdienen als je programma's zichtbaar uitblinken in toepassing van bijvoorbeeld Python-achtige constructies, opdeling van functies die verder gaat dan de opdracht, en in de toepassing van type hints. -->
