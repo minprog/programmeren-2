@@ -79,24 +79,17 @@ Juist even niet aan de opdracht werken kan je verder helpen!
 
 Voor de inleveropdrachten zijn de deadlines als volgt:
 
-| opdrachten  | deadline fulltime | deadline parttime |
-|-------------|------------------:|-------------------|
-| Module 1    |  do  6 apr  17:59 |  za  8 apr  17:59 |
-
-<!--
-| Module 2    |  vr 14 apr  17:59 |  za 15 apr  17:59 |
-| Module 3    |  vr 21 apr  17:59 |  za 22 apr  17:59 |
-| Module 4    |  vr 28 mei  17:59 |  za 29 apr  17:59 |
-| ------------|-------------------|-------------------|
-| Module 5    |  vr 12 mei  17:59 |  za 13 mei  17:59 |
-| Module 6    |  vr 26 mei  17:59 |  za 27 mei  17:59 |
--->
-
-De deadline voor fulltime geldt voor alle studenten die tegelijk Programmeren 2 en Programmeerproject volgen.
+| opdrachten  | hoeveelheid werk |  normale deadline   |  coulante deadline  |
+|-------------|------------------|---------------------|-------------------|
+| Module 1    | 1 week  |  za  8 apr  17:59   |  za 22 apr  17:59 |
+| Module 2    | 1 week  |  za 15 apr  17:59   |  za 22 apr  17:59 |
+| Module 3    | 1 week  |  za 22 apr  17:59   |  za 29 apr  17:59 |
+| Module 4    | 1 week  |  za 29 apr  17:59   |  za  6 mei  17:59 |
+| Module 5    | 3 weken |  za 13 mei  17:59   |  vr 26 mei  17:59 |
 
 Alle deadlines zijn strikt, dus er zijn geen uitzonderingen mogelijk (ook niet bij ziekte!). Dat betekent dat je na de deadline nooit punten kunt halen voor de bijbehorende opdrachten. Mis je de deadline en loop je achter, dan is het belangrijk je achterstand weg te werken, bijvoorbeeld door met een medestudent de uitwerkingen door te nemen. Zo kom je op een handige manier bij en kun je de week erna gewoon weer punten halen.
 
-De overige deadlines volgen nog, maar er is een wekelijkse regelmaat.
+<!-- De overige deadlines volgen nog, maar er is een wekelijkse regelmaat. -->
 
 ### Ziekte en inhalen
 
