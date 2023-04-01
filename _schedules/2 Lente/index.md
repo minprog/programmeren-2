@@ -81,11 +81,11 @@ Voor de inleveropdrachten zijn de deadlines als volgt:
 
 | module       |  hoeveelheid werk |  normale deadline   | coulante deadline |
 |--------------|------------------:|--------------------:|------------------:|
-| Python       |            1 week |  za  8 apr  17:59   |  za 22 apr  17:59 |
-| Objects      |            1 week |  za 15 apr  17:59   |  za 22 apr  17:59 |
-| Tools        |            1 week |  za 22 apr  17:59   |  za 29 apr  17:59 |
-| Abstractions |            1 week |  za 29 apr  17:59   |  za  6 mei  17:59 |
-| Structures   |           3 weken |  za 13 mei  17:59   |  <- ook 13 mei    |
+| Python       |            1 week |  vr  7 apr  17:59   |  za 22 apr  17:59 |
+| Objects      |            1 week |  vr 14 apr  17:59   |  za 22 apr  17:59 |
+| Tools        |            1 week |  vr 21 apr  17:59   |  za 29 apr  17:59 |
+| Abstractions |            1 week |  vr 28 apr  17:59   |  za  6 mei  17:59 |
+| Structures   |           3 weken |  vr 26 mei  17:59   |  <- ook **vrijdag 26 mei**    |
 
 In normale omstandigheden zou je de "normale deadline" moeten aanhouden die hierboven vermeld is. Dan heb je ruimte om problemen op te vangen tijdens het vak. Maar als het nou moeilijk is, je hebt een planningsprobleem of je wordt ziek, dan kun je dit opvangen door gebruik te maken van de coulante deadline. Hiervoor hoef je niets af te stemmen, je mag gewoon later inleveren. Er is geen sprake van puntenaftrek als je hier gebruik van maakt.
 
