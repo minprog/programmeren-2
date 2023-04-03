@@ -14,7 +14,7 @@ Bij deze opdracht is het helemaal prima om samen te werken met één of twee med
 
 ## Specification
 
-*   Schrijf in een bestand met de naam `readability.py` in `~/problems/readability/` een programma dat de gebruiker eerst vraagt ​​om wat tekst in te typen en vervolgens het cijferniveau voor de tekst uitvoert, volgens de Coleman- Liau-formule.
+*   Schrijf in een bestand met de naam `readability.py` een programma dat de gebruiker eerst vraagt ​​om wat tekst in te typen en vervolgens het cijferniveau voor de tekst uitvoert, volgens de Coleman- Liau-formule.
 
     *   Bedenk dat de Coleman-Liau-index wordt berekend als 0,0588 * L - 0,296 * S - 15,8, waarbij 'L' het gemiddelde aantal letters per 100 woorden in de tekst is en 'S' het gemiddelde aantal zinnen is per 100 woorden in de tekst.
 
