@@ -12,7 +12,7 @@ Je gaat deze week:
 
 ## Puntentelling
 
-Let op dat de punten nog aangepast kunnen worden (eind van week 1 moet dit helemaal duidelijk zijn!). Maar het doel is doel om onderstaande opdrachten geheel en correct te maken. Voor Mario, Readability en Schuifpuzzel staan automatische checks klaar.
+Het doel voor de onderstaande opdrachten is om ze geheel en correct te maken. Daarbij doe je een hoop ervaring op met Python-constructies. Voor Mario, Readability en Schuifpuzzel staan automatische checks klaar die je opdracht direct kunnen goedkeuren.
 
 - Volledige correcte versies van
     - Mario: 2 punten
