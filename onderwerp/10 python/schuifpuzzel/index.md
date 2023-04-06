@@ -1,5 +1,7 @@
 # Schuifpuzzel
 
+> **Let niet op de mededeling over type hints en doctests bij de automatische checks. Deze onderwerpen volgen nog. Je programma wordt goedgekeurd zonder deze elementen.**
+
 Een schuifpuzzel is een vierkante puzzel die meestal bestaat uit `4 * 4 = 16` velden.
 In al deze velden zitten tegels, op één veld na.
 Doordat er een tegel mist, is er een vrij veld en kun je de andere tegels verschuiven.
