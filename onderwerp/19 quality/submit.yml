@@ -1,7 +1,7 @@
 name: quality
 files:
     required:
-        - card.py
-        - deck.py
-        - 21.py
-        - alle_verbeteringen_netjes_op_een_rij.pdf
+        - schuifpuzzel.py
+        - test_schuifpuzzel.py
+        - hangman.py
+        - test_hangman.py

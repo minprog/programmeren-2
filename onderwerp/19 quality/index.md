@@ -1,5 +1,13 @@
 # Codekwaliteit
 
+Herschrijf je code voor Schuifpuzzel en Hangman en zorg dat ze meer in lijn zijn met de Python-standaarden en in het algemeen een hogere leesbaarheid en begrijpelijkheid hebben door beter op te delen en te vereenvoudigen.
+
+## Individuele opdracht
+
+Samenwerken bij deze opdracht is niet toegestaan; het is prima om medestudenten en anderen om hulp te vragen, als het er maar niet op neerkomt dat iemand of iets anders een deel van het werk voor je doet. Voorbeelden van "redelijke" en "onredelijke" manieren van samenwerken vind je in de studiewijzer.
+
+## Kwaliteit
+
 Jouw code heeft een zekere [kwaliteit](https://en.wikipedia.org/wiki/Zen_and_the_Art_of_Motorcycle_Maintenance). Kwaliteit is nogal een ongrijpbaar begrip. Het is echter heel gebruikelijk om kwaliteit begrijpelijk te maken door gebruik te maken van heuristieken (versimpelde uitleg) of metrieken (versimpelde metingen). Als je ergens een getal of een label op kunt plakken, dan kun je makkelijker communiceren over de waarde van iets.
 
 In de softwarebusiness hebben we hetzelfde probleem. Code kan totaal chaotisch zijn, maar wat moet je verbeteren? Code kan een "je ne sais quoi" overzichtelijkheid hebben, maar wat maakt nou dat het zo geweldig makkelijk te begrijpen is? De oorzaak zit 'm vaak in meerdere factoren die elkaar beïnvloeden.
@@ -34,7 +42,7 @@ In de basis is het vrij simpel: elke **beslissing** maakt de functie complexer. 
 
 1. Installeer radon: <https://pypi.org/project/radon/>
 
-2. Gebruik de tool om je 21/Deck/Card te controleren op complexiteit. Probeer te achterhalen waarom je code op bepaalde punten erg complex is geworden. Kijk of je vereenvoudigingen ziet, of dat je aparte functies kunt definiëren voor bepaalde delen.
+2. Gebruik de tool om je programma's te controleren op complexiteit. Probeer te achterhalen waarom je code op bepaalde punten erg complex is geworden. Kijk of je vereenvoudigingen ziet, of dat je aparte functies kunt definiëren voor bepaalde delen.
 
 ## Verbeteren (de echte opdracht)
 
@@ -45,3 +53,5 @@ In de basis is het vrij simpel: elke **beslissing** maakt de functie complexer. 
 3. Ga naar stap 1 tenzij je al 20 keer bij stap 3 bent geweest.
 
 Zo heb je 20 verbeteringen gedaan en nauwkeurig gedocumenteerd. Als je een aantal dezelfde verbeteringen doet op verschillende stukjes code, geef dit dan op als één stap.
+
+De tests die je eerder hebt geschreven zou je niet met Radon moeten controleren. Flake8 zou wel nuttig kunnen zijn.
