@@ -14,7 +14,8 @@ Je gaat deze week:
 
 Het doel voor de onderstaande opdrachten is om ze geheel en correct te maken. Daarbij doe je een hoop ervaring op met Python-constructies. Voor Mario, Readability en Schuifpuzzel staan automatische checks klaar die je opdracht direct kunnen goedkeuren.
 
-- Volledige correcte versies van
-    - Mario: 2 punten
-    - Readability: 2 punten
-    - Schuifpuzzel: 2 punten
+- Mario: 2 punten
+- Readability: 2 punten
+- Schuifpuzzel: 2 punten
+
+Er zijn geen deelpunten mogelijk: de programma's moeten helemaal goedgekeurd worden en dan krijg je de punten.

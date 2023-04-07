@@ -42,25 +42,23 @@ Tools:
         Wat is mis met Cash [opdracht]: /onderwerp/testing/cash
 
 Abstractions:
+    Overzicht: /modules/abstractions
     Data Abstractions:
-        Overzicht: /onderwerp/adts
         "Boek 2: Data Abstractions": /onderwerp/adts/boek
         Testen met twee implementaties: /onderwerp/adts/card
         # Een-en-twintigen: /onderwerp/adts/deck
     Containers:
-        Overzicht: /onderwerp/containers
         "Boek 3: Container Classes": /onderwerp/containers/boek
         List structure: /onderwerp/containers/lists
         # Set structure: /onderwerp/containers/sets
         Dictionary structure: /onderwerp/containers/dicts
 
 Structures:
-    Overzicht: /onderwerp/linked
-    Voorbereiding:
+    Overzicht: /modules/structures
+    Stof:
         "Boek 4-5: Structures": /onderwerp/linked/boek
-    Opdrachten:
-        Palindrome: /onderwerp/linked/palindrome
-        Adventure: /adventure2/more
+        Palindrome [opdracht]: /onderwerp/linked/palindrome
+        Adventure [opdracht]: /adventure2/more
     Extra onderwerp (telt gewoon mee):
         Profiling: /onderwerp/containers/profiling
 

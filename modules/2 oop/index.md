@@ -8,13 +8,15 @@ Je gaat deze week:
 
 - Leren hoe je classes definieert
 - Leren hoe je objecten instantieert in het geheugen
-- Functionaliteit verbergen in classes
+- Oefenen met classes, objecten, instance variables en meer
+- Oefenen met het bouwen van classes op basis van een analyse van code die de class gebruikt
 
 ## Puntentelling
 
 Het doel voor de onderstaande opdrachten is om ze geheel en correct te maken. Daarbij doe je een hoop ervaring op met objectgeorienteerd programmeren. Voor alle opdrachten staan automatische checks klaar.
 
-- Volledige correcte versies van
-    - Queue: 1 punt
-    - Game of Cards: 1 punt
-    - Hangman: 4 punten
+- Queue: 1 punt
+- Game of Cards: 1 punt
+- Hangman: 4 punten
+
+Er zijn geen deelpunten mogelijk: de programma's moeten helemaal goedgekeurd worden en dan krijg je de punten.
