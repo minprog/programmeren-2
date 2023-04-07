@@ -24,22 +24,22 @@ Bij elke module staat aangegeven hoeveel punten elke opdracht waard is en hoe de
 
 Bij dit vak is het **niet** verplicht om alle opdrachten af te maken. De deadlines zijn dan ook strikt, zelfs in geval van ziekte (zie onder). Dit om de werkdruk redelijk te houden naast het vak Programmeerproject, en de algemene organisatie werkbaar te houden.
 
-Er zijn enkele opdrachten die onderwerpen behandelen die je niet direct nodig zult hebben in volgende modules. Dit zijn "extra onderwerpen", die niettemin later erg van pas kunnen komen. Al deze opdrachten **tellen gewoon mee**, maar mocht je tijd tekort komen dan zijn dat de opdrachten die je het best kunt overslaan.
-
 | module      | punten    |
 | - | - |
 | Python      | 6 |
 | Objects     | 6 |
 | Tools       | 6 |
 | - | - |
-| Opdracht Cash | 3 |
+| Opdracht Cash* | 3 |
 | - | - |
 | Abstractions | 6 |
 | Structures   | 12 |
 | - | - | 
-| Opdracht Profiling | 3 |
+| Opdracht Profiling* | 3 |
 | - | - |
 | Totaal |  42 |
+
+*) Er zijn enkele opdrachten die onderwerpen behandelen die je niet direct nodig zult hebben in volgende modules. Dit zijn "extra onderwerpen", die niettemin later erg van pas kunnen komen. Al deze opdrachten **tellen gewoon mee**, maar mocht je tijd tekort komen dan zijn dat de opdrachten die je het best kunt overslaan.
 
 ## Werkgroep en mentor
 
