@@ -107,23 +107,3 @@ Now you can use that alias in your code:
 
     def create_structure(input: list[list[tuple[int,str]]]) -> MyStructure
 
-## Checking types
-
-Python won't check your types whatever you do. If you have a bug, you will not be protected by your type hints, and the code will still crash at the same point as where it did before. However, with the separate tool `mypy`, you can check the type hints very strictly, which will help you find mistakes before you even run your code.
-
-Install `mypy` through pip like so:
-
-    $ pip3 install mypy
-
-> Depending on your installation, you might need to use `pip` instead, or `python -m pip`.
-
-Once installed, run mypy like so:
-
-    $ mypy my_program.py
-
-Or to type check all python files, use shell globbing or pass a directory instead.
-
-    $ mypy *.py
-    $ mypy .
-
-To check your answers to the questions above, simply paste them in a Python file and run `mypy` on it. When doing so, be sure to pass in various inputs to the various functions. You can also make use of `reveal_type` to show what type mypy thinks a variable is. Read more about this feature in [the mypy docs](https://mypy.readthedocs.io/en/latest/common_issues.html?highlight=reveal_type#reveal-type).
