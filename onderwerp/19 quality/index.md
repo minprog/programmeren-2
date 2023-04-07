@@ -26,11 +26,13 @@ Flake8 is een tool die een aantal andere tools combineert om problemen in code t
 
 1. Installeer Flake8: `pip3 install flake8`.
 
-2. Gebruik de tool om je 21/Deck/Card te controleren op "violations" van de regels (`flake8 *.py` bijvoorbeeld).
+2. Gebruik de tool om je programma's te controleren op "violations" van de regels (`flake8 *.py` bijvoorbeeld).
 
 3. Je vindt [hier](https://flake8.pycqa.org/en/latest/user/error-codes.html) en [hier](https://pycodestyle.pycqa.org/en/latest/intro.html#error-codes) de mogelijke error codes.
 
-Ga nog niet verbeteren, maar lees eerst alle instructies hieronder.
+4. Best een kans dat je nog niet genoeg interessante problemen vindt. In dat geval ga je [Flake8-plugins installeren](https://github.com/DmytroLitvinov/awesome-flake8-extensions).
+
+**Ga nog niet meteen verbeteren, maar lees eerst alle instructies hieronder.**
 
 ## Cyclomatic complexity
 
@@ -50,8 +52,10 @@ In de basis is het vrij simpel: elke **beslissing** maakt de functie complexer. 
 
 2. Documenteer heel nauwkeurig welke verandering je hebt gedaan. Maak een document, beschrijf de wijziging in woorden en voeg screenshots in van het stukje code vóór en na de verandering. De screenshots mogen alleen van het stukje code zijn dat veranderd is. Als je grote screenshots gebruikt wordt je inzending helaas afgekeurd omdat het dan niet goed na te kijken is.
 
-3. Ga naar stap 1 tenzij je al 20 keer bij stap 3 bent geweest.
+3. Beschrijf in jouw woorden *waarom* je de wijziging hebt gedaan. Natuurlijk is dat omdat de tool zegt dat het moet. Maar wat is de onderliggende reden? Lees de foutmeldingen goed en zoek eventueel naar achtergronden van de redenatie. Schrijf je eigen redenatie zó dat een medestudent deze kan begrijpen zonder in de documentatie te duiken.
 
-Zo heb je 20 verbeteringen gedaan en nauwkeurig gedocumenteerd. Als je een aantal dezelfde verbeteringen doet op verschillende stukjes code, geef dit dan op als één stap.
+4. Ga naar stap 1 tenzij je al 20 keer hier bent geweest.
+
+Op deze manier heb je 20 verbeteringen gedaan en nauwkeurig gedocumenteerd. Als je een aantal dezelfde soort verbeteringen doet op verschillende stukjes code, geef dit dan op als één stap. Kun je over een verbetering niet echt iets zinnigs schrijven? Bijvoorbeeld als je toevallig één keer een spatie teveel hebt... dan kun je die beter overslaan.
 
 De tests die je eerder hebt geschreven zou je niet met Radon moeten controleren. Flake8 zou wel nuttig kunnen zijn.
