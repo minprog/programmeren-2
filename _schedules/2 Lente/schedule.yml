@@ -24,20 +24,20 @@ Objects:
 Tools:
     Overzicht: /modules/tools
     Types in Python:
-        "Background: typing in Python": /onderwerp/python/typing
-        Type hints: /onderwerp/python/type-hints
-        Type aliases and variables: /onderwerp/python/type-aliases
-        Duck typing: /onderwerp/python/duck-typing
-        Flexible typing: /onderwerp/python/flexible-typing
-        Type hints toevoegen [opdracht]: /onderwerp/python/add-type-hints
+        "Background: typing in Python": /onderwerp/typing/typing
+        Type hints: /onderwerp/typing/type-hints
+        Type aliases and variables: /onderwerp/typing/type-aliases
+        Duck typing: /onderwerp/typing/duck-typing
+        Flexible typing: /onderwerp/typing/flexible-typing
+        Type hints toevoegen [opdracht]: /onderwerp/typing/add-type-hints
     Testen in Python:
-        "Boek: top-down design": /onderwerp/abstraction/voorbereiding
-        "Achtergrond: testen in Python": /onderwerp/abstraction/testing
-        Oefenen met testen: /onderwerp/abstraction/refactor
+        "Boek: top-down design": /onderwerp/testing/voorbereiding
+        "Achtergrond: testen in Python": /onderwerp/testing/testing
+        Oefenen met testen: /onderwerp/testing/refactor
     Quality:
-        Verbeter je code: /onderwerp/adts/quality
+        Verbeter je code: /onderwerp/quality
     Extra onderwerp (telt gewoon mee):
-        Many submissions of cash: /onderwerp/abstraction/cash
+        Many submissions of cash: /onderwerp/testing/cash
 
 Abstractions:
     Data Abstractions:

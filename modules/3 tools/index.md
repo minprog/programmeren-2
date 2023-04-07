@@ -8,7 +8,7 @@ Deze module gaat over de tools die je hebt om betere Python-code te schrijven:
 
 - Tot slot kijken we naar **static code tools** die op allerlei manieren je code aan controles onderwerpen. Voor een groot deel gaat het erom dat je Python gebruikt zoals het bedacht is.
 
-Al deze tools worden op allerlei manieren toegepast in de professionele software-ontwikkeling, bijvoorbeeld om de samenwerking in teams makkelijker te maken. Maar ook in open source of meer persoonlijke projecten komen ze erg goed van pas.
+Al deze tools worden toegepast in de professionele software-ontwikkeling, bijvoorbeeld om de samenwerking in teams makkelijker te maken. Maar ook in open source of meer persoonlijke projecten komen ze erg goed van pas, omdat ze fouten helpen voorkomen en detecteren.
 
 ## Leerdoelen
 
