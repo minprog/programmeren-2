@@ -91,6 +91,22 @@ Annotate the data structures below:
 
 <textarea name="form[q2.3]" rows="1" required=""></textarea>
 
+## Type aliases
+
+You can define your own type in case your type hints get too large:
+
+    def create_structure(input: list[list[tuple[int,str]]]) -> dict[int, list[str]]
+
+If you are using such types in your function headers, chances are that you're using such complex combinations elsewhere in your code, too. It may be better to define a type alias:
+
+    MyStructure = dict[int, list[str]]
+
+(This looks like a variable assignment but it is indeed used to define a new named type.)
+
+Now you can use that alias in your code:
+
+    def create_structure(input: list[list[tuple[int,str]]]) -> MyStructure
+
 ## Checking types
 
 Python won't check your types whatever you do. If you have a bug, you will not be protected by your type hints, and the code will still crash at the same point as where it did before. However, with the separate tool `mypy`, you can check the type hints very strictly, which will help you find mistakes before you even run your code.

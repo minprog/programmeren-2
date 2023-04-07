@@ -29,8 +29,8 @@ Tools:
     Types in Python:
         "Achtergrond: typing in Python": /onderwerp/typing/typing
         Type hints: /onderwerp/typing/type-hints
-        Type aliases and variables: /onderwerp/typing/type-aliases
-        Duck typing: /onderwerp/typing/duck-typing
+        # Type aliases and variables: /onderwerp/typing/type-aliases
+        # Duck typing: /onderwerp/typing/duck-typing
         Flexible typing: /onderwerp/typing/flexible-typing
         Type hints toevoegen [opdracht]: /onderwerp/typing/add-type-hints
     Testen in Python:

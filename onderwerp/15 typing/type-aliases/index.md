@@ -1,21 +1,5 @@
 # Aliases and generics
 
-## Type aliases
-
-You can define your own type in case your type hints get too large:
-
-    def create_structure(input: list[list[tuple[int,str]]]) -> dict[int, list[str]]
-
-If you are using such types in your function headers, chances are that you're using such complex combinations elsewhere in your code, too. It may be better to define a type alias:
-
-    MyStructure = dict[int, list[str]]
-
-(This looks like a variable assignment but it is indeed used to define a new named type.)
-
-Now you can use that alias in your code:
-
-    def create_structure(input: list[list[tuple[int,str]]]) -> MyStructure
-
 ## Generics
 
 How do you write your own generic functions? In Python that requires type variables. These are provided by `TypeVar` from the `typing` module. Here is how it works:
