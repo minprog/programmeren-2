@@ -27,7 +27,7 @@ Tools:
         "Boek: Design by contract": /onderwerp/design/boek
         Documenteer je functies [opdracht]: /onderwerp/design/contract
     Types in Python:
-        "Background: typing in Python": /onderwerp/typing/typing
+        "Achtergrond: typing in Python": /onderwerp/typing/typing
         Type hints: /onderwerp/typing/type-hints
         Type aliases and variables: /onderwerp/typing/type-aliases
         Duck typing: /onderwerp/typing/duck-typing
