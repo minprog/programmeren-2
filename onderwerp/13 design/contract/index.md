@@ -28,7 +28,9 @@ Let op dat assertions geen manier zijn om fouten te communiceren naar de gebruik
 
 ## Functies
 
-Om goed type hints te kunnen gebruiken (en later om code goed te kunnen testen) is het belangrijk om code op te delen in functies. Zorg ervoor dat je je code eventueel nog wat meer opdeelt. Zet daarnaast eventuele losse testcode altijd in een if-name-is-main. Voor `mario.py` kunt je bijvoorbeeld aan het volgende denken:
+Om de opdrachten in deze module op een interessante manier te kunnen uitvoeren is het belangrijk om code op te delen in functies. Hoogstwaarschijnlijk zijn je opdrachten al aardig opgedeeld, maar zorg er eventueel voor dat je nog extra functies maakt als je daar mogelijkheden toe ziet. Het kan ook nog tijdens de verdere opdrachten, het hoeft niet direct.
+
+Zet daarnaast eventuele losse testcode altijd in een "if-name-is-main". Voor `mario.py` kunt je bijvoorbeeld aan het volgende design denken:
 
     def good_name_for_drawing_a_pyramid(height):
         # TODO
@@ -43,27 +45,25 @@ Om goed type hints te kunnen gebruiken (en later om code goed te kunnen testen) 
         height = great_name_for_getting_height_from_the_user()
         good_name_for_drawing_a_pyramid(height)
 
-
 ## Wat is die if-name-is-main?
 
-`__name__ == "__main__"` checks whether the hidden variable `__name__` is set to `"__main__"`. This will only be the case if that python file is run directly. 
+`__name__ == "__main__"` controleert of de verborgen variabele `__name__` is ingesteld op `"__main__"`. *Dit is alleen het geval als dat python-bestand rechtstreeks wordt uitgevoerd vanaf de command line.*
 
-For instance, in case of `foo.py`, Python will set its `__name__` to `"__main__"` if you run `python3 foo.py` from the command-line. You can check this by simply printing out `__name__` from `foo.py` like so:
+Bijvoorbeeld, in het geval van `foo.py`, zal Python de `__name__` instellen op `"__main__"` als je `python3 foo.py` uitvoert vanaf de opdrachtregel. Je kunt dit uitproberen door `__name__` te printen:
 
-    $ echo "print(__name__)" >> foo.py
-    $ python3 foo.py
-    __main__
+     $ echo "print(__name__)" > foo.py
+     $ python3 foo.py
+     __main__
 
-However, if you run the file indirectly, by perhaps `import`ing `foo.py` in another python program called `bar.py`. And then by running `python3 bar.py` from the command-line. `foo.py`'s `__name__` would be `"foo"` instead of `"__main__"`. To see for yourself:
+Als je het bestand echter *indirect* uitvoert, door bijvoorbeeld `foo.py` te `import`eren in een ander Python-programma genaamd `bar.py`, staat de naam anders ingesteld:
 
-    $ echo "import foo" >> bar.py
-    $ python3 bar.py
-    foo
+     $ echo "import foo" > bar.py
+     $ python3 bar.py
+     foo
 
-So why is this important? Well, Python will run any code in a Python source file upon importing. This is why we see `foo` printed even though the only code in `bar.py` is `import foo`. Now you can imagine that this is often unwanted. For instance, `bar.py` might want to reuse some code from `foo.py`, but not needlesly run all of the code inside `foo.py` and end up with prints on the screen. This is why it is good practice to "guard" any code that should only run if the user decides to run that file directly with `if __name__ == "__main__":`.  
+Waarom is dit belangrijk? Python zal bij het `import`eren alle code in een Python-bronbestand uitvoeren. Dit is de reden waarom we `foo` afgedrukt zien, ook al is de enige code in `bar.py` `import foo`. Nu kun je je voorstellen dat dit vaak ongewenst is. Misschien wilde `bar.py` wat functies van `foo.py` hergebruiken, maar niet zomaar alle overige code in `foo.py` uitvoeren. Daarom is het een goede gewoonte om code te "bewaken" (guard) die alleen moet worden uitgevoerd als de gebruiker het programma direct runt.
 
-> In short, `if __name__ == "__main__"` is Python's equivalent for a main function similar to languages like C & Java. Its use is optional, but generally good practica.
-
+Kortom, `if __name__ == "__main__"` is het equivalent van Python voor een main-functie, zoals bekend uit talen als C en Java. Het gebruik ervan is in Python optioneel, maar over het algemeen een goede gewoonte.
 
 ## Individuele opdracht
 
