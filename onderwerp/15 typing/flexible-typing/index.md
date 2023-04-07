@@ -47,6 +47,8 @@ Sometimes it is uncertain whether a function will return a value. Let's say we a
 
 > `Optional[int]` is equivalant to `Union[int, None]`. In that sense, it is entirely optional to use.
 
+<!--
+
 ## Callable
 
 Functions can be passed to other functions too. That is what `Callable` captures in Python.
@@ -94,3 +96,5 @@ Annotate the code below:
         return results
 
 <textarea name="form[q5.3]" rows="6" required=""></textarea>
+
+-->
