@@ -33,11 +33,11 @@ Tools:
     Testen in Python:
         "Boek: top-down design": /onderwerp/testing/voorbereiding
         "Achtergrond: testen in Python": /onderwerp/testing/testing
-        Oefenen met testen: /onderwerp/testing/refactor
+        Tests toevoegen [opdracht]: /onderwerp/testing/refactor
     Quality:
-        Verbeter je code: /onderwerp/quality
+        Verbeter je code [opdracht]: /onderwerp/quality
     Extra onderwerp (telt gewoon mee):
-        Many submissions of cash: /onderwerp/testing/cash
+        Wat is mis met Cash [opdracht]: /onderwerp/testing/cash
 
 Abstractions:
     Data Abstractions:
