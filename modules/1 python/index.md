@@ -1,10 +1,10 @@
 # Python
 
-Deze week gaat over *Python*. Je gaat oefenen met de manier waarop de dingen in Python worden opgeschreven. Voor een deel is dat niet eens zo anders dan in C, maar allerlei details maken het toch wel even wennen!
+Deze module gaat over *Python*. Je gaat oefenen met de manier waarop de dingen in Python worden opgeschreven. Voor een deel is dat niet eens zo anders dan in C, maar allerlei details maken het toch wel even wennen!
 
 ## Leerdoelen
 
-Je gaat deze week:
+Je gaat in deze module:
 
 - De basis van Python onder de knie krijgen
 - Werken met lists, dicts en sets

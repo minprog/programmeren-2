@@ -1,15 +1,14 @@
-# Week 5-6-7: Structures
+# Structures
 
-Deze week gaat over structuren die je kunt bouwen met objecten. We hebben eerder al kennis gemaakt met ADT's die de werking van een enkele class voorschrijven. In deze module ga je twee generieke ADT's leren kennen: de stack en de queue. Beide hebben allerlei toepassingen in het programmeren van efficiënte algoritmen. Daarnaast kun je classes zo inrichten dat je netwerken van objecten kunt bouwen. Uit Programmeren 1 ken je al de "linked list", die je ook met Python classes kunt maken. En we werken toe naar grafen, waar elk object naar verschillende andere objecten kan wijzen. De opdracht Adventure gebruikt dit idee om een netwerk van "kamers" op te bouwen waar je als speler doorheen kunt lopen.
+Deze module gaat over structuren die je kunt bouwen met objecten. We hebben eerder al kennis gemaakt met ADT's die de werking van een enkele class voorschrijven. In deze module ga je twee generieke ADT's leren kennen: de stack en de queue. Beide hebben allerlei toepassingen in het programmeren van efficiënte algoritmen. Daarnaast kun je classes zo inrichten dat je netwerken van objecten kunt bouwen. Uit Programmeren 1 ken je al de "linked list", die je ook met Python classes kunt maken. En we werken toe naar grafen, waar elk object naar verschillende andere objecten kan wijzen. De opdracht Adventure gebruikt dit idee om een netwerk van "kamers" op te bouwen waar je als speler doorheen kunt lopen.
 
 ## Leerdoelen
 
-Je gaat deze week leren over en werken met:
+Je gaat in deze module:
 
-- References
-- Linked list bouwen met objects, zoals met structs in C
-- Specialistische ADTs (Stacks and Queues)
-- Grafen
+- Leren over references naar objecten
+- Linked list bouwen met objects, net zoals met structs in C
+- Specialistische ADTs implementeren (Stacks and Queues)
 
 ## Lesstof
 

@@ -14,7 +14,7 @@ Al deze tools worden toegepast in de professionele software-ontwikkeling, bijvoo
 
 ## Leerdoelen
 
-Je gaat deze week:
+Je gaat in deze module:
 
 - De syntax van docstrings leren kennen
 - Begrijpen welke pre- en postconditions je kunt specificeren in een docstring

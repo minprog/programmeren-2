@@ -1,6 +1,6 @@
-# Week 4: ADTs
+# Abstractions
 
-Deze week gaat over *abstract data types* ofwel ADTs. In deze inleiding leggen we uit wat een ADT is zonder voorbeelden te geven. Het kan goed zijn dat je de uitleg daardoor niet direct begrijpt. Het is daarom zinvol de uitleg later in de week nogmaals te lezen en te checken of je het dan wel begrijpt.
+Deze module gaat over *abstract data types* ofwel ADTs. In deze inleiding leggen we uit wat een ADT is zonder voorbeelden te geven. Het kan goed zijn dat je de uitleg daardoor niet direct begrijpt. Het is daarom zinvol de uitleg later in de module nogmaals te lezen en te checken of je het dan wel begrijpt.
 
 Een abstract datatype beschrijft een datatype vanuit de **operaties** die je erop moet kunnen uitvoeren. Als je deze operaties en het bijbehorende gedrag vastlegt, kun je al redeneren over de mogelijkheden die zo'n datatype je biedt als programmeur. Nog sterker, als je de operaties definieert dan kun je in principe al code schrijven die gebruik maakt van zo'n datatype, zonder dat je verdere afspraken hoeft te maken over de details. Een ADT is dus geen code, maar een afspraak  (contract) over de mogelijkheden die het datatype biedt.
 
@@ -10,7 +10,7 @@ Daarna gaan we kijken naar *container classes* in Python en hoe die zijn opgebou
 
 ## Leerdoelen
 
-Je gaat deze week:
+Je gaat in deze module:
 
 - Goed begrijpen wat een ADT is
 - Enkele basisvoorbeelden van ADT's leren kennen
