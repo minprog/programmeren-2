@@ -21,5 +21,24 @@ Je gaat deze week:
 
 ## Puntentelling
 
-Je gaat de programma's van de vorige modules nog eens inleveren:
+In deze module ga je in een aantal stappen je programma's aanpassen. Aan het eind van de module ga je één definitieve versie inleveren met daarbij een verslag van jouw werkwijze en aanpassingen.
 
+Beide programma's moeten op z'n minst nog goed werken. De inhoudelijke beoordeling van de uiteindelijke versies vindt met hulp van de volgende richtlijnen plaats (het gaat over het algemeen om minimumeisen):
+
+1. De programma's zijn op basis van enkele onderwerpen uit deze module met enig succes aangepast. Voor elke aanpassing is een eenduidige reden genoemd in het verslag.
+
+2. De programma's zijn op basis van de meeste onderwerpen uit deze module met enig succes aangepast. Voor elke aanpassing is een eenduidige reden genoemd in het verslag.
+
+3. De programma's zijn aangepast op basis van docstrings, assertions, type hints, tests en de statische analysetools. Voor alle aanpassingen is uitgelegd waarom deze is gedaan met specifieke verwijzingen naar tools, documentatie of uitleg in de cursus.
+
+4. De programma's zijn aangepast op basis van docstrings, assertions, type hints, tests en de statische analysetools. Op basis van de statische analysetools zijn substantiële wijzigingen gedaan. Voor alle aanpassingen is uitgelegd waarom deze is gedaan met specifieke verwijzingen naar tools, documentatie of uitleg in de cursus.
+
+5. De programma's zijn systematisch en zinvol aangepast op basis van docstrings, assertions, type hints, tests en de statische analysetools. Verbeteringen stoppen niet bij een toepassen van alle instructies, maar uit de documentatie blijkt ook dat interessante overwegingen zijn gedaan en zinvolle beslissingen zijn genomen om uit een impasse te komen.
+
+6. De programma's zijn systematisch en zinvol aangepast op basis van docstrings, assertions, type hints, tests en de statische analysetools. Uit de documentatie blijkt dat hierin verder is gegaan dan de geboden stof, bijvoorbeeld door het gebruik van extra bronnen en tools (beide staan bewust in meervoud) en het afwegen van meerdere opties.
+
+Alleen aanpassingen doen in één van beide programma's is niet genoeg om punten te scoren. Mocht je een programma eerder niet of niet correct hebben ingeleverd, dan zul je het moeten afmaken voordat je bovenstaande aanpassingen gaat doen.
+
+## Extra onderwerp
+
+Als laatste onderdeel van deze module staat de opdracht "Wat is mis met Cash". Deze is 3 punten waard binnen de cursus en telt gewoon mee. De opdracht is wel gemarkeerd als extra onderwerp omdat de rest van de cursus niet bouwt op deze kennis. Als je een opdracht moet overslaan is deze opdracht een goede keuze.
