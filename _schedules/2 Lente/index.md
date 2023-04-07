@@ -24,8 +24,8 @@ Bij elke module staat aangegeven hoeveel punten elke opdracht waard is en hoe de
 
 Bij dit vak is het **niet** verplicht om alle opdrachten af te maken. De deadlines zijn dan ook strikt, zelfs in geval van ziekte (zie onder). Dit om de werkdruk redelijk te houden naast het vak Programmeerproject, en de algemene organisatie werkbaar te houden.
 
-| module      | punten    |
-| - | - |
+| Module      | Punten    |
+| - | -: |
 | Python      | 6 |
 | Objects     | 6 |
 | Tools       | 6 |
