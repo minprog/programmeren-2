@@ -18,11 +18,9 @@ Je moet Programmeren 1 hebben gehaald om dit vak te mogen volgen.
 
 Bij dit vak werk je aan verschillende soorten **opdrachten**. De meeste opdrachten doe je individueel. Soms zijn het oefeningen, dan weer schrijf je een flink groot programma en op een aantal momenten ga je met tools aan de slag om te leren je Python-code zelf beter te maken.
 
-Het **eindcijfer** bestaat uit de opgetelde punten voor de opdrachten. Het maximaal aantal punten is 42, wat staat voor een 10 als eindcijfer. Sommige opdrachten worden automatisch gecheckt op correcte werking, en als dat helemaal goed gaat, dan kijkt je mentor ze na en geeft punten en feedback.
+Het **eindcijfer** bestaat uit de opgetelde punten voor de opdrachten. Het maximaal aantal punten is 42, wat staat voor een 10 als eindcijfer. Sommige opdrachten worden automatisch gecheckt op correcte werking. Bij andere opdrachten kijkt je mentor na en geeft punten en feedback.
 
 Bij elke module staat aangegeven hoeveel punten elke opdracht waard is en hoe de **beoordeling** plaatsvindt.
-
-Bij dit vak is het **niet** verplicht om alle opdrachten af te maken. De deadlines zijn dan ook strikt, zelfs in geval van ziekte (zie onder). Dit om de werkdruk redelijk te houden naast het vak Programmeerproject, en de algemene organisatie werkbaar te houden.
 
 | Module      | Punten    |
 | - | -: |
@@ -39,7 +37,9 @@ Bij dit vak is het **niet** verplicht om alle opdrachten af te maken. De deadlin
 | - | - |
 | Totaal |  42 |
 
-*) Er zijn enkele opdrachten die onderwerpen behandelen die je niet direct nodig zult hebben in volgende modules. Dit zijn "extra onderwerpen", die niettemin later erg van pas kunnen komen. Al deze opdrachten **tellen gewoon mee**, maar mocht je tijd tekort komen dan zijn dat de opdrachten die je het best kunt overslaan.
+*) Bij dit vak is het **niet** verplicht om alle opdrachten af te maken. De deadlines zijn dan ook strikt, zelfs in geval van ziekte (zie onder). Dit om de werkdruk redelijk te houden naast het vak Programmeerproject, en de algemene organisatie werkbaar te houden.
+
+Er zijn enkele opdrachten die onderwerpen behandelen die je niet direct nodig zult hebben in volgende modules. Dit zijn "extra onderwerpen", die niettemin later erg van pas kunnen komen. Al deze opdrachten **tellen gewoon mee**, maar mocht je tijd tekort komen dan zijn dat de opdrachten die je het best kunt overslaan.
 
 ## Werkgroep en mentor
 
