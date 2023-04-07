@@ -1,7 +1,5 @@
 # Type hints
 
-**Let op! Deze en de volgende pagina's bevatten oefeningen met invulvelden. Je zult deze opdrachten echter niet submitten. Als je de pagina opnieuw laadt zullen je ingevulde antwoorden ook verdwenen zijn. Het is dus aan te raden de opdrachten zelf apart op te slaan.**
-
 A type hint in the simplest form looks like this:
 
     foo: int
@@ -41,8 +39,6 @@ Annotate the `factorial` function below by adding as many type hints as needed:
             total *= i
         return total
 
-<textarea name="form[q1]" rows="5" required=""></textarea>
-
 ## Collection types
 
 Integers, floats, booleans and strings are primitive data types. Built into the language, they serve as building blocks for more complex data structures. For instance, you might need a `list` to store your data.
@@ -81,15 +77,9 @@ Annotate the data structures below:
 
     foo = ["hello", "world"]
 
-<textarea name="form[q2.1]" rows="1" required=""></textarea>
-
     bar = [("Martijn", 1), ("Marleen", 2)]
 
-<textarea name="form[q2.2]" rows="1" required=""></textarea>
-
     baz = {1: {2: {3: "hello"}}}
-
-<textarea name="form[q2.3]" rows="1" required=""></textarea>
 
 ## Type aliases
 
@@ -107,3 +97,49 @@ Now you can use that alias in your code:
 
     def create_structure(input: list[list[tuple[int,str]]]) -> MyStructure
 
+## Flexible typing
+
+Sometimes your code isn't as clean as it could be and you require types to be a bit more flexible. Python provides a few mechanisms to provide this flexibility. [(Here are the official docs.)](https://docs.python.org/3/library/typing.html#special-forms)
+
+### Any
+
+The ultimate flexibility is provided by `Any`. It allows objects of any type to be processed by your code:
+
+    from typing import Any
+
+    def is_empty(thing: Any) -> bool:
+        if thing == ""
+            return True
+        elif statement == []
+            return True
+        elif statement == "emptyness":
+            return True
+        else:
+            return False
+
+However, in most cases we consider using `Any` a form of cheating. After all, you have used strict typing in C, mustn't it be possible to keep it that way in Python, too?
+
+### Union
+
+For instance, in some cases a function might be able to cope with multiple types. Effectively one type or the other. `Union` handles this like so:
+
+    from typing import Union
+
+    def add(a: Union[int, float], b: Union[int, float]) -> Union[int, float]:
+        return a + b
+
+Starting in Python 3.10, `Union[int, float]` can also be written as `int | float`
+
+### Optional
+
+Sometimes it is uncertain whether a function will return a value. Let's say we are looking for the location of a needle in a haystack. It might be in the haystack, it might also not be. In case it is not, it is a common (not necessarily best) practice to return `None`. That is what `Optional` captures, either a value is returned, or `None`.
+
+    from typing import Optional
+
+    def find_index(haystack: [int], needle: int) -> Optional[int]:
+        for i, hay in enumerate(haystack):
+            if hay == needle:
+                return i
+        return None
+
+`Optional[int]` is equivalant to `Union[int, None]`. In that sense, it is entirely optional to use.
