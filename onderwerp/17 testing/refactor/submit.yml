@@ -1,9 +1,7 @@
 name: python_tests
 files:
     required:
-        - mario.py
-        - test_mario.py
-        - readability.py
-        - test_readability.py
         - schuifpuzzel.py
         - test_schuifpuzzel.py
+        - hangman.py
+        - test_hangman.py
