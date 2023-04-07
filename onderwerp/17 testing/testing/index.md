@@ -118,7 +118,7 @@ Now we can test for this. Test whether the function raises a certain exception. 
 
 This test will pass if a `ValueError` is raised and fail if it did not.
 
-
+<!--
 ## Fixtures
 
 Earlier we tested `get_median` with an input namely `[1,2,3,4,5]`. Odds are that almost every test you'll write needs some input, or rather some constant or fixed things that we are going to test with. Or in testing terminology, fixtures.
@@ -170,3 +170,4 @@ If we run pytest with this code in `test_median.py` we'll see:
     ========================== 4 passed in 0.02s =========================
 
 Even though the file contains 1 test function, 4 tests are run. One for each version of the fixture. In fact, any test function taking the fixture `odd` will now be called 4 times. This is a very quick way to test for many different inputs, without needing to write a lot of code!
+-->
