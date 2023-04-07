@@ -30,9 +30,9 @@ In deze module ga je in een aantal stappen je programma's aanpassen. Aan het ein
 
 Beide programma's moeten op z'n minst nog goed werken. De inhoudelijke beoordeling van de uiteindelijke versies vindt met hulp van de volgende richtlijnen plaats (het gaat over het algemeen om minimumeisen):
 
-1. De programma's zijn op basis van enkele onderwerpen uit deze module met enig succes aangepast. Voor elke aanpassing is een eenduidige reden genoemd in het verslag.
+1. De programma's zijn op basis van enkele onderwerpen uit deze module met enig succes aangepast. Voor elke individuele aanpassing is een eenduidige reden genoemd in het verslag.
 
-2. De programma's zijn op basis van de meeste onderwerpen uit deze module met enig succes aangepast. Voor elke aanpassing is een eenduidige reden genoemd in het verslag.
+2. De programma's zijn op basis van de meeste onderwerpen uit deze module met enig succes aangepast. Voor elke individuele aanpassing is een eenduidige reden genoemd in het verslag.
 
 3. De programma's zijn aangepast op basis van docstrings, assertions, type hints, tests en de statische analysetools. Voor alle aanpassingen is uitgelegd waarom deze is gedaan met specifieke verwijzingen naar tools, documentatie of uitleg in de cursus.
 

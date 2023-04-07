@@ -69,7 +69,7 @@ templates:
 
 grades:
 
-    python_questions: *aftekenen
+    # python_questions: *aftekenen
     mario:
         <<: *automatisch
         calculation: -akkoord * 2
@@ -81,44 +81,65 @@ grades:
         automatic:
             akkoord: -(correctness_score.floor/4)
         calculation: -akkoord * 2
-    python_type_hints: *punten
 
-    python_tests: *aftekenen
-    cash_tests: *punten
-    kalender_tests: *punten
+    # lisp:
+    #     <<: *automatisch
+    #     automatic:
+    #         akkoord: -(correctness_score.floor/4)
+    #     calculation: -akkoord
+    #     auto_publish: false
+    # figuren:
+    #     <<: *automatisch
+    #     automatic:
+    #         akkoord: -(correctness_score.floor/1)
+    #     calculation: -akkoord * 2
+    #     auto_publish: false
+    # knapsack: *punten
 
-    lisp:
+    queue:
         <<: *automatisch
         automatic:
-            akkoord: -(correctness_score.floor/4)
+            akkoord: -(correctness_score.floor/2)
         calculation: -akkoord
         auto_publish: false
-    figuren:
+    cards:
         <<: *automatisch
         automatic:
-            akkoord: -(correctness_score.floor/1)
-        calculation: -akkoord * 2
+            akkoord: -(correctness_score.floor/10)
+        calculation: -akkoord
         auto_publish: false
-    knapsack: *punten
+    hangman:
+        <<: *automatisch
+        automatic:
+            akkoord: -(correctness_score.floor/10)
+        calculation: -akkoord * 4
+        auto_publish: false
+
+    # python_contract: *aftekenen
+    # python_type_hints: *aftekenen
+    # python_tests: *aftekenen
+    quality: *punten
 
     card_implementations:
         <<: *aftekenen
         calculation: -akkoord * 2
-    deck_21:
-        <<: *aftekenen
-        calculation: -akkoord * 4
-    quality: *punten
-
     containers_lists: *punten
     containers_dicts:
         <<: *aftekenen
-        calculation: -akkoord * 3.5
-    profilers: *punten
+        calculation: -akkoord * 2
 
     palindrome:
         <<: *aftekenen
         calculation: -akkoord * 2
     adventure-more: *punten
+
+    cash_tests: *punten
+    profilers: *punten
+    # kalender_tests: *punten
+    # deck_21:
+    #     <<: *aftekenen
+    #     calculation: -akkoord * 4
+
 
 # CALCULATIONS - define the final grades for the course and the weights between
 # subcomponents for each. Often, multiple final grades are differentiated by the
@@ -142,8 +163,8 @@ calculation:
         module_2: 1
         module_3: 1
         module_4: 1
-        module_5: 1
-        module_6: 2 # is twee modules gecombineerd
+        module_5: 2
+        # module_6: 2 # is twee modules gecombineerd
 
 # SUB-CALCULATIONS - define the components of the course that may be used in
 # final grade calculations. A few constraints can be specified.
@@ -166,32 +187,37 @@ calculation:
 
 module_1:
     type: points
-    total_points: 10
+    total_points: 6
     show_progress: true
     submits:
-        python_questions: 1
-        mario: 1
-        readability: 1
-        schuifpuzzel: 1
-        python_type_hints: 1
+        # python_questions: 1
+        mario: 2
+        readability: 2
+        schuifpuzzel: 2
 
 module_2:
     type: points
-    total_points: 10
+    total_points: 6
     show_progress: true
     submits:
-        python_tests: 0 # oefenopdracht
-        cash_tests: 1
-        kalender_tests: 1
+        queue: 1
+        cards: 1
+        hangman-less: 4
+        # python_tests: 0 # oefenopdracht
+        # kalender_tests: 1
+        # lisp: 1
+        # figuren: 1
+        # knapsack: 1
 
 module_3:
     type: points
-    total_points: 10
+    total_points: 6
     show_progress: true
     submits:
-        lisp: 1
-        figuren: 1
-        knapsack: 1
+        python_contract: 0
+        python_type_hints: 0
+        python_tests: 0
+        quality: 6
 
 module_4:
     type: points
@@ -199,22 +225,22 @@ module_4:
     show_progress: true
     submits:
         card_implementations: 1
-        deck_21: 1
-        quality: 1
+        containers_lists: 1
+        containers_dicts: 1
+        # deck_21: 1
 
 module_5:
     type: points
-    total_points: 10
+    total_points: 12
     show_progress: true
     submits:
-        containers_lists: 1
-        containers_dicts: 1
-        profilers: 1
+        palindrome: 2
+        adventure-more: 10
 
-module_6:
+extra:
     type: points
-    total_points: 20
+    total_points: 6
     show_progress: true
     submits:
-        palindrome: 1
-        adventure-more: 1
+        cash_tests: 1
+        profilers: 1
