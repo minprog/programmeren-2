@@ -23,7 +23,7 @@ Objects:
 
 Tools:
     Overzicht: /modules/tools
-    Design:
+    Design-documentatie:
         "Boek: Design by contract": /onderwerp/design/boek
         Documenteer je functies [opdracht]: /onderwerp/design/contract
     Types in Python:
@@ -36,7 +36,7 @@ Tools:
     Testen in Python:
         "Achtergrond: testen in Python": /onderwerp/testing/testing
         Tests toevoegen [opdracht]: /onderwerp/testing/refactor
-    Quality:
+    Statische kwaliteitsanalyse:
         Verbeter je code [opdracht]: /onderwerp/quality
     Extra onderwerp (telt gewoon mee):
         Wat is mis met Cash [opdracht]: /onderwerp/testing/cash

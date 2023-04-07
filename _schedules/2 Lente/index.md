@@ -26,6 +26,21 @@ Bij dit vak is het **niet** verplicht om alle opdrachten af te maken. De deadlin
 
 Er zijn enkele opdrachten die onderwerpen behandelen die je niet direct nodig zult hebben in volgende modules. Dit zijn "extra onderwerpen", die niettemin later erg van pas kunnen komen. Al deze opdrachten **tellen gewoon mee**, maar mocht je tijd tekort komen dan zijn dat de opdrachten die je het best kunt overslaan.
 
+| module      | punten    |
+| - | - |
+| Python      | 6 |
+| Objects     | 6 |
+| Tools       | 6 |
+| - | - |
+| Opdracht Cash | 3 |
+| - | - |
+| Abstractions | 6 |
+| Structures   | 12 |
+| - | - | 
+| Opdracht Profiling | 3 |
+| - | - |
+| Totaal |  42 |
+
 ## Werkgroep en mentor
 
 Je zit bij dit vak in een **groep** met ~15 andere studenten. Binnen deze groep zul je onder andere samen werken aan het ontwerpen van oplossingen voor de opdrachten en het bespreken en verbeteren van jouw code. De verplichte wekelijkse bijeenkomst staat in het rooster als werkcollege.
