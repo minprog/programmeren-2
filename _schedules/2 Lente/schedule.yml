@@ -2,7 +2,7 @@ Welkom:
     Lees hier even rustig door de studiewijzer om te ontdekken hoe het vak in elkaar zit: /syllabus
 
 Python:
-    "Overzicht: Starten met Python": /onderwerp/python
+    "Overzicht: Starten met Python": /modules/python
     Voorbereiding:
         'Videocollege: Python': /lectures/python-david
         Vragen over het college: /onderwerp/python/lecture-questions
@@ -12,7 +12,7 @@ Python:
         Schuifpuzzel [opdracht]: /onderwerp/python/schuifpuzzel
 
 Objects:
-    Overzicht: /onderwerp/oop
+    Overzicht: /modules/oop
     Voorbereiding:
         "Videocollege: OOP": /objects/lecture
         "Boek 1a: OOP": /onderwerp/oop/boek
@@ -22,8 +22,8 @@ Objects:
         Hangman: /hangman/classic
 
 Tools:
+    Overzicht: /modules/tools
     Types in Python:
-        "Overzicht: Typing": /onderwerp/typing
         "Background: typing in Python": /onderwerp/python/typing
         Type hints: /onderwerp/python/type-hints
         Type aliases and variables: /onderwerp/python/type-aliases
@@ -31,7 +31,6 @@ Tools:
         Flexible typing: /onderwerp/python/flexible-typing
         Type hints toevoegen [opdracht]: /onderwerp/python/add-type-hints
     Testen in Python:
-        "Overzicht: Design en Testen": /onderwerp/abstraction
         "Boek: top-down design": /onderwerp/abstraction/voorbereiding
         "Achtergrond: testen in Python": /onderwerp/abstraction/testing
         Oefenen met testen: /onderwerp/abstraction/refactor
