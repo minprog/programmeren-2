@@ -28,4 +28,4 @@ Of om alle bestanden in de huidige map te controleren:
 
 ## Submit
 
-Je kunt hieronder je aangepaste programma's opsturen.
+Je kunt hieronder je aangepaste programma's insturen.
