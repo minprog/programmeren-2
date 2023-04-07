@@ -20,6 +20,12 @@ Printen is één van de *side-effects* die een functie kan hebben (zie boek). An
 
 Om te zorgen dat de postcondition geen enorm ingewikkeld verhaal wordt is het belangrijk functies goed van elkaar te scheiden en zoveel mogelijk één operatie te laten uitvoeren. De hierboven genoemde scheiding tussen functies die returnen en die printen is een goed voorbeeld daarvan.
 
+## Assertions
+
+Je bent eerder al `assert`-statements tegengekomen. Het doel van assertions is om preconditions in het programma te laten controleren tijdens het runnen van het programma. Als een assertion "faalt" dan wordt het programma direct gestopt. Onthou dus dat assertions eisen moeten stellen waar **nooit** van mag worden afgeweken. Zo zou er echt nooit een kaart gedeeld mogen worden van een `Deck` waar helemaal (nog) geen kaarten in zitten. Je kunt nog wel beredeneren dat de method dan misschien `False` zou returnen maar aan de andere kant: waarom zou er überhaupt een stuk code zijn dat de `deal`-functie aanroept terwijl er helemaal geen kaarten in het spel zitten? Met een `assert` bepaal je dat dit nooit mag gebeuren.
+
+Let op dat assertions geen manier zijn om fouten te communiceren naar de gebruiker van je programma. Als het programma zonder omhaal gestopt wordt met een technische foutmelding, dan gaat je gebruiker hier niks van begrijpen. Assertions zijn dus vooral belangrijk om fouten te voorkomen en vroeg te detecteren *tijdens het ontwikkelproces*.
+
 ## Opdracht
 
 Voor dit onderdeel is je opdracht om Schuifpuzzel en Hangman te documenteren met pre- en postconditions.
@@ -35,3 +41,5 @@ Voor dit onderdeel is je opdracht om Schuifpuzzel en Hangman te documenteren met
 Bespreek vooral de mogelijkheden met je buren. Het vraagt echt flink doordenken om interessante (en liefst complete!) pre- en postconditions te stellen.
 
 Een `class` zelf heeft geen pre- of postconditions. Bedenk en bespreek waarom dit is.
+
+Lever hieronder de aangepaste versies van `schuifpuzzel.py` en `hangman.py` in.
