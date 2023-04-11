@@ -3,3 +3,4 @@ form: true
 files:
     required:
         - test_cash.py
+        - verslag.pdf
