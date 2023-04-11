@@ -26,6 +26,8 @@ Of om alle bestanden in de huidige map te controleren:
 
     mypy --strict .
 
+Mocht je meldingen tegenkomen die je niet kunt oplossen, zoek dan in ieder geval naar een oplossing op internet, maar leg dit ook voor aan de docenten, door een mail te sturen naar <help@mprog.nl> (zodanig op tijd dat er nog ruim vóór de deadline een antwoord gestuurd kan worden).
+
 ## Submit
 
 Je kunt hieronder je aangepaste programma's insturen.

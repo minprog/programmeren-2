@@ -83,10 +83,30 @@ A few things happened here. `pytest` went looking in the current directory for a
 
 Then, with our one test discovered, `pytest` will run the test. For convenience, `pytest` uses Python's built-in `assert` statements. Other frameworks might have their own assertion methods. So all `pytest` does here is run the function and if an assertion fails, the test fails and otherwise it succeeds. In this case 100%, all of 1 test succeeded!
 
+### Testen van foute input
+
+Soms wil je in je test controleren of een functie of programma een fout geeft in plaats van een juist antwoord. Stel dat we de volgende functie hebben:
+
+    def get_median(items: list[int]) -> int:
+        size = len(items)
+        assert size > 0, "Cannot get a median from an empty list."
+        middle = size // 2
+        return items[middle]
+
+Je kunt dan testen of de functie inderdaad stopt als er sprake is van een foute input:
+
+    import pytest
+    from median import get_median
+
+    def test_empty():
+        with pytest.raises(AssertionError):
+            get_median([])
+
+De test slaagt als nu de `assert` triggert en een `AssertionError` geeft. Als je de `assert` weglaat dan zal de test nogal hard falen (probeer het eens uit!).
 
 ### Exceptions
 
-So far we have tended to treat exceptions as if they were errors and were something to avoid. But many modern programming languages including Python have ways of dealing with exceptions. As follows:
+Naast assertions zijn er ook exceptions in Python. Eén manier om exceptions te gebruiken is om **foute user-input** af te vangen. Als een gebruiker iets fout doet dan wil je niet dat het programma crasht maar dat het probeert er toch maar het beste van te maken. In dit voorbeeld zie je dat we om input vragen, graag een gewoon getal, maar we weten natuurlijk niet helemaal zeker of de gebruiker zich daar aan gaat houden. Daarom gebruiken we een exception om dit mogelijke probleem "af te vangen" (catchen). Daarvoor is de `try`-`except`-constructie.
 
     text = input("give me a number")
     try:
@@ -94,9 +114,21 @@ So far we have tended to treat exceptions as if they were errors and were someth
     except ValueError:
         number = 0
 
-Through `try` and `except` we can try to execute a snippet of code and if it happens to fail due to some exception (`ValueError` above) we can deal with the exception. This is a powerful feature as it's often easier to ask forgiveness than to get permission. For instance, in the example above it is difficult to imagine each case in which we can convert a string into an integer. The string might exist of only numbers, but a `.` is also allowed. But not more than one `.` though! Whereas the other way around, well we can just try to make it an integer and see what happens.
+Een dergelijk gebruik van exceptions gaan we niet testen (omdat er sprake is van user input, wat erg lastig is om te simuleren in een test), maar exceptions kunnen op meer manieren gebruikt worden.
 
-Exceptions and tests go hand in hand. As you'll find yourself thinking about edgecases and erroneous cases. For instance, what's the median of an empty list `[]`? Arguably that is undefined and an exception really. Probably best to `raise` an exception in this case. Let's adjust our implementation of `get_median` to the following:
+### Ask for forgiveness
+
+In Python is het principe "it's often easier to ask forgiveness than to get permission" één van de leidraden bij het schrijven van code. In het bovenstaande voorbeeld is het moeilijk om elk geval voor te stellen waarin we een string kunnen omzetten in een geheel getal. De string mag alleen uit cijfers bestaan, maar een `.` is ook toegestaan. Maar niet meer dan één `.` hoor! Voor je het weet ben je allerlei if-statements aan het schrijven om de input te valideren vóór je deze durft om te zetten naar een integer.
+
+Wat nou als we proberen er een integer van te maken en kijken wat er gebeurt?
+
+Dat is het idee van de code hierboven: je probeert het, en als het fout blijkt, dan probeer je dat probleem op een goede wijze op te lossen. Dat is het "asking for forgiveness"-deel.
+
+### Exceptions vs assertions
+
+Exceptions vervullen in Python vaak dezelfde functie als assertions. Je zult ze door elkaar tegenkomen. We raden je voor nu aan om `assert`-statements te schrijven met een korte goede foutmelding, waardoor jij als programmeur snel kan achterhalen wat er mis is. Later kun je ook exceptions gaan schrijven volgens de Python-filosofie.
+
+Voor nu is het vooral belangrijk dat je weet hoe je functies moet testen die ook exceptions kunnen geven. Stel dat we het programma van hierboven herschrijven met een excetpion:
 
     def get_median(items: list[int]) -> int:
         size = len(items)
@@ -107,7 +139,7 @@ Exceptions and tests go hand in hand. As you'll find yourself thinking about edg
         middle = size // 2
         return items[middle]
 
-Now we can test for this. Test whether the function raises a certain exception. Here's how you do it in `pytest`:
+Ook deze kunnen we testen:
 
     import pytest
     from median import get_median
@@ -116,7 +148,14 @@ Now we can test for this. Test whether the function raises a certain exception. 
         with pytest.raises(ValueError):
             get_median([])
 
-This test will pass if a `ValueError` is raised and fail if it did not.
+Net als bij de `AssertionError` zal de test slagen als er een `ValueError` wordt gegeven.
+
+### Exceptions vs assertions
+
+In eerdere opdrachten heb je kennis gemaakt met assertions die je in je eigen code plaatst, die het programma stoppen als er iets onmogelijks gebeurt.
+
+
+In een later stadium kun je ook exceptions gebruiken op de manier waarop deze in Python vaak gebruikt worden. Dit vereist wat meer ervaring met het schrijven van Python-code, zodat je ruimte hebt om na te denken over wanneer je wel en niet exceptions moet gebruiken. In deze cursus wordt niet beoordeeld op het gebruik van exceptions, wel op het gebruik van assertions.
 
 <!--
 ## Fixtures
