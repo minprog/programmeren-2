@@ -5,3 +5,4 @@ files:
         - test_schuifpuzzel.py
         - hangman.py
         - test_hangman.py
+        - verslag.pdf

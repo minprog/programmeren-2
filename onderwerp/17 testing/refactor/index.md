@@ -43,7 +43,9 @@ Nu is een belangrijke vraag om in gedachten te houden: waarom test je eigenlijk?
 
 Dus als de noemer `0` is komt er voortaan een exception, in plaats van het antwoord `False`. Dat is een wezenlijk andere uitkomst dan voorheen, en misschien heeft dat wel invloed op andere delen van de code (daar moet je nu bijvoorbeeld een `try` toevoegen?). Goed dus om die verwachting van `return False` in de verzameling tests te hebben, want dan ziet je medeprogrammeur dat hier een bewuste keuze was gemaakt en dat zo'n wijziging niet zomaar gedaan moet worden. Tijd voor een goed gesprek dus!
 
+## Comments
 
+Zorg dat je in de comments bij een testcase altijd vermeld waarom je die testcase hebt gekozen.
 
 
 <!--

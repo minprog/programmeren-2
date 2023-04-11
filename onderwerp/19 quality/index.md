@@ -60,4 +60,17 @@ In de basis is het vrij simpel: elke **beslissing** maakt de functie complexer. 
 
 Op deze manier heb je 20 verbeteringen gedaan en nauwkeurig gedocumenteerd. Als je een aantal dezelfde soort verbeteringen doet op verschillende stukjes code, geef dit dan op als één stap. Kun je over een verbetering niet echt iets zinnigs schrijven? Bijvoorbeeld als je toevallig één keer een spatie teveel hebt... dan kun je die beter overslaan.
 
-De tests die je eerder hebt geschreven zou je niet met Radon moeten controleren. Flake8 zou wel nuttig kunnen zijn.
+De tests die je eerder hebt geschreven zou je niet met Radon moeten controleren. Flake8 zou wel nuttig kunnen zijn voor de `test_*` bestanden.
+
+## Samenvoegen
+
+Uiteindelijk lever je hieronder programma's in met
+
+- docstrings en assertions
+- type hints
+- tests
+- verbeteringen op basis van analysetools
+
+Zorg dat alle toevoegingen en aanpassingen zoveel mogelijk consistent met elkaar zijn. Aan de andere kant moet je bijvoorbeeld geen docstrings weglaten omdat je een plugin voor Flake8 hebt gekozen die geen docstrings wil zien (we denken niet dat deze plugin bestaat, maar toch). Kortom, zorg dat je aan de opdracht voldoet en alles zo zorgvuldig mogelijk netjes hebt gemaakt.
+
+Naast je verbeterde versies + tests lever je ook een verslag in waarin je vooral per aanpassing verantwoordt waarom je die hebt gedaan (zie de beoordeling bij het "Overzicht" van deze module). Waar nodig schrijf je ook iets over je proces, bijvoorbeeld als je uiteindelijk juist iets niet hebt veranderd, om een goede en interessante reden.
