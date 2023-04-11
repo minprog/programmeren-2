@@ -26,9 +26,11 @@ Je gaat in deze module:
 
 ## Puntentelling
 
-In deze module ga je in een aantal stappen je programma's **Schuifpuzzel** en **Hangman** aanpassen. Aan het eind van de module ga je één definitieve versie inleveren met daarbij een verslag van jouw werkwijze en aanpassingen.
+In deze module ga je in een aantal stappen je programma's **Schuifpuzzel** en **Hangman** aanpassen. Je gebruikt daarbij nieuwe achtergrondkennis en verschillende nieuwe tools.
 
-Beide programma's moeten op z'n minst nog goed werken. De inhoudelijke beoordeling van de uiteindelijke versies vindt met hulp van de volgende richtlijnen plaats (het gaat over het algemeen om minimumeisen):
+Aan het eind van de module ga je één definitieve versie inleveren van deze twee programma's met daarbij een verslag van jouw werkwijze en aanpassingen. Er zijn ook tussenstappen die je moet/kunt inleveren, maar uiteindelijk wordt de laatste versie bij de opdracht "Verbeter je code" nagekeken.
+
+Beide programma's moeten op z'n minst nog goed werken. Als dat zo is, kun je 0--6 punten halen. De inhoudelijke beoordeling van de uiteindelijke versies vindt met hulp van de volgende richtlijnen plaats (het gaat over het algemeen om minimumeisen):
 
 1. De programma's zijn met enig succes aangepast op basis van enkele onderwerpen uit deze module. Voor elke aanpassing is een zinvolle redenatie genoemd in het verslag.
 
