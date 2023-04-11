@@ -26,23 +26,23 @@ Je gaat in deze module:
 
 ## Puntentelling
 
-In deze module ga je in een aantal stappen je programma's aanpassen. Aan het eind van de module ga je één definitieve versie inleveren met daarbij een verslag van jouw werkwijze en aanpassingen.
+In deze module ga je in een aantal stappen je programma's **Schuifpuzzel** en **Hangman** aanpassen. Aan het eind van de module ga je één definitieve versie inleveren met daarbij een verslag van jouw werkwijze en aanpassingen.
 
 Beide programma's moeten op z'n minst nog goed werken. De inhoudelijke beoordeling van de uiteindelijke versies vindt met hulp van de volgende richtlijnen plaats (het gaat over het algemeen om minimumeisen):
 
-1. De programma's zijn op basis van enkele onderwerpen uit deze module met enig succes aangepast. Voor elke individuele aanpassing is een eenduidige reden genoemd in het verslag.
+1. De programma's zijn met enig succes aangepast op basis van enkele onderwerpen uit deze module. Voor elke aanpassing is een zinvolle redenatie genoemd in het verslag.
 
-2. De programma's zijn op basis van de meeste onderwerpen uit deze module met enig succes aangepast. Voor elke individuele aanpassing is een eenduidige reden genoemd in het verslag.
+2. De programma's zijn met succes aangepast op basis van de meeste onderwerpen uit deze module. Voor elke aanpassing is een zinvolle redenatie genoemd in het verslag.
 
-3. De programma's zijn aangepast op basis van docstrings, assertions, type hints, tests en de statische analysetools. Voor alle aanpassingen is uitgelegd waarom deze is gedaan met specifieke verwijzingen naar tools, documentatie of uitleg in de cursus.
+3. De programma's zijn met succes aangepast op basis van alle onderwerpen: docstrings, assertions, type hints, tests en de statische analysetools. Voor elke aanpassing is een zinvolle redenatie genoemd in het verslag.
 
-4. De programma's zijn aangepast op basis van docstrings, assertions, type hints, tests en de statische analysetools. Op basis van de statische analysetools zijn substantiële wijzigingen gedaan. Voor alle aanpassingen is uitgelegd waarom deze is gedaan met specifieke verwijzingen naar tools, documentatie of uitleg in de cursus.
+4. De programma's zijn met succes aangepast op basis van alle onderwerpen: docstrings, assertions, type hints, tests en de statische analysetools. Op basis van de statische analysetools zijn substantiële wijzigingen gedaan. Voor alle aanpassingen is uitgelegd waarom deze is gedaan met specifieke verwijzingen naar uitleg van tools, documentatie of in de cursus.
 
-5. De programma's zijn systematisch en zinvol aangepast op basis van docstrings, assertions, type hints, tests en de statische analysetools. Verbeteringen stoppen niet bij een toepassen van alle instructies, maar uit de documentatie blijkt ook dat interessante overwegingen zijn gedaan en zinvolle beslissingen zijn genomen om uit een impasse te komen.
+5. De programma's zijn met succes aangepast op basis van alle onderwerpen: docstrings, assertions, type hints, tests en de statische analysetools. Op basis van de statische analysetools zijn substantiële wijzigingen gedaan. Eenvoudige problemen zoals het corrigeren van fouten zijn niet meegenomen in het verslag maar vooraf verwerkt. Verbeteringen stoppen niet bij een toepassen van alle instructies, maar uit de documentatie blijkt ook dat interessante overwegingen zijn gedaan en zinvolle beslissingen zijn genomen om bepaalde wijzigingen wel en niet te doen.
 
-6. De programma's zijn systematisch en zinvol aangepast op basis van docstrings, assertions, type hints, tests en de statische analysetools. Uit de documentatie blijkt dat hierin verder is gegaan dan de standaard aangeboden stof, bijvoorbeeld door het gebruik van extra bronnen en tools (beide staan bewust in meervoud) en het afwegen van meerdere opties.
+6. De programma's zijn met succes aangepast op basis van alle onderwerpen: docstrings, assertions, type hints, tests en de statische analysetools. Op basis van de statische analysetools zijn substantiële wijzigingen gedaan. Eenvoudige problemen zoals het corrigeren van fouten zijn niet meegenomen in het verslag maar vooraf verwerkt. Uit het verslag blijkt dat er flink is geëxperimenteerd met verschillende opties om de code vorm te geven en dat er bewust eigen regels zijn geformuleerd voor de code, met verwijziging naar verschillende bronnen en uitkomsten van de tools.
 
-Alleen aanpassingen doen in één van beide programma's is niet genoeg om punten te scoren. Mocht je een programma eerder niet of niet correct hebben ingeleverd, dan zul je het moeten afmaken voordat je bovenstaande aanpassingen gaat doen.
+Alleen aanpassingen doen in één van beide programma's is niet genoeg om punten te scoren. Je moet dus allebei op hetzelfde minimumniveau aanpassen. Mocht je een programma eerder niet of niet correct hebben ingeleverd, dan zul je het moeten afmaken voordat je bovenstaande aanpassingen gaat doen.
 
 ## Extra onderwerp
 
