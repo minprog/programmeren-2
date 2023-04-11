@@ -48,6 +48,8 @@ In de basis is het vrij simpel: elke **beslissing** maakt de functie complexer. 
 
 2. Gebruik de tool om je programma's te controleren op complexiteit. Probeer te achterhalen waarom je code op bepaalde punten erg complex is geworden. Kijk of je vereenvoudigingen ziet, of dat je aparte functies kunt definiëren voor bepaalde delen.
 
+3. Complexity `B` is behoorlijk goed, maar let op dat de programma's sowieso niet zo groot zijn en toch al redelijk voorgestructureerd. Als je tijd hebt is de verwachting om wel te kijken of je alles naar complexity `A` kunt krijgen.
+
 ## Verbeteren (de echte opdracht)
 
 1. Doe op basis van de output van de tools hierboven een verbetering in je code. Dat kan van alles zijn!
@@ -69,7 +71,8 @@ Uiteindelijk lever je hieronder programma's in met
 - docstrings en assertions
 - type hints
 - tests
-- verbeteringen op basis van analysetools
+- verbeteringen op basis van Radon
+- verbeteringen op basis van Flake8
 
 Zorg dat alle toevoegingen en aanpassingen zoveel mogelijk consistent met elkaar zijn. Aan de andere kant moet je bijvoorbeeld geen docstrings weglaten omdat je een plugin voor Flake8 hebt gekozen die geen docstrings wil zien (we denken niet dat deze plugin bestaat, maar toch). Kortom, zorg dat je aan de opdracht voldoet en alles zo zorgvuldig mogelijk netjes hebt gemaakt.
 
