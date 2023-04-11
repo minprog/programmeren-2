@@ -74,3 +74,7 @@ Uiteindelijk lever je hieronder programma's in met
 Zorg dat alle toevoegingen en aanpassingen zoveel mogelijk consistent met elkaar zijn. Aan de andere kant moet je bijvoorbeeld geen docstrings weglaten omdat je een plugin voor Flake8 hebt gekozen die geen docstrings wil zien (we denken niet dat deze plugin bestaat, maar toch). Kortom, zorg dat je aan de opdracht voldoet en alles zo zorgvuldig mogelijk netjes hebt gemaakt.
 
 Naast je verbeterde versies + tests lever je ook een verslag in waarin je vooral per aanpassing verantwoordt waarom je die hebt gedaan (zie de beoordeling bij het "Overzicht" van deze module). Waar nodig schrijf je ook iets over je proces, bijvoorbeeld als je uiteindelijk juist iets niet hebt veranderd, om een goede en interessante reden.
+
+Mocht je geen Programmeren 1 hebben gevolgd, of je hebt dit vorig semester gedaan, voel je dan vrij om de docenten te mailen met een conceptversie van je verslag (<help@mprog.nl>), om te kijken of het format voldoet. Doe dit wel zodanig op tijd dat er nog ruimschoots gelegenheid is om vóór de deadline een antwoord te sturen!
+
+Let op: als je vragen hebt over de beoordeling moet je echt even een mail sturen, en niet de mentoren/assistenten hiervoor aanspreken.
