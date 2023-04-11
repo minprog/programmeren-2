@@ -30,7 +30,7 @@ Let op dat assertions geen manier zijn om fouten te communiceren naar de gebruik
 
 Om de opdrachten in deze module op een interessante manier te kunnen uitvoeren is het belangrijk om code op te delen in functies. Hoogstwaarschijnlijk zijn je opdrachten al aardig opgedeeld, maar zorg er eventueel voor dat je nog extra functies maakt als je daar mogelijkheden toe ziet. Het kan ook nog tijdens de verdere opdrachten, het hoeft niet direct.
 
-Zet daarnaast eventuele losse testcode altijd in een "if-name-is-main". Voor `mario.py` kunt je bijvoorbeeld aan het volgende design denken:
+Zet daarnaast eventuele losse programmacode altijd in een "if-name-is-main". Voor `mario.py` kunt je bijvoorbeeld aan het volgende design denken:
 
     def good_name_for_drawing_a_pyramid(height):
         # TODO
@@ -47,9 +47,11 @@ Zet daarnaast eventuele losse testcode altijd in een "if-name-is-main". Voor `ma
 
 ## Wat is die if-name-is-main?
 
-`__name__ == "__main__"` controleert of de verborgen variabele `__name__` is ingesteld op `"__main__"`. *Dit is alleen het geval als dat python-bestand rechtstreeks wordt uitgevoerd vanaf de command line.*
+Het korte antwoord is: if-name-is-main kan ongeveer zo werken als de verplichte `main` die in C bestaat.
 
-Bijvoorbeeld, in het geval van `foo.py`, zal Python de `__name__` instellen op `"__main__"` als je `python3 foo.py` uitvoert vanaf de opdrachtregel. Je kunt dit uitproberen door `__name__` te printen:
+Het lange antwoord: `__name__ == "__main__"` controleert of de automatische variabele `__name__` is ingesteld op `"__main__"`. *En dit is het geval als een Python-bestand rechtstreeks wordt uitgevoerd vanaf de command line.*
+
+Stel dat je een `foo.py` hebt. Als je `python3 foo.py` start vanaf de opdrachtregel dan zal de code in dat bestand worden uitgevoerd. Python zal vooraf de variabele `__name__` instellen op de waarde `"__main__"`. Je kunt dit uitproberen door `__name__` te printen vanuit een Python-bestand:
 
      $ echo "print(__name__)" > foo.py
      $ python3 foo.py
@@ -61,9 +63,11 @@ Als je het bestand echter *indirect* uitvoert, door bijvoorbeeld `foo.py` te `im
      $ python3 bar.py
      foo
 
-Waarom is dit belangrijk? Python zal bij het `import`eren alle code in een Python-bronbestand uitvoeren. Dit is de reden waarom we `foo` afgedrukt zien, ook al is de enige code in `bar.py` `import foo`. Nu kun je je voorstellen dat dit vaak ongewenst is. Misschien wilde `bar.py` wat functies van `foo.py` hergebruiken, maar niet zomaar alle overige code in `foo.py` uitvoeren. Daarom is het een goede gewoonte om code te "bewaken" (guard) die alleen moet worden uitgevoerd als de gebruiker het programma direct runt.
+Hier geeft de regel `print(__name__)` dus de uitkomst `foo`.
 
-Kortom, `if __name__ == "__main__"` is het equivalent van Python voor een main-functie, zoals bekend uit talen als C en Java. Het gebruik ervan is in Python optioneel, maar over het algemeen een goede gewoonte.
+Waarom is dit belangrijk? Python zal bij het `import`eren *alle* losse regels code in een Python-bronbestand uitvoeren. Dit is de reden waarom we `foo` afgedrukt zien, ook al is de enige code in `bar.py` `import foo`. Nu kun je je voorstellen dat dit vaak ongewenst is. Misschien wilde `bar.py` wat functies van `foo.py` hergebruiken, maar niet zomaar alle overige code in `foo.py` uitvoeren. Daarom is het een goede gewoonte om code te "bewaken" (guard) die alleen moet worden uitgevoerd als de gebruiker het programma direct runt.
+
+Kortom, `if __name__ == "__main__"` is het equivalent van Python voor een main-functie, zoals bekend uit talen als C en Java. Het gebruik ervan is in Python optioneel, maar over het algemeen een goede gewoonte en soms cruciaal voor hergebruik van functies en classes.
 
 ## Individuele opdracht
 
@@ -71,7 +75,7 @@ Samenwerken bij deze opdracht is niet toegestaan; het is prima om medestudenten 
 
 ## Opdracht
 
-Voor dit onderdeel is je opdracht om Schuifpuzzel en Hangman te documenteren met pre- en postconditions.
+Voor dit onderdeel is je opdracht om **Schuifpuzzel** en **Hangman** te documenteren met pre- en postconditions.
 
 1. Voeg bovenaan elke functie of method een docstring toe (zie boek pagina 15 voor voorbeelden) met een korte omschrijving van het doel.
 
@@ -81,8 +85,10 @@ Voor dit onderdeel is je opdracht om Schuifpuzzel en Hangman te documenteren met
 
 4. Voeg aan de functies en methods ook `assert`-statements toe die de preconditions zo goed mogelijk controleren.
 
+5. Plaats een if-name-is-main waar die niet aanwezig was.
+
 Bespreek vooral de mogelijkheden met je buren. Het vraagt echt flink doordenken om interessante (en liefst complete!) pre- en postconditions te stellen.
 
-Een `class` zelf heeft geen pre- of postconditions. Bedenk en bespreek waarom dit is.
+Een `class` zelf heeft geen pre- of postconditions, maar de methods van een class wel. Bedenk en bespreek waarom dit is.
 
 Lever hieronder de aangepaste versies van `schuifpuzzel.py` en `hangman.py` in.
