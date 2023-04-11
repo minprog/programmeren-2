@@ -35,7 +35,7 @@ Wat maakt dit nu een goede verzameling tests voor deze functie? Het is ondoenlij
 
 - Dan wil je waarschijnlijk diverse gevallen testen waar de getallen *niet* "divisible" zijn. Hierboven is sprake van de combinatie `8` en `5`. Wat is er nog meer? Er zijn niet zoveel bijzondere gevallen te bedenken. Misschien is dit voldoende. Als je echt op dreef bent kun je kijken of er grenzen zijn aan hoe groot integers mogen zijn in Python en of dit nog invloed heeft op de werking van `is_divisible`.
 
-- Tot slot is er een speciale "edge case" in de functie, die ook expliciet terugkomt in de definitie. Er staat dat als de noemer `0` is, er sowieso `False` wordt gegeven. Die moet je dan zeker testen. Misschien is het zelfs goed om de combinatie `0` en `0` te testen.
+- Tot slot is er een speciale "edge case" in de functie, die ook expliciet terugkomt in de definitie. Er staat dat als de noemer `0` is, er sowieso `False` wordt gegeven. Die moet je dan zeker testen. Misschien is het zelfs goed om de combinatie `0` en `0` te testen. Overigens: niet alle edge cases staan zo duidelijk in functies! Soms zijn edge cases bijvoorbeeld gevolg van het gekozen datatype. Dus het is ook een kwestie van goed kijken wat er mis zou kunnen gaan.
 
 Kortom, het is al een redelijke verzameling tests, maar misschien moeten er nog een paar bij.
 
