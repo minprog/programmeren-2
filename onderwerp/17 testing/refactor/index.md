@@ -45,7 +45,7 @@ Dus als de noemer `0` is komt er voortaan een exception, in plaats van het antwo
 
 ## Comments
 
-Zorg dat je in de comments bij een testcase altijd vermeld waarom je die testcase hebt gekozen.
+Zorg dat je in de comments bij een testcase altijd vermeldt waarom je die testcase hebt gekozen.
 
 
 <!--
