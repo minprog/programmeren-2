@@ -101,19 +101,19 @@ grades:
         automatic:
             akkoord: -(correctness_score.floor/2)
         calculation: -akkoord
-        auto_publish: false
+        # auto_publish: false
     cards:
         <<: *automatisch
         automatic:
             akkoord: -(correctness_score.floor/10)
         calculation: -akkoord
-        auto_publish: false
+        # auto_publish: false
     hangman-less:
         <<: *automatisch
         automatic:
             akkoord: -(correctness_score.floor/10)
         calculation: -akkoord * 4
-        auto_publish: false
+        # auto_publish: false
 
     # python_contract: *aftekenen
     # python_type_hints: *aftekenen
