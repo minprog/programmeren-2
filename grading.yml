@@ -99,20 +99,20 @@ grades:
     queue:
         <<: *automatisch
         automatic:
-            akkoord: -(correctness_score.floor/2)
+            akkoord: -correctness_score
         calculation: -akkoord
         # auto_publish: false
     cards:
         <<: *automatisch
         automatic:
-            akkoord: -(correctness_score.floor/9)
-        calculation: -akkoord
+            akkoord: -correctness_score
+        calculation: -akkoord*2
         # auto_publish: false
     hangman-less:
         <<: *automatisch
         automatic:
-            akkoord: -(correctness_score)
-        calculation: -akkoord
+            akkoord: -correctness_score
+        calculation: -akkoord*4
         # auto_publish: false
 
     # python_contract: *aftekenen
