@@ -105,14 +105,14 @@ grades:
     cards:
         <<: *automatisch
         automatic:
-            akkoord: -(correctness_score.floor/10)
+            akkoord: -(correctness_score.floor/9)
         calculation: -akkoord
         # auto_publish: false
     hangman-less:
         <<: *automatisch
         automatic:
-            akkoord: -(correctness_score.floor/10)
-        calculation: -akkoord * 4
+            akkoord: -(correctness_score.floor/11)
+        calculation: -akkoord
         # auto_publish: false
 
     # python_contract: *aftekenen
