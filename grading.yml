@@ -111,7 +111,7 @@ grades:
     hangman-less:
         <<: *automatisch
         automatic:
-            akkoord: -(correctness_score.floor/11)
+            akkoord: -(correctness_score)
         calculation: -akkoord
         # auto_publish: false
 
