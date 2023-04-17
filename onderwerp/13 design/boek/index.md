@@ -1,6 +1,6 @@
 # Top-down design
 
-Uit het boek lees je de volgende paragrafen uit hoofdstuk 1 tot je alles zo goed mogelijk begrijpt (dit is een ander boek dan in de vorige module).
+Uit het boek lees je de volgende paragrafen uit hoofdstuk 1 (Abstraction and Analysis) tot je alles zo goed mogelijk begrijpt (dit is een ander boek dan in de vorige module).
 
 - 1.1 Overview
 - 1.2 Functional abstraction
