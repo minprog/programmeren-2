@@ -47,6 +47,7 @@ Abstractions:
         "Boek 2: Data Abstractions": /onderwerp/adts/boek
         Testen met twee implementaties: /onderwerp/adts/card
         # Een-en-twintigen: /onderwerp/adts/deck
+        Figuren: /onderwerp/oop/figuren
     Containers:
         "Boek 3: Container Classes": /onderwerp/containers/boek
         List structure: /onderwerp/containers/lists

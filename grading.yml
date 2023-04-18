@@ -88,12 +88,6 @@ grades:
     #         akkoord: -(correctness_score.floor/4)
     #     calculation: -akkoord
     #     auto_publish: false
-    # figuren:
-    #     <<: *automatisch
-    #     automatic:
-    #         akkoord: -(correctness_score.floor/1)
-    #     calculation: -akkoord * 2
-    #     auto_publish: false
     # knapsack: *punten
 
     queue:
@@ -123,6 +117,12 @@ grades:
     card_implementations:
         <<: *aftekenen
         calculation: -akkoord * 2
+    figuren:
+        <<: *automatisch
+        automatic:
+            akkoord: -(correctness_score.floor/1)
+        calculation: -akkoord * 2
+        auto_publish: false
     containers_lists: *punten
     containers_dicts:
         <<: *aftekenen
