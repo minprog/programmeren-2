@@ -9,7 +9,9 @@ Jouw specifieke taak is om een *container* class te ontwerpen waarin al deze obj
 - `lookup(name)` --- zoekt en geeft het object uit de collectie met de naam `name`
 - `list_all` --- geeft een lijst van alle objecten gesorteerd op naam
 
-Nu heb je de keuze uit een aantal *onderliggende* structuren om de data in op te slaan.
+Deze opdracht gaat over de keuzes die je hebt om **in een ADT-implementatie gebruik te maken van bestaande Python-classes zoals lists, dicst, sets en tuples**. Je gaat geen code schrijven maar redeneren op basis van een idee over welke Python-operaties je nodig zou hebben om je eigen structuur te implementeren.
+
+Voor deze opdracht ga je drie opties vergelijken:
 
 1. Je kunt de objecten opslaan in een standaard Python-lijst in de volgorde waarin ze zijn aangemaakt
 2. Je kunt de objecten opslaan in een standaard Python-lijst die altijd gesorteerd is op naam
@@ -17,30 +19,34 @@ Nu heb je de keuze uit een aantal *onderliggende* structuren om de data in op te
      * **Als je een lijst hebt met elementen `[1,4,5]` en je voegt `3` in, dan moet de lijst daarna `[1,3,4,5]` zijn, en niet `[1,4,5,3]` zoals wanneer je append gebruikt.**
 3. Je kunt de objecten opslaan in een standaard Python-dictionary die de naam als key gebruikt
 
-Het gaat er bij deze opdracht om dat je begrijpt hoe je een specialistische datastructuur kunt bouwen door intern een standaard Python-structuur te bouwen. Je gaat geen code schrijven maar redeneren op basis van een idee over welke Python-operaties je nodig zou hebben om je eigen structuur te implementeren.
+Alle drie de opties zijn valide: ze kunnen prima werkend gemaakt worden.
 
 Geef nu voor elk van de drie opties een analyse van de efficientie van alle operaties die ondersteund moeten worden. Beschrijf daarbij het algoritme/de operaties die je zou gebruiken om die efficientie te bereiken. Als je bijvoorbeeld de methode `append` voor een lijst wil gebruiken is deze O(1). De theoretische Big-O efficientie voor bijna alle Python-structuren vind je op de [Python wiki over TimeComplexity](https://wiki.python.org/moin/TimeComplexity).
 
-Zoek uiteindelijk naar algoritmes die het meest efficient werken, gegeven de keuze voor een Python-structuur en de mogelijkheden die deze biedt.
 
 ## Lijst 1
 
-Beschrijf hier voor optie 1 de efficientie van de add, remove, lookup en list\_all-operaties, met daarbij een uitleg van hoe je elke operatie zou moeten implementeren.
+**Beschrijf** hier voor optie 1 de efficientie van de add, remove, lookup en list\_all-operaties, met daarbij een uitleg van hoe je elke operatie zou moeten implementeren. Geef geen code of pseudo-code, maar alleen een korte beschrijving.
 
-Als voorbeeld: voor `add` zou je hier de `append` operatie van de Python list gebruiken, omdat deze inderdaad op volgorde items toevoegt aan een lijst; dus O(1).
+Als voorbeeld:
 
-<textarea name="form[list]" rows="10"></textarea>
+- `add` implementeren we met de `append` operatie van de Python list; `append` voldoet aan de voorwaarde dat de objecten opgeslagen worden in de volgorde waarin ze worden aangemaakt; `append` is O(1) dus onze `add`-operatie ook
+- `remove` implementeren we ...
+- `lookup` implementeren we ...
+- `list_all` implementeren we ...
 
 ## Lijst 2
 
-Beschrijf hier voor optie 2 de efficientie van de add, remove, lookup en list\_all-operaties, met daarbij een uitleg van hoe je elke operatie zou moeten implementeren.
+**Beschrijf** hier voor optie 2 de efficientie van de add, remove, lookup en list\_all-operaties, met daarbij een uitleg van hoe je elke operatie zou moeten implementeren.
 
-Een Python-lijst kan niet zelf automatisch sorteren op naam **(want als je append gebruikt komt het element achteraan de lijst, in plaats van op de "juiste plek")**, dus de stappen om de operaties te implementeren zijn hier wat ingewikkelder.
-
-<textarea name="form[listordered]" rows="10"></textarea>
+Een Python-lijst kan niet zelf automatisch sorteren op naam, want als je append gebruikt komt het element achteraan de lijst, in plaats van op de "juiste plek". Dus in dit geval moet je vaak enkele stappen combineren om de gewenste operatie te implementeren.
 
 ## Dictionary
 
-Beschrijf hier voor optie 3 de efficientie van de add, remove, lookup en list\_all-operaties, met daarbij een uitleg van hoe je elke operatie zou moeten implementeren.
+**Beschrijf** hier voor optie 3 de efficientie van de add, remove, lookup en list\_all-operaties, met daarbij een uitleg van hoe je elke operatie zou moeten implementeren.
 
-<textarea name="form[dict]" rows="10"></textarea>
+## Inzicht
+
+Uiteindelijk zoek je voor de concrete implementatie van de ADT naar opties die het meest efficient werken. Dit hangt niet alleen af van bijvoorbeeld de keuze om `append` te gebruiken, maar ook hoe jouw ADT in de praktijk gebruikt gaat worden. Als "opzoeken" heel efficient moet zijn, dan mag het "invoegen" van een persoon in de lijst misschien wel wat meer stappen kosten (duurder zijn).
+
+Beschrijf in welke gevallen je zou kiezen voor elk van de drie mogelijkheden voor implementatie. Mocht je een nog betere mogelijkheid zien die hier niet besproken is, dan kun je die ook geven.

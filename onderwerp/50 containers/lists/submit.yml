@@ -1,2 +1,4 @@
 name: containers_lists
-form: true
+files:
+    required:
+        - list_implementations.pdf
