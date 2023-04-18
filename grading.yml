@@ -206,7 +206,6 @@ module_2:
         # python_tests: 0 # oefenopdracht
         # kalender_tests: 1
         # lisp: 1
-        # figuren: 1
         # knapsack: 1
 
 module_3:
@@ -225,6 +224,7 @@ module_4:
     show_progress: true
     submits:
         card_implementations: 1
+        figuren: 1
         containers_lists: 1
         containers_dicts: 1
         # deck_21: 1
