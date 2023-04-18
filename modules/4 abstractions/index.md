@@ -41,8 +41,9 @@ Dan lees je hoofdstuk 3 tot je het zo goed mogelijk begrijpt. Paragraaf 3.6.4 ov
 
 ## Puntentelling
 
-- Twee implementaties: 2 punten indien helemaal gedaan
-- List structure: 2 punten voor goede en goed onderbouwde antwoorden
-- Dictionary: 2 punten voor een uitwerking waarvan de tests aantonen dat de dictionary naar behoren werkt
+- Twee implementaties: 1,5 punt indien helemaal zorgvuldig gedaan met zinvolle tests die allerlei gebruiksscenario's van de class testen
+- Figuren: 1,5 punt indien helemaal zorgvuldig gedaan
+- List structure: 1,5 punt voor goede en goed onderbouwde antwoorden
+- Dictionary: 1,5 punt indien helemaal zorgvuldig gedaan met zinvolle tests die allerlei gebruiksscenario's van de class testen
 
 Er zijn geen deelpunten mogelijk.

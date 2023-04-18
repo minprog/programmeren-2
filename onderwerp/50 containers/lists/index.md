@@ -49,4 +49,4 @@ Een Python-lijst kan niet zelf automatisch sorteren op naam, want als je append 
 
 Uiteindelijk zoek je voor de concrete implementatie van de ADT naar opties die het meest efficient werken. Dit hangt niet alleen af van bijvoorbeeld de keuze om `append` te gebruiken, maar ook hoe jouw ADT in de praktijk gebruikt gaat worden. Als "opzoeken" heel efficient moet zijn, dan mag het "invoegen" van een persoon in de lijst misschien wel wat meer stappen kosten (duurder zijn).
 
-Beschrijf in welke gevallen je zou kiezen voor elk van de drie mogelijkheden voor implementatie. Mocht je een nog betere mogelijkheid zien die hier niet besproken is, dan kun je die ook geven.
+**Beschrijf** in welke gevallen je zou kiezen voor elk van de drie mogelijkheden voor implementatie. Mocht je een nog betere mogelijkheid zien die hier niet besproken is, dan kun je die ook geven.
