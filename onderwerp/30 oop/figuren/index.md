@@ -26,9 +26,9 @@ Dit sorteren werkt niet zomaar vanzelf. Het werkt omdat voor integers en strings
 
 Hoe je deze operator zelf definieert volgt in een latere stap.
 
-## Voorbereiding
+<!-- ## Voorbereiding
 
-Bestudeer goed de uitleg in het boek over inheritance vanaf pagina 290. Je moet onderstaande kunnen maken met hulp van deze uitleg, je eerdere kennis van Python en de informatie uit deze opdracht.
+Bestudeer goed de uitleg in het boek over inheritance vanaf pagina 290. Je moet onderstaande kunnen maken met hulp van deze uitleg, je eerdere kennis van Python en de informatie uit deze opdracht. -->
 
 ## Classes
 

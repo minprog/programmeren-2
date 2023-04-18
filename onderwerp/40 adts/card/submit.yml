@@ -1,6 +1,7 @@
 name: card_implementations
 files:
     required:
+        - card_original.py
         - test_card.py
         - card.py
 check:
