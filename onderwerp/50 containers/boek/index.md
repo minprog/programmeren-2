@@ -1,5 +1,11 @@
 # Container classes
 
+We kunnen twee soorten classes onderscheiden:
+
+- **data classes** waar in elke instantie de informatie over specifiek onderwerp wordt opgeslagen, zoals naam, adres en telefoonnummer van een persoon
+
+- **container classes** waar in elke instantie een hele reeks aan andere objecten worden opgeslagen, zoals een lijst van meerdere personen
+
 Uit het boek lees je hoofdstuk 3 tot je het zo goed mogelijk begrijpt. Paragraaf 3.6.4 over Markov generators kun je overslaan.
 
 - 3.1 Overview
