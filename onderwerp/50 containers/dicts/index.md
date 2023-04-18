@@ -9,3 +9,5 @@
 2.  Geef in de docstring van elke methode een analyse van de efficientie.
 
 3.  Schrijf tests die de werking van de dictionary demonstreren. Ga niet droog elke methode 1x aanroepen, maar schrijf net als bij de "Testen met twee implementaties"-opdracht tests voor diverse gebruiksscenario's: realistische manieren om een dictionary te gebruiken.
+
+Bij deze opdracht wordt niet gekeken naar gebruik van type hints.

@@ -22,3 +22,5 @@ Hiermee laat je zien dat het mogelijk is om één ADT te definiëren en daarvan 
 
 Lever hieronder de oude en de nieuwe implementatie, en ook de bijbehorende tests in.
 Zorg dat bij het inleveren `from card.py import Card` bovenaan je testfile staat, zodat de **nieuwe** implementatie wordt gebruikt voor testen.
+
+Bij deze opdracht wordt niet gekeken naar gebruik van type hints.
