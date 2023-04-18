@@ -10,7 +10,7 @@ In deze opdracht ga je tests schrijven voor de `Card`-class uit het boek en daar
 
     - Bedenk hoe de class gebruikt kan worden en schrijf tests die diverse gebruiksscenario's controleren. Bijvoorbeeld het aanmaken van een `Card`-object en dan met `suitName` opvragen van de naam. En misschien een andere test voor het aanmaken van een `Card`-object voor een *andere* kaart. Enzovoort.
 
-    - Zorg dat tests op zichzelf staan. Maak geen variabele in de ene test om die in de andere te gebruiken.
+    - Zorg dat tests op zichzelf staan. Maak geen variabele in de ene test om die in de andere te gebruiken. Maak *zeker* geen globale variabelen aan die in meerdere tests gebruikt worden.
 
     - Beschrijf in de docstring bij de test wat je precies test.
 
