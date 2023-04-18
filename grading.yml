@@ -116,17 +116,19 @@ grades:
 
     card_implementations:
         <<: *aftekenen
-        calculation: -akkoord * 2
+        calculation: -akkoord * 1.5
     figuren:
         <<: *automatisch
         automatic:
             akkoord: -(correctness_score.floor/1)
-        calculation: -akkoord * 2
+        calculation: -akkoord * 1.5
         auto_publish: false
-    containers_lists: *punten
+    containers_lists:
+        <<: *aftekenen
+        calculation: -akkoord * 1.5
     containers_dicts:
         <<: *aftekenen
-        calculation: -akkoord * 2
+        calculation: -akkoord * 1.5
 
     palindrome:
         <<: *aftekenen
