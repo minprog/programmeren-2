@@ -44,10 +44,10 @@ Tools:
 Abstractions:
     Overzicht: /modules/abstractions
     Data Abstractions:
-        "Boek 2: Data Abstractions [opdracht]": /onderwerp/adts/boek
+        "Boek 2: Data Abstractions": /onderwerp/adts/boek
         Testen met twee implementaties [opdracht]: /onderwerp/adts/card
         # Een-en-twintigen: /onderwerp/adts/deck
-        Figuren: /onderwerp/oop/figuren
+        Figuren [opdracht]: /onderwerp/oop/figuren
     Containers:
         "Boek 3: Container Classes": /onderwerp/containers/boek
         List structure [opdracht]: /onderwerp/containers/lists
