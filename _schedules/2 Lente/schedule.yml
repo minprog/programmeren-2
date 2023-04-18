@@ -17,9 +17,9 @@ Objects:
         "Videocollege: OOP": /objects/lecture
         "Boek 1a: OOP": /onderwerp/oop/boek
     Opdrachten:
-        Queue: /objects/queue
-        Game of Cards: /objects/cards
-        Hangman: /hangman/classic
+        Queue [opdracht]: /objects/queue
+        Game of Cards [opdracht]: /objects/cards
+        Hangman [opdracht]: /hangman/classic
 
 Tools:
     Overzicht: /modules/tools
