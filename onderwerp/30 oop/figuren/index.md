@@ -6,7 +6,7 @@ Zoals je wellicht weet worden oppervlaktes op verschillende manieren berekend, a
 
 ![](oppervlaktes.png){: style="width:30rem;"}
 
-Voor andere oppervlaktes zijn soms meerdere maten nodig.
+Voor andere soorten figuren zijn soms meerdere maten nodig om de oppervlakte te kunnen berekenen.
 
 ## Sorteren
 
