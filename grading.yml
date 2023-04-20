@@ -166,7 +166,7 @@ calculation:
         module_3: 1
         module_4: 1
         module_5: 2
-        # module_6: 2 # is twee modules gecombineerd
+        extra: 1
 
 # SUB-CALCULATIONS - define the components of the course that may be used in
 # final grade calculations. A few constraints can be specified.
@@ -189,51 +189,37 @@ calculation:
 
 module_1:
     type: points
-    total_points: 6
     show_progress: true
     submits:
-        # python_questions: 1
         mario: 2
         readability: 2
         schuifpuzzel: 2
 
 module_2:
     type: points
-    total_points: 6
     show_progress: true
     submits:
         queue: 1
         cards: 1
         hangman-less: 4
-        # python_tests: 0 # oefenopdracht
-        # kalender_tests: 1
-        # lisp: 1
-        # knapsack: 1
 
 module_3:
     type: points
-    total_points: 6
     show_progress: true
     submits:
-        # python_contract: 0
-        # python_type_hints: 0
-        # python_tests: 0
         quality: 6
 
 module_4:
     type: points
-    total_points: 10
     show_progress: true
     submits:
-        card_implementations: 1
-        figuren: 1
-        containers_lists: 1
-        containers_dicts: 1
-        # deck_21: 1
+        card_implementations: 1.5
+        figuren: 1.5
+        containers_lists: 1.5
+        containers_dicts: 1.5
 
 module_5:
     type: points
-    total_points: 12
     show_progress: true
     submits:
         palindrome: 2
@@ -241,8 +227,17 @@ module_5:
 
 extra:
     type: points
-    total_points: 6
     show_progress: true
     submits:
-        cash_tests: 1
-        profilers: 1
+        cash_tests: 3
+        profilers: 3
+
+# python_questions: 1
+# python_tests: 0 # oefenopdracht
+# kalender_tests: 1
+# lisp: 1
+# knapsack: 1
+# python_contract: 0
+# python_type_hints: 0
+# python_tests: 0
+# deck_21: 1
