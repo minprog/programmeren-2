@@ -100,7 +100,7 @@ grades:
         <<: *automatisch
         automatic:
             akkoord: -correctness_score
-        calculation: -akkoord*2
+        calculation: -akkoord*1
         # auto_publish: false
     hangman-less:
         <<: *automatisch
