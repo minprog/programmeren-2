@@ -107,3 +107,5 @@ Om het programma compleet te maken voeg je overal de juiste type hints toe.
 ## Beoordeling
 
 Je programma wordt automatisch gecontroleerd type hints. De werking van de code wordt na de deadline handmatig beoordeeld. Zorg ervoor dat je programma voldoet aan de bovenstaande eisen en gebruik maakt van de ideeën die in de opgave worden aangereikt.
+
+> Let niet op de check voor "doctests"! Je schrijft geen tests bij deze opdracht.
