@@ -66,9 +66,7 @@ Tijdens dit vak zul je vaak de hulp inroepen van de assistenten en medestudenten
 - hulp op locatie (lokaal L0.09)
 - je weet niet waar te beginnen of een onvindbare bug, of alles loopt vast
 - moeite met verzinnen oplossing
-- dagelijks beschikbaar tussen 9 en 17 uur, zet jezelf in de rij via het menu:
-
-    ![](../hands-menu.png)
+- dagelijks beschikbaar tussen 9 en 17 uur
 
 **E-mail:** contact met de docenten.
 
