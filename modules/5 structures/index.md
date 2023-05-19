@@ -37,9 +37,9 @@ En dan hoofdstuk 5 tot je het zo goed mogelijk begrijpt.
 
         - 1 punt voor degelijke uitvoering waar basis op orde is: docstrings, relevante pre- en postconditions met af en toe assertions, type hints die goedgekeurd worden volgens `mypy --strict`
 
-        - 2 punten voor een zeer goede uitvoering waar voldaan is aan de eisen voor 1 punten maar ook zinvolle tests aanwezig zijn voor alle classes die zinvol testbaar zijn (het is aan jou om uit te zoeken welke tests, de assistenten mogen hier niet bij helpen)
+        - 2 punten voor een zeer goede uitvoering waar voldaan is aan de eisen voor 1 punt, maar waar ook zinvolle tests aanwezig zijn voor alle classes die zinvol testbaar zijn (het is aan jou om uit te zoeken welke tests, de assistenten mogen hier niet bij helpen)
 
-        - 3 punten voor een uitzonderlijk goede uitvoering waar het design substantieel is aangepast waardoor de code overzichtelijker wordt (met nadrukkelijke eis dat de checks nog slagen; assistenten mogen op geen enkele manier helpen met redesign, wel met debugging natuurlijk)
+        - 3 punten voor een uitzonderlijk goede uitvoering waar voldaan is aan de eisen voor 2 punten, maar waar het (class)design substantieel ook is aangepast waardoor de code overzichtelijker wordt (met nadrukkelijke eis dat de checks nog slagen; assistenten mogen op geen enkele manier helpen met redesign, wel met debugging natuurlijk)
 
 ## Extra onderwerp
 
