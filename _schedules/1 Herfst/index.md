@@ -38,7 +38,9 @@ Bij elke module staat aangegeven hoeveel punten elke opdracht waard is en hoe de
 | ------------ | --------: | ---------------: |
 | Totaal       |        48 |                  |
 
-*) Bij dit vak is het **niet** verplicht om alle opdrachten af te maken. De deadlines zijn dan ook strikt, zelfs in geval van ziekte (zie onder). Dit om de werkdruk redelijk te houden naast het vak Programmeerproject, en de algemene organisatie werkbaar te houden.
+Bij dit vak is het **niet** verplicht om alle opdrachten af te maken. De deadlines zijn wel hard, behalve in geval van afmelding door ziekte. Je moet in contact raken met de docenten als je ziek wordt of achter gaat lopen.
+
+Doe je tegelijk met dit vak het Programmeerproject? Geef dan dit vak voorrang!
 
 ## Werkgroep en mentor
 
