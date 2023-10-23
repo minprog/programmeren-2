@@ -5,11 +5,24 @@ Python:
     "Overzicht: Starten met Python": /modules/python
     Voorbereiding:
         'Videocollege: Python': /lectures/python-david
-        Vragen over het college: /onderwerp/python/lecture-questions
+        # Vragen over het college: /onderwerp/python/lecture-questions
     "C => Python":
         Mario [samen programmeren]: /onderwerp/python/mario
         Readability [samen programmeren]: /onderwerp/python/readability
         Schuifpuzzel [opdracht]: /onderwerp/python/schuifpuzzel
+
+Complexity:
+    Overzicht: /modules/complexity
+    Voorbereiding:
+        Complexity: ''
+        Dictionaries: ''
+        Tuples: ''
+        Sets: ''
+        Lists: ''
+    Opdrachten:
+        # Complexity questions 2: /onderwerp/containers/complexity
+        Jaccard: /onderwerp/containers/jaccard
+        Indexing words: /onderwerp/containers/indexer
 
 Objects:
     Overzicht: /modules/oop
@@ -38,8 +51,9 @@ Tools:
         Tests toevoegen [opdracht]: /onderwerp/testing/refactor
     Statische kwaliteitsanalyse:
         Verbeter je code [opdracht]: /onderwerp/quality
-    Extra onderwerp (telt gewoon mee):
+    Test challenge:
         Wat is mis met Cash [opdracht]: /onderwerp/testing/cash
+        Kalender designopdracht: /onderwerp/abstraction/kalender
 
 Abstractions:
     Overzicht: /modules/abstractions
@@ -56,15 +70,9 @@ Abstractions:
 
 Structures:
     Overzicht: /modules/structures
-    Stof:
+    Strucuren bouwen:
         "Boek 4-5: Structures": /onderwerp/linked/boek
         Palindrome [opdracht]: /onderwerp/linked/palindrome
         Adventure [opdracht]: /adventure2/more
-    Extra onderwerp (telt gewoon mee):
+    Performance profiling:
         Profiling: /onderwerp/containers/profiling
-
-# Complexity questions 2: /onderwerp/containers/complexity
-# Jaccard: /onderwerp/containers/jaccard
-# Indexing words: /onderwerp/containers/indexer
-# Opdrachten:
-#     Kalender designopdracht: /onderwerp/abstraction/kalender
