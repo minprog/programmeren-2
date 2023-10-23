@@ -1,72 +1,80 @@
 Welkom:
     Lees hier even rustig door de studiewijzer om te ontdekken hoe het vak in elkaar zit: /syllabus
 
-Week 1:
-    "Overzicht: Starten met Python": /onderwerp/python
+Python:
+    "Overzicht: Starten met Python": /modules/python
     Voorbereiding:
         'Videocollege: Python': /lectures/python-david
-        Vragen over het college: /onderwerp/python/lecture-questions
+        # Vragen over het college: /onderwerp/python/lecture-questions
     "C => Python":
         Mario [samen programmeren]: /onderwerp/python/mario
         Readability [samen programmeren]: /onderwerp/python/readability
         Schuifpuzzel [opdracht]: /onderwerp/python/schuifpuzzel
-    Oefenen met types:
-        "Background: typing in Python": /onderwerp/python/typing
-        Type hints: /onderwerp/python/type-hints
-        Type aliases and variables: /onderwerp/python/type-aliases
-        Duck typing: /onderwerp/python/duck-typing
-        Flexible typing: /onderwerp/python/flexible-typing
-    Opdracht:
-        Type hints toevoegen [opdracht]: /onderwerp/python/add-type-hints
 
-Week 2:
-    "Overzicht: Design en Testen": /onderwerp/abstraction
+Complexity:
+    Overzicht: /modules/complexity
     Voorbereiding:
-        "Boek: top-down design": /onderwerp/abstraction/voorbereiding
-    Oefenen met testen:
-        "Achtergrond: testen in Python": /onderwerp/abstraction/testing
-        Oefenen met testen: /onderwerp/abstraction/refactor
+        Complexity: ''
+        Dictionaries: ''
+        Tuples: ''
+        Sets: ''
+        Lists: ''
     Opdrachten:
-        Many submissions of cash: /onderwerp/abstraction/cash
-        Kalender designopdracht: /onderwerp/abstraction/kalender
+        # Complexity questions 2: /onderwerp/containers/complexity
+        Jaccard: /onderwerp/containers/jaccard
+        Indexing words: /onderwerp/containers/indexer
 
-Week 3:
-    Overzicht: /onderwerp/oop
+Objects:
+    Overzicht: /modules/oop
     Voorbereiding:
         "Videocollege: OOP": /objects/lecture
         "Boek 1a: OOP": /onderwerp/oop/boek
     Opdrachten:
-        LISP: /onderwerp/oop/lisp
-        Figuren: /onderwerp/oop/figuren
-        Knapsack: /onderwerp/oop/knapsack
+        Queue [opdracht]: /objects/queue
+        Game of Cards [opdracht]: /objects/cards
+        Hangman [opdracht]: /hangman/classic
 
-Week 4:
-    Overzicht: /onderwerp/adts
-    Voorbereiding:
+Tools:
+    Overzicht: /modules/tools
+    Design-documentatie:
+        "Boek: Design by contract": /onderwerp/design/boek
+        Documenteer je functies [opdracht]: /onderwerp/design/contract
+    Types in Python:
+        "Achtergrond: typing in Python": /onderwerp/typing/typing
+        Type hints: /onderwerp/typing/type-hints
+        # Type aliases and variables: /onderwerp/typing/type-aliases
+        # Duck typing: /onderwerp/typing/duck-typing
+        # Flexible typing: /onderwerp/typing/flexible-typing
+        Type hints toevoegen [opdracht]: /onderwerp/typing/add-type-hints
+    Testen in Python:
+        "Achtergrond: testen in Python": /onderwerp/testing/testing
+        Tests toevoegen [opdracht]: /onderwerp/testing/refactor
+    Statische kwaliteitsanalyse:
+        Verbeter je code [opdracht]: /onderwerp/quality
+
+Challenges:
+    Wat is mis met Cash: /onderwerp/testing/cash
+    Kalender design: /onderwerp/abstraction/kalender
+
+Abstractions:
+    Overzicht: /modules/abstractions
+    Data Abstractions:
         "Boek 2: Data Abstractions": /onderwerp/adts/boek
-    ADTs:
-        Testen met twee implementaties: /onderwerp/adts/card
-        Een-en-twintigen: /onderwerp/adts/deck
-    Quality:
-        Verbeter je code: /onderwerp/adts/quality
-
-Week 5:
-    Overzicht: /onderwerp/containers
-    Voorbereiding:
+        Testen met twee implementaties [opdracht]: /onderwerp/adts/card
+        # Een-en-twintigen: /onderwerp/adts/deck
+        Figuren [opdracht]: /onderwerp/oop/figuren
+    Containers:
         "Boek 3: Container Classes": /onderwerp/containers/boek
-    Opdrachten:
-        List structure: /onderwerp/containers/lists
+        List structure [opdracht]: /onderwerp/containers/lists
         # Set structure: /onderwerp/containers/sets
-        Dictionary structure: /onderwerp/containers/dicts
-        Profiling: /onderwerp/containers/profiling
-    # Complexity questions 2: /onderwerp/containers/complexity
-    # Jaccard: /onderwerp/containers/jaccard
-    # Indexing words: /onderwerp/containers/indexer
+        Dictionary structure [opdracht]: /onderwerp/containers/dicts
 
-Week 6-7:
-    Overzicht: /onderwerp/linked
-    Voorbereiding:
+Structures:
+    Overzicht: /modules/structures
+    Strucuren bouwen:
         "Boek 4-5: Structures": /onderwerp/linked/boek
-    Opdrachten:
-        Palindrome: /onderwerp/linked/palindrome
-        Adventure: /adventure2/more
+        Palindrome [opdracht]: /onderwerp/linked/palindrome
+        Adventure [opdracht]: /adventure2/more
+
+Performance:
+    Profiling: /onderwerp/containers/profiling

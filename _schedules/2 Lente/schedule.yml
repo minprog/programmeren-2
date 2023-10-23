@@ -51,9 +51,10 @@ Tools:
         Tests toevoegen [opdracht]: /onderwerp/testing/refactor
     Statische kwaliteitsanalyse:
         Verbeter je code [opdracht]: /onderwerp/quality
-    Test challenge:
-        Wat is mis met Cash [opdracht]: /onderwerp/testing/cash
-        Kalender designopdracht: /onderwerp/abstraction/kalender
+
+Challenges:
+    Wat is mis met Cash: /onderwerp/testing/cash
+    Kalender design: /onderwerp/abstraction/kalender
 
 Abstractions:
     Overzicht: /modules/abstractions
@@ -74,5 +75,6 @@ Structures:
         "Boek 4-5: Structures": /onderwerp/linked/boek
         Palindrome [opdracht]: /onderwerp/linked/palindrome
         Adventure [opdracht]: /adventure2/more
-    Performance profiling:
-        Profiling: /onderwerp/containers/profiling
+
+Performance:
+    Profiling: /onderwerp/containers/profiling
