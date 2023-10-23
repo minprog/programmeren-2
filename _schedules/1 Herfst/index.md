@@ -22,25 +22,23 @@ Het **eindcijfer** bestaat uit de opgetelde punten voor de opdrachten. Het maxim
 
 Bij elke module staat aangegeven hoeveel punten elke opdracht waard is en hoe de **beoordeling** plaatsvindt.
 
-| Module       | Punten    | Deadline     |
-| ------------ | --------: | ------------ |
-| Python       |         6 |  3 nov 17:00 |
-| Complexity   |         6 | 10 nov 17:00 |
-| Objects      |         6 | 17 nov 17:00 |
-| Tools        |         6 | 24 nov 17:00 |
-| ------------ | --------: | ------------ |
-| Challenges   |         6 | 24 nov 17:00 |
-| ------------ | --------: | ------------ |
-| Abstractions |         6 |  1 nov 17:00 |
-| Structures   |         9 | 15 nov 17:00 |
-| ------------ | --------: | ------------ |
-| Profiling    |         3 | 15 nov 17:00 |
-| ------------ | --------: | ------------ |
-| Totaal       |        48 |              |
+| Module       | Punten    | Deadline         |
+| ------------ | --------: | ---------------: |
+| Python       |         6 |  3 nov 17:00     |
+| Complexity   |         6 | 10 nov 17:00     |
+| Objects      |         6 | 17 nov 17:00     |
+| Tools        |         6 | 24 nov 17:00     |
+| ------------ | --------: | ---------------: |
+| Challenges   |         6 | (!) 24 nov 17:00 |
+| ------------ | --------: | ---------------: |
+| Abstractions |         6 |  1 nov 17:00     |
+| Structures   |         9 | 15 nov 17:00     |
+| ------------ | --------: | ---------------: |
+| Profiling    |         3 | (!) 15 nov 17:00 |
+| ------------ | --------: | ---------------: |
+| Totaal       |        48 |                  |
 
 *) Bij dit vak is het **niet** verplicht om alle opdrachten af te maken. De deadlines zijn dan ook strikt, zelfs in geval van ziekte (zie onder). Dit om de werkdruk redelijk te houden naast het vak Programmeerproject, en de algemene organisatie werkbaar te houden.
-
-Er zijn enkele opdrachten die onderwerpen behandelen die je niet direct nodig zult hebben in volgende modules. Dit zijn "extra onderwerpen", die niettemin later erg van pas kunnen komen. Al deze opdrachten **tellen gewoon mee**, maar mocht je tijd tekort komen dan zijn dat de opdrachten die je het best kunt overslaan.
 
 ## Werkgroep en mentor
 
