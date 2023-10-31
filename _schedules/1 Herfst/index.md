@@ -1,6 +1,6 @@
 # Programmeren 2
 
-## Studiewijzer<br><small>Lente 2023</small>
+## Studiewijzer<br><small>Herfst 2023</small>
 
 Let op! Dit vak is flink aangepast ten opzichte van vorige jaren. Was je eerder al eens begonnen met het vak, dan moet je nu beginnen vanaf het begin.
 
