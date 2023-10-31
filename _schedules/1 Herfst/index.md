@@ -18,7 +18,7 @@ Je moet Programmeren 1 hebben gehaald om dit vak te mogen volgen.
 
 Bij dit vak werk je aan verschillende soorten **opdrachten**. De meeste opdrachten doe je individueel. Soms zijn het oefeningen, dan weer schrijf je een flink groot programma en op een aantal momenten ga je met tools aan de slag om te leren je Python-code zelf beter te maken.
 
-Het **eindcijfer** bestaat uit de opgetelde punten voor de opdrachten. Het maximaal aantal punten is 42, wat staat voor een 10 als eindcijfer. Sommige opdrachten worden automatisch gecheckt op correcte werking. Bij andere opdrachten kijkt een assistent na en geeft punten en feedback.
+Het **eindcijfer** bestaat uit de opgetelde punten voor de opdrachten. Het maximaal aantal punten is 48, wat staat voor een 10 als eindcijfer. Sommige opdrachten worden automatisch gecheckt op correcte werking. Bij andere opdrachten kijkt een assistent na en geeft punten en feedback.
 
 Bij elke module staat aangegeven hoeveel punten elke opdracht waard is en hoe de **beoordeling** plaatsvindt.
 
@@ -38,7 +38,7 @@ Bij elke module staat aangegeven hoeveel punten elke opdracht waard is en hoe de
 | ------------ | --------: | ---------------: |
 | Totaal       |        48 |                  |
 
-Bij dit vak is het **niet** verplicht om alle opdrachten af te maken. De deadlines zijn wel hard, behalve in geval van afmelding door ziekte. Je moet in contact raken met de docenten als je ziek wordt of achter gaat lopen.
+Bij dit vak is het **niet** verplicht om alle opdrachten af te maken. De deadlines zijn wel hard, behalve in geval van speciale afspraken ivm ziekte. Je moet in contact raken met de docenten als je ziek wordt of achter gaat lopen.
 
 Doe je tegelijk met dit vak het Programmeerproject? Geef dan dit vak voorrang!
 
