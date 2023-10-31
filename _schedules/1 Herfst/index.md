@@ -42,21 +42,16 @@ Bij dit vak is het **niet** verplicht om alle opdrachten af te maken. De deadlin
 
 Doe je tegelijk met dit vak het Programmeerproject? Geef dan dit vak voorrang!
 
-## Werkgroep en mentor
-
-Je zit bij dit vak in een **groep** met ~15 andere studenten. Binnen deze groep zul je onder andere samen werken aan het ontwerpen van oplossingen voor de opdrachten en het bespreken en verbeteren van jouw code. De verplichte wekelijkse bijeenkomst staat in het rooster als werkcollege.
-
-Je **mentor** is een studentassistent die het vak eerder heeft gevolgd of een docent die alles over onze cursus weet. Je mentor helpt je wegwijs maken, doet voor hoe je het beste de opdrachten kunt aanpakken, kijkt je werk na, en kan je helpen de juiste informatie te vinden.
-
 ## Aanwezigheid
 
 1. Alle studenten zijn verplicht aanwezig bij hun ingedeelde werkgroep om met elkaar en de mentor de voortgang door te spreken. De locaties en tijden staan in het rooster.
 
 2. Voor aanwezigheid in het lab geldt:
 
-    - Studenten die de Minor Programmeren fulltime volgen hebben een aanwezigheidsplicht zoals apart bekend gemaakt.
+    - Studenten die de Minor Programmeren fulltime volgen hebben een aanwezigheidsplicht zoals apart bekend gemaakt. **Dit geldt vanaf week 1.**
 
-    - Er is geen minimale aanwezigheidsplicht in het lab bij de parttime minor. Als je een voldoende staat en het tentamen haalt, dan hebben we genoeg informatie om in te staan voor jouw persoonlijke voortgang in dit vak. We raden studenten aan om regelmatig een studieplek op te zoeken in Lab42. Je kunt daar ook prettig afspreken met medestudenten om de samenwerkopdrachten te doen.
+    - Voor studenten die alleen dit vak volgen is het verplicht om op een vast moment aan te sluiten in het lab. **Dit geldt vanaf week 2** en de tijden worden nog rondgestuurd.
+
 
 ## Vragen stellen
 
