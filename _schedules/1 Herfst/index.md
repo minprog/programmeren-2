@@ -59,7 +59,7 @@ Tijdens dit vak zul je vaak de hulp inroepen van de assistenten en medestudenten
 
 **Assistentie:** direct contact met een assistent, voor hulp bij programmeren.
 
-- hulp op locatie (lokaal L0.09)
+- hulp op locatie (lokaal L0.09 en L0.10)
 - je weet niet waar te beginnen of een onvindbare bug, of alles loopt vast
 - moeite met verzinnen oplossing
 - dagelijks beschikbaar tussen 9 en 17 uur, zet jezelf in de rij via het menu:
@@ -85,24 +85,17 @@ Juist even niet aan de opdracht werken kan je verder helpen!
 - Of ga oefenen in het basisboek, want dit staat helemaal los van de opdrachten.
 </details>
 
+<!--
 
 ## Deadlines
-
-Voor de inleveropdrachten zijn de deadlines als volgt:
-
-| module       |  hoeveelheid werk |  normale deadline   | coulante deadline |
-|--------------|------------------:|--------------------:|------------------:|
-| Python       |            1 week |  vr  7 apr  17:59   |  za 22 apr  17:59 |
-| Objects      |            1 week |  vr 14 apr  17:59   |  za 22 apr  17:59 |
-| Tools        |            1 week |  vr 21 apr  17:59   |  za 29 apr  17:59 |
-| Abstractions |            1 week |  vr 28 apr  17:59   |  za  6 mei  17:59 |
-| Structures   |           3 weken |  vr 26 mei  17:59   |  <- ook **vrijdag 26 mei**    |
 
 In normale omstandigheden zou je de "normale deadline" moeten aanhouden die hierboven vermeld is. Dan heb je ruimte om problemen op te vangen tijdens het vak. Als het dan moeilijk wordt, je hebt een planningsprobleem of je wordt ziek, dan kun je dit opvangen door gebruik te maken van de coulante deadline. Hiervoor hoef je niets af te stemmen, je mag gewoon later inleveren. Er is geen sprake van puntenaftrek als je hier gebruik van maakt.
 
 Na de "coulante deadline" kun je helemaal geen punten meer krijgen voor de opdrachten die op dat moment nog niet volgens de vermelde minimumeisen ingeleverd zijn.
 
 De laatste module is erg groot (ongeveer drie weken werk) en moet uiterlijk op 26 mei om 17:59 zijn ingeleverd. Dit is de enige deadline voor die laatste module. De verwachting is dat je je planning voor deze weken zelf goed in de gaten houdt.
+
+-->
 
 ### Ziekte en inhalen
 
