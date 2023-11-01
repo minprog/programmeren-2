@@ -1,13 +1,20 @@
 # Complexity
 
-In this assignment you'll learn all about efficient code and how to make your
-own code more efficient. Specifically, we'll introduce the big *O* notation,
-which can be used to describe how efficient some piece of code is, and we'll
-cover some Python data structures that'll help make your code more efficient.
+Deze module gaat over *computationele complexiteit* en *datastructuren*. Je gaat aan de slag met de verschillende ingebouwde datastructuren in Python. We focussen op de verschillen en wat iedere datastructuur goed kan in termen van complexiteit. Met als doel dat je straks bewust kan kiezen tussen de verschillende datastructuren afhankelijk van het doel en gebruik.
 
-These data structures, like dictionaries and sets, can be very useful when
-writing code in general, but they really shine when making code more efficient.
-To highlight this, we'll also show an example of how code can be made more
-efficient using these structures.
+## Leerdoelen
 
-This modules consists of two main assignments: jaccard.py and word_index.py. The main focus in these assignments is on how to make your code run (much) more efficiently by cleverly using built-in python data structures.
+Je gaat in deze module:
+
+- Leren over computationele complexiteit en datastructuren
+- Werken met lists, tuples, sets en dict
+- Bestaande Python code verbeteren in termen van complexiteit
+
+## Puntentelling
+
+Deze module bestaat uit twee programmeeropdrachten. Het doel is om deze onderstaande opdrachten geheel en correct te maken.
+
+- Jaccard (3 punten)
+- Indexing words (2 punten) + questions.txt (1 punt)
+
+Er zijn geen automatische checks voor deze opdrachten.
