@@ -1,0 +1,4 @@
+name: word_index
+files:
+    required:
+        - word_index.py
