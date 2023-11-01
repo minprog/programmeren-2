@@ -13,16 +13,24 @@ Python:
 
 Complexity:
     Overzicht: /modules/complexity
-    Voorbereiding:
-        Complexity: ''
-        Dictionaries: ''
-        Tuples: ''
-        Sets: ''
-        Lists: ''
+    Complexity [theory]: /complexity/efficiency
+    "Data structures":
+        Dictionaries [theory]: /complexity/dictionaries/use
+        Dictionaries [practice]: /complexity/dictionaries/use/practice
+        Efficiency of dictionaries [theory]: /complexity/dictionaries/complexity
+        Efficiency of dictionaries [practice]: /complexity/dictionaries/complexity/practice
+        Tuples [theory]: /complexity/tuples
+        Sets [theory]: /complexity/sets
+        Sets [practice]: /complexity/sets/practice
+        List slicing and indexing [theory]: /complexity/slicing
+    "Optimizing code":
+        Applying big O in your code [theory]: /complexity/big-o
+        Improving count_occurrence [theory]: /complexity/big-o-example
+        Complexity questions [assignment]: /complexity/questions2
     Opdrachten:
-        # Complexity questions 2: /onderwerp/containers/complexity
-        Jaccard: /onderwerp/containers/jaccard
-        Indexing words: /onderwerp/containers/indexer
+        Jaccard [assignment]: /complexity/jaccard
+        Indexing words [assignment]: /complexity/word-index
+    Submit your solutions: /submit/complexity
 
 Objects:
     Overzicht: /modules/oop
