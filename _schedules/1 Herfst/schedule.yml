@@ -26,11 +26,10 @@ Complexity:
     "Optimizing code":
         Applying big O in your code [theory]: /onderwerp/complexity/big-o
         Improving count_occurrence [theory]: /onderwerp/complexity/big-o-example
-        Complexity questions [assignment]: /onderwerp/complexity/questions2
+        Complexity questions [assignment]: /onderwerp/complexity/questions
     Opdrachten:
         Jaccard [assignment]: /onderwerp/complexity/jaccard
         Indexing words [assignment]: /onderwerp/complexity/word-index
-    Submit your solutions: /submit/complexity
 
 Objects:
     Overzicht: /modules/oop

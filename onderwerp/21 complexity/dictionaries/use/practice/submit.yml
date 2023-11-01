@@ -1,0 +1,4 @@
+name: dicts_practice1
+files:
+    required:
+        - dictionaries.py

@@ -1,0 +1,4 @@
+name: sets_practice
+files:
+    required:
+        - sets.py

@@ -42,8 +42,7 @@ converting them to a set.
 	>>> list(set(l))
 	[1, 2, 3, 4, 5, 6, 9]
 
-So, turning a list into a set will remove any duplicate elements. You can then
-even turn the set back into a list if you need the data in list form instead
+So, turning a list into a set will remove any duplicate elements. You can then turn the set back into a list if you need the data in list form instead
 of a set. This is generally considered the easiest way to make a list unique.
 Note that the order in the list has changed though, as sets are unordered, so
 the original order from the list is lost in this conversion.

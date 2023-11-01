@@ -1,6 +1,6 @@
-# Complexity questions, part 2
+# Complexity questions
 
-In the file `questions.txt` that you created earlier, write down the answers to the questions below.
+In the file `questions.txt` write down the answers to the questions below.
 
 All the code fragments below have some structure that holds data. Determine the big O complexity in terms of `n` for these fragments, where `n` is a variable that represents the number of elements in the datastructure. If for example the big O complexity of an algorithm is quadratic, your answer should be "O(n^2)".
 

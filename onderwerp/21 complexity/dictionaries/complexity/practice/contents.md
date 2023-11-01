@@ -1,6 +1,6 @@
 # Practice with time complexity of dictionaries
-> **You don't have to hand in these practice exercises.** They're here for you to test yourself. Did you fully understand the theory you just learned?
->
+> **You don't have to hand in this practice exercise.**
+> 
 > If there is an exercise that you don't know how to solve, review the theory again. If that doesn't help, discuss the exercise with another student and/or the teacher.
 
 **Exercise 1**

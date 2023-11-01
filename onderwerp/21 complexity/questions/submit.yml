@@ -1,5 +1,4 @@
-name: word_index
+name: complexity_questions
 files:
     required:
-        - word_index.py
         - questions.txt
