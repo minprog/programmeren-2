@@ -1,4 +1,0 @@
-name: jaccard
-files:
-    required:
-        - jaccard.py
