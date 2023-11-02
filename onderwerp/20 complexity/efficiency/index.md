@@ -1,4 +1,3 @@
-
 # Efficiency
 
 For this assignment we are going to start with some short examples and

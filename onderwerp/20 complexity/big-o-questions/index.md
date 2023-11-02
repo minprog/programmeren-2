@@ -4,7 +4,7 @@ In the file `questions.txt` write down the answers to the questions below.
 
 All the code fragments below have some structure that holds data. Determine the big O complexity in terms of `n` for these fragments, where `n` is a variable that represents the number of elements in the datastructure. If for example the big O complexity of an algorithm is quadratic, your answer should be "O(n^2)".
 
-### Question 5
+### Question 1
 
 Consider the following pseudo code. Take `n` to be the length of the list.
 
@@ -13,10 +13,7 @@ Consider the following pseudo code. Take `n` to be the length of the list.
             if this element > element to the right:
                 swap element with element to the right
 
-<!-- <textarea name="form[5]" rows="1" required=""></textarea> -->
-
-
-### Question 6
+### Question 2
 
 For determining the complexity of the code below you don't need to take the first line into account.
 
@@ -28,10 +25,7 @@ For determining the complexity of the code below you don't need to take the firs
     else:
         print("not found :(")
 
-<!-- <textarea name="form[6]" rows="1" required=""></textarea> -->
-
-
-### Question 7
+### Question 3
 
 For determining the complexity of the code below you don't need to take the first line into account.
 
@@ -44,9 +38,7 @@ For determining the complexity of the code below you don't need to take the firs
         else:
             print(f"{i}: not found :(")
 
-<!-- <textarea name="form[7]" rows="1" required=""></textarea> -->
-
-### Question 8
+### Question 4
 
 For determining the complexity of the code below you don't need to take the first three lines into account.
 
@@ -58,9 +50,7 @@ For determining the complexity of the code below you don't need to take the firs
     intersection = set1 & set2
     print(intersection)
 
-<!-- <textarea name="form[8]" rows="1" required=""></textarea> -->
-
-### Question 9
+### Question 5
 
 For determining the complexity of the code below you don't need to take the first three lines into account.
 
@@ -76,10 +66,7 @@ For determining the complexity of the code below you don't need to take the firs
 
     print(intersection)
 
-<!-- <textarea name="form[9]" rows="1" required=""></textarea> -->
-
-
-### Question 10
+### Question 6
 
 For determining the complexity of the code below you don't need to take the first four lines into account.
 
@@ -92,5 +79,3 @@ For determining the complexity of the code below you don't need to take the firs
         my_list = my_dict[i]
         if i * 5 in my_list:
             print(i * 5)
-
-<!-- <textarea name="form[10]" rows="1" required=""></textarea> -->

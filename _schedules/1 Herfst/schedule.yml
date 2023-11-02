@@ -5,30 +5,28 @@ Python:
     "Overzicht: Starten met Python": /modules/python
     Voorbereiding:
         'Videocollege: Python': /lectures/python-david
-    "Opdrachten":
+    Opdrachten:
         Mario: /onderwerp/python/mario
         Readability: /onderwerp/python/readability
         Schuifpuzzel: /onderwerp/python/schuifpuzzel
 
 Complexiteit:
     "Overzicht: Datastructuren en complexiteit": /modules/complexity
-    Complexity [theory]: /onderwerp/complexity/efficiency
-    Data structures:
-        Dictionaries [theory]: /onderwerp/complexity/dictionaries/use
-        Dictionaries [practice]: /onderwerp/complexity/dictionaries/use/practice
-        Efficiency of dictionaries [theory]: /onderwerp/complexity/dictionaries/complexity
-        Efficiency of dictionaries [practice]: /onderwerp/complexity/dictionaries/complexity/practice
-        Tuples [theory]: /onderwerp/complexity/tuples
-        Sets [theory]: /onderwerp/complexity/sets
-        Sets [practice]: /onderwerp/complexity/sets/practice
-        List slicing and indexing [theory]: /onderwerp/complexity/slicing
-    "Optimizing code":
-        Applying big O in your code [theory]: /onderwerp/complexity/big-o
-        Improving count_occurrence [theory]: /onderwerp/complexity/big-o-example
-        Complexity questions [assignment]: /onderwerp/complexity/questions
-    Opdrachten:
-        Jaccard [assignment]: /onderwerp/complexity/jaccard
-        Indexing words [assignment]: /onderwerp/complexity/word-index
+    Complexiteit:
+        Efficiency: /onderwerp/complexity/efficiency
+    Datastructuren:
+        Dictionaries: /onderwerp/complexity/dicts
+        Efficiency of dictionaries: /onderwerp/complexity/dict-complexity
+        Tuples: /onderwerp/complexity/tuples
+        Sets: /onderwerp/complexity/sets
+        Lists: /onderwerp/complexity/lists
+    Optimaliseren:
+        Applying Big-O: /onderwerp/complexity/big-o
+        Improving code: /onderwerp/complexity/big-o-improve
+        Complexity questions: /onderwerp/complexity/questions
+    Programmeeropdrachten:
+        Jaccard: /onderwerp/complexity/jaccard
+        Indexing words: /onderwerp/complexity/indexer
 
 Objects:
     Overzicht: /modules/oop
@@ -59,8 +57,8 @@ Tools:
         Verbeter je code [opdracht]: /onderwerp/quality
 
 Challenges:
-    Wat is mis met Cash: /onderwerp/testing/cash
-    Kalender design: /onderwerp/abstraction/kalender
+    Wat is mis met Cash: /onderwerp/challenges/cash
+    Kalender design: /onderwerp/challenges/kalender
 
 Abstractions:
     Overzicht: /modules/abstractions

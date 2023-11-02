@@ -6,9 +6,9 @@ Deze module gaat over *computationele complexiteit* en *datastructuren*. Je gaat
 
 Je gaat in deze module:
 
-- Leren over computationele complexiteit en datastructuren
-- Werken met lists, tuples, sets en dict
-- Bestaande Python code verbeteren in termen van complexiteit
+- Leren over datastructuren en complexiteit van algoritmen
+- Verder oefenen met lists, tuples, sets en dicts
+- Bestaande code verbeteren in termen van complexiteit
 
 ## Puntentelling
 

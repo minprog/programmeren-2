@@ -1,4 +1,4 @@
-name: word_index
+name: indexer
 files:
     required:
         - word_index.py

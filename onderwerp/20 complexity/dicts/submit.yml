@@ -1,4 +1,4 @@
-name: dicts_practice1
+name: dicts_practice
 files:
     required:
         - dictionaries.py

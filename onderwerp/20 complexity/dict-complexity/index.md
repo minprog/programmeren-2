@@ -27,3 +27,35 @@ dictionaries and why they are used so often: checking if a key is present in a
 dictionary or retrieving the value stored with that key are both **constant
 time** $$O(1)$$ operations, irrespective of the number of elements
 stored in that dictionary.
+
+
+# Practice with time complexity of dictionaries
+> **You don't have to hand in this practice exercise.**
+> 
+> If there is an exercise that you don't know how to solve, review the theory again. If that doesn't help, discuss the exercise with another student and/or the teacher.
+
+**Exercise 1**
+Measure the dictionaries and lists in a similar way as in the video, but now focus on the `in` operator. Use runs with lists and dictionaries of different sizes. Use 10, 100, 1000, and 10,000 (and maybe 100,000 if you have a fast computer). For every run, execute the `in`-operation 100,000 times (to get reliable results). Write down the results (you can do this manually), and create a table with the runtimes that looks something like this:
+
+	size  |  list |  dict
+	10    |  0.14 |  0.09
+	100   | ??.?? | ??.??
+	1000  | ??.?? | ??.??
+	10000 | ??.?? | ??.??
+
+You can use the code below to get started
+
+	from time import time
+	from random import randint
+
+    # create a list or dictionary containing n items
+
+	# test speed
+	iterations = 100000
+	start = time()
+	for _ in range(iterations):
+
+		# TODO: enter code to test
+
+	end = time()
+	print(f'The time elapsed: {end-start:.2f} seconds (with {iterations} iterations)')
