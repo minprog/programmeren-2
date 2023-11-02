@@ -12,9 +12,6 @@ Je gaat in deze module:
 
 ## Puntentelling
 
-Deze module bestaat uit twee programmeeropdrachten. Het doel is om deze onderstaande opdrachten geheel en correct te maken.
-
-- Jaccard (3 punten)
-- Indexing words (2 punten) + questions.txt (1 punt)
+- Puntentelling volgt
 
 Er zijn geen automatische checks voor deze opdrachten.
