@@ -7,7 +7,7 @@ Deze module gaat over *Python*. Je gaat oefenen met de manier waarop de dingen i
 Je gaat in deze module:
 
 - De basis van Python onder de knie krijgen
-- Werken met lists, dicts en sets
+- Oefenen met lists, dicts en sets
 - Kleine programmeeropdrachten in Python uitwerken
 
 ## Puntentelling

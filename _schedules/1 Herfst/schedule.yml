@@ -5,16 +5,15 @@ Python:
     "Overzicht: Starten met Python": /modules/python
     Voorbereiding:
         'Videocollege: Python': /lectures/python-david
-        # Vragen over het college: /onderwerp/python/lecture-questions
-    "C => Python":
-        Mario [samen programmeren]: /onderwerp/python/mario
-        Readability [samen programmeren]: /onderwerp/python/readability
-        Schuifpuzzel [opdracht]: /onderwerp/python/schuifpuzzel
+    "Opdrachten":
+        Mario: /onderwerp/python/mario
+        Readability: /onderwerp/python/readability
+        Schuifpuzzel: /onderwerp/python/schuifpuzzel
 
 Complexity:
     Overzicht: /modules/complexity
     Complexity [theory]: /onderwerp/complexity/efficiency
-    "Data structures":
+    Data structures:
         Dictionaries [theory]: /onderwerp/complexity/dictionaries/use
         Dictionaries [practice]: /onderwerp/complexity/dictionaries/use/practice
         Efficiency of dictionaries [theory]: /onderwerp/complexity/dictionaries/complexity
