@@ -65,11 +65,11 @@ What happens if you search a word that does not appear in the text?
 
 What happens if you search the word "the"?
 
-# Complexity questions, part 3
+# Complexity questions
 
-In the file `questions.txt` that you created earlier, write down the answers to the questions below.
+In a file called `questions.txt` write down the answers to the questions below.
 
-### Question 11
+### Question 1
 
 Consider the total number of words from the book included in the index to be
 the input size **N** for the `search_index()` function.
@@ -77,6 +77,6 @@ the input size **N** for the `search_index()` function.
 What is the complexity of using your `search_index()` function to search for a
 single word in the index? Explain your answer.
 
-### Question 12
+### Question 2
 
 What is the complexity of the function `create_index()`? Explain your answer.

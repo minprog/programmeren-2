@@ -4,7 +4,7 @@ Welkom:
 Python:
     "Overzicht: Starten met Python": /modules/python
     Voorbereiding:
-        'Videocollege: Python': /lectures/python-david
+        "Videocollege: Python": /lectures/python-david
     Opdrachten:
         Mario: /onderwerp/python/mario
         Readability: /onderwerp/python/readability
@@ -34,9 +34,9 @@ Objects:
         "Videocollege: OOP": /objects/lecture
         "Boek 1a: OOP": /onderwerp/oop/boek
     Opdrachten:
-        Queue [opdracht]: /objects/queue
-        Game of Cards [opdracht]: /objects/cards
-        Hangman [opdracht]: /hangman/classic
+        Queue: /objects/queue
+        Game of Cards: /objects/cards
+        Hangman: /hangman/classic
 
 Tools:
     Overzicht: /modules/tools
