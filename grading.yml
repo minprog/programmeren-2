@@ -107,7 +107,7 @@ grades:
         calculation: -akkoord * 1
     indexer:
         <<: *aftekenen
-        calculation: -akkoord * 1
+        calculation: -akkoord * 2
 
     queue:
         <<: *automatisch
