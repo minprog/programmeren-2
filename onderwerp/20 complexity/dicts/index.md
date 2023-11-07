@@ -1,17 +1,20 @@
 # Dictionaries
+
 Dictionaries are one of the fundamental data structures of Python, and
 just like lists, they can be used to store several elements together in
-one variable. Unlike lists, dictionaries store *mappings* from a key to a
+one variable. Unlike lists, dictionaries store _mappings_ from a key to a
 value.
 
 ## 1. Basic operations
 
 ### Video
+
 Watch this video to learn about dictionaries:
 
-![embed](https://api.eu.kaltura.com/p/120/sp/12000/embedIframeJs/uiconf_id/23449960/partner_id/120?iframeembed=true&playerId=kaltura_player&entry_id=0_80k74cvx&flashvars[streamerType]=auto&amp;flashvars[localizationCode]=en_US&amp;flashvars[leadWithHTML5]=true&amp;flashvars[sideBarContainer.plugin]=true&amp;flashvars[sideBarContainer.position]=left&amp;flashvars[sideBarContainer.clickToClose]=true&amp;flashvars[chapters.plugin]=true&amp;flashvars[chapters.layout]=vertical&amp;flashvars[chapters.thumbnailRotator]=false&amp;flashvars[streamSelector.plugin]=true&amp;flashvars[EmbedPlayer.SpinnerTarget]=videoHolder&amp;flashvars[dualScreen.plugin]=true&amp;flashvars[hotspots.plugin]=1&amp;flashvars[Kaltura.addCrossoriginToIframe]=true&amp;&wid=0_zmx8rsom)
+![embed](https://api.eu.kaltura.com/p/120/sp/12000/embedIframeJs/uiconf_id/23449960/partner_id/120?iframeembed=true&playerId=kaltura_player&entry_id=0_80k74cvx&flashvars[streamerType]=auto&flashvars[localizationCode]=en_US&flashvars[leadWithHTML5]=true&flashvars[sideBarContainer.plugin]=true&flashvars[sideBarContainer.position]=left&flashvars[sideBarContainer.clickToClose]=true&flashvars[chapters.plugin]=true&flashvars[chapters.layout]=vertical&flashvars[chapters.thumbnailRotator]=false&flashvars[streamSelector.plugin]=true&flashvars[EmbedPlayer.SpinnerTarget]=videoHolder&flashvars[dualScreen.plugin]=true&flashvars[hotspots.plugin]=1&flashvars[Kaltura.addCrossoriginToIframe]=true&&=0_zmx8rsom)
 
 ### Reading
+
 The difference between dictionaries and lists is that instead of using an index
 to access elements, we use a key. Searching for things by their keys is the
 main reason dictionaries are used so often and why they are such an efficient
@@ -23,18 +26,18 @@ One way we could use a dictionary is to store the mappings in an actual
 English-Spanish translation dictionary. We might have the string "Yes" and we
 want to store its Spanish translation:
 
-	KEYS            VALUES
-	------------------------
-	Yes         :   Si
-	No          :   No
-	Please      :   Por favor
-	Thank you   :   Gracias
+    KEYS            VALUES
+    ------------------------
+    Yes         :   Si
+    No          :   No
+    Please      :   Por favor
+    Thank you   :   Gracias
 
 Here the English words are the keys and we can easily look up their Spanish
 translation in the dictionary.
 
-	Dictionary[Please]
-	-> Por favor
+    Dictionary[Please]
+    -> Por favor
 
 The mapping here is from one element to another associated element (its
 translation), which we might want to look up. This is generally how
@@ -62,14 +65,14 @@ If we want to know how many apples there are in the fruit basket, we can write
 
 The left half of each pair is called the **key** and the right half is called
 the **value**. So, here we used the key `'apple'` to find the value `4`. This
-syntax is very similar to using square brackets to get elements from a *list*,
+syntax is very similar to using square brackets to get elements from a _list_,
 but instead of using the **index** to retrieve the element stored at that
 place in the list, we use the **key** to retrieve the corresponding **value**
 from the dictionary.
 
 ### adding items
 
-Using this same syntax, we can add a new *key-value pair*
+Using this same syntax, we can add a new _key-value pair_
 
     >>> basket['strawberry'] = 10
     >>> basket
@@ -82,23 +85,23 @@ the bananas, then we could update the dictionary by writing
     >>> basket
     {'apple': 4, 'banana': 6, 'orange': 2, 'strawberry': 10}
 
-Each *key* in a dictionary **must** be unique, so if we try to add a *key*
-that already exists, we will end up overwriting the corresponding *value*. So,
+Each _key_ in a dictionary **must** be unique, so if we try to add a _key_
+that already exists, we will end up overwriting the corresponding _value_. So,
 if we try to add another key for apples, we will just end up replacing the old
 pair
 
     >>> basket['apple'] = 6
     >>> basket
     {'apple': 6, 'banana': 6, 'orange': 2, 'strawberry': 10}
-    
+
 Note the order of the elements! Dictionaries remember the order in which items are inserted.
 
 ### pitfalls
 
 Note that values **do not** have to be unique, as dictionaries are only a
-one-way mapping, so you can only use the *keys* to retrieve the corresponding
-*values*, not the other way around. Searching for a pair using the value will
-produce a *KeyError*
+one-way mapping, so you can only use the _keys_ to retrieve the corresponding
+_values_, not the other way around. Searching for a pair using the value will
+produce a _KeyError_
 
     >>> basket[2]
     Traceback (most recent call last):
@@ -111,8 +114,8 @@ course occur in our basket, stored under the key `'orange'`
     >>> basket['orange']
     2
 
-If we try to retrieve the number of *mangoes*, that are not in the basket at all,
-we also get a *KeyError*
+If we try to retrieve the number of _mangoes_, that are not in the basket at all,
+we also get a _KeyError_
 
     >>> basket['mango']
     Traceback (most recent call last):
@@ -129,7 +132,7 @@ Sometimes when we use a key that is not in the dictionary we do not want it to t
 So, now we know that our fruit basket unfortunately contains zero mangoes, but in
 many situations this result is much more useful than producing an error.
 
-Note that when an item *is* present in the dictionary `get()` will behave just the same as the square brackets:
+Note that when an item _is_ present in the dictionary `get()` will behave just the same as the square brackets:
 
     >>> basket.get('apple', 0)
     6
@@ -152,7 +155,7 @@ We can also explicitly ask if a key is present in the dictionary using `in`
     ...
     We've got bananas!
 
-This works exactly the same way as it does for lists. But it only looks at the *keys* of the dictionary. It will not check the *values* of a dictionary. There is one important difference between using `in` with dictionaries and using `in` with lists: With dictionaries `in` is much (!) faster. More about that later.
+This works exactly the same way as it does for lists. But it only looks at the _keys_ of the dictionary. It will not check the _values_ of a dictionary. There is one important difference between using `in` with dictionaries and using `in` with lists: With dictionaries `in` is much (!) faster. More about that later.
 
 ### looping
 
@@ -207,22 +210,22 @@ Test your understanding with the following practice exercises. Use your usual co
 
 **Exercise 3** Write a piece of code that asks the user to input a name and looks in the dictionary `my_class` if the student exists. Print the message "[name] is a student in this class, and has the grade: [grade]." or "[name] is not a student in this class.", depending on whether or not the student is in the dictionary `my_class`. Example usage:
 
-	python dictionaries.py
-	Enter a name: Jordi
-	Jordi is a student in this class, and has the grade: 7.
+    python dictionaries.py
+    Enter a name: Jordi
+    Jordi is a student in this class, and has the grade: 7.
 
 Use the `in` operator for this exercise. Do not use `get()`.
 
 **Exercise 4** Use the following list of students:
 
-	students = ["Michele", "Diana", "Maria", "Ralph", "Jacobus"]
+    students = ["Michele", "Diana", "Maria", "Ralph", "Jacobus"]
 
-Write a loop that looks up each student from the lists in `my_class` and prints "[name]: [grade]" on a new line for each student. If the student doesn't exist in `my_class` it should print the text "n/a" for the grade. Expected output:
+Write a loop that looks up each student from the list `students` in `my_class` and prints "[name]: [grade]" on a new line for each student. If the student doesn't exist in `my_class` it should print the text "n/a" for the grade. Expected output:
 
-	Michele: 5
-	Diana: 8
-	Maria: n/a
-	Ralph: 4
-	Jacobus: n/a
+    Michele: 5
+    Diana: 8
+    Maria: n/a
+    Ralph: 4
+    Jacobus: n/a
 
 Use `get()` for this. Do not use an `if`-statement.
