@@ -1,15 +1,15 @@
 lectures:
-    remote: https://github.com/minprog/cs50-lectures.git
-    branch: 2020
+  remote: https://github.com/minprog/cs50-lectures.git
+  branch: 2020
 adventure:
-    remote: https://github.com/minprog/adventure.git
-    branch: 2020
+  remote: https://github.com/minprog/adventure.git
+  branch: 2020
 adventure2:
-    remote: https://github.com/minprog/adventure.git
-    branch: 2022
+  remote: https://github.com/minprog/adventure.git
+  branch: 2022
 hangman:
-    remote: https://github.com/minprog/hangman.git
-    branch: 2021
+  remote: https://github.com/minprog/hangman.git
+  branch: 2021
 objects:
-    remote: https://github.com/minprog/objects.git
-    branch: master
+  remote: https://github.com/minprog/objects.git
+  branch: 2023
