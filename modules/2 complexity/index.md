@@ -12,6 +12,7 @@ Je gaat in deze module:
 
 ## Puntentelling
 
-- Puntentelling volgt
+- Dicts, Sets, Big-O en Jaccard: 1 punt per stuk
+- Indexing Words: 2 punten
 
-Er zijn geen automatische checks voor deze opdrachten.
+Er zijn geen automatische checks voor deze opdrachten. Er worden geen deelpunten gegeven.
