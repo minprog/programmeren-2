@@ -45,11 +45,3 @@ Beide programma's moeten op z'n minst nog goed werken. Als dat zo is, kun je 0--
 6. De programma's zijn met succes aangepast op basis van alle onderwerpen: docstrings, assertions, type hints, tests en de statische analysetools. Op basis van de statische analysetools zijn substantiële wijzigingen gedaan. Eenvoudige problemen zoals het corrigeren van fouten zijn niet meegenomen in het verslag maar vooraf verwerkt. Uit het verslag blijkt dat er flink is geëxperimenteerd met verschillende opties om de code vorm te geven en dat er bewust eigen regels zijn geformuleerd voor de code, met verwijziging naar verschillende bronnen en uitkomsten van de tools.
 
 Alleen aanpassingen doen in één van beide programma's is niet genoeg om punten te scoren. Je moet dus allebei op hetzelfde minimumniveau aanpassen. Mocht je een programma eerder niet of niet correct hebben ingeleverd, dan zul je het moeten afmaken voordat je bovenstaande aanpassingen gaat doen.
-
-## Extra onderwerp
-
-Als laatste onderdeel van deze module staat de opdracht "Wat is mis met Cash".
-
-Deze opdracht telt mee in het eindcijfer, maar de opdracht is wel gemarkeerd als extra onderwerp omdat de rest van de cursus niet bouwt op deze kennis. Als je een opdracht moet overslaan is deze opdracht een goede keuze. Je mist daarmee dan wel enkele punten.
-
-Bij deze opdracht krijg je 0,25 punt per goede oplossing, met een maximum van 3 punten.
