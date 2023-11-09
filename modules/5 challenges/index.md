@@ -1,8 +1,8 @@
 # Challenges
 
-# Wat is mis met Cash
+Deze module telt normaal mee in het eindcijfer, maar de rest van de cursus bouwt niet op de kennis uit de module. Als je opdrachten moet overslaan dan is dat helemaal prima. Je mist daarmee dan wel enkele punten.
 
-Deze opdracht telt mee in het eindcijfer, maar de opdracht is wel gemarkeerd als extra onderwerp omdat de rest van de cursus niet bouwt op deze kennis. Als je een opdracht moet overslaan is deze opdracht een goede keuze. Je mist daarmee dan wel enkele punten.
+# Wat is mis met Cash
 
 Bij deze opdracht krijg je 0,25 punt per goede oplossing, met een maximum van 3 punten.
 
