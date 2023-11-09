@@ -57,8 +57,10 @@ Tools:
         Verbeter je code [opdracht]: /onderwerp/quality
 
 Challenges:
-    Wat is mis met Cash: /onderwerp/challenges/cash
-    Kalender design: /onderwerp/challenges/kalender
+    Overzicht: /modules/challenges
+    Opdrachten:
+        Wat is mis met Cash: /onderwerp/challenges/cash
+        Kalender design: /onderwerp/challenges/kalender
 
 Abstractions:
     Overzicht: /modules/abstractions
