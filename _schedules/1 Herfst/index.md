@@ -31,10 +31,10 @@ Bij elke module staat aangegeven hoeveel punten elke opdracht waard is en hoe de
 | ------------ | --------: | ---------------: |
 | Challenges   |         6 | (!) 24 nov 17:00 |
 | ------------ | --------: | ---------------: |
-| Abstractions |         6 |  1 nov 17:00     |
-| Structures   |         9 | 15 nov 17:00     |
+| Abstractions |         6 |  1 dec 17:00     |
+| Structures   |         9 | 15 dec 17:00     |
 | ------------ | --------: | ---------------: |
-| Profiling    |         3 | (!) 15 nov 17:00 |
+| Profiling    |         3 | (!) 15 dec 17:00 |
 | ------------ | --------: | ---------------: |
 | Totaal       |        48 |                  |
 
