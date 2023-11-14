@@ -12,14 +12,14 @@ templates:
         calculation: akkoord
         auto_publish: true
         hide_subgrades: true
-    4: &semiautomatic
-        type: float
+    4: &semiautomatisch
+        type: points
         subgrades:
-            done: boolean
+            akkoord: boolean
         automatic:
-            done: -(correctness_score.floor)
-        calculation: done==-1 && 1.5 || 0
-        hide_calculated: true
+            akkoord: -(correctness_score.floor)
+        calculation: akkoord
+        hide_subgrades: true
     2: &punten
         type: points
         subgrades:
@@ -113,7 +113,7 @@ grades:
         <<: *automatisch
         deadline: 17/11/23 17:00
     hangman-less:
-        <<: *automatisch
+        <<: *semiautomatisch
         deadline: 17/11/23 17:00
 
     # python_contract: *aftekenen
