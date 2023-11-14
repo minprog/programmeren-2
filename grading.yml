@@ -11,7 +11,7 @@ templates:
             akkoord: -(correctness_score.floor)
         calculation: akkoord
         auto_publish: true
-        hide_calculated: true
+        hide_subgrades: true
     4: &semiautomatic
         type: float
         subgrades:
@@ -92,23 +92,18 @@ grades:
 
     dicts_practice:
         <<: *aftekenen
-        calculation: -akkoord * 1
         deadline: 10/11/23 17:00
     sets_practice:
         <<: *aftekenen
-        calculation: -akkoord * 1
         deadline: 10/11/23 17:00
     big-o-questions:
         <<: *aftekenen
-        calculation: -akkoord * 1
         deadline: 10/11/23 17:00
     jaccard:
         <<: *aftekenen
-        calculation: -akkoord * 1
         deadline: 10/11/23 17:00
     indexer:
         <<: *aftekenen
-        calculation: -akkoord * 2
         deadline: 10/11/23 17:00
 
     queue:
