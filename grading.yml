@@ -96,34 +96,33 @@ grades:
     dicts_practice:
         <<: *aftekenen
         calculation: -akkoord * 1
+        deadline: 10/11/23 17:00
     sets_practice:
         <<: *aftekenen
         calculation: -akkoord * 1
+        deadline: 10/11/23 17:00
     big-o-questions:
         <<: *aftekenen
         calculation: -akkoord * 1
+        deadline: 10/11/23 17:00
     jaccard:
         <<: *aftekenen
         calculation: -akkoord * 1
+        deadline: 10/11/23 17:00
     indexer:
         <<: *aftekenen
         calculation: -akkoord * 2
+        deadline: 10/11/23 17:00
 
     queue:
         <<: *automatisch
-        automatic:
-            akkoord: -correctness_score
-        calculation: akkoord
+        deadline: 17/11/23 17:00
     cards:
         <<: *automatisch
-        automatic:
-            akkoord: -correctness_score
-        calculation: akkoord
+        deadline: 17/11/23 17:00
     hangman-less:
         <<: *automatisch
-        automatic:
-            akkoord: -correctness_score
-        calculation: akkoord
+        deadline: 17/11/23 17:00
 
     # python_contract: *aftekenen
     # python_type_hints: *aftekenen
