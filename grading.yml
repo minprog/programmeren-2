@@ -113,20 +113,17 @@ grades:
         <<: *automatisch
         automatic:
             akkoord: -correctness_score
-        calculation: -akkoord
-        # auto_publish: false
+        calculation: akkoord
     cards:
         <<: *automatisch
         automatic:
             akkoord: -correctness_score
-        calculation: -akkoord*1
-        # auto_publish: false
+        calculation: akkoord
     hangman-less:
         <<: *automatisch
         automatic:
             akkoord: -correctness_score
-        calculation: -akkoord*4
-        # auto_publish: false
+        calculation: akkoord
 
     # python_contract: *aftekenen
     # python_type_hints: *aftekenen
