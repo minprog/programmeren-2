@@ -11,7 +11,7 @@ templates:
             akkoord: -(correctness_score.floor)
         calculation: akkoord
         auto_publish: true
-        hide_subgrades: true
+        hide_calculated: true
     4: &semiautomatic
         type: float
         subgrades:
@@ -72,17 +72,14 @@ grades:
     # python_questions: *aftekenen
     mario:
         <<: *automatisch
-        calculation: -akkoord * 2
         deadline: 3/11/23 17:00
     readability:
         <<: *automatisch
-        calculation: -akkoord * 2
         deadline: 3/11/23 17:00
     schuifpuzzel:
         <<: *automatisch
         automatic:
             akkoord: -(correctness_score.floor/4)
-        calculation: -akkoord * 2
         deadline: 3/11/23 17:00
 
     # lisp:
