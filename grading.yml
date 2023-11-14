@@ -30,7 +30,7 @@ templates:
         type: points
         subgrades:
             akkoord: boolean
-        calculation: -akkoord
+        calculation: akkoord
         hide_subgrades: true
 
 # GRADES - contains definitions of how grades are structured. The names of the
@@ -69,7 +69,8 @@ templates:
 
 grades:
 
-    # python_questions: *aftekenen
+    # Python
+
     mario:
         <<: *automatisch
         deadline: 3/11/23 17:00
@@ -82,13 +83,7 @@ grades:
             akkoord: -(correctness_score.floor/4)
         deadline: 3/11/23 17:00
 
-    # lisp:
-    #     <<: *automatisch
-    #     automatic:
-    #         akkoord: -(correctness_score.floor/4)
-    #     calculation: -akkoord
-    #     auto_publish: false
-    # knapsack: *punten
+    # Complexiteit
 
     dicts_practice:
         <<: *aftekenen
@@ -106,6 +101,8 @@ grades:
         <<: *aftekenen
         deadline: 10/11/23 17:00
 
+    # Objects
+
     queue:
         <<: *automatisch
         deadline: 17/11/23 17:00
@@ -116,86 +113,77 @@ grades:
         <<: *semiautomatisch
         deadline: 17/11/23 17:00
 
-    # python_contract: *aftekenen
-    # python_type_hints: *aftekenen
-    # python_tests: *aftekenen
-    quality: *punten
+    # Tools
+
+    python_contract:
+        <<: *aftekenen
+        deadline: 24/11/23 17:00
+    python_type_hints:
+        <<: *aftekenen
+        deadline: 24/11/23 17:00
+    python_tests:
+        <<: *aftekenen
+        deadline: 24/11/23 17:00
+    quality:
+        <<: *punten
+        deadline: 24/11/23 17:00
+
+    # Challenges
+
+    cash_tests:
+        <<: *punten
+        deadline: 24/11/23 17:00
+    kalender_tests:
+        <<: *punten
+        deadline: 24/11/23 17:00
+
+    # Abstractions
 
     card_implementations:
         <<: *aftekenen
-        calculation: -akkoord * 1.5
+        deadline: 01/12/23 17:00
     figuren:
         <<: *automatisch
         automatic:
             akkoord: -(correctness_score.floor/1)
-        calculation: -akkoord * 1.5
         auto_publish: false
+        deadline: 01/12/23 17:00
     containers_lists:
         <<: *aftekenen
-        calculation: -akkoord * 1.5
+        deadline: 01/12/23 17:00
     containers_dicts:
         <<: *aftekenen
-        calculation: -akkoord * 1.5
+        deadline: 01/12/23 17:00
+
+    # Structures
 
     palindrome:
         <<: *aftekenen
-        calculation: -akkoord * 2
-    adventure-more: *punten
+        deadline: 15/12/23 17:00
+    adventure-more:
+        <<: *punten
+        deadline: 15/12/23 17:00
 
-    cash_tests: *punten
-    profilers: *punten
-    # kalender_tests: *punten
-    # deck_21:
-    #     <<: *aftekenen
-    #     calculation: -akkoord * 4
+    # Performance
 
+    profilers:
+        <<: *punten
+        deadline: 15/12/23 17:00
 
-# CALCULATIONS - define the final grades for the course and the weights between
-# subcomponents for each. Often, multiple final grades are differentiated by the
-# choice of grades that are used for the calculation, for example calculating
-# the "normal" final grade based on the "first exam", and the "resit" final
-# grade based on the result of the second exam. Currently, running "calculate
-# final grades" on the website will try to calculate all, which might result in
-# useless non-grades getting calculated.
-#
-# Weights specify proportionally to each other and do not need to add up to
-# anything in particular. If a weight of 0 is specified, the grade is not used
-# in the calculation, but the grade must be "passed" for the calculation to
-# succeed.
-#
-# You can leave this out if the site does not need to perform final grade
-# calculations.
+# FINAL GRADES
 
 calculation:
     eindcijfer:
-        module_1: 1
-        module_2: 1
-        module_3: 1
-        module_4: 1
-        module_5: 2
-        module_6: 2
-        extra: 1
+        python: 2
+        complexiteit: 2
+        objects: 2
+        tools: 2
+        challenges: 2
+        abstraction: 2
+        structures: 2
+        profiling: 1
 
-# SUB-CALCULATIONS - define the components of the course that may be used in
-# final grade calculations. A few constraints can be specified.
-#
-# The following properties are supported:
-#
-# `submits` are the names of the grades/submits with accompanying weight for
-# each
-#
-# `show_progress: true` will list the results of the grades in a table on
-# students' progress pages
-#
-# `required: true` will only "pass" this part if all comprising grades are
-# passed (used with pass/fail tests)
-#
-# `minimum: 5.5` will only "pass" this part if the weighed average of the grades
-# is at least the specified minimum
-#
-# You can leave these out if unused in the `calculation` section.
-
-module_1:
+python:
     type: points
     show_progress: true
     submits:
@@ -203,7 +191,7 @@ module_1:
         readability: 2
         schuifpuzzel: 2
 
-module_2:
+complexiteit:
     type: points
     show_progress: true
     submits:
@@ -213,7 +201,7 @@ module_2:
         jaccard: 1
         indexer: 2
 
-module_3:
+objects:
     type: points
     show_progress: true
     submits:
@@ -221,13 +209,23 @@ module_3:
         cards: 1
         hangman-less: 4
 
-module_4:
+tools:
     type: points
     show_progress: true
     submits:
-        quality: 6
+        python_contract: 0
+        python_type_hints: 0
+        python_tests: 0
+        quality: 3
 
-module_5:
+challenges:
+    type: points
+    show_progress: true
+    submits:
+        cash_tests: 3
+        kalender_tests: 3
+
+abstraction:
     type: points
     show_progress: true
     submits:
@@ -236,26 +234,15 @@ module_5:
         containers_lists: 1.5
         containers_dicts: 1.5
 
-module_6:
+structures:
     type: points
     show_progress: true
     submits:
         palindrome: 2
         adventure-more: 10
 
-extra:
+profiling:
     type: points
     show_progress: true
     submits:
-        cash_tests: 3
         profilers: 3
-
-# python_questions: 1
-# python_tests: 0 # oefenopdracht
-# kalender_tests: 1
-# lisp: 1
-# knapsack: 1
-# python_contract: 0
-# python_type_hints: 0
-# python_tests: 0
-# deck_21: 1

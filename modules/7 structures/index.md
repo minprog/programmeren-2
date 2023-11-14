@@ -42,7 +42,3 @@ Puntentelling is niet correct! # TODO
         - 2 punten voor een zeer goede uitvoering waar voldaan is aan de eisen voor 1 punt, maar waar ook zinvolle tests aanwezig zijn voor alle classes die zinvol testbaar zijn (het is aan jou om uit te zoeken welke tests, de assistenten mogen hier niet bij helpen)
 
         - 3 punten voor een uitzonderlijk goede uitvoering waar voldaan is aan de eisen voor 2 punten, maar waar het (class)design substantieel ook is aangepast waardoor de code overzichtelijker wordt (met nadrukkelijke eis dat de checks nog slagen; assistenten mogen op geen enkele manier helpen met redesign, wel met debugging natuurlijk)
-
-## Extra onderwerp
-
-Als laatste onderdeel van deze module staat de opdracht "Profiling". Deze is 3 punten waard binnen de cursus en telt gewoon mee. De opdracht is wel gemarkeerd als extra onderwerp omdat de rest van de cursus niet bouwt op deze kennis. Als je een opdracht moet overslaan is deze opdracht een goede keuze. Je mist daarmee dan wel enkele punten.
