@@ -83,4 +83,6 @@ Structures:
         Adventure [opdracht]: /adventure2/more
 
 Performance:
-    Profiling: /onderwerp/performance/profiling
+    Overzicht: /modules/performance
+    Opdracht:
+        Profiling: /onderwerp/performance/profiling

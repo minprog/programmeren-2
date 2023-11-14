@@ -161,7 +161,13 @@ grades:
         <<: *aftekenen
         deadline: 15/12/23 17:00
     adventure-more:
-        <<: *punten
+        <<: *semiautomatisch
+        subgrades:
+            check_points: integer
+            quality_points: integer
+        automatic:
+            check_points: (correctness_score * 5).round
+        calculation: check_points + quality_points
         deadline: 15/12/23 17:00
 
     # Performance
@@ -238,8 +244,8 @@ structures:
     type: points
     show_progress: true
     submits:
-        palindrome: 2
-        adventure-more: 10
+        palindrome: 1
+        adventure-more: 8
 
 profiling:
     type: points

@@ -26,6 +26,8 @@ Je gaat in deze module:
 
 ## Puntentelling
 
+**Let op: voor het geven van punten wordt alleen gekeken naar de submit van de opdracht "Verbeter je code". De andere inzendingen van deze module zijn tussenstappen en worden niet beoordeeld.**
+
 In deze module ga je in een aantal stappen je programma's **Schuifpuzzel** en **Hangman** aanpassen. Je gebruikt daarbij nieuwe achtergrondkennis en verschillende nieuwe tools.
 
 Aan het eind van de module ga je één definitieve versie inleveren van deze twee programma's met daarbij een verslag van jouw werkwijze en aanpassingen. Er zijn ook tussenstappen die je moet/kunt inleveren, maar uiteindelijk wordt de laatste versie bij de opdracht "Verbeter je code" nagekeken.

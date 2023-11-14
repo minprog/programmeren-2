@@ -27,17 +27,15 @@ En dan hoofdstuk 5 tot je het zo goed mogelijk begrijpt.
 
 ## Puntentelling
 
-Puntentelling is niet correct! # TODO
+- 1 punt voor een goed uitgevoerde Palindrome-oefening (geen deelpunten)
 
-- 2 punten voor een goed uitgevoerde Palindrome-oefening (geen deelpunten)
+- tot 8 punten voor Adventure, afhankelijk van hoe ver je komt met de implementatie en de wijze waarop je het geleerde uit Programmeren 2 toepast in deze implementatie
 
-- tot 10 punten voor Adventure, afhankelijk van hoe ver je komt met de implementatie en de wijze waarop je het geleerde uit Programmeren 2 toepast in deze implementatie
-
-    - eerste 7 punten zijn op basis van percentage checks die lukken en uitvoering volgens de opdracht (zonder uitzondering)
+    - eerste 5 punten zijn op basis van percentage checks die lukken en uitvoering volgens de opdracht (zonder uitzondering)
 
     - overige 3 punten voor de kwaliteit van de uitvoering:
 
-        - 1 punt voor degelijke uitvoering waar basis op orde is: docstrings, relevante pre- en postconditions met af en toe assertions, type hints die goedgekeurd worden volgens `mypy --strict`
+        - 1 punt voor degelijke uitvoering waar basis op orde is: docstrings, relevante pre- en postconditions genoemd, enkele assertions, type hints die goedgekeurd worden volgens `mypy --strict`
 
         - 2 punten voor een zeer goede uitvoering waar voldaan is aan de eisen voor 1 punt, maar waar ook zinvolle tests aanwezig zijn voor alle classes die zinvol testbaar zijn (het is aan jou om uit te zoeken welke tests, de assistenten mogen hier niet bij helpen)
 
