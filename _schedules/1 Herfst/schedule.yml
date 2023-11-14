@@ -68,7 +68,7 @@ Abstractions:
         "Boek 2: Data Abstractions": /onderwerp/adts/boek
         Testen met twee implementaties [opdracht]: /onderwerp/adts/card
         # Een-en-twintigen: /onderwerp/adts/deck
-        Figuren [opdracht]: /onderwerp/oop/figuren
+        Figuren [opdracht]: /onderwerp/adts/figuren
     Containers:
         "Boek 3: Container Classes": /onderwerp/containers/boek
         List structure [opdracht]: /onderwerp/containers/lists
@@ -78,9 +78,9 @@ Abstractions:
 Structures:
     Overzicht: /modules/structures
     Strucuren bouwen:
-        "Boek 4-5: Structures": /onderwerp/linked/boek
-        Palindrome [opdracht]: /onderwerp/linked/palindrome
+        "Boek 4-5: Structures": /onderwerp/structures/boek
+        Palindrome [opdracht]: /onderwerp/structures/palindrome
         Adventure [opdracht]: /adventure2/more
 
 Performance:
-    Profiling: /onderwerp/containers/profiling
+    Profiling: /onderwerp/performance/profiling
