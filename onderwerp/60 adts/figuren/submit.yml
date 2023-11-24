@@ -2,7 +2,7 @@ name: figuren
 files:
   required:
     - figuren.py
-check:
-  tool: checkpy
-  repo: minprog/python
-  args: figuren
+# check:
+#   tool: checkpy
+#   repo: minprog/python
+#   args: figuren
