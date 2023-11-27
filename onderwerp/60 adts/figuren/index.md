@@ -98,7 +98,11 @@ Zodra elke shape een positie heeft kunnen we bijvoorbeeld de afstand tussen twee
 
     Waarbij x1, x2, y1 en y2 zijn de respectievelijke coördinaten van de twee shapes waartussen de afstand berekend wordt. Vergeet niet om `math` te importeren!
 
-*   Pas de `__init__()` van de verschillende soorten shapes aan zodat deze ook de (x,y)-coördinaten accepteren en roep de `super().__init__()` aan zoals in de voorbeelden in het boek.
+*   Pas de `__init__()` van de verschillende soorten shapes aan zodat deze ook de (x,y)-coördinaten accepteren. In zo'n initializer-functie moet je dan een aanroep doen naar de `init` van `Shape`. Dat doe je via `super`:
+
+         super().__init__(...)
+
+    "Super" verwijst hier naar de superclass.
 
 ## Afronding
 
