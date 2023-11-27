@@ -18,7 +18,16 @@ In deze opdracht ga je tests schrijven voor de `Card`-class uit het boek en daar
 
     - Probeer zo compleet mogelijk alle combinaties van functie-aanroepen te testen, maar probeer tegelijk herhaling van soortgelijke tests te voorkomen. Dit is een balans die je moet vinden.
 
-3.  Pas nu de `Card`-class aan zodat deze gebruik maakt van de alternatieve implementatie zoals beschreven in paragraaf 2.3.3 van het boek (sla een nieuwe versie op als `card.py`!). Uiteindelijk moeten de tests exact zo blijven werken als ze zijn, en dat betekent dat je ook niets mag veranderen aan welke methods er zijn in de `Card`-class en welke argumenten ze meekrijgen.
+3.  Pas nu de `Card`-class aan zodat deze gebruik maakt van de alternatieve implementatie zoals beschreven in paragraaf 2.3.3 van het boek (sla een nieuwe versie op als `card.py`!).
+
+    Je alternatieve implementatie heeft niet meer de properties rank en suit, dus je moet deze regels verwijderen uit de __init__:
+
+        self.rank_num = rank
+        self.suit_char = suit
+
+    Vervolgens voeg je een andere property toe op basis van de ideeën uit paragraaf 2.3.3 die je vervolgens in de rest van de methodes gebruikt.
+
+    Uiteindelijk moeten en kunnen de tests daarom exact zo blijven werken als ze zijn, omdat er niets zal veranderen aan welke methods er zijn in de `Card`-class en welke argumenten ze meekrijgen. Alleen de instance variables zullen veranderen en de code die daarmee werkt.
 
     Maar: mocht door het testen juist blijken dat je iets verkeerd aan het testen was, dan mag je natuurlijk wel de test veranderen! Zolang de tests maar blijven werken op zowel de oude als de nieuwe implementatie.
 
