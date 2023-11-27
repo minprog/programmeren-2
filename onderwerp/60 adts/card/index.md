@@ -20,12 +20,12 @@ In deze opdracht ga je tests schrijven voor de `Card`-class uit het boek en daar
 
 3.  Pas nu de `Card`-class aan zodat deze gebruik maakt van de alternatieve implementatie zoals beschreven in paragraaf 2.3.3 van het boek (sla een nieuwe versie op als `card.py`!).
 
-    Je alternatieve implementatie heeft niet meer de properties rank en suit, dus je moet deze regels verwijderen uit de __init__:
+    Je alternatieve implementatie heeft niet meer de instance variables rank en suit, dus je moet deze regels verwijderen uit de __init__:
 
         self.rank_num = rank
         self.suit_char = suit
 
-    Vervolgens voeg je een andere property toe op basis van de ideeën uit paragraaf 2.3.3 die je vervolgens in de rest van de methodes gebruikt.
+    Vervolgens voeg je een andere instance variable toe op basis van de ideeën uit paragraaf 2.3.3, die je vervolgens in de rest van de methodes gebruikt.
 
     Uiteindelijk moeten en kunnen de tests daarom exact zo blijven werken als ze zijn, omdat er niets zal veranderen aan welke methods er zijn in de `Card`-class en welke argumenten ze meekrijgen. Alleen de instance variables zullen veranderen en de code die daarmee werkt.
 
