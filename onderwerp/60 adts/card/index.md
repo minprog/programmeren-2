@@ -18,7 +18,7 @@ In deze opdracht ga je tests schrijven voor de `Card`-class uit het boek en daar
 
     - Probeer zo compleet mogelijk alle combinaties van functie-aanroepen te testen, maar probeer tegelijk herhaling van soortgelijke tests te voorkomen. Dit is een balans die je moet vinden.
 
-3.  Pas nu de `Card`-class aan zodat deze gebruik maakt van de alternatieve implementatie zoals beschreven in paragraaf 2.3.3 van het boek (sla een nieuwe versie op!). Uiteindelijk moeten de tests exact zo blijven werken als ze zijn, en dat betekent dat je ook niets mag veranderen aan welke methods er zijn in de `Card`-class en welke argumenten ze meekrijgen.
+3.  Pas nu de `Card`-class aan zodat deze gebruik maakt van de alternatieve implementatie zoals beschreven in paragraaf 2.3.3 van het boek (sla een nieuwe versie op als `card.py`!). Uiteindelijk moeten de tests exact zo blijven werken als ze zijn, en dat betekent dat je ook niets mag veranderen aan welke methods er zijn in de `Card`-class en welke argumenten ze meekrijgen.
 
     Maar: mocht door het testen juist blijken dat je iets verkeerd aan het testen was, dan mag je natuurlijk wel de test veranderen! Zolang de tests maar blijven werken op zowel de oude als de nieuwe implementatie.
 
@@ -27,6 +27,6 @@ In deze opdracht ga je tests schrijven voor de `Card`-class uit het boek en daar
 ## Inleveren
 
 Lever hieronder de oude en de nieuwe implementatie, en ook de bijbehorende tests in.
-Zorg dat bij het inleveren `from card.py import Card` bovenaan je testfile staat, zodat de **nieuwe** implementatie wordt gebruikt voor testen.
+Zorg dat bij het inleveren `from card import Card` bovenaan je testfile staat, zodat de **nieuwe** implementatie wordt gebruikt voor testen.
 
 Bij deze opdracht wordt niet gekeken naar gebruik van type hints.
