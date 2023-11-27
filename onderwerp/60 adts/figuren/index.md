@@ -102,10 +102,12 @@ Zodra elke shape een positie heeft kunnen we bijvoorbeeld de afstand tussen twee
 
 ## Afronding
 
-Om het programma compleet te maken voeg je overal de juiste type hints toe.
+Om het programma compleet te maken voeg je overal de juiste type hints toe. Dit is niet helemaal triviaal.
+
+In veel methods heb je een parameter `other`. Deze kun je vaak type `Self` geven, waarmee wordt aangegeven dat het "andere" object hetzelfde type heeft, dus de class Shape. Om `Self` te gebruiken moet je wel toevoegen `from typing import Self`.
+
+Helaas geldt dat dan weer niet voor `__eq__` en `__ne__`, waar andere regels gelden. De type checker `mypy --strict` zal je voor een deel ook tips geven hoe je het kan aanpakken.
 
 ## Beoordeling
 
-Je programma wordt automatisch gecontroleerd type hints. De werking van de code wordt na de deadline handmatig beoordeeld. Zorg ervoor dat je programma voldoet aan de bovenstaande eisen en gebruik maakt van de ideeën die in de opgave worden aangereikt.
-
-> Let niet op de check voor "doctests"! Je schrijft geen tests bij deze opdracht.
+De type hints en de werking van de code worden na de deadline handmatig beoordeeld. Zorg ervoor dat je programma voldoet aan de bovenstaande eisen en gebruik maakt van de ideeën die in de opgave worden aangereikt.
