@@ -20,7 +20,7 @@ In deze opdracht ga je tests schrijven voor de `Card`-class uit het boek en daar
 
 3.  Pas nu de `Card`-class aan zodat deze gebruik maakt van de alternatieve implementatie zoals beschreven in paragraaf 2.3.3 van het boek (sla een nieuwe versie op als `card.py`!).
 
-    Je alternatieve implementatie heeft niet meer de instance variables rank en suit, dus je moet deze regels verwijderen uit de __init__:
+    Je alternatieve implementatie heeft niet meer de instance variables `rank_num` en `suit_char` , dus je moet deze regels verwijderen uit de __init__:
 
         self.rank_num = rank
         self.suit_char = suit
