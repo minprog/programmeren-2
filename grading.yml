@@ -143,10 +143,7 @@ grades:
         <<: *aftekenen
         deadline: 01/12/23 17:00
     figuren:
-        <<: *automatisch
-        automatic:
-            akkoord: -(correctness_score.floor/1)
-        auto_publish: false
+        <<: *aftekenen
         deadline: 01/12/23 17:00
     containers_lists:
         <<: *aftekenen
