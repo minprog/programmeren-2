@@ -219,7 +219,7 @@ tools:
         python_contract: 0
         python_type_hints: 0
         python_tests: 0
-        quality: 3
+        quality: 6
 
 challenges:
     type: points
