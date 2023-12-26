@@ -177,14 +177,14 @@ grades:
 
 calculation:
     eindcijfer:
-        python: 2
-        complexiteit: 2
-        objects: 2
-        tools: 2
-        challenges: 2
-        abstraction: 2
-        structures: 2
-        profiling: 1
+        python: 6
+        complexiteit: 6
+        objects: 6
+        tools: 6
+        challenges: 6
+        abstraction: 6
+        structures: 9
+        profiling: 3
 
 python:
     type: points
