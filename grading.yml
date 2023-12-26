@@ -216,9 +216,9 @@ tools:
     type: points
     show_progress: true
     submits:
-        python_contract: 0
-        python_type_hints: 0
-        python_tests: 0
+        # python_contract: 0
+        # python_type_hints: 0
+        # python_tests: 0
         quality: 6
 
 challenges:
