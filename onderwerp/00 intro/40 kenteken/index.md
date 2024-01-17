@@ -28,7 +28,7 @@ Het programma moet als volgt werken:
 Met de volgende eisen:
 
 * Het programma moet case-insensitive werken.
-* Het programma is ongevoelig voor strepen (`-`) in het kenteken.
+* Het programma moet ongevoelig zijn voor strepen (`-`) in het kenteken.
 
 Implementeer en maak gebruik van de volgende functie:
 
