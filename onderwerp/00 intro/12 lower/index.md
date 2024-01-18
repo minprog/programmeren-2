@@ -2,7 +2,7 @@
 
 Python strings kennen de methodes `lower()` en `upper()`. Hier vind je de [officiële documentatie](https://docs.python.org/3/library/stdtypes.html#str.upper).
 
-Implementeer de volgende functies in een bestand genaamd `case.py`:
+Implementeer de volgende functies in een bestand genaamd `lower.py`:
 
     def lower(string: str) -> str:
         """
@@ -18,4 +18,4 @@ Implementeer de volgende functies in een bestand genaamd `case.py`:
 
 ## Testen
 
-Schrijf in een apart bestand `test_case.py` minimaal zes tests in totaal (zes aparte test functies) voor de functies `lower` en `upper`.
+Schrijf in een apart bestand `test_lower.py` minimaal zes tests in totaal (zes aparte test functies) voor de functies `lower` en `upper`.
