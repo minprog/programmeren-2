@@ -12,12 +12,14 @@ Implementeer de volgende functies in een bestand genaamd `isalpha.py`:
 
     def islower(string: str) -> bool:
         """
-        Return True if all cased characters in the string are lowercase and there is at least one cased character, False otherwise.
+        Return True if all cased characters in the string are lowercase
+        and there is at least one cased character, False otherwise.
         """
 
     def isupper(string: str) -> bool:
         """
-        Return True if all cased characters in the string are uppercase and there is at least one cased character, False otherwise.
+        Return True if all cased characters in the string are uppercase
+        and there is at least one cased character, False otherwise.
         """
 
 > `abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ`
