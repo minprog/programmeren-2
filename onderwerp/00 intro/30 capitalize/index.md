@@ -12,4 +12,4 @@ Implementeer de volgende functie in een bestand genaamd `capitalize.py`:
 
 ## Testen
 
-Schrijf in een apart bestand `test_capitalize.py` minimaal zes tests (zes aparte test functies) voor de functie `capitalize`.
+Schrijf in een apart bestand `test_capitalize.py` minimaal drie tests (drie aparte test functies) voor de functie `capitalize`.
