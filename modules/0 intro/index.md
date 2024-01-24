@@ -22,6 +22,8 @@ Deze tools moet je zelf draaien. Op die manier krijg je feedback als er iets nog
 * [isalpha](/onderwerp/intro/opdrachten/isalpha)
 * [lower](/onderwerp/intro/opdrachten/lower)
 * [orakel](/onderwerp/intro/opdrachten/orakel)
+* [index](/onderwerp/intro/opdrachten/index)
+* [slice](/onderwerp/intro/opdrachten/slice)
 * [capitalize](/onderwerp/intro/opdrachten/capitalize)
 * [title](/onderwerp/intro/opdrachten/title)
 * [find](/onderwerp/intro/opdrachten/find)
