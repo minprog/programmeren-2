@@ -9,11 +9,11 @@ Dit betekent ook dat je aan de hand van een variabele alleen niet kunt afleiden 
 
     getal: int = 42
 
-Type hints zorgen er ook voor dat een programma kan checken of de types kloppen in het programma. Daardoor worden bugs een stuk sneller gevonden. `mypy` is zo'n typechecker voor Python. Je runt deze tool als volgt:
+Type hints zorgen er ook voor dat een ander programma kan checken of de types kloppen in jouw code. Daardoor worden bugs een stuk sneller gevonden. `mypy` is zo'n typechecker voor Python. Je runt deze tool als volgt:
 
     mypy --strict
 
-`mypy --strict` vereist dat je op bepaalde plekken type hints neerzet. Specifiek bij het definieren van functies, bijvoorbeeld:
+`mypy --strict` vereist dat je op bepaalde plekken type hints neerzet. Specifiek bij het definiëren van functies, bijvoorbeeld:
 
     def add(getal1, getal2):
         """verkeerd"""
@@ -21,12 +21,12 @@ Type hints zorgen er ook voor dat een programma kan checken of de types kloppen 
     def add(getal1: int, getal2: int) -> int:
         """goed"""
 
-En bij variabelen waar het type niet direct kan worden afgeleid. In veel gevallen kan het type worden afgeleid:
+En bij variabelen waar het type niet direct kan worden afgeleid. In veel gevallen kan het type wel worden afgeleid:
 
     foo = 7 # hier hoeft geen type hint, 7 is een int dus foo ook
-    tekst = "hello world" # ook hier geen type hint
+    tekst = "hello world" # ook hier geen type hint nodig
 
-Soms niet, bijvoorbeeld:
+Soms kan dat niet, bijvoorbeeld:
 
     getallen = [] # fout
     getallen: list[int] = [] # goed

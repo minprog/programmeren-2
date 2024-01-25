@@ -10,11 +10,23 @@ De assistenten zijn minder behulpzaam bij deze module. Het is echt aan jou en je
 
 Voor alle opdrachten in dit vak is er een norm voor de ingeleverde code. De code moet aan bepaalde eisen voldoen en dat wordt gecontroleerd met verschillende tools. Dat zijn altijd:
 
-* `pycodestyle --select=E101,E112,E113,E115,E116,E117,E501,E502,W505,W291 --max-line-length=99 --max-doc-length=79`
-* `mypy --strict`
-* Er zijn minimaal X tests geschreven in `pytest` en `pytest` zelf slaagt. Hoeveel tests minimaal wisselt per opdracht.
+* [pycodestyle](/onderwerp/intro/pycodestyle): `pycodestyle --select=E101,E112,E113,E115,E116,E117,E501,E502,W505,W291 --max-line-length=99 --max-doc-length=79`
+* [mypy](/onderwerp/intro/mypy): `mypy --strict`
+* [pytest](/onderwerp/intro/pytest): Er zijn minimaal X tests geschreven in `pytest` en `pytest` zelf slaagt. Hoeveel tests minimaal wisselt per opdracht.
 
 Deze tools moet je zelf draaien. Op die manier krijg je feedback als er iets nog niet klopt. De nakijkserver draait de tools ook, maar geeft alleen aan als er iets fout gaat, maar vaak niet wat.
+
+## Python code runnen
+
+    python3 hello.py
+
+Voert het programma hello.py uit.
+
+    python3 -i camelcase.py
+    >>> convert("hello_world")
+    'helloWorld'
+
+Voert het programma uit en opent de Python interpreter. Daar kan je individuele functies direct uitvoeren.
 
 ## De opdrachten
 
