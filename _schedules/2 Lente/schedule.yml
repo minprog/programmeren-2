@@ -1,6 +1,27 @@
 Welkom:
     Lees hier even rustig door de studiewijzer om te ontdekken hoe het vak in elkaar zit: /syllabus
 
+Intro:
+    "Overzicht: Starten met Python": /modules/python
+    Voorbereiding:
+        'College: C => Python': /onderwerp/intro/lecture_doug
+    "Opdrachten":
+        weken: /onderwerp/intro/opdrachten/weken
+        isalpha: /onderwerp/intro/opdrachten/isalpha
+        lower: /onderwerp/intro/opdrachten/lower
+        orakel: /onderwerp/intro/opdrachten/orakel
+        index: /onderwerp/intro/opdrachten/index
+        slice: /onderwerp/intro/opdrachten/slice
+        capitalize: /onderwerp/intro/opdrachten/capitalize
+        title: /onderwerp/intro/opdrachten/title
+        find: /onderwerp/intro/opdrachten/find
+        split: /onderwerp/intro/opdrachten/split
+        calculator: /onderwerp/intro/opdrachten/calculator
+        join: /onderwerp/intro/opdrachten/join
+        replace: /onderwerp/intro/opdrachten/replace
+        camelcase: /onderwerp/intro/opdrachten/camelcase
+        kenteken*: /onderwerp/intro/opdrachten/kenteken
+        split real*: /onderwerp/intro/opdrachten/split_real
 Python:
     "Overzicht: Starten met Python": /modules/python
     Voorbereiding:
