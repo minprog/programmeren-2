@@ -28,8 +28,9 @@ Voert het programma hello.py uit.
 
 Voert het programma uit en opent de Python interpreter. Daar kan je individuele functies direct uitvoeren.
 
-## De opdrachten
+## Het programma
 
+* [college: C => Python](/onderwerp/intro/lecture_doug)
 * [weken](/onderwerp/intro/opdrachten/weken)
 * [isalpha](/onderwerp/intro/opdrachten/isalpha)
 * [lower](/onderwerp/intro/opdrachten/lower)
