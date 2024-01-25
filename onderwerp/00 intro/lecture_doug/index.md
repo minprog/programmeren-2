@@ -2,7 +2,7 @@
 
 ![embed](https://video.cs50.io/mgBpcQRDtl0)
 
-> In het filmpje komen ook `classes` en `dictionaries` voorbij. Deze twee onderwerpen komen niet terug in deze module.
+> In het filmpje komen ook `classes` en `dictionaries` voorbij. Deze twee onderwerpen komen niet terug in deze module en komen pas in volgende modules aan bod.
 
 ## Correcties
 
