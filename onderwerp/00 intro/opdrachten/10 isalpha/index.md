@@ -1,4 +1,4 @@
-## isalpha
+# isalpha
 
 Python strings kennen de methodes `isalpha()`, `islower()` en `isupper()`. Hier vind je de officiële documentatie van [isalpha](https://docs.python.org/3/library/stdtypes.html#str.isalpha), [islower](https://docs.python.org/3/library/stdtypes.html#str.islower) en [isupper](https://docs.python.org/3/library/stdtypes.html#str.isupper).
 

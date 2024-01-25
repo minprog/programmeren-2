@@ -1,4 +1,4 @@
-## join
+# join
 
 Python strings kennen een methode `join()`. Hier vind je de [officiële documentatie](https://docs.python.org/3/library/stdtypes.html#str.join).
 

@@ -1,4 +1,4 @@
-## index
+# index
 
 Python strings en lists kennen negatieve indices. Hier vind je de [officiële documentatie](https://docs.python.org/3/faq/programming.html#what-s-a-negative-index).
 

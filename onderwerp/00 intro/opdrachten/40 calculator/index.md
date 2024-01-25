@@ -1,4 +1,4 @@
-## Calculator
+# Calculator
 
 Schrijf een programma `calculator.py` dat gebruikers een formule laat intikken en het programma rekent vervolgens de uitkomst uit. De calculator moet de volgende operaties ondersteunen:
 

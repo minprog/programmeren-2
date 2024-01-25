@@ -1,4 +1,4 @@
-## Kenteken
+# Kenteken
 
 Schrijf een programma `kenteken.py` dat controleert of het kenteken van personenauto's aan de eisen van [RDW](https://www.rdw.nl/particulier/voertuigen/auto/de-kentekenplaat/cijfers-en-letters-op-de-kentekenplaat) voldoet. Specifiek de volgende eisen:
 

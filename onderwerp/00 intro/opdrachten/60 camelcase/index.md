@@ -1,4 +1,4 @@
-## camelCase
+# camelCase
 
 Schrijf een programma `camelcase.py` dat camelCase convert naar snake_case en andersom. Het programma moet als volgt werken:
 

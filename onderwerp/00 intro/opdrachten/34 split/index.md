@@ -1,4 +1,4 @@
-## split
+# split
 
 Python strings kennen een methode `split()`. Hier vind je de [officiële documentatie](https://docs.python.org/3/library/stdtypes.html#str.split).
 

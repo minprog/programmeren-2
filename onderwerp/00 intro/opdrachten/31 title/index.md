@@ -1,4 +1,4 @@
-## title
+# title
 
 Python strings kennen een methode `title()`. Hier vind je de [officiële documentatie](https://docs.python.org/3/library/stdtypes.html#str.title).
 

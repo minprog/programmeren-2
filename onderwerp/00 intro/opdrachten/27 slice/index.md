@@ -1,4 +1,4 @@
-## slice
+# slice
 
 Python strings en lists kennen ook slicing. Hier vind je een korte uitleg op [Stack Overflow](https://stackoverflow.com/a/509295).
 

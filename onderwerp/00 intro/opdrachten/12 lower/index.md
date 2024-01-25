@@ -1,4 +1,4 @@
-## lower en upper
+# lower en upper
 
 Python strings kennen de methodes `lower()` en `upper()`. Hier vind je de [officiële documentatie](https://docs.python.org/3/library/stdtypes.html#str.upper).
 

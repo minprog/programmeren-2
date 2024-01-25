@@ -1,4 +1,4 @@
-## find
+# find
 
 Python strings kennen een methode `find()`. Hier vind je de [officiële documentatie](https://docs.python.org/3/library/stdtypes.html#str.find).
 
