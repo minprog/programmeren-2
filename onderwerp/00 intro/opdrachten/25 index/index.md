@@ -10,7 +10,7 @@ Implementeer de volgende functie in een bestand genaamd `index.py`:
         index can be any number between -len(string) and len(string) - 1
         """
 
-> Implementeer de functies **zonder gebruik te maken van negatieve indices**.
+> Implementeer de functie **zonder gebruik te maken van negatieve indices**.
 
 
 ## Testen
