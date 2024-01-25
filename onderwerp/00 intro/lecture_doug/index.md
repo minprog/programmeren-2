@@ -2,6 +2,8 @@
 
 ![embed](https://video.cs50.io/mgBpcQRDtl0)
 
+> In het filmpje komen ook `class`es en `dict`ionaries voorbij. Deze twee onderwerpen komen niet terug in deze module.
+
 ## Correcties
 
 Deze lecture (CS50 short) is alweer wat jaren oud. Dat betekent dat er intussen dingen zijn veranderd. Hieronder een aantal correcties.
