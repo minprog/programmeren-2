@@ -174,7 +174,7 @@ grades:
         deadline: 15/12/23 17:00
 
     oefententamen:
-        <<: *check
+        <<: *aftekenen
         exam: true
         files:
             required:
