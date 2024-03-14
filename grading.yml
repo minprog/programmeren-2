@@ -261,3 +261,8 @@ profiling:
     show_progress: true
     submits:
         profilers: 3
+
+test:
+    show_progress: true
+    submits:
+        oefententamen: 1
