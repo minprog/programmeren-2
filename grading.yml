@@ -173,6 +173,18 @@ grades:
         <<: *punten
         deadline: 15/12/23 17:00
 
+    oefententamen:
+        <<: *aftekenen
+        exam: true
+        files:
+            required:
+                'makelaar.py': |
+                    """makelaar.py"""
+                'header.py': |
+                    """header.py"""
+                'spam.py': |
+                    """spam.py"""
+
 # FINAL GRADES
 
 calculation:
@@ -249,3 +261,8 @@ profiling:
     show_progress: true
     submits:
         profilers: 3
+
+test:
+    show_progress: true
+    submits:
+        oefententamen: 1
