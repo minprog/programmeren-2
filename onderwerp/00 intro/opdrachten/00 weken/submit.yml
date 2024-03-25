@@ -1,0 +1,9 @@
+name: weken
+files:
+  required:
+    - weken.py
+    - test_weken.py
+check:
+    tool: checkpy
+    repo: minprog/checks
+    args: weken
