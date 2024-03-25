@@ -1,0 +1,9 @@
+name: find
+files:
+  required:
+    - find.py
+    - test_find.py
+check:
+    tool: checkpy
+    repo: minprog/checks
+    args: find

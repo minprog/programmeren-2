@@ -1,0 +1,9 @@
+name: split
+files:
+  required:
+    - split.py
+    - test_split.py
+check:
+    tool: checkpy
+    repo: minprog/checks
+    args: split

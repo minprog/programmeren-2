@@ -1,0 +1,9 @@
+name: isalpha
+files:
+  required:
+    - isalpha.py
+    - test_isalpha.py
+check:
+    tool: checkpy
+    repo: minprog/checks
+    args: isalpha

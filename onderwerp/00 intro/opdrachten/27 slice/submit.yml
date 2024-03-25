@@ -1,0 +1,9 @@
+name: slice
+files:
+  required:
+    - slice.py
+    - test_slice.py
+check:
+    tool: checkpy
+    repo: minprog/checks
+    args: slice

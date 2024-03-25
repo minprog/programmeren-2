@@ -1,0 +1,9 @@
+name: camelcase
+files:
+  required:
+    - camelcase.py
+    - test_camelcase.py
+check:
+    tool: checkpy
+    repo: minprog/checks
+    args: camelcase

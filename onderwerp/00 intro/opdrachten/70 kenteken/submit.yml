@@ -1,0 +1,9 @@
+name: kenteken
+files:
+  required:
+    - kenteken.py
+    - test_kenteken.py
+check:
+    tool: checkpy
+    repo: minprog/checks
+    args: kenteken

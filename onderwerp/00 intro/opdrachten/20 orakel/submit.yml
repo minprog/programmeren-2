@@ -1,0 +1,9 @@
+name: orakel
+files:
+  required:
+    - orakel.py
+    - test_orakel.py
+check:
+    tool: checkpy
+    repo: minprog/checks
+    args: orakel

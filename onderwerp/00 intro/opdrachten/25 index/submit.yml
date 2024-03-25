@@ -1,0 +1,9 @@
+name: index
+files:
+  required:
+    - index.py
+    - test_index.py
+check:
+    tool: checkpy
+    repo: minprog/checks
+    args: index

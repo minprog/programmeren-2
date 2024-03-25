@@ -1,0 +1,9 @@
+name: replace
+files:
+  required:
+    - replace.py
+    - test_replace.py
+check:
+    tool: checkpy
+    repo: minprog/checks
+    args: replace
