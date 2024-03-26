@@ -3,6 +3,10 @@ Welkom:
 
 Intro:
     "Overzicht": /modules/intro
+    Tools:
+        'pycodestyle': /onderwerp/intro/pycodestyle
+        'mypy': /onderwerp/intro/mypy
+        'pytest': /onderwerp/intro/pytest
     Voorbereiding:
         'College: C => Python': /onderwerp/intro/lecture_doug
     "Opdrachten":
