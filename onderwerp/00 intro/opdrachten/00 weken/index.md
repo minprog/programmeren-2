@@ -18,7 +18,7 @@ Schrijf in een bestand genaamd `weken.py` een functie genaamd `weeks_elapsed`. S
 
 ## Testen
 
-Schrijf in een apart bestand `test_weken.py` minimaal drie tests (vier aparte test functies) voor de functie `weeks_elapsed`. Eentje krijg je alvast kado:
+Schrijf in een apart bestand `test_weken.py` minimaal vier tests (vier aparte test functies) voor de functie `weeks_elapsed`. Eentje krijg je alvast kado:
 
     from weken import weeks_elapsed
 
