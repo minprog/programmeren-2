@@ -36,12 +36,12 @@ Bij elke module staat aangegeven hoeveel punten elke opdracht waard is en hoe de
 | Objects      |         6 | vrijdag 19 mrt 13:30 |
 | Tools        |         6 | vrijdag 26 mrt 13:30 |
 | ------------ | --------: | ---------------: |
-| Challenges   |         6 | vrijdag 26 mrt 13:30 |
+| Challenges   |         6 | (!) vrijdag 26 mrt 13:30 |
 | ------------ | --------: | ---------------: |
 | Abstractions |         6 | vrijdag 10 apr 13:30 |
 | Structures   |         9 | vrijdag 24 apr 13:30 |
 | ------------ | --------: | ---------------: |
-| Profiling    |         3 | vrijdag 24 apr 13:30 |
+| Profiling    |         3 | (!) vrijdag 24 apr 13:30 |
 | ------------ | --------: | ---------------: |
 | Totaal       |        48 |                  |
 
