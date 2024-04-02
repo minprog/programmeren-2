@@ -2,60 +2,66 @@
 
 ## Studiewijzer<br><small>Lente 2023</small>
 
-Let op! Dit vak is flink aangepast ten opzichte van vorige jaren. Was je eerder al eens begonnen met het vak, dan moet je nu beginnen vanaf het begin.
+Wat ga je doen?
+
+- De verschillende manieren van programmeren in Python leren kennen en beheersen.
+- Leren hoe je je eigen programma's op kwaliteit kunt toetsen en verbeteren.
+- Kennis maken met abstracte datatypes in diverse vormen.
+- Begrijpen waarom sommige algoritmen beter werken dan andere.
+- Kunnen analyseren hoe goed een algoritme werkt gegeven een bepaalde datastructuur.
+- Leren hoe je maatregelen kunt toepassen in code om latere fouten te voorkomen.
 
 ## Docenten en assistenten
 
 De docenten bij dit vak zijn Jelle van Assema en Martijn Stegeman. Zij geven het vak vorm en verzorgen de organisatie. Je kunt ze bereiken via e-mail op <help@mprog.nl>.
 
-Daarnaast zijn er veel student-assistenten, die de cursus goed kennen omdat ze 'm zelf gedaan hebben, en jou gaan helpen op de momenten dat het nodig is. Eén van de assistenten zal daarnaast je mentor zijn, die je wekelijks ziet bij de werkgroep en die bovendien je werk nakijkt.
+Daarnaast zijn er veel student-assistenten, die de cursus goed kennen omdat ze 'm zelf gedaan hebben, en jou gaan helpen op de momenten dat het nodig is.
 
 ## Ingangseisen
 
-Je moet Programmeren 1 hebben gehaald om dit vak te mogen volgen.
+Je moet Programmeren 1 volledig hebben gehaald om dit vak te mogen volgen.
 
 ## Opdrachten en eindcijfer
 
 Bij dit vak werk je aan verschillende soorten **opdrachten**. De meeste opdrachten doe je individueel. Soms zijn het oefeningen, dan weer schrijf je een flink groot programma en op een aantal momenten ga je met tools aan de slag om te leren je Python-code zelf beter te maken.
 
-Het **eindcijfer** bestaat uit de opgetelde punten voor de opdrachten. Het maximaal aantal punten is 42, wat staat voor een 10 als eindcijfer. Sommige opdrachten worden automatisch gecheckt op correcte werking. Bij andere opdrachten kijkt je mentor na en geeft punten en feedback.
+Het **eindcijfer** bestaat uit de opgetelde punten voor de opdrachten. Het maximaal aantal punten is 48, wat staat voor een 10 als eindcijfer. Sommige opdrachten worden automatisch gecheckt op correcte werking. Bij andere opdrachten kijkt een assistent na en geeft punten en feedback.
 
 Bij elke module staat aangegeven hoeveel punten elke opdracht waard is en hoe de **beoordeling** plaatsvindt.
 
-| Module      | Punten    |
-| - | -: |
-| Python      | 6 |
-| Objects     | 6 |
-| Tools       | 6 |
-| - | - |
-| Opdracht Cash* | 3 |
-| - | - |
-| Abstractions | 6 |
-| Structures   | 12 |
-| - | - | 
-| Opdracht Profiling* | 3 |
-| - | - |
-| Totaal |  42 |
+| Module       | Punten    | Deadline         |
+| ------------ | --------: | ---------------: |
+| Python       |         6 | vrijdag  5 mrt 13:30 |
+| Complexity   |         6 | vrijdag 12 mrt 13:30 |
+| Objects      |         6 | vrijdag 19 mrt 13:30 |
+| Tools        |         6 | vrijdag 26 mrt 13:30 |
+| ------------ | --------: | ---------------: |
+| Challenges   |         6 | vrijdag 26 mrt 13:30 |
+| ------------ | --------: | ---------------: |
+| Abstractions |         6 | vrijdag 10 apr 13:30 |
+| Structures   |         9 | vrijdag 24 apr 13:30 |
+| ------------ | --------: | ---------------: |
+| Profiling    |         3 | vrijdag 24 apr 13:30 |
+| ------------ | --------: | ---------------: |
+| Totaal       |        48 |                  |
 
-*) Bij dit vak is het **niet** verplicht om alle opdrachten af te maken. De deadlines zijn dan ook strikt, zelfs in geval van ziekte (zie onder). Dit om de werkdruk redelijk te houden naast het vak Programmeerproject, en de algemene organisatie werkbaar te houden.
+Bij dit vak is het **niet** verplicht om alle opdrachten af te maken. De deadlines zijn wel hard, behalve in geval van speciale afspraken i.v.m. langdurige ziekte. Je moet contact houden met de docenten als je ziek wordt of achter gaat lopen.
 
-Er zijn enkele opdrachten die onderwerpen behandelen die je niet direct nodig zult hebben in volgende modules. Dit zijn "extra onderwerpen", die niettemin later erg van pas kunnen komen. Al deze opdrachten **tellen gewoon mee**, maar mocht je tijd tekort komen dan zijn dat de opdrachten die je het best kunt overslaan.
+Doe je tegelijk met dit vak het Programmeerproject? Geef dan dit vak voorrang!
 
-## Werkgroep en mentor
+## Voortgangsbesprekingen
 
-Je zit bij dit vak in een **groep** met ~15 andere studenten. Binnen deze groep zul je onder andere samen werken aan het ontwerpen van oplossingen voor de opdrachten en het bespreken en verbeteren van jouw code. De verplichte wekelijkse bijeenkomst staat in het rooster als werkcollege.
+Er zijn met enige regelmaat individuele voortgangsbesprekingen. Je houdt deze met een docent of assistent. De besprekingen zijn verplicht, en als je er één mist zonder af te zeggen kun je het vak normaal niet halen. Zorg dus dat je contact houdt.
 
-Je **mentor** is een studentassistent die het vak eerder heeft gevolgd of een docent die alles over onze cursus weet. Je mentor helpt je wegwijs maken, doet voor hoe je het beste de opdrachten kunt aanpakken, kijkt je werk na, en kan je helpen de juiste informatie te vinden.
+Bij de voortgangsbesprekingen heb je ruimte om samen beslissingen te nemen over de voortgang en je kunt alleen daar de modules aftekenen om er punten voor te krijgen.
+
+De besprekingen bereid je voor door met een medestudent code reviews te doen. Hierin ga je al een keer kritisch de uitwerkingen vergelijken en eventueel nog aanpassen, zodat je bij het voortgangsgesprek goed kan uitleggen hoe je een en ander hebt aangepakt.
 
 ## Aanwezigheid
 
-1. Alle studenten zijn verplicht aanwezig bij hun ingedeelde werkgroep om met elkaar en de mentor de voortgang door te spreken. De locaties en tijden staan in het rooster.
+- Studenten die de Minor Programmeren fulltime volgen hebben een aanwezigheidsplicht zoals apart bekend gemaakt.
 
-2. Voor aanwezigheid in het lab geldt:
-
-    - Studenten die de Minor Programmeren fulltime volgen hebben een aanwezigheidsplicht zoals apart bekend gemaakt.
-
-    - Er is geen minimale aanwezigheidsplicht in het lab bij de parttime minor. Als je een voldoende staat en het tentamen haalt, dan hebben we genoeg informatie om in te staan voor jouw persoonlijke voortgang in dit vak. We raden studenten aan om regelmatig een studieplek op te zoeken in Lab42. Je kunt daar ook prettig afspreken met medestudenten om de samenwerkopdrachten te doen.
+- Er is geen minimale aanwezigheidsplicht in het lab bij de parttime minor. Als je alle voortgangsbesprekingen hebt bijgewoond en een voldoende staat, hebben we genoeg informatie om in te staan voor jouw persoonlijke voortgang in dit vak. We raden studenten aan om regelmatig een studieplek op te zoeken in Lab42. Je kunt daar ook prettig afspreken met medestudenten om de samenwerkopdrachten te doen.
 
 ## Vragen stellen
 
@@ -85,28 +91,8 @@ Juist even niet aan de opdracht werken kan je verder helpen!
 - Neem een halfuurtje echt even afstand van je computer; dit helpt je brein afstand nemen van het probleem. Met een frisse blik kom je dan toch weer verder.
 
 - Ga even door met de volgende opdracht van de module om te kijken hoe je daar mee gaat.
-
-- Of ga oefenen in het basisboek, want dit staat helemaal los van de opdrachten.
 </details>
 
-
-## Deadlines
-
-Voor de inleveropdrachten zijn de deadlines als volgt:
-
-| module       |  hoeveelheid werk |  normale deadline   | coulante deadline |
-|--------------|------------------:|--------------------:|------------------:|
-| Python       |            1 week |  vr  7 apr  17:59   |  za 22 apr  17:59 |
-| Objects      |            1 week |  vr 14 apr  17:59   |  za 22 apr  17:59 |
-| Tools        |            1 week |  vr 21 apr  17:59   |  za 29 apr  17:59 |
-| Abstractions |            1 week |  vr 28 apr  17:59   |  za  6 mei  17:59 |
-| Structures   |           3 weken |  vr 26 mei  17:59   |  <- ook **vrijdag 26 mei**    |
-
-In normale omstandigheden zou je de "normale deadline" moeten aanhouden die hierboven vermeld is. Dan heb je ruimte om problemen op te vangen tijdens het vak. Als het dan moeilijk wordt, je hebt een planningsprobleem of je wordt ziek, dan kun je dit opvangen door gebruik te maken van de coulante deadline. Hiervoor hoef je niets af te stemmen, je mag gewoon later inleveren. Er is geen sprake van puntenaftrek als je hier gebruik van maakt.
-
-Na de "coulante deadline" kun je helemaal geen punten meer krijgen voor de opdrachten die op dat moment nog niet volgens de vermelde minimumeisen ingeleverd zijn.
-
-De laatste module is erg groot (ongeveer drie weken werk) en moet uiterlijk op 26 mei om 17:59 zijn ingeleverd. Dit is de enige deadline voor die laatste module. De verwachting is dat je je planning voor deze weken zelf goed in de gaten houdt.
 
 ### Ziekte en inhalen
 
@@ -184,6 +170,7 @@ Waar de grens **onduidelijk** is vragen we je om "redelijk" te handelen. Hierond
 
 - Naar de oplossing voor een opdracht van iemand anders kijken, en vervolgens jouw oplossing daarop baseren.
 </details>
+
 
 ## Plagiaat
 
