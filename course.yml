@@ -2,8 +2,8 @@ long_name: Programmeren 2
 short_name: Prog2
 language: nl
 
-links:
-    '[droplet] Tentamen': /exams
+# links:
+#     '[droplet] Tentamen': /exams
 
 acknowledgements:
     - 'Based on CS50 from https://cs50.harvard.edu/x/2021/ -- Copyright 2011--2021, David J. Malan.'
