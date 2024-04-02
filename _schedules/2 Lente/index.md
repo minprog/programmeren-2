@@ -33,17 +33,17 @@ Bij elke module staat aangegeven hoeveel punten elke opdracht waard is en hoe de
 
 | Module       | Punten    | Deadline         |
 | ------------ | --------: | ---------------: |
-| Python       |         6 | vrijdag  5 mrt 13:30 |
-| Complexity   |         6 | vrijdag 12 mrt 13:30 |
-| Objects      |         6 | vrijdag 19 mrt 13:30 |
-| Tools        |         6 | vrijdag 26 mrt 13:30 |
+| Python       |         6 | vrijdag  5 apr 13:30 |
+| Complexity   |         6 | vrijdag 12 apr 13:30 |
+| Objects      |         6 | vrijdag 19 apr 13:30 |
+| Tools        |         6 | vrijdag 26 apr 13:30 |
 | ------------ | --------: | ---------------: |
-| Challenges   |         6 | (!) vrijdag 26 mrt 13:30 |
+| Challenges   |         6 | (!) vrijdag 26 apr 13:30 |
 | ------------ | --------: | ---------------: |
-| Abstractions |         6 | vrijdag 10 apr 13:30 |
-| Structures   |         9 | vrijdag 24 apr 13:30 |
+| Abstractions |         6 | vrijdag 10 mei 13:30 |
+| Structures   |         9 | vrijdag 24 mei 13:30 |
 | ------------ | --------: | ---------------: |
-| Profiling    |         3 | (!) vrijdag 24 apr 13:30 |
+| Profiling    |         3 | (!) vrijdag 24 mei 13:30 |
 | ------------ | --------: | ---------------: |
 | Totaal       |        48 |                  |
 
