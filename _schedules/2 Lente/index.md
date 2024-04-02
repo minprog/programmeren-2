@@ -27,6 +27,8 @@ Bij dit vak werk je aan verschillende soorten **opdrachten**. De meeste opdracht
 
 Het **eindcijfer** bestaat uit de opgetelde punten voor de opdrachten. Het maximaal aantal punten is 48, wat staat voor een 10 als eindcijfer. Sommige opdrachten worden automatisch gecheckt op correcte werking. Bij andere opdrachten kijkt een assistent na en geeft punten en feedback.
 
+Voor alle modules is het noodzakelijk dat je deze na inleveren ook **aftekent**. Zie hieronder voor uitleg over de voortgangsgesprekken waarin je dit kunt doen.
+
 Bij elke module staat aangegeven hoeveel punten elke opdracht waard is en hoe de **beoordeling** plaatsvindt.
 
 | Module       | Punten    | Deadline         |
@@ -49,11 +51,11 @@ Bij dit vak is het **niet** verplicht om alle opdrachten af te maken. De deadlin
 
 Doe je tegelijk met dit vak het Programmeerproject? Geef dan dit vak voorrang!
 
-## Voortgangsbesprekingen
+## Voortgangsgesprekken
 
-Er zijn met enige regelmaat individuele voortgangsbesprekingen. Je houdt deze met een docent of assistent. De besprekingen zijn verplicht, en als je er één mist zonder af te zeggen kun je het vak normaal niet halen. Zorg dus dat je contact houdt.
+Er zijn met enige regelmaat individuele voortgangsgesprekken. Je houdt deze met een docent of assistent. De besprekingen zijn verplicht, en als je er één mist zonder af te zeggen kun je het vak normaal niet halen. Zorg dus dat je contact houdt.
 
-Bij de voortgangsbesprekingen heb je ruimte om samen beslissingen te nemen over de voortgang en je kunt alleen daar de modules aftekenen om er punten voor te krijgen.
+Bij de voortgangsgesprekken heb je ruimte om samen te beslissing over hoe je verder gaat en je kunt alleen daar de modules aftekenen om er punten voor te krijgen.
 
 De besprekingen bereid je voor door met een medestudent code reviews te doen. Hierin ga je al een keer kritisch de uitwerkingen vergelijken en eventueel nog aanpassen, zodat je bij het voortgangsgesprek goed kan uitleggen hoe je een en ander hebt aangepakt.
 
@@ -67,12 +69,19 @@ De besprekingen bereid je voor door met een medestudent code reviews te doen. Hi
 
 Tijdens dit vak zul je vaak de hulp inroepen van de assistenten en medestudenten. Er zijn diverse opties voor het stellen van vragen. De beste optie hangt af van het soort vraag dat je wil stellen.
 
+**Medestudenten:** eerste hulp bij vastlopen.
+
+- jouw eerste aanspreekpunt zijn je medestudenten in het lokaal
+- ook als parttime-student moet je zorgen dat je toegang hebt tot andere studenten
+- samen nadenken over de opdracht helpt je verder
+- de beste manier is om vaak in het lokaal te komen zitten
+
 **Assistentie:** direct contact met een assistent, voor hulp bij programmeren.
 
 - hulp op locatie (lokaal L0.09)
-- je weet niet waar te beginnen of een onvindbare bug, of alles loopt vast
+- je weet echt niet waar te beginnen of een onvindbare bug, of alles loopt vast
 - moeite met verzinnen oplossing
-- dagelijks beschikbaar tussen 9 en 17 uur, zet jezelf in de rij via het menu:
+- dagelijks beschikbaar na 10 uur, zet jezelf in de rij via het menu:
 
     ![](../hands-menu.png)
 
