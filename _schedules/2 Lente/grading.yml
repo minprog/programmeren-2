@@ -1,0 +1,133 @@
+templates:
+    1: &automatisch
+        type: points
+        subgrades:
+            akkoord: boolean
+        automatic:
+            akkoord: -(correctness_score.floor)
+        calculation: akkoord
+        auto_publish: true
+        hide_subgrades: true
+    3: &aftekenen
+        type: points
+        subgrades:
+            akkoord: boolean
+        calculation: akkoord
+        hide_subgrades: true
+
+grades:
+    python_voldoende: *aftekenen
+    weken: *automatisch
+    isalpha: *automatisch
+    lower: *automatisch
+    orakel: *automatisch
+    index: *automatisch
+    slice: *automatisch
+    capitalize: *automatisch
+    title: *automatisch
+    find: *automatisch
+    split: *automatisch
+    calculator: *automatisch
+    join: *automatisch
+    replace: *automatisch
+    camelcase: *automatisch
+    kenteken: *automatisch
+    split_real: *automatisch
+
+calculation:
+    eindcijfer:
+        python: 6
+        complexiteit: 6
+        objects: 6
+        tools: 6
+        challenges: 6
+        abstraction: 6
+        structures: 9
+        profiling: 3
+
+python:
+    type: points
+    show_progress: true
+    deadline: 5/4/24 17:00
+    submits:
+        python_voldoende: 1
+        weken: 0
+        isalpha: 0
+        lower: 0
+        orakel: 0
+        index: 0
+        slice: 0
+        capitalize: 0
+        title: 0
+        find: 0
+        split: 0
+        calculator: 0
+        join: 0
+        replace: 0
+        camelcase: 0
+        kenteken: 0
+        split_real: 0
+
+complexiteit:
+    type: points
+    show_progress: true
+    deadline: 12/4/24 17:00
+    submits:
+        schuifpuzzel: 2
+        dicts_practice: 1
+        sets_practice: 1
+        big-o-questions: 1
+        jaccard: 1
+        indexer: 2
+
+objects:
+    type: points
+    show_progress: true
+    deadline: 19/4/24 17:00
+    submits:
+        queue: 1
+        cards: 1
+        hangman-less: 4
+
+tools:
+    type: points
+    show_progress: true
+    deadline: 26/4/24 17:00
+    submits:
+        python_contract: 0
+        python_type_hints: 0
+        python_tests: 0
+        quality: 6
+
+challenges:
+    type: points
+    show_progress: true
+    deadline: 26/4/24 17:00
+    submits:
+        cash_tests: 3
+        kalender_tests: 3
+
+abstraction:
+    type: points
+    show_progress: true
+    deadline: 10/5/24 17:00
+    submits:
+        card_implementations: 1.5
+        figuren: 1.5
+        containers_lists: 1.5
+        containers_dicts: 1.5
+
+structures:
+    type: points
+    show_progress: true
+    deadline: 24/5/24 17:00
+    submits:
+        palindrome: 1
+        adventure-more: 8
+
+profiling:
+    type: points
+    show_progress: true
+    deadline: 24/5/24 17:00
+    submits:
+        profilers: 3
