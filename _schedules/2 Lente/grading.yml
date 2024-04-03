@@ -54,13 +54,6 @@ calculation:
         structures: 9
         profiling: 3
 
-python:
-    type: points
-    show_progress: true
-    deadline: 5/4/24 17:00
-    submits:
-        python_voldoende: 6
-
 opgaven_python:
     show_progress: true
     deadline: 5/4/24 17:00
@@ -81,6 +74,13 @@ opgaven_python:
         camelcase: 1
         kenteken: 1
         split_real: 1
+
+python:
+    type: points
+    show_progress: true
+    deadline: 5/4/24 17:00
+    submits:
+        python_voldoende: 6
 
 complexiteit:
     type: points
