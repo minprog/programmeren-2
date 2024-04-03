@@ -50,7 +50,7 @@ python:
     show_progress: true
     deadline: 5/4/24 17:00
     submits:
-        python_voldoende: 1
+        python_voldoende: 6
         weken: 0
         isalpha: 0
         lower: 0
