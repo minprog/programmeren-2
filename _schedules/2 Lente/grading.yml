@@ -8,6 +8,15 @@ templates:
         calculation: akkoord
         auto_publish: true
         hide_subgrades: true
+    2: &automatisch_pass
+        type: pass
+        subgrades:
+            akkoord: boolean
+        automatic:
+            akkoord: -correctness_score.floor
+        calculation: akkoord
+        auto_publish: true
+        hide_calculated: true
     3: &aftekenen
         type: points
         subgrades:
@@ -17,22 +26,22 @@ templates:
 
 grades:
     python_voldoende: *aftekenen
-    weken: *automatisch
-    isalpha: *automatisch
-    lower: *automatisch
-    orakel: *automatisch
-    index: *automatisch
-    slice: *automatisch
-    capitalize: *automatisch
-    title: *automatisch
-    find: *automatisch
-    split: *automatisch
-    calculator: *automatisch
-    join: *automatisch
-    replace: *automatisch
-    camelcase: *automatisch
-    kenteken: *automatisch
-    split_real: *automatisch
+    weken: *automatisch_pass
+    isalpha: *automatisch_pass
+    lower: *automatisch_pass
+    orakel: *automatisch_pass
+    index: *automatisch_pass
+    slice: *automatisch_pass
+    capitalize: *automatisch_pass
+    title: *automatisch_pass
+    find: *automatisch_pass
+    split: *automatisch_pass
+    calculator: *automatisch_pass
+    join: *automatisch_pass
+    replace: *automatisch_pass
+    camelcase: *automatisch_pass
+    kenteken: *automatisch_pass
+    split_real: *automatisch_pass
 
 calculation:
     eindcijfer:
