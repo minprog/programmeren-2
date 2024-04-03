@@ -8,7 +8,7 @@ templates:
         subgrades:
             akkoord: boolean
         automatic:
-            akkoord: -(correctness_score.floor)
+            akkoord: -correctness_score.floor
         calculation: akkoord
         auto_publish: true
         hide_subgrades: true
@@ -17,7 +17,7 @@ templates:
         subgrades:
             akkoord: boolean
         automatic:
-            akkoord: -(correctness_score.floor)
+            akkoord: -correctness_score.floor
         calculation: akkoord
         hide_subgrades: true
     2: &punten
@@ -73,10 +73,7 @@ grades:
 
     mario: *automatisch
     readability: *automatisch
-    schuifpuzzel:
-        <<: *automatisch
-        automatic:
-            akkoord: -(correctness_score.floor/4)
+    schuifpuzzel: *automatisch
 
     # Complexiteit
 
