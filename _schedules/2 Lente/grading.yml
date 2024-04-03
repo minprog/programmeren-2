@@ -4,7 +4,7 @@ templates:
         subgrades:
             akkoord: boolean
         automatic:
-            akkoord: -(correctness_score.floor)
+            akkoord: -correctness_score.floor
         calculation: akkoord
         auto_publish: true
         hide_subgrades: true
