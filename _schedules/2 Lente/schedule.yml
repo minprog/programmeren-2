@@ -2,7 +2,7 @@ Welkom:
     Lees hier even rustig door de studiewijzer om te ontdekken hoe het vak in elkaar zit: /syllabus
 
 Python:
-    "Overzicht": /modules/python
+    "Overzicht: Starten met Python": /modules/python
     Voorbereiding:
         'College: C => Python': /onderwerp/intro/lecture_doug
     Tools:
@@ -33,7 +33,6 @@ Complexiteit:
     Complexiteit:
         Efficiency: /onderwerp/complexity/efficiency
     Datastructuren:
-        Schuifpuzzel: /onderwerp/python/schuifpuzzel
         Dictionaries [submit]: /onderwerp/complexity/dicts
         Efficiency of dictionaries: /onderwerp/complexity/dict-complexity
         Tuples: /onderwerp/complexity/tuples
@@ -44,11 +43,12 @@ Complexiteit:
         Improving code: /onderwerp/complexity/big-o-improve
         Complexity questions [submit]: /onderwerp/complexity/big-o-questions
     Programmeeropdrachten:
+        Schuifpuzzel [submit]: /onderwerp/python/schuifpuzzel
         Jaccard [submit]: /onderwerp/complexity/jaccard
         Indexing words [submit]: /onderwerp/complexity/indexer
 
 Objects:
-    Overzicht: /modules/oop
+    "Overzicht: Objecten en Classes": /modules/oop
     Voorbereiding:
         "Videocollege: OOP": /onderwerp/oop/lecture
         "Boek hst14: OOP": /onderwerp/oop/boek

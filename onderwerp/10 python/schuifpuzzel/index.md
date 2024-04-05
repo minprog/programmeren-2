@@ -29,6 +29,10 @@ om te weten is, is dat wanneer een zijde een even aantal velden heeft (en er dus
 een oneven aantal tegels zijn) de tegels 1 & 2 moeten worden omgewisseld.
 Dit is nodig zodat de puzzel oplosbaar is, en dat zie je dus ook terug in het voorbeeld hierboven.
 
+## Achtergrond
+
+Deze opdracht gaat over het gebruik van **lijsten in lijsten**, ofwel 2D-lijsten. 
+
 ## Opdracht
 
 Schrijf, in een bestand genaamd `schuifpuzzel.py`, een programma dat een speler een schuifpuzzel laat oplossen.
@@ -86,16 +90,11 @@ Het wordt ook bij deze opdracht aangemoedigd om extra functies te introduceren d
 
 ## Tips
 
-* Voor het board in dit programma zijn dit 4 lijsten van
-  lengte 4. Als je het bord gaat vullen, is het dus handig om hem rij voor rij in te vullen. De lege tegel wordt gerepresenteerd door het cijfer 0.
+* Het bord (`board`) van het spel moet gerepresenteerd worden als een lijst met daarin 4 lijsten. Als je het bord gaat aanmaken, gebruik je dus die structuur en je vult 'm met de juiste getallen. De "lege" tegel wordt gerepresenteerd door het cijfer 0.
 
-* Bij `move_tile()` moet je zowel de rij als de kolom van de te verplaatsen tegel en het lege veld
-  weten. Dit kan je dan ook gebruiken om te checken of de gekozen tegel verplaatst kan worden.
-  Hierbij moeten de tegels in ieder geval ofwel in dezelfde rij staan ofwel in dezelfde kolom. Waar
-  moeten de tegels nog meer aan voldoen?
+* Bij `move_tile()` moet je zowel de rij als de kolom van de te verplaatsen tegel en het lege veld  weten. Dit kan je dan ook gebruiken om te checken of de gekozen tegel verplaatst kan worden. Hierbij moeten de tegels in ieder geval ofwel in dezelfde rij staan ofwel in dezelfde kolom. Waar moeten de tegels nog meer aan voldoen?
 
-* Bij `is_won()` moet je checken of het bord in de goede configuratie staat. Doordat de volgorde
-  oplopend is, is dit goed te tellen door middel van een teller in een dubbele `for`-loop.
+* Bij `is_won()` moet je checken of het bord in de goede configuratie staat. Doordat de volgorde oplopend is, is dit goed te tellen door middel van een teller in een dubbele `for`-loop.
 
 * Als je meerdere keren achter elkaar wil printen (op één regel) moet je `print` aanpassen zodat er geen ENTER of newline wordt geprint. Dat kan zo: `print(getal, end="")`. Het gaat hier om het opgeven van `end=""` als argument aan `print`.
 
