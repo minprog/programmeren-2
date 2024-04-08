@@ -1,3 +1,18 @@
+<script>
+    document.addEventListener('load', function() {
+        // Find all iframes with class "code-embed"
+        var iframes = document.querySelectorAll('iframe.code-embed');
+
+        // Loop through each iframe
+        iframes.forEach(function(iframe) {
+            // Get the text content inside the iframe tag
+            var textContent = iframe.textContent;
+
+            // Send a postMessage to the iframe
+            iframe.contentWindow.postMessage(textContent, '*');
+        });
+    });
+</script>
 
 # List slicing and indexing
 
@@ -8,15 +23,13 @@ A slice is used to *cut* a section out of a list, as the name might imply.
 Instead of using an index to retrieve an individual element from a list, we can
 use slices to retrieve a section from one index to another:
 
-	>>> l = [3, 1, 4, 1, 5, 9, 2, 6, 5, 3]
-	>>> l
-	[3, 1, 4, 1, 5, 9, 2, 6, 5, 3]
-	>>> l[1]
-	1
-	>>> l[5]
-	9
-	>>> l[1:5]
-	[1, 4, 1, 5]
+<iframe class="code-embed" src="https://uvapl.github.io/examide/embed.html?filename=list_exercises.py" style="width:100%; height: 20rem;">
+l = [3, 1, 4, 1, 5, 9, 2, 6, 5, 3]
+print(l)
+print(l[1])
+print(l[5])
+print(l[1:5])
+</iframe>
 
 Note that the *left index* of the slice **is** included in the slice and the
 *right index* of the **isn't** included in the slice. This is because the slice
