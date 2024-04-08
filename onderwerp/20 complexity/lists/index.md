@@ -1,5 +1,5 @@
 <script>
-    document.addEventListener('load', function() {
+    document.addEventListener('DOMContentLoaded', function() {
         // Find all iframes with class "code-embed"
         var iframes = document.querySelectorAll('iframe.code-embed');
 
@@ -23,7 +23,7 @@ A slice is used to *cut* a section out of a list, as the name might imply.
 Instead of using an index to retrieve an individual element from a list, we can
 use slices to retrieve a section from one index to another:
 
-<iframe class="code-embed" src="https://uvapl.github.io/examide/embed.html?filename=list_exercises.py" style="width:100%; height: 20rem;">
+<iframe class="code-embed" src="https://uvapl.github.io/examide/embed.html?filename=list_exercises.py" style="width:100%; height: 20rem; margin-left: -4rem; margin-right: -4rem;">
 l = [3, 1, 4, 1, 5, 9, 2, 6, 5, 3]
 print(l)
 print(l[1])
