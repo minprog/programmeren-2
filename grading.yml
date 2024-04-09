@@ -8,7 +8,7 @@ templates:
         subgrades:
             akkoord: boolean
         automatic:
-            akkoord: -(correctness_score.floor)
+            akkoord: -correctness_score.floor
         calculation: akkoord
         auto_publish: true
         hide_subgrades: true
@@ -17,7 +17,7 @@ templates:
         subgrades:
             akkoord: boolean
         automatic:
-            akkoord: -(correctness_score.floor)
+            akkoord: -correctness_score.floor
         calculation: akkoord
         hide_subgrades: true
     2: &punten
@@ -71,92 +71,46 @@ grades:
 
     # Python
 
-    mario:
-        <<: *automatisch
-        deadline: 3/11/23 17:00
-    readability:
-        <<: *automatisch
-        deadline: 3/11/23 17:00
-    schuifpuzzel:
-        <<: *automatisch
-        automatic:
-            akkoord: -(correctness_score.floor/4)
-        deadline: 3/11/23 17:00
+    mario: *automatisch
+    readability: *automatisch
+    schuifpuzzel: *automatisch
 
     # Complexiteit
 
-    dicts_practice:
-        <<: *aftekenen
-        deadline: 10/11/23 17:00
-    sets_practice:
-        <<: *aftekenen
-        deadline: 10/11/23 17:00
-    big-o-questions:
-        <<: *aftekenen
-        deadline: 10/11/23 17:00
-    jaccard:
-        <<: *aftekenen
-        deadline: 10/11/23 17:00
-    indexer:
-        <<: *aftekenen
-        deadline: 10/11/23 17:00
+    dicts_practice: *aftekenen
+    sets_practice: *aftekenen
+    big-o-questions: *aftekenen
+    jaccard: *aftekenen
+    indexer: *aftekenen
 
     # Objects
 
-    queue:
-        <<: *automatisch
-        deadline: 17/11/23 17:00
-    cards:
-        <<: *automatisch
-        deadline: 17/11/23 17:00
-    hangman-less:
-        <<: *semiautomatisch
-        deadline: 17/11/23 17:00
+    queue: *automatisch
+    cards: *automatisch
+    hangman-less: *semiautomatisch
 
     # Tools
 
-    python_contract:
-        <<: *aftekenen
-        deadline: 24/11/23 17:00
-    python_type_hints:
-        <<: *aftekenen
-        deadline: 24/11/23 17:00
-    python_tests:
-        <<: *aftekenen
-        deadline: 24/11/23 17:00
-    quality:
-        <<: *punten
-        deadline: 24/11/23 17:00
+    python_contract: *aftekenen
+    python_type_hints: *aftekenen
+    python_tests: *aftekenen
+    quality: *aftekenen
 
     # Challenges
 
-    cash_tests:
-        <<: *punten
-        deadline: 24/11/23 17:00
-    kalender_tests:
-        <<: *punten
-        deadline: 24/11/23 17:00
+    cash_tests: *punten
+    kalender_tests: *punten
 
     # Abstractions
 
-    card_implementations:
-        <<: *aftekenen
-        deadline: 01/12/23 17:00
-    figuren:
-        <<: *aftekenen
-        deadline: 01/12/23 17:00
-    containers_lists:
-        <<: *aftekenen
-        deadline: 01/12/23 17:00
-    containers_dicts:
-        <<: *aftekenen
-        deadline: 01/12/23 17:00
+    card_implementations: *aftekenen
+    figuren: *aftekenen
+    containers_lists: *aftekenen
+    containers_dicts: *aftekenen
 
     # Structures
 
-    palindrome:
-        <<: *aftekenen
-        deadline: 15/12/23 17:00
+    palindrome: *aftekenen
     adventure-more:
         <<: *semiautomatisch
         subgrades:
@@ -165,104 +119,7 @@ grades:
         automatic:
             check_points: (correctness_score * 5).round
         calculation: check_points + quality_points
-        deadline: 15/12/23 17:00
 
     # Performance
 
-    profilers:
-        <<: *punten
-        deadline: 15/12/23 17:00
-
-    oefententamen:
-        <<: *aftekenen
-        exam: true
-        files:
-            required:
-                'makelaar.py': |
-                    """makelaar.py"""
-                'header.py': |
-                    """header.py"""
-                'spam.py': |
-                    """spam.py"""
-
-# FINAL GRADES
-
-calculation:
-    eindcijfer:
-        python: 6
-        complexiteit: 6
-        objects: 6
-        tools: 6
-        challenges: 6
-        abstraction: 6
-        structures: 9
-        profiling: 3
-
-python:
-    type: points
-    show_progress: true
-    submits:
-        mario: 2
-        readability: 2
-        schuifpuzzel: 2
-
-complexiteit:
-    type: points
-    show_progress: true
-    submits:
-        dicts_practice: 1
-        sets_practice: 1
-        big-o-questions: 1
-        jaccard: 1
-        indexer: 2
-
-objects:
-    type: points
-    show_progress: true
-    submits:
-        queue: 1
-        cards: 1
-        hangman-less: 4
-
-tools:
-    type: points
-    show_progress: true
-    submits:
-        python_contract: 0
-        python_type_hints: 0
-        python_tests: 0
-        quality: 6
-
-challenges:
-    type: points
-    show_progress: true
-    submits:
-        cash_tests: 3
-        kalender_tests: 3
-
-abstraction:
-    type: points
-    show_progress: true
-    submits:
-        card_implementations: 1.5
-        figuren: 1.5
-        containers_lists: 1.5
-        containers_dicts: 1.5
-
-structures:
-    type: points
-    show_progress: true
-    submits:
-        palindrome: 1
-        adventure-more: 8
-
-profiling:
-    type: points
-    show_progress: true
-    submits:
-        profilers: 3
-
-test:
-    show_progress: true
-    submits:
-        oefententamen: 1
+    profilers: *punten

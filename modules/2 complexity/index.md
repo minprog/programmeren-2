@@ -1,4 +1,4 @@
-# Complexity
+# Datastructuren en Complexiteit
 
 Deze module gaat over *computationele complexiteit* en *datastructuren*. Je gaat aan de slag met de verschillende ingebouwde datastructuren in Python. We focussen op de verschillen en wat iedere datastructuur goed kan in termen van complexiteit. Met als doel dat je straks bewust kan kiezen tussen de verschillende datastructuren afhankelijk van het doel en gebruik.
 
@@ -12,7 +12,13 @@ Je gaat in deze module:
 
 ## Puntentelling
 
-- Dicts, Sets, Big-O en Jaccard: 1 punt per stuk
-- Indexing Words: 2 punten
+4 punten als deze opdrachten allemaal zijn ingeleverd:
 
-Er zijn geen automatische checks voor deze opdrachten. Er worden geen deelpunten gegeven.
+- Dicts oefeningen
+- Sets oefeningen
+- Big-O oefeningen
+- Schuifpuzzel
+
+6 punten als daarnaast zowel Jaccard als Indexing words zijn ingeleverd.
+
+Ingeleverd betekent altijd dat het ook "goed" moet zijn. Soms via automatische checks, soms handmatig. Er worden geen deelpunten gegeven behalve wat hierboven vermeld staat.

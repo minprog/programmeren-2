@@ -1,14 +1,15 @@
 Welkom:
     Lees hier even rustig door de studiewijzer om te ontdekken hoe het vak in elkaar zit: /syllabus
 
-Intro:
-    "Overzicht": /modules/intro
+Python:
+    "Overzicht: Starten met Python": /modules/python
+    Voorbereiding:
+        'College: C => Python': /onderwerp/intro/lecture_doug
     Tools:
+        Installatie: /onderwerp/intro/install
         'pycodestyle': /onderwerp/intro/pycodestyle
         'mypy': /onderwerp/intro/mypy
         'pytest': /onderwerp/intro/pytest
-    Voorbereiding:
-        'College: C => Python': /onderwerp/intro/lecture_doug
     "Opdrachten":
         weken: /onderwerp/intro/opdrachten/weken
         isalpha: /onderwerp/intro/opdrachten/isalpha
@@ -26,38 +27,35 @@ Intro:
         camelcase: /onderwerp/intro/opdrachten/camelcase
         kenteken*: /onderwerp/intro/opdrachten/kenteken
         split real*: /onderwerp/intro/opdrachten/split_real
-Python:
-    "Overzicht: Starten met Python": /modules/python
-    Voorbereiding:
-        'Videocollege: Python': /lectures/python-david
-        # Vragen over het college: /onderwerp/python/lecture-questions
-    "C => Python":
-        Mario [samen programmeren]: /onderwerp/python/mario
-        Readability [samen programmeren]: /onderwerp/python/readability
-        Schuifpuzzel [opdracht]: /onderwerp/python/schuifpuzzel
 
-Complexity:
-    Overzicht: /modules/complexity
-    Voorbereiding:
-        Complexity: ''
-        Dictionaries: ''
-        Tuples: ''
-        Sets: ''
-        Lists: ''
-    Opdrachten:
-        # Complexity questions 2: /onderwerp/containers/complexity
-        Jaccard: /onderwerp/containers/jaccard
-        Indexing words: /onderwerp/containers/indexer
+Complexiteit:
+    "Overzicht: Datastructuren en Complexiteit": /modules/complexity
+    Complexiteit:
+        Efficiency: /onderwerp/complexity/efficiency
+    Datastructuren:
+        Dictionaries [submit]: /onderwerp/complexity/dicts
+        Efficiency of dictionaries: /onderwerp/complexity/dict-complexity
+        Tuples: /onderwerp/complexity/tuples
+        Sets [submit]: /onderwerp/complexity/sets
+        Lists: /onderwerp/complexity/lists
+    Optimaliseren:
+        Applying Big-O: /onderwerp/complexity/big-o
+        Improving code: /onderwerp/complexity/big-o-improve
+        Complexity questions [submit]: /onderwerp/complexity/big-o-questions
+    Programmeeropdrachten:
+        Schuifpuzzel [submit]: /onderwerp/python/schuifpuzzel
+        Jaccard [submit]: /onderwerp/complexity/jaccard
+        Indexing words [submit]: /onderwerp/complexity/indexer
 
 Objects:
-    Overzicht: /modules/oop
+    "Overzicht: Objecten en Classes": /modules/oop
     Voorbereiding:
-        "Videocollege: OOP": /objects/lecture
-        "Boek 1a: OOP": /onderwerp/oop/boek
+        "Videocollege: OOP": /onderwerp/oop/lecture
+        "Boek hst14: OOP": /onderwerp/oop/boek
     Opdrachten:
-        Queue [opdracht]: /objects/queue
-        Game of Cards [opdracht]: /objects/cards
-        Hangman [opdracht]: /hangman/classic
+        Queue: /onderwerp/oop/queue
+        Game of Cards: /onderwerp/oop/cards
+        Hangman: /hangman/classic
 
 Tools:
     Overzicht: /modules/tools
@@ -78,8 +76,10 @@ Tools:
         Verbeter je code [opdracht]: /onderwerp/quality
 
 Challenges:
-    Wat is mis met Cash: /onderwerp/testing/cash
-    Kalender design: /onderwerp/abstraction/kalender
+    Overzicht: /modules/challenges
+    Opdrachten:
+        Wat is mis met Cash: /onderwerp/challenges/cash
+        Kalender design: /onderwerp/challenges/kalender
 
 Abstractions:
     Overzicht: /modules/abstractions
@@ -87,7 +87,7 @@ Abstractions:
         "Boek 2: Data Abstractions": /onderwerp/adts/boek
         Testen met twee implementaties [opdracht]: /onderwerp/adts/card
         # Een-en-twintigen: /onderwerp/adts/deck
-        Figuren [opdracht]: /onderwerp/oop/figuren
+        Figuren [opdracht]: /onderwerp/adts/figuren
     Containers:
         "Boek 3: Container Classes": /onderwerp/containers/boek
         List structure [opdracht]: /onderwerp/containers/lists
@@ -97,9 +97,11 @@ Abstractions:
 Structures:
     Overzicht: /modules/structures
     Strucuren bouwen:
-        "Boek 4-5: Structures": /onderwerp/linked/boek
-        Palindrome [opdracht]: /onderwerp/linked/palindrome
+        "Boek 4-5: Structures": /onderwerp/structures/boek
+        Palindrome [opdracht]: /onderwerp/structures/palindrome
         Adventure [opdracht]: /adventure2/more
 
 Performance:
-    Profiling: /onderwerp/containers/profiling
+    Overzicht: /modules/performance
+    Opdracht:
+        Profiling: /onderwerp/performance/profiling
