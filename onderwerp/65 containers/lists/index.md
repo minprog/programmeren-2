@@ -18,10 +18,11 @@ Jouw taak is om een *container* class genaamd `PersonList` te ontwerpen waar al 
 - `remove(name: str) -> bool` --- verwijdert een persoon uit de collectie met de naam `name`
 - `as_sorted_list() -> list[Person]` --- geeft een lijst van alle personen gesorteerd op naam
 
+In deze opdracht ga je drie verschillende versies maken die allemaal bovenstaande operaties ondersteunen, maar intern een andere structuur gebruiken om de data op te slaan.
 
 ## Implementatie 1: een gesorteerde list
 
-Met klemtoon heb je te horen gekregen dat `as_sorted_list()` snel een gesorteerde lijst van personen moet kunnen produceren. Als het even kan in constante tijd graag (`O(1)`). Dus gaan we in `PersonList` een gesorteerde lijst bijhouden met alle personen erin. Als die lijst toch al bestaat is `as_sorted_list()` een eitje om te implementeren. Hebben wij alvast voor je gedaan:
+Met klemtoon heb je te horen gekregen dat `as_sorted_list()` snel een gesorteerde lijst van personen moet kunnen produceren. Als het even kan in constante tijd graag (`O(1)`). Dus we gaan in `PersonList` een lijst **gesorteerd** bijhouden met alle personen erin. Als die lijst toch al bestaat is `as_sorted_list()` een eitje om te implementeren. Hier is starter code voor `PersonList`. Wij hebben `as_sorted_list()` alvast geïmplementeerd.
 
     class PersonList:
         def __init__(self):
@@ -42,12 +43,12 @@ Met klemtoon heb je te horen gekregen dat `as_sorted_list()` snel een gesorteerd
         def as_sorted_list() -> list[Person]:
             return self._people
 
-Aan jou de taak om alle `raise notImplementedError()`s weg te halen, en te implementeren. Zorg ervoor dat `self._people` gesorteerd blijft op naam.
+Aan jou de taak om alle `raise notImplementedError()`s weg te halen, en te implementeren. Zorg ervoor dat `self._people` altijd gesorteerd blijft op naam.
 
 
 ## Implementatie 2: een linked list
 
-Niet al je collega's zijn helemaal tevreden met `PersonList`. Heel fijn dat `as_sorted_list` snel is, maar dat gebruiken ze toch bijna nooit. `pop()` daarentegen, die methode wordt pas vaak gebruikt. Kan je dat niet even in constante tijd maken?
+Niet al je collega's zijn helemaal tevreden met `PersonList`. Heel fijn dat `as_sorted_list` snel is, maar dat gebruiken ze toch bijna nooit. `pop()` daarentegen, die methode wordt pas vaak gebruikt. Kan je dat niet even in constante tijd maken in plaats van `as_sorted_list`.
 
 Van programmeren 1 herinner je misschien nog: linked lists! Die zijn goed in elementen verwijderen en toevoegen aan het begin en eind van een lijst. Hier is een recap:
 
@@ -119,7 +120,7 @@ Hier is een opzet:
 
 ## Vergelijken
 
-Nu liggen er drie implementaties van `PersonList` op tafel voor het project. Om je medeprogrammeurs te helpen kiezen, vragen we je een overzicht te maken van de voor en nadelen. Vul deze tabel aan in een bestand genaamd `vergelijking.txt`:
+Nu bestaan er drie implementaties van `PersonList`. Om je medeprogrammeurs te helpen kiezen, vragen we je een overzicht te maken van de voor- en nadelen. Vul deze tabel aan in een bestand genaamd `vergelijking.txt`:
 
 | Operatie       | PersonList | PersonLinkedList | PersonDictList |
 | -------------- | ---------- | ---------------- | -------------- |
