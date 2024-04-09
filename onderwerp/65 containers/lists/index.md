@@ -119,7 +119,7 @@ Hier is een opzet:
 
 ## Vergelijken
 
-Nu liggen er drie implementaties van `PersonList` op tafel voor het project. Om je medeprogrammeurs te helpen kiezen, vragen we je een overzicht te maken van de voor en nadelen. Vul deze tabel aan in een bestand genaamd `verlijking.txt`:
+Nu liggen er drie implementaties van `PersonList` op tafel voor het project. Om je medeprogrammeurs te helpen kiezen, vragen we je een overzicht te maken van de voor en nadelen. Vul deze tabel aan in een bestand genaamd `vergelijking.txt`:
 
 | Operatie       | PersonList | PersonLinkedList | PersonDictList |
 | -------------- | ---------- | ---------------- | -------------- |
