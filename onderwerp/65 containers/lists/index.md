@@ -1,52 +1,131 @@
-# List structures
+# Lijst structuren
 
-Je bent bezig met het ontwerp van een systeem waarin je informatie moet bijhouden over een groot aantal personen (bijvoorbeeld klantgegevens). Elke persoon is in dat systeem een object met daarin de betreffende informatie.
+Je bent bezig met het ontwerp van een systeem waarin je persoonsdata (bijvoorbeeld klantgegevens) moet bijhouden. We modelleren personen met een `class` met daarin alle betreffende informatie. Voor deze opdracht is dat de volgende class:
 
-Jouw specifieke taak is om een *container* class te ontwerpen waarin al deze objecten in kunnen worden opgeslagen. Daarbij is de vraag om de volgende operaties te ondersteunen:
+    class Person:
+        def __init__(self, name: str, age: int):
+            self.name = name
+            self.age = age
 
-- `add(person)` --- voegt een `person` toe aan de collectie
-- `remove(name)` --- verwijdert een persoon uit de collectie met de naam `name`
-- `lookup(name)` --- zoekt en geeft het object uit de collectie met de naam `name`
-- `list_all` --- geeft een lijst van alle objecten gesorteerd op naam
+        def __repr__(self) -> str:
+            return f"Person({self.name}, {self.age})"
 
-Deze opdracht gaat over de keuzes die je hebt om **in een ADT-implementatie gebruik te maken van bestaande Python-classes zoals lists, dicst, sets en tuples**. Je gaat geen code schrijven maar redeneren op basis van een idee over welke Python-operaties je nodig zou hebben om je eigen structuur te implementeren.
+Jouw taak is om een *container* class genaamd `PersonList` te ontwerpen waar al deze `Person` objecten in kunnen worden opgeslagen. Voor de rest van het systeem is het nodig dat jouw container class de volgende operaties ondersteunt:
 
-Voor deze opdracht ga je drie opties vergelijken:
+- `append(person: Person) -> None` --- voegt een `Person` toe aan de collectie
+- `pop() -> Person` --- verwijdert de eerste `Person` (de persoon wiens naam het eerst in het alfabet voorkomt) uit de collectie
+- `lookup(name: str) -> Person` --- zoekt en geeft het object uit de collectie met de naam `name`
+- `remove(name: str) -> bool` --- verwijdert een persoon uit de collectie met de naam `name`
+- `as_sorted_list() -> list[Person]` --- geeft een lijst van alle personen gesorteerd op naam
 
-1. Je kunt de objecten opslaan in een standaard Python-lijst in de volgorde waarin ze zijn aangemaakt
-2. Je kunt de objecten opslaan in een standaard Python-lijst die altijd gesorteerd is op naam
-     * **"Altijd gesorteerd" betekent dat na het invoegen van een element de interne lijst nog steeds gesorteerd is, het invoegen moet dus op de "juiste" plek gebeuren.**
-     * **Als je een lijst hebt met elementen `[1,4,5]` en je voegt `3` in, dan moet de lijst daarna `[1,3,4,5]` zijn, en niet `[1,4,5,3]` zoals wanneer je append gebruikt.**
-3. Je kunt de objecten opslaan in een standaard Python-dictionary die de naam als key gebruikt
+In deze opdracht ga je drie verschillende versies maken die allemaal bovenstaande operaties ondersteunen, maar intern een andere structuur gebruiken om de data op te slaan.
 
-Alle drie de opties zijn valide: ze kunnen prima werkend gemaakt worden.
+## Implementatie 1: een gesorteerde list
 
-Geef nu voor elk van de drie opties een analyse van de efficientie van alle operaties die ondersteund moeten worden. Beschrijf daarbij het algoritme/de operaties die je zou gebruiken om die efficientie te bereiken. Als je bijvoorbeeld de methode `append` voor een lijst wil gebruiken is deze O(1). De theoretische Big-O efficientie voor bijna alle Python-structuren vind je op de [Python wiki over TimeComplexity](https://wiki.python.org/moin/TimeComplexity).
+Met klemtoon heb je te horen gekregen dat `as_sorted_list()` snel een gesorteerde lijst van personen moet kunnen produceren. Als het even kan in constante tijd graag (`O(1)`). Dus we gaan in `PersonList` een lijst **gesorteerd** bijhouden met alle personen erin. Als die lijst toch al bestaat is `as_sorted_list()` een eitje om te implementeren. Hier is starter code voor `PersonList`. Wij hebben `as_sorted_list()` alvast geïmplementeerd.
+
+    class PersonList:
+        def __init__(self):
+            self._people: List[Person] = []
+
+        def add(person: Person) -> None:
+            raise notImplementedError()
+
+        def pop() -> Person:
+            raise notImplementedError()
+
+        def lookup(name: str) -> Person:
+            raise notImplementedError()
+
+        def remove(name: str) -> bool:
+            raise notImplementedError()
+        
+        def as_sorted_list() -> list[Person]:
+            return self._people
+
+Aan jou de taak om alle `raise notImplementedError()`s weg te halen, en te implementeren. Zorg ervoor dat `self._people` altijd gesorteerd blijft op naam.
 
 
-## Lijst 1
+## Implementatie 2: een linked list
 
-**Beschrijf** hier voor optie 1 de efficientie van de add, remove, lookup en list\_all-operaties, met daarbij een uitleg van hoe je elke operatie zou moeten implementeren. Geef geen code of pseudo-code, maar alleen een korte beschrijving.
+Niet al je collega's zijn helemaal tevreden met `PersonList`. Heel fijn dat `as_sorted_list` snel is, maar dat gebruiken ze toch bijna nooit. `pop()` daarentegen, die methode wordt pas vaak gebruikt. Kan je dat niet even in constante tijd maken in plaats van `as_sorted_list`.
 
-Als voorbeeld:
+Van programmeren 1 herinner je misschien nog: linked lists! Die zijn goed in elementen verwijderen en toevoegen aan het begin en eind van een lijst. Hier is een recap:
 
-- `add` implementeren we met de `append` operatie van de Python list; `append` voldoet aan de voorwaarde dat de objecten opgeslagen worden in de volgorde waarin ze worden aangemaakt; `append` is O(1) dus onze `add`-operatie ook
-- `remove` implementeren we ...
-- `lookup` implementeren we ...
-- `list_all` implementeren we ...
+![embed](https://www.youtube.com/embed/wh4TS7RJDTA)
 
-## Lijst 2
+Implementeer weer `PersonList`, maar nu met een linked list. Je kan beginnen met onderstaande code. Hou de linked list op volgorde van naam.
 
-**Beschrijf** hier voor optie 2 de efficientie van de add, remove, lookup en list\_all-operaties, met daarbij een uitleg van hoe je elke operatie zou moeten implementeren.
+    class Node:
+        def __init__(self, person: Person, next: "Node" | None=None):
+            self.person = person
+            self.next = next
 
-Een Python-lijst kan niet zelf automatisch sorteren op naam, want als je append gebruikt komt het element achteraan de lijst, in plaats van op de "juiste plek". Dus in dit geval moet je vaak enkele stappen combineren om de gewenste operatie te implementeren.
+    class PersonLinkedList(PersonList):
+        def __init__(self):
+            self._head: Node | None = None
 
-## Dictionary
+        def add(person: Person) -> None:
+            raise notImplementedError()
 
-**Beschrijf** hier voor optie 3 de efficientie van de add, remove, lookup en list\_all-operaties, met daarbij een uitleg van hoe je elke operatie zou moeten implementeren.
+        def pop() -> Person:
+            raise notImplementedError()
 
-## Inzicht
+        def lookup(name: str) -> Person:
+            raise notImplementedError()
 
-Uiteindelijk zoek je voor de concrete implementatie van de ADT naar opties die het meest efficient werken. Dit hangt niet alleen af van bijvoorbeeld de keuze om `append` te gebruiken, maar ook hoe jouw ADT in de praktijk gebruikt gaat worden. Als "opzoeken" heel efficient moet zijn, dan mag het "invoegen" van een persoon in de lijst misschien wel wat meer stappen kosten (duurder zijn).
+        def remove(name: str) -> bool:
+            raise notImplementedError()
+        
+        def as_sorted_list() -> list[Person]:
+            raise notImplementedError()
 
-**Beschrijf** in welke gevallen je zou kiezen voor elk van de drie mogelijkheden voor implementatie. Mocht je een nog betere mogelijkheid zien die hier niet besproken is, dan kun je die ook geven.
+> Zie je dat `PersonLinkedList` overerft van `PersonList`? Zo heeft `PersonLinkedList` dezelfde eigenschappen als `PersonList` en kan je `PersonLinkedList` overal gebruiken waar eerder een `PersonList` werd gebruikt. Dit mag nu ook van `mypy` :)
+
+
+## Implementatie 3: dict en een linked list
+
+Er is nog één obstakel volgens je collega's: `lookup` kost in beide implementaties te veel tijd. Kan dat niet in constante tijd?
+
+`dict`s! Die kunnen opzoeken in (amortized) constante tijd. Alleen is er geen manier om een `dict` op volgorde van namen te houden. Dus doen we een combo achter de schermen, zowel een `dict` bijhouden om snel op te kunnen zoeken, als een `LinkedList` om de volgorde te bewaken. Dan slaan we data dubbel op, maar wordt `lookup` een stuk sneller.
+
+Hier is een opzet:
+
+    class Node:
+        def __init__(self, person: Person, next: "Node" | None=None):
+            self.person = person
+            self.next = next
+
+    class PersonDictList(PersonList):
+        def __init__(self):
+            self._head: Node | None = None
+
+            # Een dictionary met als key de naam van een persoon en als value de persoon
+            self._people: dict[str, Person] = {}
+
+        def add(person: Person) -> None:
+            raise notImplementedError()
+
+        def pop() -> Person:
+            raise notImplementedError()
+
+        def lookup(name: str) -> Person:
+            raise notImplementedError()
+
+        def remove(name: str) -> bool:
+            raise notImplementedError()
+        
+        def as_sorted_list() -> list[Person]:
+            raise notImplementedError()
+
+## Vergelijken
+
+Nu bestaan er drie implementaties van `PersonList`. Om je medeprogrammeurs te helpen kiezen, vragen we je een overzicht te maken van de voor- en nadelen. Vul deze tabel aan in een bestand genaamd `vergelijking.txt`:
+
+| Operatie       | PersonList | PersonLinkedList | PersonDictList |
+| -------------- | ---------- | ---------------- | -------------- |
+| add            |            |                  |                |
+| pop            |            | O(1)             | O(1)           |
+| lookup         |            |                  | O(1)           |
+| remove         |            |                  |                |
+| as_sorted_list | O(1)       |                  |                |
