@@ -14,7 +14,7 @@ Met de aparte tool `mypy` kun je de typehints echter heel strikt controleren, wa
 
     $ pip3 install mypy
 
-Afhankelijk van je besturingssysteem en installatie kan het zijn dat je het commando `pip` of zelfs `python -m pip` moet gebruiken.
+Afhankelijk van je besturingssysteem en installatie kan het zijn dat je het commando `pip` of zelfs `python3 -m pip` moet gebruiken.
 
 ## Controleer je type hints
 

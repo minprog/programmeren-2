@@ -2,7 +2,7 @@
 
 Deze opdracht ken je van Programmeren 1, maar je gaat 'm nu helemaal vanaf het begin uitwerken in Python. Nog even wat de bedoeling is:
 
-    $ python kalender.py 9 2022
+    $ python3 kalender.py 9 2022
               Sep 2022
     ---------------------------
     Zon Maa Din Woe Don Vri Zat

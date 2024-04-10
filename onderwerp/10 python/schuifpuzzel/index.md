@@ -146,6 +146,6 @@ Op sommige systemen moet je `python3 mario.py` geven om je programma te starten.
 
 Je kunt je oplossing testen met hulp van een [tekstbestand met de oplossing van de puzzel](solution.txt). Met het volgende commando kun je de inhoud van het tekstbestand doorgeven aan je programma:
 
-    python schuifpuzzel.py < solution.txt
+    python3 schuifpuzzel.py < solution.txt
 
 De bestanden moeten dan wel in dezelfde directory staan!

@@ -58,22 +58,22 @@ Objects:
         Hangman: /hangman/classic
 
 Tools:
-    Overzicht: /modules/tools
+    "Overzicht: Tools voor betere code": /modules/tools
     Design-documentatie:
         "Boek: Design by contract": /onderwerp/design/boek
-        Documenteer je functies [opdracht]: /onderwerp/design/contract
+        1) Documenteer je functies [opdracht]: /onderwerp/design/contract
     Types in Python:
         "Achtergrond: typing in Python": /onderwerp/typing/typing
         Type hints: /onderwerp/typing/type-hints
         # Type aliases and variables: /onderwerp/typing/type-aliases
         # Duck typing: /onderwerp/typing/duck-typing
         # Flexible typing: /onderwerp/typing/flexible-typing
-        Type hints toevoegen [opdracht]: /onderwerp/typing/add-type-hints
+        2) Type hints toevoegen [opdracht]: /onderwerp/typing/add-type-hints
     Testen in Python:
         "Achtergrond: testen in Python": /onderwerp/testing/testing
-        Tests toevoegen [opdracht]: /onderwerp/testing/refactor
+        3) Tests toevoegen [opdracht]: /onderwerp/testing/refactor
     Statische kwaliteitsanalyse:
-        Verbeter je code [opdracht]: /onderwerp/quality
+        4) Verbeter je code [opdracht]: /onderwerp/quality
 
 Challenges:
     Overzicht: /modules/challenges

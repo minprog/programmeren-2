@@ -2,7 +2,7 @@
 
 Schrijf een programma dat bij benadering het niveau berekent dat nodig is om tekst te begrijpen, zoals hieronder beschreven.
 
-    $ python readability.py
+    $ python3 readability.py
     Text: Congratulations! Today is your day. You're off to Great Places! You're off and away!
     Grade 3
 
