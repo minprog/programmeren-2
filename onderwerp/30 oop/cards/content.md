@@ -63,7 +63,7 @@ Let's test your class! Below the class definition (not *in* the definition), add
 
     if __name__ == "__main__":
 
-Anything that's inside this `if` will only be executed if we run the file directly from the command line using `python cardgame.py`.
+Anything that's inside this `if` will only be executed if we run the file directly from the command line using `python3 cardgame.py`.
 
 In the `if`, **write** a few statements to create example `Card` objects.
 
@@ -79,7 +79,7 @@ Use the following syntax:
 
     print(var1.description())
 
-Now try it out! In the Terminal, **run** `python cardgame.py` and verify the results.
+Now try it out! In the Terminal, **run** `python3 cardgame.py` and verify the results.
 
 ## Deck: a class that contains cards
 

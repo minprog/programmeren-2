@@ -210,7 +210,7 @@ Test your understanding with the following practice exercises. Use your usual co
 
 **Exercise 3** Write a piece of code that asks the user to input a name and looks in the dictionary `my_class` if the student exists. Print the message "[name] is a student in this class, and has the grade: [grade]." or "[name] is not a student in this class.", depending on whether or not the student is in the dictionary `my_class`. Example usage:
 
-    python dictionaries.py
+    python3 dictionaries.py
     Enter a name: Jordi
     Jordi is a student in this class, and has the grade: 7.
 
