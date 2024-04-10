@@ -12,6 +12,8 @@ Deze module gaat over de tools die je hebt om betere Python-code te schrijven:
 
 Al deze tools worden toegepast in de professionele software-ontwikkeling, bijvoorbeeld om de samenwerking in teams makkelijker te maken. Maar ook in open source of meer persoonlijke projecten komen ze erg goed van pas, omdat ze fouten helpen voorkomen en detecteren.
 
+> Let op! Voor deze module moet je allerlei verbeteringen doen aan je code, maar je moet in een verslag ook voor <u>elke</u> verbetering heel precies traceren op basis van welke informatie en met hulp van welke tool je deze verbetering hebt gedaan en waarom. Hou dus vanaf de eerste stap alles bij wat je doet!
+
 ## Leerdoelen
 
 Je gaat in deze module:
