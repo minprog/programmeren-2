@@ -94,7 +94,6 @@ opgaven_complexiteit:
     show_progress: true
     deadline: 12/4/24 17:00
     submits:
-        complexiteit: 6
         schuifpuzzel: 2
         dicts_practice: 1
         sets_practice: 1
