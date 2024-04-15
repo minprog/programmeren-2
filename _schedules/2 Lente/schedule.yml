@@ -59,6 +59,7 @@ Objects:
 
 Tools:
     "Overzicht: Tools voor betere code": /modules/tools
+    Voorbereidingen: /modules/tools/preparation
     Design-documentatie:
         "Boek: Design by contract": /onderwerp/design/boek
         1) Documenteer je functies [opdracht]: /onderwerp/design/contract
