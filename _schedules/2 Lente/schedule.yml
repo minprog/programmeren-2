@@ -83,7 +83,7 @@ Challenges:
         Kalender design: /onderwerp/challenges/kalender
 
 Abstractions:
-    "Overzicht: Challenges": /modules/abstractions
+    "Overzicht: Abstractions": /modules/abstractions
     Data Abstractions:
         "Boek 2: Data Abstractions": /onderwerp/adts/boek
         Testen met twee implementaties [opdracht]: /onderwerp/adts/card
