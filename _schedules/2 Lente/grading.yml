@@ -23,6 +23,12 @@ templates:
             akkoord: boolean
         calculation: akkoord
         hide_subgrades: true
+    4: &punten
+        type: points
+        subgrades:
+            punten: float
+        calculation: punten
+        hide_subgrades: true
 
 grades:
     python_voldoende: *aftekenen
@@ -42,6 +48,8 @@ grades:
     camelcase: *automatisch_pass
     kenteken: *automatisch_pass
     split_real: *automatisch_pass
+
+    punten_complexiteit: *punten
 
 calculation:
     eindcijfer:
@@ -82,8 +90,7 @@ python:
     submits:
         python_voldoende: 6
 
-complexiteit:
-    type: points
+opgaven_complexiteit:
     show_progress: true
     deadline: 12/4/24 17:00
     submits:
@@ -93,6 +100,13 @@ complexiteit:
         big-o-questions: 1
         jaccard: 1
         indexer: 2
+
+complexiteit:
+    type: points
+    show_progress: true
+    deadline: 12/4/24 17:00
+    submits:
+        punten_complexiteit: 6
 
 objects:
     type: points

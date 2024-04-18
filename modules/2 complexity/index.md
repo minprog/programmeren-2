@@ -2,6 +2,8 @@
 
 Deze module gaat over *computationele complexiteit* en *datastructuren*. Je gaat aan de slag met de verschillende ingebouwde datastructuren in Python. We focussen op de verschillen en wat iedere datastructuur goed kan in termen van complexiteit. Met als doel dat je straks bewust kan kiezen tussen de verschillende datastructuren afhankelijk van het doel en gebruik.
 
+> In deze module krijg je een boel nieuwe onderdelen van Python met een hoop verschillende oefeningen. Werk ze gewoon rustig op volgorde door. Doe alles zo goed mogelijk. Let op dat je de uitwerking van Schuifpuzzel verder gaat ontwikkelen in week 4.
+
 ## Leerdoelen
 
 Je gaat in deze module:

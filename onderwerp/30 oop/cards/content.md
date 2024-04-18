@@ -1,5 +1,7 @@
 # Game of Cards
 
+> Werk gerust samen voor deze oefening maar maak je eigen uitwerking. Gebruik van ChatGPT is echt totale onzin voor deze module. Je kunt het niet leren als je shortcuts neemt. Herhaling, opnieuw de theorie bestuderen, nogmaals oefenen en gesprekken met medestudenten zijn dé manieren om de stof onder de knie te krijgen (zelfs al ben je dan aan het eind van de module nog steeds licht in de war, dat is helemaal OK).
+
 Object-oriented programming is commonly used to model real-world things, like cars or businesses, as well as their behaviors and interactions. Each class represents a "kind of thing" and bundles relevant functionalities in the form of methods. In this lab, you'll model a deck of 52 playing cards.
 
 ![A few playing cards for illustration](images/card_deck.png)

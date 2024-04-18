@@ -1,5 +1,7 @@
 # Queue
 
+> Werk gerust samen voor deze oefening maar maak je eigen uitwerking. Gebruik van ChatGPT is echt totale onzin voor deze module. Je kunt het niet leren als je shortcuts neemt. Herhaling, opnieuw de theorie bestuderen, nogmaals oefenen en gesprekken met medestudenten zijn dé manieren om de stof onder de knie te krijgen (zelfs al ben je dan aan het eind van de module nog steeds licht in de war, dat is helemaal OK).
+
 Let's see what it means to define a useful *interface* for a class by implementing a **queue** data structure. The goal of a queue is to be able to store items that you might retrieve later, in the order in which they were stored. As such, a queue supports two core operations:
 
 - **enqueue**, which adds an item to the back of queue, waiting to be collected again

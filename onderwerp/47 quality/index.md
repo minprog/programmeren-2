@@ -2,7 +2,7 @@
 
 Herschrijf je code voor Schuifpuzzel en Hangman en zorg dat ze meer in lijn zijn met de Python-standaarden en in het algemeen een hogere leesbaarheid en begrijpelijkheid hebben door beter op te delen en te vereenvoudigen.
 
-Let op! De versie van de opdrachten die je hier inlevert is de versie die wordt nagekeken. Ook docstrings, type hints en tests worden meegenomen in de beoordeling. Zorg dus dat je na aanpassing voor alle functies docstrings en type hints hebt, en voor de meeste relevante functies ook tests.
+> Let op! De versie van de opdrachten die je hier inlevert is de versie die wordt nagekeken. Ook docstrings, type hints en tests worden meegenomen in de beoordeling. Je gaat flinke aanpassingen doen aan je programma's, dus docstrings, pre- en postconditions, type hints en tests moeten bijgewerkt worden.
 
 ## Individuele opdracht
 
