@@ -83,3 +83,7 @@ Je kan beginnen met de volgende code:
 
         def pop() -> Any:
             raise not ImplementedError()
+
+## Schrijf tests voor PriorityQueue
+
+Schrijf in een apart bestand `pytest` tests voor `PrioriyQueue`.
