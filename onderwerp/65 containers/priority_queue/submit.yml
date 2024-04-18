@@ -1,0 +1,8 @@
+name: containers_priority_queue
+files:
+    required:
+        - priority_queue.py
+        - test_priority_queue.py
+check:
+    tool: check50
+    slug: minprog/checks/2023/test_kalender
