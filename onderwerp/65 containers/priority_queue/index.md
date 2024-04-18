@@ -21,6 +21,8 @@ In een heap zorgen we ervoor dat de hoogste waarde (of de laagste, het is maar n
 
 Hierdoor garanderen we dat de root de hoogste waarde bevat. Want het is niet mogelijk dat de waarde van de kinderen, kleinkinderen, kleinkleinkinderen, etc. groter zijn. Wel kan het zo zijn dat de broers of zussen (siblings) groter zijn dan elkaar. Daardoor kan het voorkomen dat de gehele boom niet op volgorde staat. Maar één ding is zeker, de hoogste waarde staat bovenaan.
 
+![embed](https://api.eu.kaltura.com/p/120/sp/12000/embedIframeJs/uiconf_id/23449960/partner_id/120?iframeembed=true&playerId=kaltura_player&entry_id=0_8w912bjr&flashvars[streamerType]=auto&amp;flashvars[localizationCode]=en_US&amp;flashvars[sideBarContainer.plugin]=true&amp;flashvars[sideBarContainer.position]=left&amp;flashvars[sideBarContainer.clickToClose]=true&amp;flashvars[chapters.plugin]=true&amp;flashvars[chapters.layout]=vertical&amp;flashvars[chapters.thumbnailRotator]=false&amp;flashvars[streamSelector.plugin]=true&amp;flashvars[EmbedPlayer.SpinnerTarget]=videoHolder&amp;flashvars[dualScreen.plugin]=true&amp;flashvars[hotspots.plugin]=1&amp;flashvars[Kaltura.addCrossoriginToIframe]=true&amp;&wid=0_5bkplght)
+
 ### Toevoegen van een nieuwe node
 
 Net zoals bij een linked list voegen we een node toe aan een uiterste, hier onderaan de boom. Na het toevoegen van een node kan het zo zijn dat de nieuwe node een hogere waarde heeft dan haar ouder. In dat geval moet er nog iets worden gefixt: de nieuwe node en haar ouder wisselen van plek. Nu kan het zo zijn dat de nieuwe node weer een hogere waarde heeft dan haar nieuwe ouder. Als dat zo is, wisselen we ze weer om. Net zolang totdat de nieuwe node een lagere of gelijke waarde heeft aan haar ouder.
@@ -39,6 +41,8 @@ De eerste node verwijderen gaat volgens het volgende stappenplan:
 
 Eigenlijk is het verwijderen dus hetzelfde als toevoegen, maar dan precies andersom. Toevoegen begint onderaan en de node bubbelt naar boven. Verwijderen begint bovenaan en de node zinkt naar beneden. Daardoor is ook deze operatie in O(log(n)).
 
+![embed](https://api.eu.kaltura.com/p/120/sp/12000/embedIframeJs/uiconf_id/23449960/partner_id/120?iframeembed=true&playerId=kaltura_player&entry_id=0_h5ozap03&flashvars[streamerType]=auto&amp;flashvars[localizationCode]=en_US&amp;flashvars[sideBarContainer.plugin]=true&amp;flashvars[sideBarContainer.position]=left&amp;flashvars[sideBarContainer.clickToClose]=true&amp;flashvars[chapters.plugin]=true&amp;flashvars[chapters.layout]=vertical&amp;flashvars[chapters.thumbnailRotator]=false&amp;flashvars[streamSelector.plugin]=true&amp;flashvars[EmbedPlayer.SpinnerTarget]=videoHolder&amp;flashvars[dualScreen.plugin]=true&amp;flashvars[hotspots.plugin]=1&amp;flashvars[Kaltura.addCrossoriginToIframe]=true&amp;&wid=0_m57goxkp)
+
 ## Impementeer PriorityQueue
 
 Nu is het aan jou om een priority queue te implementeren op basis van een heap. De priority queue moet de volgende operaties ondersteunen:
@@ -48,7 +52,7 @@ Nu is het aan jou om een priority queue te implementeren op basis van een heap. 
 
 Heaps kan je op verschillende manieren implementeren. Net zoals bij linked lists kan dat door middel van nodes die wijzen naar elkaar. Bij heaps kan dat ook door middel van een lijst en een handig trucje. Doen we als volgt, op iedere plek in de lijst staat een waarde van een node. De hoogste waarde staat op plek 0. De kinderen daarvan staan op plekken 1 en 2. De kinderen daarvan staan weer op plekken 3, 4, 5 en 6. De kinderen daarvan staan op plekken 7, 8, 9, 10, 11, 12, 13, 14. Etc. Je kan het je zo voorstellen:
 
-![By Ermishin - Own work, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=12251273](heap_array.png)
+![embed](https://api.eu.kaltura.com/p/120/sp/12000/embedIframeJs/uiconf_id/23449960/partner_id/120?iframeembed=true&playerId=kaltura_player&entry_id=0_7cjgkbko&flashvars[streamerType]=auto&amp;flashvars[localizationCode]=en_US&amp;flashvars[sideBarContainer.plugin]=true&amp;flashvars[sideBarContainer.position]=left&amp;flashvars[sideBarContainer.clickToClose]=true&amp;flashvars[chapters.plugin]=true&amp;flashvars[chapters.layout]=vertical&amp;flashvars[chapters.thumbnailRotator]=false&amp;flashvars[streamSelector.plugin]=true&amp;flashvars[EmbedPlayer.SpinnerTarget]=videoHolder&amp;flashvars[dualScreen.plugin]=true&amp;flashvars[hotspots.plugin]=1&amp;flashvars[Kaltura.addCrossoriginToIframe]=true&amp;&wid=0_eoyowtdp)
 
 Doordat de ouders en kinderen op vaste plekken in de lijst staan kan je ook terugvinden welke kinderen bij welke ouders horen door te rekenen:
 
