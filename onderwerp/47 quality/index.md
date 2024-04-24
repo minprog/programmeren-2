@@ -42,6 +42,8 @@ Flake8 is een tool die een aantal andere tools combineert om problemen in code t
 
 In de basis is het vrij simpel: elke **beslissing** maakt de functie complexer. Een if/else-statement zorgt voor een verdubbeling van de mogelijke routes waarmee je door de code kunt lopen. Je hoeft de theorie niet supernauwkeurig te begrijpen om de metriek te kunnen gebruiken. Vaak kun je intuïtief zien waarom een functie als complex wordt bestempeld.
 
+Uiteindelijk is het doel om een balans te vinden: je wil functies die niet te complex zijn en een mooie duidelijke naam kunnen krijgen. Maar je wil ook niet honderd functies hebben!
+
 **Instructies:**
 
 1. Installeer radon: <https://pypi.org/project/radon/>
@@ -49,6 +51,12 @@ In de basis is het vrij simpel: elke **beslissing** maakt de functie complexer. 
 2. Gebruik de tool om je programma's te controleren op complexiteit. Probeer te achterhalen waarom je code op bepaalde punten erg complex is geworden. Kijk of je vereenvoudigingen ziet, of dat je aparte functies kunt definiëren voor bepaalde delen.
 
 3. Complexity `B` is behoorlijk goed, maar let op dat de programma's sowieso niet zo groot zijn en toch al redelijk voorgestructureerd. Als je tijd hebt is de verwachting om wel te kijken of je alles naar complexity `A` kunt krijgen.
+
+Tips:
+
+-  Waak voor te kunstmatige opsplitsing. Als je nieuwe functies maakt moet je een goede inhoudelijke naam kunnen verzinnen. Lukt dat niet, dan is het misschien niet de handigste manier van opsplitsen. Vraag eventueel iemand om mee te denken.
+
+-  Overweeg gebruik van de `--no-assert` optie voor Radon. Dan worden assert-statements niet meegeteld, en dat lijkt logisch. Zorg dat je in ieder geval geen asserts in een aparte functie gaat zetten!
 
 ## Verbeteren (de echte opdracht)
 
