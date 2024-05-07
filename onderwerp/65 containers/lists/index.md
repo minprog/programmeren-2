@@ -92,7 +92,7 @@ Er is nog één obstakel volgens je collega's: `lookup` kost in beide implementa
 Hier is een opzet:
 
     class Node:
-        def __init__(self, person: Person, next: "Node" | None=None):
+        def __init__(self, person: Person, next: "Node | None"=None):
             self.person = person
             self.next = next
 
