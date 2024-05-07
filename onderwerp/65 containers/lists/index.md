@@ -12,7 +12,7 @@ Je bent bezig met het ontwerp van een systeem waarin je persoonsdata (bijvoorbee
 
 Jouw taak is om een *container* class genaamd `PersonList` te ontwerpen waar al deze `Person` objecten in kunnen worden opgeslagen. Voor de rest van het systeem is het nodig dat jouw container class de volgende operaties ondersteunt:
 
-- `append(person: Person) -> None` --- voegt een `Person` toe aan de collectie
+- `add(person: Person) -> None` --- voegt een `Person` toe aan de collectie
 - `pop() -> Person` --- verwijdert de eerste `Person` (de persoon wiens naam het eerst in het alfabet voorkomt) uit de collectie
 - `lookup(name: str) -> Person` --- zoekt en geeft het object uit de collectie met de naam `name`
 - `remove(name: str) -> bool` --- verwijdert een persoon uit de collectie met de naam `name`
