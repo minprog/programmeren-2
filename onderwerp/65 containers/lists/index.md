@@ -34,7 +34,7 @@ Met klemtoon heb je te horen gekregen dat `as_sorted_list()` snel een gesorteerd
         def pop(self) -> Person:
             raise NotImplementedError()
 
-        def lookup(self, name: str) -> Person:
+        def lookup(self, name: str) -> Person | None:
             raise NotImplementedError()
 
         def remove(self, name: str) -> bool:
@@ -71,7 +71,7 @@ Implementeer weer `PersonList`, maar nu met een linked list. Je kan beginnen met
         def pop(self) -> Person:
             raise NotImplementedError()
 
-        def lookup(self, name: str) -> Person:
+        def lookup(self, name: str) -> Person | None:
             raise NotImplementedError()
 
         def remove(self, name: str) -> bool:
@@ -109,7 +109,7 @@ Hier is een opzet:
         def pop(self) -> Person:
             raise NotImplementedError()
 
-        def lookup(self, name: str) -> Person:
+        def lookup(self, name: str) -> Person | None:
             raise NotImplementedError()
 
         def remove(self, name: str) -> bool:
