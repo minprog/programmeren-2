@@ -1,0 +1,151 @@
+templates:
+    1: &automatisch
+        type: points
+        subgrades:
+            akkoord: boolean
+        automatic:
+            akkoord: -correctness_score.floor
+        calculation: akkoord
+        auto_publish: true
+        hide_subgrades: true
+    2: &automatisch_pass
+        type: pass
+        subgrades:
+            akkoord: boolean
+        automatic:
+            akkoord: -correctness_score.floor
+        calculation: akkoord
+        auto_publish: true
+        hide_calculated: true
+    3: &aftekenen
+        type: points
+        subgrades:
+            akkoord: boolean
+        calculation: akkoord
+        hide_subgrades: true
+    4: &punten
+        type: points
+        subgrades:
+            punten: float
+        calculation: punten
+        hide_subgrades: true
+
+grades:
+    python_voldoende: *aftekenen
+    weken: *automatisch_pass
+    isalpha: *automatisch_pass
+    lower: *automatisch_pass
+    orakel: *automatisch_pass
+    index: *automatisch_pass
+    slice: *automatisch_pass
+    capitalize: *automatisch_pass
+    title: *automatisch_pass
+    find: *automatisch_pass
+    split: *automatisch_pass
+    calculator: *automatisch_pass
+    join: *automatisch_pass
+    replace: *automatisch_pass
+    camelcase: *automatisch_pass
+    kenteken: *automatisch_pass
+    split_real: *automatisch_pass
+
+    punten_complexiteit: *punten
+
+calculation:
+    eindcijfer:
+        python: 6
+        complexiteit: 6
+        objects: 6
+        tools: 6
+        challenges: 6
+        abstraction: 6
+        structures: 9
+        profiling: 3
+
+opgaven_python:
+    show_progress: true
+    submits:
+        weken: 1
+        isalpha: 1
+        lower: 1
+        orakel: 1
+        index: 1
+        slice: 1
+        capitalize: 1
+        title: 1
+        find: 1
+        split: 1
+        calculator: 1
+        join: 1
+        replace: 1
+        camelcase: 1
+        kenteken: 1
+        split_real: 1
+
+python:
+    type: points
+    show_progress: true
+    submits:
+        python_voldoende: 6
+
+opgaven_complexiteit:
+    show_progress: true
+    submits:
+        schuifpuzzel: 2
+        dicts_practice: 1
+        sets_practice: 1
+        big-o-questions: 1
+        jaccard: 1
+        indexer: 2
+
+complexiteit:
+    type: points
+    show_progress: true
+    submits:
+        punten_complexiteit: 6
+
+objects:
+    type: points
+    show_progress: true
+    submits:
+        queue: 1
+        cards: 1
+        hangman-less: 4
+
+tools:
+    type: points
+    show_progress: true
+    submits:
+        python_contract: 0
+        python_type_hints: 0
+        python_tests: 0
+        quality: 6
+
+challenges:
+    type: points
+    show_progress: true
+    submits:
+        cash_tests: 3
+        kalender_tests: 3
+
+abstraction:
+    type: points
+    show_progress: true
+    submits:
+        card_implementations: 1.5
+        figuren: 1.5
+        containers_lists: 1.5
+        containers_dicts: 1.5
+
+structures:
+    type: points
+    show_progress: true
+    submits:
+        palindrome: 1
+        adventure-more: 8
+
+profiling:
+    type: points
+    show_progress: true
+    submits:
+        profilers: 3
