@@ -57,7 +57,7 @@ Van programmeren 1 herinner je misschien nog: linked lists! Die zijn goed in ele
 Implementeer weer `PersonList`, maar nu met een linked list. Je kan beginnen met onderstaande code. Hou de linked list op volgorde van naam.
 
     class Node:
-        def __init__(self, person: Person, next: "Node" | None=None):
+        def __init__(self, person: Person, next: "Node | None"=None):
             self.person = person
             self.next = next
 
