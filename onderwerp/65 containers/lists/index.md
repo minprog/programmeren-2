@@ -28,19 +28,19 @@ Met klemtoon heb je te horen gekregen dat `as_sorted_list()` snel een gesorteerd
         def __init__(self):
             self._people: list[Person] = []
 
-        def add(person: Person) -> None:
+        def add(self, person: Person) -> None:
             raise NotImplementedError()
 
-        def pop() -> Person:
+        def pop(self) -> Person:
             raise NotImplementedError()
 
-        def lookup(name: str) -> Person:
+        def lookup(self, name: str) -> Person:
             raise NotImplementedError()
 
-        def remove(name: str) -> bool:
+        def remove(self, name: str) -> bool:
             raise NotImplementedError()
         
-        def as_sorted_list() -> list[Person]:
+        def as_sorted_list(self) -> list[Person]:
             return self._people
 
 Aan jou de taak om alle `raise NotImplementedError()`s weg te halen, en te implementeren. Zorg ervoor dat `self._people` altijd gesorteerd blijft op naam.
@@ -65,19 +65,19 @@ Implementeer weer `PersonList`, maar nu met een linked list. Je kan beginnen met
         def __init__(self):
             self._head: Node | None = None
 
-        def add(person: Person) -> None:
+        def add(self, person: Person) -> None:
             raise NotImplementedError()
 
-        def pop() -> Person:
+        def pop(self) -> Person:
             raise NotImplementedError()
 
-        def lookup(name: str) -> Person:
+        def lookup(self, name: str) -> Person:
             raise NotImplementedError()
 
-        def remove(name: str) -> bool:
+        def remove(self, name: str) -> bool:
             raise NotImplementedError()
         
-        def as_sorted_list() -> list[Person]:
+        def as_sorted_list(self) -> list[Person]:
             raise NotImplementedError()
 
 > Zie je dat `PersonLinkedList` overerft van `PersonList`? Zo heeft `PersonLinkedList` dezelfde eigenschappen als `PersonList` en kan je `PersonLinkedList` overal gebruiken waar eerder een `PersonList` werd gebruikt. Dit mag nu ook van `mypy` :)
@@ -103,19 +103,19 @@ Hier is een opzet:
             # Een dictionary met als key de naam van een persoon en als value de persoon
             self._people: dict[str, Person] = {}
 
-        def add(person: Person) -> None:
+        def add(self, person: Person) -> None:
             raise NotImplementedError()
 
-        def pop() -> Person:
+        def pop(self) -> Person:
             raise NotImplementedError()
 
-        def lookup(name: str) -> Person:
+        def lookup(self, name: str) -> Person:
             raise NotImplementedError()
 
-        def remove(name: str) -> bool:
+        def remove(self, name: str) -> bool:
             raise NotImplementedError()
         
-        def as_sorted_list() -> list[Person]:
+        def as_sorted_list(self) -> list[Person]:
             raise NotImplementedError()
 
 ## Vergelijken
