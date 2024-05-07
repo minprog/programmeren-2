@@ -4,5 +4,6 @@ files:
         - person_list.py
         - vergelijking.txt
 check:
-    tool: check50
-    slug: minprog/checks/2023/test_kalender
+    tool: checkpy
+    repo: minprog/checks
+    args: python_list
