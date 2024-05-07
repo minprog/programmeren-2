@@ -26,24 +26,24 @@ Met klemtoon heb je te horen gekregen dat `as_sorted_list()` snel een gesorteerd
 
     class PersonList:
         def __init__(self):
-            self._people: List[Person] = []
+            self._people: list[Person] = []
 
         def add(person: Person) -> None:
-            raise notImplementedError()
+            raise NotImplementedError()
 
         def pop() -> Person:
-            raise notImplementedError()
+            raise NotImplementedError()
 
         def lookup(name: str) -> Person:
-            raise notImplementedError()
+            raise NotImplementedError()
 
         def remove(name: str) -> bool:
-            raise notImplementedError()
+            raise NotImplementedError()
         
         def as_sorted_list() -> list[Person]:
             return self._people
 
-Aan jou de taak om alle `raise notImplementedError()`s weg te halen, en te implementeren. Zorg ervoor dat `self._people` altijd gesorteerd blijft op naam.
+Aan jou de taak om alle `raise NotImplementedError()`s weg te halen, en te implementeren. Zorg ervoor dat `self._people` altijd gesorteerd blijft op naam.
 
 
 ## Implementatie 2: een linked list
@@ -66,19 +66,19 @@ Implementeer weer `PersonList`, maar nu met een linked list. Je kan beginnen met
             self._head: Node | None = None
 
         def add(person: Person) -> None:
-            raise notImplementedError()
+            raise NotImplementedError()
 
         def pop() -> Person:
-            raise notImplementedError()
+            raise NotImplementedError()
 
         def lookup(name: str) -> Person:
-            raise notImplementedError()
+            raise NotImplementedError()
 
         def remove(name: str) -> bool:
-            raise notImplementedError()
+            raise NotImplementedError()
         
         def as_sorted_list() -> list[Person]:
-            raise notImplementedError()
+            raise NotImplementedError()
 
 > Zie je dat `PersonLinkedList` overerft van `PersonList`? Zo heeft `PersonLinkedList` dezelfde eigenschappen als `PersonList` en kan je `PersonLinkedList` overal gebruiken waar eerder een `PersonList` werd gebruikt. Dit mag nu ook van `mypy` :)
 
@@ -104,19 +104,19 @@ Hier is een opzet:
             self._people: dict[str, Person] = {}
 
         def add(person: Person) -> None:
-            raise notImplementedError()
+            raise NotImplementedError()
 
         def pop() -> Person:
-            raise notImplementedError()
+            raise NotImplementedError()
 
         def lookup(name: str) -> Person:
-            raise notImplementedError()
+            raise NotImplementedError()
 
         def remove(name: str) -> bool:
-            raise notImplementedError()
+            raise NotImplementedError()
         
         def as_sorted_list() -> list[Person]:
-            raise notImplementedError()
+            raise NotImplementedError()
 
 ## Vergelijken
 
