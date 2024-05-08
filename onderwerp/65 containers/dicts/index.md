@@ -44,17 +44,17 @@ Je kan met de volgende opzet beginnen:
         def __init__(self):
             self._pairs: list[tuple[Any, Any]] = []
 
-        def add(key: Any, value: Any) -> None:
-            raise notImplementedError()
+        def add(self, key: Any, value: Any) -> None:
+            raise NotImplementedError()
 
-        def contains(key: Any) -> bool:
-            raise notImplementedError()
+        def contains(self, key: Any) -> bool:
+            raise NotImplementedError()
 
-        def lookup(key: Any) -> Any:
-            raise notImplementedError()
+        def lookup(self, key: Any) -> Any:
+            raise NotImplementedError()
 
-        def remove(key: Any) -> bool:
-            raise notImplementedError()
+        def remove(self, key: Any) -> bool:
+            raise NotImplementedError()
 
 
 ## 2. Efficientie?
