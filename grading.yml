@@ -94,7 +94,7 @@ grades:
     python_contract: *aftekenen
     python_type_hints: *aftekenen
     python_tests: *aftekenen
-    quality: *aftekenen
+    quality: *punten
 
     # Challenges
 
