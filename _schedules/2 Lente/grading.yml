@@ -122,9 +122,9 @@ tools:
     show_progress: true
     deadline: 26/4/24 17:00
     submits:
-        python_contract: 0
-        python_type_hints: 0
-        python_tests: 0
+        # python_contract: 0
+        # python_type_hints: 0
+        # python_tests: 0
         quality: 6
 
 challenges:
