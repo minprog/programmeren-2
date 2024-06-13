@@ -133,4 +133,4 @@ Je hoeft voor deze opdracht geen foutafhandeling te doen. Je mag er vanuitgaan d
 
 ## Testen
 
-Zorg ervoor dat iedere functie is getest met aparte test functies in een apart bestand genaamd `test_jaccard.py`.
+Zorg ervoor dat iedere functie is getest met aparte test functies in een apart bestand genaamd `test_recommend.py`.
