@@ -102,6 +102,35 @@ Dit zijn een aantal aanbevelingen:
 - `joker.txt` geeft `magnolia.txt`
 </details>
 
+### 5. user interaction
+
+Als kers op de taart, maak er een echt programma van dat een film aanneemt en een andere film teruggeeft:
+
+    python3 recommend.py frozen.txt
+    up.txt
+
+<details markdown="1"><summary markdown="span">sys.argv</summary>
+Net zoals in de programmeertaal C bestaat er een waarde genaamd `argv`. Dit is de zogenaamde "argument vector". Daarin staan alle meegegeven command-line arguments. In Python is `argv` een `list` en deze staat opgeslagen in een module genaamd `sys`. Zo kom je eraan:
+
+    import sys
+
+    print(sys.argv)
+
+</details>
+
+<details markdown="1"><summary markdown="span">`if __name__ == "__main__":`</summary>
+Maak gebruik van `if __name__ == "__main__":` om ervoor te zorgen dat bepaalde Python code niet draait als deze wordt geïmporteerd in een ander Python-bestand. Zo wil je bijvoorbeeld nog steeds je eigen functies kunnen importeren in `test_jaccard.py`, maar niet dat de code draait om `argv` uit te lezen of het resultaat uit te printen.
+
+    # rest van het bestand
+
+    if __name__ == "__main__":
+        # check argv
+        # recommend new movie
+
+</details>
+
+Je hoeft voor deze opdracht geen foutafhandeling te doen. Je mag er vanuitgaan dat de gebruiker van je programma altijd een bestaand script invoert.
+
 ## Testen
 
 Zorg ervoor dat iedere functie is getest met aparte test functies in een apart bestand genaamd `test_jaccard.py`.
