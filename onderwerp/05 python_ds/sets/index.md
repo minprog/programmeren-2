@@ -5,7 +5,7 @@ Python heeft meerdere ingebouwde datastructuren, zo ook een `set`. Dit is een da
 - Een set kan geen duplicate elementen bevatten.
 - Een set kent geen volgorde en daarom zijn er ook geen plekken (indices).
 
-Een set kent een groot voordeel: Het opzoeken van een element in een set is onafhankelijk van het aantal items in een set. In andere woorden, een set is razendsnel in het kijken of een element erin zit, of niet.
+Een set kent een groot voordeel: Het opzoeken van een element in een set is onafhankelijk van het aantal elementen in een set. In andere woorden, een set is razendsnel in het kijken of een element erin zit, of niet.
 
 Zo maak je een set aan:
 
