@@ -84,7 +84,7 @@ De union van twee sets geeft een nieuwe set met daarin alle items van die twee s
     set1 = union({1, 2, 3}, {5.0, 2.0}) # geeft type set[int | float]
     set2 = union({1, 2, 3}, {"hello"}) # geeft type set[int | str]
 
-Let op, om functies te maken met generieke type(s) moeten er blokhaakjes volgen na de functienaam met daarin de generieke types. Conventie is een enkele hoofdletter voor de generieke types. Deze syntax is nieuw in Python3.12.
+Let op, om functies te maken met generieke type(s) moeten er blokhaakjes volgen na de functienaam met daarin de generieke types. Conventie is enkele hoofdletter(s) voor de generieke types. Deze syntax is nieuw in Python3.12.
 
 </details>
 
