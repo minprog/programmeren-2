@@ -155,7 +155,7 @@ Implementeer de volgende functie in een bestand genaamd `sets.py`:
 
 **TODO** Voeg minimaal vier pytest tests toe om de functie te testen. Kijk goed bij de eerdere tests voor inspiratie. Plaats deze tests ook in `test_sets.py`.
 
-<details markdown="1"><summary markdown="span">`set_a & set_b`</summary>
+<details markdown="1"><summary markdown="span">`set_a ^ set_b`</summary>
 Omdat symmetric_difference een veelgebruikte operatie is bestaat er ook speciale syntax voor. Zo doen de volgende twee regels code precies hetzelfde:
 
     set_a.symmetric_difference(set_b)
@@ -182,7 +182,7 @@ Python sets kennen een methode `difference()`. Deze methode geeft een nieuwe set
 Deze functie returned een set van het type `set[A]` omdat alleen elementen uit `set_a` in de resulterende set kunnen komen.
 </details>
 
-<details markdown="1"><summary markdown="span">`set_a & set_b`</summary>
+<details markdown="1"><summary markdown="span">`set_a - set_b`</summary>
 Omdat difference een veelgebruikte operatie is bestaat er ook speciale syntax voor. Zo doen de volgende twee regels code precies hetzelfde:
 
     set_a.difference(set_b)
