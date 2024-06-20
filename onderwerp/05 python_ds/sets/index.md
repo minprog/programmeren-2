@@ -1,3 +1,53 @@
+# Set
+
+Python heeft meerdere ingebouwde datastructuren, zo ook een `set`. Dit is een datastructuur met een aantal bijzondere eigenschappen:
+
+- Een set kan geen duplicate elementen bevatten.
+- Een set kent geen volgorde en daarom zijn er ook geen plekken (indices).
+
+Een set kent een groot voordeel: Het opzoeken van een element in een set is onafhankelijk van het aantal items in een set. In andere woorden, een set is razendsnel in het kijken of een element erin zit, of niet.
+
+Zo maak je een set aan:
+
+    empty_items = set() # dit maakt een lege set aan
+    items = {1, 2, 3} # dit maakt een set aan met de waarde 1, 2 en 3
+
+Zo voeg je een element toe aan een set:
+
+    items.add(4) # voegt 4 toe
+    items.add(3) # doet niks, want 3 zat al in de set
+
+Zo verwijder je een element:
+
+    items.remove(4)
+
+Zo kijk je of een element in een set zit:
+
+    if 2 in items:
+        ...
+
+Zo loop je over een set:
+
+    for item in items:
+        ...
+
+Zo kijk je of twee sets gelijk zijn aan elkaar:
+
+    if items == {3, 2, 1}: # deze sets zijn gelijk aan elkaar, de volgorde maakt niet uit
+        ...
+
+<details markdown="1"><summary markdown="span">`set()` versus `{}`</summary>
+De datastructuren `set`, `list`, `dict` en `tuple` kunnen allemaal aangemaakt worden via de gelijknamige functie, of door middel van haakjes. Alleen er zijn maar zoveel haakjes op je toetsenbord. Daarom gebruiken zowel set als dict de accolades (curly braces, `{}`). Daardoor ontstaat de vraag, is `{}` een lege set of een lege dict? In Python is `{}` een lege dict. De manier om een lege set aan te maken is via `set()`.
+
+</details>
+
+<details markdown="1"><summary markdown="span">`items[0]`?</summary>
+Een set slaat een element op zo'n manier op dat hetzelfde element makkelijk teruggevonden kan worden. Dit gebeurt op basis van eigenschappen van wat je probeert op te slaan. Dat betekent ook dat waar het element komt te staan in de set afhangt van onder andere het element zelf en hoe de set bepaald wat een handige locatie is. De volgorde van elementen van een set is daarom niet te voorspellen. Daarom kan je ook niet vragen om een element op een bepaalde index via bijvoorbeeld `items[0]`. Je ziet dan een `TypeError: 'set' object is not subscriptable`.
+
+Wel kan je door middel van een for-loop over alle elementen in een set itereren. Daar is er dus wel een eerste, tweede, derde, etc element. Alleen wat die volgorde is, is van te voren niet te voorspellen.
+
+</details>
+
 ### Union
 
 Python sets kennen een methode `union()`. Deze methode geeft een nieuwe set met alle elementen van twee andere sets.
@@ -27,10 +77,6 @@ Hier zijn pytest tests om de functie te testen. Plaats deze in `test_sets.py`:
 
     def test_union_different_types():
         assert union({"hello"}, {4, 5}) == {"hello", 4, 5}
-
-<details markdown="1"><summary markdown="span">`set()` versus `{}`</summary>
-De datastructuren `set`, `list`, `dict` en `tuple` kunnen allemaal aangemaakt worden via de gelijknamige functie, of door middel van haakjes. Alleen er zijn maar zoveel haakjes op je toetsenbord. Daarom gebruiken zowel set als dict de accolades (curly braces, `{}`). Daardoor ontstaat de vraag, is `{}` een lege set of een lege dict? In Python is `{}` een lege dict. De manier om een lege set aan te maken is via `set()`.
-</details>
 
 <details markdown="1"><summary markdown="span">generieke types A en B</summary>
 De union van twee sets geeft een nieuwe set met daarin alle items van die twee sets. De resulterende set bevat dus ook alle types van de twee oorspronkelijke sets. Van te voren is niet bekend wat er in de twee sets zit, en dit kan ook verschillen van elkaar. Zo kan bijvoorbeeld `set_a` een `set[int]` zijn en `set_b` een `set[str]`. De resulterende set heeft in dit geval zowel `int` als `str`, oftewel `set[int | str]`. Maar omdat de types van te voren niet bekend zijn geven we het een generiek type, in dit geval `A` en `B`. Hierdoor kan Python en `mypy` achterhalen wat het type is van de uitkomst, op basis van waarmee de functie wordt aangeroepen.
