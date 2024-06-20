@@ -33,7 +33,7 @@ De datastructuren `set`, `list`, `dict` en `tuple` kunnen allemaal aangemaakt wo
 </details>
 
 <details markdown="1"><summary markdown="span">generieke types A en B</summary>
-De union van twee sets geeft een nieuwe set met daarin alle items van twee sets. De resulterende set bevat dus ook alle types van de twee oorspronkelijke sets. Van te voren is niet bekend wat er in de twee sets zit, en dit kan ook verschillen van elkaar. Zo kan bijvoorbeeld `set_a` een `set[int]` zijn en `set_b` een `set[str]`. De resulterende set heeft in dit geval zowel `int` als `str`, oftewel `set[int | str]`. Maar omdat de types van te voren niet bekend zijn geven we het een generiek type, in dit geval `A` en `B`. Hierdoor kan Python en `mypy` achterhalen wat het type is van de uitkomst, op basis van waarmee de functie wordt aangeroepen.
+De union van twee sets geeft een nieuwe set met daarin alle items van die twee sets. De resulterende set bevat dus ook alle types van de twee oorspronkelijke sets. Van te voren is niet bekend wat er in de twee sets zit, en dit kan ook verschillen van elkaar. Zo kan bijvoorbeeld `set_a` een `set[int]` zijn en `set_b` een `set[str]`. De resulterende set heeft in dit geval zowel `int` als `str`, oftewel `set[int | str]`. Maar omdat de types van te voren niet bekend zijn geven we het een generiek type, in dit geval `A` en `B`. Hierdoor kan Python en `mypy` achterhalen wat het type is van de uitkomst, op basis van waarmee de functie wordt aangeroepen.
 
     set1 = union({1, 2, 3}, {5.0, 2.0}) # geeft type set[int | float]
     set2 = union({1, 2, 3}, {"hello"}) # geeft type set[int | str]
