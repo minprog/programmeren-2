@@ -55,3 +55,20 @@ Hoewel je bij een tuple iedere plek een type kan geven, zijn er ook situaties wa
 In dit geval wordt het type van de tuple: `tuple[int, ...]`.
 
 </details>
+
+### max_and_index
+
+Schrijf een functie `max_and_index` die van een lijst aan getallen de maximum waarde en de index van de maximum waarde teruggeeft.
+
+    def max_and_index(numbers: list[float]) -> tuple[float, int]:
+        """
+        Returns the maximum number in numbers and the index of that number.
+        """
+
+<details markdown="1"><summary markdown="span">Meerdere waardes returnen</summary>
+Ook in Python kan een functie maar één keer één waarde returnen. Toch kan je op deze manier twee waardes returnen:
+
+    return max, index
+
+Hoewel het lijkt alsof er hier twee waardes worden teruggeven, wordt er eigenlijk een tuple aangemaakt van `max` en `index`. De haakjes van een tuple zijn namelijk optioneel. Conventie is dan ook dat als een functie meerdere verschilledne waardes moet returnen, dat dit via een tuple gebeurt.
+</details>
