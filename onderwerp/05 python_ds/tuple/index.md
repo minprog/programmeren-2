@@ -20,7 +20,11 @@ Zo voeg je twee tuples samen in een nieuwe derde tuple:
 
     coordinaten_3d = coordinaten + (4,)
 
-Tuples worden vaak gebruikt om verschillende informatie bij elkaar te houden. Iedere index in een tuple kan zijn eigen type hebben, zo is het type van `coordinaten` hierboven: `tuple[int, int]`. Uit het type kan je ook gelijk opmaken hoeveel elemenenten er in de tuple zitten.
+Zo pak je een tuple (unpacking) uit in meerdere variabelen:
+
+    x, y, z = coordinaten_3d
+
+Tuples worden vaak gebruikt om verschillende stukken informatie bij elkaar te houden. Iedere index in een tuple kan namelijk zijn eigen type hebben. Zo is het type van `coordinaten` hierboven: `tuple[int, int]`. Uit het type kan je ook gelijk opmaken hoeveel elemenenten er in de tuple zitten.
 
 <details markdown="1"><summary markdown="span">`(4,)`</summary>
 Tuples gebruiken ronde haakjes, maar die ronde haakjes worden al op veel plekken gebruikt in Python. Daarom is er wat syntax nodig om ambiguiteit te voorkomen:
@@ -85,3 +89,34 @@ Implementeer de volgende functie in een bestand genaamd `tuples.py`:
         Returns a list of key-value tuples of all items in the dictionary. 
         """
 
+### enumerate
+
+Python kent een functie [enumerate](https://docs.python.org/3/library/functions.html#enumerate). Deze functie neemt een itereerbare verzameling als argument. Dit is bijvoorbeeld een list, set, tuple of dict. Een datastructuur waarmee je met een for-loop over kan itereren. De functie returned vervolgens een list met op iedere plek een tuple. Iedere tuple bestaat uit twee waardes: de index (beginnend bij 0) en de waarde op die index.
+
+Implementeer de volgende functie in een bestand genaamd `tuples.py`:
+
+    from typing import Iterable
+
+    def enumerate[T](values: Iterable[T]) -> list[tuple[int, T]]:
+        """
+        Returns a list of tuples. Each tuple is a pair of an index (starting at 0) and a value at that index in values.
+        """
+
+<details markdown="1"><summary markdown="span">enumerate in Python</summary>
+Python kent maar één vorm van een for-loop, een zogenaamde for-each loop. Je leest hem eigenlijk als: voor ieder (for each) element in een verzameling van elementen, doe iets. Nu zijn er situaties waarin dit voldoet, en er zijn situaties waarin je expliciet de index van een element nodig hebt in plaats van het element zelf. Vaak zie je daarom deze twee loops:
+
+    # itereer over alle elementen in elements
+    for element in elements:
+        ...
+
+    # itereer over de indices van elements
+    for i in range(len(elements)):
+        ...
+
+Maar wat nou als je zowel de index als het element wilt? Daar is `enumerate` handig voor. Namelijk als volgt:
+
+    for i, element in enumerate(elements):
+        ...
+
+Hierboven wordt tuple-unpacking, het uitpakken van een tuple in meerdere variabelen, op dezelfde regel van de for-loop gedaan. Daardoor heb je in één klap een variabele `i` met de index en een variabele `element` met het element op die index.
+</details>
