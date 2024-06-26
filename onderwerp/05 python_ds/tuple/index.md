@@ -99,7 +99,8 @@ Implementeer de volgende functie in een bestand genaamd `tuples.py`:
 
     def enumerate[T](values: Iterable[T]) -> list[tuple[int, T]]:
         """
-        Returns a list of tuples. Each tuple is a pair of an index (starting at 0) and a value at that index in values.
+        Returns a list of tuples. Each tuple is a pair of an
+        index (starting at 0) and a value at that index in values.
         """
 
 <details markdown="1"><summary markdown="span">enumerate in Python</summary>
