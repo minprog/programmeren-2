@@ -20,7 +20,7 @@ Zo voeg je twee tuples samen in een nieuwe derde tuple:
 
     coordinaten_3d = coordinaten + (4,)
 
-Zo pak je een tuple (unpacking) uit in meerdere variabelen:
+Zo pak je een tuple uit in meerdere variabelen (unpacking):
 
     x, y, z = coordinaten_3d
 
