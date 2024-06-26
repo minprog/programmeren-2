@@ -76,7 +76,7 @@ Hoewel het lijkt alsof er hier twee waardes worden teruggeven, wordt er eigenlij
 
 ### items
 
-Python dicts kennen een methode `items`. Deze methode geeft alle items (de keys en values) van een dictionary als een lijst van paren. Ieder paar is een tuple met op de eerste plek de key, en op de tweede de value.
+Python dicts kennen een methode `items`. Deze methode geeft alle items (de keys en values) van een dictionary als een lijst van paren. Ieder paar is een tuple met op de eerste plek de key, en op de tweede plek de bijbehorende value.
 
 Implementeer de volgende functie in een bestand genaamd `tuples.py`:
 
