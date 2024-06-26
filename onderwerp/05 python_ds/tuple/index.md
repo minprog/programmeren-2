@@ -69,6 +69,8 @@ Schrijf een functie `max_and_index` in een bestand genaamd `tuples.py` die van e
         Returns the maximum number in numbers and the index of that number.
         """
 
+ Schrijf minimaal vier pytest test in een bestand genaamd `test_tuples.py` voor deze functie.
+
 <details markdown="1"><summary markdown="span">Meerdere waardes returnen</summary>
 Ook in Python kan een functie maar één keer één waarde returnen. Toch kan je op deze manier twee waardes returnen:
 
@@ -89,6 +91,8 @@ Implementeer de volgende functie in een bestand genaamd `tuples.py`:
         Returns a list of key-value tuples of all items in the dictionary. 
         """
 
+ Schrijf minimaal vier pytest test in een bestand genaamd `test_tuples.py` voor deze functie.
+
 ### enumerate
 
 Python kent een functie [enumerate](https://docs.python.org/3/library/functions.html#enumerate). Deze functie neemt een itereerbare verzameling als argument. Dit is bijvoorbeeld een list, set, tuple of dict. Een datastructuur waarmee je met een for-loop over kan itereren. De functie returned vervolgens een list met op iedere plek een tuple. Iedere tuple bestaat uit twee waardes: de index (beginnend bij 0) en de waarde op die index.
@@ -103,6 +107,8 @@ Implementeer de volgende functie in een bestand genaamd `tuples.py`:
         index (starting at 0) and a value at that index in values.
         """
 
+ Schrijf minimaal vier pytest test in een bestand genaamd `test_tuples.py` voor deze functie.
+ 
 <details markdown="1"><summary markdown="span">enumerate in Python</summary>
 Python kent maar één vorm van een for-loop, een zogenaamde for-each loop. Je leest hem eigenlijk als: voor ieder (for each) element in een verzameling van elementen, doe iets. Nu zijn er situaties waarin dit voldoet, en er zijn situaties waarin je expliciet de index van een element nodig hebt in plaats van het element zelf. Vaak zie je daarom deze twee loops:
 
