@@ -58,7 +58,7 @@ In dit geval wordt het type van de tuple: `tuple[int, ...]`.
 
 ### max_and_index
 
-Schrijf een functie `max_and_index` die van een lijst aan getallen de maximum waarde en de index van de maximum waarde teruggeeft.
+Schrijf een functie `max_and_index` in een bestand genaamd `tuples.py` die van een lijst aan getallen de maximum waarde en de index van de maximum waarde teruggeeft.
 
     def max_and_index(numbers: list[float]) -> tuple[float, int]:
         """
@@ -72,3 +72,16 @@ Ook in Python kan een functie maar één keer één waarde returnen. Toch kan je
 
 Hoewel het lijkt alsof er hier twee waardes worden teruggeven, wordt er eigenlijk een tuple aangemaakt van `max` en `index`. De haakjes van een tuple zijn namelijk optioneel. Conventie is dan ook dat als een functie meerdere verschillende waardes moet returnen, dat dit via een tuple gebeurt.
 </details>
+
+
+### items
+
+Python dicts kennen een methode `items`. Deze methode geeft alle items (de keys en values) van een dictionary als een lijst van paren. Ieder paar is een tuple met op de eerste plek de key, en op de tweede de value.
+
+Implementeer de volgende functie in een bestand genaamd `tuples.py`:
+
+    def items[KT, VT](dictionary: dict[KT, VT]) -> list[tuple[KT, VT]]:
+        """
+        Returns a list of key-value tuples of all items in the dictionary. 
+        """
+

@@ -37,7 +37,7 @@ Zo loop je over een dict heen:
 
 ### get
 
-Python dicts kennen een methode `get()`. Deze methode haalt een value op uit de dictionary op basis van een key. Zit de key niet in de dictionary, dan wordt een standaard waarde teruggeven.
+Python dicts kennen een methode `get()`. Deze methode haalt een value op uit de dictionary op basis van een key. Er is één extra ding: zit de key niet in de dictionary, dan wordt een standaard waarde teruggeven.
 
 Implementeer de volgende functie in een bestand genaamd `dicts.py`
 
