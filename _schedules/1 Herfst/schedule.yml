@@ -4,11 +4,29 @@ Welkom:
 Python:
     "Overzicht: Starten met Python": /modules/python
     Voorbereiding:
-        "Videocollege: Python": /lectures/python-david
-    Opdrachten:
-        Mario: /onderwerp/python/mario
-        Readability: /onderwerp/python/readability
-        Schuifpuzzel: /onderwerp/python/schuifpuzzel
+        'College: C => Python': /onderwerp/intro/lecture_doug
+    Tools:
+        Installatie: /onderwerp/intro/install
+        'pycodestyle': /onderwerp/intro/pycodestyle
+        'mypy': /onderwerp/intro/mypy
+        'pytest': /onderwerp/intro/pytest
+    "Opdrachten":
+        weken: /onderwerp/intro/opdrachten/weken
+        isalpha: /onderwerp/intro/opdrachten/isalpha
+        lower: /onderwerp/intro/opdrachten/lower
+        orakel: /onderwerp/intro/opdrachten/orakel
+        index: /onderwerp/intro/opdrachten/index
+        slice: /onderwerp/intro/opdrachten/slice
+        capitalize: /onderwerp/intro/opdrachten/capitalize
+        title: /onderwerp/intro/opdrachten/title
+        find: /onderwerp/intro/opdrachten/find
+        split: /onderwerp/intro/opdrachten/split
+        calculator: /onderwerp/intro/opdrachten/calculator
+        join: /onderwerp/intro/opdrachten/join
+        replace: /onderwerp/intro/opdrachten/replace
+        camelcase: /onderwerp/intro/opdrachten/camelcase
+        kenteken*: /onderwerp/intro/opdrachten/kenteken
+        split real*: /onderwerp/intro/opdrachten/split_real
 
 Complexiteit:
     "Overzicht: Datastructuren en Complexiteit": /modules/complexity
@@ -25,11 +43,12 @@ Complexiteit:
         Improving code: /onderwerp/complexity/big-o-improve
         Complexity questions [submit]: /onderwerp/complexity/big-o-questions
     Programmeeropdrachten:
+        Schuifpuzzel [submit]: /onderwerp/python/schuifpuzzel
         Jaccard [submit]: /onderwerp/complexity/jaccard
         Indexing words [submit]: /onderwerp/complexity/indexer
 
 Objects:
-    Overzicht: /modules/oop
+    "Overzicht: Objecten en Classes": /modules/oop
     Voorbereiding:
         "Videocollege: OOP": /onderwerp/oop/lecture
         "Boek hst14: OOP": /onderwerp/oop/boek
@@ -39,22 +58,23 @@ Objects:
         Hangman: /hangman/classic
 
 Tools:
-    Overzicht: /modules/tools
+    "Overzicht: Tools voor betere code": /modules/tools
+    Voorbereidingen: /modules/tools/preparation
     Design-documentatie:
         "Boek: Design by contract": /onderwerp/design/boek
-        Documenteer je functies [opdracht]: /onderwerp/design/contract
+        1) Documenteer je functies [opdracht]: /onderwerp/design/contract
     Types in Python:
         "Achtergrond: typing in Python": /onderwerp/typing/typing
         Type hints: /onderwerp/typing/type-hints
         # Type aliases and variables: /onderwerp/typing/type-aliases
         # Duck typing: /onderwerp/typing/duck-typing
         # Flexible typing: /onderwerp/typing/flexible-typing
-        Type hints toevoegen [opdracht]: /onderwerp/typing/add-type-hints
+        2) Type hints toevoegen [opdracht]: /onderwerp/typing/add-type-hints
     Testen in Python:
         "Achtergrond: testen in Python": /onderwerp/testing/testing
-        Tests toevoegen [opdracht]: /onderwerp/testing/refactor
+        3) Tests toevoegen [opdracht]: /onderwerp/testing/refactor
     Statische kwaliteitsanalyse:
-        Verbeter je code [opdracht]: /onderwerp/quality
+        4) Verbeter je code [opdracht]: /onderwerp/quality
 
 Challenges:
     Overzicht: /modules/challenges
@@ -63,7 +83,7 @@ Challenges:
         Kalender design: /onderwerp/challenges/kalender
 
 Abstractions:
-    Overzicht: /modules/abstractions
+    "Overzicht: Abstractions": /modules/abstractions
     Data Abstractions:
         "Boek 2: Data Abstractions": /onderwerp/adts/boek
         Testen met twee implementaties [opdracht]: /onderwerp/adts/card
@@ -74,7 +94,7 @@ Abstractions:
         List structure [opdracht]: /onderwerp/containers/lists
         # Set structure: /onderwerp/containers/sets
         Dictionary structure [opdracht]: /onderwerp/containers/dicts
-
+        Priority Queue [opdracht]: /onderwerp/containers/priority_queue
 Structures:
     Overzicht: /modules/structures
     Strucuren bouwen:
