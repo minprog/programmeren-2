@@ -130,6 +130,10 @@ Hier zijn pytest tests om de functie te testen. Plaats deze in `test_sets.py`:
     def test_intersection_different_types():
         assert intersection({1, "hello"}, {1}) == {1}
 
+<details markdown="1"><summary markdown="span">`-> set[A]`</summary>
+Deze functie returned een set van het type `set[A]` omdat er alleen overlap kan zijn als de types van beide sets hetzelfde zijn.
+</details>
+
 <details markdown="1"><summary markdown="span">`set_a & set_b`</summary>
 Omdat intersection een veelgebruikte operatie is bestaat er ook speciale syntax voor. Zo doen de volgende twee regels code precies hetzelfde:
 
