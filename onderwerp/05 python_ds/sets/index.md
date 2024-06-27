@@ -52,7 +52,7 @@ Wel kan je door middel van een for-loop over alle elementen in een set itereren.
 
 Python sets kennen een methode `union()`. Deze methode geeft een nieuwe set met alle elementen van twee andere sets.
 
-Implementeer de volgende functie in een bestand genaamd `sets.py`:
+**TODO** Implementeer de volgende functie in een bestand genaamd `sets.py`:
 
     def union[A, B](set_a: set[A], set_b: set[B]) -> set[A | B]:
         """
@@ -102,7 +102,7 @@ Let op, gebruik deze operatie natuurlijk niet bij het implementeren van deze opd
 
 Python sets kennen een methode `intersection()`. Deze methode geeft een nieuwe set met daarin alle elementen die zowel in de ene als de andere set zitten.
 
-Implementeer de volgende functie in een bestand genaamd `sets.py`:
+**TODO** Implementeer de volgende functie in een bestand genaamd `sets.py`:
 
     def intersection[A](set_a: set[A], set_b: set[A]) -> set[A]:
         """
@@ -175,7 +175,7 @@ Let op, gebruik deze operatie natuurlijk niet bij het implementeren van deze opd
 
 Python sets kennen een methode `symmetric_difference()`. Deze methode geeft een nieuwe set met daarin alle elementen die alleen in één van de twee sets zitten.
 
-Implementeer de volgende functie in een bestand genaamd `sets.py`:
+**TODO** Implementeer de volgende functie in een bestand genaamd `sets.py`:
 
     def symmetric_difference[A, B](set_a: set[A], set_b: set[B]) -> set[A | B]:
         """

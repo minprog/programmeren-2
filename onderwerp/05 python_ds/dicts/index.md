@@ -39,7 +39,7 @@ Zo loop je over een dict heen:
 
 Python dicts kennen een methode `get()`. Deze methode haalt een value op uit de dictionary op basis van een key. Er is één extra ding: zit de key niet in de dictionary, dan wordt een standaard waarde teruggeven.
 
-Implementeer de volgende functie in een bestand genaamd `dicts.py`
+**TODO** Implementeer de volgende functie in een bestand genaamd `dicts.py`
 
     def get[KT, VT](dictionary: dict[KT, VT], key: KT, default_value: VT | None=None) -> VT | None:
         """
@@ -67,7 +67,7 @@ Hier zijn pytest tests om de functie te testen. Plaats deze in `test_dicts.py`:
 
 Pythons dicts kennen een methode `values()`. Deze methode geeft "an object providing a view on D's values" terug. Voor deze opdracht doen we alsof dit een `list` is.
 
-Implementeer de volgende functie in een bestand genaamd `dicts.py`:
+**TODO** Implementeer de volgende functie in een bestand genaamd `dicts.py`:
 
     def values[KT, VT](dictionary: dict[KT, VT]) -> list[VT]:
         """
@@ -113,7 +113,7 @@ Naast values hebben dicts ook een keys methode. Deze methode geeft "a set-like o
 
 Python dicts kennen een methode `update()`. Deze methode update een dictionary met alle keys en values uit een andere dictionary.
 
-Implementeer de volgende functie in een bestand genaamd `dicts.py`:
+**TODO** Implementeer de volgende functie in een bestand genaamd `dicts.py`:
 
     def update[KT, VT](dict_a: dict[KT, VT], dict_b: dict[KT, VT]) -> None:
         """
