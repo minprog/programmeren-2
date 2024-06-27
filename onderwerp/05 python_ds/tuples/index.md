@@ -131,23 +131,23 @@ Hierboven wordt tuple-unpacking, het uitpakken van een tuple in meerdere variabe
 <details markdown="1"><summary markdown="span">geen `len(Iterable)`?</summary>
 Een `Iterable` belooft alleen maar dat je erover kan itereren. Dit type doet geen verdere beloftes. Zo ook niet dat er voor een `Iterable` een lengte bestaat, want er bestaan ook itereerbare types zonder lengte. Dit zijn bijvoorbeeld oneindige verzamelingen, of verzamelingen waarvan de lengte niet van te voren bekend is. Om deze reden kan je niet via `len()` de lengte van een `Iterable` nemen. 
 
-> Voor de nieuwsgierigen, hoe werkt dat nou zo'n oneindige verzameling? Bijvoorbeeld een verzameling van alle gehele getallen tot in het oneindige:
+<details markdown="1"><summary markdown="span">Voor de nieuwsgierigen, hoe werkt dat nou zo'n oneindige verzameling? </summary>
+Bijvoorbeeld een verzameling van alle gehele getallen tot in het oneindige:
 
-        def all_positive_numbers():
-            number = 0
-            while true:
-                yield number
-                number += 1
+    def all_positive_numbers():
+        number = 0
+        while true:
+            yield number
+            number += 1
 
-        for number in all_positive_numbers():
-            print(number)
+    for number in all_positive_numbers():
+        print(number)
 
-            if number > 100:
-                break
+        if number > 100:
+            break
 
-    Bovenstaande werkt via een zogenaamde `generator`. Deze wordt hier aangemaakt door de functie `all_positive_numbers` en het speciale keyword `yield`. Zie het als een functie die tijdelijk returned bij `yield`, en bij een volgende aanroep weer verder gaat waar deze gebleven was. De functie `all_positive_numbers` genereert op die manier alle getallen vanaf 0 tot in het oneindige.
+Bovenstaande werkt via een zogenaamde `generator`. Deze wordt hier aangemaakt door de functie `all_positive_numbers` en het speciale keyword `yield`. Zie het als een functie die tijdelijk returned bij `yield`, en bij een volgende aanroep weer verder gaat waar deze gebleven was. De functie `all_positive_numbers` genereert op die manier alle getallen vanaf 0 tot in het oneindige.
 
-    De for-loop zorgt ervoor dat de `generator` de getallen gaat genereren. Omdat de generator nooit stopt, hebben we zelf maar een `break` in de loop gezet.
-
-> Let op, `generator`s 
+De for-loop zorgt ervoor dat de `generator` de getallen gaat genereren. Omdat de generator nooit stopt, hebben we zelf maar een `break` in de loop gezet.
+</details>
 </details>
