@@ -12,24 +12,33 @@ templates:
         calculation: akkoord
         auto_publish: true
         hide_subgrades: true
-    4: &semiautomatisch
-        type: points
+    2: &automatisch_pass
+        type: pass
         subgrades:
             akkoord: boolean
         automatic:
             akkoord: -correctness_score.floor
         calculation: akkoord
+        auto_publish: true
+        hide_calculated: true
+    3: &aftekenen
+        type: points
+        subgrades:
+            akkoord: boolean
+        calculation: akkoord
         hide_subgrades: true
-    2: &punten
+    4: &punten
         type: points
         subgrades:
             punten: float
         calculation: punten
         hide_subgrades: true
-    3: &aftekenen
+    5: &semiautomatisch
         type: points
         subgrades:
             akkoord: boolean
+        automatic:
+            akkoord: -correctness_score.floor
         calculation: akkoord
         hide_subgrades: true
 
@@ -71,9 +80,23 @@ grades:
 
     # Python
 
-    mario: *automatisch
-    readability: *automatisch
-    schuifpuzzel: *automatisch
+    weken: *automatisch_pass
+    isalpha: *automatisch_pass
+    lower: *automatisch_pass
+    orakel: *automatisch_pass
+    index: *automatisch_pass
+    slice: *automatisch_pass
+    capitalize: *automatisch_pass
+    title: *automatisch_pass
+    find: *automatisch_pass
+    split: *automatisch_pass
+    calculator: *automatisch_pass
+    join: *automatisch_pass
+    replace: *automatisch_pass
+    camelcase: *automatisch_pass
+    kenteken: *automatisch_pass
+    split_real: *automatisch_pass
+    python_voldoende: *aftekenen
 
     # Complexiteit
 
@@ -82,6 +105,7 @@ grades:
     big-o-questions: *aftekenen
     jaccard: *aftekenen
     indexer: *aftekenen
+    punten_complexiteit: *punten
 
     # Objects
 
