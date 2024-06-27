@@ -104,7 +104,7 @@ Python sets kennen een methode `intersection()`. Deze methode geeft een nieuwe s
 
 Implementeer de volgende functie in een bestand genaamd `sets.py`:
 
-    def intersection[A, B](set_a: set[A], set_b: set[B]) -> set[A | B]:
+    def intersection[A](set_a: set[A], set_b: set[A]) -> set[A]:
         """
         Returns a new set with all elements that are both in
         set_a and set_b. In other words, this returns all the
@@ -140,6 +140,33 @@ Let op, gebruik deze operatie natuurlijk niet bij het implementeren van deze opd
 
 </details>
 
+### Difference
+
+Python sets kennen een methode `difference()`. Deze methode geeft een nieuwe set met daarin alle elementen die alleen in één set zitten (`set_a`), maar niet in de andere (`set_b`). Deze operatie is niet symmetrisch, dus alleen elementen uit `set_a` kunnen in de resulterende set komen.
+
+    def difference[A, B](set_a: set[A], set_b: set[A]) -> set[A]:
+        """
+        Returns a new set with all elements that are only in
+        set_a and not in set_b. In other words, this returns
+        all the non-overlapping elements of set_a with set_b.
+        """
+
+**TODO** Voeg minimaal vier pytest tests toe om de functie te testen. Kijk goed bij de eerdere tests voor inspiratie. Plaats deze tests ook in `test_sets.py`.
+
+<details markdown="1"><summary markdown="span">`-> set[A]`</summary>
+Deze functie returned een set van het type `set[A]` omdat alleen elementen uit `set_a` in de resulterende set kunnen komen.
+</details>
+
+<details markdown="1"><summary markdown="span">`set_a - set_b`</summary>
+Omdat difference een veelgebruikte operatie is bestaat er ook speciale syntax voor. Zo doen de volgende twee regels code precies hetzelfde:
+
+    set_a.difference(set_b)
+    set_a - set_b
+
+Let op, gebruik deze operatie natuurlijk niet bij het implementeren van deze opdracht. Dat keurt de check ook af. Na deze opdracht mag je natuurlijk wel gebruik maken van de ingebouwde difference operatie.
+
+</details>
+
 ### Symmetric difference
 
 Python sets kennen een methode `symmetric_difference()`. Deze methode geeft een nieuwe set met daarin alle elementen die alleen in één van de twee sets zitten.
@@ -165,29 +192,3 @@ Let op, gebruik deze operatie natuurlijk niet bij het implementeren van deze opd
 
 </details>
 
-### Difference
-
-Python sets kennen een methode `difference()`. Deze methode geeft een nieuwe set met daarin alle elementen die alleen in één set zitten (`set_a`), maar niet in de andere (`set_b`). Deze operatie is niet symmetrisch, dus alleen elementen uit `set_a` kunnen in de resulterende set komen.
-
-    def difference[A, B](set_a: set[A], set_b: set[B]) -> set[A]:
-        """
-        Returns a new set with all elements that are only in
-        set_a and not in set_b. In other words, this returns
-        all the non-overlapping elements of set_a with set_b.
-        """
-
-**TODO** Voeg minimaal vier pytest tests toe om de functie te testen. Kijk goed bij de eerdere tests voor inspiratie. Plaats deze tests ook in `test_sets.py`.
-
-<details markdown="1"><summary markdown="span">`-> set[A]`</summary>
-Deze functie returned een set van het type `set[A]` omdat alleen elementen uit `set_a` in de resulterende set kunnen komen.
-</details>
-
-<details markdown="1"><summary markdown="span">`set_a - set_b`</summary>
-Omdat difference een veelgebruikte operatie is bestaat er ook speciale syntax voor. Zo doen de volgende twee regels code precies hetzelfde:
-
-    set_a.difference(set_b)
-    set_a - set_b
-
-Let op, gebruik deze operatie natuurlijk niet bij het implementeren van deze opdracht. Dat keurt de check ook af. Na deze opdracht mag je natuurlijk wel gebruik maken van de ingebouwde difference operatie.
-
-</details>
