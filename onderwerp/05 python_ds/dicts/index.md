@@ -55,10 +55,10 @@ Hier zijn pytest tests om de functie te testen. Plaats deze in `test_dicts.py`:
         assert get({1: 2, 3: 4}, 1) == 2
 
     def test_get_missing():
-        assert get({1: 2, 3: 4}, 1) == None
+        assert get({1: 2, 3: 4}, 0) == None
 
     def test_get_missing_default():
-        assert get({1: 2, 3: 4}, 1, 0) == 0
+        assert get({1: 2, 3: 4}, 0, 0) == 0
 
     def test_get_empty():
         assert get({}, 1) == None
