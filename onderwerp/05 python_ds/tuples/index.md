@@ -70,7 +70,7 @@ In dit geval wordt het type van de tuple: `tuple[int, ...]`.
         Precondition: len(numbers) > 0
         """
 
-**TODO** Schrijf minimaal vier pytest test in een bestand genaamd `test_tuples.py` voor deze functie.
+**TODO** Schrijf minimaal drie pytest test in een bestand genaamd `test_tuples.py` voor deze functie.
 
 <details markdown="1"><summary markdown="span">Meerdere waardes returnen</summary>
 Ook in Python kan een functie maar één keer één waarde returnen. Toch kan je op deze manier twee waardes returnen:
@@ -92,7 +92,7 @@ Python dicts kennen een methode `items`. Deze methode geeft alle items (de keys 
         Returns a list of key-value tuples of all items in the dictionary. 
         """
 
-**TODO** Schrijf minimaal vier pytest test in een bestand genaamd `test_tuples.py` voor deze functie.
+**TODO** Schrijf minimaal drie pytest test in een bestand genaamd `test_tuples.py` voor deze functie.
 
 ### enumerate
 
@@ -108,7 +108,7 @@ Python kent een functie [enumerate](https://docs.python.org/3/library/functions.
         index (starting at 0) and a value at that index in values.
         """
 
-**TODO** Schrijf minimaal vier pytest test in een bestand genaamd `test_tuples.py` voor deze functie.
+**TODO** Schrijf minimaal drie pytest test in een bestand genaamd `test_tuples.py` voor deze functie.
  
 <details markdown="1"><summary markdown="span">enumerate in Python</summary>
 Python kent maar één vorm van een for-loop, een zogenaamde for-each loop. Je leest hem eigenlijk als: voor ieder (for each) element in een verzameling van elementen, doe iets. Nu zijn er situaties waarin dit voldoet, en er zijn situaties waarin je expliciet de index van een element nodig hebt in plaats van het element zelf. Vaak zie je daarom deze twee loops:
