@@ -47,7 +47,7 @@ Python dicts kennen een methode `get()`. Deze methode haalt een value op uit de 
         if the key is not in the dictionary.
         """
 
-Hier zijn pytest tests om de functie te testen. Plaats deze in `test_dicts.py`:
+**TODO** Hier zijn pytest tests om de functie te testen. Plaats deze in `test_dicts.py`:
 
     from dicts import *
 
@@ -74,7 +74,7 @@ Pythons dicts kennen een methode `values()`. Deze methode geeft "an object provi
         Returns all values from the dictionary as a list.
         """
 
-Hier zijn pytest tests om de functie te testen. Plaats deze in `test_dicts.py`:
+**TODO** Hier zijn pytest tests om de functie te testen. Plaats deze in `test_dicts.py`:
 
     from dicts import *
 

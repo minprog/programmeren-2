@@ -59,7 +59,7 @@ Python sets kennen een methode `union()`. Deze methode geeft een nieuwe set met 
         Returns a new set with all elements of set_a and set_b.
         """
 
-Hier zijn pytest tests om de functie te testen. Plaats deze in `test_sets.py`:
+**TODO** Hier zijn pytest tests om de functie te testen. Plaats deze in `test_sets.py`:
 
     from sets import *
 
@@ -111,7 +111,7 @@ Python sets kennen een methode `intersection()`. Deze methode geeft een nieuwe s
         overlapping elements of set_a and set_b.
         """
 
-Hier zijn pytest tests om de functie te testen. Plaats deze in `test_sets.py`:
+**TODO** Hier zijn pytest tests om de functie te testen. Plaats deze in `test_sets.py`:
 
     from sets import *
 
