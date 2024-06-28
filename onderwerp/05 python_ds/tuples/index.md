@@ -66,7 +66,8 @@ In dit geval wordt het type van de tuple: `tuple[int, ...]`.
 
     def max_and_index(numbers: list[float]) -> tuple[float, int]:
         """
-        Returns the maximum number in numbers and the index of that number.
+        Returns the first maximum number in numbers and the index of that number.
+        Precondition: len(numbers) > 0
         """
 
 **TODO** Schrijf minimaal vier pytest test in een bestand genaamd `test_tuples.py` voor deze functie.
