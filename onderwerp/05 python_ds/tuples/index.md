@@ -80,6 +80,14 @@ Ook in Python kan een functie maar één keer één waarde returnen. Toch kan je
 Hoewel het lijkt alsof er hier twee waardes worden teruggeven, wordt er eigenlijk een tuple aangemaakt van `max` en `index`. De haakjes van een tuple zijn namelijk optioneel. Conventie is dan ook dat als een functie meerdere verschillende waardes moet returnen, dat dit via een tuple gebeurt.
 </details>
 
+<details markdown="1"><summary markdown="span">infinity</summary>
+In verschillende gevallen kan het handig zijn om te werken met een oneindige waarde. In Python werkt dat zo:
+
+    float('inf') # geeft een oneindige positieve waarde
+    float('-inf') # geeft een oneindige negatieve waarde
+
+Deze twee vormen van oneindig geven je een `float` dat respectievelijk altijd groter of altijd kleiner is dan ieder ander getal. 
+</details>
 
 ### items
 
