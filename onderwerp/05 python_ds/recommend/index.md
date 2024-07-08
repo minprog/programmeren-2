@@ -10,7 +10,7 @@ Hebben we het over tekst, dan is één zo'n maat het aantal overeenkomende woord
 
     def convert_to_words(text: str) -> set[str]:
         """
-        Returns a set of words from the text.
+        Returns a set of words from the text. All words are converted to lowercase.
 
         This uses a simple language-independent definition of a word
         as groups of consecutive letters.
@@ -108,12 +108,12 @@ Dit zijn een aantal aanbevelingen:
 
     def test_recommend():
         scripts = {
-            'elvis.txt': 'Elvis script content',
-            'frozen.txt': 'Frozen content about ice and snow',
+            'elvis.txt': 'Elvis is about a musician',
+            'frozen.txt': 'Frozen is an adventure about ice and snow',
             'joker.txt': 'Joker is about a villain',
             'tenet.txt': 'Tenet is about time inversion',
-            'interstellar.txt': 'Interstellar is about space travel',
-            'up.txt': 'Up is an adventure story',
+            'interstellar.txt': 'Interstellar is about space and time travel',
+            'up.txt': 'Up is an adventure story about balloons',
         }
 
         assert recommend('elvis.txt', scripts) == 'joker.txt'
