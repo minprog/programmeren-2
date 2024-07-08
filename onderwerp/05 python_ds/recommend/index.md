@@ -6,7 +6,7 @@ Hebben we het over tekst, dan is één zo'n maat het aantal overeenkomende woord
 
 ### 1. convert_to_words
 
-Implementeer allereerst onderstaande functie in een bestand genaamd `recommend.py`. Deze functie moet een `set` van woorden teruggeven. We kiezen hier voor een `set` omdat we enkel geïnteresseerd zijn in de verschillende woorden in een tekst, en niet of ze meerdere keren voorkomen.
+**TODO** Implementeer allereerst onderstaande functie in een bestand genaamd `recommend.py`. Deze functie moet een `set` van woorden teruggeven. We kiezen hier voor een `set` omdat we enkel geïnteresseerd zijn in de verschillende woorden in een tekst, en niet of ze meerdere keren voorkomen.
 
     def convert_to_words(text: str) -> set[str]:
         """
@@ -16,11 +16,11 @@ Implementeer allereerst onderstaande functie in een bestand genaamd `recommend.p
         as groups of consecutive letters.
         """
 
-> <b>Let op!</b> Deze functie wordt straks onderdeel van een groter programma. Daarvoor is het belangrijk dat deze functie goed werkt, dat scheelt je straks veel zorgen. Schrijf daarom nu in een bestand genaamd `test_recommend.py` een aantal tests voor `convert_to_words`. Test tenminste een tekst met interpunctie, een tekst met meerdere woorden, en een tekst met interpunctie en meerdere woorden zoals: "Hello, world.-How is it going?".
+**TODO** Deze functie wordt straks onderdeel van een groter programma. Daarvoor is het belangrijk dat deze functie goed werkt, dat scheelt je straks veel zorgen. Schrijf daarom nu in een bestand genaamd `test_recommend.py` minimaal **drie** tests voor `convert_to_words`. Test tenminste een tekst met interpunctie, een tekst met meerdere woorden, en een tekst met interpunctie en meerdere woorden zoals: "Hello, world.-How is it going?".
 
 ### 2. compute_jaccard_index
 
-Deze maat van overeenkomende woorden heeft een naam, de zogenaamde "Jaccard index". Kort gezegd, hoeveel <b>unieke</b> woorden komen er overeen tussen twee stukken tekst? Zou dit alleen een optelsom zijn, dan word dit getal van nature hoger voor langere teksten. Daarom wordt de optelsom genormaliseerd, teruggebracht naar een getal tussen de 0 en 1. Dit doen we door te delen door het totaal aantal unieke woorden in de twee teksten. Dit ziet er zo uit:
+**TODO** Deze maat van overeenkomende woorden heeft een naam, de zogenaamde "Jaccard index". Kort gezegd, hoeveel <b>unieke</b> woorden komen er overeen tussen twee stukken tekst? Zou dit alleen een optelsom zijn, dan word dit getal van nature hoger voor langere teksten. Daarom wordt de optelsom genormaliseerd, teruggebracht naar een getal tussen de 0 en 1. Dit doen we door te delen door het totaal aantal unieke woorden in de twee teksten. Dit ziet er zo uit:
 
     jaccard_index = aantal_unieke_overeenkomende_woorden / totaal_aantal_unieke_woorden
 
@@ -50,7 +50,7 @@ De intersection van twee sets geeft een nieuwe set met daarin alle overeenkomend
 
 </details>
 
-> Deze functie geeft een getal terug dat voor grotere teksten moeilijk na te gaan is. Een groot deel van het programma gaat erop vertrouwen dat dit getal klopt. Dus schrijf nu weer gelijk een aantal tests. Test tenminste twee teksten zonder overlap, twee teksten met totale overlap, en twee teksten met gedeeltelijke overlap.
+**TODO** Deze functie geeft een getal terug dat voor grotere teksten moeilijk na te gaan is. Een groot deel van het programma gaat erop vertrouwen dat dit getal klopt. Dus schrijf nu weer gelijk **drie** tests. Test tenminste twee teksten zonder overlap, twee teksten met totale overlap, en twee teksten met gedeeltelijke overlap.
 
 ### 3. get_scripts
 
@@ -62,7 +62,7 @@ Nu we een overeenkomstmaat hebben, hebben we film scripts nodig. Deze kun je zo 
     unzip scripts.zip
     rm scripts.zip
 
-Dit geeft je een folder met 10 filmscripts: Elvis, Frozen, Her, Interstellar, Joker, Killers of the Flower Moon, Lalaland, Magnolia, Tenet en Up. Implementeer onderstaande functie om alle scripts in te lezen. De functie moet een `dict` returnen met de titel van het script als key (bijvoorbeeld `her.txt`) en de gehele inhoud van het script als value.
+**TODO** Dit geeft je een folder met 10 filmscripts: Elvis, Frozen, Her, Interstellar, Joker, Killers of the Flower Moon, Lalaland, Magnolia, Tenet en Up. Implementeer onderstaande functie om alle scripts in te lezen. De functie moet een `dict` returnen met de titel van het script als key (bijvoorbeeld `her.txt`) en de gehele inhoud van het script als value.
 
     def get_scripts(scripts_directory_path: str) -> dict[str, str]:
         """
@@ -79,17 +79,19 @@ Gebruik de functie [listdir](https://docs.python.org/3/library/os.html#os.listdi
 Gebruik hiervoor de functie `open` om een bestand te openen en de methode `read` om uit het bestand te lezen. Zie [Python's documentatie](https://docs.python.org/3/tutorial/inputoutput.html#reading-and-writing-files). **Let op** gebruik de `with` statement als je met bestanden werkt. Op die manier kan je niet vergeten een bestand te sluiten.
 </details>
 
-> Deze functie leest bestanden in en dat maakt het testen anders. Om dit goed te testen zou je verschillende folders kunnen klaarzetten om mee te testen. Voor deze opdracht is het voldoende om alleen één test toe te voegen dat test of alle 10 scripts correct worden teruggegeven.
+**TODO** Deze functie leest bestanden in en dat maakt het testen anders. Om dit goed te testen zou je verschillende folders kunnen klaarzetten om mee te testen. Voor deze opdracht is het voldoende om alleen één test toe te voegen dat test of alle 10 scripts correct worden teruggegeven.
 
 ### 4. recommend
 
-Nu het moment om alles samen te laten komen. Implementeer onderstaande functie om een film aan te bevelen op basis van het script van een andere film.
+**TODO** Nu het moment om alles samen te laten komen. Implementeer onderstaande functie om een film aan te bevelen op basis van het script van een andere film.
 
-    def recommend(script_name: str) -> str:
+    def recommend(script_name: str, scripts: dict[str, str]) -> str:
         """
-        Recommend another movie based on one movie script.
-
-        Takes the name of a script, and returns the name of another script.
+        Recommend another movie based on another's movie script. 
+        
+        Takes in the script name of one movie, and a dictionary of
+        script names and their scripts. Returns the name of another
+        script.
         """
 
 <details markdown="1"><summary markdown="span">Aanbeveling-spoilers</summary>
@@ -102,9 +104,27 @@ Dit zijn een aantal aanbevelingen:
 - `joker.txt` geeft `magnolia.txt`
 </details>
 
+`recommend` heeft scripts nodig om een aanbeveling te kunnen doen. Voor het testen is het onhandig om te leunen op `get_scripts` en de scripts in de scripts folder. Want `get_scripts` kan zelf een bug bevatten, of de scripts in de scripts folder zouden weleens kunnen veranderen over tijd (nieuwe films, nieuwe edits, etc.). Daarom leggen we de input `scripts` vast, we fixeren deze in de test: dit noemen we een fixture. Dit kunnen we als volgt doen:  
+
+def test_recommend():
+    scripts = {
+        'elvis.txt': 'Elvis script content',
+        'frozen.txt': 'Frozen content about ice and snow',
+        'joker.txt': 'Joker is about a villain',
+        'tenet.txt': 'Tenet is about time inversion',
+        'interstellar.txt': 'Interstellar is about space travel',
+        'up.txt': 'Up is an adventure story',
+    }
+
+    assert recommend('elvis.txt', scripts) == 'joker.txt'
+    assert recommend('frozen.txt', scripts) == 'up.txt'
+    assert recommend('interstellar.txt', scripts) == 'tenet.txt'
+
+**TODO** Voeg bovenstaande test toe aan `test_recommend.py`. Je hoeft geen verdere tests te schrijven.
+
 ### 5. user interaction
 
-Als kers op de taart, maak er een echt programma van dat een film aanneemt en een andere film teruggeeft:
+**TODO** Als kers op de taart, maak er een echt programma van dat een film aanneemt en een andere film teruggeeft:
 
     python3 recommend.py frozen.txt
     up.txt
@@ -129,8 +149,4 @@ Maak gebruik van `if __name__ == "__main__":` om ervoor te zorgen dat bepaalde P
 
 </details>
 
-Je hoeft voor deze opdracht geen foutafhandeling te doen. Je mag er vanuitgaan dat de gebruiker van je programma altijd een bestaand script invoert.
-
-## Testen
-
-Zorg ervoor dat iedere functie is getest met aparte test functies in een apart bestand genaamd `test_recommend.py`.
+Je hoeft voor deze opdracht geen foutafhandeling te doen. Je mag er vanuitgaan dat de gebruiker van je programma altijd een bestaand script invoert. Ook hoef je hier geen tests te schrijven.
