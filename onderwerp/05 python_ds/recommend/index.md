@@ -106,19 +106,19 @@ Dit zijn een aantal aanbevelingen:
 
 `recommend` heeft scripts nodig om een aanbeveling te kunnen doen. Voor het testen is het onhandig om te leunen op `get_scripts` en de scripts in de scripts folder. Want `get_scripts` kan zelf een bug bevatten, of de scripts in de scripts folder zouden weleens kunnen veranderen over tijd (nieuwe films, nieuwe edits, etc.). Daarom leggen we de input `scripts` vast, we fixeren deze in de test: dit noemen we een fixture. Dit kunnen we als volgt doen:  
 
-def test_recommend():
-    scripts = {
-        'elvis.txt': 'Elvis script content',
-        'frozen.txt': 'Frozen content about ice and snow',
-        'joker.txt': 'Joker is about a villain',
-        'tenet.txt': 'Tenet is about time inversion',
-        'interstellar.txt': 'Interstellar is about space travel',
-        'up.txt': 'Up is an adventure story',
-    }
+    def test_recommend():
+        scripts = {
+            'elvis.txt': 'Elvis script content',
+            'frozen.txt': 'Frozen content about ice and snow',
+            'joker.txt': 'Joker is about a villain',
+            'tenet.txt': 'Tenet is about time inversion',
+            'interstellar.txt': 'Interstellar is about space travel',
+            'up.txt': 'Up is an adventure story',
+        }
 
-    assert recommend('elvis.txt', scripts) == 'joker.txt'
-    assert recommend('frozen.txt', scripts) == 'up.txt'
-    assert recommend('interstellar.txt', scripts) == 'tenet.txt'
+        assert recommend('elvis.txt', scripts) == 'joker.txt'
+        assert recommend('frozen.txt', scripts) == 'up.txt'
+        assert recommend('interstellar.txt', scripts) == 'tenet.txt'
 
 **TODO** Voeg bovenstaande test toe aan `test_recommend.py`. Je hoeft geen verdere tests te schrijven.
 
