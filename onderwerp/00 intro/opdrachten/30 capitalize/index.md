@@ -12,4 +12,8 @@ Implementeer de volgende functie in een bestand genaamd `capitalize.py`:
 
 ## Testen
 
-Schrijf in een apart bestand `test_capitalize.py` minimaal drie tests (drie aparte test functies) voor de functie `capitalize`.
+Schrijf in een apart bestand `test_capitalize.py` minimaal drie tests (drie aparte test functies) voor de functie `capitalize`. Test bijvoorbeeld:
+
+* Is de eerste letter nu wel een hoofdletter?
+* Wat als het eerste karakter geen letter is?
+* Blijven de andere letters en karakters behouden? 

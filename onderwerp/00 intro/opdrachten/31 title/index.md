@@ -17,4 +17,4 @@ Implementeer de volgende functie in een bestand genaamd `title.py`:
 
 ## Testen
 
-Schrijf in een apart bestand `test_title.py` minimaal vier tests (vier aparte test functies) voor de functie `title`.
+Schrijf in een apart bestand `test_title.py` minimaal vier tests (vier aparte test functies) voor de functie `title`. Zorg ervoor dat één van de tests ook een tekst met aanhalingstekens en koppeltekens bevat, zo leg test je deze eigenaardige edgecase.
