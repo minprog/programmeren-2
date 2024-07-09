@@ -21,7 +21,7 @@ Implementeer en gebruik in je programma de volgende functie:
     def check_answer(answer: str) -> bool:
         pass
 
-> Vergeet niet gebruik te maken van `if __name__ == "__main__":`.
+> Gebruik `if __name__ == "__main__":` om code buiten de functies af te schermen.
 
 ## Testen
 
