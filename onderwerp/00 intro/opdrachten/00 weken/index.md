@@ -18,11 +18,17 @@ Schrijf in een bestand genaamd `weken.py` een functie genaamd `weeks_elapsed`. S
 
 ## Testen
 
-Schrijf in een apart bestand `test_weken.py` minimaal vier tests (vier aparte test functies) voor de functie `weeks_elapsed`. Eentje krijg je alvast kado:
+Schrijf in een apart bestand `test_weken.py` tests voor de functie `weeks_elapsed`. Eentje krijg je alvast kado:
 
     from weken import weeks_elapsed
 
     def test_exactly_two_weeks_passed():
         assert weeks_elapsed(18, 4) == 2
+
+Voeg zelf tests (aparte testfuncties) toe voor de volgende drie gevallen:
+
+- Nul weken verschil tussen day1 en day2
+- Een positief verschil tussen day1 en day2 (`day1 > day2`)
+- Een verschil dat niet precies in hele weken wordt uitgedrukt, bijvoorbeeld acht dagen verschil.
 
 > Je kan de tests runnen met `pytest test_weken.py`

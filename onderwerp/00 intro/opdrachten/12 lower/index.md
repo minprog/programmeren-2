@@ -16,6 +16,13 @@ Implementeer de volgende functies in een bestand genaamd `lower.py`:
         characters converted to uppercase.
         """
 
+> `.isalpha()` is een handige methode om hier te gebruiken. Deze kan je zo aanroepen: `"hello".isalpha()`, of als je een variabele (bijvoorbeeld `name`) hebt: `name.isalpha()`.
+
 ## Testen
 
-Schrijf in een apart bestand `test_lower.py` minimaal zes tests in totaal (zes aparte test functies) voor de functies `lower` en `upper`.
+Schrijf in een apart bestand `test_lower.py` minimaal vier tests in totaal (twee aparte test functies) voor de functies `lower` en `upper`. Deze functies beloven één aspect te veranderen, namelijk alle "cased characters" te converteren. Impliciet zit daarin ook de andere belofte: de rest van de karakters wordt ongemoeid gelaten. Dat zijn twee gevallen om te testen:
+
+* Zijn alle "cased characters" nu een kleine letter / hoofdletter geworden?
+* Staan alle niet "cased characters" nog goed in de string 
+
+> Voor het testen zijn de methodes `.isupper()` en `.islower()` waarschijnlijk handig om te gebruiken.

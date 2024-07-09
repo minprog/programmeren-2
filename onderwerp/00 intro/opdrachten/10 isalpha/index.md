@@ -24,6 +24,15 @@ Implementeer de volgende functies in een bestand genaamd `isalpha.py`:
 
 > `abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ`
 
+> **Let op!** Er zit een verschil tussen de verschillende functies. `isalpha` heeft tenminste **one character** nodig voor `True`. `islower` en `isupper` hebben daarentegen tenminste **one cased character** nodig.
+
 ## Testen
 
-Schrijf in een apart bestand `test_isalpha.py` minimaal negen tests in totaal (negen aparte test functies) voor de functies `isalpha`, `islower` en `isupper`.
+Schrijf in een apart bestand `test_isalpha.py` minimaal negen tests in totaal (negen aparte test functies) voor de functies `isalpha`, `islower` en `isupper`. Test voor iedere functie het volgende:
+
+Alle mogelijke situaties waarin de functie `True` of `False` returned. Bijvoorbeeld voor `isalpha`:
+- De situatie waarin de functie `True` returned: `"foo"`
+- De situatie waarin de functie `False` returned vanwege een niet alfabetische letter: `"foo!"` 
+- De situatie waarin de functie `False` returned vanwege het ontbreken van letters: `""`
+
+Hoewel de functie in de laatste twee situaties dezelfde waarde (`False`) returned, is er echt een andere reden waarom deze waarde gereturned moet worden. Dat maakt het belangrijk om deze reden in isolatie te testen. Op deze manier worden de regels code die kijken naar het ontbreken van karakters ook uitgevoerd door de tests, en is de kans op een bug kleiner.
