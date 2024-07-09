@@ -20,9 +20,10 @@ Hebben we het over tekst, dan is één zo'n maat het aantal overeenkomende woord
 
 ### 2. compute_jaccard_index
 
-**TODO** Deze maat van overeenkomende woorden heeft een naam, de zogenaamde "Jaccard index". Kort gezegd, hoeveel <b>unieke</b> woorden komen er overeen tussen twee stukken tekst? Zou dit alleen een optelsom zijn, dan word dit getal van nature hoger voor langere teksten. Daarom wordt de optelsom genormaliseerd, teruggebracht naar een getal tussen de 0 en 1. Dit doen we door te delen door het totaal aantal unieke woorden in de twee teksten. Dit ziet er zo uit:
+**TODO** Deze maat van overeenkomende woorden heeft een naam, de zogenaamde "Jaccard index". Kort gezegd, hoeveel <b>unieke</b> woorden komen er overeen tussen twee stukken tekst? Zou dit alleen een optelsom zijn, dan wordt dit getal van nature hoger voor langere teksten. Daarom wordt de optelsom genormaliseerd, teruggebracht naar een getal tussen de 0 en 1. Dit doen we door te delen door het totaal aantal unieke woorden in de twee teksten. Dit ziet er zo uit:
 
     jaccard_index = aantal_unieke_overeenkomende_woorden / totaal_aantal_unieke_woorden
+
 
     def compute_jaccard_index(text1: str, text2: str) -> float:
         """
