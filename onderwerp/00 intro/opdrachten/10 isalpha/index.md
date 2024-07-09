@@ -31,6 +31,7 @@ Implementeer de volgende functies in een bestand genaamd `isalpha.py`:
 Schrijf in een apart bestand `test_isalpha.py` minimaal negen tests in totaal (negen aparte test functies) voor de functies `isalpha`, `islower` en `isupper`. Test voor iedere functie het volgende:
 
 Alle mogelijke situaties waarin de functie `True` of `False` returned. Bijvoorbeeld voor `isalpha`:
+
 - De situatie waarin de functie `True` returned: `"foo"`
 - De situatie waarin de functie `False` returned vanwege een niet alfabetische letter: `"foo!"` 
 - De situatie waarin de functie `False` returned vanwege het ontbreken van letters: `""`
