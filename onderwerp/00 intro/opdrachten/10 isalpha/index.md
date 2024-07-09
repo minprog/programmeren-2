@@ -36,4 +36,4 @@ Alle mogelijke situaties waarin de functie `True` of `False` returned. Bijvoorbe
 - De situatie waarin de functie `False` returned vanwege een niet alfabetische letter: `"foo!"` 
 - De situatie waarin de functie `False` returned vanwege het ontbreken van letters: `""`
 
-Hoewel de functie in de laatste twee situaties dezelfde waarde (`False`) returned, is er echt een andere reden waarom deze waarde gereturned moet worden. Dat maakt het belangrijk om deze reden in isolatie te testen. Op deze manier worden de regels code die kijken naar het ontbreken van karakters ook uitgevoerd door de tests, en is de kans op een bug kleiner.
+Hoewel de functie in de laatste twee situaties dezelfde waarde (`False`) returned, is er echt een andere reden waarom deze waarde gereturned moet worden. Dat maakt het belangrijk om deze redenen in isolatie te testen. Op deze manier wordt de code die beide gevallen afhandeld uitgevoerd door de tests, en is daarmee de kans op een bug kleiner.
