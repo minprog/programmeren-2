@@ -222,7 +222,7 @@ Omdat hash-functies moeten werken met de eigenschappen van de data, moeten deze 
 
     class HashDict[K, V]:
         def __init__(self):
-            self._filing_cabinet: list[list[tuple[str, V]]] = []
+            self._filing_cabinet: list[list[tuple[K, V]]] = []
             self.number_of_drawers = 8192
 
             # Add all the drawers
