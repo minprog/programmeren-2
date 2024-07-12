@@ -428,7 +428,7 @@ Dezelfde lijst in dezelfde variabele levert na het toevoegen van de waarde `4` e
 <details markdown="1"><summary markdown="span">Worst case versus Average case*</summary>
 `HashStrDict` en `HashDict` hebben strikt genomen nog een worst case complexiteit van `O(n)`. Het is niet uit te sluiten dat er botsingen optreden en dat er daardoor alsnog lineair gezocht moet worden naar een specifieke key in een la die afhangt van `n`. 
 
-Het grote verschil zit hem in de gemiddelde complexiteit: dat is de tijd van alle operaties opgeteld, gedeeld door het aantal operaties. Deze is nu wel O(1). De gemiddelde key zal (gegeven genoeg lades) zich niet bevinden in een la met andere keys.
+Het grote verschil zit hem in de gemiddelde complexiteit: dat is de tijd van alle operaties opgeteld, gedeeld door het aantal operaties. Deze is nu wel `O(1)`. De gemiddelde key zal (gegeven genoeg lades) zich niet bevinden in een la met andere keys.
 </details>
 
 <details markdown="1"><summary markdown="span">`hash` vs `__hash__`</summary>
