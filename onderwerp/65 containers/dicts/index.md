@@ -113,7 +113,7 @@ Het idee van zo'n archiefkast is om in een la alleen documenten neer te leggen d
 > Je mag bij deze opdracht aannemen dat iedere key begint met een alfabetische letter.
 
 <details markdown="1"><summary markdown="span">`ord`</summary>
-In Python zijn karakters `str`s en daar kan je in tegenstelling tot C niet zomaar mee rekenen. Wel bestaat er de functie `ord`:
+In Python zijn karakters `str`s en daar kan je in tegenstelling tot C niet direct mee rekenen. Wel bestaat er de functie `ord`:
 
     ord(c)
         Return the Unicode code point for a one-character string.
@@ -127,9 +127,9 @@ Je kan deze zo gebruiken:
 
 </details>
 
-**TODO** Om het verschil in performance te zien draai je het onderstaande script `time.py`. Dat doe je met `python3 time.py`. Dit script voert al jouw geïmplementeerde dictionary methodes uit en meet de tijd die het kost.
+**TODO** Om het verschil in performance te zien draai je het onderstaande script `time_dicts.py`. Dat doe je met `python3 time_dicts.py`. Dit script voert al jouw geïmplementeerde dictionary methodes uit en meet de tijd die het kost.
 
-<details markdown="1"><summary markdown="span">time.py</summary>
+<details markdown="1"><summary markdown="span">time_dicts.py</summary>
     from typing import Any, Protocol
 
     import copy
@@ -369,6 +369,33 @@ Omdat hash-functies moeten werken met de eigenschappen van de data, moeten deze 
             Removes the key-value pair associated with the key. Returns True if the key was found and removed, otherwise returns False.
             """
             raise NotImplementedError()
+
+**TODO** Draai weer het script `time_dicts.py` om de performance van alle implementaties te zien. Hoe veel sneller is `HashDict` t.o.v. `ListDict`?
+
+<details markdown="1"><summary markdown="span">!!!Performance spoilers!!!</summary>
+
+Onderstaande output is het resultaat van onze implementatie van `dicts.py` gedraaid op een laptop uit het jaar 2022. Het precieze aantal secondes zal verschillen per laptop en per implementatie.
+
+    Measuring ListDict add time (10 runs, 10000 elements): 12.143245 seconds
+    Measuring ListDict contains time (10 runs, 10000 elements): 12.554064 seconds
+    Measuring ListDict get time (10 runs, 10000 elements): 6.366691 seconds
+    Measuring ListDict remove time (10 runs, 10000 elements): 6.021173 seconds
+    Measuring StrDict add time (10 runs, 10000 elements): 0.454954 seconds
+    Measuring StrDict contains time (10 runs, 10000 elements): 0.650468 seconds
+    Measuring StrDict get time (10 runs, 10000 elements): 0.351192 seconds
+    Measuring StrDict remove time (10 runs, 10000 elements): 0.233366 seconds
+    Measuring HashStrDict add time (10 runs, 10000 elements): 0.074487 seconds
+    Measuring HashStrDict contains time (10 runs, 10000 elements): 0.100431 seconds
+    Measuring HashStrDict get time (10 runs, 10000 elements): 0.061881 seconds
+    Measuring HashStrDict remove time (10 runs, 10000 elements): 0.068862 seconds
+    Measuring HashDict add time (10 runs, 10000 elements): 0.037003 seconds
+    Measuring HashDict contains time (10 runs, 10000 elements): 0.058676 seconds
+    Measuring HashDict get time (10 runs, 10000 elements): 0.020885 seconds
+    Measuring HashDict remove time (10 runs, 10000 elements): 0.027347 seconds
+
+Grof gezegd is op deze ene test case `HashDict` maar liefst ~300x sneller dan `ListDict`.
+
+</details>
 
 <details markdown="1"><summary markdown="span">unhashable type: list, set and dict</summary>
 De ingebouwde `hash` functie werkt voor bijna ieder ingebakken datastructuur, behalve datastructuren die kunnen veranderen zoals `list`, `set` en `dict`. Dan krijg je deze error te zien:
