@@ -18,7 +18,7 @@ In de basis houdt een dictionary keys en values bij elkaar. Vervolgens kan op ba
 
 Om de keys en values op te slaan gebruiken we een `list[tuple[K, V]]`. Het idee is om ieder key-value paar op te slaan in een `tuple[K, V]` en alle paren bij te houden in een `list`.
 
-**TODO** Implementeer `ListDict`. Je kan met de volgende opzet beginnen:
+**TODO** Implementeer `ListDict` in `dicts.py`. Je kan met de volgende opzet beginnen:
 
     class ListDict[K, V]:
         def __init__(self):
@@ -75,7 +75,7 @@ Nu een beter idee, stel we gebruiken nog steeds een `list` om alle paren (`tuple
 
 Het idee van zo'n archiefkast is om in een la alleen documenten neer te leggen die beginnen met een bepaalde letter. Het voordeel daarvan is dat het terugvinden van een document een stuk sneller gaat, je hoeft namelijk alleen maar in één la te zoeken.
 
-**TODO** Implementeer `StrDict` volgens het idee van een archiefkast. Je kan beginnen met onderstaande code. Kijk goed naar de gebruikte datastructuur, dit is nu een `list[list[tuple[str, V]]]` geworden. Dat is een lijst van 26 lijsten (één voor iedere letter van het alfabet). Ieder van deze lijsten moet vervolgens alleen key-values bevatten waarvan de key begint met dezelfde letter.
+**TODO** Implementeer `StrDict` in `dicts.py` volgens het idee van een archiefkast. Je kan beginnen met onderstaande code. Kijk goed naar de gebruikte datastructuur, dit is nu een `list[list[tuple[str, V]]]` geworden. Dat is een lijst van 26 lijsten (één voor iedere letter van het alfabet). Ieder van deze lijsten moet vervolgens alleen key-values bevatten waarvan de key begint met dezelfde letter.
 
     class StrDict[V]:
         def __init__(self):
@@ -111,6 +111,116 @@ Het idee van zo'n archiefkast is om in een la alleen documenten neer te leggen d
             raise NotImplementedError()
 
 > Je mag bij deze opdracht aannemen dat iedere key begint met een alfabetische letter.
+
+<details markdown="1"><summary markdown="span">`ord`</summary>
+In Python zijn karakters `str`s en daar kan je in tegenstelling tot C niet zomaar mee rekenen. Wel bestaat er de functie `ord`:
+
+    ord(c)
+        Return the Unicode code point for a one-character string.
+
+Je kan deze zo gebruiken:
+
+    >>> ord('A')
+    65
+    >>> ord('a')
+    97
+
+</details>
+
+**TODO** Om het verschil in performance te zien draai je het onderstaande script `time.py`. Dat doe je met `python3 time.py`. Dit script voert al jouw geïmplementeerde dictionary methodes uit en meet de tijd die het kost.
+
+<details markdown="1"><summary markdown="span">time.py</summary>
+    from typing import Any, Protocol
+
+    import copy
+    import dicts
+    import random
+    import string
+    import sys
+    import time
+
+    class DictLike[K, V](Protocol):
+        def add(self, key: K, value: V) -> None: ...
+        def contains(self, key: K) -> bool: ...
+        def get(self, key: K, default_value: V | None=None) -> V | None: ...
+        def remove(self, key: K) -> bool: ...
+
+    # The number of elements in each Dict
+    NUM_ELEMENTS = 10000
+
+    # The number of times each timing function is run
+    REPEAT = 10
+
+    # Setup keys and values for testing
+    KEYS = []
+    for i in range(NUM_ELEMENTS):
+        # Sample 5 random letters
+        letters = random.sample(string.ascii_lowercase, 5)
+
+        # Create a key of 5 letters and a unique index, ensuring each key is unique
+        key = "".join(letters[:5]) + str(i)
+
+        KEYS.append(key)
+
+    VALUES = [f"value{i}" for i in range(NUM_ELEMENTS)]
+
+    # Timing functions
+    def time_add(d: DictLike[str, str]):
+        for key, value in zip(KEYS, VALUES):
+            d.add(key, value)
+
+    def time_contains(d: DictLike[str, Any]):
+        for key in KEYS:
+            d.contains(key)
+
+    def time_get(d: DictLike[str, Any]):
+        for key in KEYS:
+            d.get(key)
+
+    def time_remove(d: DictLike[str, Any]):
+        for key in KEYS:
+            d.remove(key)
+
+    if __name__ == "__main__":
+        for dict_version in ["ListDict", "StrDict", "HashStrDict", "HashDict"]:
+            # Test only the implemented dict versions
+            if not hasattr(dicts, dict_version):
+                continue
+
+            # Create a Dict with all KEYS and VALUES
+            dict_type = getattr(dicts, dict_version)
+            dict_instance = dict_type()
+            for key, value in zip(KEYS, VALUES):
+                dict_instance.add(key, value)
+            
+            # Time each function
+            for operation, time_function in [
+                ("add", time_add),
+                ("contains", time_contains),
+                ("get", time_get),
+                ("remove", time_remove)
+            ]:
+                print(f"Measuring {dict_version} {operation} time ({REPEAT} runs, {NUM_ELEMENTS} elements):", end="")
+                sys.stdout.flush()
+
+                times: list[float] = []
+
+                for i in range(REPEAT):
+                    # Setup a new dictionary with all KEYS and VALUES
+                    d = copy.deepcopy(dict_instance)
+
+                    # Shuffle the keys such that order of keys does not impact performance
+                    random.shuffle(KEYS)
+
+                    # Time the function
+                    start_time = time.time()
+                    time_function(d)
+                    measured_time = time.time() - start_time
+
+                    times.append(measured_time)
+
+                print(f" {sum(times):.6f} seconds")
+</details>
 
 ## 3. HashStrDict
 
@@ -148,7 +258,7 @@ Nu is het jouw taak om een betere hash functie te schrijven. Eén die zoveel mog
 * De verschillende gebruikte letters
 * ...
 
-**TODO** Implementeer `HashStrDict`. Gebruik hierbij jouw nieuwe implementatie van `hash_key`. Kijk goed naar `self.number_of_drawers`. Bij deze implementatie is het aantal lades niet altijd `26`, maar wordt dit bepaald door deze variabele. Het staat je vrij om deze waarde te verhogen of te verlagen.
+**TODO** Implementeer `HashStrDict` in `dicts.py`. Gebruik hierbij jouw nieuwe implementatie van `hash_key`. Kijk goed naar `self.number_of_drawers`. Bij deze implementatie is het aantal lades niet altijd `26`, maar wordt dit bepaald door deze variabele. Het staat je vrij om deze waarde te verhogen of te verlagen.
 
     class HashStrDict[V]:
         def __init__(self):
@@ -218,7 +328,7 @@ Omdat hash-functies moeten werken met de eigenschappen van de data, moeten deze 
     >>> hash(42)
     42
 
-**TODO** Implementeer `HashDict`.
+**TODO** Implementeer `HashDict` in `dicts.py`.
 
     class HashDict[K, V]:
         def __init__(self):
