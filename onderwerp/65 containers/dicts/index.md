@@ -60,7 +60,8 @@ Om de keys en values op te slaan gebruiken we een `list[tuple[K, V]]`. Het idee 
 
 **TODO** De implementatie op basis van een lijst van paren is niet per se efficiënt. Geef in de docstring van elke methode de computationele complexiteit aan. Bijvoorbeeld:
 
-   def add(self, key: Any, value: Any) -> None:
+
+    def add(self, key: Any, value: Any) -> None:
         """
         Complexity: O(n)
         """
