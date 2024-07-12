@@ -112,7 +112,7 @@ Het idee van zo'n archiefkast is om in een la alleen documenten neer te leggen d
 
 > Je mag bij deze opdracht aannemen dat iedere key begint met een alfabetische letter.
 
-<details markdown="1"><summary markdown="span">`ord("a") geeft 97`</summary>
+<details markdown="1"><summary markdown="span">`ord("a")` geeft 97</summary>
 In Python zijn karakters `str`s en daar kan je in tegenstelling tot C niet direct mee rekenen. Wel bestaat er de functie `ord`:
 
     ord(c)
