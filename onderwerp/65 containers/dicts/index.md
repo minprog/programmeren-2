@@ -127,7 +127,7 @@ Je kan deze zo gebruiken:
 
 </details>
 
-**TODO** Om het verschil in performance te zien draai je het onderstaande script `time_dicts.py`. Dat doe je met `python3 time_dicts.py`. Dit script voert al jouw geïmplementeerde dictionary methodes uit en meet de tijd die het kost.
+**TODO** Om het verschil in performance te zien draai je het onderstaande script `time_dicts.py`. Dat doe je met `python3 time_dicts.py`. Dit script voert al jouw geïmplementeerde dictionary methodes uit en meet de tijd die het kost. Je kan `NUM_ELEMENTS` en `REPEAT` aanpassen om te kijken wat de impact is van grotere en kleinere datastructuren.
 
 <details markdown="1"><summary markdown="span">time_dicts.py</summary>
     from typing import Any, Protocol
@@ -227,7 +227,7 @@ Je kan deze zo gebruiken:
 Met `StrDict` heb je zonet een efficiëntere dictionary geïmplementeerd, maar wel met twee kanttekeningen:
 
 * De computationele complexiteit van iedere operatie blijft hetzelfde als bij `ListDict`. In termen van big O, is alleen de hoogste factor relevant. Dat betekent dat `O(n)` gelijk is aan `O(n / 26)`. Want, als `n` gigantisch groot wordt, maakt het delen door 26 eigenlijk niet meer uit.
-* De datastructuur werkt nu alleen nog maar voor strings, voorheen werktte het voor alle types.
+* De datastructuur werkt nu alleen nog maar voor strings, voorheen werkte het voor alle types.
 
 Eerst de complexiteit, want in tegenstelling tot een fysieke archiefkast is het in een computer een stuk makkelijker om extra lades toe te voegen. Dus in plaats van 26 lades, laten we 26 x 26 = 676 lades gebruiken. Dan sorteren we niet alleen op eerste letter, maar op de eerste twee letters van iedere key. Zo wordt de datastructuur potentieel 676x sneller. Waarom daar stoppen, waarom niet:
 
