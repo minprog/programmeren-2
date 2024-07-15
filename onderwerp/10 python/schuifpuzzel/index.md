@@ -23,8 +23,7 @@ met zijden van 4 velden is weergegeven in het voorbeeld hieronder.
 
 ![start_config](tiles2.png){: style="width:20rem;"}
 
-Er bestaan schuifpuzzels van verschillende groottes (voor deze opdracht
-moeten de zijden 4 keer 4 velden lang zijn). Belangrijk
+Er bestaan schuifpuzzels van verschillende groottes. Belangrijk
 om te weten is, is dat wanneer een zijde een even aantal velden heeft (en er dus
 een oneven aantal tegels zijn) de tegels 1 & 2 moeten worden omgewisseld.
 Dit is nodig zodat de puzzel oplosbaar is, en dat zie je dus ook terug in het voorbeeld hierboven.
@@ -37,7 +36,7 @@ Deze opdracht gaat over het gebruik van **lijsten in lijsten**, ofwel 2D-lijsten
 
 Schrijf, in een bestand genaamd `schuifpuzzel.py`, een programma dat een speler een schuifpuzzel laat oplossen.
 
-* De schuifpuzzel heeft altijd het formaat 4 × 4.
+* De schuifpuzzel heeft altijd een vierkant formaat `dim x dim`.
 
 * De beginconfiguratie is de configuratie zoals hierboven beschreven.
 
@@ -50,47 +49,55 @@ Schrijf, in een bestand genaamd `schuifpuzzel.py`, een programma dat een speler 
 Ontwerp je code zoals hieronder beschreven. Vul de docstrings (`"""`) aan met verdere uitleg van de aanpak die je gekozen hebt. Zoals je ziet hebben we voor deze opdracht het hoofdprogramma al voor je geschreven; je hoeft dus alleen de andere functies aan te vullen.
 
 Het wordt ook bij deze opdracht aangemoedigd om extra functies te introduceren die een klein deel van het probleem oplossen.
+    
+    def create_board(dim: int) -> list[list[int]]:
+        """
+        Initialiseert en returnt een bord van formaat dim x dim.
+        dim ligt altijd tussen de 3 en 9: 3 <= dim <= 9 
+        Sorteert de nummers op aflopende volgorde van links boven naar rechts beneden.
+        De volgorde van de tegels 1 en 2 is verwisseld als dim een even getal is.
+        """
 
-    def is_won(board):
+    def print_board(board: list[list[int]]) -> None:
+        """
+        Print alle rijen van het bord onder elkaar. Het format is zoals in de
+        voorbeelden onderaan de opdracht.
+        """
+
+    def is_won(board: list[list[int]]) -> bool:
         """
         Controleert of het bord in een winnende configuratie staat. Geeft True als
         de configuratie winnend is, False als dat niet het geval is.
         """
 
-    def move_tile(board, tile):
+    def move_tile(board: list[list[int]], tile: int) -> bool:
         """
         Als de te verplaatsten tegel verplaatsbaar is: schuift de tegel in de
         configuratie van het bord en geeft True. Als dat niet het geval is, blijft
         het bord in de oorspronkelijke configuratie en functie geeft False.
         """
 
-    def print_board(board):
-        """
-        Print alle rijen van het bord onder elkaar. Het format is zoals in de
-        voorbeelden onderaan de opdracht.
-        """
-
-    def create_board():
-        """
-        Initialiseert en returnt een bord van formaat 4 x 4.
-        Sorteert de nummers op aflopende volgorde van links boven naar rechts beneden.
-        De volgorde van de tegels 1 en 2 is verwisseld.
-        """
-
     if __name__ == '__main__':
         print("Welkom bij de schuifpuzzel!")
-        board = create_board()
+
+        dim = 0
+        while not 3 <= dim <= 9:
+            dim = int(input("Hoe groot moet het bord zijn? "))
+
+        board = create_board(dim)
+
         while not is_won(board):
             print_board(board)
             tile = input("Tegel die je wil schuiven: ")
             valid = move_tile(board, int(tile))
             if not valid:
                 print("Deze tegel kan je niet schuiven.")
+
         print("Gefeliciteerd, je hebt de schuifpuzzel opgelost!")
 
 ## Tips
 
-* Het bord (`board`) van het spel moet gerepresenteerd worden als een lijst met daarin 4 lijsten. Als je het bord gaat aanmaken, gebruik je dus die structuur en je vult 'm met de juiste getallen. De "lege" tegel wordt gerepresenteerd door het cijfer 0.
+* Het bord (`board`) van het spel moet gerepresenteerd worden als een lijst met daarin lijsten. Als je het bord gaat aanmaken, gebruik je dus die structuur en je vult 'm met de juiste getallen. De "lege" tegel wordt gerepresenteerd door het cijfer 0.
 
 * Bij `move_tile()` moet je zowel de rij als de kolom van de te verplaatsen tegel en het lege veld  weten. Dit kan je dan ook gebruiken om te checken of de gekozen tegel verplaatst kan worden. Hierbij moeten de tegels in ieder geval ofwel in dezelfde rij staan ofwel in dezelfde kolom. Waar moeten de tegels nog meer aan voldoen?
 
@@ -103,6 +110,7 @@ Het wordt ook bij deze opdracht aangemoedigd om extra functies te introduceren d
 Je programma moet uiteindelijk werken zoals in de voorbeelden hieronder.
 
     $ python3 schuifpuzzel.py
+    Hoe groot moet het bord zijn? 4
     Welkom bij de schuifpuzzel!
      15 14 13 12
      11 10  9  8
@@ -140,12 +148,10 @@ Je programma moet uiteindelijk werken zoals in de voorbeelden hieronder.
     Tegel die je wil schuiven: 12
     Gefeliciteerd, je hebt de schuifpuzzel opgelost!
 
-Op sommige systemen moet je `python3 mario.py` geven om je programma te starten.
-
 ## Testen
 
-Je kunt je oplossing testen met hulp van een [tekstbestand met de oplossing van de puzzel](solution.txt). Met het volgende commando kun je de inhoud van het tekstbestand doorgeven aan je programma:
+Je kunt je oplossing testen met hulp van een [tekstbestand met de oplossing van de puzzel](solution4x4.txt). Met het volgende commando kun je de inhoud van het tekstbestand doorgeven aan je programma:
 
-    python3 schuifpuzzel.py < solution.txt
+    python3 schuifpuzzel.py < solution4x4.txt
 
 De bestanden moeten dan wel in dezelfde directory staan!
