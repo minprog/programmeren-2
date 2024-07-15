@@ -28,7 +28,7 @@ Python:
         kenteken*: /onderwerp/intro/opdrachten/kenteken
         split real*: /onderwerp/intro/opdrachten/split_real
 
-Datastructuren:
+Data structures:
     "Overzicht: Datastructuren [TODO]": /modules/complexity
     2D lijsten:
         Schuifpuzzel [submit TODO]: /onderwerp/python/schuifpuzzel
