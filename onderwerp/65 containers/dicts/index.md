@@ -18,7 +18,7 @@ In de basis houdt een dictionary keys en values bij elkaar. Vervolgens kan op ba
 
 Om de keys en values op te slaan gebruiken we een `list[tuple[K, V]]`. Het idee is om ieder key-value paar op te slaan in een `tuple[K, V]` en alle paren bij te houden in een `list`.
 
-**TODO** Implementeer `ListDict` in `dicts.py`. Je kan met de volgende opzet beginnen:
+**TODO** Implementeer `ListDict` in `dict_adt.py`. Je kan met de volgende opzet beginnen:
 
     class ListDict[K, V]:
         def __init__(self):
@@ -76,7 +76,7 @@ Nu een beter idee, stel we gebruiken nog steeds een `list` om alle paren (`tuple
 
 Het idee van zo'n archiefkast is om in een la alleen documenten neer te leggen die beginnen met een bepaalde letter. Het voordeel daarvan is dat het terugvinden van een document een stuk sneller gaat, je hoeft namelijk alleen maar in één la te zoeken.
 
-**TODO** Implementeer `StrDict` in `dicts.py` volgens het idee van een archiefkast. Je kan beginnen met onderstaande code. Kijk goed naar de gebruikte datastructuur, dit is nu een `list[list[tuple[str, V]]]` geworden. Dat is een lijst van 26 lijsten (één voor iedere letter van het alfabet). Ieder van deze lijsten moet vervolgens alleen key-values bevatten waarvan de key begint met dezelfde letter.
+**TODO** Implementeer `StrDict` in `dict_adt.py` volgens het idee van een archiefkast. Je kan beginnen met onderstaande code. Kijk goed naar de gebruikte datastructuur, dit is nu een `list[list[tuple[str, V]]]` geworden. Dat is een lijst van 26 lijsten (één voor iedere letter van het alfabet). Ieder van deze lijsten moet vervolgens alleen key-values bevatten waarvan de key begint met dezelfde letter.
 
     class StrDict[V]:
         def __init__(self):
@@ -259,7 +259,7 @@ Nu is het jouw taak om een betere hash functie te schrijven. Eén die zoveel mog
 * De verschillende gebruikte letters
 * ...
 
-**TODO** Implementeer `HashStrDict` in `dicts.py`. Gebruik hierbij jouw nieuwe implementatie van `hash_key`. Kijk goed naar `self.number_of_drawers`. Bij deze implementatie is het aantal lades niet altijd `26`, maar wordt dit bepaald door deze variabele. Het staat je vrij om deze waarde te verhogen of te verlagen.
+**TODO** Implementeer `HashStrDict` in `dict_adt.py`. Gebruik hierbij jouw nieuwe implementatie van `hash_key`. Kijk goed naar `self.number_of_drawers`. Bij deze implementatie is het aantal lades niet altijd `26`, maar wordt dit bepaald door deze variabele. Het staat je vrij om deze waarde te verhogen of te verlagen.
 
     class HashStrDict[V]:
         def __init__(self):
@@ -329,7 +329,7 @@ Omdat hash-functies moeten werken met de eigenschappen van de data, moeten deze 
     >>> hash(42)
     42
 
-**TODO** Implementeer `HashDict` in `dicts.py`.
+**TODO** Implementeer `HashDict` in `dict_adt.py`.
 
     class HashDict[K, V]:
         def __init__(self):
@@ -375,7 +375,7 @@ Omdat hash-functies moeten werken met de eigenschappen van de data, moeten deze 
 
 <details markdown="1"><summary markdown="span">!!!Performance spoilers!!!</summary>
 
-Onderstaande output is het resultaat van onze implementatie van `dicts.py` gedraaid op een laptop uit het jaar 2022. Het precieze aantal secondes zal verschillen per laptop en per implementatie.
+Onderstaande output is het resultaat van onze implementatie van `dict_adt.py` gedraaid op een laptop uit het jaar 2022. Het precieze aantal secondes zal verschillen per laptop en per implementatie.
 
     Measuring ListDict add time (10 runs, 10000 elements): 12.143245 seconds
     Measuring ListDict contains time (10 runs, 10000 elements): 12.554064 seconds
