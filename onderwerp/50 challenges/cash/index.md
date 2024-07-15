@@ -21,8 +21,7 @@ To further restrict the assignment we added:
 * You may assume that the user will always enter a `list` of integers or floats for coins.
 * In case the change cannot be met exactly, give as much as possible, without exceeding the total. For instance if there are only quarters (25) as coins and the change is 97, give 3 quarters,
 
-At the end of the day, thirteen students submitted their work. You can find each implementation in the `submissions` folder. That however leaves us with the following challenge: grading. Which of these thirteen submissions are incorrect and why?
-
+At the end of the day, thirteen students submitted their work. You can find all thirteen implementations in the `submissions` folder. That leaves us with a challenge: grading. Which of these thirteen submissions are incorrect and why?
 
 ## Individuele opdracht
 
@@ -35,8 +34,7 @@ Het is **niet** erg als het niet lukt om alles op te lossen. Je verdient snel pu
 
 [Download the distribution code](testing_cash.zip).
 
-Write unittests in Pytest to test this assignment. Mark each assignment as correct or incorrect below. In case the assignment is incorrect, write down why. Submit all your unittests in a file named `test_cash.py` on the bottom of this page. 
-
+Write unittests in Pytest to test this assignment. Find out which submissions are correct or incorrect. In case a submission is incorrect, write down why (see report below). Submit all your unittests in a file named `test_cash.py` on the bottom of this page. 
 
 ## A bit of help
 
@@ -62,17 +60,16 @@ Hold on, before you jump right in, we have added some scaffolding to get you goi
         Testing - submissions/3/cash.py => outputs/3.txt   | SUCCESS
         ...
 
-    Handy right!
-
 ## Some peace of mind
 
 * You may assume all implementations are deterministic, there is no randomness in any implementation.
 * You may assume infinite loops do not exist.
 * You may assume the student code does not contain anything malicious, so you can safely run it on your computer.
 * We are pretty sure that only **one** submission is correct, but feel free to prove us wrong!
+* The `12` incorrect submissions are incorrect in fundamentally different ways. You will likely need to write at least 12 test cases.
 
 ## Report
 
-In a report, describe for each of the 13 submissions whether it is fundamentally correct or incorrect. Also provide reasoning for each of these: how can we know, without doubt, that that submission is indeed correct or incorrect? For example, you probably have found a test that very specifically shows a wrong behaviour based on how the program is tested.
+In a report (`.pdf`), write down for each of the 13 submissions whether it is correct or incorrect. Provide reasoning for each incorrect submission: how can we know, without doubt, that that submission is indeed incorrect? For example, you probably have found a test case that very specifically shows a wrong behavior based on how the program is tested.
 
-Keep in mind that the wrong submissions are wrong in fundamentally different ways, so each submisison should require a different reasoning. This is why you need to write tests for each separate solution, but still keep all tests in the same test file, so you can see that each test triggers a different solution.
+Keep in mind that the wrong submissions are wrong in fundamentally different ways, so each submisison should require a different reasoning. This is why you need to write tests for each separate solution, but still keep all tests in the same test file. This way you can see that each test triggers on a different solution.
