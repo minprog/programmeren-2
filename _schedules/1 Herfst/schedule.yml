@@ -28,24 +28,16 @@ Python:
         kenteken*: /onderwerp/intro/opdrachten/kenteken
         split real*: /onderwerp/intro/opdrachten/split_real
 
-Complexiteit:
-    "Overzicht: Datastructuren en Complexiteit": /modules/complexity
-    Complexiteit:
-        Efficiency: /onderwerp/complexity/efficiency
+Datastructuren:
+    "Overzicht: Datastructuren [TODO]": /modules/complexity
+    2D lijsten:
+        Schuifpuzzel [submit TODO]: /onderwerp/python/schuifpuzzel
     Datastructuren:
-        Dictionaries [submit]: /onderwerp/complexity/dicts
-        Efficiency of dictionaries: /onderwerp/complexity/dict-complexity
-        Tuples: /onderwerp/complexity/tuples
-        Sets [submit]: /onderwerp/complexity/sets
-        Lists: /onderwerp/complexity/lists
-    Optimaliseren:
-        Applying Big-O: /onderwerp/complexity/big-o
-        Improving code: /onderwerp/complexity/big-o-improve
-        Complexity questions [submit]: /onderwerp/complexity/big-o-questions
-    Programmeeropdrachten:
-        Schuifpuzzel [submit]: /onderwerp/python/schuifpuzzel
-        Jaccard [submit]: /onderwerp/complexity/jaccard
-        Indexing words [submit]: /onderwerp/complexity/indexer
+        sets [submit]: /onderwerp/python_ds/sets
+        dicts [submit]: /onderwerp/python_ds/dicts
+        tuples [submit]: /onderwerp/python_ds/tuples
+    Opdracht:
+        recommend: /onderwerp/python_ds/recommend
 
 Objects:
     "Overzicht: Objecten en Classes": /modules/oop
@@ -55,32 +47,26 @@ Objects:
     Opdrachten:
         Queue: /onderwerp/oop/queue
         Game of Cards: /onderwerp/oop/cards
-        Hangman: /hangman/classic
+        Hangman [TODO]: /hangman/classic
 
-Tools:
-    "Overzicht: Tools voor betere code": /modules/tools
-    Voorbereidingen: /modules/tools/preparation
-    Design-documentatie:
-        "Boek: Design by contract": /onderwerp/design/boek
-        1) Documenteer je functies [opdracht]: /onderwerp/design/contract
-    Types in Python:
-        "Achtergrond: typing in Python": /onderwerp/typing/typing
-        Type hints: /onderwerp/typing/type-hints
-        # Type aliases and variables: /onderwerp/typing/type-aliases
-        # Duck typing: /onderwerp/typing/duck-typing
-        # Flexible typing: /onderwerp/typing/flexible-typing
-        2) Type hints toevoegen [opdracht]: /onderwerp/typing/add-type-hints
-    Testen in Python:
-        "Achtergrond: testen in Python": /onderwerp/testing/testing
-        3) Tests toevoegen [opdracht]: /onderwerp/testing/refactor
-    Statische kwaliteitsanalyse:
-        4) Verbeter je code [opdracht]: /onderwerp/quality
-
-Challenges:
-    Overzicht: /modules/challenges
-    Opdrachten:
-        Wat is mis met Cash: /onderwerp/challenges/cash
-        Kalender design: /onderwerp/challenges/kalender
+# Tools:
+#     "Overzicht: Tools voor betere code": /modules/tools
+#     Voorbereidingen: /modules/tools/preparation
+#     Design-documentatie:
+#         "Boek: Design by contract": /onderwerp/design/boek
+#         1) Documenteer je functies [opdracht]: /onderwerp/design/contract
+#     Types in Python:
+#         "Achtergrond: typing in Python": /onderwerp/typing/typing
+#         Type hints: /onderwerp/typing/type-hints
+#         # Type aliases and variables: /onderwerp/typing/type-aliases
+#         # Duck typing: /onderwerp/typing/duck-typing
+#         # Flexible typing: /onderwerp/typing/flexible-typing
+#         2) Type hints toevoegen [opdracht]: /onderwerp/typing/add-type-hints
+#     Testen in Python:
+#         "Achtergrond: testen in Python": /onderwerp/testing/testing
+#         3) Tests toevoegen [opdracht]: /onderwerp/testing/refactor
+#     Statische kwaliteitsanalyse:
+#         4) Verbeter je code [opdracht]: /onderwerp/quality
 
 Abstractions:
     "Overzicht: Abstractions": /modules/abstractions
@@ -88,21 +74,24 @@ Abstractions:
         "Boek 2: Data Abstractions": /onderwerp/adts/boek
         Testen met twee implementaties [opdracht]: /onderwerp/adts/card
         # Een-en-twintigen: /onderwerp/adts/deck
-        Figuren [opdracht]: /onderwerp/adts/figuren
+        # Figuren [opdracht]: /onderwerp/adts/figuren
     Containers:
-        "Boek 3: Container Classes": /onderwerp/containers/boek
-        List structure [opdracht]: /onderwerp/containers/lists
+        # "Boek 3: Container Classes": /onderwerp/containers/boek
+        List structures [submit]: /onderwerp/containers/lists
         # Set structure: /onderwerp/containers/sets
-        Dictionary structure [opdracht]: /onderwerp/containers/dicts
-        Priority Queue [opdracht]: /onderwerp/containers/priority_queue
+        Dictionary structures [submit]: /onderwerp/containers/dicts
+        Priority Queue* [submit]: /onderwerp/containers/priority_queue
+
+Complexity, Tests & Performance:
+    Overzicht [TODO]: /modules/challenges
+    Opdrachten:
+        Verminder de Cyclomatic Complexity [Complexity TODO]: /
+        Wat is er mis met Cash [Tests]: /onderwerp/challenges/cash
+        Profiling: /onderwerp/performance/profiling
+
 Structures:
     Overzicht: /modules/structures
-    Strucuren bouwen:
+    Structuren bouwen:
         "Boek 4-5: Structures": /onderwerp/structures/boek
         Palindrome [opdracht]: /onderwerp/structures/palindrome
         Adventure [opdracht]: /adventure2/more
-
-Performance:
-    Overzicht: /modules/performance
-    Opdracht:
-        Profiling: /onderwerp/performance/profiling
