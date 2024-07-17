@@ -47,7 +47,7 @@ Objects:
     Opdrachten:
         Queue: /onderwerp/oop/queue
         Game of Cards: /onderwerp/oop/cards
-        Hangman [TODO]: /hangman/classic
+        War: /onderwerp/oop/war
 
 # Tools:
 #     "Overzicht: Tools voor betere code": /modules/tools
