@@ -47,7 +47,7 @@ Dit is wat er in de spelregels gebeurt met ieder element:
     * Word in tweeën gedeeld over twee stapels
 * Een stapel kaarten:
     * Word de bovenste kaart van gepakt
-    * Word onderaan kaarten toegevoegd
+    * Worden onderaan kaarten toegevoegd
     * Word gekeken hoeveel kaarten er nog in de stapel zitten.
 
 ## Classes
