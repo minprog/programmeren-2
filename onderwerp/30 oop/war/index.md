@@ -75,7 +75,7 @@ In het verlengde van wat ieder element in het spel moet kunnen hebben we de volg
             """
 
     class DrawPile:
-        def __init__(self):
+        def __init__(self) -> None:
             """
             Initialize an empty draw pile.
             """
@@ -228,9 +228,9 @@ Implementeer nu het spel zodat het programma output in de volgende vorm producee
     Player 1 wins this round!
 
     Round 5:
-    Player 1 draws 5 of Diamonds
-    Player 2 draws 4 of Hearts
-    Player 1 wins this round!
+    Player 1 draws 9 of Spades
+    Player 2 draws 9 of Diamonds
+    It's a tie!
 
     ...
 
