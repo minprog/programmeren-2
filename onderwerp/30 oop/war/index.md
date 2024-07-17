@@ -11,7 +11,7 @@ Implementeer het kaartspel oorlogje ([war](https://www.youtube.com/watch?v=01-2p
     1. Als het spel te lang duurt, 1000 rondes of meer, dan stopt het spel.
 6. De speler met de meeste kaarten aan het einde wint.
 
-Dit zijn de waardes van iedere kaart, de `suit` maakt niet uit:
+Dit zijn de waardes van iedere kaart, de kaartsymbolen maken niet uit:
 
 * 2 = 2
 * 3 = 3
