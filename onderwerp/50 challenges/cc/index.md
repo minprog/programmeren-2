@@ -147,7 +147,7 @@ Aan jou de taak om deze code te verbeteren op zo'n manier dat de cyclomatic comp
 
 Eerst even opstarten:
 
-1. Kopieer de code van hangman hierboven, maak een bestand genaamd `hangman.py` en de plak daar de code in.
+1. Kopieer de code van hangman hierboven, maak een bestand genaamd `hangman.py` en plak daar de code in.
 2. Download een woordenboek (`dictionary.txt`) en zorg dat deze in dezelfde map staat als `hangman.py`:
 
     curl -LO https://github.com/minprog/hangman/raw/2020/classic/dictionary.zip
