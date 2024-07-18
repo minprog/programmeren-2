@@ -1,0 +1,8 @@
+name: cc_hangman
+files:
+  required:
+    - hangman.py
+check:
+    tool: checkpy
+    repo: minprog/checks
+    args: hangman

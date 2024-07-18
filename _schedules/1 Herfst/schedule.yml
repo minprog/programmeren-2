@@ -78,16 +78,15 @@ Abstractions:
     Containers:
         # "Boek 3: Container Classes": /onderwerp/containers/boek
         List structures [submit]: /onderwerp/containers/lists
-        # Set structure: /onderwerp/containers/sets
         Dictionary structures [submit]: /onderwerp/containers/dicts
         Priority Queue* [submit]: /onderwerp/containers/priority_queue
 
 Tools:
     Overzicht [TODO]: /modules/challenges
     Opdrachten:
-        Verminder de Cyclomatic Complexity [Complexity TODO]: /
+        Verminder de Cyclomatic Complexity van Hangman [Complexity]: /onderwerp/challenges/cc
         Wat is er mis met Cash [Tests]: /onderwerp/challenges/cash
-        Profiling: /onderwerp/performance/profiling
+        Profiling [Performance]: /onderwerp/performance/profiling
 
 OOP:
     Overzicht: /modules/structures
