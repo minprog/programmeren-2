@@ -109,6 +109,37 @@ Naast values hebben dicts ook een keys methode. Deze methode geeft "a set-like o
 
 </details>
 
+### count
+
+Schrijf een functie `count` die alle waardes in een `list` telt. Het resultaat is een `dict` met de waardes van de `list` als keys en als values hoe vaak deze waardes voorkomen. Bijvoorbeeld
+
+    >>> count(["hello", "world", "hello"])
+    {"hello": 2, "world": 1}
+
+**TODO** Implementeer de volgende functie in een bestand genaamd `dicts.py`:
+
+    def count[V](values: list[V]) -> dict[V, int]:
+        """
+        Count the occurrences of each value.
+        Returns a dict with the values as keys and
+        the number of occurences as values.
+        """
+
+<details markdown="1"><summary markdown="span">`from collections import Counter`</summary>
+In Python bestaat standaard een module genaamd `collections`. Hierin vind je extra datastructuren voor wat specifiekere toepassingen. Eén van die datastructuren is [Counter](https://docs.python.org/3/library/collections.html#collections.Counter). Deze datastructuur is gemaakt om op een handige manier waardes te kunnen tellen en daar vervolgens mee te kunnen programmeren.
+
+Achter de schermen is `Counter` zelf ook een `dict` en ook zo te gebruiken. Anders dan bij een `dict` zijn er operaties toegevoegd die handig zijn voor optellingen op tellen. Bijvoorbeeld twee tellingen bij elkaaris:
+
+    >>> from collections import Counter
+    >>> c = Counter(a=3, b=1)
+    >>> d = Counter(a=1, b=2)
+    >>> c + d
+    Counter({'a': 4, 'b': 3})
+
+Ook voegt `Counter` een aantal methodes toe zoals `most_common()` en `total()`.
+
+</details>
+
 ### update
 
 Python dicts kennen een methode `update()`. Deze methode update een dictionary met alle keys en values uit een andere dictionary.
