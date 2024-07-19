@@ -125,7 +125,7 @@ Schrijf een functie `count` die alle waardes in een `list` telt. Het resultaat i
         the number of occurences as values.
         """
 
-**TODO** Hier zijn alvast twee pytest tests om de functie te testen. Plaats deze in test_dicts.py en **voeg zelf nog twee tests toe**.
+**TODO** Hier zijn alvast twee pytest tests om de functie te testen. Plaats deze in `test_dicts.py` en **voeg zelf nog twee tests toe**.
 
     def test_count_unique_values():
         assert count([1, 2, 3, 4, 5]) == {1: 1, 2: 1, 3: 1, 4: 1, 5: 1}
