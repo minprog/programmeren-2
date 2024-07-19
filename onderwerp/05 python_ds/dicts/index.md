@@ -125,6 +125,14 @@ Schrijf een functie `count` die alle waardes in een `list` telt. Het resultaat i
         the number of occurences as values.
         """
 
+**TODO** Hier zijn alvast twee pytest tests om de functie te testen. Plaats deze in test_dicts.py en **voeg zelf nog twee tests toe**.
+
+    def test_count_unique_values():
+        assert count([1, 2, 3, 4, 5]) == {1: 1, 2: 1, 3: 1, 4: 1, 5: 1}
+
+    def test_count_mixed_types():
+        assert count([1, 'a', 'b', 2.5]) == {1: 1, 'a': 1, 2.5: 1, 'b': 1}
+
 <details markdown="1"><summary markdown="span">`from collections import Counter`</summary>
 In Python bestaat standaard een module genaamd `collections`. Hierin vind je extra datastructuren voor wat specifiekere toepassingen. Eén van die datastructuren is [Counter](https://docs.python.org/3/library/collections.html#collections.Counter). Deze datastructuur is gemaakt om op een handige manier waardes te kunnen tellen en daar vervolgens mee te kunnen programmeren.
 
