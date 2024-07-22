@@ -29,68 +29,46 @@ Python:
         split real*: /onderwerp/intro/opdrachten/split_real
 
 Data structures:
-    "Overzicht: Datastructuren [TODO]": /modules/complexity
+    "Overzicht: Datastructuren [TODO]": /modules/ds
     2D lijsten:
-        Schuifpuzzel [submit TODO]: /onderwerp/python/schuifpuzzel
+        Schuifpuzzel [submit TODO]: /onderwerp/ds/schuifpuzzel
     Datastructuren:
-        sets [submit]: /onderwerp/python_ds/sets
-        dicts [submit]: /onderwerp/python_ds/dicts
-        tuples [submit]: /onderwerp/python_ds/tuples
+        sets [submit]: /onderwerp/ds/sets
+        dicts [submit]: /onderwerp/ds/dicts
+        tuples [submit]: /onderwerp/ds/tuples
     Opdracht:
-        recommend [submit TODO]: /onderwerp/python_ds/recommend
+        recommend [submit TODO]: /onderwerp/ds/recommend
 
 Objects:
-    "Overzicht: Objecten en Classes": /modules/oop
+    "Overzicht: Objecten en Classes": /modules/objects
     Voorbereiding:
-        "Videocollege: OOP": /onderwerp/oop/lecture
-        "Boek hst14: OOP": /onderwerp/oop/boek
+        "Videocollege: OOP": /onderwerp/objects/lecture
+        "Boek hst14: OOP": /onderwerp/objects/boek
     Opdrachten:
-        Queue: /onderwerp/oop/queue
-        Game of Cards: /onderwerp/oop/cards
-        War: /onderwerp/oop/war
+        Queue: /onderwerp/objects/queue
+        Game of Cards: /onderwerp/objects/cards
+        War: /onderwerp/objects/war
 
-# Tools:
-#     "Overzicht: Tools voor betere code": /modules/tools
-#     Voorbereidingen: /modules/tools/preparation
-#     Design-documentatie:
-#         "Boek: Design by contract": /onderwerp/design/boek
-#         1) Documenteer je functies [opdracht]: /onderwerp/design/contract
-#     Types in Python:
-#         "Achtergrond: typing in Python": /onderwerp/typing/typing
-#         Type hints: /onderwerp/typing/type-hints
-#         # Type aliases and variables: /onderwerp/typing/type-aliases
-#         # Duck typing: /onderwerp/typing/duck-typing
-#         # Flexible typing: /onderwerp/typing/flexible-typing
-#         2) Type hints toevoegen [opdracht]: /onderwerp/typing/add-type-hints
-#     Testen in Python:
-#         "Achtergrond: testen in Python": /onderwerp/testing/testing
-#         3) Tests toevoegen [opdracht]: /onderwerp/testing/refactor
-#     Statische kwaliteitsanalyse:
-#         4) Verbeter je code [opdracht]: /onderwerp/quality
-
-Abstractions:
-    "Overzicht: Abstractions": /modules/abstractions
+Abstract Data Types:
+    "Overzicht: ADT": /modules/adt
     Data Abstractions:
-        "Boek 2: Data Abstractions": /onderwerp/adts/boek
-        Testen met twee implementaties [opdracht]: /onderwerp/adts/card
-        # Een-en-twintigen: /onderwerp/adts/deck
-        # Figuren [opdracht]: /onderwerp/adts/figuren
+        "Boek 2: Data Abstractions": /onderwerp/adt/boek
+        Testen met twee implementaties [opdracht]: /onderwerp/adt/card
     Containers:
-        # "Boek 3: Container Classes": /onderwerp/containers/boek
-        List structures [submit]: /onderwerp/containers/lists
-        Dictionary structures [submit]: /onderwerp/containers/dicts
-        Priority Queue* [submit]: /onderwerp/containers/priority_queue
+        List structures [submit]: /onderwerp/adt/lists
+        Dictionary structures [submit]: /onderwerp/adt/dicts
+        Priority Queue* [submit]: /onderwerp/adt/priority_queue
 
-Tools:
-    Overzicht [TODO]: /modules/challenges
+Refactoring:
+    Overzicht [TODO]: /modules/refactor
     Opdrachten:
-        Verminder de Cyclomatic Complexity van Hangman [Complexity]: /onderwerp/challenges/cc
-        Wat is er mis met Cash [Tests]: /onderwerp/challenges/cash
-        Profiling [Performance]: /onderwerp/performance/profiling
+        Verminder de Cyclomatic Complexity van Hangman [Complexity]: /onderwerp/refactor/cc
+        Wat is er mis met Cash [Tests]: /onderwerp/refactor/cash
+        Profiling [Performance]: /onderwerp/refactor/profiling
 
 OOP:
-    Overzicht: /modules/structures
+    Overzicht: /modules/oop
     Structuren bouwen:
-        "Boek 4-5: Structures": /onderwerp/structures/boek
-        Palindrome [opdracht]: /onderwerp/structures/palindrome
+        "Boek 4-5: Structures": /onderwerp/oop/boek
+        Palindrome [opdracht]: /onderwerp/oop/palindrome
         Adventure [opdracht]: /adventure2/more

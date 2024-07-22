@@ -1,9 +1,0 @@
-name: kalender_tests
-files:
-    required:
-        - kalender.py
-        - test_kalender.py
-        - ontwerp_kalender.pdf
-check:
-    tool: check50
-    slug: minprog/checks/2022/test_kalender
