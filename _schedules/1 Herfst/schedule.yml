@@ -12,22 +12,22 @@ Python:
         'mypy': /onderwerp/intro/mypy
         'pytest': /onderwerp/intro/pytest
     "Opdrachten":
-        weken: /onderwerp/intro/opdrachten/weken
-        isalpha: /onderwerp/intro/opdrachten/isalpha
-        lower: /onderwerp/intro/opdrachten/lower
-        orakel: /onderwerp/intro/opdrachten/orakel
-        index: /onderwerp/intro/opdrachten/index
-        slice: /onderwerp/intro/opdrachten/slice
-        capitalize: /onderwerp/intro/opdrachten/capitalize
-        title: /onderwerp/intro/opdrachten/title
-        find: /onderwerp/intro/opdrachten/find
-        split: /onderwerp/intro/opdrachten/split
-        calculator: /onderwerp/intro/opdrachten/calculator
-        join: /onderwerp/intro/opdrachten/join
-        replace: /onderwerp/intro/opdrachten/replace
-        camelcase: /onderwerp/intro/opdrachten/camelcase
-        kenteken*: /onderwerp/intro/opdrachten/kenteken
-        split real*: /onderwerp/intro/opdrachten/split_real
+        weken [submit]: /onderwerp/intro/opdrachten/weken
+        isalpha [submit]: /onderwerp/intro/opdrachten/isalpha
+        lower [submit]: /onderwerp/intro/opdrachten/lower
+        orakel [submit]: /onderwerp/intro/opdrachten/orakel
+        index [submit]: /onderwerp/intro/opdrachten/index
+        slice [submit]: /onderwerp/intro/opdrachten/slice
+        capitalize [submit]: /onderwerp/intro/opdrachten/capitalize
+        title [submit]: /onderwerp/intro/opdrachten/title
+        find [submit]: /onderwerp/intro/opdrachten/find
+        split [submit]: /onderwerp/intro/opdrachten/split
+        calculator [submit]: /onderwerp/intro/opdrachten/calculator
+        join [submit]: /onderwerp/intro/opdrachten/join
+        replace [submit]: /onderwerp/intro/opdrachten/replace
+        camelcase [submit]: /onderwerp/intro/opdrachten/camelcase
+        kenteken* [submit]: /onderwerp/intro/opdrachten/kenteken
+        split real* [submit]: /onderwerp/intro/opdrachten/split_real
 
 Data structures:
     "Overzicht: Datastructuren [TODO]": /modules/ds
@@ -39,26 +39,30 @@ Data structures:
         tuples [submit]: /onderwerp/ds/tuples
     Opdracht:
         recommend [submit TODO]: /onderwerp/ds/recommend
+    Algoritmische analyse:
+        Big O [boek]: /onderwerp/ds/boek
+        complexity [submit]: /onderwerp/ds/big-o-questions
 
 Objects:
     "Overzicht: Objecten en Classes": /modules/objects
     Voorbereiding:
         "Videocollege: OOP": /onderwerp/objects/lecture
-        "Boek hst14: OOP": /onderwerp/objects/boek
+        "OOP [boek]": /onderwerp/objects/boek
     Opdrachten:
-        Queue: /onderwerp/objects/queue
-        Game of Cards: /onderwerp/objects/cards
-        War: /onderwerp/objects/war
+        Queue [submit]: /onderwerp/objects/queue
+        Game of Cards [submit]: /onderwerp/objects/cards
+        War [submit]: /onderwerp/objects/war
 
 Abstract Data Types:
     "Overzicht: ADT": /modules/adt
     Data Abstractions:
-        "Boek 2: Data Abstractions": /onderwerp/adt/boek
-        Testen met twee implementaties [opdracht]: /onderwerp/adt/card
+        "Data Abstractions [boek]": /onderwerp/adt/boek
+        Testen met twee implementaties [submit]: /onderwerp/adt/card
     Containers:
         List structures [submit]: /onderwerp/adt/lists
         Dictionary structures [submit]: /onderwerp/adt/dicts
         Priority Queue* [submit]: /onderwerp/adt/priority_queue
+    
 
 Refactoring:
     Overzicht [TODO]: /modules/refactor
@@ -70,6 +74,6 @@ Refactoring:
 OOP:
     Overzicht: /modules/oop
     Structuren bouwen:
-        "Boek 4-5: Structures": /onderwerp/oop/boek
-        Palindrome [opdracht]: /onderwerp/oop/palindrome
-        Adventure [opdracht]: /adventure2/more
+        "Structures [boek]": /onderwerp/oop/boek
+        Palindrome [submit]: /onderwerp/oop/palindrome
+        Adventure [submit]: /adventure2/more
