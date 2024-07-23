@@ -1,68 +1,99 @@
 # Programmeren 2
 
-## Studiewijzer<br><small>Herfst 2023</small>
+## Studiewijzer<br><small>Herfst 2024</small>
 
-Let op! Dit vak is flink aangepast ten opzichte van vorige jaren. Was je eerder al eens begonnen met het vak, dan moet je nu beginnen vanaf het begin.
+Wat ga je doen?
+
+- De verschillende manieren van programmeren in Python leren kennen en beheersen.
+- Leren hoe je je eigen programma's op kwaliteit kunt toetsen en verbeteren.
+- Kennis maken met abstracte datatypes in diverse vormen.
+- Begrijpen waarom sommige algoritmen beter werken dan andere.
+- Kunnen analyseren hoe goed een algoritme werkt gegeven een bepaalde datastructuur.
+- Leren hoe je maatregelen kunt toepassen in code om latere fouten te voorkomen.
 
 ## Docenten en assistenten
 
 De docenten bij dit vak zijn Jelle van Assema en Martijn Stegeman. Zij geven het vak vorm en verzorgen de organisatie. Je kunt ze bereiken via e-mail op <help@mprog.nl>.
 
-Daarnaast zijn er veel student-assistenten, die de cursus goed kennen omdat ze 'm zelf gedaan hebben, en jou gaan helpen op de momenten dat het nodig is. Eén van de assistenten zal daarnaast je mentor zijn, die je wekelijks ziet bij de werkgroep en die bovendien je werk nakijkt.
+Daarnaast zijn er veel student-assistenten, die de cursus goed kennen omdat ze 'm zelf gedaan hebben, en jou gaan helpen op de momenten dat het nodig is.
 
 ## Ingangseisen
 
-Je moet Programmeren 1 hebben gehaald om dit vak te mogen volgen.
+Je moet Programmeren 1 volledig hebben gehaald om dit vak te mogen volgen.
 
 ## Opdrachten en eindcijfer
 
 Bij dit vak werk je aan verschillende soorten **opdrachten**. De meeste opdrachten doe je individueel. Soms zijn het oefeningen, dan weer schrijf je een flink groot programma en op een aantal momenten ga je met tools aan de slag om te leren je Python-code zelf beter te maken.
 
-Het **eindcijfer** bestaat uit de opgetelde punten voor de opdrachten. Het maximaal aantal punten is 48, wat staat voor een 10 als eindcijfer. Sommige opdrachten worden automatisch gecheckt op correcte werking. Bij andere opdrachten kijkt een assistent na en geeft punten en feedback.
+Het **eindcijfer** bestaat uit de opgetelde punten voor de opdrachten. Het maximaal aantal punten is 45, wat staat voor een 10 als eindcijfer. Sommige opdrachten worden automatisch gecheckt op correcte werking. Bij andere opdrachten kijkt een assistent na en geeft punten en feedback.
+
+Voor alle modules is het noodzakelijk dat je deze na inleveren ook **aftekent**. Zie hieronder voor uitleg over de voortgangsgesprekken waarin je dit kunt doen.
 
 Bij elke module staat aangegeven hoeveel punten elke opdracht waard is en hoe de **beoordeling** plaatsvindt.
 
-| Module       | Punten    | Deadline         |
-| ------------ | --------: | ---------------: |
-| Python       |         6 |  3 nov 17:00     |
-| Complexity   |         6 | 10 nov 17:00     |
-| Objects      |         6 | 17 nov 17:00     |
-| Tools        |         6 | 24 nov 17:00     |
-| ------------ | --------: | ---------------: |
-| Challenges   |         6 | (!) 24 nov 17:00 |
-| ------------ | --------: | ---------------: |
-| Abstractions |         6 |  1 dec 17:00     |
-| Structures   |         9 | 15 dec 17:00     |
-| ------------ | --------: | ---------------: |
-| Profiling    |         3 | (!) 15 dec 17:00 |
-| ------------ | --------: | ---------------: |
-| Totaal       |        48 |                  |
+| Module                | Punten    | Deadline             |
+| --------------------- | --------: | -------------------: |
+| Python                |         6 | vrijdag  1 nov 17:00 |
+| Datastructures        |         6 | vrijdag  8 nov 17:00 |
+| Objects               |         6 | vrijdag 15 nov 17:00 |
+| ADT                   |         6 | vrijdag 22 nov 17:00 |
+| Refactoring           |         6 | vrijdag 29 nov 17:00 |
+| OOP                   |         9 | vrijdag 13 dec 17:00 |
+| --------------------- | --------: | -------------------: |
+| * Opdrachten Python   |         1 | vrijdag  1 nov 17:00 |
+| * Opdrachten ADT      |         2 | vrijdag 22 nov 17:00 |
+| * Opdrachten OOP      |         3 | vrijdag 13 dec 17:00 |
+| --------------------- | --------: | -------------------: |
+| Totaal                |        45 |                      |
 
-Bij dit vak is het **niet** verplicht om alle opdrachten af te maken. De deadlines zijn wel hard, behalve in geval van speciale afspraken ivm ziekte. Je moet in contact raken met de docenten als je ziek wordt of achter gaat lopen.
+Bij dit vak is het **niet** verplicht om alle opdrachten af te maken. Wel zijn de deadlines hard. Na het verstrijken van de deadline is er geen mogelijkheid meer om in te leveren.
 
-Doe je tegelijk met dit vak het Programmeerproject? Geef dan dit vak voorrang!
+In uitzonderlijke gevallen zoals langdurige ziekte moeten er speciale afspraken worden gemaakt. Je moet daarom contact houden met de docenten als je ziek wordt of achter gaat lopen.
+
+## Andere indeling voor fulltime studenten
+
+Doe je tegelijk met dit vak het Programmeerproject? Dan doe je de minor programmeren in fulltime en bieden we een andere indeling van de twee vakken aan. Je doet dan eerst programmeren 2 in vier weken en daarna het programmeerproject in vier weken. Voor programmeren 2 ziet het schema er zo uit:
+
+| Week | Maandag        | Dinsdag        | Woensdag       | Donderdag      | Vrijdag        |
+| -----| -------------- | -------------- | -------------- | -------------- | -------------- | 
+| 1    | Python         | Python         | Python         | Datastructures | Datastructures |
+| 2    | Datastructures | Objects        | Objects        | Objects        | ADT            |
+| 3    | ADT            | ADT            | Refactoring    | Refactoring    | Refactoring    |
+| 4    | OOP            | OOP            | OOP            | OOP            | OOP            |
+
+De deadlines blijven hetzelfde als bij het reguliere schema. Dat betekent dat de mogelijkheid blijft bestaan om te wisselen naar dat schema bijvoorbeeld in geval van ziekte. Dit heeft vaak wel de consequentie dat er te weinig tijd overblijft om ook het programmeerproject te volgen in hetzelfde blok.
+
+## Voortgangsgesprekken
+
+Er zijn met enige regelmaat individuele voortgangsgesprekken. Je houdt deze met een docent of assistent. De besprekingen zijn verplicht, en als je er één mist zonder af te zeggen kun je het vak normaal niet halen. Zorg dus dat je contact houdt.
+
+Bij de voortgangsgesprekken heb je ruimte om samen te beslissing over hoe je verder gaat en je kunt alleen daar de modules aftekenen om er punten voor te krijgen.
+
+De besprekingen bereid je voor door met een medestudent code reviews te doen. Hierin ga je al een keer kritisch de uitwerkingen vergelijken en eventueel nog aanpassen, zodat je bij het voortgangsgesprek goed kan uitleggen hoe je een en ander hebt aangepakt.
 
 ## Aanwezigheid
 
-1. Alle studenten zijn verplicht aanwezig bij hun ingedeelde werkgroep om met elkaar en de mentor de voortgang door te spreken. De locaties en tijden staan in het rooster.
+- Studenten die de Minor Programmeren fulltime volgen hebben een aanwezigheidsplicht zoals apart bekend gemaakt.
 
-2. Voor aanwezigheid in het lab geldt:
-
-    - Studenten die de Minor Programmeren fulltime volgen hebben een aanwezigheidsplicht zoals apart bekend gemaakt. **Dit geldt vanaf week 1.**
-
-    - Voor studenten die alleen dit vak volgen is het verplicht om op een vast moment aan te sluiten in het lab. **Dit geldt vanaf week 2** en de tijden worden nog rondgestuurd.
-
+- Er is geen minimale aanwezigheidsplicht in het lab bij de parttime minor. Als je alle voortgangsbesprekingen hebt bijgewoond en een voldoende staat, hebben we genoeg informatie om in te staan voor jouw persoonlijke voortgang in dit vak. We raden studenten aan om regelmatig een studieplek op te zoeken in Lab42. Je kunt daar ook prettig afspreken met medestudenten om de samenwerkopdrachten te doen.
 
 ## Vragen stellen
 
 Tijdens dit vak zul je vaak de hulp inroepen van de assistenten en medestudenten. Er zijn diverse opties voor het stellen van vragen. De beste optie hangt af van het soort vraag dat je wil stellen.
 
+**Medestudenten:** eerste hulp bij vastlopen.
+
+- jouw eerste aanspreekpunt zijn je medestudenten in het lokaal
+- ook als parttime-student moet je zorgen dat je toegang hebt tot andere studenten
+- samen nadenken over de opdracht helpt je verder
+- de beste manier is om vaak in het lokaal te komen zitten
+
 **Assistentie:** direct contact met een assistent, voor hulp bij programmeren.
 
-- hulp op locatie (lokaal L0.09 en L0.10)
-- je weet niet waar te beginnen of een onvindbare bug, of alles loopt vast
+- hulp op locatie (lokaal L0.09)
+- je weet echt niet waar te beginnen of een onvindbare bug, of alles loopt vast
 - moeite met verzinnen oplossing
-- dagelijks beschikbaar tussen 9 en 17 uur, zet jezelf in de rij via het menu:
+- dagelijks beschikbaar na 10 uur, zet jezelf in de rij via het menu:
 
     ![](../hands-menu.png)
 
@@ -81,21 +112,8 @@ Juist even niet aan de opdracht werken kan je verder helpen!
 - Neem een halfuurtje echt even afstand van je computer; dit helpt je brein afstand nemen van het probleem. Met een frisse blik kom je dan toch weer verder.
 
 - Ga even door met de volgende opdracht van de module om te kijken hoe je daar mee gaat.
-
-- Of ga oefenen in het basisboek, want dit staat helemaal los van de opdrachten.
 </details>
 
-<!--
-
-## Deadlines
-
-In normale omstandigheden zou je de "normale deadline" moeten aanhouden die hierboven vermeld is. Dan heb je ruimte om problemen op te vangen tijdens het vak. Als het dan moeilijk wordt, je hebt een planningsprobleem of je wordt ziek, dan kun je dit opvangen door gebruik te maken van de coulante deadline. Hiervoor hoef je niets af te stemmen, je mag gewoon later inleveren. Er is geen sprake van puntenaftrek als je hier gebruik van maakt.
-
-Na de "coulante deadline" kun je helemaal geen punten meer krijgen voor de opdrachten die op dat moment nog niet volgens de vermelde minimumeisen ingeleverd zijn.
-
-De laatste module is erg groot (ongeveer drie weken werk) en moet uiterlijk op 26 mei om 17:59 zijn ingeleverd. Dit is de enige deadline voor die laatste module. De verwachting is dat je je planning voor deze weken zelf goed in de gaten houdt.
-
--->
 
 ### Ziekte en inhalen
 
@@ -173,6 +191,7 @@ Waar de grens **onduidelijk** is vragen we je om "redelijk" te handelen. Hierond
 
 - Naar de oplossing voor een opdracht van iemand anders kijken, en vervolgens jouw oplossing daarop baseren.
 </details>
+
 
 ## Plagiaat
 
