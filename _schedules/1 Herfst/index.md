@@ -46,6 +46,12 @@ Bij elke module staat aangegeven hoeveel punten elke opdracht waard is en hoe de
 | --------------------- | --------: | -------------------: |
 | Totaal                |        45 |                      |
 
+Het eindcijfer wordt berekend via:
+
+    behaalde_punten / 45 * 9 + 1
+
+Bij verschillende modules zijn er opdrachten gemarkeerd met een *. Dit zijn opdrachten die een slag verder gaan. Deze opdrachten zijn bedoeld als extra uitdagend en dus ook specifiek bedoeld voor diegenen die de uitdaging zoeken. Deze * opdrachten wegen mee in het puntentotaal en dus ook in het eindcijfer. Effectief maken de opdrachten met een * het verschil tussen een 9 (8.8 afgerond) en een 10. 
+
 Bij dit vak is het **niet** verplicht om alle opdrachten af te maken. Wel zijn de deadlines hard. Na het verstrijken van de deadline is er geen mogelijkheid meer om in te leveren.
 
 In uitzonderlijke gevallen zoals langdurige ziekte moeten er speciale afspraken worden gemaakt. Je moet daarom contact houden met de docenten als je ziek wordt of achter gaat lopen.
