@@ -3,7 +3,7 @@ Welkom:
 
 Python:
     "Programmeren voor grote programma's [boek]": /onderwerp/intro/boek
-    "Overzicht: Starten met Python": /modules/python
+    Overzicht: /modules/python
     Voorbereiding:
         'College: C => Python': /onderwerp/intro/lecture_doug
     Tools:
@@ -30,7 +30,7 @@ Python:
         split real* [submit]: /onderwerp/intro/opdrachten/split_real
 
 Data structures:
-    "Overzicht: Datastructuren [TODO]": /modules/ds
+    Overzicht: /modules/ds
     2D lijsten:
         Schuifpuzzel [submit TODO]: /onderwerp/ds/schuifpuzzel
     Datastructuren:
@@ -44,7 +44,7 @@ Data structures:
         complexity [submit]: /onderwerp/ds/big-o-questions
 
 Objects:
-    "Overzicht: Objecten en Classes": /modules/objects
+    Overzicht: /modules/objects
     Voorbereiding:
         "Videocollege: OOP": /onderwerp/objects/lecture
         "OOP [boek]": /onderwerp/objects/boek
@@ -54,7 +54,7 @@ Objects:
         War [submit]: /onderwerp/objects/war
 
 Abstract Data Types:
-    "Overzicht: ADT": /modules/adt
+    Overzicht: /modules/adt
     Data Abstractions:
         "Data Abstractions [boek]": /onderwerp/adt/boek
         Testen met twee implementaties [submit]: /onderwerp/adt/card
@@ -65,7 +65,7 @@ Abstract Data Types:
     
 
 Refactoring:
-    Overzicht [TODO]: /modules/refactor
+    Overzicht: /modules/refactor
     Opdrachten:
         Verminder de Cyclomatic Complexity van Hangman [Complexity]: /onderwerp/refactor/cc
         Wat is er mis met Cash [Tests]: /onderwerp/refactor/cash
