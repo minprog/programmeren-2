@@ -20,7 +20,9 @@ Je gaat in deze module:
 
 ## Puntentelling
 
-Je krijgt de volledige 6 punten als je minstens de tweederde van de opgaven goedwerkend hebt ingeleverd. Maak dus tijd voor deze module!
+Ieder goedwerkende opdracht is een halve punt waard tot een maximum van 6 punten. Er zijn 14 opdrachten in totaal, dus je hoeft er maar 12 te maken voor het volledig aantal punten.
+
+Er zijn daarnaast 2 opdrachten met een *. Deze opdrachten tellen apart mee. Lever je ze allebei goedwerkend in, dan is dat een extra punt in totaal. Zie ook studiewijzer voor uitleg over * opdrachten.
 
 ## De norm
 
