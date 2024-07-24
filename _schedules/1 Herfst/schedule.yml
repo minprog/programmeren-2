@@ -31,17 +31,15 @@ Python:
 
 Data structures:
     Overzicht: /modules/ds
-    2D lijsten:
-        Schuifpuzzel [submit TODO]: /onderwerp/ds/schuifpuzzel
     Datastructuren:
-        sets [submit]: /onderwerp/ds/sets
-        dicts [submit]: /onderwerp/ds/dicts
-        tuples [submit]: /onderwerp/ds/tuples
+        Sets [submit]: /onderwerp/ds/sets
+        Dicts [submit]: /onderwerp/ds/dicts
+        Tuples [submit]: /onderwerp/ds/tuples
     Opdracht:
-        recommend [submit TODO]: /onderwerp/ds/recommend
+        Recommend [submit]: /onderwerp/ds/recommend
     Algoritmische analyse:
         Big O [boek]: /onderwerp/ds/boek
-        complexity [submit]: /onderwerp/ds/big-o-questions
+        Complexity [submit]: /onderwerp/ds/big-o-questions
 
 Objects:
     Overzicht: /modules/objects

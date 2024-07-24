@@ -1,0 +1,9 @@
+name: sets
+files:
+  required:
+    - sets.py
+    - test_sets.py
+check:
+    tool: checkpy
+    repo: minprog/checks
+    args: sets

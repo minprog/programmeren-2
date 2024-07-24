@@ -17,16 +17,16 @@ Je gaat in deze module:
 
 1 punt voor ieder goedwerkende inzending van:
 
-- sets
-- dicts
-- tuples
+- Sets
+- Dicts
+- Tuples
 
 2 punten voor een goedwerkende inzending van:
 
-- recommend
+- Recommend
 
 1 punt voor een volledig en grotendeels correct (foutje mag):
 
-- complexity
+- Complexity
 
 Goedwerkend betekent altijd dat het ook "goed" moet zijn. Soms via automatische checks, soms handmatig. Er worden geen deelpunten gegeven behalve wat hierboven vermeld staat.

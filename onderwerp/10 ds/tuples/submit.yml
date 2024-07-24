@@ -1,0 +1,9 @@
+name: tuples
+files:
+  required:
+    - tuples.py
+    - test_tuples.py
+check:
+    tool: checkpy
+    repo: minprog/checks
+    args: tuples
