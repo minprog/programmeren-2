@@ -129,7 +129,7 @@ grades:
 
     # refactoring
 
-    hangman_cc: *automatisch
+    cc_hangman: *automatisch
     cash_tests: *punten
     profilers: *punten
 
