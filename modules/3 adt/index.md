@@ -23,8 +23,7 @@ Je gaat in deze module:
 
 Voor ieder complete en goedwerkende opdracht:
 
-- Twee implementaties: 1 punt indien helemaal zorgvuldig gedaan met zinvolle tests die allerlei gebruiksscenario's van de class testen
-- Figuren: 1 punt
+- Twee implementaties: 2 punten indien helemaal zorgvuldig gedaan met zinvolle tests die allerlei gebruiksscenario's van de class testen
 - List structures: 2 punten
 - Dict structures: 2 punten
 

@@ -96,43 +96,44 @@ grades:
     camelcase: *automatisch_pass
     kenteken: *automatisch_pass
     split_real: *automatisch_pass
-    python_voldoende: *aftekenen
+    python_voldoende: *punten
 
-    # Complexiteit
+    # * opdrachten Python
 
-    dicts_practice: *aftekenen
-    sets_practice: *aftekenen
+    kenteken: *automatisch
+    split_real: *automatisch
+
+    # Datastructures
+
+    sets: *automatisch
+    dicts: *automatisch
+    tuples: *automatisch
+    recommend: *automatisch
     big-o-questions: *aftekenen
-    jaccard: *aftekenen
-    indexer: *aftekenen
-    punten_complexiteit: *punten
 
     # Objects
 
     queue: *automatisch
     cards: *automatisch
-    hangman-less: *semiautomatisch
+    war: *automatisch
 
-    # Tools
-
-    python_contract: *aftekenen
-    python_type_hints: *aftekenen
-    python_tests: *aftekenen
-    quality: *punten
-
-    # Challenges
-
-    cash_tests: *punten
-    kalender_tests: *punten
-
-    # Abstractions
+    # adt
 
     card_implementations: *aftekenen
-    figuren: *aftekenen
-    containers_lists: *aftekenen
-    containers_dicts: *aftekenen
+    list_adt: *automatisch
+    dict_adt: *automatisch
 
-    # Structures
+    # * opdrachten adt
+
+    priority_queue_adt: *punten
+
+    # refactoring
+
+    hangman_cc: *automatisch
+    cash_tests: *punten
+    profilers: *punten
+
+    # oop
 
     palindrome: *aftekenen
     adventure-more:
@@ -141,9 +142,5 @@ grades:
             check_points: integer
             quality_points: integer
         automatic:
-            check_points: (correctness_score * 5).round
+            check_points: (correctness_score * 7).round
         calculation: check_points + quality_points
-
-    # Performance
-
-    profilers: *punten
