@@ -1,4 +1,4 @@
-name: containers_priority_queue
+name: priority_queue_adt
 files:
     required:
         - priority_queue.py

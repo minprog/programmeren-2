@@ -1,4 +1,4 @@
-name: containers_lists
+name: list_adt
 files:
     required:
         - person_list.py
