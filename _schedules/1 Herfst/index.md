@@ -34,14 +34,13 @@ Bij elke module staat aangegeven hoeveel punten elke opdracht waard is en hoe de
 | Module                | Punten    | Deadline             |
 | --------------------- | --------: | -------------------: |
 | Python                |         6 | vrijdag  1 nov 17:00 |
+| * Opdrachten Python   |         1 | vrijdag  1 nov 17:00 |
 | Datastructures        |         6 | vrijdag  8 nov 17:00 |
 | Objects               |         6 | vrijdag 15 nov 17:00 |
 | ADT                   |         6 | vrijdag 22 nov 17:00 |
+| * Opdrachten ADT      |         2 | vrijdag 22 nov 17:00 |
 | Refactoring           |         6 | vrijdag 29 nov 17:00 |
 | OOP                   |         9 | vrijdag 13 dec 17:00 |
-| --------------------- | --------: | -------------------: |
-| * Opdrachten Python   |         1 | vrijdag  1 nov 17:00 |
-| * Opdrachten ADT      |         2 | vrijdag 22 nov 17:00 |
 | * Opdrachten OOP      |         3 | vrijdag 13 dec 17:00 |
 | --------------------- | --------: | -------------------: |
 | Totaal                |        45 |                      |
@@ -67,7 +66,7 @@ Doe je tegelijk met dit vak het Programmeerproject? Dan doe je de minor programm
 | 3    | ADT            | ADT            | Refactoring    | Refactoring    | Refactoring    |
 | 4    | OOP            | OOP            | OOP            | OOP            | OOP            |
 
-De deadlines blijven hetzelfde als bij het reguliere schema. Dat betekent dat de mogelijkheid blijft bestaan om te wisselen naar dat schema bijvoorbeeld in geval van ziekte. Dit heeft vaak wel de consequentie dat er te weinig tijd overblijft om ook het programmeerproject te volgen in hetzelfde blok.
+De deadlines blijven hetzelfde als bij het reguliere schema. Dat betekent dat de mogelijkheid blijft bestaan om te wisselen naar het reguliere schema bijvoorbeeld in geval van ziekte. Dit heeft vaak wel de consequentie dat er te weinig tijd overblijft om ook het programmeerproject te volgen in hetzelfde blok en je dat vak zal moeten laten vallen. Het is daarom extra belangrijk voor fulltime studenten om goed contact te houden bij bijvoorbeeld ziekte, zo kunnen we je het beste helpen.  
 
 ## Voortgangsgesprekken
 
