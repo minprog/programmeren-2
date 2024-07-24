@@ -21,8 +21,8 @@ Voor de wijze waarop je het geleerde uit Programmeren 2 toepast in deze implemen
 
 3 * punten voor de kwaliteit van de uitvoering:
 
-    - 1 punt voor degelijke uitvoering waar basis op orde is: volledige docstrings, type hints die goedgekeurd worden volgens `mypy --strict`
+- 1 punt voor degelijke uitvoering waar basis op orde is: volledige docstrings, type hints die goedgekeurd worden volgens `mypy --strict`
 
-    - 2 punten voor een zeer goede uitvoering waar voldaan is aan de eisen voor 1 punt, maar waar ook zinvolle `pytest` tests aanwezig zijn voor alle classes die zinvol testbaar zijn (het is aan jou om uit te zoeken welke tests, de assistenten mogen hier niet bij helpen).
+- 2 punten voor een zeer goede uitvoering waar voldaan is aan de eisen voor 1 punt, maar waar ook zinvolle `pytest` tests aanwezig zijn voor alle classes die zinvol testbaar zijn (het is aan jou om uit te zoeken welke tests, de assistenten mogen hier niet bij helpen).
 
-    - 3 punten voor een uitzonderlijk goede uitvoering waar voldaan is aan de eisen voor 2 punten, maar waar het (class)design substantieel ook is aangepast waardoor de code overzichtelijker wordt (met nadrukkelijke eis dat de checks nog slagen; assistenten mogen op geen enkele manier helpen met redesign, wel met debugging natuurlijk). De cyclomatic complexity voor ieder deel moet 2 of lager zijn, dit wordt gemeten via `flake8 --max-complexity 2 --select=C *.py`
+- 3 punten voor een uitzonderlijk goede uitvoering waar voldaan is aan de eisen voor 2 punten, maar waar het (class)design substantieel ook is aangepast waardoor de code overzichtelijker wordt (met nadrukkelijke eis dat de checks nog slagen; assistenten mogen op geen enkele manier helpen met redesign, wel met debugging natuurlijk). De cyclomatic complexity voor ieder deel moet 2 of lager zijn, dit wordt gemeten via `flake8 --max-complexity 2 --select=C *.py`
