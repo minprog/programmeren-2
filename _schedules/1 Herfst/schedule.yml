@@ -12,22 +12,22 @@ Python:
         'mypy': /onderwerp/intro/mypy
         'pytest': /onderwerp/intro/pytest
     "Opdrachten":
-        weken [submit]: /onderwerp/intro/opdrachten/weken
-        isalpha [submit]: /onderwerp/intro/opdrachten/isalpha
-        lower [submit]: /onderwerp/intro/opdrachten/lower
-        orakel [submit]: /onderwerp/intro/opdrachten/orakel
-        index [submit]: /onderwerp/intro/opdrachten/index
-        slice [submit]: /onderwerp/intro/opdrachten/slice
-        capitalize [submit]: /onderwerp/intro/opdrachten/capitalize
-        title [submit]: /onderwerp/intro/opdrachten/title
-        find [submit]: /onderwerp/intro/opdrachten/find
-        split [submit]: /onderwerp/intro/opdrachten/split
-        calculator [submit]: /onderwerp/intro/opdrachten/calculator
-        join [submit]: /onderwerp/intro/opdrachten/join
-        replace [submit]: /onderwerp/intro/opdrachten/replace
-        camelcase [submit]: /onderwerp/intro/opdrachten/camelcase
-        kenteken* [submit]: /onderwerp/intro/opdrachten/kenteken
-        split real* [submit]: /onderwerp/intro/opdrachten/split_real
+        weken: /onderwerp/intro/opdrachten/weken
+        isalpha: /onderwerp/intro/opdrachten/isalpha
+        lower: /onderwerp/intro/opdrachten/lower
+        orakel: /onderwerp/intro/opdrachten/orakel
+        index: /onderwerp/intro/opdrachten/index
+        slice: /onderwerp/intro/opdrachten/slice
+        capitalize: /onderwerp/intro/opdrachten/capitalize
+        title: /onderwerp/intro/opdrachten/title
+        find: /onderwerp/intro/opdrachten/find
+        split: /onderwerp/intro/opdrachten/split
+        calculator: /onderwerp/intro/opdrachten/calculator
+        join: /onderwerp/intro/opdrachten/join
+        replace: /onderwerp/intro/opdrachten/replace
+        camelcase: /onderwerp/intro/opdrachten/camelcase
+        kenteken*: /onderwerp/intro/opdrachten/kenteken
+        split real*: /onderwerp/intro/opdrachten/split_real
 
 Data structures:
     Overzicht: /modules/ds
