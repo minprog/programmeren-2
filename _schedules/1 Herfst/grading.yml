@@ -55,12 +55,6 @@ datastructures:
         tuples: 1
         recommend: 2
         complexity: 1
-        # schuifpuzzel: 2
-        # dicts_practice: 1
-        # sets_practice: 1
-        # big-o-questions: 1
-        # jaccard: 1
-        # indexer: 2
 
 objects:
     type: points
