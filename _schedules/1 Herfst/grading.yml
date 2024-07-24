@@ -27,9 +27,7 @@ opgaven_python:
         join: 1
         replace: 1
         camelcase: 1
-        kenteken: 1
-        split_real: 1
-
+       
 python:
     type: points
     show_progress: true
@@ -54,7 +52,7 @@ datastructures:
         dicts: 1
         tuples: 1
         recommend: 2
-        complexity: 1
+        big-o-questions: 1
 
 objects:
     type: points

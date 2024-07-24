@@ -94,8 +94,6 @@ grades:
     join: *automatisch_pass
     replace: *automatisch_pass
     camelcase: *automatisch_pass
-    kenteken: *automatisch_pass
-    split_real: *automatisch_pass
     python_voldoende: *punten
 
     # * opdrachten Python
