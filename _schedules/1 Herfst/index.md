@@ -70,7 +70,7 @@ De deadlines blijven hetzelfde als bij het reguliere schema. Dat betekent dat de
 
 ## Voortgangsgesprekken
 
-Er zijn met enige regelmaat individuele voortgangsgesprekken. Je houdt deze met een docent of assistent. De besprekingen zijn verplicht, en als je er één mist zonder af te zeggen kun je het vak normaal niet halen. Zorg dus dat je contact houdt.
+Er zijn wekelijks individuele voortgangsgesprekken. Je houdt deze met een docent of assistent. De besprekingen zijn verplicht, en als je er één mist zonder af te zeggen kun je het vak normaal niet halen. Zorg dus dat je contact houdt.
 
 Bij de voortgangsgesprekken heb je ruimte om samen te beslissing over hoe je verder gaat en je kunt alleen daar de modules aftekenen om er punten voor te krijgen.
 
@@ -80,7 +80,7 @@ De besprekingen bereid je voor door met een medestudent code reviews te doen. Hi
 
 - Studenten die de Minor Programmeren fulltime volgen hebben een aanwezigheidsplicht zoals apart bekend gemaakt.
 
-- Er is geen minimale aanwezigheidsplicht in het lab bij de parttime minor. Als je alle voortgangsbesprekingen hebt bijgewoond en een voldoende staat, hebben we genoeg informatie om in te staan voor jouw persoonlijke voortgang in dit vak. We raden studenten aan om regelmatig een studieplek op te zoeken in Lab42. Je kunt daar ook prettig afspreken met medestudenten om de samenwerkopdrachten te doen.
+- Er is geen minimale aanwezigheidsplicht in het lab bij de parttime minor. Als je alle voortgangsbesprekingen hebt bijgewoond en een voldoende staat, hebben we genoeg informatie om in te staan voor jouw persoonlijke voortgang in dit vak. We raden studenten aan om regelmatig een studieplek op te zoeken in de lokalen L0.09 en L0.10. Je kunt daar ook prettig afspreken met medestudenten om de samenwerkopdrachten te doen.
 
 ## Vragen stellen
 
@@ -95,7 +95,7 @@ Tijdens dit vak zul je vaak de hulp inroepen van de assistenten en medestudenten
 
 **Assistentie:** direct contact met een assistent, voor hulp bij programmeren.
 
-- hulp op locatie (lokaal L0.09)
+- hulp op locatie (lokalen L0.09 en L0.10)
 - je weet echt niet waar te beginnen of een onvindbare bug, of alles loopt vast
 - moeite met verzinnen oplossing
 - dagelijks beschikbaar na 10 uur, zet jezelf in de rij via het menu:
