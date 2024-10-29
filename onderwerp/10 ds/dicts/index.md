@@ -41,7 +41,7 @@ Python dicts kennen een methode `get()`. Deze methode haalt een value op uit de 
 
 **TODO** Implementeer de volgende functie in een bestand genaamd `dicts.py`
 
-    from types import TypeVar
+    from typing import TypeVar
     KT = TypeVar("KT")
     VT = TypeVar("VT")
 
