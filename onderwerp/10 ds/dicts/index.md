@@ -42,7 +42,8 @@ Python dicts kennen een methode `get()`. Deze methode haalt een value op uit de 
 **TODO** Implementeer de volgende functie in een bestand genaamd `dicts.py`
 
     from types import TypeVar
-    KT, VT = TypeVar("KT"), TypeVar("VT")
+    KT = TypeVar("KT")
+    VT = TypeVar("VT")
 
     def get(dictionary: dict[KT, VT], key: KT, default_value: VT | None=None) -> VT | None:
         """

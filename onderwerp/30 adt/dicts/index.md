@@ -22,7 +22,8 @@ Om de keys en values op te slaan gebruiken we een `list[tuple[K, V]]`. Het idee 
 
     from typing import TypeVar, Generic
 
-    K, V = TypeVar("K"), TypeVar("V")
+    K = TypeVar("K")
+    V = TypeVar("V")
 
     class ListDict(Generic[K, V]):
         def __init__(self):
@@ -145,7 +146,8 @@ Je kan deze zo gebruiken:
     import time
     from typing import TypeVar, Generic
 
-    K, V = TypeVar("K"), TypeVar("V")
+    K = TypeVar("K")
+    V = TypeVar("V")
 
     class DictLike(Protocol, Generic[K, V]):
         def add(self, key: K, value: V) -> None: ...

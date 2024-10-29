@@ -55,7 +55,8 @@ Python sets kennen een methode `union()`. Deze methode geeft een nieuwe set met 
 **TODO** Implementeer de volgende functie in een bestand genaamd `sets.py`:
 
     from types import TypeVar
-    A, B = TypeVar("A"), TypeVar("B")
+    A = TypeVar("A") 
+    B = TypeVar("B")
 
     def union(set_a: set[A], set_b: set[B]) -> set[A | B]:
         """

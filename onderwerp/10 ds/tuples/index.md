@@ -96,7 +96,8 @@ Python dicts kennen een methode `items`. Deze methode geeft alle items (de keys 
 **TODO** Implementeer de volgende functie in een bestand genaamd `tuples.py`:
     
     from types import TypeVar
-    KT, VT = TypeVar("KT"), TypeVar("VT")
+    KT = TypeVar("KT")
+    VT = TypeVar("VT"),
 
     def items(dictionary: dict[KT, VT]) -> list[tuple[KT, VT]]:
         """
