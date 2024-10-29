@@ -94,8 +94,11 @@ Deze twee vormen van oneindig geven je een `float` dat respectievelijk altijd gr
 Python dicts kennen een methode `items`. Deze methode geeft alle items (de keys en values) van een dictionary als een lijst van paren. Ieder paar is een tuple met op de eerste plek de key, en op de tweede plek de bijbehorende value.
 
 **TODO** Implementeer de volgende functie in een bestand genaamd `tuples.py`:
+    
+    from types import TypeVar
+    KT, VT = TypeVar("KT"), TypeVar("VT")
 
-    def items[KT, VT](dictionary: dict[KT, VT]) -> list[tuple[KT, VT]]:
+    def items(dictionary: dict[KT, VT]) -> list[tuple[KT, VT]]:
         """
         Returns a list of key-value tuples of all items in the dictionary. 
         """
@@ -110,7 +113,7 @@ Python kent een functie [enumerate](https://docs.python.org/3/library/functions.
 
     from typing import Iterable
 
-    def enumerate[T](values: Iterable[T]) -> list[tuple[int, T]]:
+    def enumerate(values: Iterable[VT]) -> list[tuple[int, VT]]:
         """
         Returns a list of tuples. Each tuple is a pair of an
         index (starting at 0) and a value at that index in values.

@@ -41,7 +41,10 @@ Python dicts kennen een methode `get()`. Deze methode haalt een value op uit de 
 
 **TODO** Implementeer de volgende functie in een bestand genaamd `dicts.py`
 
-    def get[KT, VT](dictionary: dict[KT, VT], key: KT, default_value: VT | None=None) -> VT | None:
+    from types import TypeVar
+    KT, VT = TypeVar("KT"), TypeVar("VT")
+
+    def get(dictionary: dict[KT, VT], key: KT, default_value: VT | None=None) -> VT | None:
         """
         Returns a value belonging to the key. Returns default_value
         if the key is not in the dictionary.
@@ -69,7 +72,7 @@ Pythons dicts kennen een methode `values()`. Deze methode geeft "an object provi
 
 **TODO** Implementeer de volgende functie in een bestand genaamd `dicts.py`:
 
-    def values[KT, VT](dictionary: dict[KT, VT]) -> list[VT]:
+    def values(dictionary: dict[KT, VT]) -> list[VT]:
         """
         Returns all values from the dictionary as a list.
         """
@@ -101,7 +104,7 @@ Zorg ervoor dat `values()` de values op volgorde van de dictionary in de lijst s
 <details markdown="1"><summary markdown="span">`keys()`</summary>
 Naast values hebben dicts ook een keys methode. Deze methode geeft "a set-like object providing a view on D's keys" terug. Dit is een mogelijke implementatie:
 
-    def keys[KT, VT](dictionary: dict[KT, VT]) -> set[VT]:
+    def keys(dictionary: dict[KT, VT]) -> set[VT]:
         """
         Returns all keys from the dictionary as a set.
         """
@@ -118,7 +121,7 @@ Schrijf een functie `count` die alle waardes in een `list` telt. Het resultaat i
 
 **TODO** Implementeer de volgende functie in een bestand genaamd `dicts.py`:
 
-    def count[V](values: list[V]) -> dict[V, int]:
+    def count(values: list[KT]) -> dict[KT, int]:
         """
         Count the occurrences of each value.
         Returns a dict with the values as keys and
@@ -154,7 +157,7 @@ Python dicts kennen een methode `update()`. Deze methode update een dictionary m
 
 **TODO** Implementeer de volgende functie in een bestand genaamd `dicts.py`:
 
-    def update[KT, VT](dict_a: dict[KT, VT], dict_b: dict[KT, VT]) -> None:
+    def update(dict_a: dict[KT, VT], dict_b: dict[KT, VT]) -> None:
         """
         Updates dict_a with all keys and values from dict_b.
         """

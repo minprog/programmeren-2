@@ -54,7 +54,10 @@ Python sets kennen een methode `union()`. Deze methode geeft een nieuwe set met 
 
 **TODO** Implementeer de volgende functie in een bestand genaamd `sets.py`:
 
-    def union[A, B](set_a: set[A], set_b: set[B]) -> set[A | B]:
+    from types import TypeVar
+    A, B = TypeVar("A"), TypeVar("B")
+
+    def union(set_a: set[A], set_b: set[B]) -> set[A | B]:
         """
         Returns a new set with all elements of set_a and set_b.
         """
@@ -84,7 +87,7 @@ De union van twee sets geeft een nieuwe set met daarin alle items van die twee s
     set1 = union({1, 2, 3}, {5.0, 2.0}) # geeft type set[int | float]
     set2 = union({1, 2, 3}, {"hello"}) # geeft type set[int | str]
 
-Let op, om functies te maken met generieke type(s) moeten er blokhaakjes volgen na de functienaam met daarin de generieke types. Conventie is enkele hoofdletter(s) voor de generieke types. Deze syntax is nieuw in Python3.12.
+Let op, om functies te maken met generieke type(s) moeten er blokhaakjes volgen na de functienaam met daarin de generieke types. Conventie is enkele hoofdletter(s) voor de generieke types.
 
 </details>
 
@@ -104,7 +107,7 @@ Python sets kennen een methode `intersection()`. Deze methode geeft een nieuwe s
 
 **TODO** Implementeer de volgende functie in een bestand genaamd `sets.py`:
 
-    def intersection[A](set_a: set[A], set_b: set[A]) -> set[A]:
+    def intersection(set_a: set[A], set_b: set[A]) -> set[A]:
         """
         Returns a new set with all elements that are both in
         set_a and set_b. In other words, this returns all the
@@ -148,7 +151,7 @@ Let op, gebruik deze operatie natuurlijk niet bij het implementeren van deze opd
 
 Python sets kennen een methode `difference()`. Deze methode geeft een nieuwe set met daarin alle elementen die alleen in één set zitten (`set_a`), maar niet in de andere (`set_b`). Deze operatie is niet symmetrisch, dus alleen elementen uit `set_a` kunnen in de resulterende set komen.
 
-    def difference[A, B](set_a: set[A], set_b: set[A]) -> set[A]:
+    def difference(set_a: set[A], set_b: set[A]) -> set[A]:
         """
         Returns a new set with all elements that are only in
         set_a and not in set_b. In other words, this returns
@@ -177,7 +180,7 @@ Python sets kennen een methode `symmetric_difference()`. Deze methode geeft een 
 
 **TODO** Implementeer de volgende functie in een bestand genaamd `sets.py`:
 
-    def symmetric_difference[A, B](set_a: set[A], set_b: set[B]) -> set[A | B]:
+    def symmetric_difference(set_a: set[A], set_b: set[B]) -> set[A | B]:
         """
         Returns a new set with all elements that are only in
         set_a or only in set_b. In other words, this returns
