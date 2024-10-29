@@ -56,11 +56,10 @@ De intersection van twee sets geeft een nieuwe set met daarin alle overeenkomend
 
 ### 3. get_scripts
 
-Nu we een overeenkomstmaat hebben, hebben we film scripts nodig. Deze kun je zo downloaden:
+Nu we een overeenkomstmaat hebben, hebben we film scripts nodig. Deze kun je [hier downloaden](https://amsuni-my.sharepoint.com/:u:/g/personal/j_vanassema_uva_nl/EQyzxeNDdH1JnaWvh84F10cBOBVZUHPtlY5Mt85mi215_Q?e=1lCSdM). Let op, je moet inloggen met je studentenaccount om erbij te kunnen.
 
-> # TODO change adventure -> scripts
+Nadat je het `.zip` bestand hebt gedownload, moet je deze nog uitpakken (en vervolgens weggooien). Dat kan zo:
 
-    curl -LO https://github.com/minprog/adventure/raw/2022/more/adventure.zip
     unzip scripts.zip
     rm scripts.zip
 
