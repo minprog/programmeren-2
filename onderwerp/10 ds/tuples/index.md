@@ -97,7 +97,7 @@ Python dicts kennen een methode `items`. Deze methode geeft alle items (de keys 
     
     from types import TypeVar
     KT = TypeVar("KT")
-    VT = TypeVar("VT"),
+    VT = TypeVar("VT")
 
     def items(dictionary: dict[KT, VT]) -> list[tuple[KT, VT]]:
         """
