@@ -2,7 +2,7 @@
 
 Ga naar je terminal (kun je je nog herinneren waar?) en installeer een paar Python-packages die je nodig hebt:
 
-    python3 -m pip install pytest pycodestyle
+    python3 -m pip install pytest pycodestyle mypy
 
 Kan ook zijn dat je `python` in plaats van `python3` moet gebruiken.
 
