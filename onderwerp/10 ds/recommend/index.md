@@ -80,7 +80,7 @@ Gebruik de functie [listdir](https://docs.python.org/3/library/os.html#os.listdi
 Gebruik hiervoor de functie `open` om een bestand te openen en de methode `read` om uit het bestand te lezen. Zie [Python's documentatie](https://docs.python.org/3/tutorial/inputoutput.html#reading-and-writing-files). **Let op** gebruik de `with` statement als je met bestanden werkt. Op die manier kan je niet vergeten een bestand te sluiten.
 </details>
 
-**Let op** Je hoeft deze functie voor deze opdracht niet te testen via pytest. Omdat we de film scripts niet publiekelijk mogen delen, heeft de check server ook geen toegang tot de film scripts.
+**Let op** Je hoeft deze functie voor deze opdracht niet te testen via pytest. Wij mogen de film scripts niet publiekelijk delen, daarom heeft de check server ook geen toegang tot de film scripts. Hierdoor kan de check server zelfgeschreven pytests tests die de scripts nodig hebben ook niet draaien.
 
 ### 4. recommend
 
