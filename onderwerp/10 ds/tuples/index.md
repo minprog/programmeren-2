@@ -114,7 +114,7 @@ Python kent een functie [enumerate](https://docs.python.org/3/library/functions.
 
     from typing import Iterable
 
-    def enumerate(values: Iterable[VT]) -> list[tuple[int, VT]]:
+    def list_enumerate(values: Iterable[VT]) -> list[tuple[int, VT]]:
         """
         Returns a list of tuples. Each tuple is a pair of an
         index (starting at 0) and a value at that index in values.
