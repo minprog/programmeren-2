@@ -80,7 +80,7 @@ Gebruik de functie [listdir](https://docs.python.org/3/library/os.html#os.listdi
 Gebruik hiervoor de functie `open` om een bestand te openen en de methode `read` om uit het bestand te lezen. Zie [Python's documentatie](https://docs.python.org/3/tutorial/inputoutput.html#reading-and-writing-files). **Let op** gebruik de `with` statement als je met bestanden werkt. Op die manier kan je niet vergeten een bestand te sluiten.
 </details>
 
-**TODO** Deze functie leest bestanden in en dat maakt het testen anders. Om dit goed te testen zou je verschillende folders kunnen klaarzetten om mee te testen. Voor deze opdracht is het voldoende om alleen één test toe te voegen dat test of alle 10 scripts correct worden teruggegeven.
+**Let op** Je hoeft deze functie voor deze opdracht niet te testen via pytest. Omdat we de film scripts niet publiekelijk mogen delen, heeft de check server ook geen toegang tot de film scripts.
 
 ### 4. recommend
 
