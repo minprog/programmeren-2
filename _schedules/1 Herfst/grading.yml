@@ -103,7 +103,7 @@ opgaven_refactoring:
     submits:
         cc_hangman: 2
         cash_tests: 2
-        profiling: 2
+        profilers: 2
 
 refactoring:
     type: points
