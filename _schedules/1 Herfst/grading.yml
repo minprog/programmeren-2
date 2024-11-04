@@ -48,29 +48,21 @@ datastructures:
     show_progress: true
     deadline: 8/11/24 17:00
     submits:
-        sets: 1
-        dicts: 1
-        tuples: 1
-        recommend: 2
-        big-o-questions: 1
+        ds_voldoende: 6
 
 objects:
     type: points
     show_progress: true
     deadline: 15/11/24 17:00
     submits:
-        queue: 1
-        cards: 2
-        war: 3
+        objects_voldoende: 6
 
 adt:
     type: points
     show_progress: true
     deadline: 22/11/24 17:00
     submits:
-        card_implementations: 2
-        list_adt: 2
-        dict_adt: 2
+        adt_voldoende: 6
 
 adt_ster:
     type: points
@@ -84,14 +76,11 @@ refactoring:
     show_progress: true
     deadline: 29/11/24 17:00
     submits:
-        cc_hangman: 2
-        cash_tests: 2
-        profilers: 2
+        refactoring_voldoende: 6
 
 oop:
     type: points
     show_progress: true
     deadline: 13/12/24 17:00
     submits:
-        palindrome: 2
-        adventure-more: 10
+        oop_voldoende: 12

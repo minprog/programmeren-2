@@ -108,18 +108,21 @@ grades:
     tuples: *automatisch
     recommend: *automatisch
     big-o-questions: *aftekenen
+    ds_voldoende: *punten
 
     # Objects
 
     queue: *automatisch
     cards: *automatisch
     war: *automatisch
+    objects_voldoende: *punten
 
     # adt
 
     card_implementations: *aftekenen
     list_adt: *automatisch
     dict_adt: *automatisch
+    adt_voldoende: *punten
 
     # * opdrachten adt
 
@@ -130,6 +133,7 @@ grades:
     cc_hangman: *automatisch
     cash_tests: *punten
     profilers: *punten
+    refactoring_voldoende: *punten
 
     # oop
 
@@ -142,3 +146,4 @@ grades:
         automatic:
             check_points: (correctness_score * 7).round
         calculation: check_points + quality_points
+    oop_voldoende: *punten
