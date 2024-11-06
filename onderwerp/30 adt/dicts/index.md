@@ -139,7 +139,7 @@ Je kan deze zo gebruiken:
     from typing import Any, Protocol
 
     import copy
-    import dicts
+    import dict_adt
     import random
     import string
     import sys
@@ -194,11 +194,11 @@ Je kan deze zo gebruiken:
     if __name__ == "__main__":
         for dict_version in ["ListDict", "StrDict", "HashStrDict", "HashDict"]:
             # Test only the implemented dict versions
-            if not hasattr(dicts, dict_version):
+            if not hasattr(dict_adt, dict_version):
                 continue
 
             # Create a Dict with all KEYS and VALUES
-            dict_type = getattr(dicts, dict_version)
+            dict_type = getattr(dict_adt, dict_version)
             dict_instance = dict_type()
             for key, value in zip(KEYS, VALUES):
                 dict_instance.add(key, value)
