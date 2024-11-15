@@ -78,12 +78,12 @@ Je kan beginnen met de volgende code:
         def __init__(self):
             self._heap: list[Any] = []
 
-        def add(value: Any) -> None:
+        def add(self, value: Any) -> None:
             raise notImplementedError()
 
-        def pop() -> Any:
+        def pop(self) -> Any:
             raise not ImplementedError()
 
 ## Schrijf tests voor PriorityQueue
 
-Schrijf in een apart bestand `pytest` tests voor `PrioriyQueue`.
+Schrijf in een apart bestand `pytest` tests voor `PriorityQueue`.
