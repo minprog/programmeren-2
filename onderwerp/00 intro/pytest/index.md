@@ -1,4 +1,4 @@
-# pytest
+# Eigen tests runnen met pytest
 
 `pytest` is een populair Python framework voor het schrijven van tests. In een latere module gaan we uitgebreid in op het schrijven van tests en `pytest`. Hier volgt alleen een korte introductie met het broodnodige voor de introductie module.
 
@@ -50,4 +50,4 @@ Ook zijn er zogenaamde "edge cases" (randgevallen). Interessante gevallen, bijvo
 
 Voor ieder van de hierboven genoemde gevallen is een eigen test, een eigen testfunctie, op zijn plaats. Je ziet al dat de gekozen tests hierboven sterk afhangen van het soort probleem dat de functie oplost. Om goede tests te kiezen moet je dus ook goed begrijpen wat je gaat testen. Om die reden is het slim om gelijk tests te schrijven, terwijl je nog met je neus in de code zit.
 
-> Let op, in een latere module gaan we dieper in op het schrijven van tests. Tot die tijd is het voor de opdrachten voldoende om enkel normale input en normale output te testen.
+In een latere module gaan we dieper in op het schrijven van tests. Tot die tijd is het voor de opdrachten voldoende om alleen te testen met "normale" input en output.
