@@ -1,6 +1,6 @@
-# mypy
+# Types checken met mypy
 
-Python heeft optionele syntax voor het schrijven van zogenaamde `type hints`. In het kort, Python kent net zoals de meeste andere programmeertalen types zoals `int`, `float` en `str`. In tegenstelling tot bijvoorbeeld C heeft een variabele geen eigen type, maar alleen een type op basis van de waarde die wordt opgeslagen in de variabele. Zo kan éénzelfde variabele verschillende types opslaan, bijvoorbeeld zo:
+Python heeft optionele syntax voor het schrijven van zogenaamde **type hints**. Python kent net zoals de meeste andere programmeertalen types zoals `int`, `float` en `str`. In tegenstelling tot bijvoorbeeld C heeft een variabele geen eigen type, maar alleen een type op basis van de waarde die wordt opgeslagen in de variabele. Zo kan éénzelfde variabele verschillende types opslaan, bijvoorbeeld zo:
 
     getal = 42
     getal = "hello world"
@@ -28,12 +28,12 @@ En bij variabelen waar het type niet direct kan worden afgeleid. In veel gevalle
 
 Soms kan dat niet, bijvoorbeeld:
 
-    getallen = [] # fout
-    getallen: list[int] = [] # goed
+    getallen = []             # fout
+    getallen: list[int] = []  # goed
 
 In het geval hierboven is getallen een lege lijst. Daardoor weet `mypy` niet wat er in de lijst moet komen. `mypy` zal je dan ook vragen om een type hint toe te voegen.
 
-Het type hint systeem van Python is vrij uitgebreid en dat behandelen we later in de cursus. Voor nu zijn de volgende details van belang:
+Het type-hintsysteem van Python is vrij uitgebreid en dat behandelen we later in de cursus. Voor nu zijn de volgende details van belang:
 
 * `int | None` betekent het type is of een `int` of de waarde `None` (niks)
 * `list[int]` betekent een `list` van `int`s
