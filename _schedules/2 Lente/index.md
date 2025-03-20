@@ -1,6 +1,4 @@
-# Programmeren 2
-
-## Studiewijzer<br><small>Lente 2024</small>
+# Programmeren 2<br><small>Studiewijzer Lente 2025</small>
 
 Wat ga je doen?
 
@@ -25,35 +23,49 @@ Je moet Programmeren 1 volledig hebben gehaald om dit vak te mogen volgen.
 
 Bij dit vak werk je aan verschillende soorten **opdrachten**. De meeste opdrachten doe je individueel. Soms zijn het oefeningen, dan weer schrijf je een flink groot programma en op een aantal momenten ga je met tools aan de slag om te leren je Python-code zelf beter te maken.
 
-Het **eindcijfer** bestaat uit de opgetelde punten voor de opdrachten. Het maximaal aantal punten is 48, wat staat voor een 10 als eindcijfer. Sommige opdrachten worden automatisch gecheckt op correcte werking. Bij andere opdrachten kijkt een assistent na en geeft punten en feedback.
+Het **eindcijfer** bestaat uit de opgetelde punten voor de opdrachten. Het maximaal aantal punten is 45, wat staat voor een 10 als eindcijfer. Sommige opdrachten worden automatisch gecheckt op correcte werking. Bij andere opdrachten kijkt een assistent na en geeft punten en feedback.
 
 Voor alle modules is het noodzakelijk dat je deze na inleveren ook **aftekent**. Zie hieronder voor uitleg over de voortgangsgesprekken waarin je dit kunt doen.
 
 Bij elke module staat aangegeven hoeveel punten elke opdracht waard is en hoe de **beoordeling** plaatsvindt.
 
-| Module       | Punten    | Deadline         |
-| ------------ | --------: | ---------------: |
-| Python       |         6 | vrijdag  5 apr 17:00 |
-| Complexity   |         6 | vrijdag 12 apr 17:00 |
-| Objects      |         6 | vrijdag 19 apr 17:00 |
-| Tools        |         6 | vrijdag 26 apr 17:00 |
-| ------------ | --------: | ---------------: |
-| Challenges   |         6 | (!) vrijdag 26 apr 17:00 |
-| ------------ | --------: | ---------------: |
-| Abstractions |         6 | vrijdag 10 mei 17:00 |
-| Structures   |         9 | vrijdag 24 mei 17:00 |
-| ------------ | --------: | ---------------: |
-| Profiling    |         3 | (!) vrijdag 24 mei 17:00 |
-| ------------ | --------: | ---------------: |
-| Totaal       |        48 |                  |
+| Module           | Punten    | Deadline PT     | Deadline FT     |
+| ---------------- | --------: | --------------: | --------------: |
+| Python + ster    |     6 + 1 | vr  4 apr 17:00 | do 17 apr 17:00 |
+| Datastructures   |         6 | vr 11 apr 17:00 | do 17 apr 17:00 |
+| Objects          |         6 | vr 17 apr 17:00 | do 17 apr 17:00 |
+| ADT + ster       |     6 + 2 | vr 25 apr 17:00 | do 17 apr 17:00 |
+| Refactoring      |         6 | vr  9 mei 17:00 | do 17 apr 17:00 |
+| OOP + ster       |     9 + 3 | wo 21 mei 17:00 | vr 25 apr 17:00 |
+| ---------------- | --------: | --------------: | --------------: |
+| Totaal           |        45 |                 |                 |
 
-Bij dit vak is het **niet** verplicht om alle opdrachten af te maken. De deadlines zijn wel hard, behalve in geval van speciale afspraken i.v.m. langdurige ziekte. Je moet contact houden met de docenten als je ziek wordt of achter gaat lopen.
+Het eindcijfer wordt berekend via:
 
-Doe je tegelijk met dit vak het Programmeerproject? Geef dan dit vak voorrang!
+    behaalde_punten / 45 * 9 + 1
+
+Bij verschillende modules zijn er opdrachten gemarkeerd met een *. Dit zijn opdrachten die een slag verder gaan. Deze opdrachten zijn bedoeld als extra uitdagend en dus ook specifiek bedoeld voor diegenen die de uitdaging zoeken. Deze * opdrachten wegen mee in het puntentotaal en dus ook in het eindcijfer. Effectief maken de opdrachten met een * het verschil tussen een 9 (8.8 afgerond) en een 10.
+
+Bij dit vak is het **niet** verplicht om alle opdrachten af te maken. Wel zijn de deadlines hard. Na het verstrijken van de deadline is er geen mogelijkheid meer om in te leveren.
+
+In uitzonderlijke gevallen zoals langdurige ziekte moeten er speciale afspraken worden gemaakt. Je moet daarom contact houden met de docenten als je ziek wordt of achter gaat lopen.
+
+## Andere indeling voor fulltime studenten
+
+Doe je tegelijk met dit vak het Programmeerproject? Dan doe je de minor programmeren in fulltime en bieden we een andere indeling van de twee vakken aan. Je doet dan eerst programmeren 2 in vier weken en daarna het programmeerproject in vier weken. Voor programmeren 2 ziet het schema er zo uit:
+
+| Week | Maandag        | Dinsdag        | Woensdag       | Donderdag      | Vrijdag        |
+| -----| -------------- | -------------- | -------------- | -------------- | -------------- |
+| 1    | Python         | Python         | Python / DS    | Datastructures | Datastructures |
+| 2    | Objects        | Objects        | Objects        | ADT            | ADT            |
+| 3    | ADT            | Refactoring    | Refactoring    | Refactoring    | -              |
+| 4    | OOP            | OOP            | OOP            | OOP            | OOP            |
+
+De deadlines blijven hetzelfde als bij het reguliere schema. Dat betekent dat de mogelijkheid blijft bestaan om te wisselen naar het reguliere schema bijvoorbeeld in geval van ziekte. Dit heeft vaak wel de consequentie dat er te weinig tijd overblijft om ook het programmeerproject te volgen in hetzelfde blok en je dat vak zal moeten laten vallen. Het is daarom extra belangrijk voor fulltime studenten om goed contact te houden bij bijvoorbeeld ziekte, zo kunnen we je het beste helpen.
 
 ## Voortgangsgesprekken
 
-Er zijn met enige regelmaat individuele voortgangsgesprekken. Je houdt deze met een docent of assistent. De besprekingen zijn verplicht, en als je er één mist zonder af te zeggen kun je het vak normaal niet halen. Zorg dus dat je contact houdt.
+Er zijn wekelijks individuele voortgangsgesprekken. Je houdt deze met een docent of assistent. De besprekingen zijn verplicht, en als je er één mist zonder af te zeggen kun je het vak normaal niet halen. Zorg dus dat je contact houdt.
 
 Bij de voortgangsgesprekken heb je ruimte om samen te beslissing over hoe je verder gaat en je kunt alleen daar de modules aftekenen om er punten voor te krijgen.
 
@@ -63,7 +75,7 @@ De besprekingen bereid je voor door met een medestudent code reviews te doen. Hi
 
 - Studenten die de Minor Programmeren fulltime volgen hebben een aanwezigheidsplicht zoals apart bekend gemaakt.
 
-- Er is geen minimale aanwezigheidsplicht in het lab bij de parttime minor. Als je alle voortgangsbesprekingen hebt bijgewoond en een voldoende staat, hebben we genoeg informatie om in te staan voor jouw persoonlijke voortgang in dit vak. We raden studenten aan om regelmatig een studieplek op te zoeken in Lab42. Je kunt daar ook prettig afspreken met medestudenten om de samenwerkopdrachten te doen.
+- Er is geen minimale aanwezigheidsplicht in het lab bij de parttime minor. Als je alle voortgangsbesprekingen hebt bijgewoond en een voldoende staat, hebben we genoeg informatie om in te staan voor jouw persoonlijke voortgang in dit vak. We raden studenten aan om regelmatig een studieplek op te zoeken in de lokalen L0.09 en L0.10. Je kunt daar ook prettig afspreken met medestudenten om de samenwerkopdrachten te doen.
 
 ## Vragen stellen
 
@@ -78,7 +90,7 @@ Tijdens dit vak zul je vaak de hulp inroepen van de assistenten en medestudenten
 
 **Assistentie:** direct contact met een assistent, voor hulp bij programmeren.
 
-- hulp op locatie (lokaal L0.09)
+- hulp op locatie (lokalen L0.09 en L0.10)
 - je weet echt niet waar te beginnen of een onvindbare bug, of alles loopt vast
 - moeite met verzinnen oplossing
 - dagelijks beschikbaar na 10 uur, zet jezelf in de rij via het menu:
