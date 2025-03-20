@@ -56,7 +56,7 @@ Doe je ook het Programmeerproject deze periode? Dan doe je de minor programmeren
 | 1    | Python         | Python         | Python / DS    | Datastructures | Datastructures |
 | 2    | Objects        | Objects        | Objects        | ADT            | ADT            |
 | 3    | ADT            | Refactoring    | Refactoring    | Refactoring    | -              |
-| 4    | OOP            | OOP            | OOP            | OOP            | OOP            |
+| 4    | -              | OOP            | OOP            | OOP            | OOP            |
 
 Mocht je het schema in de praktijk niet redden, dan ga je uiteindelijk deadlines missen. Eventueel kun je dan terugschakelen naar parttime, door het Programmeerproject op te geven. Het is daarom extra belangrijk voor fulltimestudenten om goed contact te houden bij bijvoorbeeld ziekte, zo kunnen we je het beste begeleiden.
 
