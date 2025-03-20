@@ -39,19 +39,21 @@ Bij elke module staat aangegeven hoeveel punten elke opdracht waard is en hoe de
 | OOP + steropdrachten       |     9 + 3 | wo 21 mei 17:00 | vr 25 apr 17:00 |
 | **Totaal punten:**         |    **45** |                 |                 |
 
-Het eindcijfer wordt berekend via:
+Let op de verschillende **deadlines**. PT betekent dat je alleen Programmeren 2 volgt bij onze minor. FT geldt als je in dezelfde periode het vak Programmeerproject doet.
+
+Het **eindcijfer** wordt berekend via:
 
     behaalde_punten / 45 * 9 + 1
 
-Bij verschillende modules zijn er opdrachten gemarkeerd met een *. Dit zijn opdrachten die een slag verder gaan. Deze opdrachten zijn bedoeld als extra uitdagend en dus ook specifiek bedoeld voor diegenen die de uitdaging zoeken. Deze * opdrachten wegen mee in het puntentotaal en dus ook in het eindcijfer. Effectief maken de opdrachten met een * het verschil tussen een 9 (8.8 afgerond) en een 10.
+Bij verschillende modules zijn er opdrachten gemarkeerd met een *. Dit zijn **steropdrachten** die een slag verder gaan. Deze opdrachten zijn bedoeld als extra uitdagend en dus ook specifiek bedoeld voor diegenen die de uitdaging zoeken. Deze steropdrachten wegen mee in het puntentotaal en dus ook in het eindcijfer. Per saldo maken de opdrachten met een * het verschil tussen een 9 (8.8 afgerond) en een 10.
 
-Bij dit vak is het **niet** verplicht om alle opdrachten af te maken. Wel zijn de deadlines hard. Na het verstrijken van de deadline is er geen mogelijkheid meer om in te leveren.
+Bij dit vak is het niet verplicht om **alle opdrachten** af te maken. Wel zijn de deadlines hard. Na het verstrijken van de deadline is er geen mogelijkheid meer om in te leveren.
 
-In uitzonderlijke gevallen zoals langdurige ziekte moeten er speciale afspraken worden gemaakt. Je moet daarom contact houden met de docenten als je ziek wordt of achter gaat lopen.
+In uitzonderlijke gevallen zoals langdurige ziekte moeten er speciale afspraken worden gemaakt. Je moet daarom contact houden met de docenten als je ziek wordt of achter gaat lopen. Over het algemeen wijken we dan niet af van de deadlines maar maken we strategische afspraken over welke modules je wel en niet gaat doen, en wat voor jouw situatie realistisch is en een acceptabel eindcijfer.
 
-## Andere indeling voor fulltime studenten
+## Weekschema fulltime
 
-Doe je tegelijk met dit vak het Programmeerproject? Dan doe je de minor programmeren in fulltime en bieden we een andere indeling van de twee vakken aan. Je doet dan eerst programmeren 2 in vier weken en daarna het programmeerproject in vier weken. Voor programmeren 2 ziet het schema er zo uit:
+Doe je ook het Programmeerproject deze periode? Dan doe je de minor programmeren in fulltime. Je doet dan eerst programmeren 2 in vier weken en daarna het programmeerproject in vier weken. Voor programmeren 2 ziet het schema er dit semester zo uit:
 
 | Week | Maandag        | Dinsdag        | Woensdag       | Donderdag      | Vrijdag        |
 | -----| -------------- | -------------- | -------------- | -------------- | -------------- |
@@ -60,7 +62,7 @@ Doe je tegelijk met dit vak het Programmeerproject? Dan doe je de minor programm
 | 3    | ADT            | Refactoring    | Refactoring    | Refactoring    | -              |
 | 4    | OOP            | OOP            | OOP            | OOP            | OOP            |
 
-De deadlines blijven hetzelfde als bij het reguliere schema. Dat betekent dat de mogelijkheid blijft bestaan om te wisselen naar het reguliere schema bijvoorbeeld in geval van ziekte. Dit heeft vaak wel de consequentie dat er te weinig tijd overblijft om ook het programmeerproject te volgen in hetzelfde blok en je dat vak zal moeten laten vallen. Het is daarom extra belangrijk voor fulltime studenten om goed contact te houden bij bijvoorbeeld ziekte, zo kunnen we je het beste helpen.
+Mocht je het schema in de praktijk niet redden, dan ga je uiteindelijk deadlines missen. Eventueel kun je dan terugschakelen naar parttime, door het Programmeerproject op te geven. Het is daarom extra belangrijk voor fulltimestudenten om goed contact te houden bij bijvoorbeeld ziekte, zo kunnen we je het beste begeleiden.
 
 ## Voortgangsgesprekken
 
