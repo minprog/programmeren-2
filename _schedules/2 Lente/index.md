@@ -31,7 +31,7 @@ Voor alle modules is het noodzakelijk dat je deze na inleveren ook **aftekent**.
 | -------------------------- | --------: | --------------- | --------------- |
 | Python + steropdrachten    |     6 + 1 | vr  4 apr 17:00 | do 17 apr 17:00 |
 | Datastructures             |         6 | vr 11 apr 17:00 | do 17 apr 17:00 |
-| Objects                    |         6 | vr 17 apr 17:00 | do 17 apr 17:00 |
+| Objects                    |         6 | do 17 apr 17:00 | do 17 apr 17:00 |
 | ADT + steropdrachten       |     6 + 2 | vr 25 apr 17:00 | do 17 apr 17:00 |
 | Refactoring                |         6 | vr  9 mei 17:00 | do 17 apr 17:00 |
 | OOP + steropdrachten       |     9 + 3 | wo 21 mei 17:00 | vr 25 apr 17:00 |
