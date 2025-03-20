@@ -1,0 +1,26 @@
+# Python
+
+Het doel van deze module is jouw programmeerkennis over te dragen naar een nieuwe taal, Python. Dat doe je door veel kleine programma's en functies uit te werken. Je kan vaak beginnen met de gedachte, "hoe zou ik dat doen in C?" en vervolgens, "hoe ziet dat eruit in Python?".
+
+De verschillende opdrachten zijn bewust kort en praktisch zonder uitleg. Dat betekent dat je zelf en *het liefst samen* op onderzoek uit moet gaan. Daag jezelf en elkaar hierbij uit, want de opdrachten zijn zo gekozen dat er vaak slimmere, meer "Pythoneske" manieren zijn om ze op te lossen.
+
+De assistenten zijn minder behulpzaam bij deze module. Het is echt aan jou en je mede-studenten om uit te vogelen hoe Python in elkaar steekt. Natuurlijk mag je wel altijd om hulp vragen, maar doe dit altijd eerst bij je medestudenten.
+
+> Bij deze module is samenwerken dus de bedoeling. Het is wel essentieel dat je aan het eind van de week kunt staan voor je eigen uitwerkingen en dat je je ingeleverde werk in detail kunt uitleggen. Gebruik de module dus ook om per opdracht steeds zelfstandiger te worden.
+
+## Leerdoelen
+
+Je gaat in deze module:
+
+- De basis van Python onder de knie krijgen
+- Oefenen met lists, dicts en sets
+- Kleine programmeeropdrachten in Python uitwerken
+- Tests schrijven voor je eigen code
+- Werken met tools die kwaliteit checken
+
+## Puntentelling
+
+Iedere goedwerkende opdracht is een halve punt waard tot een maximum van 6 punten. Er zijn 14 opdrachten in totaal, dus je hoeft er maar 12 te maken voor het volledig aantal punten.
+
+Er zijn daarnaast 2 opdrachten met een *. Deze opdrachten tellen apart mee. Lever je ze allebei goedwerkend in, dan is dat een extra punt in totaal. Zie ook studiewijzer voor uitleg over * opdrachten.
+
