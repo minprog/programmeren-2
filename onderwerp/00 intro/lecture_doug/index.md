@@ -6,7 +6,7 @@
 
 -   **Classes en dictionaries**
 
-    In het filmpje komen ook `classes` en `dictionaries` voorbij. Deze twee onderwerpen komen niet terug in deze module en komen pas in volgende modules aan bod.
+    In het filmpje komen ook `classes` en `dictionaries` voorbij. Deze twee onderwerpen komen niet terug in deze module en komen pas later aan bod.
 
 -   **Onnodige ternary-operator**
 
