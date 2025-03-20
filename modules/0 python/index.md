@@ -13,8 +13,7 @@ De assistenten zijn minder behulpzaam bij deze module. Het is echt aan jou en je
 Je gaat in deze module:
 
 - De basis van Python onder de knie krijgen
-- Oefenen met lists, dicts en sets
-- Kleine programmeeropdrachten in Python uitwerken
+- Oefenen met lists en strings in kleine opdrachten
 - Tests schrijven voor je eigen code
 - Werken met tools die kwaliteit checken
 
