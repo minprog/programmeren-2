@@ -1,45 +1,45 @@
-# Lecture Python
+# Introduction to Python
 
 ![embed](https://video.cs50.io/mgBpcQRDtl0)
 
-> In het filmpje komen ook `classes` en `dictionaries` voorbij. Deze twee onderwerpen komen niet terug in deze module en komen pas in volgende modules aan bod.
-
 ## Correcties
 
-Deze lecture (CS50 short) is alweer wat jaren oud. Dat betekent dat er intussen dingen zijn veranderd. Hieronder een aantal correcties.
+-   **Classes en dictionaries**
 
-### Onnodige terniary operator
+    In het filmpje komen ook `classes` en `dictionaries` voorbij. Deze twee onderwerpen komen niet terug in deze module en komen pas in volgende modules aan bod.
 
-Doug gebruikt het voorbeeld:
+-   **Onnodige ternary-operator**
 
-    all_letters = True if input().isalpha() else False
+    Doug gebruikt het voorbeeld:
 
-De methode `isalpha()` returned zelf al `True` of `False`, gebruik dus liever:
+        all_letters = True if input().isalpha() else False
 
-    all_letters = input().isalpha()
+    De methode `isalpha()` returned zelf al `True` of `False`, gebruik dus liever:
 
-### Geen slice assignment
+        all_letters = input().isalpha()
 
-Doug gebruikt onderstaande om `5` toe te voegen aan een lijst genaamd `nums`.
+-   **Geen slice assignment**
 
-    nums[len(nums):] = [5]
+    Doug gebruikt onderstaande om `5` toe te voegen aan een lijst genaamd `nums`.
 
-Dat kan, maar het is erg ongebruikelijk. Gebruik liever:
+        nums[len(nums):] = [5]
 
-    nums.append(5)
+    Dat kan, maar het is erg ongebruikelijk. Gebruik liever:
 
-Of als je twee lijsten wil samen voegen:
+        nums.append(5)
 
-    nums = nums + [5]
+    Of als je twee lijsten wil samen voegen:
 
-### f-strings
+        nums = nums + [5]
 
-Python 3.6 introduceerde f-strings en dat is nu de standaard om strings te formatten. Het filmpje gebruikt nog `.format` als volgt:
+-   **f-strings**
 
-    "In {1}, {0} took office".format(president, year)
+    Python 3.6 introduceerde f-strings en dat is nu de standaard om strings te formatten. Het filmpje gebruikt nog `.format` als volgt:
 
-Gebruik liever:
+        "In {1}, {0} took office".format(president, year)
 
-    f"In {year}, {president} took office"
+    Gebruik in plaats daarvan:
 
-Let goed op de letter `f` voor het eerste `"`!
+        f"In {year}, {president} took office"
+
+    Let goed op de letter `f` voor het eerste `"`!
