@@ -8,7 +8,7 @@ All the code fragments below have some structure that holds data. Determine the 
 
 On <https://wiki.python.org/moin/TimeComplexity> you can find the Time Complexity for each built-in operation of `list`, `set` and `dict`. 
 
-The different tables on this website list both the avarage complexity and the worst-case complexity. For this assignment we ask you to **use the avarage complexity from the table**. The reasoning here is that `set` and `dict` have incredible avarage case performance, but very rarely hit a worst case performance. For algorithm comparison reasons, the latter is often not worth considering. That said, in critical high performance situations, it is worth considering that "Individual actions may take surprisingly long".
+The different tables on this website list both the average complexity and the worst-case complexity. For this assignment we ask you to **use the average complexity from the table**. The reasoning here is that `set` and `dict` have incredible average case performance, but very rarely hit a worst case performance. For algorithm comparison reasons, the latter is often not worth considering. That said, in critical high performance situations, it is worth considering that "Individual actions may take surprisingly long".
 
 ### Question 1
 

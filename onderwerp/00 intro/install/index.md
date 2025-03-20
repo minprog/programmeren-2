@@ -1,11 +1,13 @@
 # Installatie
 
-Ga naar je terminal (kun je je nog herinneren waar?) en installeer een paar Python-packages die je nodig hebt:
+Eisen:
 
-    python3 -m pip install pytest pycodestyle mypy
+- Je moet een directory hebben op je eigen computer waarin je je uitwerkingen voor deze cursus maakt. Zorg er idealiter voor dat de directory automatisch gebackupt wordt. Maak in deze directory meteen een map "module1" voor de huidige module.
 
-Kan ook zijn dat je `python` in plaats van `python3` moet gebruiken.
+- Je gebruikt de editor Pulsar.
 
-Maak meteen een aparte map om je Python-opdrachten van week 1 te maken. Je gaat een hoop programma's schrijven, met ook nog een hoop test-files, dus zet elke module in een aparte map.
+- Je gebruikt een recente versie van Python. [Check je installatie met onze chat](https://chatgpt.com/g/g-67dacd872aa08191a9b483b6968cc47e-python-voor-programmeren-2).
 
-Heb je geen terminal/Linux geinstalleerd? Dan moet je mogelijk nog de [installatie-instructies van Programmeren 1](https://prog1.proglab.nl/extra/installatie) volgen.
+- Je hebt de volgende Python packages geinstalleerd en je kunt de tools runnen: `pytest`, `pycodestyle` en `mypy`.
+
+Heb je geen terminal/Linux geinstalleerd? Dan moet je mogelijk nog de [installatie-instructies van DR](https://dr.proglab.nl/installatie) volgen.

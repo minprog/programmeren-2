@@ -2,14 +2,16 @@ Welkom:
     Lees hier even rustig door de studiewijzer om te ontdekken hoe het vak in elkaar zit: /syllabus
 
 Python:
-    "Overzicht: Starten met Python": /modules/python
+    Overzicht: /modules/python
     Voorbereiding:
-        'College: C => Python': /onderwerp/intro/lecture_doug
-    Tools:
+        Programmeren voor grote programma's [boek]: /onderwerp/intro/boek
+        'Video: C naar Python': /onderwerp/intro/lecture_doug
         Installatie: /onderwerp/intro/install
-        'pycodestyle': /onderwerp/intro/pycodestyle
-        'mypy': /onderwerp/intro/mypy
-        'pytest': /onderwerp/intro/pytest
+    Eisen:
+        De standaard: /onderwerp/intro/standaard
+        pycodestyle: /onderwerp/intro/pycodestyle
+        mypy: /onderwerp/intro/mypy
+        pytest: /onderwerp/intro/pytest
     "Opdrachten":
         weken: /onderwerp/intro/opdrachten/weken
         isalpha: /onderwerp/intro/opdrachten/isalpha
@@ -28,81 +30,49 @@ Python:
         kenteken*: /onderwerp/intro/opdrachten/kenteken
         split real*: /onderwerp/intro/opdrachten/split_real
 
-Complexiteit:
-    "Overzicht: Datastructuren en Complexiteit": /modules/complexity
-    Complexiteit:
-        Efficiency: /onderwerp/complexity/efficiency
+Data structures:
+    Overzicht: /modules/ds
     Datastructuren:
-        Dictionaries [submit]: /onderwerp/complexity/dicts
-        Efficiency of dictionaries: /onderwerp/complexity/dict-complexity
-        Tuples: /onderwerp/complexity/tuples
-        Sets [submit]: /onderwerp/complexity/sets
-        Lists: /onderwerp/complexity/lists
-    Optimaliseren:
-        Applying Big-O: /onderwerp/complexity/big-o
-        Improving code: /onderwerp/complexity/big-o-improve
-        Complexity questions [submit]: /onderwerp/complexity/big-o-questions
-    Programmeeropdrachten:
-        Schuifpuzzel [submit]: /onderwerp/python/schuifpuzzel
-        Jaccard [submit]: /onderwerp/complexity/jaccard
-        Indexing words [submit]: /onderwerp/complexity/indexer
+        Sets [submit]: /onderwerp/ds/sets
+        Dicts [submit]: /onderwerp/ds/dicts
+        Tuples [submit]: /onderwerp/ds/tuples
+    Opdracht:
+        Recommend [submit]: /onderwerp/ds/recommend
+    Algoritmische analyse:
+        Big O [boek]: /onderwerp/ds/boek
+        Complexity [submit]: /onderwerp/ds/big-o-questions
 
 Objects:
-    "Overzicht: Objecten en Classes": /modules/oop
+    Overzicht: /modules/objects
     Voorbereiding:
-        "Videocollege: OOP": /onderwerp/oop/lecture
-        "Boek hst14: OOP": /onderwerp/oop/boek
+        "Videocollege: OOP": /onderwerp/objects/lecture
+        "OOP [boek]": /onderwerp/objects/boek
     Opdrachten:
-        Queue: /onderwerp/oop/queue
-        Game of Cards: /onderwerp/oop/cards
-        Hangman: /hangman/classic
+        Queue [submit]: /onderwerp/objects/queue
+        Game of Cards [submit]: /onderwerp/objects/cards
+        War [submit]: /onderwerp/objects/war
 
-Tools:
-    "Overzicht: Tools voor betere code": /modules/tools
-    Voorbereidingen: /modules/tools/preparation
-    Design-documentatie:
-        "Boek: Design by contract": /onderwerp/design/boek
-        1) Documenteer je functies [opdracht]: /onderwerp/design/contract
-    Types in Python:
-        "Achtergrond: typing in Python": /onderwerp/typing/typing
-        Type hints: /onderwerp/typing/type-hints
-        # Type aliases and variables: /onderwerp/typing/type-aliases
-        # Duck typing: /onderwerp/typing/duck-typing
-        # Flexible typing: /onderwerp/typing/flexible-typing
-        2) Type hints toevoegen [opdracht]: /onderwerp/typing/add-type-hints
-    Testen in Python:
-        "Achtergrond: testen in Python": /onderwerp/testing/testing
-        3) Tests toevoegen [opdracht]: /onderwerp/testing/refactor
-    Statische kwaliteitsanalyse:
-        4) Verbeter je code [opdracht]: /onderwerp/quality
-
-Challenges:
-    Overzicht: /modules/challenges
-    Opdrachten:
-        Wat is mis met Cash: /onderwerp/challenges/cash
-        Kalender design: /onderwerp/challenges/kalender
-
-Abstractions:
-    "Overzicht: Abstractions": /modules/abstractions
+Abstract Data Types:
+    Overzicht: /modules/adt
     Data Abstractions:
-        "Boek 2: Data Abstractions": /onderwerp/adts/boek
-        Testen met twee implementaties [opdracht]: /onderwerp/adts/card
-        # Een-en-twintigen: /onderwerp/adts/deck
-        Figuren [opdracht]: /onderwerp/adts/figuren
+        "Data Abstractions [boek]": /onderwerp/adt/boek
+        Testen met twee implementaties [submit]: /onderwerp/adt/card
     Containers:
-        "Boek 3: Container Classes": /onderwerp/containers/boek
-        List structure [opdracht]: /onderwerp/containers/lists
-        # Set structure: /onderwerp/containers/sets
-        Dictionary structure [opdracht]: /onderwerp/containers/dicts
-        Priority Queue [opdracht]: /onderwerp/containers/priority_queue
-Structures:
-    Overzicht: /modules/structures
-    Strucuren bouwen:
-        "Boek 4-5: Structures": /onderwerp/structures/boek
-        Palindrome [opdracht]: /onderwerp/structures/palindrome
-        Adventure [opdracht]: /adventure2/more
+        List structures [submit]: /onderwerp/adt/lists
+        Dictionary structures [submit]: /onderwerp/adt/dicts
+        Priority Queue* [submit]: /onderwerp/adt/priority_queue
+    
 
-Performance:
-    Overzicht: /modules/performance
-    Opdracht:
-        Profiling: /onderwerp/performance/profiling
+Refactoring:
+    Overzicht: /modules/refactor
+    Opdrachten:
+        Verminder de Cyclomatic Complexity van Hangman [Complexity]: /onderwerp/refactor/cc
+        Wat is er mis met Cash [Tests]: /onderwerp/refactor/cash
+        Profiling [Performance]: /onderwerp/refactor/profiling
+
+OOP:
+    Overzicht: /modules/oop
+    Structuren bouwen:
+        "Structures [boek]": /onderwerp/oop/boek
+        Palindrome [submit]: /onderwerp/oop/palindrome
+        Adventure [submit]: /adventure2/more
