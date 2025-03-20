@@ -27,8 +27,6 @@ Het **eindcijfer** bestaat uit de opgetelde punten voor de opdrachten. Het maxim
 
 Voor alle modules is het noodzakelijk dat je deze na inleveren ook **aftekent**. Zie hieronder voor uitleg over de voortgangsgesprekken waarin je dit kunt doen.
 
-Bij elke module staat aangegeven hoeveel punten elke opdracht waard is en hoe de **beoordeling** plaatsvindt.
-
 | Module                     | Punten    | Deadline PT     | Deadline FT     |
 | -------------------------- | --------: | --------------- | --------------- |
 | Python + steropdrachten    |     6 + 1 | vr  4 apr 17:00 | do 17 apr 17:00 |
@@ -39,7 +37,7 @@ Bij elke module staat aangegeven hoeveel punten elke opdracht waard is en hoe de
 | OOP + steropdrachten       |     9 + 3 | wo 21 mei 17:00 | vr 25 apr 17:00 |
 | **Totaal punten:**         |    **45** |                 |                 |
 
-Let op de verschillende **deadlines**. PT betekent dat je alleen Programmeren 2 volgt bij onze minor. FT geldt als je in dezelfde periode het vak Programmeerproject doet.
+Let op de verschillende **deadlines**. PT betekent dat je nu alleen Programmeren 2 volgt bij onze minor. FT geldt als je in dezelfde periode het vak Programmeerproject doet.
 
 Het **eindcijfer** wordt berekend via:
 
@@ -48,8 +46,6 @@ Het **eindcijfer** wordt berekend via:
 Bij verschillende modules zijn er opdrachten gemarkeerd met een *. Dit zijn **steropdrachten** die een slag verder gaan. Deze opdrachten zijn bedoeld als extra uitdagend en dus ook specifiek bedoeld voor diegenen die de uitdaging zoeken. Deze steropdrachten wegen mee in het puntentotaal en dus ook in het eindcijfer. Per saldo maken de opdrachten met een * het verschil tussen een 9 (8.8 afgerond) en een 10.
 
 Bij dit vak is het niet verplicht om **alle opdrachten** af te maken. Wel zijn de deadlines hard. Na het verstrijken van de deadline is er geen mogelijkheid meer om in te leveren.
-
-In uitzonderlijke gevallen zoals langdurige ziekte moeten er speciale afspraken worden gemaakt. Je moet daarom contact houden met de docenten als je ziek wordt of achter gaat lopen. Over het algemeen wijken we dan niet af van de deadlines maar maken we strategische afspraken over welke modules je wel en niet gaat doen, en wat voor jouw situatie realistisch is en een acceptabel eindcijfer.
 
 ## Weekschema fulltime
 
