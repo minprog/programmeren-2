@@ -9,7 +9,7 @@ Je moet een map hebben op je eigen computer waarin je je uitwerkingen voor deze 
 </details>
 
 <details markdown="1"><summary markdown="span">Je gebruikt de editor Pulsar.</summary>
- Deze kan je hier downloaden: <pulsar-edit.dev>
+ Deze kan je hier downloaden: <https://pulsar-edit.dev>
 </details>
 
 <details markdown="1"><summary markdown="span">Je gebruikt `uv` om je Python installatie te beheren.</summary>
