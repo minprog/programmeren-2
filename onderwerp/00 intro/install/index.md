@@ -1,6 +1,6 @@
 # Installatie
 
-Heb je geen terminal geinstalleerd? Of werk je op Windows en heb je geen Git Bash ingestalleerd? Dan moet je mogelijk nog de [installatie-instructies van DR](https://dr.proglab.nl/installatie) volgen.
+Heb je geen terminal geïnstalleerd? Of werk je op Windows en heb je geen Git Bash geïnstalleerd? Dan moet je mogelijk nog de [installatie-instructies van DR](https://dr.proglab.nl/installatie) volgen.
 
 ### Eisen
 
