@@ -5,7 +5,7 @@ Heb je geen terminal geinstalleerd? Of werk je op Windows en heb je geen Git Bas
 ### Eisen
 
 <details markdown="1"><summary markdown="span">Je moet een automatisch gebackupte map hebben op je eigen computer waarin je je uitwerkingen voor deze cursus maakt.</summary>
-Je moet een map hebben op je eigen computer waarin je je uitwerkingen voor deze cursus maakt. **Zorg er voor dat de directory automatisch gebackupt wordt**. Doe dit bijvoorbeeld via OneDrive, Google Drive, Surf Drive, iCloud. Maak in deze map meteen een nieuwe map "module1" voor de huidige module.
+Je moet een map hebben op je eigen computer waarin je je uitwerkingen voor deze cursus maakt. **Zorg er voor dat de directory automatisch gebackupt wordt**. Doe dit bijvoorbeeld via OneDrive, Google Drive, Surf Drive of iCloud. Maak in deze map meteen een nieuwe map "module1" voor de huidige module.
 </details>
 
 <details markdown="1"><summary markdown="span">Je gebruikt de editor Pulsar.</summary>
