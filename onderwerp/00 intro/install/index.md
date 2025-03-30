@@ -38,7 +38,7 @@ Nu is er een nieuwe map aangemaakt genaamd `.venv`. Om de virtual environment te
 
     source .venv/Scripts/activate
 
-Nu zie je de naam van de map tussen haakjes voor je prompt staan. Controleer of onderstaande hetzelfde versie nummer laat zien als net geinstalleerd via `uv`:
+Nu zie je de naam van de map tussen haakjes voor je prompt staan. Controleer of onderstaande hetzelfde versienummer laat zien als net geinstalleerd via `uv`:
 
     python --version
 
