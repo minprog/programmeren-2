@@ -46,7 +46,7 @@ Nu zie je de naam van de map tussen haakjes voor je prompt staan. Controleer of 
 
 <details markdown="1"><summary markdown="span">Je hebt de volgende Python packages geinstalleerd en je kunt de tools runnen: `pytest`, `pycodestyle` en `mypy`.</summary>
 
-Allereerst, zorg ervoor dat je in de Virtual Environment zit. Dit kan je herkennen doordat de naam van de map tussen haakjes voor je prompt staat. Is dit niet het geval, dan zul je opnieuw `source .venv/Scripts/activate` moeten draaien waar je de virtual environment hebt aangemaakt.
+Allereerst, zorg ervoor dat je in de Virtual Environment zit. Dit kan je herkennen doordat de naam van de map tussen haakjes voor je prompt staat. Is dit niet het geval, dan zul je opnieuw `source .venv/Scripts/activate` moeten draaien in de map waar je de virtual environment hebt aangemaakt.
 
 Eerst installeer je `pip` (Python installs Python) met:
 
