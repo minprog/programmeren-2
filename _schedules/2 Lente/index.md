@@ -78,7 +78,7 @@ De besprekingen bereid je voor door met een medestudent code reviews te doen. Hi
 
 - Studenten die de Minor Programmeren fulltime volgen hebben een aanwezigheidsplicht zoals apart bekend gemaakt.
 
-- Er is geen minimale aanwezigheidsplicht in het lab bij de parttime minor. Als je alle voortgangsbesprekingen hebt bijgewoond en een voldoende staat, hebben we genoeg informatie om in te staan voor jouw persoonlijke voortgang in dit vak. We raden studenten aan om regelmatig een studieplek op te zoeken in de lokalen L0.09 en L0.10. Je kunt daar ook prettig afspreken met medestudenten om de samenwerkopdrachten te doen.
+- Studenten die het vak Programmeren 2 parttime volgen (dus niet samen met Programmeerproject) moeten 2 dagdelen in de week aanwezig zijn, te kiezen uit dinsdagmiddag, donderdagmiddag en vrijdagochtend.
 
 ## Vragen stellen
 
@@ -93,7 +93,7 @@ Tijdens dit vak zul je vaak de hulp inroepen van de assistenten en medestudenten
 
 **Assistentie:** direct contact met een assistent, voor hulp bij programmeren.
 
-- hulp op locatie (lokalen L0.09 en L0.10)
+- hulp op locatie (lokalen L0.09)
 - je weet echt niet waar te beginnen of een onvindbare bug, of alles loopt vast
 - moeite met verzinnen oplossing
 - dagelijks beschikbaar na 10 uur, zet jezelf in de rij via het menu:
