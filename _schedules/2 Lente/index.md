@@ -19,11 +19,9 @@ Daarnaast zijn er veel student-assistenten, die de cursus goed kennen omdat ze '
 
 Je moet Programmeren 1 volledig hebben gehaald om dit vak te mogen volgen.
 
-## Opdrachten en eindcijfer
+## Opdrachten en aftekenen
 
 Bij dit vak werk je aan verschillende soorten **opdrachten**. De meeste opdrachten doe je individueel. Soms zijn het oefeningen, dan weer schrijf je een flink groot programma en op een aantal momenten ga je met tools aan de slag om te leren je Python-code zelf beter te maken.
-
-Het **eindcijfer** bestaat uit de opgetelde punten voor de opdrachten. Het maximaal aantal punten is 45, wat staat voor een 10 als eindcijfer. Sommige opdrachten worden automatisch gecheckt op correcte werking. Bij andere opdrachten kijkt een assistent na en geeft punten en feedback.
 
 Voor alle modules is het noodzakelijk dat je deze na inleveren ook **aftekent**. Zie hieronder voor uitleg over de voortgangsgesprekken waarin je dit kunt doen.
 
@@ -39,13 +37,21 @@ Voor alle modules is het noodzakelijk dat je deze na inleveren ook **aftekent**.
 
 Let op de verschillende **deadlines**. PT betekent dat je nu alleen Programmeren 2 volgt bij onze minor. FT geldt als je in dezelfde periode het vak Programmeerproject doet.
 
+Bij dit vak is het niet verplicht om **alle opdrachten** af te maken. Wel zijn de deadlines hard. Na het verstrijken van de deadline is er geen mogelijkheid meer om in te leveren.
+
+Bij verschillende modules zijn er opdrachten gemarkeerd met een *. Dit zijn **steropdrachten** die een slag verder gaan. Deze opdrachten zijn bedoeld als extra uitdagend en dus ook specifiek bedoeld voor diegenen die de uitdaging zoeken.
+
+## Eindcijfer
+
+Het **eindcijfer** bestaat uit de opgetelde punten voor de opdrachten. Het maximaal aantal punten is 45, wat staat voor een 10 als eindcijfer. Sommige opdrachten worden automatisch gecheckt op correcte werking. Bij andere opdrachten kijkt een assistent na en geeft punten en feedback.
+
 Het **eindcijfer** wordt berekend via:
 
     behaalde_punten / 45 * 9 + 1
 
-Bij verschillende modules zijn er opdrachten gemarkeerd met een *. Dit zijn **steropdrachten** die een slag verder gaan. Deze opdrachten zijn bedoeld als extra uitdagend en dus ook specifiek bedoeld voor diegenen die de uitdaging zoeken. Deze steropdrachten wegen mee in het puntentotaal en dus ook in het eindcijfer. Per saldo maken de opdrachten met een * het verschil tussen een 9 (8.8 afgerond) en een 10.
+De steropdrachten wegen mee in het puntentotaal en dus ook in het eindcijfer. Per saldo maken de opdrachten met een * het verschil tussen een 9 (8.8 afgerond) en een 10.
 
-Bij dit vak is het niet verplicht om **alle opdrachten** af te maken. Wel zijn de deadlines hard. Na het verstrijken van de deadline is er geen mogelijkheid meer om in te leveren.
+**Voor afronding van het vak moet je deelnemen aan de assessment die aan het einde plaatsvindt. Meer informatie hierover later.**
 
 ## Weekschema fulltime
 
@@ -72,7 +78,7 @@ De besprekingen bereid je voor door met een medestudent code reviews te doen. Hi
 
 - Studenten die de Minor Programmeren fulltime volgen hebben een aanwezigheidsplicht zoals apart bekend gemaakt.
 
-- Er is geen minimale aanwezigheidsplicht in het lab bij de parttime minor. Als je alle voortgangsbesprekingen hebt bijgewoond en een voldoende staat, hebben we genoeg informatie om in te staan voor jouw persoonlijke voortgang in dit vak. We raden studenten aan om regelmatig een studieplek op te zoeken in de lokalen L0.09 en L0.10. Je kunt daar ook prettig afspreken met medestudenten om de samenwerkopdrachten te doen.
+- Studenten die het vak Programmeren 2 parttime volgen (dus niet samen met Programmeerproject) moeten 2 dagdelen in de week aanwezig zijn, te kiezen uit dinsdagmiddag, donderdagmiddag en vrijdagochtend.
 
 ## Vragen stellen
 
@@ -87,7 +93,7 @@ Tijdens dit vak zul je vaak de hulp inroepen van de assistenten en medestudenten
 
 **Assistentie:** direct contact met een assistent, voor hulp bij programmeren.
 
-- hulp op locatie (lokalen L0.09 en L0.10)
+- hulp op locatie (lokalen L0.09)
 - je weet echt niet waar te beginnen of een onvindbare bug, of alles loopt vast
 - moeite met verzinnen oplossing
 - dagelijks beschikbaar na 10 uur, zet jezelf in de rij via het menu:
