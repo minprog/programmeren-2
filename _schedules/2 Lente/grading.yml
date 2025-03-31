@@ -11,7 +11,7 @@ calculation:
 
 opgaven_python:
     show_progress: true
-    deadline: 5/4/24 17:00
+    deadline: 4/4/25 17:00
     submits:
         weken: 1
         isalpha: 1
