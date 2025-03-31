@@ -1,6 +1,6 @@
 # Code schrijven en de standaard
 
-**Allereerst:** zorg dat je de opdrachten in de gegeven volgorde maakt. Ze bouwen vaak op! Een `*` betekent dat die opdracht niet nodig is om de module af te ronden. Je kan ervoor kiezen om die opdracht niet te maken in deze module en verder te gaan naar de volgende module.
+**Allereerst:** zorg dat je de opdrachten in de gegeven volgorde maakt. Ze bouwen vaak op! Een `*` betekent dat die opdracht geavanceerde onderwerpen/algoritmes behandelt. Deze steropdrachten leveren wel punten op, maar je kunt ze overslaan zonder je zorgen te maken dat je kennis mist.
 
 # Python-code runnen
 
