@@ -29,9 +29,9 @@ Python:
         kenteken*: /onderwerp/intro/opdrachten/kenteken
         split real*: /onderwerp/intro/opdrachten/split_real
 
-Data structures:
+Collection Types:
     Overzicht: /modules/ds
-    Datastructuren:
+    Collection types:
         Sets [submit]: /onderwerp/ds/sets
         Dicts [submit]: /onderwerp/ds/dicts
         Tuples [submit]: /onderwerp/ds/tuples

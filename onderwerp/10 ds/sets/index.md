@@ -1,6 +1,6 @@
 # Set
 
-Python heeft meerdere ingebouwde datastructuren, zo ook een `set`. Dit is een datastructuur met een aantal bijzondere eigenschappen:
+Python heeft meerdere ingebouwde collection types, waaronder een `set`. Dit is een datastructuur met een aantal bijzondere eigenschappen:
 
 - Een set kan geen duplicate elementen bevatten.
 - Een set kent geen volgorde en daarom zijn er ook geen plekken (indices).

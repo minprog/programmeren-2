@@ -1,8 +1,6 @@
-# Datastructuren en Complexiteit
+# Collections en Complexiteit
 
-Deze module gaat over *datastructuren* en *computationele complexiteit*. Je gaat aan de slag met de verschillende ingebouwde datastructuren in Python. We focussen op de verschillen en wat iedere datastructuur goed kan in termen van complexiteit. Met als doel dat je straks bewust kan kiezen tussen de verschillende datastructuren afhankelijk van het doel en gebruik.
-
-> In deze module krijg je een boel nieuwe onderdelen van Python met een hoop verschillende oefeningen. Werk ze gewoon rustig op volgorde door. Doe alles zo goed mogelijk.
+Deze module gaat over *collections* en *computationele complexiteit*. Je gaat aan de slag met de verschillende ingebouwde datastructuren in Python; allemaal zijn ze bedoeld voor het opslaan en beheren van collecties van data. We focussen op de verschillen en wat elke collection type goed kan in termen van complexiteit. Met als doel dat je straks bewust kan kiezen tussen de verschillende collection types afhankelijk van het doel en gebruik.
 
 ## Leerdoelen
 
@@ -15,18 +13,18 @@ Je gaat in deze module:
 
 ## Puntentelling
 
-1 punt voor ieder goedwerkende inzending van:
+- 1 punt per goedwerkende inzending van:
 
-- Sets
-- Dicts
-- Tuples
+    - Sets
+    - Dicts
+    - Tuples
 
-2 punten voor een goedwerkende inzending van:
+- 2 punten voor een goedwerkende inzending van:
 
-- Recommend
+    - Recommend
 
-1 punt voor een volledig en grotendeels correct (foutje mag):
+- 1 punt voor een volledig en grotendeels correct (foutje mag):
 
-- Complexity
+    - Complexity
 
 Goedwerkend betekent altijd dat het ook "goed" moet zijn. Soms via automatische checks, soms handmatig. Er worden geen deelpunten gegeven behalve wat hierboven vermeld staat.

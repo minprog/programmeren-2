@@ -1,6 +1,6 @@
 # Dicts
 
-Python heeft meerdere ingebouwde datastructuren, zo ook een `dict`. Dit is een datastructuur met een aantal bijzondere eigenschappen:
+Python heeft meerdere ingebouwde collection types, waaronder een `dict`. Dit is een datastructuur met een aantal bijzondere eigenschappen:
 
 - Een dict onthoud combinaties van keys en values. Met een key kan een value worden opgehaald.
 - Keys zijn allemaal uniek. Dit werkt op dezelfde manier als bij een `set`.

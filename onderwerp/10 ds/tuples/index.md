@@ -1,6 +1,6 @@
 # Tuple
 
-Python heeft meerdere ingebouwde datastructuren, zo ook een `tuple`. Dit is een datastructuur met een aantal bijzondere eigenschappen:
+Python heeft meerdere ingebouwde collection types, waaronder een `tuple`. Dit is een datastructuur met een aantal bijzondere eigenschappen:
 
 - Een tuple is onveranderbaar, eenmaal aangemaakt is het niet meer aan te passen.
 - Een tuple is bedoeld om een vast aantal items bij elkaar te houden, bijvoorbeeld paren.
