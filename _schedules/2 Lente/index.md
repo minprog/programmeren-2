@@ -39,19 +39,21 @@ Let op de verschillende **deadlines**. PT betekent dat je nu alleen Programmeren
 
 Bij dit vak is het niet verplicht om **alle opdrachten** af te maken. Wel zijn de deadlines hard. Na het verstrijken van de deadline is er geen mogelijkheid meer om in te leveren.
 
-Bij verschillende modules zijn er opdrachten gemarkeerd met een *. Dit zijn **steropdrachten** die een slag verder gaan. Deze opdrachten zijn bedoeld als extra uitdagend en dus ook specifiek bedoeld voor diegenen die de uitdaging zoeken.
+Bij verschillende modules zijn er opdrachten gemarkeerd met een *. Dit zijn **steropdrachten** die een slag verder gaan. Deze opdrachten zijn bedoeld als extra uitdagend en dus ook voor diegenen die deze uitdaging zoeken.
 
 ## Eindcijfer
 
-Het **eindcijfer** bestaat uit de opgetelde punten voor de opdrachten. Het maximaal aantal punten is 45, wat staat voor een 10 als eindcijfer. Sommige opdrachten worden automatisch gecheckt op correcte werking. Bij andere opdrachten kijkt een assistent na en geeft punten en feedback.
+De eindbeoordeling gaat als volgt:
 
-Het **eindcijfer** wordt berekend via:
+1.  Je maakt de **meesterproef** op 25 april (fulltime) of 22 mei (parttime). Hierin werk je een groter stuk Python-code uit, en je vult dit aan met allerlei technieken uit de cursus, zoals automatische tests. De meesterproef moet gehaald worden om het vak te kunnen halen.
 
-    behaalde_punten / 45 * 9 + 1
+2.  Je plant een **eindgesprek** kort na de meesterproef. Hier bespreken we jouw uitwerkingen van zowel de proef als je huiswerkopdrachten. Daar kunnen de docenten constateren dat je alles goed hebt begrepen en dat de huiswerkopdrachten kunnen meetellen.
 
-De steropdrachten wegen mee in het puntentotaal en dus ook in het eindcijfer. Per saldo maken de opdrachten met een * het verschil tussen een 9 (8.8 afgerond) en een 10.
+3.  Het **eindcijfer** bestaat dan uit de punten voor de opdrachten. Het wordt berekend via:
 
-**Voor afronding van het vak moet je deelnemen aan de assessment die aan het einde plaatsvindt. Meer informatie hierover later.**
+        behaalde_punten / 45 * 9 + 1
+
+    De steropdrachten wegen mee in het puntentotaal en dus ook in het eindcijfer. Per saldo maken de opdrachten met een * het verschil tussen een 9 (8.8 afgerond) en een 10.
 
 ## Weekschema fulltime
 
