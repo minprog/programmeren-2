@@ -23,8 +23,6 @@ Je moet Programmeren 1 volledig hebben gehaald om dit vak te mogen volgen.
 
 Bij dit vak werk je aan verschillende soorten **opdrachten**. De meeste opdrachten doe je individueel. Soms zijn het oefeningen, dan weer schrijf je een flink groot programma en op een aantal momenten ga je met tools aan de slag om te leren je Python-code zelf beter te maken.
 
-Voor alle modules is het noodzakelijk dat je deze na inleveren ook **aftekent**. Zie hieronder voor uitleg over de voortgangsgesprekken waarin je dit kunt doen.
-
 | Module                     | Punten    | Deadline PT     | Deadline FT     |
 | -------------------------- | --------: | --------------- | --------------- |
 | Python + steropdrachten    |     6 + 1 | vr  4 apr 17:00 | do 17 apr 17:00 |
@@ -67,14 +65,6 @@ Doe je ook het Programmeerproject deze periode? Dan doe je de minor programmeren
 | 4    | -              | OOP            | OOP            | OOP            | OOP            |
 
 Mocht je het schema in de praktijk niet redden, dan ga je uiteindelijk deadlines missen. Eventueel kun je dan terugschakelen naar parttime, door het Programmeerproject op te geven. Het is daarom extra belangrijk voor fulltimestudenten om goed contact te houden bij bijvoorbeeld ziekte, zo kunnen we je het beste begeleiden.
-
-## Voortgangsgesprekken
-
-Er zijn wekelijks individuele voortgangsgesprekken. Je houdt deze met een docent of assistent. De besprekingen zijn verplicht, en als je er één mist zonder af te zeggen kun je het vak normaal niet halen. Zorg dus dat je contact houdt.
-
-Bij de voortgangsgesprekken heb je ruimte om samen te beslissing over hoe je verder gaat en je kunt alleen daar de modules aftekenen om er punten voor te krijgen.
-
-De besprekingen bereid je voor door met een medestudent code reviews te doen. Hierin ga je al een keer kritisch de uitwerkingen vergelijken en eventueel nog aanpassen, zodat je bij het voortgangsgesprek goed kan uitleggen hoe je een en ander hebt aangepakt.
 
 ## Aanwezigheid
 
