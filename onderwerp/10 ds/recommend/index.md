@@ -150,4 +150,4 @@ Maak gebruik van `if __name__ == "__main__":` om ervoor te zorgen dat bepaalde P
 
 </details>
 
-Je hoeft voor deze opdracht geen foutafhandeling te doen. Je mag er vanuitgaan dat de gebruiker van je programma altijd een bestaand script invoert. Ook hoef je hier geen tests te schrijven.
+Je hoeft voor deze opdracht geen foutafhandeling te doen. Je mag ervan uitgaan dat de gebruiker van je programma altijd een bestaand script invoert. Ook hoef je hier geen tests te schrijven.
