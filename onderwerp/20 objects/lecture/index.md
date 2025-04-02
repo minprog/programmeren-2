@@ -29,7 +29,7 @@ Hier zie je dezelfde objecten, samen met de twee classes die we onderscheiden:
 
 ![](objects_and_classes.png)
 
-In het diagram zie je ook pijlen met "is-a" erbij. Dit is om nauwkeurig aan te geven wat de relaties is tussen een object en een klasse. We zeggen bijvoorbeeld **`rectangle2` is a `Rectange`**.
+In het diagram zie je ook pijlen met "is-a" erbij. Dit is om nauwkeurig aan te geven wat de relaties is tussen een object en een klasse. We zeggen bijvoorbeeld **`rectangle2` is a `Rectangle`**.
 
 ## Classes in Python
 
