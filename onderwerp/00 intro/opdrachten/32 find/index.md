@@ -4,7 +4,7 @@ Python strings kennen een methode `find()`. Hier vind je de [officiële document
 
 Implementeer de volgende functie in een bestand genaamd `find.py`:
 
-    def find(string: str, sub: str, start: int|None=None, end: int|None=None) -> int:
+    def find(string: str, sub: str, start: int | None=None, end: int | None=None) -> int:
         """
         Return the lowest index in the string where substring sub is found
         within the slice s[start:end]. Optional arguments start and end are
