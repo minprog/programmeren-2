@@ -28,7 +28,7 @@ Schrijf in een apart bestand `test_weken.py` tests voor de functie `weeks_elapse
 Voeg zelf tests (aparte testfuncties) toe voor de volgende drie gevallen:
 
 - Nul weken verschil tussen day1 en day2
-- Een positief verschil tussen day1 en day2 (`day1 > day2`)
+- Een positief verschil tussen day1 en day2 (`day2 > day1`)
 - Een verschil dat niet precies in hele weken wordt uitgedrukt, bijvoorbeeld acht dagen verschil.
 
 > Je kan de tests runnen met `pytest test_weken.py`
