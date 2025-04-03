@@ -45,7 +45,6 @@ Objects:
     Overzicht: /modules/objects
     Voorbereiding:
         "Videocollege: OOP": /onderwerp/objects/lecture
-        "OOP [boek]": /onderwerp/objects/boek
     Opdrachten:
         Queue [submit]: /onderwerp/objects/queue
         Game of Cards [submit]: /onderwerp/objects/cards
