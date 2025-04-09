@@ -25,8 +25,8 @@ Je gaat in deze module:
 Voor ieder complete en goedwerkende opdracht:
 
 - Cyclomatic Complexity: 2 punten
-    - Alle tests moeten slagen en de Cyclomatic Complexity 3 of lager. Er zijn hier geen deelpunten mogelijk.
+    - Alle tests moeten slagen en de Cyclomatic Complexity moet 3 of lager zijn. Er zijn hier geen deelpunten mogelijk.
 - Cash: 2 punten in totaal
     - Bij deze opdracht krijg je 1/6 punt per goede oplossing, met een maximum van 2 punten.
 - Profiling: 2 punten in totaal
-    - Bij deze opdracht krijg je 1/3 punt per goed onderbouwde concrete optimalisatie, met een maximum van 2 punten.
+    - Bij deze opdracht krijg je 1/4 punt per goed onderbouwde concrete optimalisatie, met een maximum van 2 punten.
