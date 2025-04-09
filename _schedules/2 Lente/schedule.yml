@@ -11,7 +11,7 @@ Python:
         pycodestyle: /onderwerp/intro/pycodestyle
         mypy: /onderwerp/intro/mypy
         pytest: /onderwerp/intro/pytest
-    "Opdrachten":
+    Opdrachten:
         weken: /onderwerp/intro/opdrachten/weken
         isalpha: /onderwerp/intro/opdrachten/isalpha
         lower: /onderwerp/intro/opdrachten/lower
@@ -32,46 +32,44 @@ Python:
 Collection Types:
     Overzicht: /modules/ds
     Collection types:
-        Sets [submit]: /onderwerp/ds/sets
-        Dicts [submit]: /onderwerp/ds/dicts
-        Tuples [submit]: /onderwerp/ds/tuples
+        Sets: /onderwerp/ds/sets
+        Dicts: /onderwerp/ds/dicts
+        Tuples: /onderwerp/ds/tuples
     Opdracht:
-        Recommend [submit]: /onderwerp/ds/recommend
+        Recommend: /onderwerp/ds/recommend
     Algoritmische analyse:
-        Big O [boek]: /onderwerp/ds/boek
-        Complexity [submit]: /onderwerp/ds/big-o-questions
+        "Boek: Big O": /onderwerp/ds/boek
+        Complexity: /onderwerp/ds/big-o-questions
 
 Objects:
     Overzicht: /modules/objects
     Voorbereiding:
         "Videocollege: OOP": /onderwerp/objects/lecture
-        "OOP [boek]": /onderwerp/objects/boek
     Opdrachten:
-        Queue [submit]: /onderwerp/objects/queue
-        Game of Cards [submit]: /onderwerp/objects/cards
-        War [submit]: /onderwerp/objects/war
+        Queue: /onderwerp/objects/queue
+        Game of Cards: /onderwerp/objects/cards
+        War: /onderwerp/objects/war
 
 Abstract Data Types:
     Overzicht: /modules/adt
     Data Abstractions:
-        "Data Abstractions [boek]": /onderwerp/adt/boek
-        Testen met twee implementaties [submit]: /onderwerp/adt/card
+        "Boek: Data Abstractions": /onderwerp/adt/boek
+        Testen met twee implementaties: /onderwerp/adt/card
     Containers:
-        List structures [submit]: /onderwerp/adt/lists
-        Dictionary structures [submit]: /onderwerp/adt/dicts
-        Priority Queue* [submit]: /onderwerp/adt/priority_queue
-    
+        List structures: /onderwerp/adt/lists
+        Dictionary structures: /onderwerp/adt/dicts
+        Priority Queue*: /onderwerp/adt/priority_queue
 
 Refactoring:
     Overzicht: /modules/refactor
     Opdrachten:
-        Verminder de Cyclomatic Complexity van Hangman [Complexity]: /onderwerp/refactor/cc
-        Wat is er mis met Cash [Tests]: /onderwerp/refactor/cash
-        Profiling [Performance]: /onderwerp/refactor/profiling
+        Verminder de Cyclomatic Complexity van Hangman: /onderwerp/refactor/cc
+        Wat is er mis met Cash: /onderwerp/refactor/cash
+        Profiling: /onderwerp/refactor/profiling
 
 OOP:
     Overzicht: /modules/oop
     Structuren bouwen:
-        "Structures [boek]": /onderwerp/oop/boek
-        Palindrome [submit]: /onderwerp/oop/palindrome
-        Adventure [submit]: /adventure2/more
+        "Boek: Structures": /onderwerp/oop/boek
+        Palindrome: /onderwerp/oop/palindrome
+        Adventure: /adventure2/more

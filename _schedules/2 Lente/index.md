@@ -23,8 +23,6 @@ Je moet Programmeren 1 volledig hebben gehaald om dit vak te mogen volgen.
 
 Bij dit vak werk je aan verschillende soorten **opdrachten**. De meeste opdrachten doe je individueel. Soms zijn het oefeningen, dan weer schrijf je een flink groot programma en op een aantal momenten ga je met tools aan de slag om te leren je Python-code zelf beter te maken.
 
-Voor alle modules is het noodzakelijk dat je deze na inleveren ook **aftekent**. Zie hieronder voor uitleg over de voortgangsgesprekken waarin je dit kunt doen.
-
 | Module                     | Punten    | Deadline PT     | Deadline FT     |
 | -------------------------- | --------: | --------------- | --------------- |
 | Python + steropdrachten    |     6 + 1 | vr  4 apr 17:00 | do 17 apr 17:00 |
@@ -39,19 +37,21 @@ Let op de verschillende **deadlines**. PT betekent dat je nu alleen Programmeren
 
 Bij dit vak is het niet verplicht om **alle opdrachten** af te maken. Wel zijn de deadlines hard. Na het verstrijken van de deadline is er geen mogelijkheid meer om in te leveren.
 
-Bij verschillende modules zijn er opdrachten gemarkeerd met een *. Dit zijn **steropdrachten** die een slag verder gaan. Deze opdrachten zijn bedoeld als extra uitdagend en dus ook specifiek bedoeld voor diegenen die de uitdaging zoeken.
+Bij verschillende modules zijn er opdrachten gemarkeerd met een *. Dit zijn **steropdrachten** die een slag verder gaan. Deze opdrachten zijn bedoeld als extra uitdagend en dus ook voor diegenen die deze uitdaging zoeken.
 
 ## Eindcijfer
 
-Het **eindcijfer** bestaat uit de opgetelde punten voor de opdrachten. Het maximaal aantal punten is 45, wat staat voor een 10 als eindcijfer. Sommige opdrachten worden automatisch gecheckt op correcte werking. Bij andere opdrachten kijkt een assistent na en geeft punten en feedback.
+De eindbeoordeling gaat als volgt:
 
-Het **eindcijfer** wordt berekend via:
+1.  Je maakt de **meesterproef** op 25 april (fulltime) of 22 mei (parttime). Hierin werk je een groter stuk Python-code uit, en je vult dit aan met allerlei technieken uit de cursus, zoals automatische tests. De meesterproef moet gehaald worden om het vak te kunnen halen.
 
-    behaalde_punten / 45 * 9 + 1
+2.  Je plant een **eindgesprek** kort na de meesterproef. Hier bespreken we jouw uitwerkingen van zowel de proef als je huiswerkopdrachten. Daar kunnen de docenten constateren dat je alles goed hebt begrepen en dat de huiswerkopdrachten kunnen meetellen.
 
-De steropdrachten wegen mee in het puntentotaal en dus ook in het eindcijfer. Per saldo maken de opdrachten met een * het verschil tussen een 9 (8.8 afgerond) en een 10.
+3.  Het **eindcijfer** bestaat dan uit de punten voor de opdrachten. Het wordt berekend via:
 
-**Voor afronding van het vak moet je deelnemen aan de assessment die aan het einde plaatsvindt. Meer informatie hierover later.**
+        behaalde_punten / 45 * 9 + 1
+
+    De steropdrachten wegen mee in het puntentotaal en dus ook in het eindcijfer. Per saldo maken de opdrachten met een * het verschil tussen een 9 (8.8 afgerond) en een 10.
 
 ## Weekschema fulltime
 
@@ -65,14 +65,6 @@ Doe je ook het Programmeerproject deze periode? Dan doe je de minor programmeren
 | 4    | -              | OOP            | OOP            | OOP            | OOP            |
 
 Mocht je het schema in de praktijk niet redden, dan ga je uiteindelijk deadlines missen. Eventueel kun je dan terugschakelen naar parttime, door het Programmeerproject op te geven. Het is daarom extra belangrijk voor fulltimestudenten om goed contact te houden bij bijvoorbeeld ziekte, zo kunnen we je het beste begeleiden.
-
-## Voortgangsgesprekken
-
-Er zijn wekelijks individuele voortgangsgesprekken. Je houdt deze met een docent of assistent. De besprekingen zijn verplicht, en als je er één mist zonder af te zeggen kun je het vak normaal niet halen. Zorg dus dat je contact houdt.
-
-Bij de voortgangsgesprekken heb je ruimte om samen te beslissing over hoe je verder gaat en je kunt alleen daar de modules aftekenen om er punten voor te krijgen.
-
-De besprekingen bereid je voor door met een medestudent code reviews te doen. Hierin ga je al een keer kritisch de uitwerkingen vergelijken en eventueel nog aanpassen, zodat je bij het voortgangsgesprek goed kan uitleggen hoe je een en ander hebt aangepakt.
 
 ## Aanwezigheid
 
