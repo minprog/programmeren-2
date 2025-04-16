@@ -6,7 +6,7 @@ In deze opdracht ga je tests schrijven voor de `Card`-class uit het boek en daar
 
 2.  Schrijf unit tests voor de class `Card` in een file `test_card.py`.
 
-    - Bovenaan de file zet je `from test_card import Card`. Net als in eerdere modules gebruiken wij de module `pytest` om te testen.
+    - Bovenaan de file zet je `from card_original import Card`. Net als in eerdere modules gebruiken wij de module `pytest` om te testen.
 
     - Bedenk hoe de class gebruikt kan worden en schrijf tests die diverse gebruiksscenario's controleren. Bijvoorbeeld het aanmaken van een `Card`-object en dan met `suitName` opvragen van de naam. En misschien een andere test voor het aanmaken van een `Card`-object voor een *andere* kaart. Enzovoort.
 
