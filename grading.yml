@@ -78,6 +78,9 @@ templates:
 
 grades:
 
+    meesterproef:
+        exam: true
+
     # Python
 
     weken: *automatisch_pass
