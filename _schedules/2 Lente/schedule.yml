@@ -75,7 +75,7 @@ OOP:
     Adventure:
         1. Introduction: /adventure/steps/introduction
         2. Rooms: /adventure/steps/room
-        3. Data files: /adventure/steps/data
+        3. Data files (big!): /adventure/steps/data
         4. Moving around: /adventure/steps/move
         5. Forced movement: /adventure/steps/forced
         6. Items (big!): /adventure/steps/items
