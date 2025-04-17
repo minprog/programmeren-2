@@ -72,4 +72,14 @@ OOP:
     Structuren bouwen:
         "Boek: Structures": /onderwerp/oop/boek
         Palindrome: /onderwerp/oop/palindrome
-        Adventure: /adventure2/more
+    Adventure:
+        1. Introduction: /adventure/steps/introduction
+        2. Rooms: /adventure/steps/room
+        3. Data files: /adventure/steps/data
+        4. Moving around: /adventure/steps/move
+        5. Forced movement: /adventure/steps/forced
+        6. Items (big!): /adventure/steps/items
+        7. Conditional movement: /adventure/steps/conditional
+        8. Other commands: /adventure/steps/commands
+        9. Synonyms: /adventure/steps/synonyms
+        Submit: /adventure/steps/submit
