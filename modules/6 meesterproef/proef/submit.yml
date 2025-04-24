@@ -6,7 +6,7 @@ exam: true
 buttons:
     'mypy': |
         from mypy import api
-        print(api.run(['opdracht.py']))
+        print(api.run(['opdracht.py'])[0])
     'pytest': |
         import pytest
         pytest.main(['--color=yes'])
@@ -27,10 +27,10 @@ buttons:
             ],
             max_line_length=99,
             max_doc_length=79
-        ).check_files(['phonebook.py'])
+        ).check_files(['opdracht.py'])
 
-        if len(result.file_errors) = 0:
-            print("All good :)")
+        if result.file_errors == 0:
+            print("We ran pycodestyle and it did not give any errors :)")
 
 files:
     required:
