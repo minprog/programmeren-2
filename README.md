@@ -4,12 +4,26 @@ A course in advanced programming at the University of Amsterdam, with elements o
 
 ## Changelog
 
-**Nieuw in 2024-2025**
+### Nieuw in 2024-2025
 
 - Installatie met hulp van `uv`
 - Opdracht "War"
 - Aanpassing Hangman in de cyclomatic complexity-opgave
 - Opdracht "Recommend"
+
+### Nieuw in 2023-2024
+
+- Heel veel kleine startopdrachten voor Python
+- Uitleg over testing, style checks en type checks
+- Overname uitleg dict, set en list met complexity van Scientific Programming
+- Uitwerking in tekst van OO-college
+
+### Nieuw in 2022-2023
+
+- Geen C meer in deze cursus: alles in Python
+- Uitgebreide focus op implementatie van ADT's met nieuw boek
+- Aandacht voor testing, typing en tools voor code quality
+- Meer materiaal in het Nederlands
 
 ## License
 
