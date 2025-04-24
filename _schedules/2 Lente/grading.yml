@@ -117,7 +117,7 @@ opgaven_oop:
     deadline: 21/5/25 17:00
     submits:
         palindrome: 2
-        adventure-more: 10
+        adventure-steps: 10
 
 oop:
     type: points

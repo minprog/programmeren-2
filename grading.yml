@@ -149,4 +149,12 @@ grades:
         automatic:
             check_points: (correctness_score * 7).round
         calculation: check_points + quality_points
+    adventure-steps:
+        <<: *semiautomatisch
+        subgrades:
+            check_points: integer
+            quality_points: integer
+        automatic:
+            check_points: (correctness_score * 7).round
+        calculation: check_points + quality_points
     oop_voldoende: *punten
