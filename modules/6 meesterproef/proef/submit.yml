@@ -6,7 +6,7 @@ exam: true
 buttons:
     'mypy': |
         from mypy import api
-        print(api.run(['opdracht.py'])[0])
+        print(api.run(["--strict", "--ignore-missing-imports", "opdracht.py"])[0])
     'pytest': |
         import pytest
         pytest.main(['--color=yes'])
