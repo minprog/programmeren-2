@@ -16,5 +16,7 @@ files:
             datafile
         'data2.txt': |
             datafile
+        'data3.txt': |
+            datafile
         'verantwoording.txt': |
             Schrijf hier je verantwoording
