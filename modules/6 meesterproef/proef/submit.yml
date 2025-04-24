@@ -4,8 +4,34 @@ exam: true
 #     tool: check50
 #     slug: minprog/tentamen-checks/2021/tentamen20
 buttons:
-    'try': |
-        ./<filename>
+    'mypy': |
+        from mypy import api
+        print(api.run(['opdracht.py']))
+    'pytest': |
+        import pytest
+        pytest.main(['--color=yes'])
+    'pycodestyle': |
+        import pycodestyle
+        result = pycodestyle.StyleGuide(
+            select=[
+                'E101',
+                'E112',
+                'E113',
+                'E115',
+                'E116',
+                'E117',
+                'E501',
+                'E502',
+                'W505',
+                'W291'
+            ],
+            max_line_length=99,
+            max_doc_length=79
+        ).check_files(['phonebook.py'])
+
+        if len(result.file_errors) = 0:
+            print("All good :)")
+
 files:
     required:
         'opdracht.py': |
