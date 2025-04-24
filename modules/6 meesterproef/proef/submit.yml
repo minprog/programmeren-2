@@ -9,9 +9,9 @@ buttons:
 files:
     required:
         'opdracht.py': |
-            \# opdracht.py
+            # opdracht.py
         'test_opdracht.py': |
-            \# test_opdracht.py
+            # test_opdracht.py
         'data1.txt': |
             datafile
         'data2.txt': |
