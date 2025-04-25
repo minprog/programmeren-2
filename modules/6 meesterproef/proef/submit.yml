@@ -4,8 +4,34 @@ exam: true
 #     tool: check50
 #     slug: minprog/tentamen-checks/2021/tentamen20
 buttons:
-    'try': |
-        ./<filename>
+    'mypy': |
+        from mypy import api
+        print(api.run(["--strict", "--ignore-missing-imports", "opdracht.py"])[0])
+    'pytest': |
+        import pytest
+        pytest.main(['--color=yes'])
+    'pycodestyle': |
+        import pycodestyle
+        result = pycodestyle.StyleGuide(
+            select=[
+                'E101',
+                'E112',
+                'E113',
+                'E115',
+                'E116',
+                'E117',
+                'E501',
+                'E502',
+                'W505',
+                'W291'
+            ],
+            max_line_length=99,
+            max_doc_length=79
+        ).check_files(['opdracht.py'])
+
+        if result.file_errors == 0:
+            print("We ran pycodestyle and it did not give any errors :)")
+
 files:
     required:
         'opdracht.py': |
