@@ -129,5 +129,5 @@ oop:
 meesterproef:
     type: pass
     show_progress: true
-    submit:
+    submits:
         meesterproef: 1
