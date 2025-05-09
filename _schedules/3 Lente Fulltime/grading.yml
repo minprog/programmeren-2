@@ -44,6 +44,7 @@ python_ster:
         split_real: 0.5
 
 opgaven_ds:
+    type: points
     show_progress: true
     deadline: 17/4/25 17:00
     submits:
@@ -98,6 +99,7 @@ adt_ster:
         priority_queue_adt: 2
 
 opgaven_refactoring:
+    type: points
     show_progress: true
     deadline: 17/4/25 17:00
     submits:
@@ -113,6 +115,7 @@ opgaven_refactoring:
 #         refactoring_voldoende: 6
 
 opgaven_oop:
+    type: points
     show_progress: true
     deadline: 25/4/25 17:00
     submits:
