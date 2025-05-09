@@ -62,6 +62,7 @@ opgaven_ds:
 #         ds_voldoende: 6
 
 opgaven_objects:
+    type: points
     show_progress: true
     deadline: 17/4/25 17:00
     submits:
