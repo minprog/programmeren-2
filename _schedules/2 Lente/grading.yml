@@ -125,3 +125,9 @@ oop:
     deadline: 21/5/25 17:00
     submits:
         oop_voldoende: 12
+
+meesterproef:
+    type: pass
+    show_progress: true
+    submits:
+        meesterproef: 1
