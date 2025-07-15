@@ -54,7 +54,7 @@ In deze opdracht ga je tests schrijven voor de `Card`-class uit het boek en daar
 <details markdown="1"><summary markdown="span">Fixtures?</summary>
 pytest heeft als test framework een boel features om testen makkelijker te maken. Een veel voorkomend probleem in testen is dat er een aantal zaken in orde moeten zijn voordat je iets kan testen. Bijvoorbeeld bij deze opdracht moet je vaak een kaart aanmaken en vervolgens kan je eigenschappen van de kaart bekijken. Dat valt relatief mee, maar naar mate programma's groter worden wordt die aanmaakstap ook steeds groter. Want, om bijvoorbeeld een pak kaarten (een `Deck`) te testen moet je eigenlijk alle 52 kaarten aanmaken en vervolgens een `Deck` en dan pas kan je een keertje testen. Als iedere test die code moet bevatten, wordt de testcode al snel groter en ingewikkelder dan de te testen code...
 
-Onder andere hiervoor heeft pytest zogenaamde `fixture`s. Dit zijn functies die je zelf moet schrijven voor het opzetten van een test-situatie. Dit kan bijvoorbeeld het aanmaken van een `Card` zijn, of een `Deck`, of een bestandje `cards.txt` of een verbinding met een database maken. Als je een fixture hebt geschreven, kan je die vervolgens in je tests gebruiken. Bijvoorbeeld zo:
+Onder andere hiervoor heeft pytest zogenaamde `fixture`s. Dit zijn functies die je zelf moet schrijven voor het opzetten van een test-situatie. Dit kan bijvoorbeeld het aanmaken van een `Card` zijn, of een `Deck`, of een bestandje `cards.txt`, of een verbinding met een database maken. Als je een fixture hebt geschreven, kan je die vervolgens in je tests gebruiken. Bijvoorbeeld zo:
 
     @pytest.fixture
     def ace_of_spades(Card):
