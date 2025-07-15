@@ -10,6 +10,7 @@ Schrijf een programma `calculator.py` dat gebruikers een formule laat intikken e
 Verder zijn er de volgende eisen:
 
 * De invoer van het programma is altijd één formule in de vorm `a op b` waar `a` en `b` getallen zijn en `op` een operator. Bijvoorbeeld: `3 + 7`.
+* Je mag aannemen dat de input altijd klopt. Het programma hoeft dit niet te controleren. 
 * Het antwoord moet geprint worden als kommagetal.
 * Het programma moet om kunnen gaan met negatieve getallen.
 
