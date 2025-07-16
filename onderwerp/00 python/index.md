@@ -22,4 +22,3 @@ Je gaat in deze module:
 Iedere goedwerkende opdracht is een halve punt waard tot een maximum van 6 punten. Er zijn 14 opdrachten in totaal, dus je hoeft er maar 12 te maken voor het volledig aantal punten.
 
 Er zijn daarnaast 2 opdrachten met een *. Deze opdrachten tellen apart mee. Lever je ze allebei goedwerkend in, dan is dat een extra punt in totaal. Zie ook studiewijzer voor uitleg over * opdrachten.
-
