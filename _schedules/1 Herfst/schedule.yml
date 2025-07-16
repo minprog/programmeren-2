@@ -43,30 +43,31 @@ Collections:
         Verminder de Cyclomatic Complexity van Hangman*: /onderwerp/collections/cc
 
 Objects:
-    Overzicht: /modules/objects
+    Overzicht: /onderwerp/objects
     "Videocollege: OOP": /onderwerp/objects/lecture
+    "Boek: OOP": /onderwerp/objects/boek
     Queue: /onderwerp/objects/queue
-    Cookie Jar TBD: /onderwerp/objects/cookiejar
+    Cookie Jar TBD: /onderwerp/objects/cookie
 
 Abstract Data Types:
-    Overzicht: /modules/adt
+    Overzicht: /onderwerp/adt
     "Boek: Data Abstraction": /onderwerp/adt/boek
-    Game of Cards: /onderwerp/objects/cards
-    Testen met twee implementaties: /onderwerp/adt/card
-    Wat is er mis met Cash*: /onderwerp/refactor/cash
+    Game of Cards: /onderwerp/adt/cards
+    Testen met twee implementaties: /onderwerp/adt/testing
+    Wat is er mis met Cash*: /onderwerp/adt/cash
 
 Containers:
-    Overzicht: /modules/containers
+    Overzicht: /onderwerp/containers
     "Boek: Container Classes TBD": /onderwerp/containers/boek
-    War: /onderwerp/objects/war
-    Dictionary structures: /onderwerp/adt/dicts
+    War: /onderwerp/containers/war
+    Dictionary structures: /onderwerp/containers/dicts
     Markov TBD: /onderwerp/containers/markov
 
 Linked lists:
     Overzicht: /modules/linked
     "Boek: Linked Lists TBD": /onderwerp/linked/boek
-    List structures: /onderwerp/adt/lists
-    Profiling: /onderwerp/refactor/profiling
+    List structures: /onderwerp/linked/lists
+    Profiling: /onderwerp/linked/profiling
 
 Constrained lists:
     Overzicht: /onderwerp/constrained
