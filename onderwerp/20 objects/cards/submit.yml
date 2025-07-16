@@ -4,4 +4,4 @@ files:
         - cardgame.py
 check:
     tool: check50
-    slug: minprog/objects/master/cards
+    slug: minprog/checks/2025/cards

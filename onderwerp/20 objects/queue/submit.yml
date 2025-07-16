@@ -4,4 +4,4 @@ files:
         - my_queue.py
 check:
     tool: check50
-    slug: minprog/objects/2023/queue
+    slug: minprog/checks/2025/queue
