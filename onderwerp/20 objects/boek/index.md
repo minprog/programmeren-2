@@ -1,4 +1,4 @@
-# Boek
+# Hoofdstuk 14: Object-Oriented Programming
 
 Je kunt het boek-hoofdstuk gebruiken voor extra studie over object-georiënteerd programmeren (OOP).
 Je vindt het [onderaan de mededelingen-pagina (hoofdstuk 14)](/announcements).

@@ -1,4 +1,4 @@
-# Data Abstraction
+# Hoofdstuk 2: Data Abstraction
 
 Uit het boek lees je de volgende paragrafen uit hoofdstuk 2 tot je alles zo goed mogelijk begrijpt.
 
@@ -18,6 +18,8 @@ Je zou hier onder andere moeten begrijpen:
 - Wat de rol van OOP is ten opzichte van abstracte datatypes
 - Welke stappen je kunt doorlopen om een ADT te ontwerpen
 - Hoe je een operator kunt overloaden voor jouw eigen class
+
+## Errata
 
 **Let op!** Het boek spreekt over "new-style classes". Python3 werkt alweer jaren met deze vorm van classes. De oude vorm is niet meer serieus in gebruik en kom je dus ook niet meer tegen. De voorbeelden in het boek zijn new-style dus werken ook in onze versie van Python.
 

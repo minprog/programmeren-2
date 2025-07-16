@@ -1,8 +1,8 @@
-# Algoritmische analyse
+# Hoofdstuk 1: Abstraction and Analysis
 
 Lees uit het boek **hoofdstuk 1**. De link naar het hoofdstuk is te vinden bij de [mededelingen](/announcements).
 
-Je zou hier onder andere moeten herkennen:
+Je zou onder andere moeten herkennen en begrijpen:
 
 - Verschillen tussen kleine en grotere programma's voor het schrijven van code
 - De noodzaak van abstractie
@@ -10,8 +10,12 @@ Je zou hier onder andere moeten herkennen:
 - Begrip van bestaande goede design principes
 - Big-O (en Big-Theta)
 - Gemaakte aannames van Big-O
-- Impact van algoritmische complexiteit op grote datasets
+- Impact van algoritmische complexiteit op het werken met grote datasets
 
-Gedurende dit vak komen deze onderwerpen aan bod. Hiermee ga je vooral veel aan de slag en zelf veel programmeren. Veel van de ervaring die je opdoet bij dit vak is om je uiteindelijk verder te helpen bij het schrijven van grote programma's. De ironie is dat je dit om praktische redenen doet door veelal toch weer kleinere programma's of delen van programma's te schrijven. Je zal je daarom weleens gaan afvragen: **waarom?!**. Het boek helpt je telkens de context beter te begrijpen en daarmee deze vraag te beantwoorden.
+## Waarom een boek?
 
-Kom je er met het boek niet uit, spreek ons dan gewoon aan. Het echte leren bij dit vak zit hem niet alleen in het opdoen van programmeerervaring, maar ook in het goed begrijpen waarom en hoe je programmeert.
+Gedurende dit vak komen deze onderwerpen op verschillende plekken aan bod. Zorg dat je het boek goed leest, en dat je actief nadenkt hoe jouw ervaringen tijdens het programmeren van de opdrachten samenhangen met de ideeën uit het boek.
+
+Veel van de ervaring die je opdoet bij dit vak is om je uiteindelijk verder te helpen bij het schrijven van grote programma's. De ironie is dat je dit om praktische redenen doet door veelal toch weer kleinere programma's te schrijven. En dat is vaak overkill. Je zal je daarom weleens gaan afvragen: **waarom?!**. Het boek legt gelukkig wat van de context uit over professionele software-ontwikkeling, waardoor je beter kunt plaatsen wat je aan het doen bent.
+
+Kom je er met het boek niet uit, spreek ons dan gewoon aan. Want het echte leren bij dit vak zit hem dus niet alleen in het opdoen van programmeerervaring, maar ook in het goed begrijpen waarom en hoe je programmeert.

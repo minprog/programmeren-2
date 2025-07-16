@@ -37,9 +37,10 @@ Collections:
         Dicts: /onderwerp/collections/dicts
         Tuples: /onderwerp/collections/tuples
         Recommend: /onderwerp/collections/recommend
-    Algoritmische analyse:
+    Analyse:
+        Uitleg: /onderwerp/collections/analyse
         Complexity: /onderwerp/collections/big-o-questions
-        Verminder de Cyclomatic Complexity van Hangman*: /onderwerp/refactor/cc
+        Verminder de Cyclomatic Complexity van Hangman*: /onderwerp/collections/cc
 
 Objects:
     Overzicht: /modules/objects
@@ -74,7 +75,7 @@ Constrained lists:
     Priority Queue: /onderwerp/adt/priority_queue
     Police TBD: /onderwerp/constrained/police
 
-Adventure-week:
+Adventure:
     Overzicht: /modules/oop
     "Voorbereiding: Grafen": /modules/adventure/grafen
     1. Introduction: /adventure/steps/introduction
