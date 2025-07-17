@@ -20,7 +20,6 @@ Je gaat in deze module:
 Het doel voor de onderstaande opdrachten is om ze geheel en correct te maken. Daarbij doe je een hoop ervaring op met objectgeorienteerd programmeren. Voor alle opdrachten staan automatische checks klaar.
 
 - Queue: 1 punt
-- Game of Cards: 2 punten
-- War: 3 punten
+- Cookie Jar: 1 punt
 
 Er zijn geen deelpunten mogelijk: de programma's moeten helemaal goedgekeurd worden door de website en dan krijg je de punten.

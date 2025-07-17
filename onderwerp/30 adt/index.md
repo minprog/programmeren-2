@@ -21,11 +21,16 @@ Je gaat in deze module:
 
 ## Puntentelling
 
-Voor ieder complete en goedwerkende opdracht:
+Voor iedere complete en goedwerkende opdracht:
 
-- Twee implementaties: 2 punten indien helemaal zorgvuldig gedaan met zinvolle tests die allerlei gebruiksscenario's van de class testen
-- List structures: 2 punten
-- Dictionary structures: 2 punten
-- Priority queue: 2 punten (steropdracht, niet aan te raden voor iedereen)
+Game of Cards
+: 2 punten
 
-Er zijn geen deelpunten mogelijk.
+Testen met twee implementaties
+: 2 punten indien helemaal zorgvuldig gedaan met zinvolle tests die allerlei gebruiksscenario's van de class testen
+
+Wat is er mis met Cash*
+: 2 punten in totaal
+    - Bij deze opdracht krijg je 1/6 punt per goede oplossing, met een maximum van 2 punten.
+
+Er zijn geen deelpunten mogelijk anders dan genoemd.

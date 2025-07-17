@@ -16,6 +16,5 @@ Je zou onder andere moeten herkennen en begrijpen:
 
 Gedurende dit vak komen deze onderwerpen op verschillende plekken aan bod. Zorg dat je het boek goed leest, en dat je actief nadenkt hoe jouw ervaringen tijdens het programmeren van de opdrachten samenhangen met de ideeën uit het boek.
 
-Veel van de ervaring die je opdoet bij dit vak is om je uiteindelijk verder te helpen bij het schrijven van grote programma's. De ironie is dat je dit om praktische redenen doet door veelal toch weer kleinere programma's te schrijven. En dat is vaak overkill. Je zal je daarom weleens gaan afvragen: **waarom?!**. Het boek legt gelukkig wat van de context uit over professionele software-ontwikkeling, waardoor je beter kunt plaatsen wat je aan het doen bent.
 
 Kom je er met het boek niet uit, spreek ons dan gewoon aan. Want het echte leren bij dit vak zit hem dus niet alleen in het opdoen van programmeerervaring, maar ook in het goed begrijpen waarom en hoe je programmeert.

@@ -39,7 +39,7 @@ Met klemtoon heb je te horen gekregen dat `as_sorted_list()` snel een gesorteerd
 
         def remove(self, name: str) -> bool:
             raise NotImplementedError()
-        
+
         def as_sorted_list(self) -> list[Person]:
             return self._people
 
@@ -76,11 +76,12 @@ Implementeer weer `PersonList`, maar nu met een linked list. Je kan beginnen met
 
         def remove(self, name: str) -> bool:
             raise NotImplementedError()
-        
+
         def as_sorted_list(self) -> list[Person]:
             raise NotImplementedError()
 
-> Zie je dat `PersonLinkedList` overerft van `PersonList`? Zo heeft `PersonLinkedList` dezelfde eigenschappen als `PersonList` en kan je `PersonLinkedList` overal gebruiken waar eerder een `PersonList` werd gebruikt. Dit mag nu ook van `mypy` :)
+> Zie je dat `PersonLinkedList` overerft (inherit) van `PersonList`? Zo heeft `PersonLinkedList` dezelfde eigenschappen als `PersonList` en kan je `PersonLinkedList` overal gebruiken waar eerder een `PersonList` werd gebruikt. Dit mag nu ook van `mypy` :)
+> Tip: in het boek hoofdstuk 2 staat ook een stukje over inheritance.
 
 
 ## Implementatie 3: dict en een linked list
@@ -114,7 +115,7 @@ Hier is een opzet:
 
         def remove(self, name: str) -> bool:
             raise NotImplementedError()
-        
+
         def as_sorted_list(self) -> list[Person]:
             raise NotImplementedError()
 

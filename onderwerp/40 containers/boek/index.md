@@ -1,6 +1,6 @@
 # Hoofdstuk 3: Container Classes
 
-Uit het boek lees je de volgende paragrafen uit hoofdstuk 3 tot je alles zo goed mogelijk begrijpt.
+Uit het boek lees je de volgende paragrafen tot je alles zo goed mogelijk begrijpt.
 
 - 3.1 Overview
 - 3.2 Python Lists

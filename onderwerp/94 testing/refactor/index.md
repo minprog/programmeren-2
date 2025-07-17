@@ -1,6 +1,6 @@
 # Oefenen met testen
 
-Herschrijf je code voor **Schuifpuzzel** en **Hangman** en voeg unit tests toe in aparte bestanden.
+Herschrijf je code voor **Schuifpuzzel** en **Hangman** en voeg tests toe in aparte bestanden.
 
 > Baseer je op de definitieve programma's van de vorige stap, waarin reeds volledige type hints staan en alle pre- en postconditions zijn gedocumenteerd.
 

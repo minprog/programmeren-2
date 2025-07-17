@@ -1,6 +1,6 @@
 # lower en upper
 
-Python strings kennen de methodes `lower()` en `upper()`. Hier vind je de [officiële documentatie](https://docs.python.org/3/library/stdtypes.html#str.upper).
+Python-strings kennen de methodes `lower()` en `upper()`. Hier vind je de [officiële documentatie](https://docs.python.org/3/library/stdtypes.html#str.upper).
 
 Implementeer de volgende functies in een bestand genaamd `lower.py`:
 
@@ -17,6 +17,10 @@ Implementeer de volgende functies in een bestand genaamd `lower.py`:
         """
 
 > `.isalpha()` is een handige methode om hier te gebruiken. Deze kan je zo aanroepen: `"hello".isalpha()`, of als je een variabele (bijvoorbeeld `name`) hebt: `name.isalpha()`.
+
+## Tip
+
+Als je bovenstaande leest denk je misschien wel dat je letters in de string direct kunt aanpassen, zoals je gewend bent uit de programmeertaal C. Dit is echter *niet* mogelijk in Python! Strings zijn "immutable" en de enige optie die je hebt is het aanmaken van een nieuwe string.
 
 ## Testen
 

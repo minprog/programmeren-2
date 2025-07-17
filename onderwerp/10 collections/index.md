@@ -27,4 +27,8 @@ Je gaat in deze module:
 
     - Complexity
 
+- 2 punten voor Cyclomatic Complexity:
+
+    - Alle tests moeten slagen en de Cyclomatic Complexity moet 3 of lager zijn. Er zijn hier geen deelpunten mogelijk.
+
 Goedwerkend betekent altijd dat het ook "goed" moet zijn. Soms via automatische checks, soms handmatig. Er worden geen deelpunten gegeven behalve wat hierboven vermeld staat.
