@@ -1,76 +1,63 @@
-# Programmeren 2<br><small>Studiewijzer Lente 2025</small>
+# Programmeren voor Bèta-Gamma AI<br><small>Studiewijzer Herfst 2025</small>
 
 Wat ga je doen?
 
 - De verschillende manieren van programmeren in Python leren kennen en beheersen.
 - Leren hoe je je eigen programma's op kwaliteit kunt toetsen en verbeteren.
 - Kennis maken met abstracte datatypes in diverse vormen.
-- Begrijpen waarom sommige algoritmen beter werken dan andere.
+- Begrijpen waarom sommige algoritmen "beter" werken dan andere.
 - Kunnen analyseren hoe goed een algoritme werkt gegeven een bepaalde datastructuur.
-- Leren hoe je maatregelen kunt toepassen in code om latere fouten te voorkomen.
+- Leren hoe je maatregelen kunt nemen in code om latere fouten te voorkomen.
 
 ## Docenten en assistenten
 
-De docenten bij dit vak zijn Jelle van Assema en Martijn Stegeman. Zij geven het vak vorm en verzorgen de organisatie. Je kunt ze bereiken via e-mail op <help@mprog.nl>.
+De docent bij dit vak is Martijn Stegeman. Hij geeft het vak vorm en verzorgt de organisatie. Assistent is Madelief Hardeman, die de cursus goed kent omdat ze 'm zelf gedaan heeft, en jou gaat helpen op de momenten dat het nodig is. Je kunt ze bereiken via e-mail op <progbg@mprog.nl>.
 
-Daarnaast zijn er veel student-assistenten, die de cursus goed kennen omdat ze 'm zelf gedaan hebben, en jou gaan helpen op de momenten dat het nodig is.
+## Voorkennis
 
-## Ingangseisen
-
-Je moet Programmeren 1 volledig hebben gehaald om dit vak te mogen volgen.
+Je moet Inleiding Programmeren voor Bèta-Gamma mooi gehaald hebben om goed van start te kunnen met dit vak.
 
 ## Opdrachten en aftekenen
 
 Bij dit vak werk je aan verschillende soorten **opdrachten**. De meeste opdrachten doe je individueel. Soms zijn het oefeningen, dan weer schrijf je een flink groot programma en op een aantal momenten ga je met tools aan de slag om te leren je Python-code zelf beter te maken.
 
-| Module                     | Punten    | Deadline PT     | Deadline FT     |
-| -------------------------- | --------: | --------------- | --------------- |
-| Python + steropdrachten    |     6 + 1 | vr  4 apr 17:00 | do 17 apr 17:00 |
-| Datastructures             |         6 | vr 11 apr 17:00 | do 17 apr 17:00 |
-| Objects                    |         6 | do 17 apr 17:00 | do 17 apr 17:00 |
-| ADT + steropdrachten       |     6 + 2 | vr 25 apr 17:00 | do 17 apr 17:00 |
-| Refactoring                |         6 | vr  9 mei 17:00 | do 17 apr 17:00 |
-| OOP + steropdrachten       |     9 + 3 | wo 21 mei 17:00 | vr 25 apr 17:00 |
-| **Totaal punten:**         |    **45** |                 |                 |
+| Week | Module              | Punten | Ster |               Deadline |
+|------|---------------------|-------:|-----:|-----------------------:|
+| 1    | Python              |      6 |    1 |        vr  5 sep 17:00 |
+| 2    | Collections         |      6 |    2 |        vr 12 sep 17:00 |
+| 3    | Objects             |      2 |    - |        vr 19 sep 17:00 |
+| 3    | Abstract Data Types |      4 |    2 | (idem) vr 19 sep 17:00 |
+| 4    | Container Classes   |      4 |    1 |        do 25 sep 17:00 |
+| 4+5  | Linked Lists        |      4 |    - |        di 30 sep 17:00 |
+| 5    | Constrained Lists   |      4 |    - |        vr  3 okt 17:00 |
+| 6+7  | Adventure           |     12 |    - |        vr 17 okt 17:00 |
+|      | **Totaal punten:**  |     42 |    5 |                        |
 
-Let op de verschillende **deadlines**. PT betekent dat je nu alleen Programmeren 2 volgt bij onze minor. FT geldt als je in dezelfde periode het vak Programmeerproject doet.
+Let op de verschillende **deadlines**. Bij dit vak is het niet verplicht om alle opdrachten af te maken. Wel zijn de deadlines hard. Na het verstrijken van de deadline is er dus géén mogelijkheid meer om in te leveren.
 
-Bij dit vak is het niet verplicht om **alle opdrachten** af te maken. Wel zijn de deadlines hard. Na het verstrijken van de deadline is er geen mogelijkheid meer om in te leveren.
-
-Bij verschillende modules zijn er opdrachten gemarkeerd met een *. Dit zijn **steropdrachten** die een slag verder gaan. Deze opdrachten zijn bedoeld als extra uitdagend en dus ook voor diegenen die deze uitdaging zoeken.
+Bij verschillende modules zijn er opdrachten gemarkeerd met een *. Dit zijn **steropdrachten** die een slag verder gaan. Deze opdrachten zijn bedoeld als extra uitdagend en dus ook voor diegenen die deze uitdaging zoeken. Als je ze niet maakt mis je een heel bescheiden aantal punten.
 
 ## Eindcijfer
 
 De eindbeoordeling gaat als volgt:
 
-1.  Je maakt de **meesterproef** op 25 april (fulltime) of 22 mei (parttime). Hierin werk je een groter stuk Python-code uit, en je vult dit aan met allerlei technieken uit de cursus, zoals automatische tests. De meesterproef moet gehaald worden om het vak te kunnen halen.
+1.  Je maakt de **meesterproef** (tentamen). Hierin werk je een groter stuk Python-code uit, en je vult dit aan met allerlei technieken uit de cursus, zoals automatische tests. De meesterproef moet voldoende zijn om het vak te kunnen halen.
 
 2.  Je plant een **eindgesprek** kort na de meesterproef. Hier bespreken we jouw uitwerkingen van zowel de proef als je huiswerkopdrachten. Daar kunnen de docenten constateren dat je alles goed hebt begrepen en dat de huiswerkopdrachten kunnen meetellen.
 
 3.  Het **eindcijfer** bestaat dan uit de punten voor de opdrachten. Het wordt berekend via:
 
-        behaalde_punten / 45 * 9 + 1
+        behaalde_punten / maximum * 9 + 1   # TBD
 
     De steropdrachten wegen mee in het puntentotaal en dus ook in het eindcijfer. Per saldo maken de opdrachten met een * het verschil tussen een 9 (8.8 afgerond) en een 10.
 
-## Weekschema fulltime
-
-Doe je ook het Programmeerproject deze periode? Dan doe je de minor programmeren in fulltime. Je doet dan eerst programmeren 2 in vier weken en daarna het programmeerproject in vier weken. Voor programmeren 2 ziet het schema er dit semester zo uit:
-
-| Week | Maandag        | Dinsdag        | Woensdag       | Donderdag      | Vrijdag        |
-| -----| -------------- | -------------- | -------------- | -------------- | -------------- |
-| 1    | Python         | Python         | Python / DS    | Datastructures | Datastructures |
-| 2    | Objects        | Objects        | Objects        | ADT            | ADT            |
-| 3    | ADT            | Refactoring    | Refactoring    | Refactoring    | -              |
-| 4    | -              | OOP            | OOP            | OOP            | OOP            |
-
-Mocht je het schema in de praktijk niet redden, dan ga je uiteindelijk deadlines missen. Eventueel kun je dan terugschakelen naar parttime, door het Programmeerproject op te geven. Het is daarom extra belangrijk voor fulltimestudenten om goed contact te houden bij bijvoorbeeld ziekte, zo kunnen we je het beste begeleiden.
-
 ## Aanwezigheid
 
-- Studenten die de Minor Programmeren fulltime volgen hebben een aanwezigheidsplicht zoals apart bekend gemaakt.
+Jouw aanwezigheid wordt verwacht bij alle bijeenkomsten die in het rooster vermeld staan. Mocht je onverhoopt een keer niet kunnen, dan stuur je even een mailtje. Dit hoeft zeker niet via de studieadviseur, je mag het gewoon direct bij ons melden.
 
-- Studenten die het vak Programmeren 2 parttime volgen (dus niet samen met Programmeerproject) moeten 2 dagdelen in de week aanwezig zijn, te kiezen uit dinsdagmiddag, donderdagmiddag en vrijdagochtend.
+Heb je meer systematisch problemen met aanwezig zijn, bespreek het dan even. Er is vast een hoop mogelijk, maar voor ons is het belangrijk dat we de studenten op vaste momenten in de week kunnen zien en begeleiden, zodat we op andere momenten ook andere dingen kunnen doen. Daarom is die aanwezigheid voor ons zo belangrijk.
+
+Als je wegblijft tijdens het vak, hou er dan rekening mee dat er weinig flexibiliteit is om alternatieve begeleiding te geven en dat er geen uitzonderingen worden verleend op de standaardregels (denk aan deadlines).
 
 ## Vragen stellen
 
@@ -79,18 +66,15 @@ Tijdens dit vak zul je vaak de hulp inroepen van de assistenten en medestudenten
 **Medestudenten:** eerste hulp bij vastlopen.
 
 - jouw eerste aanspreekpunt zijn je medestudenten in het lokaal
-- ook als parttime-student moet je zorgen dat je toegang hebt tot andere studenten
 - samen nadenken over de opdracht helpt je verder
-- de beste manier is om vaak in het lokaal te komen zitten
+- controleer met elkaar je uitwerkingen, bijvoorbeeld door ideeën voor tests te delen
 
 **Assistentie:** direct contact met een assistent, voor hulp bij programmeren.
 
-- hulp op locatie (lokalen L0.09)
+- hulp op locatie (lokaal L0.09 of L0.10)
 - je weet echt niet waar te beginnen of een onvindbare bug, of alles loopt vast
 - moeite met verzinnen oplossing
-- dagelijks beschikbaar na 10 uur, zet jezelf in de rij via het menu:
-
-    ![](../hands-menu.png)
+- meld je vraag aan via deze website
 
 **E-mail:** contact met de docenten.
 
@@ -99,7 +83,7 @@ Tijdens dit vak zul je vaak de hulp inroepen van de assistenten en medestudenten
 - andere officiële zaken
 - administratie na afloop van het vak
 - je kunt ook even een afspraak maken om iets door te spreken
-- mail <help@mprog.nl>
+- mail <progbg@mprog.nl>
 
 <details markdown="1"><summary markdown="span">Kom je helemaal niet verder en heb je even geen hulp?</summary>
 Juist even niet aan de opdracht werken kan je verder helpen!

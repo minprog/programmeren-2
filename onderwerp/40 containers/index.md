@@ -2,8 +2,11 @@
 
 Voor iedere complete en goedwerkende opdracht:
 
-- War: 3 punten
+- War: 2 punten
 - Dictionary structures: 2 punten
-- Markov: TBD
 
 Er zijn geen deelpunten mogelijk.
+
+## Steropdrachten
+
+- Markov: 1 punt

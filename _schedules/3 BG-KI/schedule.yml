@@ -59,7 +59,7 @@ Containers:
     "Boek: Container Classes TBD": /onderwerp/containers/boek
     War: /onderwerp/objects/war
     Dictionary structures: /onderwerp/adt/dicts
-    Markov TBD: /onderwerp/containers/markov
+    Markov: /onderwerp/containers/markov
 
 Linked lists:
     Overzicht: /modules/linked
@@ -76,7 +76,7 @@ Constrained lists:
 
 Adventure:
     Overzicht: /modules/oop
-    "Voorbereiding: Grafen": /modules/adventure/grafen
+    "Voorbereiding: Grafen TBD": /modules/adventure/grafen
     1. Introduction: /adventure/steps/introduction
     2. Rooms: /adventure/steps/room
     3. Data files (big!): /adventure/steps/data

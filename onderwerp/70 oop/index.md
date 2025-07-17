@@ -13,8 +13,8 @@ Je gaat in deze module:
 ## Puntentelling
 
 
-- tot 7 punten voor Adventure, afhankelijk van hoe ver je komt met de implementatie:
-    - eerste 7 punten zijn op basis van percentage checks die lukken en uitvoering volgens de opdracht (zonder uitzondering)
+- tot 9 punten voor Adventure, afhankelijk van hoe ver je komt met de implementatie:
+    - eerste 9 punten zijn op basis van percentage checks die lukken en uitvoering volgens de opdracht (zonder uitzondering)
 
 Voor de wijze waarop je het geleerde uit Programmeren 2 toepast in deze implementatie kan je extra * punten behalen. Deze punten tellen apart mee, zie ook de studiewijzer.
 

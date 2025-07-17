@@ -10,11 +10,9 @@ Daarna gaan we kijken naar *container classes* in Python en hoe die zijn opgebou
 
 ## Leerdoelen
 
-Je gaat in deze module:
-
 - Goed begrijpen wat een ADT is
 - Enkele basisvoorbeelden van ADT's leren kennen
-- Ervaren hoe je classes en objecten kunt gebruiken voor het implementeren van ADT's
+- Ervaren hoe je classes kunt gebruiken voor het implementeren van ADT's
 - Leren kiezen voor de juiste datastructuur
 - Verschillende list-implementaties in Python implementeren en onderzoeken
 - Verschillende dictionary-implementaties in Python implementeren en onderzoeken
@@ -29,8 +27,10 @@ Game of Cards
 Testen met twee implementaties
 : 2 punten indien helemaal zorgvuldig gedaan met zinvolle tests die allerlei gebruiksscenario's van de class testen
 
+Er zijn geen deelpunten mogelijk.
+
+## Steropdracht
+
 Wat is er mis met Cash*
 : 2 punten in totaal
     - Bij deze opdracht krijg je 1/6 punt per goede oplossing, met een maximum van 2 punten.
-
-Er zijn geen deelpunten mogelijk anders dan genoemd.

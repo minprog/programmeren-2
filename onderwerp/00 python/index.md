@@ -25,4 +25,6 @@ Onthoud wel: Python is niet het doel van deze cursus, maar alleen maar de taal d
 
 Iedere goedwerkende opdracht is een halve punt waard tot een maximum van 6 punten. Er zijn 14 opdrachten in totaal, dus je hoeft er maar 12 te maken voor het volledig aantal punten.
 
-Er zijn daarnaast 2 opdrachten met een `*`. Deze opdrachten tellen apart mee. Lever je ze allebei goedwerkend in, dan is dat een extra punt in totaal. Zie ook studiewijzer voor uitleg over steropdrachten.
+## Steropdrachten
+
+Er zijn daarnaast 2 opdrachten met een `*`. Deze opdrachten tellen gewoon mee, maar we markeren ze apart omdat ze wat uitdagender zijn. Lever je deze opdrachten allebei goedwerkend in, dan is dat samen één extra punt voor deze module. Zie ook studiewijzer voor uitleg over steropdrachten.

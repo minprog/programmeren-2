@@ -4,20 +4,18 @@ Deze module ga je onderzoeken hoe objectgeoriënteerd programmeren kan helpen om
 
 > Dit is echt een *studeer*-module. Gebruik 'm om zo goed mogelijk te begrijpen hoe objectgeorienteerd programmeren werkt. Dit is niet eenvoudig en het is goed om het college nog eens te kijken als je de eerste opdrachten hebt gedaan.
 >
-> Tip: werk samen bij de Queue- en Cards-oefeningen maar maak je eigen versie. Werk niet samen bij War. Gebruik absoluut geen ChatGPT bij deze module, dan doe je jezelf echt te kort bij het studeren. Een eerste begrip opbouwen is de bedoeling en dat gaat niet met "hulp".
+> Tip: Gebruik absoluut geen ChatGPT bij deze module, dan doe je jezelf echt te kort bij het studeren. Een eerste begrip opbouwen is de bedoeling en dat gaat niet met dergelijke "hulp".
 
 ## Leerdoelen
 
-Je gaat in deze module:
-
-- Leren hoe je classes definieert
-- Leren hoe je objecten instantieert in het geheugen
+- Hoe je classes definieert
+- Hoe je objecten instantieert in het geheugen
 - Oefenen met classes, objecten, instance variables en meer
 - Oefenen met het bouwen van classes op basis van hoe deze wordt gebruikt
 
 ## Puntentelling
 
-Het doel voor de onderstaande opdrachten is om ze geheel en correct te maken. Daarbij doe je een hoop ervaring op met objectgeorienteerd programmeren. Voor alle opdrachten staan automatische checks klaar.
+Het doel voor de onderstaande opdrachten is om ze geheel en correct te maken. Daarbij doe je je eerste ervaring op met objectgeorienteerd programmeren. Voor de opdrachten staan automatische checks klaar, zodat je meteen weet of ze voldoende zijn.
 
 - Queue: 1 punt
 - Cookie Jar: 1 punt
