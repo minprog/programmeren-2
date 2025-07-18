@@ -111,9 +111,9 @@ Juist even niet aan de opdracht werken kan je verder helpen!
 
 ## Regels voor samenwerken, plagiaat en ChatGPT
 
-### Samenwerken
-
 De basis van alles wat je inlevert moet jouw eigen denkwerk zijn.
+
+### Samenwerken
 
 Natuurlijk is het nuttig om bij het maken van individuele opdrachten **interactie** te hebben met je medestudenten, en dat kan ook enorm helpen bij het beheersen van de stof. Maar er is een grens tussen het vragen van hulp aan een ander en het inleveren van werk van een ander. Hieronder karakteriseren we beide kanten van die grens.
 
