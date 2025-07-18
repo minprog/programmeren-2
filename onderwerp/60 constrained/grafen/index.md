@@ -56,12 +56,12 @@ We zullen ook nog een specifieke vorm van grafen benoemen. Een **boom** is een g
 
 Een voorbeeld van een boom is de hiërarchische structuur in een traditioneel bedrijf:
 
-            CEO
+             CEO
             /   \
-        CTO       CFO
+         CTO       CFO
         /   \        \
-    Dev   QA       Finance
-    |             /
+      Dev    QA       Finance
+       |             /
     Intern       Analyst
 
 In zo'n hiërarchie is meestal geen plek voor cykels. Er is geen analist die toch ook de leidinggevende is van een developer. Tenminste, dat nemen we nu aan.
