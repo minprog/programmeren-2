@@ -188,7 +188,7 @@ De [fraude- en plagiaatregeling](https://student.uva.nl/onderwerpen/plagiaat-en-
 
 ### ChatGPT en andere LLM's
 
-Hoewel LLM's bijzonder goed zijn in programmeren, zeker waar het kleine opdrachten betreft, kun je niet beoordelen wat er goed is zonder zelf te leren programmeren. Als jij code van een LLM overneemt zonder gedegen kennis, loop je het risico bugs en security-leaks over te nemen zonder dat je er erg in hebt. En als je wil bijdragen aan grotere software-projecten, dan merk je zonder deze kennis en ervaring dat je het overzicht niet kan houden.
+Hoewel LLM's bijzonder goed zijn in programmeren, zeker waar het kleine opdrachten betreft, kun je als student zelf niet beoordelen of het echt goed is zonder zelf te leren programmeren. Als jij code van een LLM overneemt zonder gedegen kennis, loop je het risico bugs en security-leaks over te nemen zonder dat je er erg in hebt. En als je wil bijdragen aan grotere software-projecten, dan merk je zonder deze kennis en ervaring dat je het overzicht niet kan houden.
 
 Bij deze cursus is het gebruik van ChatGPT dus ook niet toegestaan voor het genereren van (delen van) oplossingen voor de opdrachten, eigenlijk precies zoals je geen oplossingen van andere studenten mag overnemen, zoals hierboven vermeld. Als je dit toch doet wordt het gezien als fraude. Bij een vermoeden van fraude moet dit door de docent worden gerapporteerd, net als bij de plagiaatregeling.
 
