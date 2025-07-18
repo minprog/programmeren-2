@@ -2,12 +2,15 @@
 
 Wat ga je doen?
 
-- De verschillende manieren van programmeren in Python leren kennen en beheersen.
+- De verschillende programmeerstijlen in Python beheersen.
 - Leren hoe je je eigen programma's op kwaliteit kunt toetsen en verbeteren.
 - Kennis maken met abstracte datatypes in diverse vormen.
+- Implementeren van verschillende datastructuren op basis van Python classes.
 - Begrijpen waarom sommige algoritmen "beter" werken dan andere.
-- Kunnen analyseren hoe goed een algoritme werkt gegeven een bepaalde datastructuur.
+- Analyseren hoe goed een algoritme werkt gegeven een bepaalde datastructuur.
 - Leren hoe je maatregelen kunt nemen in code om latere fouten te voorkomen.
+
+Bij dit vak werk je aan verschillende soorten **opdrachten**. De meeste opdrachten doe je individueel. Soms zijn het oefeningen, dan weer schrijf je een flink groot programma en op een aantal momenten ga je met tools aan de slag om te leren je Python-code zelf beter te maken.
 
 ## Docenten en assistenten
 
@@ -15,11 +18,11 @@ De docent bij dit vak is Martijn Stegeman. Hij geeft het vak vorm en verzorgt de
 
 ## Voorkennis
 
-Je moet Inleiding Programmeren voor Bèta-Gamma mooi gehaald hebben om goed van start te kunnen met dit vak.
+Je moet *Inleiding Programmeren voor Bèta-Gamma* mooi gehaald hebben om goed te starten. Vond je Python tot nu toe best moeilijk, steek dan ruim extra tijd in dit vak.
 
 ## Opdrachten en aftekenen
 
-Bij dit vak werk je aan verschillende soorten **opdrachten**. De meeste opdrachten doe je individueel. Soms zijn het oefeningen, dan weer schrijf je een flink groot programma en op een aantal momenten ga je met tools aan de slag om te leren je Python-code zelf beter te maken.
+Hieronder vind je de **deadlines**. Bij dit vak is het niet verplicht om alle opdrachten af te maken. Wel zijn de deadlines hard. Na het verstrijken van de deadline is er dus géén mogelijkheid meer om in te leveren.
 
 | Week | Module              | Punten | Ster |        Deadline |         |
 |------|---------------------|:------:|:----:|----------------:|---------|
@@ -33,9 +36,7 @@ Bij dit vak werk je aan verschillende soorten **opdrachten**. De meeste opdracht
 | 6+7  | Adventure           |   12   |   -  | vr 17 okt 17:00 |         |
 |      | **Totaal punten:**  |   42   |   5  |                 |         |
 
-Let op de verschillende **deadlines**. Bij dit vak is het niet verplicht om alle opdrachten af te maken. Wel zijn de deadlines hard. Na het verstrijken van de deadline is er dus géén mogelijkheid meer om in te leveren.
-
-Bij verschillende modules zijn er opdrachten gemarkeerd met een *. Dit zijn **steropdrachten** die een slag verder gaan. Deze opdrachten zijn bedoeld als extra uitdagend en dus ook voor diegenen die deze uitdaging zoeken. Als je ze niet maakt mis je een heel bescheiden aantal punten.
+Bij verschillende modules zijn er opdrachten gemarkeerd met een `*`. Dit zijn **steropdrachten** die een slag verder gaan. Deze opdrachten zijn bedoeld als extra uitdagend en dus ook voor diegenen die deze uitdaging zoeken. Als je ze niet maakt mis je een bescheiden aantal punten.
 
 ## Eindcijfer
 
