@@ -50,33 +50,33 @@ Objects:
 Abstract Data Types:
     Overzicht: /onderwerp/adt
     "Boek: Data Abstraction": /onderwerp/adt/boek
-    Game of Cards: /onderwerp/objects/cards
-    Testen met twee implementaties: /onderwerp/adt/card
-    Wat is er mis met Cash*: /onderwerp/refactor/cash
+    Game of Cards: /onderwerp/adt/cards
+    Testen met twee implementaties: /onderwerp/adt/testing
+    Wat is er mis met Cash*: /onderwerp/adt/cash
 
 Containers:
     Overzicht: /onderwerp/containers
     "Boek: Container Classes TBD": /onderwerp/containers/boek
-    War: /onderwerp/objects/war
-    Dictionary structures: /onderwerp/adt/dicts
+    War: /onderwerp/containers/war
+    Dictionary structures: /onderwerp/containers/dicts
     Markov: /onderwerp/containers/markov
 
 Linked lists:
     Overzicht: /onderwerp/linked
     "Boek: Linked Lists TBD": /onderwerp/linked/boek
-    List structures: /onderwerp/adt/lists
-    Profiling: /onderwerp/refactor/profiling
+    List structures: /onderwerp/linked/lists
+    Profiling: /onderwerp/linked/profiling
 
 Constrained lists:
     Overzicht: /onderwerp/constrained
     "Boek: Structures TBD": /onderwerp/constrained/boek
-    Palindrome: /onderwerp/oop/palindrome
-    Priority Queue: /onderwerp/adt/priority_queue
+    Palindrome: /onderwerp/constrained/palindrome
+    Priority Queue: /onderwerp/constrained/priority_queue
     Police TBD: /onderwerp/constrained/police
 
 Adventure:
     Overzicht: /onderwerp/oop
-    "Voorbereiding: Grafen TBD": /modules/adventure/grafen
+    "Voorbereiding: Grafen TBD": /onderwerp/oop/grafen
     1. Introduction: /adventure/steps/introduction
     2. Rooms: /adventure/steps/room
     3. Data files (big!): /adventure/steps/data
