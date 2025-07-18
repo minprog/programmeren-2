@@ -39,7 +39,7 @@ Collections:
         Recommend: /onderwerp/collections/recommend
     Algoritmische analyse:
         Complexity: /onderwerp/collections/big-o-questions
-        Verminder de Cyclomatic Complexity van Hangman*: /onderwerp/refactor/cc
+        Verminder de Cyclomatic Complexity van Hangman*: /onderwerp/collections/cc
 
 Objects:
     Overzicht: /modules/objects
