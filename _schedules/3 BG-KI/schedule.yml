@@ -73,7 +73,7 @@ Constrained lists:
         "Boek: Stacks and Queues": /onderwerp/constrained/boek
         Palindrome: /onderwerp/constrained/palindrome
     Implementatie:
-        "Theorie: grafen en bomen": /onderwerpen/constrained/grafen
+        "Theorie: grafen en bomen": /onderwerp/constrained/grafen
         Priority Queue: /onderwerp/constrained/priority_queue
     Police TBD: /onderwerp/constrained/police
 
