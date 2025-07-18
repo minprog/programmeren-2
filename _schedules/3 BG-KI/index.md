@@ -36,29 +36,43 @@ Hieronder vind je de **deadlines**. Bij dit vak is het niet verplicht om alle op
 | 6+7  | Adventure           |   12   |   -  | vr 17 okt 17:00 |         |
 |      | **Totaal punten:**  |   42   |   5  |                 |         |
 
-Bij verschillende modules zijn er opdrachten gemarkeerd met een `*`. Dit zijn **steropdrachten** die een slag verder gaan. Deze opdrachten zijn bedoeld als extra uitdagend en dus ook voor diegenen die deze uitdaging zoeken. Als je ze niet maakt mis je een bescheiden aantal punten.
+Bij verschillende modules zijn er opdrachten gemarkeerd met een `*`. Dit zijn **steropdrachten**, bedoeld als extra uitdaging en dus ook voor diegenen die daarnaar op zoek zijn. Als je ze niet maakt mis je slechts een bescheiden aantal punten.
 
 ## Eindcijfer
 
 De eindbeoordeling gaat als volgt:
 
-1.  Je maakt de **meesterproef** (tentamen). Hierin werk je een groter stuk Python-code uit, en je vult dit aan met allerlei technieken uit de cursus, zoals automatische tests. De meesterproef moet voldoende zijn om het vak te kunnen halen.
+1.  Je maakt de **meesterproef** (tentamen). Hierin werk je een groter stuk Python-code uit, en je vult dit aan met allerlei technieken uit de cursus, zoals automatische tests. De meesterproef moet voldoende zijn om het vak te kunnen halen. Bij de meesterproef focussen we op een basisniveau, met een paar geavanceerdere onderdelen.
 
-2.  Je plant een **eindgesprek** kort na de meesterproef. Hier bespreken we jouw uitwerkingen van zowel de proef als je huiswerkopdrachten. Daar kunnen de docenten constateren dat je alles goed hebt begrepen en dat de huiswerkopdrachten kunnen meetellen.
+2.  Je hebt een **eindgesprek** kort na de meesterproef. Hier bespreken we jouw uitwerkingen van zowel de proef als je huiswerkopdrachten. Je resultaat bij de proef ondersteunt de beoordeling van het huiswerk. Zo kunnen de docenten constateren dat je alles goed hebt begrepen en dat de huiswerkopdrachten kunnen meetellen.
 
 3.  Het **eindcijfer** bestaat dan uit de punten voor de opdrachten. Het wordt berekend via:
 
         behaalde_punten / maximum * 9 + 1   # TBD
 
-    De steropdrachten wegen mee in het puntentotaal en dus ook in het eindcijfer. Per saldo maken de opdrachten met een * het verschil tussen een 9 (8.8 afgerond) en een 10.
+    De steropdrachten wegen mee in het puntentotaal en dus ook in het eindcijfer. Per saldo maken de opdrachten met een `*` het verschil tussen een TBD 9 (8.8 afgerond) en een 10.
+
 
 ## Aanwezigheid
 
-Jouw aanwezigheid wordt verwacht bij alle bijeenkomsten die in het rooster vermeld staan. Mocht je onverhoopt een keer niet kunnen, dan stuur je even een mailtje. Dit hoeft zeker niet via de studieadviseur, je mag het gewoon direct bij ons melden.
+Jouw aanwezigheid wordt verwacht bij alle bijeenkomsten die in het rooster vermeld staan. De aanwezigheid wordt bijgehouden om een goed beeld te vormen van je regelmatige inzet voor het vak.
 
-Heb je meer systematisch problemen met aanwezig zijn, bespreek het dan even. Er is vast een hoop mogelijk, maar voor ons is het belangrijk dat we de studenten op vaste momenten in de week kunnen zien en begeleiden, zodat we op andere momenten ook andere dingen kunnen doen. Daarom is die aanwezigheid voor ons zo belangrijk.
+Mocht je onverhoopt een keer niet kunnen, dan stuur je even een mailtje. Dit hoeft zeker niet via de studieadviseur, je mag het gewoon direct bij ons melden. Let op dat als je aanwezig bent, je wel op tijd moet zijn. Halverwege binnenlopen is storend en niet de bedoeling.
+
+Heb je meer systematisch problemen met aanwezig zijn, bespreek het dan even. Er is best wat mogelijk, maar voor ons is het belangrijk dat we de studenten op vaste momenten in de week kunnen zien en begeleiden, om de werkdruk redelijk te houden. Daarom is die aanwezigheid voor ons zo belangrijk.
 
 Als je wegblijft tijdens het vak, hou er dan rekening mee dat er weinig flexibiliteit is om alternatieve begeleiding te geven en dat er geen uitzonderingen worden verleend op de standaardregels (denk aan deadlines).
+
+### Ziekte en inhalen
+
+Als je ziek bent, meld het dan even aan je docenten (niet je studieadviseur) via een e-mail naar <mailto:progbg@mprog.nl>. Je hoeft het niet uitgebreid uit te leggen, maar wel meteen melden. Het contact hierover houden is het belangrijkste dat je kunt doen.
+
+-   Ben je één of twee dagen ziek dan is dat geen probleem en kun je de deadline vaak nog halen. Het kan handig zijn om even te overleggen op welke opdrachten je je het best kunt richten.
+
+-   Heb je een medisch noodgeval en ben je hierdoor bijvoorbeeld een hele week uit de running? Dan bespreek je naderhand met een docent hoe je dit kunt oplossen, bijvoorbeeld door een klein deel van de opdrachten nog te doen zodat je kennis op peil is.
+
+    Daarbij speelt natuurlijk ook mee hoe makkelijk het programmeren je afgaat en hoeveel energie je hebt. Op basis van al die informatie kijken we samen wat mogelijk is. Je krijgt ook bij inhalen geen punten voor de opdrachten; het is echt gericht om snel weer mee te doen met de groep.
+
 
 ## Vragen stellen
 
@@ -95,26 +109,15 @@ Juist even niet aan de opdracht werken kan je verder helpen!
 </details>
 
 
-### Ziekte en inhalen
+## Regels voor samenwerken, plagiaat en ChatGPT
 
-Als je ziek bent dan meld je het in ieder geval meteen even aan je docenten (niet je mentor) via een e-mail naar <mailto:help@mprog.nl>. Je hoeft het niet uitgebreid uit te leggen, maar wel meteen melden. Het contact hierover houden is het belangrijkste dat je kunt doen.
+### Samenwerken
 
--   Ben je één of twee dagen ziek dan is dat geen probleem en kun je de deadline vaak nog halen. Het kan handig zijn om even te overleggen op welke opdrachten je je het best kunt richten.
-
--   Heb je een medisch noodgeval en ben je hierdoor bijvoorbeeld een hele week uit de running? Dan bespreek je naderhand met een docent hoe je dit kunt oplossen, bijvoorbeeld door een klein deel van de opdrachten nog te doen zodat je kennis op peil is.
-
-    Daarbij speelt natuurlijk ook mee hoe makkelijk het programmeren je afgaat en hoeveel energie je hebt. Op basis van al die informatie kijken we samen wat mogelijk is. Je krijgt ook bij inhalen geen punten voor de opdrachten; het is echt gericht om snel weer mee te doen met de groep.
-
--   Raak je helemaal uit tempo omdat je bijvoorbeeld toch teveel andere dingen te doen hebt of niet genoeg focus kan vinden? Het is belangrijk dat je dit snel bespreekt met een docent (niet je mentor). Stuur maar een [mailtje](mailto:help@mprog.nl)!
-
-
-## Samenwerken
-
-De basis van alles wat je inlevert moet jouw eigen intellectuele werk zijn, behalve waar het gaat om de samenwerkopdrachten.
+De basis van alles wat je inlevert moet jouw eigen denkwerk zijn.
 
 Natuurlijk is het nuttig om bij het maken van individuele opdrachten **interactie** te hebben met je medestudenten, en dat kan ook enorm helpen bij het beheersen van de stof. Maar er is een grens tussen het vragen van hulp aan een ander en het inleveren van werk van een ander. Hieronder karakteriseren we beide kanten van die grens.
 
-Je mag niet samenwerken aan de **implementatie** van je programma's. Uitzondering is dat je medestudenten om hulp mag vragen, zolang dat er niet op neer komt dat een ander een deel van het werk voor jou doet. Over het algemeen mag je, als je om hulp vraagt, jouw code laten zien, maar kijk je niet naar de code van een ander. Je laat je dus niks voorzeggen.
+Je mag niet samenwerken aan de **implementatie** van je programma's (dus het bedenken welke code je moet intikken). Uitzondering is dat je medestudenten om hulp mag vragen, zolang dat er niet op neer komt dat een ander een deel van het werk voor jou doet. Over het algemeen mag je, als je om hulp vraagt, jouw code laten zien, maar kijk je niet naar de code van een ander. Je laat je dus niks voorzeggen.
 
 Waar de grens **onduidelijk** is vragen we je om "redelijk" te handelen. Hieronder vind je een incomplete lijst van voorbeelden die een beeld schetsen van welke handelingen we als redelijk of onredelijk bestempelen. Twijfel je of een handeling redelijk is, vraag het, en wacht tot je per e-mail toestemming hebt gekregen van een docent (niet assistent). Als je onredelijk handelt dan kan dit leiden tot een melding bij de examencommissie.
 
@@ -172,8 +175,7 @@ Waar de grens **onduidelijk** is vragen we je om "redelijk" te handelen. Hierond
 - Naar de oplossing voor een opdracht van iemand anders kijken, en vervolgens jouw oplossing daarop baseren.
 </details>
 
-
-## Plagiaat
+### Plagiaat
 
 Alle inzendingen worden wekelijks gecontroleerd met behulp van een detectiesysteem dat zoekt naar overeenkomsten in programmacode. Dat kunnen overeenkomsten zijn binnen de groep, met studenten van vorige jaren, of zelfs met code van internet.
 
@@ -181,4 +183,13 @@ Vinden we overeenkomsten, dan gaat een docent direct met je in gesprek om je voo
 
 In alle gevallen is het ons doel om dit soort situaties te voorkomen, omdat ze niet leerzaam zijn en veel werk opleveren voor iedereen. Vraag daarom vooral om advies als je denkt dat het misgaat! Er is vaak meer te redden dan je denkt, zelfs al is de deadline nabij.
 
-De [plagiaatregeling](https://student.uva.nl/content/az/fraude-plagiaat-en-bronvermelding/plagiaat-en-fraude.html) van de Universiteit van Amsterdam geeft algemene aanwijzingen over plagiaat en is de basis voor bovenstaande regelingen.
+De [fraude- en plagiaatregeling](https://student.uva.nl/onderwerpen/plagiaat-en-fraude) van de Universiteit van Amsterdam geeft algemene aanwijzingen over plagiaat en andere vormen van fraude en is de basis voor bovenstaande regelingen.
+
+
+### ChatGPT en andere LLM's
+
+Hoewel LLM's bijzonder goed zijn in programmeren, zeker waar het kleine opdrachten betreft, kun je niet beoordelen wat er goed is zonder zelf te leren programmeren. Als jij code van een LLM overneemt zonder gedegen kennis, loop je het risico bugs en security-leaks over te nemen zonder dat je er erg in hebt. En als je wil bijdragen aan grotere software-projecten, dan merk je zonder deze kennis en ervaring dat je het overzicht niet kan houden.
+
+Bij deze cursus is het gebruik van ChatGPT dus ook niet toegestaan voor het genereren van (delen van) oplossingen voor de opdrachten, eigenlijk precies zoals je geen oplossingen van andere studenten mag overnemen, zoals hierboven vermeld. Als je dit toch doet wordt het gezien als fraude. Bij een vermoeden van fraude moet dit door de docent worden gerapporteerd, net als bij de plagiaatregeling.
+
+Dat gezegd hebbende is het niet altijd makkelijk om gegenereerde code te herkennen (soms juist wel!) dus er ligt een grote verantwoordelijkheid bij jou om het vak goed te doen. We helpen wel door een meesterproef te doen en samen met jou je ingeleverde werk te bespreken. Zo heb je een beetje een stok achter de deur.
