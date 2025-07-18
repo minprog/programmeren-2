@@ -67,15 +67,15 @@ Linked lists:
     List structures: /onderwerp/linked/lists
     Profiling: /onderwerp/linked/profiling
 
-Constrained lists:
-    Overzicht: /onderwerp/constrained
+Restricted lists:
+    Overzicht: /onderwerp/restricted
     Stacks en queues:
-        "Boek: Stacks and Queues": /onderwerp/constrained/boek
-        Palindrome: /onderwerp/constrained/palindrome
+        "Boek: Stacks and Queues": /onderwerp/restricted/boek
+        Palindrome: /onderwerp/restricted/palindrome
     Implementatie:
-        "Theorie: grafen en bomen": /onderwerp/constrained/grafen
-        Priority Queue: /onderwerp/constrained/priority_queue
-    Police TBD: /onderwerp/constrained/police
+        "Theorie: grafen en bomen": /onderwerp/restricted/grafen
+        Priority Queue: /onderwerp/restricted/priority_queue
+    Police TBD: /onderwerp/restricted/police
 
 Adventure:
     Overzicht: /onderwerp/oop

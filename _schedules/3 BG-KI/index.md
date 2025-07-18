@@ -32,7 +32,7 @@ Hieronder vind je de **deadlines**. Bij dit vak is het niet verplicht om alle op
 | 3    | Abstract Data Types |    4   |   2  | vr 19 sep 17:00 | let op! |
 | 4    | Container Classes   |    4   |   1  | do 25 sep 17:00 |         |
 | 4+5  | Linked Lists        |    4   |   -  | di 30 sep 17:00 |         |
-| 5    | Constrained Lists   |    4   |   -  | vr  3 okt 17:00 |         |
+| 5    | Restricted Lists    |    4   |   -  | vr  3 okt 17:00 |         |
 | 6+7  | Adventure           |   12   |   -  | vr 17 okt 17:00 |         |
 |      | **Totaal punten:**  |   42   |   5  |                 |         |
 
