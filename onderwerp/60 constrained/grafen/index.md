@@ -34,7 +34,7 @@ We tonen nog eens dezelfde graaf, maar met andere [namen](https://www.nicospilt.
     (Dvd)-(Dmnz)    \
                 \---(Wp)
 
-Dit zijn de spoorwegstations rondom Amsterdam Science Park (de rest van het spoor negeren we). Heel globaal is het weergegeven zoals je kunt zien op een kaart van Nederland. Belangrijkste is de informatie die wordt weergegeven: welke stations via een spoorlijn met elkaar verbonden zijn.
+Dit zijn de spoorwegstations rondom Amsterdam Science Park (de rest van het spoor negeren we). Heel globaal is het weergegeven zoals je kunt zien op een kaart van Nederland. Maar belangrijker is de essentiële informatie die wordt weergegeven: welke stations via een spoorlijn met elkaar verbonden zijn.
 
 We kunnen nu soortgelijke uitspraken doen als hierboven. Muiderpoort (Adsm) is direct verbonden met Science Park (Assp). Maar niet alle stations zijn direct met elkaar verbonden. Toch is er wel een pad van elk station naar elk andere. Van Muiderpoort kun je bijvoorbeeld via Science Park en Diemen (Dmn) bij Weesp (Wp) komen.
 
