@@ -45,7 +45,7 @@ Objects:
     Overzicht: /onderwerp/objects
     "Videocollege: OOP": /onderwerp/objects/lecture
     Queue: /onderwerp/objects/queue
-    Cookie Jar TBD: /onderwerp/objects/cookiejar
+    Cookie Jar: /onderwerp/objects/jar
 
 Abstract Data Types:
     Overzicht: /onderwerp/adt

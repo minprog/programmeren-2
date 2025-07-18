@@ -37,17 +37,15 @@ Collections:
         Dicts: /onderwerp/collections/dicts
         Tuples: /onderwerp/collections/tuples
         Recommend: /onderwerp/collections/recommend
-    Analyse:
-        Uitleg: /onderwerp/collections/analyse
+    Algoritmische analyse:
         Complexity: /onderwerp/collections/big-o-questions
         Verminder de Cyclomatic Complexity van Hangman*: /onderwerp/collections/cc
 
 Objects:
     Overzicht: /onderwerp/objects
     "Videocollege: OOP": /onderwerp/objects/lecture
-    "Boek: OOP": /onderwerp/objects/boek
     Queue: /onderwerp/objects/queue
-    Cookie Jar TBD: /onderwerp/objects/cookie
+    Cookie Jar: /onderwerp/objects/jar
 
 Abstract Data Types:
     Overzicht: /onderwerp/adt
@@ -58,27 +56,29 @@ Abstract Data Types:
 
 Containers:
     Overzicht: /onderwerp/containers
-    "Boek: Container Classes TBD": /onderwerp/containers/boek
+    "Boek: Container Classes": /onderwerp/containers/boek
     War: /onderwerp/containers/war
     Dictionary structures: /onderwerp/containers/dicts
-    Markov TBD: /onderwerp/containers/markov
+    Markov: /onderwerp/containers/markov
 
 Linked lists:
-    Overzicht: /modules/linked
-    "Boek: Linked Lists TBD": /onderwerp/linked/boek
+    Overzicht: /onderwerp/linked
+    "Boek: Linked Lists": /onderwerp/linked/boek
     List structures: /onderwerp/linked/lists
     Profiling: /onderwerp/linked/profiling
 
 Constrained lists:
     Overzicht: /onderwerp/constrained
-    "Boek: Structures TBD": /onderwerp/constrained/boek
-    Palindrome: /onderwerp/oop/palindrome
-    Priority Queue: /onderwerp/adt/priority_queue
+    Stacks en queues:
+        "Boek: Stacks and Queues": /onderwerp/constrained/boek
+        Palindrome: /onderwerp/constrained/palindrome
+    Implementatie:
+        "Theorie: grafen en bomen": /onderwerp/constrained/grafen
+        Priority Queue: /onderwerp/constrained/priority_queue
     Police TBD: /onderwerp/constrained/police
 
 Adventure:
-    Overzicht: /modules/oop
-    "Voorbereiding: Grafen": /modules/adventure/grafen
+    Overzicht: /onderwerp/oop
     1. Introduction: /adventure/steps/introduction
     2. Rooms: /adventure/steps/room
     3. Data files (big!): /adventure/steps/data
