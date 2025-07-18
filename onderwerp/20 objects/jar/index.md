@@ -8,7 +8,7 @@ Suppose that you'd like to implement a [cookie jar](https://en.wikipedia.org/wik
 
 *   `__init__` should initialize a cookie jar with the given `capacity`, which represents the maximum number of cookies that can fit in the cookie jar. If `capacity` is not a non-negative `int`, though, `__init__` should instead raise a `ValueError`.
 
-*   `__str__` should return a `str` with $n$ cookie emoji, where $n$ is the number of cookies in the cookie jar. For instance, if there are 3 cookies in the cookie jar, then `str` should return the following string:
+*   `__str__` should return a `str` with $$n$$ cookie emoji, where $$n$$ is the number of cookies in the cookie jar. For instance, if there are 3 cookies in the cookie jar, then `str` should return the following string:
 
         "🍪🍪🍪"
 
