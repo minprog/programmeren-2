@@ -62,6 +62,22 @@ Er zijn vanaf nu dus drie mogelijke uitkomsten voor elke functie-aanroep:
 
 In principe kunnen al deze dingen gebeuren in één en dezelfde functie.
 
+## Veelvoorkomende exceptions
+
+De `ValueError` heb je gezien. Welke exceptions zijn nog meer logisch om te gebruiken in je functie?
+
+`ValueError`
+: als een waarde niet zinvol is voor wat ermee moet gebeuren
+
+`TypeError`
+: als een variabele een waarde krijgt van het verkeerde type (dit wordt bij ons meestal afgehandeld met het vermelden van de juiste types, en hoeft dus niet gecheckt te worden!)
+
+`KeyError`
+: als er iets "opgezocht" moet worden en de waarde is niet te vinden in de collectie (deze krijg je al gauw van een dict maar kun je eventueel ook zelf gebruiken)
+
+`IndexError`
+: als er een element "opgevraagd" moet worden en er is helemaal geen element met dat nummer in de collectie (deze krijg je vaak van een list)
+
 ## Geen exceptions naar de gebruiker!
 
 Je zou kunnen denken (zeker op basis van de video) dat exceptions met een duidelijke foutmelding misschien prima zijn om naar de gebruiker door te geven. Als programmeur ben je ook wel gewend dat de exceptions je om de oren vliegen.
