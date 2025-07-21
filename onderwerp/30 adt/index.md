@@ -8,12 +8,15 @@ De details van de implementatie worden in het contract (of de beschrijving) van 
 
 ## Leerdoelen
 
-- Goed begrijpen wat een ADT is
-- Enkele basisvoorbeelden van ADT's leren kennen
+Je zou hier onder andere moeten begrijpen en ook moeten kunnen uitleggen:
+
+- Wat een datatype is
+- Wat een *abstract* datatype is
+- Enkele basisvoorbeelden van ADT's kennen
+- Wat het betekent om een abstract datatype te *implementeren*
+- Welke stappen je kunt doorlopen om een ADT te ontwerpen
 - Ervaren hoe je classes kunt gebruiken voor het implementeren van ADT's
 - Leren kiezen voor de juiste datastructuur
-- Verschillende list-implementaties in Python implementeren en onderzoeken
-- Verschillende dictionary-implementaties in Python implementeren en onderzoeken
 
 ## Puntentelling
 

@@ -6,6 +6,15 @@ Dan ga je aan de slag met lijsten. Er zijn diverse strategieën om lijsten bij t
 
 Dan weet je zoveel over de verschillende structuren in Python dat we je een challenge geven: je krijgt een complete werkende Sudoku-solver en jij gaat aan de slag met een *profiler* om de punten in de code te vinden waar deze solver inefficiënt werkt. Met je kennen van datastructuren en Python kun je optimalisaties doen en de solver heel snel laten werken.
 
+## Leerdoelen
+
+- Goed begrijpen hoe variabelen en referenties werken in Python
+- Kunnen uitleggen welke implementaties van lijsten mogelijk zijn
+- Verschillen uitleggen tussen linked lists en arrays
+- Zelf een linked list *from scratch* kunnen implementeren met classes
+- Behendig worden met een profiler
+- Oefenen met optimalisaties doen in een groter Python-project
+
 ## Puntentelling
 
 List structures

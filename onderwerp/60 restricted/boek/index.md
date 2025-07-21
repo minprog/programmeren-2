@@ -1,6 +1,6 @@
 # Hoofdstuk 5: Stacks and Queues
 
-Stacks en Queues zijn "restricted" lists. Ze behandelen data in een bepaalde volgorde en ze hebben een heel beperkte set operaties die mogelijk zijn. De stof is gedeeltelijk herhaling, maar belangrijk voor de Palindrome-opdracht. Lees ook de opdracht even en bepaal wat je moet lezen.
+Lees t/m paragraaf 5.4 om goed te begrijpen wat restricted structures zijn en hoe stacks en queues werken.
 
 - 5.1 Overview
 - 5.2 Stacks
