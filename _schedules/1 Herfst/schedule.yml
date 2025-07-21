@@ -66,7 +66,7 @@ Container classes:
 Linked structures:
     Overzicht en puntentelling: /onderwerp/linked
     "Boek: Linked Structures": /onderwerp/linked/boek
-    "Theorie: grafen en bomen": /onderwerp/restricted/grafen
+    "Theorie: grafen en bomen": /onderwerp/linked/grafen
     Opdrachten:
         Implementaties van lijsten: /onderwerp/linked/lists
         Profiling: /onderwerp/linked/profiling
