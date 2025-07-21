@@ -4,6 +4,15 @@ We kijken naar *container classes* in Python en hoe die zijn opgebouwd. Inmiddel
 
 Om echt goed te begrijpen hoe Python werkt ga je zelf een aantal versies van een dictionary class bouwen (zonder Python-dictionaries te gebruiken) en daarmee onderzoeken wat de voordelen en nadelen zijn van de verschillende implementaties. Hiermee leer je allereerst heel goed begrijpen hoe een dictionary intern werkt, en je gaat verder in het nadenken over bewuste keuze bij de implementatie van container classes.
 
+## Leerdoelen
+
+Je moet begrijpen en ook kunnen uitleggen:
+
+- Wat een container object is
+- Wat een sequentiele container is
+- Hoe Python lists bouwen op arrays
+- Hoe een dict is geimplementeerd in Python
+
 ## Puntentelling
 
 War

@@ -1,4 +1,4 @@
-# Dictionary structuren
+# Implementaties van dictionaries
 
 Python heeft een ingebouwde datastructuur genaamd `dict` om keys en values op te slaan. Handig, want zo kan je informatie aan elkaar koppelen:
 
@@ -202,7 +202,7 @@ Je kan deze zo gebruiken:
             dict_instance = dict_type()
             for key, value in zip(KEYS, VALUES):
                 dict_instance.add(key, value)
-            
+
             # Time each function
             for operation, time_function in [
                 ("add", time_add),
@@ -259,7 +259,7 @@ In het geval van een dictionary zijn we op zoek naar een indelingsmethode die:
 We zijn dus op zoek naar een goede functie die een `str`, onze key, omzet naar de index van een bepaalde la. Op zo'n manier dat diezelfde `str` door middel van diezelfde functie weer kan worden teruggevonden. In de informatica heet dit een hash-functie. Voor `StrDict` hierboven heb je eigenlijk de volgende hash functie geïmplementeerd:
 
     def hash_key(self, key: str) -> int:
-        return ord(key[0].lower()) - ord('a') 
+        return ord(key[0].lower()) - ord('a')
 
 Nu is het jouw taak om een betere hash functie te schrijven. Eén die zoveel mogelijk spreidt en zo uniek mogelijke waardes genereert. Dat doe je door zoveel mogelijk informatie uit de invoer te halen en dit allemaal mee te nemen in de berekening. Denk bijvoorbeeld aan:
 
@@ -315,7 +315,7 @@ Nu is het jouw taak om een betere hash functie te schrijven. Eén die zoveel mog
 <details markdown="1"><summary markdown="span">Extra achtergrond: cryptografische hash functies</summary>
 Een hash functie wordt o.a. gebruikt voor een `dict` in Python, maar kent nog andere toepassingen. Zo bestaan er ook cryptografische hash-functies. Dat zijn functies die bedoeld zijn om informatie om te zetten op zo'n manier, dat de informatie nog wel te herkennen is, maar niet terug te leiden.
 
-Dat zit zo. Een hash functie neemt een variërende hoeveelheid informatie binnen en geeft een vaste hoeveelheid informatie terug. Bij `HashStrDict` gaan we van een `str` van onbekende grootte naar een `int` van bekende grootte (niet groter dan `self.number_of_drawers`). Dat betekent dat we van veel informatie, veel 0-en en 1-en, naar een vast aantal 0-en en 1-en gaan. Hierbij gaat dus sowieso informatie verloren. Omdat die informatie verloren gaat, kunnen we niet meer terug. Het valt niet te herleiden wat de input van de hash-functie was op basis van de output. In zekere zin heb je zo éénrichtingsverkeer, je kan wel van input naar output, maar niet van output naar input.  
+Dat zit zo. Een hash functie neemt een variërende hoeveelheid informatie binnen en geeft een vaste hoeveelheid informatie terug. Bij `HashStrDict` gaan we van een `str` van onbekende grootte naar een `int` van bekende grootte (niet groter dan `self.number_of_drawers`). Dat betekent dat we van veel informatie, veel 0-en en 1-en, naar een vast aantal 0-en en 1-en gaan. Hierbij gaat dus sowieso informatie verloren. Omdat die informatie verloren gaat, kunnen we niet meer terug. Het valt niet te herleiden wat de input van de hash-functie was op basis van de output. In zekere zin heb je zo éénrichtingsverkeer, je kan wel van input naar output, maar niet van output naar input.
 
 Dat is een handige eigenschap als je bijvoorbeeld moet omgaan met gevoelige informatie, zoals wachtwoorden van mensen. Je wilt wel het wachtwoord kunnen herkennen, zodat een persoon kan inloggen in jouw systeem bijvoorbeeld, maar het wachtwoord zelf sla je liever niet op. Want zodra je het wachtwoord opslaat, loop je ook het risico dat deze wordt buitgemaakt. Hier kun je ervoor kiezen om het wachtwoord te hashen en alleen de hash te onthouden. Probeert een gebruiker later in te loggen, dan hash je het ingevoerde wachtwoord opnieuw en kijk je of het overeenkomt. Zo weet je of het wachtwoord correct was, of niet. Om deze reden zie je vaak dat je een wachtwoord wel kan resetten op een website, maar dat je nooit je eigen wachtwoord kan opvragen.
 
@@ -323,9 +323,9 @@ Dat is een handige eigenschap als je bijvoorbeeld moet omgaan met gevoelige info
 
 ## 4. HashDict
 
-Met `HashStrDict` heb je een implementatie die, gegeven genoeg buckets, een constante computationele complexiteit heeft*. Kort gezegd, het opzoeken van een key is nu onafhankelijk van hoeveel keys er in de datastructuur zitten. Deze datastructuur heeft een eigen naam: een hash table. Dit is tabel waarin waardes worden opgeslagen en opgehaald op basis van een hash-functie. 
+Met `HashStrDict` heb je een implementatie die, gegeven genoeg buckets, een constante computationele complexiteit heeft*. Kort gezegd, het opzoeken van een key is nu onafhankelijk van hoeveel keys er in de datastructuur zitten. Deze datastructuur heeft een eigen naam: een hash table. Dit is tabel waarin waardes worden opgeslagen en opgehaald op basis van een hash-functie.
 
-Nu knaagt er nog één ding, want de datastructuur werkt nog steeds alleen voor strings. Om de datastructuur te laten werken voor andere types zijn er hash functies nodig voor die types, en hoe doe je dat dan voor alle mogelijke types? Het antwoord is: niet. 
+Nu knaagt er nog één ding, want de datastructuur werkt nog steeds alleen voor strings. Om de datastructuur te laten werken voor andere types zijn er hash functies nodig voor die types, en hoe doe je dat dan voor alle mogelijke types? Het antwoord is: niet.
 
 Omdat hash-functies moeten werken met de eigenschappen van de data, moeten deze toegespitst zijn op die data. Daarom zitten hash functies in Python ingebakken voor de meeste datastructuren. Zodat je zelf het wiel niet opnieuw hoeft uit te vinden voor iedere datastructuur. In Python bestaat er een functie `hash()` die je zo kan gebruiken:
 
@@ -436,7 +436,7 @@ Dezelfde lijst in dezelfde variabele levert na het toevoegen van de waarde `4` e
 </details>
 
 <details markdown="1"><summary markdown="span">Worst case versus Average case*</summary>
-`HashStrDict` en `HashDict` hebben strikt genomen nog een worst case complexiteit van `O(n)`. Het is niet uit te sluiten dat er botsingen optreden en dat er daardoor alsnog lineair gezocht moet worden naar een specifieke key in een la die afhangt van `n`. 
+`HashStrDict` en `HashDict` hebben strikt genomen nog een worst case complexiteit van `O(n)`. Het is niet uit te sluiten dat er botsingen optreden en dat er daardoor alsnog lineair gezocht moet worden naar een specifieke key in een la die afhangt van `n`.
 
 Het grote verschil zit hem in de gemiddelde complexiteit: dat is de tijd van alle operaties opgeteld, gedeeld door het aantal operaties. Deze is nu wel `O(1)`. De gemiddelde key zal (gegeven genoeg lades) zich niet bevinden in een la met andere keys.
 </details>
