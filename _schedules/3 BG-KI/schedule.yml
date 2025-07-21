@@ -55,7 +55,7 @@ Abstract Data Types:
         Testen met twee implementaties: /onderwerp/adt/testing
         Wat is er mis met Cash*: /onderwerp/adt/cash
 
-Containers:
+Container classes:
     Overzicht: /onderwerp/containers
     "Boek: Container Classes": /onderwerp/containers/boek
     Opdrachten:
@@ -79,7 +79,7 @@ Restricted lists:
         Priority Queue: /onderwerp/restricted/priority_queue
         Police TBD: /onderwerp/restricted/police
 
-Adventure:
+Object graphs:
     Overzicht: /onderwerp/oop
     1. Introduction: /adventure/steps/introduction
     2. Rooms: /adventure/steps/room

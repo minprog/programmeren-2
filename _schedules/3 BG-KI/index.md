@@ -29,11 +29,11 @@ Hieronder vind je de **deadlines**. Bij dit vak is het niet verplicht om alle op
 | 1    | Python              |    6   |   1  | vr  5 sep 17:00 |         |
 | 2    | Collections         |    6   |   2  | vr 12 sep 17:00 |         |
 | 3    | Objects             |    2   |   -  | vr 19 sep 17:00 |         |
-| 3    | Abstract Data Types |    4   |   2  | vr 19 sep 17:00 | let op! |
-| 4    | Container Classes   |    4   |   1  | do 25 sep 17:00 |         |
-| 4+5  | Linked Lists        |    4   |   -  | di 30 sep 17:00 |         |
-| 5    | Restricted Lists    |    4   |   -  | vr  3 okt 17:00 |         |
-| 6+7  | Adventure           |   12   |   -  | vr 17 okt 17:00 |         |
+| 3    | Abstract data types |    4   |   2  | vr 19 sep 17:00 | let op! |
+| 4    | Container classes   |    4   |   1  | do 25 sep 17:00 |         |
+| 4+5  | Linked structures   |    4   |   -  | di 30 sep 17:00 |         |
+| 5    | Restricted lists    |    4   |   -  | vr  3 okt 17:00 |         |
+| 6+7  | Object graphs       |   12   |   -  | vr 17 okt 17:00 |         |
 |      | **Totaal punten:**  |   42   |   5  |                 |         |
 
 Bij verschillende modules zijn er opdrachten gemarkeerd met een `*`. Dit zijn **steropdrachten**, bedoeld als extra uitdaging en dus ook voor diegenen die daarnaar op zoek zijn. Als je ze niet maakt mis je slechts een bescheiden aantal punten.
