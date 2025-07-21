@@ -14,7 +14,7 @@ Hieronder tonen we een heel abstracte graaf met vijf **knopen** (Engels: nodes).
     (E)---(F)       \
              \------(G)
 
-Knoop A is direct verbonden met knoop C via een **zijde** (Engels: edge). Nog sterker, elke knoop in de graaf is verbonden met precies twee andere knopen.
+Knoop A is direct verbonden met knoop C via een **zijde** (edge). Nog sterker, elke knoop in de graaf is verbonden met precies twee andere knopen.
 
 Tegelijk zijn er ook knopen die niet verbonden zijn, zoals het paar B en E. Maar in deze graaf is er wel een **pad** van elke knoop naar elke andere. Van A kun je via C en D bij G komen.
 
@@ -52,9 +52,9 @@ Omdat we in dit vak niet verder ingaan op de algoritmiek van grafen, zullen we o
 
 ## Bomen
 
-We zullen ook nog een specifieke vorm van grafen benoemen. Een **boom** is een graaf zonder cykels (Engels: cycles). Dat betekent dat er geen paden (zeg maar rondjes) zijn van een knoop naar zichzelf. In het voorbeeld hierboven is de hele graaf één grote cykel; je kunt van elk station een reis maken langs andere stations en weer terugkomen op hetzelfde punt. Dat is dus geen boom.
+We zullen ook nog een specifieke vorm van grafen benoemen. Een **boom** is een graaf zonder cykels (cycles). Dat betekent dat er geen paden (zeg maar rondjes) zijn van een knoop naar zichzelf. In het voorbeeld hierboven is de hele graaf één grote cykel; je kunt van elk station een reis maken langs andere stations en weer terugkomen op hetzelfde punt. Dat is dus geen boom.
 
-Een voorbeeld van een boom is de hiërarchische structuur in een traditioneel bedrijf:
+Een voorbeeld van een boom is de hiërarchische structuur in een traditioneel bedrijf. Deze beschrijft de verschillende rollen die er in dat bedrijf zijn en wie de "baas" is van wie:
 
              CEO
             /   \
@@ -64,6 +64,10 @@ Een voorbeeld van een boom is de hiërarchische structuur in een traditioneel be
        |             /
     Intern       Analyst
 
-In zo'n hiërarchie is meestal geen plek voor cykels. Er is geen analist die toch ook de leidinggevende is van een developer. Tenminste, dat nemen we nu aan.
+In zo'n hiërarchie is meestal geen plek voor cykels. Er is geen analist die toch ook de leidinggevende is van een developer. Tenminste, dat nemen we in dit model aan.
+
+Omdat het om een hiërarchische structuur gaat hebben we nog een aantal nieuwe termen die we kunnen introduceren. Elke knoop heeft 0 of meer **kinderen** (children). Een kind heeft altijd één **ouder** (parent). Een knoop zonder kinderen heet een **blad** (leaf). Lekker consistent.
 
 Net als met grafen hebben bomen bepaalde eigenschappen waarvan informatici gebruik hebben gemaakt om algoritmen te ontwikkelen die toepasbaar zijn op allerlei problemen die te representeren zijn als een boom. Veel programmeerproblemen zijn te vertalen naar een boom-representatie waarna er zo'n generiek algoritme kan worden toegepast om de oplossing te berekenen.
+
+De boom hierboven is toevallig ook een **binaire boom** (binary tree). Elke knoop in zo'n boom heeft maximaal 2 kinderen. Dat mag er dus ook ééntje zijn, zoals de intern-rol die kind is van de dev-rol.

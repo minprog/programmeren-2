@@ -66,6 +66,7 @@ Container classes:
 Linked structures:
     Overzicht en puntentelling: /onderwerp/linked
     "Boek: Linked Structures": /onderwerp/linked/boek
+    "Theorie: grafen en bomen": /onderwerp/restricted/grafen
     Opdrachten:
         Implementaties van lijsten: /onderwerp/linked/lists
         Profiling: /onderwerp/linked/profiling
@@ -73,7 +74,6 @@ Linked structures:
 Restricted lists:
     Overzicht en puntentelling: /onderwerp/restricted
     "Boek: Stacks and Queues": /onderwerp/restricted/boek
-    "Theorie: grafen en bomen": /onderwerp/restricted/grafen
     Opdrachten:
         Palindrome: /onderwerp/restricted/palindrome
         Priority Queue: /onderwerp/restricted/priority_queue
