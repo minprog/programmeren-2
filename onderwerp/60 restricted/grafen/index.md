@@ -20,7 +20,7 @@ Tegelijk zijn er ook knopen die niet verbonden zijn, zoals het paar B en E. Maar
 
 ## Taal
 
-Zoals je hierboven ziet kunnen we een graaf vrij eenvoudig grafisch weergeven. Alles wat we in tekst erbij hebben beschreven is te zien in deze weergave. Met deze basiskennis van grafen heb je een nieuwe *taal* om bepaalde situaties of problemen efficiënt uit te drukken. Ook kunnen woorden als knoop, zijde en pad helpen om goed uit te leggen wat er aan de hand is.
+Zoals je hierboven ziet kunnen we een graaf vrij eenvoudig grafisch weergeven. Alles wat we in tekst erbij hebben beschreven is te zien in deze weergave. Met deze basiskennis van grafen heb je een nieuwe *taal* om bepaalde situaties of problemen efficiënt uit te drukken. Enerzijds een grafische taal, die handig is voor op het whiteboard als je samen de structuur van een probleem uitpluist. Anderzijds kunnen woorden als knoop, zijde en pad helpen om heel precies uit te leggen over welk deel van een probleem je spreekt.
 
 ## Toepassing
 
