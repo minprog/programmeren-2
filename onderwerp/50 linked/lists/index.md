@@ -1,4 +1,4 @@
-# Lijst structuren
+# Implementaties van lijsten
 
 Je bent bezig met het ontwerp van een systeem waarin je persoonsdata (bijvoorbeeld klantgegevens) moet bijhouden. We modelleren personen met een `class` met daarin alle betreffende informatie. Voor deze opdracht is dat de volgende class:
 
@@ -22,7 +22,7 @@ In deze opdracht ga je drie verschillende versies maken die allemaal bovenstaand
 
 ## Implementatie 1: een gesorteerde list
 
-Met klemtoon heb je te horen gekregen dat `as_sorted_list()` snel een gesorteerde lijst van personen moet kunnen produceren. Als het even kan in constante tijd graag (`O(1)`). Dus we gaan in `PersonList` een lijst **gesorteerd** bijhouden met alle personen erin. Als die lijst toch al bestaat is `as_sorted_list()` een eitje om te implementeren. Hier is starter code voor `PersonList`. Wij hebben `as_sorted_list()` alvast geïmplementeerd.
+Met klem heb je te horen gekregen dat `as_sorted_list()` snel een gesorteerde lijst van personen moet kunnen produceren. Als het even kan in constante tijd graag (`O(1)`). Dus we gaan in `PersonList` een lijst **gesorteerd** bijhouden met alle personen erin. Als die lijst toch al bestaat is `as_sorted_list()` een eitje om te implementeren. Hier is starter code voor `PersonList`. Wij hebben `as_sorted_list()` alvast geïmplementeerd.
 
     class PersonList:
         def __init__(self):
@@ -48,11 +48,7 @@ Aan jou de taak om alle `raise NotImplementedError()`s weg te halen, en te imple
 
 ## Implementatie 2: een linked list
 
-Niet al je collega's zijn helemaal tevreden met `PersonList`. Heel fijn dat `as_sorted_list` snel is, maar dat gebruiken ze toch bijna nooit. `pop()` daarentegen, die methode wordt pas vaak gebruikt. Kan je dat niet even in constante tijd maken in plaats van `as_sorted_list`.
-
-Van programmeren 1 herinner je misschien nog: linked lists! Die zijn goed in elementen verwijderen en toevoegen aan het begin en eind van een lijst. Hier is een recap:
-
-![embed](https://www.youtube.com/embed/wh4TS7RJDTA)
+Niet al je collega's zijn helemaal tevreden met `PersonList`. Heel fijn dat `as_sorted_list` snel is, maar dat gebruiken ze toch bijna nooit. `pop()` daarentegen, die methode wordt pas vaak gebruikt. Kan je dat niet even in constante tijd maken in plaats van `as_sorted_list`?
 
 Implementeer weer `PersonList`, maar nu met een linked list. Je kan beginnen met onderstaande code. Hou de linked list op volgorde van naam.
 

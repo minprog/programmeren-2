@@ -61,9 +61,9 @@ Containers:
     Dictionary structures: /onderwerp/containers/dicts
     Markov: /onderwerp/containers/markov
 
-Linked lists:
+Linked structures:
     Overzicht: /onderwerp/linked
-    "Boek: Linked Lists": /onderwerp/linked/boek
+    "Boek: Linked Structures": /onderwerp/linked/boek
     List structures: /onderwerp/linked/lists
     Profiling: /onderwerp/linked/profiling
 
