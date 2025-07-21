@@ -1,4 +1,6 @@
-# Profilers: optimize a Sudoku Solver
+# Profilers: optimize a Sudoku solver
+
+> Inmiddels weet je een heleboel over Python-structuren en over classes en zelfgebouwde datastructuren. Met deze kennis in het achterhoofd ga in in onderstaande opdracht aan de slag met het optimaliseren (sneller maken) van een Sudoku-solver.
 
 ![embed](https://api.eu.kaltura.com/p/120/sp/12000/embedIframeJs/uiconf_id/23449960/partner_id/120?iframeembed=true&playerId=kaltura_player&entry_id=0_eao7e3jd&flashvars[streamerType]=auto&flashvars[localizationCode]=en_US&flashvars[leadWithHTML5]=true&flashvars[sideBarContainer.plugin]=true&flashvars[sideBarContainer.position]=left&flashvars[sideBarContainer.clickToClose]=true&flashvars[chapters.plugin]=true&flashvars[chapters.layout]=vertical&flashvars[chapters.thumbnailRotator]=false&flashvars[streamSelector.plugin]=true&flashvars[EmbedPlayer.SpinnerTarget]=videoHolder&flashvars[dualScreen.plugin]=true&flashvars[hotspots.plugin]=1&flashvars[Kaltura.addCrossoriginToIframe]=true&&wid=0_xsk8klfk)
 
