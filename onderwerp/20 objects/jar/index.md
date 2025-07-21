@@ -80,14 +80,10 @@ For simplicity, though, no need to mock any state. Implement your tests as you n
     def test_withdraw():
         ...
 
-## Demo
-
-You're welcome, but not required, to implement a `main` function, so this is all we can demo!
+## Acknowledgements
 
 ![Cookie Monster](giphy2.gif)
 
 <small>Source: Sesame Street</small>
-
-## Acknowledgements
 
 This assignment was reused from CS50's [Introduction to Python](https://cs50.harvard.edu/python/psets/8/jar/). The original, as well as this version, are licensed under a Creative Commons [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) license.
