@@ -59,7 +59,7 @@ Containers:
     "Boek: Container Classes": /onderwerp/containers/boek
     War: /onderwerp/containers/war
     Implementaties van dictionaries: /onderwerp/containers/dicts
-    Markov: /onderwerp/containers/markov
+    Markov*: /onderwerp/containers/markov
 
 Linked structures:
     Overzicht: /onderwerp/linked
