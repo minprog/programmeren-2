@@ -12,7 +12,7 @@ Eerder ben je assertions tegengekomen op twee plekken:
 
 ## Exceptions
 
-Als je de woorden assertion en exception goed bestudeert mag je al concluderen dat de assertion altijd moet slagen. Een exception is anders: hiermee geven we exceptionele gebeurtenissen aan. Maar zo'n gebeurtenis kan mogelijk wel netjes ("gracefully") afgehandeld worden.
+Als je de Engelse woorden assertion en exception goed bestudeert mag je al concluderen dat de assertion altijd moet slagen. Een exception is anders: hiermee geven we exceptionele gebeurtenissen aan. Maar zo'n gebeurtenis kan mogelijk wel netjes ("gracefully") afgehandeld worden.
 
 Om te beginnen heeft Python diverse ingebouwde exceptions die worden getriggerd als er iets ongebruikelijks gebeurt. Als we weten welke exception er verwacht zou kunnen worden, en we zien wel een mogelijkheid voor het programma om dan toch door te gaan, dan kunnen we het netjes afhandelen in de code.
 
@@ -39,7 +39,7 @@ En nu komt het. Wat nou als we proberen er een integer van te maken en kijken wa
 
 Dat is het idee van de code hierboven: je probeert het, en als het fout blijkt, dan probeer je dat probleem op een goede wijze op te lossen. Dat is het "asking for forgiveness"-deel. De `try`-`except` is daar precies voor gemaakt.
 
-## Exceptions
+## Exceptions in je eigen code
 
 In je eigen code kun je ook exceptions laten optreden met het commando `raise`.
 
