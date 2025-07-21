@@ -1,6 +1,8 @@
 # Grafen en bomen
 
-We beginnen hier met de introductie van een wiskundige manier van beschrijven genaamd "grafen".
+We beginnen hier met de introductie van twee wiskundige manieren van beschrijven van structuren. Het gaat om "grafen" en "bomen". Het zijn heel generieke ideeën waarmee je heel veel structuren kunt beschrijven: zowel probleemstructuren (concreet) als ook datastructuren in de computer zelf (abstract).
+
+## Grafen
 
 Een **graaf** (Engels: graph) is een verzameling objecten waarin sommige objecten een verbinding hebben.
 
