@@ -6,9 +6,9 @@ In deze cursus gebruiken we allerlei technieken om fouten te voorkomen, en om de
 
 Eerder ben je assertions tegengekomen op twee plekken:
 
-- Je hebt (in het boek) gezien dat je bovenin een functie `assert`-statements kan toevoegen om eisen aan de input (preconditions) op te geven. De bedoeling is dat de programmeur bij voorbaat zorgt dat een assertion nooit optreedt --- want dat zou een bug zijn. Maar: als het gebeurt, dan is het helaas meestal "in productie", ofwel als iemand de software gebruikt. Mocht een assertion optreden dan wordt het programma daarom direct stopgezet om eventuele rampen te voorkomen. Het voordeel is dat de assert dan een stevige hint geeft over waar het mis ging, wat doorgegeven kan worden aan de programmeur die de oorzaak moet vinden.
+- Je hebt (in het boek) gezien dat je bovenin een functie `assert`-statements kan toevoegen om eisen aan de input op te geven: **preconditions**. De bedoeling is dat de programmeur bij voorbaat zorgt dat een assertion nooit optreedt --- want dat zou een bug zijn. Maar: als het gebeurt, dan is het helaas meestal "in productie", ofwel als iemand de software gebruikt. Mocht een assertion optreden dan wordt het programma daarom direct stopgezet om eventuele rampen te voorkomen. Het voordeel is dat de assert dan een stevige hint geeft over waar het mis ging, wat doorgegeven kan worden aan de programmeur die de oorzaak moet vinden.
 
-- Je hebt (in de eerste module) ook `assert`-statements gezien in tests. Hier wordt met zo'n statement aangegeven wat een verwachte waarde is binnen de context van een test. De primaire taak van het Pytest-framework is jouw tests te runnen en te rapporteren hoeveel van de tests slagen. Als een assert `False` geeft dan faalt de test geheel. De ontwikkelaar (programmeur) runt tests en kan dan ook direct inspecteren waar een test faalt en waarom.
+- Je hebt (in de eerste module) ook `assert`-statements gezien in **tests**. Hier wordt met zo'n statement aangegeven wat een verwachte waarde is binnen de context van een test. De primaire taak van het Pytest-framework is jouw tests te runnen en te rapporteren hoeveel van de tests slagen. Als een assert `False` geeft dan faalt de test geheel. De ontwikkelaar (programmeur) runt tests en kan dan ook direct inspecteren waar een test faalt en waarom.
 
 ## Exceptions
 
