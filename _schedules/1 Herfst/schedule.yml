@@ -32,50 +32,52 @@ Python:
 Collections:
     Overzicht: /onderwerp/collections
     "Boek: Data Abstraction": /onderwerp/collections/boek
-    Collection types:
+    Opdrachten:
         Sets: /onderwerp/collections/sets
         Dicts: /onderwerp/collections/dicts
         Tuples: /onderwerp/collections/tuples
         Recommend: /onderwerp/collections/recommend
-    Algoritmische analyse:
         Complexity: /onderwerp/collections/big-o-questions
         Verminder de Cyclomatic Complexity van Hangman*: /onderwerp/collections/cc
 
 Objects:
     Overzicht: /onderwerp/objects
     "Videocollege: OOP": /onderwerp/objects/lecture
-    Queue: /onderwerp/objects/queue
-    Cookie Jar: /onderwerp/objects/jar
+    Opdrachten:
+        Queue: /onderwerp/objects/queue
+        Cookie Jar: /onderwerp/objects/jar
 
 Abstract Data Types:
     Overzicht: /onderwerp/adt
     "Boek: Data Abstraction": /onderwerp/adt/boek
-    Game of Cards: /onderwerp/adt/cards
-    Testen met twee implementaties: /onderwerp/adt/testing
-    Wat is er mis met Cash*: /onderwerp/adt/cash
+    Opdrachten:
+        Game of Cards: /onderwerp/adt/cards
+        Testen met twee implementaties: /onderwerp/adt/testing
+        Wat is er mis met Cash*: /onderwerp/adt/cash
 
 Containers:
     Overzicht: /onderwerp/containers
     "Boek: Container Classes": /onderwerp/containers/boek
-    War: /onderwerp/containers/war
-    Implementaties van dictionaries: /onderwerp/containers/dicts
-    Markov*: /onderwerp/containers/markov
+    Opdrachten:
+        War: /onderwerp/containers/war
+        Implementaties van dictionaries: /onderwerp/containers/dicts
+        Markov*: /onderwerp/containers/markov
 
 Linked structures:
     Overzicht: /onderwerp/linked
     "Boek: Linked Structures": /onderwerp/linked/boek
-    Implementaties van lijsten: /onderwerp/linked/lists
-    Profiling: /onderwerp/linked/profiling
+    Opdrachten:
+        Implementaties van lijsten: /onderwerp/linked/lists
+        Profiling: /onderwerp/linked/profiling
 
 Restricted lists:
     Overzicht: /onderwerp/restricted
-    Stacks en queues:
-        "Boek: Stacks and Queues": /onderwerp/restricted/boek
+    "Boek: Stacks and Queues": /onderwerp/restricted/boek
+    "Theorie: grafen en bomen": /onderwerp/restricted/grafen
+    Opdrachten:
         Palindrome: /onderwerp/restricted/palindrome
-    Implementatie:
-        "Theorie: grafen en bomen": /onderwerp/restricted/grafen
         Priority Queue: /onderwerp/restricted/priority_queue
-    Police TBD: /onderwerp/restricted/police
+        Police TBD: /onderwerp/restricted/police
 
 Adventure:
     Overzicht: /onderwerp/oop
