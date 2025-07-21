@@ -3,7 +3,3 @@ files:
   required:
     - jar.py
     - test_jar.py
-# check:
-#     tool: checkpy
-#     repo: minprog/checks
-#     args: jar
