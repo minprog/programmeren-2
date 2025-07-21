@@ -1,13 +1,13 @@
 # Queue
 
-> Werk gerust samen voor deze oefening maar maak je eigen uitwerking. Gebruik van ChatGPT is echt totale onzin voor deze module. Je kunt het niet leren als je shortcuts neemt. Herhaling, opnieuw de theorie bestuderen, nogmaals oefenen en gesprekken met medestudenten zijn dé manieren om de stof onder de knie te krijgen (zelfs al ben je dan aan het eind van de module nog steeds licht in de war, dat is helemaal OK).
+> Werk gerust samen voor deze oefening maar maak je eigen uitwerking. Let op dat je geen shortcuts neemt. Herhaling, opnieuw de theorie bestuderen, nogmaals oefenen en gesprekken met medestudenten zijn dé manieren om de stof onder de knie te krijgen (zelfs al ben je dan aan het eind van de module nog steeds licht in de war, dat is helemaal OK).
 
 Let's see what it means to define a useful *interface* for a class by implementing a **queue** data structure. The goal of a queue is to be able to store items that you might retrieve later, in the order in which they were stored. As such, a queue supports two core operations:
 
 - **enqueue**, which adds an item to the back of queue, waiting to be collected again
 - **dequeue**, which removes an item from the front of the queue
 
-![A visual description of the queue structure. It is a row of elements. One end is labeled 'back' and the other end 'front'. On the periphery near the back is another element with an arrow pointing from that element to the back, labeled 'enqueue'. From the front an arrow points to a different element outside the queue. That arrow is labeled 'dequeue'.](images/wikipedia_queue.png){:style="max-width:300px"}  
+![A visual description of the queue structure. It is a row of elements. One end is labeled 'back' and the other end 'front'. On the periphery near the back is another element with an arrow pointing from that element to the back, labeled 'enqueue'. From the front an arrow points to a different element outside the queue. That arrow is labeled 'dequeue'.](images/wikipedia_queue.png){:style="max-width:300px"}
 <small>Image by [Vegpuff/Wikipedia](https://commons.wikimedia.org/wiki/File:Data_Queue.svg).</small>
 
 The idea of a queue is used in many applications, but an important one is scheduling. Computers can administer many tasks that have to be performed, and when one task is done, another may be started. The list of open tasks is kept in a queue, ensuring that the oldest task is always scheduled next.
@@ -112,6 +112,8 @@ Once you have done this, and some other part of the code tries to dequeue an ele
 **Add the assertion** above to the `dequeue()` method and add a test to check if an error can be triggered.
 
 Note that such an error will **not** help the *user* of a program in which your `Queue` class is implemented. To a user, an `AssertionError` means nothing but confusion! So, assertions are first and foremost a tool to help find the root cause of problems in your own code.
+
+> But what about **exceptions**? We will not be using them for this class. But instead of assertions for the preconditions, we could almost certainly have used exceptions, to give the user of the class (a programmer) the option to handle these gracefully, if possible. Exceptions will return in the next assignment.
 
 ## Testing your implementation
 
