@@ -1,5 +1,9 @@
 # Implementaties van lijsten
 
+In deze opgave gaat het over implementaties. Hieronder beschrijven we een probleem waarin je een lijst-structuur kunt herkennen. De vraag is nu hoe we het probleem efficiënt kunnen oplossen. Om dit te begrijpen ga je drie verschillende implementaties van een lijst vergelijken.
+
+## Casus
+
 Je bent bezig met het ontwerp van een systeem waarin je persoonsdata (bijvoorbeeld klantgegevens) moet bijhouden. We modelleren personen met een `class` met daarin alle betreffende informatie. Voor deze opdracht is dat de volgende class:
 
     class Person:
