@@ -17,7 +17,10 @@ Deze module ga je onderzoeken hoe objectgeoriënteerd programmeren kan helpen om
 
 Het doel voor de onderstaande opdrachten is om ze geheel en correct te maken. Daarbij doe je je eerste ervaring op met objectgeorienteerd programmeren. Voor de opdrachten staan automatische checks klaar, zodat je meteen weet of ze voldoende zijn.
 
-- Queue: 1 punt
-- Cookie Jar: 1 punt
+Queue
+: 1 punt
+
+Cookie Jar
+: 1 punt
 
 Er zijn geen deelpunten mogelijk: de programma's moeten helemaal goedgekeurd worden door de website en dan krijg je de punten.
