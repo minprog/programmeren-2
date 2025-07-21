@@ -39,6 +39,8 @@ En nu komt het. Wat nou als we proberen er een integer van te maken en kijken wa
 
 Dat is het idee van de code hierboven: je probeert het, en als het fout blijkt, dan probeer je dat probleem op een goede wijze op te lossen. Dat is het "asking for forgiveness"-deel. De `try`-`except` is daar precies voor gemaakt.
 
+Reflecteer nog wel even op de oplossing. We gebruiken hier de strategie dat we de waarde 0 invullen als de invoer niet klopt. Dat is niet altijd een logische of veilige oplossing!
+
 ## Exceptions in je eigen code
 
 In je eigen code kun je ook exceptions laten optreden met het commando `raise`.
