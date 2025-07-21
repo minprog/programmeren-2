@@ -43,6 +43,7 @@ Collections:
 Objects:
     Overzicht en puntentelling: /onderwerp/objects
     "Videocollege: OOP": /onderwerp/objects/lecture
+    Assertions en exceptions: /onderwerp/objects/exceptions
     Opdrachten:
         Queue: /onderwerp/objects/queue
         Cookie Jar: /onderwerp/objects/jar

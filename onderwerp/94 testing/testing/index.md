@@ -39,12 +39,12 @@ Effectively unit testing does not need to be much more than writing a script tha
         size = len(items)
         middle = size // 2
         return items[middle]
-    
+
 
 Now we could write a seperate script to automatically test this for us. Let's say we create a file called `test_median.py`:
 
     from median import get_median
-    
+
     items = [1,2,3,4,5]
     expected_median = 3
     assert get_median(items) == expected_median
@@ -104,58 +104,6 @@ Je kunt dan testen of de functie inderdaad stopt als er sprake is van een foute 
 
 De test slaagt als nu de `assert` triggert en een `AssertionError` geeft. Als je de `assert` weglaat dan zal de test nogal hard falen (probeer het eens uit!).
 
-### Exceptions
-
-Naast assertions zijn er ook exceptions in Python. Eén manier om exceptions te gebruiken is om **foute user-input** af te vangen. Als een gebruiker iets fout doet dan wil je niet dat het programma crasht maar dat het probeert er toch maar het beste van te maken. In dit voorbeeld zie je dat we om input vragen, graag een gewoon getal, maar we weten natuurlijk niet helemaal zeker of de gebruiker zich daar aan gaat houden. Daarom gebruiken we een exception om dit mogelijke probleem "af te vangen" (catchen). Daarvoor is de `try`-`except`-constructie.
-
-    text = input("give me a number")
-    try:
-        number = int(text)
-    except ValueError:
-        number = 0
-
-Een dergelijk gebruik van exceptions gaan we niet testen (omdat er sprake is van user input, wat erg lastig is om te simuleren in een test), maar exceptions kunnen op meer manieren gebruikt worden.
-
-### Ask for forgiveness
-
-In Python is het principe "it's often easier to ask forgiveness than to get permission" één van de leidraden bij het schrijven van code. In het bovenstaande voorbeeld is het moeilijk om elk geval voor te stellen waarin we een string kunnen omzetten in een geheel getal. De string mag alleen uit cijfers bestaan, maar een `.` is ook toegestaan. Maar niet meer dan één `.` hoor! Voor je het weet ben je allerlei if-statements aan het schrijven om de input te valideren vóór je deze durft om te zetten naar een integer.
-
-Wat nou als we proberen er een integer van te maken en kijken wat er gebeurt?
-
-Dat is het idee van de code hierboven: je probeert het, en als het fout blijkt, dan probeer je dat probleem op een goede wijze op te lossen. Dat is het "asking for forgiveness"-deel.
-
-### Exceptions vs assertions
-
-Exceptions vervullen in Python vaak dezelfde functie als assertions. Je zult ze door elkaar tegenkomen. We raden je voor nu aan om `assert`-statements te schrijven met een korte goede foutmelding, waardoor jij als programmeur snel kan achterhalen wat er mis is. Later kun je ook exceptions gaan schrijven volgens de Python-filosofie.
-
-Voor nu is het vooral belangrijk dat je weet hoe je functies moet testen die ook exceptions kunnen geven. Stel dat we het programma van hierboven herschrijven met een excetpion:
-
-    def get_median(items: list[int]) -> int:
-        size = len(items)
-
-        if size == 0:
-            raise ValueError("Cannot get a median from an empty list.")
-
-        middle = size // 2
-        return items[middle]
-
-Ook deze kunnen we testen:
-
-    import pytest
-    from median import get_median
-
-    def test_empty():
-        with pytest.raises(ValueError):
-            get_median([])
-
-Net als bij de `AssertionError` zal de test slagen als er een `ValueError` wordt gegeven.
-
-### Exceptions vs assertions
-
-In eerdere opdrachten heb je kennis gemaakt met assertions die je in je eigen code plaatst, die het programma stoppen als er iets onmogelijks gebeurt.
-
-
-In een later stadium kun je ook exceptions gebruiken op de manier waarop deze in Python vaak gebruikt worden. Dit vereist wat meer ervaring met het schrijven van Python-code, zodat je ruimte hebt om na te denken over wanneer je wel en niet exceptions moet gebruiken. In deze cursus wordt niet beoordeeld op het gebruik van exceptions, wel op het gebruik van assertions.
 
 <!--
 ## Fixtures
@@ -202,7 +150,7 @@ If we run pytest with this code in `test_median.py` we'll see:
     ========================= test session start =========================
     platform linux -- Python 3.9.0, pytest-6.2.4, py-1.10.0, pluggy-0.13.1
     rootdir: /home/foo
-    collected 4 items                                                     
+    collected 4 items
 
     test_median.py ....                                             [100%]
 
