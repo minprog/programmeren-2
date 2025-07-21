@@ -1,5 +1,13 @@
 # Markov
 
-Pas de Markov-generator uit het boek zó aan dat je bij aanmaken van het model de lengte van de prefix kunt opgeven. Dat betekent dat de constructor (initializer) een nieuwe parameter moet krijgen waarin de lengte wordt meegegeven. Experimenteer met verschillende lengtes van prefixes.
+1. Neem de code voor de Markov-generator uit het boek over. Zoals geschreven werkt deze met trigrams.
+
+2. Zorg dat de code helemaal goed werkt, en test dit door een lange tekst in te lezen en stukken tekst te genereren.
+
+3. Pas de class nu zó aan dat je bij aanmaken van het model de lengte van de prefix kunt bepalen. Dat betekent dat de constructor (initializer) een nieuwe parameter moet krijgen waarin de lengte wordt meegegeven.
+
+4. Experimenteer met verschillende lengtes van prefixes voor het genereren van teksten. Wordt het beter als je langere prefixes gebruikt? Bewaar gegenereerde teksten met een aantekening van de gebruikte parameters!
+
+## Inleveren
 
 Lever je code in en 5 voorbeelden van interessante gegenereerde teksten. Geef bij elke tekst duidelijk aan welke input je hebt gebruikt en welke parameters.
