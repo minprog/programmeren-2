@@ -6,8 +6,6 @@ Een abstract datatype beschrijft een datatype vanuit de **operaties** die je ero
 
 De details van de implementatie worden in het contract (of de beschrijving) van een ADT geheel weggelaten. Men kan in principe een ADT implementeren op een willekeurige manier, zolang alle verplichte operaties maar ondersteund worden met de juiste pre- en postcondities. In de praktijk zullen ADTs vaak op een specifieke manier geïmplementeerd worden, omdat men heeft ontdekt dat de operaties op één manier zeer efficiënt kunnen werken, terwijl de ADT als deze op een andere manier wordt geïmplementeerd nodeloos traag is of andere beperkingen kent.
 
-Daarna gaan we kijken naar *container classes* in Python en hoe die zijn opgebouwd. Inmiddels ben je bekend met o.a. `list` en `dict` in Python. In deze module ga je deze datastructuren zelf implementeren op verschillende manieren en onderzoeken wat de voordelen en nadelen zijn van de implementaties. Het doel is een goed begrip opbouwen hoe de datastructuren in elkaar steken en waarom.
-
 ## Leerdoelen
 
 - Goed begrijpen wat een ADT is
