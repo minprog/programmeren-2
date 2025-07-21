@@ -80,7 +80,7 @@ Implementeer weer `PersonList`, maar nu met een linked list. Je kan beginnen met
         def as_sorted_list(self) -> list[Person]:
             raise NotImplementedError()
 
-> Zie je dat `PersonLinkedList` overerft (inherit) van `PersonList`? Zo heeft `PersonLinkedList` dezelfde eigenschappen als `PersonList` en kan je `PersonLinkedList` overal gebruiken waar eerder een `PersonList` werd gebruikt. Dit mag nu ook van `mypy` :)
+> Zie je in de `class` definitie dat `PersonLinkedList` overerft (inherit) van `PersonList`? Dit zegt dat `PersonLinkedList` nu een `PersonList` is en precies de interface van `PersonList` implementeert. Zo heeft `PersonLinkedList` dezelfde methodes als `PersonList` en kan je `PersonLinkedList` overal gebruiken waar eerder een `PersonList` werd gebruikt.  Dit mag nu ook van `mypy` :)
 > Tip: in het boek hoofdstuk 2 staat ook een stukje over inheritance.
 
 
@@ -88,7 +88,7 @@ Implementeer weer `PersonList`, maar nu met een linked list. Je kan beginnen met
 
 Er is nog één obstakel volgens je collega's: `lookup` kost in beide implementaties te veel tijd. Kan dat niet in constante tijd?
 
-`dict`s! Die kunnen opzoeken in (amortized) constante tijd. Alleen is er geen manier om een `dict` op volgorde van namen te houden. Dus doen we een combo achter de schermen, zowel een `dict` bijhouden om snel op te kunnen zoeken, als een `LinkedList` om de volgorde te bewaken. Dan slaan we data dubbel op, maar wordt `lookup` een stuk sneller.
+`dict`s! Die kunnen opzoeken in (amortized) constante tijd. Alleen is er geen manier om een `dict` op volgorde van namen te houden. Dus doen we een combo achter de schermen, zowel een `dict` bijhouden om snel op te kunnen zoeken, als een `LinkedList` om de volgorde te bewaken. Dan slaan we weliswaar data dubbel op, maar wordt `lookup` een stuk sneller.
 
 Hier is een opzet:
 
@@ -99,10 +99,11 @@ Hier is een opzet:
 
     class PersonDictList(PersonList):
         def __init__(self):
-            self._head: Node | None = None
+            # Een linked list van alle personen
+            self._linked_list = PersonLinkedList()
 
             # Een dictionary met als key de naam van een persoon en als value de persoon
-            self._people: dict[str, Person] = {}
+            self._people_dict: dict[str, Person] = {}
 
         def add(self, person: Person) -> None:
             raise NotImplementedError()
@@ -118,6 +119,10 @@ Hier is een opzet:
 
         def as_sorted_list(self) -> list[Person]:
             raise NotImplementedError()
+
+Kijk goed naar `__init__`. Hier wordt niet alleen een dictionary aangemaakt, maar ook een eigen `PersonLinkedList`. Dat betekent dat deze versie van de lijst zelf ook een andere versie van de lijst [gebruikt](https://www.imdb.com/title/tt1375666/). Dit concept heet **composition**, het samenstellen van verschillende componenten om nieuwe (complexere) componenten te maken. In dit geval dus twee componenten (een `dict` en een `PersonLinkedList`) om één `PersonDictList` te maken.
+
+Het idee is om in zowel de dictionary als de linked list de personen bij te houden. Bij de verschillende methodes van `PersonDictList` kan je dan gebruik maken van beide of één van de datastructuren. Zo kan je de linked list gebruiken waar volgorde belangrijk is, in `as_sorted_list()` bijvoorbeeld. En kan je de dictionary handig gebruiken waar volgorde niet belangrijk is, bijvoorbeeld in `lookup()`!
 
 ## Vergelijken
 
