@@ -1,5 +1,7 @@
 # Many submissions of cash
 
+> Inmiddels heb je ruim ervaring met Python. Als je het gevoel hebt dat je alles wel zo'n beetje begrijpt dan is onderstaande opgave zeker wat voor jou. Probleem: je krijgt 13 uitwerkingen van een opdracht en zelfs met jouw voorkennis ga je ze niet allemaal begrijpen. Dat is niet erg, want we proberen juist heel nauwkeurig te kijken naar hoe het moet werken "van buitenaf", en dit met tests vast te leggen. Hoe het intern dan precies werkt is minder van belang.
+
 We asked students to implement the following function:
 
     def number_of_coins(change: int, coins: list[int]) -> int:
@@ -34,7 +36,7 @@ Het is **niet** erg als het niet lukt om alles op te lossen. Je verdient snel pu
 
 [Download the distribution code](testing_cash.zip).
 
-Write unittests in Pytest to test this assignment. Find out which submissions are correct or incorrect. In case a submission is incorrect, write down why (see report below). Submit all your unittests in a file named `test_cash.py` on the bottom of this page. 
+Write unittests in Pytest to test this assignment. Find out which submissions are correct or incorrect. In case a submission is incorrect, write down why (see report below). Submit all your unittests in a file named `test_cash.py` on the bottom of this page.
 
 ## A bit of help
 

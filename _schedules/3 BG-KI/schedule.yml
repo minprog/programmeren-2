@@ -30,7 +30,7 @@ Python:
         split real*: /onderwerp/python/opdrachten/split_real
 
 Collections:
-    Overzicht: /onderwerp/collections
+    Overzicht en puntentelling: /onderwerp/collections
     "Boek: Data Abstraction": /onderwerp/collections/boek
     Opdrachten:
         Sets: /onderwerp/collections/sets
@@ -41,14 +41,14 @@ Collections:
         Verminder de Cyclomatic Complexity van Hangman*: /onderwerp/collections/cc
 
 Objects:
-    Overzicht: /onderwerp/objects
+    Overzicht en puntentelling: /onderwerp/objects
     "Videocollege: OOP": /onderwerp/objects/lecture
     Opdrachten:
         Queue: /onderwerp/objects/queue
         Cookie Jar: /onderwerp/objects/jar
 
 Abstract Data Types:
-    Overzicht: /onderwerp/adt
+    Overzicht en puntentelling: /onderwerp/adt
     "Boek: Data Abstraction": /onderwerp/adt/boek
     Opdrachten:
         Game of Cards: /onderwerp/adt/cards
@@ -56,7 +56,7 @@ Abstract Data Types:
         Wat is er mis met Cash*: /onderwerp/adt/cash
 
 Container classes:
-    Overzicht: /onderwerp/containers
+    Overzicht en puntentelling: /onderwerp/containers
     "Boek: Container Classes": /onderwerp/containers/boek
     Opdrachten:
         War: /onderwerp/containers/war
@@ -64,14 +64,14 @@ Container classes:
         Markov*: /onderwerp/containers/markov
 
 Linked structures:
-    Overzicht: /onderwerp/linked
+    Overzicht en puntentelling: /onderwerp/linked
     "Boek: Linked Structures": /onderwerp/linked/boek
     Opdrachten:
         Implementaties van lijsten: /onderwerp/linked/lists
         Profiling: /onderwerp/linked/profiling
 
 Restricted lists:
-    Overzicht: /onderwerp/restricted
+    Overzicht en puntentelling: /onderwerp/restricted
     "Boek: Stacks and Queues": /onderwerp/restricted/boek
     "Theorie: grafen en bomen": /onderwerp/restricted/grafen
     Opdrachten:
@@ -80,7 +80,7 @@ Restricted lists:
         Police TBD: /onderwerp/restricted/police
 
 Object graphs:
-    Overzicht: /onderwerp/oop
+    Overzicht en puntentelling: /onderwerp/oop
     1. Introduction: /adventure/steps/introduction
     2. Rooms: /adventure/steps/room
     3. Data files (big!): /adventure/steps/data

@@ -1,9 +1,5 @@
 # Code schrijven en de standaard
 
-**Allereerst:** zorg dat je de opdrachten in de gegeven volgorde maakt. Ze bouwen vaak op! Een `*` betekent dat die opdracht geavanceerde onderwerpen/algoritmes behandelt. Deze steropdrachten leveren wel punten op, maar je kunt ze overslaan zonder je zorgen te maken dat je kennis mist.
-
-# Python-code runnen
-
 Om jouw programma's gewoon uit te proberen geef je een commando als het volgende:
 
     $ python3 hello.py         <---(of python zonder 3)

@@ -2,7 +2,7 @@
 
 Python heeft meerdere ingebouwde collection types, waaronder een `dict`. Dit is een datastructuur met een aantal bijzondere eigenschappen:
 
-- Een dict onthoud combinaties van keys en values. Met een key kan een value worden opgehaald.
+- Een dict onthoudt combinaties van keys en values. Met een key kan een value worden opgehaald.
 - Keys zijn allemaal uniek. Dit werkt op dezelfde manier als bij een `set`.
 - Een dict kent geen volgorde\* en daarom zijn er ook geen plekken (indices).
 
@@ -103,7 +103,7 @@ Zorg ervoor dat `values()` de values op volgorde van de dictionary in de lijst s
 </details>
 
 <details markdown="1"><summary markdown="span">`keys()`</summary>
-Naast values hebben dicts ook een keys methode. Deze methode geeft "a set-like object providing a view on D's keys" terug. Dit is een mogelijke implementatie:
+Naast `values` hebben dicts ook een `keys`-methode. Deze methode geeft "a set-like object providing a view on D's keys" terug. Dit is een mogelijke implementatie:
 
     def keys(dictionary: dict[KT, VT]) -> set[VT]:
         """
