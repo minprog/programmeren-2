@@ -1,6 +1,6 @@
 # Implementaties van lijsten
 
-In deze opgave gaat het over implementaties. Hieronder beschrijven we een probleem waarin je een lijst-structuur kunt herkennen. De vraag is nu hoe we het probleem efficiënt kunnen oplossen. Om dit te begrijpen ga je drie verschillende implementaties van een lijst vergelijken.
+In deze opgave gaat het over implementaties. Hieronder beschrijven we een probleem waarin je een lijst-structuur kunt herkennen. De vraag is nu hoe we het probleem efficiënt kunnen oplossen. Om dit te begrijpen ga je drie verschillende implementaties van een lijst vergelijken. Specifiek ga je ook oefenen met het implementeren van een linked list.
 
 ## Casus
 
