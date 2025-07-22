@@ -31,7 +31,7 @@ Maar we zien vooral een `try`-`except`-constructie. Hoe werkt dit?
 
 ## Ask for forgiveness
 
-In Python is het principe "it's often easier to ask forgiveness than to get permission" één van de leidraden bij het schrijven van code. De functie `input` check zoals gezegd niks, dus we weten eigenlijk niet wat we kunnen verwachten, behalve dat het een string is.
+In Python is het principe "it's often easier to ask forgiveness than to get permission" één van de leidraden bij het schrijven van code. De functie `input` checkt zoals gezegd niks, dus we weten eigenlijk niet wat we kunnen verwachten, behalve dat het een string is.
 
 We kunnen natuurlijk wel stap voor stap door de string loopen en controleren of elk teken een cijfer is, kijken of er één of meer `-`-tekens voor staan (maar niet ergens anders). En misschien een `.` of komma's? Maar niet meer dan één `.` hoor! Voor je het weet ben je allerlei if-statements aan het schrijven om de input te valideren vóór je deze durft om te zetten naar een integer.
 
