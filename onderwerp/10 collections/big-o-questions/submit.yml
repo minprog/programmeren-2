@@ -1,4 +1,4 @@
 name: big-o-questions
 files:
-    required:
-        - questions.txt
+  required:
+    - questions.txt
