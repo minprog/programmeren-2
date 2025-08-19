@@ -116,9 +116,9 @@ Implementeer nu de klasse `Graph`:
 
 Bij deze opdracht zijn er een drietal data bestanden:
 
-    * small_contacts.csv
-    * medium_contacts.csv
-    * large_contacts.csv
+* small_contacts.csv
+* medium_contacts.csv
+* large_contacts.csv
 
 > TODO fix DL
 
@@ -234,3 +234,10 @@ Om dit uit te zoeken kan je gebruik maken van het volgende algoritme:
 6. Verwijder duplicate cliques.
 
 > Bovenstaand algoritme is geïnspireerd door het [Bron-Kerbosch algoritme](https://en.wikipedia.org/wiki/Bron%E2%80%93Kerbosch_algorithm)
+
+Implementeer dit algoritme in een methode:
+
+    def get_cliques(self) -> list[set[Node]]:
+        """
+        Returns a list of maximum cliques in the graph.
+        """
