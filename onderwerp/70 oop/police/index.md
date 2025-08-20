@@ -185,9 +185,9 @@ Hebben de volgende verdachten contact gehad?
 
 Implementeer hiervoor de methode:
 
-    def has_indirect_contact(self, name1: str, name2: str) -> bool:
+    def get_indirect_contacts(self, name: str) -> list[Node]:
         """
-        Returns True if name1 has had contact with name2
+        Returns all nodes with which the given name has indirect contact (not direct).
         """
 
 ### Hoeveel criminele groepen zijn er?
@@ -300,8 +300,33 @@ Met de `WeightedEdge` class kan je deze vervolgens gebruiken in een nieuwe `Weig
             """
             pass
 
-        def get_most_weighted_contact(self) -> WeightedEdge:
+        def get_most_frequent_contact(self) -> WeightedEdge:
             """
             Returns the edge with the highest weight.
             """
             pass
+
+### Welke maximale cliques zijn er voor frequente contacten (>= 2 contact)?
+
+Implementeer voor deze vraag de volgende methode:
+
+    def get_frequent_cliques(self, treshold: int=2) -> list[set[Node]]:
+        """
+        Returns a list of cliques where each edge in the clique 
+        has a weight above the given treshold.
+        """
+        graph = Graph()
+
+        # TODO add all the edges to graph with weight > treshold
+
+        return graph.get_cliques()
+
+Je hoeft hier het wiel niet opnieuw uit te vinden, want je hebt al een methode `get_cliques` geschreven. Maak daarom gebruik van compositie, gebruik de bestaande class `Graph` en diens `get_cliques` methode om het lastige werk voor je te doen.
+
+### Welke maximale indirecte cliques zijn er voor frequente contacten (>= 2 contact)?
+
+Een indirecte clique is een groep waarbij iedereen direct of indirect contact heeft met elkaar. Daarbij komt kijken dat alle contacten minimaal twee keer moeten zijn geweest.
+
+Implementeer voor deze vraag de volgende methode:
+
+    def get_frequent_indirect_cliques(self, treshold: int=2) -> list[Set[Node]]:
