@@ -286,7 +286,7 @@ Met de `WeightedEdge` class kan je deze vervolgens gebruiken in een nieuwe `Weig
     class WeightedGraph(Graph):
         def add_contact(self, name1: str, name2: str) -> None:
             """
-            Add a connection between two people (Edge) to the graph.
+            Add a connection between two people (WeightedEdge) to the graph.
             """
             pass
 
