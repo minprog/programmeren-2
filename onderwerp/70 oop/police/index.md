@@ -125,17 +125,17 @@ Deze bestanden download je [hier](/). Kijk even goed in de bestanden om te zien 
 
 Implementeer nu de methode `load_from_file`:
 
-    @classmethod
-    def load_from_file(cls, filename: str) -> Graph:
+    @staticmethod
+    def load_from_filefilename: str) -> Graph:
         """
         Reads contacts from file and creates a graph. 
         """
-        graph = cls()
+        graph = Graph()
         
         with open(filename) as f:
             pass
 
-`load_from_file` is een `classmethod`. Dit is vrij letterlijk een methode van de class en niet van een instantie (object) van de class. Want wat deze methode doet is juist die nieuwe instantie aanmaken. Hiervoor is de `@classmethod` decorator, dit zorgt ervoor dat de methode niet een instantie meekrijgt (`self`), maar de class (conventie is `cls`). In ons geval is de waarde van `cls` de class `Graph`. De eerste regel in de methode doet dan eigenlijk `graph = Graph()`.
+`load_from_file` is een `staticmethod`. Dit is een methode die geen instantie (object) van de class nodig heeft. Er is dus ook geen `self`. Wel zo logisch, want wat deze methode juist gaat doen is een nieuwe `Graph` aanmaken.
 
 Eenmaal geïmplementeerd zou het volgende moeten werken:
 
@@ -149,10 +149,6 @@ Eenmaal geïmplementeerd zou het volgende moeten werken:
     [Alice, Bob, Charlie]
     >>> graph.all_contacts
     [Alice - Bob, Alice - Charlie, Bob - Charlie]
-
-<details markdown="1"><summary markdown="span">Waarom `graph = cls()` en niet `graph = Graph()`?</summary>
-Een belangrijke drijfveer achter OOP is het uitbreidbaar maken van programma's. Zodat je gemakkelijker nieuwe code kan toevoegen en minder bestaande code hoeft te wijzigen. Eén manier om dit te doen is via inheritance, overerfen in het Nederlands. Bij deze manier worden alle eigenschappen van een bestaande class (`Graph`) overgenomen in een nieuwe class (`BetterGraph`). Dat zou dus betekenen dat een regel zoals `graph = Graph()` ook wordt overgenomen in de nieuwe class `BetterGraph`. Terwijl er in deze situatie eigenlijk `graph = BetterGraph()` moet staan. Dit is het probleem dat `@classmethod` oplost en waarom `graph = cls()` hier de betere zet is. Door het gebruik van `cls()` wordt voor zowel `Graph` als `BetterGraph` de juiste uitgevoerd.
-</details>
 
 ## Vraagstukken
 
@@ -190,7 +186,7 @@ Implementeer hiervoor de methode:
         Returns all nodes with which the given name has indirect contact (not direct).
         """
 
-### Hoeveel criminele groepen zijn er?
+### Welke criminele groepen zijn er?
 
 Een groep is een afgesloten stuk van de graaf. Zo kent de volgende graaf twee groepen:
 
@@ -204,25 +200,13 @@ Een groep is een afgesloten stuk van de graaf. Zo kent de volgende graaf twee gr
 
 Implementeer hiervoor:
 
-    def count_groups(self) -> int:
-        """Return the number of groups in the graph."""
+    def get_groups(self) -> list[set[Node]]:
+        """Returns the groups (set[Node]) of the graph."""
         pass
 
-### Criminele driehoeken
+### Tot welke driehoeken hoort Luca? 
 
-Tot welke driehoeken hoort Luca? Een driehoek is een groep van drie personen wie allemaal contact met elkaar hebben.
-
-Implementeer:
-
-    def get_triangles(self, name: str) -> list[set[Node]]:
-        """
-        Returns all groups consisting of three connected
-        persons of which name is a part.
-        """
-
-### Welke maximale cliques zijn er?
-
-Een clique is een verzameling van personen die allemaal contact met elkaar hebben. Een maximale clique is een clique waaraan niemand kan worden toegevoegd. Zo kent de volgende graaf drie maximale cliques (Alice, Bob en Diana), (Bob, Diana en Charlie) en (Charlie en Eve).
+Een driehoek is een groep van drie personen die allemaal contact met elkaar hebben. Hieronder bijvoorbeeld zijn er twee driehoeken (Alice, Bob, Diana) en (Bob, Diana, Charlie).
 
        Alice
        /   \
@@ -232,101 +216,10 @@ Een clique is een verzameling van personen die allemaal contact met elkaar hebbe
           |
          Eve
 
-Om dit uit te zoeken kan je gebruik maken van het volgende algoritme:
+Implementeer:
 
-1. Begin met een groep voor elke persoon.
-2. Voor elke groep, kijk naar alle personen die contact hebben met iemand in de groep.
-    * Heeft deze persoon contact met alle personen in de groep?
-        * Maak een nieuwe groep met iedereen uit de originele groep plus deze persoon.
-3. Stop als je niemand meer kunt toevoegen: Als je geen nieuwe mensen meer kunt toevoegen aan je groep, dan heb je een groep gevonden waarin iedereen met elkaar praat.
-4. Kon je wel iemand toevoegen aan de groep? Dan is de groep niet maximaal en kun je deze verwijderen.
-5. Herhaal voor alle groepen: Herhaal dit proces totdat al je groepen maximaal zijn.
-6. Verwijder duplicate cliques.
-
-> Bovenstaand algoritme is geïnspireerd door het [Bron-Kerbosch algoritme](https://en.wikipedia.org/wiki/Bron%E2%80%93Kerbosch_algorithm)
-
-Implementeer dit algoritme in een methode:
-
-    def get_cliques(self) -> list[set[Node]]:
+    def get_triangles(self, name: str) -> list[set[Node]]:
         """
-        Returns a list of maximum cliques in the graph.
+        Returns all groups consisting of three connected
+        persons of which name is a part.
         """
-
-### Wie heeft er het vaakst contact gehad?
-
-Welke twee personen hebben het vaakst contact gehad binnen het netwerk. Om dit uit te zoeken moet je niet alleen bijhouden wie met wie contact heeft, maar ook hoe vaak. Dit kan je doen door bij iedere edge bij te houden hoe vaak die edge voorkomt. Dat kan je je zo voorstellen, bij het voorbeeld van eerder:
-
-    Alice belt Bob
-    Diana emailt Charlie
-    Diana emailt Alice
-    Diana ontmoet Charlie
-    Bob ontmoet Charlie
-    Bob belt Alice
-    Charlie belt Eve
-
-       Alice
-       /2  \1
-     Bob - Diana
-       \1  /2
-       Charlie
-          |1
-         Eve
-
-Zou je willen toevoegen aan de code, dan moet je bestaande delen van de code overhoop gooien terwijl de code prima werkt voor de vraagstukken tot nu toe. Dat kan anders met het gebruik van classes. In plaats van het aanpassen om iets nieuws toe te voegen, kan je een nieuwe class toevoegen die een bestaande class uitbreid met nieuwe functionaliteit. Bijvoorbeeld een `WeightedEdge`:
-
-    class WeightedEdge(Edge):
-        def __init__(self, node1: Node, node2: Node) -> None:
-            super().__init__(node1, node2)
-            self.weight: float = 1
-
-        def __repr__(self) -> str:
-            return f"{super().__repr__()} (weight: {self.weight})"
-
-Dit is een uitbreiding van een Edge. In OOP-termen: **inherit** `WeightedEdge` van `Edge`. Daarmee is een `WeightedEdge` een `Edge`, het heeft alles wat een `Edge` heeft. Dus alle bestaande methodes en attributen zijn beschikbaar. Kijk hier goed naar de `__init__` methode, want daar gebeurt iets meer. Zo worden deze regels uitgevoerd:
-
-    super().__init__(node1, node2)
-    self.weight: float = 1
-
-De eerste regel is wat cryptische Python syntax, maar het idee erachter is simpel: voer ook de `__init__` methode uit van de super class. `super()` is die super class, hetgeen waar `WeightedEdge` van overerft, namelijk `Edge`. Door deze regel is de code van de oorspronkelijke `__init__` uit `Edge` uitgevoerd en heeft een `WeightedEdge` nu ook alle attributen die een normale `Edge` heeft. De tweede regel voegt binnen een `WeightedEdge` een nieuw attribuut toe: een attribuut `weight` met waarde 1.
-
-De `__repr__` methode van `WeightedEdge` doet hetzelfde trucje van `__init__` nog een keer. Roep de `__repr__` van Edge aan en voeg er wat aan toe voor de `WeightedEdge`. 
-
-Met de `WeightedEdge` class kan je deze vervolgens gebruiken in een nieuwe `WeightedGraph`. Want voor de graaf moet ook het nodige veranderen. Specifiek moet `add_contact` nu `WeightedEdge`s gaan aanmaken. En is er een nieuwe methode nodig voor deze vraag: `get_most_weighted_contact`. Dit is aan jou om uit te vogelen:
-
-    class WeightedGraph(Graph):
-        def add_contact(self, name1: str, name2: str) -> None:
-            """
-            Add a connection between two people (WeightedEdge) to the graph.
-            """
-            pass
-
-        def get_most_frequent_contact(self) -> WeightedEdge:
-            """
-            Returns the edge with the highest weight.
-            """
-            pass
-
-### Welke maximale cliques zijn er voor frequente contacten (>= 2 contact)?
-
-Implementeer voor deze vraag de volgende methode:
-
-    def get_frequent_cliques(self, treshold: int=2) -> list[set[Node]]:
-        """
-        Returns a list of cliques where each edge in the clique 
-        has a weight above the given treshold.
-        """
-        graph = Graph()
-
-        # TODO add all the edges to graph with weight > treshold
-
-        return graph.get_cliques()
-
-Je hoeft hier het wiel niet opnieuw uit te vinden, want je hebt al een methode `get_cliques` geschreven. Maak daarom gebruik van compositie, gebruik de bestaande class `Graph` en diens `get_cliques` methode om het lastige werk voor je te doen.
-
-### Welke maximale indirecte cliques zijn er voor frequente contacten (>= 2 contact)?
-
-Een indirecte clique is een groep waarbij iedereen direct of indirect contact heeft met elkaar. Daarbij komt kijken dat alle contacten minimaal twee keer moeten zijn geweest.
-
-Implementeer voor deze vraag de volgende methode:
-
-    def get_frequent_indirect_cliques(self, treshold: int=2) -> list[Set[Node]]:
