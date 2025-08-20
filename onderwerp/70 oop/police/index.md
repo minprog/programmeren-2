@@ -12,7 +12,7 @@ Bijvoorbeeld, gegeven de volgende informatie:
     Diana ontmoet Charlie
     Bob ontmoet Charlie
     Bob belt Alice
-    Charlie belt Eva
+    Charlie belt Eve
 
 Zijn er 5 unieke personen en daarom 5 nodes. Deze nodes zijn verbonden via 7 edges waarvan 5 uniek. De graaf die hieruit vormt kan er zo uitzien:
 
@@ -241,3 +241,57 @@ Implementeer dit algoritme in een methode:
         """
         Returns a list of maximum cliques in the graph.
         """
+
+### Wie heeft er het vaakst contact gehad?
+
+Welke twee personen hebben het vaakst contact gehad binnen het netwerk. Om dit uit te zoeken moet je niet alleen bijhouden wie met wie contact heeft, maar ook hoe vaak. Dit kan je doen door bij iedere edge bij te houden hoe vaak die edge voorkomt. Dat kan je je zo voorstellen, bij het voorbeeld van eerder:
+
+    Alice belt Bob
+    Diana emailt Charlie
+    Diana emailt Alice
+    Diana ontmoet Charlie
+    Bob ontmoet Charlie
+    Bob belt Alice
+    Charlie belt Eve
+
+       Alice
+       /2  \1
+     Bob - Diana
+       \1  /2
+       Charlie
+          |1
+         Eve
+
+Zou je willen toevoegen aan de code, dan moet je bestaande delen van de code overhoop gooien terwijl de code prima werkt voor de vraagstukken tot nu toe. Dat kan anders met het gebruik van classes. In plaats van het aanpassen om iets nieuws toe te voegen, kan je een nieuwe class toevoegen die een bestaande class uitbreid met nieuwe functionaliteit. Bijvoorbeeld een `WeightedEdge`:
+
+    class WeightedEdge(Edge):
+        def __init__(self, node1: Node, node2: Node) -> None:
+            super().__init__(node1, node2)
+            self.weight: float = 1
+
+        def __repr__(self) -> str:
+            return f"{super().__repr__()} (weight: {self.weight})"
+
+Dit is een uitbreiding van een Edge. In OOP-termen: **inherit** `WeightedEdge` van `Edge`. Daarmee is een `WeightedEdge` een `Edge`, het heeft alles wat een `Edge` heeft. Dus alle bestaande methodes en attributen zijn beschikbaar. Kijk hier goed naar de `__init__` methode, want daar gebeurt iets meer. Zo worden deze regels uitgevoerd:
+
+    super().__init__(node1, node2)
+    self.weight: float = 1
+
+De eerste regel is wat cryptische Python syntax, maar het idee erachter is simpel: voer ook de `__init__` methode uit van de super class. `super()` is die super class, hetgeen waar `WeightedEdge` van overerft, namelijk `Edge`. Door deze regel is de code van de oorspronkelijke `__init__` uit `Edge` uitgevoerd en heeft een `WeightedEdge` nu ook alle attributen die een normale `Edge` heeft. De tweede regel voegt binnen een `WeightedEdge` een nieuw attribuut toe: een attribuut `weight` met waarde 1.
+
+De `__repr__` methode van `WeightedEdge` doet hetzelfde trucje van `__init__` nog een keer. Roep de `__repr__` van Edge aan en voeg er wat aan toe voor de `WeightedEdge`. 
+
+Met de `WeightedEdge` class kan je deze vervolgens gebruiken in een nieuwe `WeightedGraph`. Want voor de graaf moet ook het nodige veranderen. Specifiek moet `add_contact` nu `WeightedEdge`s gaan aanmaken. En is er een nieuwe methode nodig voor deze vraag: `get_most_weighted_contact`. Dit is aan jou om uit te vogelen:
+
+    class WeightedGraph(Graph):
+        def add_contact(self, name1: str, name2: str) -> None:
+            """
+            Add a connection between two people (Edge) to the graph.
+            """
+            pass
+
+        def get_most_weighted_contact(self) -> WeightedEdge:
+            """
+            Returns the edge with the highest weight.
+            """
+            pass
