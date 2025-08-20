@@ -112,29 +112,35 @@ Implementeer nu de klasse `Graph`:
         def all_contacts(self) -> list[Edge]:
             pass
 
-### Stap 3: load_graph
+### Stap 3: load_from_file
 
-Bij deze opdracht zijn er een drietal data bestanden:
+Bij deze opdracht zijn er twee data bestanden:
 
 * small_contacts.csv
-* medium_contacts.csv
-* large_contacts.csv
+* contacts.csv
 
 > TODO fix DL
 
 Deze bestanden download je [hier](/). Kijk even goed in de bestanden om te zien hoe het in elkaar steekt.
 
-Implementeer nu de functie `load_graph`:
+Implementeer nu de methode `load_from_file`:
 
-    def load_graph(filename: str) -> Graph:
+    @classmethod
+    def load_from_file(cls, filename: str) -> Graph:
         """
         Reads contacts from file and creates a graph. 
         """
+        graph = cls()
+        
+        with open(filename) as f:
+            pass
+
+`load_from_file` is een `classmethod`. Dit is vrij letterlijk een methode van de class en niet van een instantie (object) van de class. Want wat deze methode doet is juist die nieuwe instantie aanmaken. Hiervoor is de `@classmethod` decorator, dit zorgt ervoor dat de methode niet een instantie meekrijgt (`self`), maar de class (conventie is `cls`). In ons geval is de waarde van `cls` de class `Graph`. De eerste regel in de methode doet dan eigenlijk `graph = Graph()`.
 
 Eenmaal geïmplementeerd zou het volgende moeten werken:
 
     $ python -i politie.py
-    >>> graph = load_graph("small_contacts.csv")
+    >>> graph = Graph.load_from_file("small_contacts.csv")
     >>> graph
     Alice - Bob
     Bob - Charlie
@@ -143,6 +149,10 @@ Eenmaal geïmplementeerd zou het volgende moeten werken:
     [Alice, Bob, Charlie]
     >>> graph.all_contacts
     [Alice - Bob, Alice - Charlie, Bob - Charlie]
+
+<details markdown="1"><summary markdown="span">Waarom `graph = cls()` en niet `graph = Graph()`?</summary>
+Een belangrijke drijfveer achter OOP is het uitbreidbaar maken van programma's. Zodat je gemakkelijker nieuwe code kan toevoegen en minder bestaande code hoeft te wijzigen. Eén manier om dit te doen is via inheritance, overerfen in het Nederlands. Bij deze manier worden alle eigenschappen van een bestaande class (`Graph`) overgenomen in een nieuwe class (`BetterGraph`). Dat zou dus betekenen dat een regel zoals `graph = Graph()` ook wordt overgenomen in de nieuwe class `BetterGraph`. Terwijl er in deze situatie eigenlijk `graph = BetterGraph()` moet staan. Dit is het probleem dat `@classmethod` oplost en waarom `graph = cls()` hier de betere zet is. Door het gebruik van `cls()` wordt voor zowel `Graph` als `BetterGraph` de juiste uitgevoerd.
+</details>
 
 ## Vraagstukken
 
