@@ -34,7 +34,7 @@ Hieronder vind je de **deadlines**. Bij dit vak is het niet verplicht om alle op
 | 4+5  | Linked structures   |    4   |   -  | di 30 sep 17:00 |         |
 | 5    | Restricted lists    |    4   |   -  | vr  3 okt 17:00 |         |
 | 6+7  | Object graphs       |   12   |   -  | vr 17 okt 17:00 |         |
-|      | **Totaal punten:**  |   42   |   5  |                 |         |
+|      | **Totaal punten:**  |   42   |   6  |                 |         |
 
 Bij verschillende modules zijn er opdrachten gemarkeerd met een `*`. Dit zijn **steropdrachten**, bedoeld als extra uitdaging en dus ook voor diegenen die daarnaar op zoek zijn. Als je ze niet maakt mis je slechts een bescheiden aantal punten.
 
