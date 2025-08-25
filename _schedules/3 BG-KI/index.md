@@ -48,10 +48,11 @@ De eindbeoordeling gaat als volgt:
 
 3.  Het **eindcijfer** bestaat dan uit de punten voor de opdrachten. Het wordt berekend via:
 
-        behaalde_punten / maximum * 9 + 1   # TBD
+        behaalde_punten / maximum * 9 + 1
 
-    De steropdrachten wegen mee in het puntentotaal en dus ook in het eindcijfer. Per saldo maken de opdrachten met een `*` het verschil tussen een TBD 9 (8.8 afgerond) en een 10.
+    De steropdrachten wegen mee in het puntentotaal en dus ook in het eindcijfer. Per saldo maken de opdrachten met een `*` het verschil tussen een 9 (dus 8.875 maar dan afgerond) en een 10.
 
+Het moet goed mogelijk zijn de meeste opdrachten helemaal af te maken, mits je wekelijks genoeg tijd reserveert voor het vak. Vanwege de opbouw is de puntentelling dus zó dat je niet meerdere weken kunt overslaan.
 
 ## Aanwezigheid
 
