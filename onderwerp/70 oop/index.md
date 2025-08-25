@@ -13,7 +13,7 @@ Police
 : 2 punten voor een goede uitwerking
 
 Basis-Adventure
-: tot 9 punten, afhankelijk van hoe ver je komt met de implementatie - het percentage geslaagde checks bepaalt het aantal punten
+: tot 7 punten, afhankelijk van hoe ver je komt met de implementatie - het percentage geslaagde checks bepaalt het aantal punten
 
 Daarnaast kun je nog 1, 2 of 3 extra punten ontvangen voor een uitwerking waarin de ideeën van het vak verwerkt zijn:
 
