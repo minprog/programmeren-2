@@ -9,7 +9,8 @@ Je gaat hier grafen bouwen met hulp van classes: een uitbreiding van het idee va
 
 ## Puntentelling
 
-Standaard kun je voor deze opdracht 9 punten krijgen:
+Police
+: 2 punten voor een goede uitwerking
 
 Basis-Adventure
 : tot 9 punten, afhankelijk van hoe ver je komt met de implementatie - het percentage geslaagde checks bepaalt het aantal punten

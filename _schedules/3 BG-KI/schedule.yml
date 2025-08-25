@@ -78,18 +78,19 @@ Restricted lists:
     Opdrachten:
         Palindrome: /onderwerp/restricted/palindrome
         Priority Queue: /onderwerp/restricted/priority_queue
-        Police TBD: /onderwerp/restricted/police
 
 Object graphs:
     Overzicht en puntentelling: /onderwerp/oop
-    1. Introduction: /adventure/steps/introduction
-    2. Rooms: /adventure/steps/room
-    3. Data files (big!): /adventure/steps/data
-    4. Moving around: /adventure/steps/move
-    5. Back: /adventure/steps/back
-    6. Forced movement: /adventure/steps/forced
-    7. Items (big!): /adventure/steps/items
-    8. Conditional movement: /adventure/steps/conditional
-    9. Other commands: /adventure/steps/commands
-    10. Synonyms: /adventure/steps/synonyms
-    Submit: /adventure/steps/submit
+    Police: /onderwerp/oop/police
+    Adventure:
+        1. Introduction: /adventure/steps/introduction
+        2. Rooms: /adventure/steps/room
+        3. Data files (big!): /adventure/steps/data
+        4. Moving around: /adventure/steps/move
+        5. Back: /adventure/steps/back
+        6. Forced movement: /adventure/steps/forced
+        7. Items (big!): /adventure/steps/items
+        8. Conditional movement: /adventure/steps/conditional
+        9. Other commands: /adventure/steps/commands
+        10. Synonyms: /adventure/steps/synonyms
+        Submit: /adventure/steps/submit
