@@ -28,7 +28,7 @@ Zie eventueel de verdere documentatie @ <https://docs.astral.sh/uv/getting-start
 </details>
 
 <details markdown="1"><summary markdown="span">Je werkt in een virtual environment.</summary>
-Een virtual environment is een omgeving voor Python waarin je apart modules en tools kan installeren zodat ze alleen daar bestaan. Op deze manier kan je voor verschillende projecten verschillende versies van Python tools en modules gebruiken. Omdat je later of misschien al eerder met Python hebt gewerkt, werken we binnen dit vak binnen een eigen virtual environment (venv in het kort). 
+Een virtual environment is een omgeving voor Python waarin je apart modules en tools kan installeren zodat ze alleen daar bestaan. Op deze manier kan je voor verschillende projecten verschillende versies van Python tools en modules gebruiken. Omdat je later of misschien al eerder met Python hebt gewerkt, werken we binnen dit vak binnen een eigen virtual environment (venv in het kort).
 
 Navigeer via de terminal naar de map die je eerder hebt aangemaakt waarin je gaat werken tijdens het vak. In die map draai je:
 
@@ -63,4 +63,13 @@ Verifieer dat je de tools kan runnen door de volgende commando's:
     mypy --help
 </details>
 
-> Kom je er niet uit? Vraag het in het lokaal na! :)
+## Problemen?
+
+Heb je problemen met de installatie:
+
+1. check eerst bij de assistenten of je docent
+2. ga naar de laptophelpdesk: dinsdag en donderdag 12:00--13:00 in B1.27
+    - de eerste drie weken van het studiejaar kun je maandag t/m vrijdag terecht van 10.00 tot 16.00 uur in B1.19A (glazen hok)
+3. als niks helpt, neem dan **direct** contact op via <mailto:help@mprog.nl>
+
+Een mislukte installatie is géén reden voor een uitzondering op deadlines!
