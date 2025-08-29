@@ -85,21 +85,20 @@ Tijdens dit vak zul je vaak de hulp inroepen van de assistenten en medestudenten
 - samen nadenken over de opdracht helpt je verder
 - controleer met elkaar je uitwerkingen, bijvoorbeeld door ideeën voor tests te delen
 
-**Assistentie:** direct contact met een assistent, voor hulp bij programmeren.
+**Assistentie:** direct contact met de assistent, voor hulp bij programmeren.
 
-- hulp op locatie (lokaal L0.09 of L0.10)
+- hulp op locatie (lokaal L0.10)
 - je weet echt niet waar te beginnen of een onvindbare bug, of alles loopt vast
 - moeite met verzinnen oplossing
 - meld je vraag aan via deze website
 
-**E-mail:** contact met de docenten.
+**E-mail:** contact met de docent.
 
 - maken van persoonlijke planningsafspraken
 - meedenken over grote problemen met het vak
 - andere officiële zaken
 - administratie na afloop van het vak
-- je kunt ook even een afspraak maken om iets door te spreken
-- mail <progbg@mprog.nl>
+- mail <progbg@mprog.nl> voor een afspraak
 
 <details markdown="1"><summary markdown="span">Kom je helemaal niet verder en heb je even geen hulp?</summary>
 Juist even niet aan de opdracht werken kan je verder helpen!
