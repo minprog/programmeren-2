@@ -58,7 +58,7 @@ Het moet goed mogelijk zijn de meeste opdrachten helemaal af te maken, mits je w
 
 Jouw aanwezigheid wordt verwacht bij alle bijeenkomsten die in het rooster vermeld staan. De aanwezigheid wordt bijgehouden om een goed beeld te vormen van je regelmatige inzet voor het vak.
 
-Mocht je onverhoopt een keer niet kunnen, dan stuur je even een mailtje. Dit hoeft zeker niet via de studieadviseur, je mag het gewoon direct bij ons melden. Let op dat als je aanwezig bent, je wel op tijd moet zijn. Halverwege binnenlopen is storend en niet de bedoeling.
+Mocht je onverhoopt een keer niet kunnen, dan stuur je even een mailtje. Dit hoeft zeker niet via de studieadviseur, je mag het gewoon direct bij ons melden. Let op dat als je aanwezig bent, je wel op tijd moet zijn. Na aanvang binnenlopen is storend en niet de bedoeling.
 
 Heb je meer systematisch problemen met aanwezig zijn, bespreek het dan even. Er is best wat mogelijk, maar voor ons is het belangrijk dat we de studenten op vaste momenten in de week kunnen zien en begeleiden, om de werkdruk redelijk te houden. Daarom is die aanwezigheid voor ons zo belangrijk.
 
