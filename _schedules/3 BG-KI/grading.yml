@@ -11,7 +11,7 @@ calculation:
 
 opgaven_python:
     show_progress: true
-    deadline: 17/4/25 17:00
+    deadline: 5/9/25 17:00
     submits:
         weken: 1
         isalpha: 1
@@ -27,7 +27,7 @@ opgaven_python:
         join: 1
         replace: 1
         camelcase: 1
-       
+
 python:
     type: points
     show_progress: true
