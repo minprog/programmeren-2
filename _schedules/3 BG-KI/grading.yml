@@ -1,3 +1,7 @@
+_settings:
+    start_date: 1/9/25
+    end_date: 24/10/25
+
 calculation:
     eindcijfer:
         python: 6
