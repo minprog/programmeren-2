@@ -24,7 +24,7 @@ Als je bovenstaande leest denk je misschien wel dat je letters in de string dire
 
 ## Testen
 
-Schrijf in een apart bestand `test_lower.py` minimaal vier tests in totaal (vier aparte test functies) voor de functies `lower` en `upper`. Deze functies beloven één aspect te veranderen, namelijk alle "cased characters" te converteren. Impliciet zit daarin ook de andere belofte: de rest van de karakters wordt ongemoeid gelaten. Dat zijn twee gevallen om te testen:
+Schrijf in een apart bestand `test_lower.py` minimaal zes tests in totaal (zes aparte test functies) voor de functies `lower` en `upper`. Deze functies beloven één aspect te veranderen, namelijk alle "cased characters" te converteren. Impliciet zit daarin ook de andere belofte: de rest van de karakters wordt ongemoeid gelaten. Dat zijn twee gevallen om te testen:
 
 * Zijn alle "cased characters" nu een kleine letter / hoofdletter geworden?
 * Staan alle niet "cased characters" nog goed in de string?
