@@ -37,7 +37,7 @@ Collections:
         Dicts: /onderwerp/collections/dicts
         Tuples: /onderwerp/collections/tuples
         Recommend: /onderwerp/collections/recommend
-        Complexity: /onderwerp/collections/big-o-questions
+        Big-O: /onderwerp/collections/big-o-questions
         Verminder de Cyclomatic Complexity van Hangman*: /onderwerp/collections/cc
 
 Objects:
