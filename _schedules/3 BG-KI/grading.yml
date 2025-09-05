@@ -42,7 +42,7 @@ python:
 python_ster:
     type: points
     show_progress: true
-    deadline: 17/4/25 17:00
+    deadline: 5/9/25 17:00
     submits:
         kenteken: 0.5
         split_real: 0.5
