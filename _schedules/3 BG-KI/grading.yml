@@ -34,7 +34,7 @@ opgaven_python:
 
 python:
     type: points
-    show_progress: true
+    show_overview: true
     deadline: 17/4/25 17:00
     submits:
         python_voldoende: 6
@@ -50,13 +50,14 @@ python_ster:
 opgaven_ds:
     type: points
     show_progress: true
-    deadline: 17/4/25 17:00
+    deadline: 12/9/25 17:00
     submits:
         sets: 1
         dicts: 1
         tuples: 1
         recommend: 2
         big-o-questions: 1
+        cc_hangman: 2
 
 # datastructures:
 #     type: points
@@ -67,8 +68,8 @@ opgaven_ds:
 
 opgaven_objects:
     type: points
-    show_progress: true
-    deadline: 17/4/25 17:00
+    show_overview: true
+    deadline: 12/9/25 17:00
     submits:
         queue: 1
         cards: 2
@@ -83,7 +84,7 @@ opgaven_objects:
 
 opgaven_adt:
     type: points
-    show_progress: true
+    show_overview: true
     deadline: 17/4/25 17:00
     submits:
         card_implementations: 2
@@ -99,14 +100,14 @@ opgaven_adt:
 
 adt_ster:
     type: points
-    show_progress: true
+    show_overview: true
     deadline: 17/4/25 17:00
     submits:
         priority_queue_adt: 2
 
 opgaven_refactoring:
     type: points
-    show_progress: true
+    show_overview: true
     deadline: 17/4/25 17:00
     submits:
         cc_hangman: 2
@@ -122,7 +123,7 @@ opgaven_refactoring:
 
 opgaven_oop:
     type: points
-    show_progress: true
+    show_overview: true
     deadline: 25/4/25 17:00
     submits:
         palindrome: 2
@@ -137,6 +138,6 @@ opgaven_oop:
 
 meesterproef:
     type: pass
-    show_progress: true
+    show_overview: true
     submits:
         meesterproef: 1
