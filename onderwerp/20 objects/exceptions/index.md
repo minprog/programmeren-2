@@ -126,3 +126,7 @@ In een Pytest kunnen we deze uitkomst als volgt testen:
     def test_empty_list():
         with pytest.raises(ValueError):
             get_median([])
+
+> Terugkerend naar de discussie bovenaan: het is goed te beargumenteren dat een mediaan een *preconditie* heeft dat de lijst niet leeg mag zijn. Een `assert` is dan op z'n plaats. Dit is een keuze: als je "ask for forgiveness" aanhangt dan zul je veel exceptions gebruiken in je eigen code, maar anders eerder assertions.
+>
+> In de programma's die we in deze cursus schrijven zullen exceptions dan ook meestal *afgevangen* worden en zal `raise` zelden gebruikt worden, maar `assert` wat vaker.
