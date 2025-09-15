@@ -6,7 +6,7 @@ calculation:
     eindcijfer:
         python: 6
         python_ster: 1
-        opgaven_ds: 6
+        opgaven_collections: 6
         opgaven_objects: 6
         opgaven_adt: 6
         adt_ster: 2
@@ -71,7 +71,7 @@ opgaven_objects:
     deadline: 19/9/25 17:00
     submits:
         queue: 1
-        cookie_jar: 1
+        jar: 1
 
 # objects:
 #     type: points

@@ -116,16 +116,22 @@ grades:
     # Objects
 
     queue: *automatisch
+    jar: *automatisch
+
+    # ADTs
+
     cards: *automatisch
-    war: *automatisch
-    objects_voldoende: *punten
-
-    # adt
-
     card_implementations: *aftekenen
+    cash_tests: *punten
+
+
+
     list_adt: *automatisch
     dict_adt: *automatisch
     adt_voldoende: *punten
+
+    war: *automatisch
+    objects_voldoende: *punten
 
     # * opdrachten adt
 
@@ -134,7 +140,6 @@ grades:
     # refactoring
 
     cc_hangman: *automatisch
-    cash_tests: *punten
     profilers: *punten
     refactoring_voldoende: *punten
 
