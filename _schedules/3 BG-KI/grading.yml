@@ -35,7 +35,6 @@ opgaven_python:
 python:
     type: points
     show_overview: true
-    deadline: 17/4/25 17:00
     submits:
         python_voldoende: 6
 
@@ -47,7 +46,7 @@ python_ster:
         kenteken: 0.5
         split_real: 0.5
 
-opgaven_ds:
+opgaven_collections:
     type: points
     show_progress: true
     deadline: 12/9/25 17:00
@@ -68,12 +67,11 @@ opgaven_ds:
 
 opgaven_objects:
     type: points
-    show_overview: true
-    deadline: 12/9/25 17:00
+    show_progress: true
+    deadline: 19/9/25 17:00
     submits:
         queue: 1
-        cards: 2
-        war: 3
+        cookie_jar: 1
 
 # objects:
 #     type: points
@@ -84,12 +82,15 @@ opgaven_objects:
 
 opgaven_adt:
     type: points
-    show_overview: true
-    deadline: 17/4/25 17:00
+    show_progress: true
+    deadline: 19/9/25 17:00
     submits:
+        cards: 2
         card_implementations: 2
-        list_adt: 2
-        dict_adt: 2
+        cash_tests: 2
+        # list_adt: 2
+        # dict_adt: 2
+        # war: 3
 
 # adt:
 #     type: points
@@ -111,7 +112,6 @@ opgaven_refactoring:
     deadline: 17/4/25 17:00
     submits:
         cc_hangman: 2
-        cash_tests: 2
         profilers: 2
 
 # refactoring:
