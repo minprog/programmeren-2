@@ -1,4 +1,4 @@
-name: dict_adt
+name: dict_implementations
 files:
     required:
         - dict_adt.py

@@ -1,8 +1,12 @@
+_settings:
+    start_date: 1/9/25
+    end_date: 24/10/25
+
 calculation:
     eindcijfer:
         python: 6
         python_ster: 1
-        opgaven_ds: 6
+        opgaven_collections: 6
         opgaven_objects: 6
         opgaven_adt: 6
         adt_ster: 2
@@ -11,7 +15,7 @@ calculation:
 
 opgaven_python:
     show_progress: true
-    deadline: 17/4/25 17:00
+    deadline: 5/9/25 17:00
     submits:
         weken: 1
         isalpha: 1
@@ -27,112 +31,73 @@ opgaven_python:
         join: 1
         replace: 1
         camelcase: 1
-       
-python:
-    type: points
-    show_progress: true
-    deadline: 17/4/25 17:00
-    submits:
-        python_voldoende: 6
-
-python_ster:
-    type: points
-    show_progress: true
-    deadline: 17/4/25 17:00
-    submits:
         kenteken: 0.5
         split_real: 0.5
 
-opgaven_ds:
+opgaven_collections:
     type: points
     show_progress: true
-    deadline: 17/4/25 17:00
+    deadline: 12/9/25 17:00
     submits:
         sets: 1
         dicts: 1
         tuples: 1
         recommend: 2
         big-o-questions: 1
-
-# datastructures:
-#     type: points
-#     show_progress: true
-#     deadline: 17/4/25 17:00
-#     submits:
-#         ds_voldoende: 6
+        cc_hangman: 2
 
 opgaven_objects:
     type: points
     show_progress: true
-    deadline: 17/4/25 17:00
+    deadline: 19/9/25 17:00
     submits:
         queue: 1
-        cards: 2
-        war: 3
-
-# objects:
-#     type: points
-#     show_progress: true
-#     deadline: 17/4/25 17:00
-#     submits:
-#         objects_voldoende: 6
+        jar: 1
 
 opgaven_adt:
     type: points
     show_progress: true
-    deadline: 17/4/25 17:00
+    deadline: 19/9/25 17:00
     submits:
+        cards: 2
         card_implementations: 2
-        list_adt: 2
-        dict_adt: 2
-
-# adt:
-#     type: points
-#     show_progress: true
-#     deadline: 17/4/25 17:00
-#     submits:
-#         adt_voldoende: 6
-
-adt_ster:
-    type: points
-    show_progress: true
-    deadline: 17/4/25 17:00
-    submits:
-        priority_queue_adt: 2
-
-opgaven_refactoring:
-    type: points
-    show_progress: true
-    deadline: 17/4/25 17:00
-    submits:
-        cc_hangman: 2
         cash_tests: 2
-        profilers: 2
 
-# refactoring:
-#     type: points
-#     show_progress: true
-#     deadline: 17/4/25 17:00
-#     submits:
-#         refactoring_voldoende: 6
-
-opgaven_oop:
+opgaven_containers:
     type: points
     show_progress: true
-    deadline: 25/4/25 17:00
+    deadline: 26/9/25 17:00
+    submits:
+        war: 2
+        dict_implementations: 2
+        markov: 1
+
+opgaven_linked_structures:
+    type: points
+    show_progress: true
+    deadline: 3/10/25 17:00
+    submits:
+        list_implementations: 2
+        profiling: 2
+
+opgaven_restricted_lists:
+    type: points
+    show_overview: true
+    deadline: 3/10/25 17:00
     submits:
         palindrome: 2
-        adventure-steps: 10
+        priority_queue_adt: 2
 
-# oop:
-#     type: points
-#     show_progress: true
-#     deadline: 25/4/25 17:00
-#     submits:
-#         oop_voldoende: 12
+opgaven_object_graphs:
+    type: points
+    show_overview: true
+    deadline: 17/10/25 17:00
+    submits:
+        police: 2
+        adventure-steps: 10
 
 meesterproef:
     type: pass
-    show_progress: true
+    show_overview: true
     submits:
         meesterproef: 1

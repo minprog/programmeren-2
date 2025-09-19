@@ -78,11 +78,7 @@ templates:
 
 grades:
 
-    meesterproef:
-        exam: true
-
     # Python
-
     weken: *automatisch_pass
     isalpha: *automatisch_pass
     lower: *automatisch_pass
@@ -97,63 +93,45 @@ grades:
     join: *automatisch_pass
     replace: *automatisch_pass
     camelcase: *automatisch_pass
-    python_voldoende: *punten
-
-    # * opdrachten Python
-
+    # --steropdrachten
     kenteken: *automatisch
     split_real: *automatisch
 
-    # Datastructures
-
+    # Collections
     sets: *automatisch
     dicts: *automatisch
     tuples: *automatisch
     recommend: *automatisch
     big-o-questions: *aftekenen
-    ds_voldoende: *punten
+    # --steropdracht
+    cc_hangman: *automatisch
 
     # Objects
-
     queue: *automatisch
     jar: *automatisch
 
     # ADTs
-
     cards: *automatisch
     card_implementations: *aftekenen
+    # --steropdracht
     cash_tests: *punten
 
-
-
-    list_adt: *automatisch
-    dict_adt: *automatisch
-    adt_voldoende: *punten
-
+    # Containers
     war: *automatisch
-    objects_voldoende: *punten
+    dict_implementations: *automatisch
+    # --steropdracht
+    markov: *automatisch
 
-    # * opdrachten adt
+    # Linked structures
+    list_implementations: *automatisch
+    profiling: *punten
 
+    # Restricted lists
+    palindrome: *aftekenen
     priority_queue_adt: *punten
 
-    # refactoring
-
-    cc_hangman: *automatisch
-    profilers: *punten
-    refactoring_voldoende: *punten
-
-    # oop
-
-    palindrome: *aftekenen
-    adventure-more:
-        <<: *semiautomatisch
-        subgrades:
-            check_points: integer
-            quality_points: integer
-        automatic:
-            check_points: (correctness_score * 7).round
-        calculation: check_points + quality_points
+    # Object graphs
+    police: *automatisch
     adventure-steps:
         <<: *semiautomatisch
         subgrades:
@@ -162,4 +140,7 @@ grades:
         automatic:
             check_points: (correctness_score * 7).round
         calculation: check_points + quality_points
-    oop_voldoende: *punten
+
+    # Meesterproef
+    meesterproef:
+        exam: true

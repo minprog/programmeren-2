@@ -1,4 +1,4 @@
-# Profilers: optimize a Sudoku solver
+# Profiling: optimize a Sudoku solver
 
 > Inmiddels weet je een heleboel over Python-structuren en over classes en zelfgebouwde datastructuren. Met deze kennis in het achterhoofd ga in in onderstaande opdracht aan de slag met het optimaliseren (sneller maken) van een Sudoku-solver.
 

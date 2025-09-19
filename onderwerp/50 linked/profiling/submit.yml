@@ -1,4 +1,4 @@
-name: profilers
+name: profiling
 form: true
 files:
     required:

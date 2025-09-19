@@ -1,4 +1,4 @@
-name: list_adt
+name: list_implementations
 files:
     required:
         - person_list.py

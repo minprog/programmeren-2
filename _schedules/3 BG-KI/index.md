@@ -30,8 +30,8 @@ Hieronder vind je de **deadlines**. Bij dit vak is het niet verplicht om alle op
 | 2    | Collections         |    6   |   2  | vr 12 sep 17:00 |         |
 | 3    | Objects             |    2   |   -  | vr 19 sep 17:00 |         |
 | 3    | Abstract data types |    4   |   2  | vr 19 sep 17:00 | let op! |
-| 4    | Container classes   |    4   |   1  | do 25 sep 17:00 |         |
-| 4+5  | Linked structures   |    4   |   -  | di 30 sep 17:00 |         |
+| 4    | Container classes   |    4   |   1  | vr 26 sep 17:00 |         |
+| 4+5  | Linked structures   |    4   |   -  | vr  3 okt 17:00 | graag wat eerder |
 | 5    | Restricted lists    |    4   |   -  | vr  3 okt 17:00 |         |
 | 6+7  | Object graphs       |   12   |   -  | vr 17 okt 17:00 |         |
 |      | **Totaal punten:**  |   42   |   6  |                 |         |

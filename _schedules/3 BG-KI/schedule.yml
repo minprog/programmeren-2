@@ -72,7 +72,6 @@ Linked structures:
     Overzicht en puntentelling: /onderwerp/linked
     Theorie:
         "Boek: Linked Structures": /onderwerp/linked/boek
-        "Grafen en bomen": /onderwerp/linked/grafen
     Opdrachten:
         Implementaties van lijsten: /onderwerp/linked/lists
         Profiling: /onderwerp/linked/profiling
@@ -81,6 +80,7 @@ Restricted lists:
     Overzicht en puntentelling: /onderwerp/restricted
     Theorie:
         "Boek: Stacks and Queues": /onderwerp/restricted/boek
+        "Grafen en bomen": /onderwerp/linked/grafen
     Opdrachten:
         Palindrome: /onderwerp/restricted/palindrome
         Priority Queue: /onderwerp/restricted/priority_queue
