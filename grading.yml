@@ -12,7 +12,7 @@ templates:
         calculation: akkoord
         auto_publish: true
         # hide_subgrades: true
-        hide_calculated: true
+        # hide_calculated: true
     2: &automatisch_pass
         type: pass
         subgrades:
