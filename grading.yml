@@ -79,20 +79,20 @@ templates:
 grades:
 
     # Python
-    weken: *automatisch_pass
-    isalpha: *automatisch_pass
-    lower: *automatisch_pass
-    orakel: *automatisch_pass
-    index: *automatisch_pass
-    slice: *automatisch_pass
-    capitalize: *automatisch_pass
-    title: *automatisch_pass
-    find: *automatisch_pass
-    split: *automatisch_pass
-    calculator: *automatisch_pass
-    join: *automatisch_pass
-    replace: *automatisch_pass
-    camelcase: *automatisch_pass
+    weken: *automatisch
+    isalpha: *automatisch
+    lower: *automatisch
+    orakel: *automatisch
+    index: *automatisch
+    slice: *automatisch
+    capitalize: *automatisch
+    title: *automatisch
+    find: *automatisch
+    split: *automatisch
+    calculator: *automatisch
+    join: *automatisch
+    replace: *automatisch
+    camelcase: *automatisch
     # --steropdrachten
     kenteken: *automatisch
     split_real: *automatisch
