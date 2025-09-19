@@ -4,14 +4,14 @@ _settings:
 
 calculation:
     eindcijfer:
-        python: 6
-        python_ster: 1
-        opgaven_collections: 6
-        opgaven_objects: 6
+        opgaven_python: 7
+        opgaven_collections: 8
+        opgaven_objects: 2
         opgaven_adt: 6
-        adt_ster: 2
-        opgaven_refactoring: 6
-        opgaven_oop: 12
+        opgaven_containers: 5
+        opgaven_linked_structures: 4
+        opgaven_restricted_lists: 4
+        opgaven_object_graphs: 12
 
 opgaven_python:
     show_progress: true
