@@ -74,7 +74,7 @@ opgaven_containers:
 
 opgaven_linked_structures:
     type: points
-    show_progress: true
+    show_overview: true
     deadline: 3/10/25 17:00
     submits:
         list_implementations: 2
