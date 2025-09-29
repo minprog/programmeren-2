@@ -75,7 +75,7 @@ opgaven_containers:
 
 opgaven_linked_structures:
     type: points
-    show_overview: true
+    show_progress: true
     deadline: 3/10/25 17:00
     submits:
         list_implementations: 2
@@ -83,7 +83,7 @@ opgaven_linked_structures:
 
 opgaven_restricted_lists:
     type: points
-    show_overview: true
+    show_progress: true
     deadline: 3/10/25 17:00
     submits:
         palindrome: 2
