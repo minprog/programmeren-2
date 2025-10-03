@@ -119,7 +119,7 @@ Bij deze opdracht zijn er twee data bestanden:
 * small_contacts.csv
 * contacts.csv
 
-> TODO fix DL
+> TODO: deze bestanden zijn nog niet beschikbaar, ze volgen op maandag 6 oktober per mail.
 
 Deze bestanden download je [hier](/). Kijk even goed in de bestanden om te zien hoe het in elkaar steekt.
 
@@ -128,10 +128,10 @@ Implementeer nu de methode `load_from_file`:
     @staticmethod
     def load_from_filefilename: str) -> Graph:
         """
-        Reads contacts from file and creates a graph. 
+        Reads contacts from file and creates a graph.
         """
         graph = Graph()
-        
+
         with open(filename) as f:
             pass
 
@@ -204,7 +204,7 @@ Implementeer hiervoor:
         """Returns the groups (set[Node]) of the graph."""
         pass
 
-### Tot welke driehoeken hoort Luca? 
+### Tot welke driehoeken hoort Luca?
 
 Een driehoek is een groep van drie personen die allemaal contact met elkaar hebben. Hieronder bijvoorbeeld zijn er twee driehoeken (Alice, Bob, Diana) en (Bob, Diana, Charlie).
 
