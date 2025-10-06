@@ -87,7 +87,7 @@ Restricted lists:
 
 Object graphs:
     Overzicht en puntentelling: /onderwerp/oop
-    Police: /onderwerp/oop/police
+    # Police: /onderwerp/oop/police
     Adventure:
         1. Introduction: /adventure/steps/introduction
         2. Rooms: /adventure/steps/room

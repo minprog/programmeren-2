@@ -29,9 +29,9 @@ In dit schema:
 * Nodes = namen (personen).
 * Edges = lijntjes (contacten).
 
-### Stap 1: Node en Edge
+## Stap 1: Node en Edge
 
-Implementeer in een bestand genaamd `politie.py` de volgende klasses:
+Implementeer in een bestand genaamd `politie.py` de class `Node`:
 
     class Node:
         def __init__(self, name: str) -> None:
@@ -49,6 +49,8 @@ Implementeer in een bestand genaamd `politie.py` de volgende klasses:
 
         def add_edge(self, edge: "Edge") -> None:
             pass
+
+Hier staat een `@property` bij de functie `edges`. Dit 
 
     class Edge:
         def __init__(self, node1: Node, node2: Node) -> None:
@@ -76,7 +78,7 @@ Implementeer in een bestand genaamd `politie.py` de volgende klasses:
             pass
 
 
-### Stap 2: Graph
+## Stap 2: Graph
 
 Implementeer nu de klasse `Graph`:
 
@@ -112,7 +114,7 @@ Implementeer nu de klasse `Graph`:
         def all_contacts(self) -> list[Edge]:
             pass
 
-### Stap 3: load_from_file
+## Stap 3: load_from_file
 
 Bij deze opdracht zijn er twee data bestanden:
 

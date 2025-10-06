@@ -9,11 +9,11 @@ Je gaat hier grafen bouwen met hulp van classes: een uitbreiding van het idee va
 
 ## Puntentelling
 
-Police
-: 2 punten voor een goede uitwerking
+<!--Police
+: 2 punten voor een goede uitwerking-->
 
 Basis-Adventure
-: tot 7 punten, afhankelijk van hoe ver je komt met de implementatie - het percentage geslaagde checks bepaalt het aantal punten
+: tot 9 punten, afhankelijk van hoe ver je komt met de implementatie - het percentage geslaagde checks bepaalt het aantal punten
 
 Daarnaast kun je nog 1, 2 of 3 extra punten ontvangen voor een uitwerking waarin de ideeën van het vak verwerkt zijn:
 
