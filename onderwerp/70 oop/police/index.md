@@ -119,8 +119,6 @@ Bij deze opdracht zijn er twee data bestanden:
 * small_contacts.csv
 * contacts.csv
 
-> TODO: deze bestanden zijn nog niet beschikbaar, ze volgen op maandag 6 oktober per mail.
-
 Deze bestanden download je [hier](https://github.com/minprog/programmeren-2/raw/refs/heads/2025/onderwerp/70%20oop/police/contacts.zip). Kijk even goed in de bestanden om te zien hoe het in elkaar steekt.
 
 Implementeer nu de methode `load_from_file`:
