@@ -9,9 +9,9 @@ calculation:
         objects: 2
         adt: 6
         containers: 5
-        linked_struc: 4
-        restricted_l: 4
-        object_gr: 12
+        linked: 4
+        restricted: 4
+        graphs: 12
 
 python:
     type: points
