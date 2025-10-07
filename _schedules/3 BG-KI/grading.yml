@@ -4,14 +4,14 @@ _settings:
 
 calculation:
     eindcijfer:
-        opgaven_python: 7
-        opgaven_collections: 8
-        opgaven_objects: 2
-        opgaven_adt: 6
-        opgaven_containers: 5
-        opgaven_linked_structures: 4
-        opgaven_restricted_lists: 4
-        opgaven_object_graphs: 12
+        python: 7
+        collections: 8
+        objects: 2
+        adt: 6
+        containers: 5
+        linked_struc: 4
+        restricted_l: 4
+        object_gr: 12
 
 python:
     type: points
