@@ -13,7 +13,7 @@ calculation:
         opgaven_restricted_lists: 4
         opgaven_object_graphs: 12
 
-opgaven_python:
+python:
     type: points
     show_progress: true
     deadline: 5/9/25 17:00
@@ -35,7 +35,7 @@ opgaven_python:
         kenteken: 0.5
         split_real: 0.5
 
-opgaven_collections:
+collections:
     type: points
     show_progress: true
     deadline: 12/9/25 17:00
@@ -47,7 +47,7 @@ opgaven_collections:
         big-o-questions: 1
         cc_hangman: 2
 
-opgaven_objects:
+objects:
     type: points
     show_progress: true
     deadline: 19/9/25 17:00
@@ -55,7 +55,7 @@ opgaven_objects:
         queue: 1
         jar: 1
 
-opgaven_adt:
+adt:
     type: points
     show_progress: true
     deadline: 19/9/25 17:00
@@ -64,7 +64,7 @@ opgaven_adt:
         card_implementations: 2
         cash_tests: 2
 
-opgaven_containers:
+containers:
     type: points
     show_progress: true
     deadline: 26/9/25 17:00
@@ -73,7 +73,7 @@ opgaven_containers:
         dict_implementations: 2
         markov: 1
 
-opgaven_linked_structures:
+linked_struc:
     type: points
     show_progress: true
     deadline: 5/10/25 17:00
@@ -81,7 +81,7 @@ opgaven_linked_structures:
         list_implementations: 2
         profiling: 2
 
-opgaven_restricted_lists:
+restricted_l:
     type: points
     show_progress: true
     deadline: 5/10/25 17:00
@@ -89,7 +89,7 @@ opgaven_restricted_lists:
         palindrome: 2
         priority_queue_adt: 2
 
-opgaven_object_graphs:
+object_gr:
     type: points
     show_overview: true
     deadline: 17/10/25 17:00
@@ -97,7 +97,7 @@ opgaven_object_graphs:
         police: 2
         adventure-steps: 10
 
-meesterproef:
+tt:
     type: pass
     show_overview: true
     submits:
