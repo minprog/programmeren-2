@@ -73,7 +73,7 @@ containers:
         dict_implementations: 2
         markov: 1
 
-linked_struc:
+linked:
     type: points
     show_progress: true
     deadline: 5/10/25 17:00
@@ -81,7 +81,7 @@ linked_struc:
         list_implementations: 2
         profiling: 2
 
-restricted_l:
+restricted:
     type: points
     show_progress: true
     deadline: 5/10/25 17:00
@@ -89,7 +89,7 @@ restricted_l:
         palindrome: 2
         priority_queue_adt: 2
 
-object_gr:
+graphs:
     type: points
     show_overview: true
     deadline: 17/10/25 17:00
