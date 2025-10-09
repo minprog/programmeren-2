@@ -94,7 +94,7 @@ graphs:
     show_overview: true
     deadline: 17/10/25 17:00
     submits:
-        police: 2
+        # police: 2
         adventure-steps: 10
 
 tt:
