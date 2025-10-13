@@ -5,7 +5,7 @@ _settings:
 grades:
     adventure-steps:
         automatic:
-            check_points: (correctness_score * 7).round
+            check_points: (correctness_score * 9).round
 
 calculation:
     eindcijfer:
