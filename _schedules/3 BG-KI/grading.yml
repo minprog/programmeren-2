@@ -2,6 +2,11 @@ _settings:
     start_date: 1/9/25
     end_date: 24/10/25
 
+grades:
+    adventure-steps:
+        automatic:
+            check_points: (correctness_score * 7).round
+
 calculation:
     eindcijfer:
         python: 7
@@ -95,7 +100,7 @@ graphs:
     deadline: 17/10/25 17:00
     submits:
         # police: 2
-        adventure-steps: 10
+        adventure-steps: 12
 
 tt:
     type: pass
