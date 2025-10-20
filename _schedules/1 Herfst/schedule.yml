@@ -31,25 +31,29 @@ Python:
 
 Collections:
     Overzicht en puntentelling: /onderwerp/collections
-    "Boek: Data Abstraction": /onderwerp/collections/boek
+    Theorie:
+        "Boek: Data Abstraction": /onderwerp/collections/boek
     Opdrachten:
         Sets: /onderwerp/collections/sets
         Dicts: /onderwerp/collections/dicts
         Tuples: /onderwerp/collections/tuples
         Recommend: /onderwerp/collections/recommend
-        Complexity: /onderwerp/collections/big-o-questions
+        Big-O: /onderwerp/collections/big-o-questions
         Verminder de Cyclomatic Complexity van Hangman*: /onderwerp/collections/cc
 
 Objects:
     Overzicht en puntentelling: /onderwerp/objects
-    "Videocollege: OOP": /onderwerp/objects/lecture
+    Theorie:
+        "Videocollege: OOP": /onderwerp/objects/lecture
+        Assertions en exceptions: /onderwerp/objects/exceptions
     Opdrachten:
         Queue: /onderwerp/objects/queue
         Cookie Jar: /onderwerp/objects/jar
 
 Abstract Data Types:
     Overzicht en puntentelling: /onderwerp/adt
-    "Boek: Data Abstraction": /onderwerp/adt/boek
+    Theorie:
+        "Boek: Data Abstraction": /onderwerp/adt/boek
     Opdrachten:
         Game of Cards: /onderwerp/adt/cards
         Testen met twee implementaties: /onderwerp/adt/testing
@@ -57,7 +61,8 @@ Abstract Data Types:
 
 Container classes:
     Overzicht en puntentelling: /onderwerp/containers
-    "Boek: Container Classes": /onderwerp/containers/boek
+    Theorie:
+        "Boek: Container Classes": /onderwerp/containers/boek
     Opdrachten:
         War: /onderwerp/containers/war
         Implementaties van dictionaries: /onderwerp/containers/dicts
@@ -65,30 +70,33 @@ Container classes:
 
 Linked structures:
     Overzicht en puntentelling: /onderwerp/linked
-    "Boek: Linked Structures": /onderwerp/linked/boek
-    "Theorie: grafen en bomen": /onderwerp/linked/grafen
+    Theorie:
+        "Boek: Linked Structures": /onderwerp/linked/boek
     Opdrachten:
         Implementaties van lijsten: /onderwerp/linked/lists
         Profiling: /onderwerp/linked/profiling
 
 Restricted lists:
     Overzicht en puntentelling: /onderwerp/restricted
-    "Boek: Stacks and Queues": /onderwerp/restricted/boek
+    Theorie:
+        "Boek: Stacks and Queues": /onderwerp/restricted/boek
+        "Grafen en bomen": /onderwerp/linked/grafen
     Opdrachten:
         Palindrome: /onderwerp/restricted/palindrome
         Priority Queue: /onderwerp/restricted/priority_queue
-        Police TBD: /onderwerp/restricted/police
 
 Object graphs:
     Overzicht en puntentelling: /onderwerp/oop
-    1. Introduction: /adventure/steps/introduction
-    2. Rooms: /adventure/steps/room
-    3. Data files (big!): /adventure/steps/data
-    4. Moving around: /adventure/steps/move
-    5. Back: /adventure/steps/back
-    6. Forced movement: /adventure/steps/forced
-    7. Items (big!): /adventure/steps/items
-    8. Conditional movement: /adventure/steps/conditional
-    9. Other commands: /adventure/steps/commands
-    10. Synonyms: /adventure/steps/synonyms
-    Submit: /adventure/steps/submit
+    Police: /onderwerp/oop/police
+    Adventure:
+        1. Introduction: /adventure/steps/introduction
+        2. Rooms: /adventure/steps/room
+        3. Data files (big!): /adventure/steps/data
+        4. Moving around: /adventure/steps/move
+        5. Back: /adventure/steps/back
+        6. Forced movement: /adventure/steps/forced
+        7. Items (big!): /adventure/steps/items
+        8. Conditional movement: /adventure/steps/conditional
+        9. Other commands: /adventure/steps/commands
+        10. Synonyms: /adventure/steps/synonyms
+        Submit: /adventure/steps/submit

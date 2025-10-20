@@ -1,19 +1,27 @@
 _settings:
-    start_date: 1/9/25
-    end_date: 24/10/25
+    start_date: 27/10/25
+    end_date: 19/12/25
+
+# let op: deze enablen als we "police" schrappen
+# grades:
+#     adventure-steps:
+#         automatic:
+#             # max points to give here is 9
+#             check_points: (correctness_score * 9).round
 
 calculation:
     eindcijfer:
-        opgaven_python: 7
-        opgaven_collections: 8
-        opgaven_objects: 2
-        opgaven_adt: 6
-        opgaven_containers: 5
-        opgaven_linked_structures: 4
-        opgaven_restricted_lists: 4
-        opgaven_object_graphs: 12
+        python: 7
+        collections: 8
+        objects: 2
+        adt: 6
+        containers: 5
+        linked: 4
+        restricted: 4
+        graphs: 12
 
-opgaven_python:
+python:
+    type: points
     show_progress: true
     deadline: 5/9/25 17:00
     submits:
@@ -34,9 +42,9 @@ opgaven_python:
         kenteken: 0.5
         split_real: 0.5
 
-opgaven_collections:
+collections:
     type: points
-    show_progress: true
+    show_overview: true
     deadline: 12/9/25 17:00
     submits:
         sets: 1
@@ -46,57 +54,57 @@ opgaven_collections:
         big-o-questions: 1
         cc_hangman: 2
 
-opgaven_objects:
+objects:
     type: points
-    show_progress: true
+    show_overview: true
     deadline: 19/9/25 17:00
     submits:
         queue: 1
         jar: 1
 
-opgaven_adt:
+adt:
     type: points
-    show_progress: true
+    show_overview: true
     deadline: 19/9/25 17:00
     submits:
         cards: 2
         card_implementations: 2
         cash_tests: 2
 
-opgaven_containers:
+containers:
     type: points
-    show_progress: true
+    show_overview: true
     deadline: 26/9/25 17:00
     submits:
         war: 2
         dict_implementations: 2
         markov: 1
 
-opgaven_linked_structures:
+linked:
     type: points
-    show_progress: true
-    deadline: 3/10/25 17:00
+    show_overview: true
+    deadline: 5/10/25 17:00
     submits:
         list_implementations: 2
         profiling: 2
 
-opgaven_restricted_lists:
+restricted:
     type: points
     show_overview: true
-    deadline: 3/10/25 17:00
+    deadline: 5/10/25 17:00
     submits:
         palindrome: 2
         priority_queue_adt: 2
 
-opgaven_object_graphs:
+graphs:
     type: points
     show_overview: true
     deadline: 17/10/25 17:00
     submits:
         police: 2
-        adventure-steps: 10
+        adventure-steps: 12
 
-meesterproef:
+tt:
     type: pass
     show_overview: true
     submits:
