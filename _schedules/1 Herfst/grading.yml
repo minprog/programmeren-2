@@ -23,7 +23,8 @@ calculation:
 python:
     type: points
     show_progress: true
-    deadline: 5/9/25 17:00
+    # let op: ivm SurfDrive upgrade kan dit ook echt niet later
+    deadline: 31/10/25 17:00
     submits:
         weken: 1
         isalpha: 1

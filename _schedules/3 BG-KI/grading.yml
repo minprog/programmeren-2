@@ -6,6 +6,7 @@ grades:
     adventure-steps:
         automatic:
             # max points to give here is 9
+            # because we don't use the police assignment
             check_points: (correctness_score * 9).round
 
 calculation:
