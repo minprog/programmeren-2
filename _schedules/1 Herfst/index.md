@@ -26,28 +26,28 @@ Je moet Programmeren 1 volledig hebben gehaald om dit vak te mogen volgen.
 
 Hieronder vind je de **deadlines**. Bij dit vak is het niet verplicht om alle opdrachten af te maken. Wel zijn de deadlines hard. Na het verstrijken van de deadline is er dus géén mogelijkheid meer om in te leveren.
 
-| Week | Module              | Punten | Ster |        Deadline |         |
-|------|---------------------|:------:|:----:|----------------:|---------|
-| 1    | Python              |    6   |   1  | vr 31 okt 17:00 |         |
-| 2    | Collections         |    6   |   2  | vr  7 nov 17:00 |         |
-| 3    | Objects             |    2   |   -  | vr 14 nov 17:00 |         |
-| 3    | Abstract data types |    4   |   2  | vr 14 nov 17:00 | let op zelfde! |
-| 4    | Container classes   |    4   |   1  | vr 21 nov 17:00 |         |
-| 4+5  | Linked structures   |    4   |   -  | vr 28 nov 17:00 | graag wat eerder |
-| 5    | Restricted lists    |    4   |   -  | vr  5 dec 17:00 |         |
-| 6+7  | Object graphs       |   12   |   -  | vr 12 dec 17:00 |         |
-|      | **Totaal punten:**  |   42   |   6  |                 |         |
+| Week | Module              | Punten | Ster |        Deadline |                  |
+| ---- | ------------------- | :----: | :--: | --------------: | ---------------- |
+| 1    | Python              |   6    |  1   | vr 31 okt 17:00 |                  |
+| 2    | Collections         |   6    |  2   |  vr 7 nov 17:00 |                  |
+| 3    | Objects             |   2    |  -   | vr 14 nov 17:00 |                  |
+| 3    | Abstract data types |   4    |  2   | vr 14 nov 17:00 | zelfde deadline! |
+| 4    | Container classes   |   4    |  1   | vr 21 nov 17:00 |                  |
+| 4+5  | Linked structures   |   4    |  -   | vr 28 nov 17:00 | graag eerder!    |
+| 5    | Restricted lists    |   4    |  -   | vr 28 nov 17:00 |                  |
+| 6+7  | Object graphs       |   12   |  -   | vr 12 dec 17:00 |                  |
+|      | **Totaal punten:**  |   42   |  6   |                 |                  |
 
 **Fulltime** --- Doe je tegelijk met dit vak het Programmeerproject? Dan doe je de minor programmeren in fulltime en bieden we een andere indeling van de twee vakken aan. Je doet dan eerst programmeren 2 in vier weken en daarna het programmeerproject in vier weken. Voor programmeren 2 ziet het schema er dan zo uit:
 
-| Week | Maandag        | Dinsdag        | Woensdag       | Donderdag      | Vrijdag        |
-| -----| -------------- | -------------- | -------------- | -------------- | -------------- | 
-| 1    | Python         | Python         | Python/Collections | Collections | Collections |
-| 2    | Objects | ADT        | ADT        | Containers        | Containers            |
-| 3    | Linked            | Linked            | Restricted    | Restricted    | Restricted    |
-| 4    | Graphs         | Graphs         | Graphs         | Graphs         | Graphs         |
+| Week | Maandag | Dinsdag | Woensdag           | Donderdag   | Vrijdag     |
+| ---- | ------- | ------- | ------------------ | ----------- | ----------- |
+| 1    | Python  | Python  | Python/Collections | Collections | Collections |
+| 2    | Objects | ADT     | ADT                | Containers  | Containers  |
+| 3    | Linked  | Linked  | Restricted         | Restricted  | Restricted  |
+| 4    | Graphs  | Graphs  | Graphs             | Graphs      | Graphs      |
 
-De deadlines blijven hetzelfde als bij het reguliere schema. Dat betekent dat de mogelijkheid blijft bestaan om te wisselen naar het reguliere schema bijvoorbeeld in geval van ziekte. Dit heeft vaak wel de consequentie dat er te weinig tijd overblijft om ook het programmeerproject te volgen in hetzelfde blok en je dat vak zal moeten laten vallen. Het is daarom extra belangrijk voor fulltime studenten om goed contact te houden bij bijvoorbeeld ziekte, zo kunnen we je het beste helpen.  
+De deadlines blijven hetzelfde als bij het reguliere schema. Dat betekent dat de mogelijkheid blijft bestaan om te wisselen naar het reguliere schema bijvoorbeeld in geval van ziekte. Dit heeft vaak wel de consequentie dat er te weinig tijd overblijft om ook het programmeerproject te volgen in hetzelfde blok en je dat vak zal moeten laten vallen. Het is daarom extra belangrijk voor fulltime studenten om goed contact te houden bij bijvoorbeeld ziekte, zo kunnen we je het beste helpen.
 
 <hr>
 
@@ -83,12 +83,11 @@ Als je wegblijft tijdens het vak, hou er dan rekening mee dat er weinig flexibil
 
 Als je ziek bent, meld het dan even aan je docenten (niet je studieadviseur) via een e-mail naar <mailto:progbg@mprog.nl>. Je hoeft het niet uitgebreid uit te leggen, maar wel meteen melden. Het contact hierover houden is het belangrijkste dat je kunt doen.
 
--   Ben je één of twee dagen ziek dan is dat geen probleem en kun je de deadline vaak nog halen. Het kan handig zijn om even te overleggen op welke opdrachten je je het best kunt richten.
+- Ben je één of twee dagen ziek dan is dat geen probleem en kun je de deadline vaak nog halen. Het kan handig zijn om even te overleggen op welke opdrachten je je het best kunt richten.
 
--   Heb je een medisch noodgeval en ben je hierdoor bijvoorbeeld een hele week uit de running? Dan bespreek je naderhand met een docent hoe je dit kunt oplossen, bijvoorbeeld door een klein deel van de opdrachten nog te doen zodat je kennis op peil is.
+- Heb je een medisch noodgeval en ben je hierdoor bijvoorbeeld een hele week uit de running? Dan bespreek je naderhand met een docent hoe je dit kunt oplossen, bijvoorbeeld door een klein deel van de opdrachten nog te doen zodat je kennis op peil is.
 
     Daarbij speelt natuurlijk ook mee hoe makkelijk het programmeren je afgaat en hoeveel energie je hebt. Op basis van al die informatie kijken we samen wat mogelijk is. Je krijgt ook bij inhalen geen punten voor de opdrachten; het is echt gericht om snel weer mee te doen met de groep.
-
 
 ## Vragen stellen
 

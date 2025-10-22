@@ -46,7 +46,7 @@ python:
 collections:
     type: points
     show_overview: true
-    deadline: 12/9/25 17:00
+    deadline: 7/11/25 17:00
     submits:
         sets: 1
         dicts: 1
@@ -58,7 +58,7 @@ collections:
 objects:
     type: points
     show_overview: true
-    deadline: 19/9/25 17:00
+    deadline: 14/11/25 17:00
     submits:
         queue: 1
         jar: 1
@@ -66,7 +66,7 @@ objects:
 adt:
     type: points
     show_overview: true
-    deadline: 19/9/25 17:00
+    deadline: 14/11/25 17:00
     submits:
         cards: 2
         card_implementations: 2
@@ -75,7 +75,7 @@ adt:
 containers:
     type: points
     show_overview: true
-    deadline: 26/9/25 17:00
+    deadline: 21/11/25 17:00
     submits:
         war: 2
         dict_implementations: 2
@@ -84,7 +84,7 @@ containers:
 linked:
     type: points
     show_overview: true
-    deadline: 5/10/25 17:00
+    deadline: 28/11/25 17:00
     submits:
         list_implementations: 2
         profiling: 2
@@ -92,7 +92,7 @@ linked:
 restricted:
     type: points
     show_overview: true
-    deadline: 5/10/25 17:00
+    deadline: 28/11/25 17:00
     submits:
         palindrome: 2
         priority_queue_adt: 2
@@ -100,7 +100,7 @@ restricted:
 graphs:
     type: points
     show_overview: true
-    deadline: 17/10/25 17:00
+    deadline: 12/12/25 17:00
     submits:
         police: 2
         adventure-steps: 12
