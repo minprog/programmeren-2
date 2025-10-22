@@ -26,8 +26,8 @@ Python:
         join: /onderwerp/python/opdrachten/join
         replace: /onderwerp/python/opdrachten/replace
         camelcase: /onderwerp/python/opdrachten/camelcase
-        kenteken*: /onderwerp/python/opdrachten/kenteken
-        split real*: /onderwerp/python/opdrachten/split_real
+        '[icon:star-fill] kenteken': /onderwerp/python/opdrachten/kenteken
+        '[icon:star-fill] split real': /onderwerp/python/opdrachten/split_real
 
 Collections:
     Overzicht en puntentelling: /onderwerp/collections
@@ -39,7 +39,7 @@ Collections:
         Tuples: /onderwerp/collections/tuples
         Recommend: /onderwerp/collections/recommend
         Big-O: /onderwerp/collections/big-o-questions
-        Verminder de Cyclomatic Complexity van Hangman*: /onderwerp/collections/cc
+        '[icon:star-fill] Verminder de Cyclomatic Complexity van Hangman': /onderwerp/collections/cc
 
 Objects:
     Overzicht en puntentelling: /onderwerp/objects
@@ -57,7 +57,7 @@ Abstract Data Types:
     Opdrachten:
         Game of Cards: /onderwerp/adt/cards
         Testen met twee implementaties: /onderwerp/adt/testing
-        Wat is er mis met Cash*: /onderwerp/adt/cash
+        '[icon:star-fill] Wat is er mis met Cash': /onderwerp/adt/cash
 
 Container classes:
     Overzicht en puntentelling: /onderwerp/containers
@@ -66,7 +66,7 @@ Container classes:
     Opdrachten:
         War: /onderwerp/containers/war
         Implementaties van dictionaries: /onderwerp/containers/dicts
-        Markov*: /onderwerp/containers/markov
+        '[icon:star-fill] Markov': /onderwerp/containers/markov
 
 Linked structures:
     Overzicht en puntentelling: /onderwerp/linked
