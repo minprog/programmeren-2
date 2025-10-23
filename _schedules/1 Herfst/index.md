@@ -73,7 +73,7 @@ Het moet goed mogelijk zijn een groot deel van de opdrachten helemaal af te make
 
 Jouw aanwezigheid wordt verwacht bij de bijeenkomsten die in het rooster vermeld staan (voor fulltime-studenten is dit elke werkdag 10-16 uur). De aanwezigheid wordt bijgehouden om een goed beeld te vormen van je regelmatige inzet voor het vak.
 
-Mocht je onverhoopt een keer niet kunnen, dan stuur je even een mailtje. Dit hoeft zeker niet via de studieadviseur, je mag het gewoon direct bij ons melden. Let op dat als je aanwezig bent, je wel op tijd moet zijn. Na aanvang binnenlopen is storend en niet de bedoeling.
+Mocht je onverhoopt een keer niet kunnen, dan stuur je even een mailtje. Dit hoeft zeker niet via de studieadviseur, je mag het gewoon direct bij ons melden.
 
 Heb je meer systematisch problemen met aanwezig zijn, bespreek het dan even. Er is best wat mogelijk, maar voor ons is het belangrijk dat we de studenten op vaste momenten in de week kunnen zien en begeleiden, om de werkdruk redelijk te houden. Daarom is die aanwezigheid voor ons zo belangrijk.
 
@@ -81,7 +81,7 @@ Als je wegblijft tijdens het vak, hou er dan rekening mee dat er weinig flexibil
 
 ### Ziekte en inhalen
 
-Als je ziek bent, meld het dan even aan je docenten (niet je studieadviseur) via een e-mail naar <mailto:progbg@mprog.nl>. Je hoeft het niet uitgebreid uit te leggen, maar wel meteen melden. Het contact hierover houden is het belangrijkste dat je kunt doen.
+Als je ziek bent, meld het dan even aan je docenten (niet je studieadviseur) via een e-mail naar <mailto:help@mprog.nl>. Je hoeft het niet uitgebreid uit te leggen, maar wel meteen melden. Het contact hierover houden is het belangrijkste dat je kunt doen.
 
 - Ben je één of twee dagen ziek dan is dat geen probleem en kun je de deadline vaak nog halen. Het kan handig zijn om even te overleggen op welke opdrachten je je het best kunt richten.
 
