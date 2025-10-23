@@ -2,32 +2,32 @@ Welkom:
     Lees hier even rustig door de studiewijzer om te ontdekken hoe het vak in elkaar zit: /syllabus
 
 Python:
-    Overzicht en puntentelling: /modules/python
+    Overzicht en puntentelling: /onderwerp/python
     Voorbereiding:
-        Studiemateriaal: /modules/python/preparation
-        Installatie: /onderwerp/intro/install
+        Studiemateriaal: /onderwerp/python/boek
+        Installatie: /onderwerp/python/install
     Eisen:
-        De standaard: /onderwerp/intro/standaard
-        pycodestyle: /onderwerp/intro/pycodestyle
-        mypy: /onderwerp/intro/mypy
-        pytest: /onderwerp/intro/pytest
+        De standaard: /onderwerp/python/standaard
+        pycodestyle: /onderwerp/python/pycodestyle
+        mypy: /onderwerp/python/mypy
+        pytest: /onderwerp/python/pytest
     Opdrachten:
-        weken: /onderwerp/intro/opdrachten/weken
-        isalpha: /onderwerp/intro/opdrachten/isalpha
-        lower: /onderwerp/intro/opdrachten/lower
-        orakel: /onderwerp/intro/opdrachten/orakel
-        index: /onderwerp/intro/opdrachten/index
-        slice: /onderwerp/intro/opdrachten/slice
-        capitalize: /onderwerp/intro/opdrachten/capitalize
-        title: /onderwerp/intro/opdrachten/title
-        find: /onderwerp/intro/opdrachten/find
-        split: /onderwerp/intro/opdrachten/split
-        calculator: /onderwerp/intro/opdrachten/calculator
-        join: /onderwerp/intro/opdrachten/join
-        replace: /onderwerp/intro/opdrachten/replace
-        camelcase: /onderwerp/intro/opdrachten/camelcase
-        kenteken*: /onderwerp/intro/opdrachten/kenteken
-        split real*: /onderwerp/intro/opdrachten/split_real
+        weken: /onderwerp/python/opdrachten/weken
+        isalpha: /onderwerp/python/opdrachten/isalpha
+        lower: /onderwerp/python/opdrachten/lower
+        orakel: /onderwerp/python/opdrachten/orakel
+        index: /onderwerp/python/opdrachten/index
+        slice: /onderwerp/python/opdrachten/slice
+        capitalize: /onderwerp/python/opdrachten/capitalize
+        title: /onderwerp/python/opdrachten/title
+        find: /onderwerp/python/opdrachten/find
+        split: /onderwerp/python/opdrachten/split
+        calculator: /onderwerp/python/opdrachten/calculator
+        join: /onderwerp/python/opdrachten/join
+        replace: /onderwerp/python/opdrachten/replace
+        camelcase: /onderwerp/python/opdrachten/camelcase
+        '[icon:star-fill] kenteken': /onderwerp/python/opdrachten/kenteken
+        '[icon:star-fill] split real': /onderwerp/python/opdrachten/split_real
 
 Collection Types:
     Overzicht: /modules/ds
