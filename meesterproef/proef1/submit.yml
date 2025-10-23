@@ -1,8 +1,5 @@
-name: meesterproef
+name: meesterproef1
 exam: true
-# check:
-#     tool: check50
-#     slug: minprog/tentamen-checks/2021/tentamen20
 buttons:
     'mypy': |
         from mypy import api
@@ -38,11 +35,5 @@ files:
             # opdracht.py
         'test_opdracht.py': |
             # test_opdracht.py
-        'data1.txt': |
-            datafile
-        'data2.txt': |
-            datafile
-        'data3.txt': |
-            datafile
         'verantwoording.txt': |
             Schrijf hier je verantwoording
