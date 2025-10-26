@@ -3,7 +3,7 @@ exam: true
 buttons:
     'pytest': |
         import pytest
-        pytest.main(["-vv", "--color=yes", 'python_tutorial.py'])
+        pytest.main(["-vv", "--color=yes", 'test_python_tutorial.py'])
     'mypy': |
         from mypy import api
         print(api.run(["--strict", "--ignore-missing-imports", "python_tutorial.py"])[0])
