@@ -61,11 +61,6 @@ files:
                 return ...
 
 
-            def test_greet():
-                assert greet("Alice") in ["Hello Alice!", "Hallo Alice!"]
-                assert "Bob" in greet("Bob")
-
-
             # --- 2. If-statements -------------------------------------------------------
 
             def describe_temperature(temp: int) -> str:
@@ -85,14 +80,11 @@ files:
                 # - return "cold" bij temp < 10
                 # - return "warm" bij 10 <= temp < 30
                 # - anders "hot"
+
+
+                Tip: `pass` betekent "doe niks", dus haal die weg
                 """
                 pass
-
-
-            def test_describe_temperature():
-                assert describe_temperature(5) == "cold"
-                assert describe_temperature(20) == "warm"
-                assert describe_temperature(35) == "hot"
 
 
             # --- 3. For-loop met if -----------------------------------------------------
@@ -124,17 +116,6 @@ files:
                 pass
 
 
-            def test_print_alternating(capsys):
-                print_alternating(5)
-                out, _ = capsys.readouterr()
-                lines = out.strip().splitlines()
-                assert lines == ["even", "odd", "even", "odd", "even"]
-
-                print_alternating(0)
-                out, _ = capsys.readouterr()
-                assert out.strip() == ""
-
-
             # --- 4. While-loop (Collatz) ------------------------------------------------
 
             def collatz(n: int) -> None:
@@ -163,14 +144,6 @@ files:
                     # om het getal n aan te passen volgens de definitie van Collatz
                     break
 
-            def test_collatz(capsys):
-                collatz(6)
-                out, _ = capsys.readouterr()
-                lines = [int(x) for x in out.strip().splitlines()]
-                assert lines[0] == 6
-                assert lines[-1] == 1
-                assert 3 in lines and 16 in lines
-
 
             # --- 5. Strings -------------------------------------------------------------
 
@@ -190,11 +163,6 @@ files:
                 pass
 
 
-            def test_shout():
-                assert shout("hello") == "HELLO!"
-                assert shout("Python") == "PYTHON!"
-
-
             def count_a(text: str) -> int:
                 """
                 Je kunt door een string loopen om tekens te tellen.
@@ -204,12 +172,6 @@ files:
                 for ch in text:
                     ...
                 return count
-
-
-            def test_count_a():
-                assert count_a("Ananas") == 3
-                assert count_a("Banaan") == 3
-                assert count_a("XYZ") == 0
 
 
             # --- 6. Lists ---------------------------------------------------------------
@@ -227,23 +189,17 @@ files:
                 pass
 
 
-            def test_add_item():
-                data = [1, 2]
-                assert add_item(data, 3) == [1, 2, 3]
-
-
             def find_largest(xs: list[int]) -> int:
                 """
                 Je kunt door een lijst loopen om de grootste waarde te vinden.
                 Gebruik hiervoor ook een for-in loop!
+
+                Bij "grootste" moet je altijd even bepalen met welke waarde
+                je het algoritme begint. Neem hier het eerste element van de lijst
+                als startwaarde: xs[0]
                 """
                 # TODO: gebruik een loop om de grootste waarde te vinden
                 pass
-
-
-            def test_find_largest():
-                assert find_largest([3, 1, 4, 1, 5]) == 5
-                assert find_largest([-5, -1, -9]) == -1
 
 
             # --- 7. Alles combineren ----------------------------------------------------
@@ -251,10 +207,53 @@ files:
             def average_length(words: list[str]) -> float:
                 """
                 Combineer wat je weet: loops, strings, lijsten en berekeningen.
+
+                Tip: len(...) is een functie die de lengte geeft van bijv. een lijst
                 """
                 # TODO: bereken gemiddelde lengte, return 0 bij lege lijst
                 pass
+        test_python_tutorial.py: |
+            from python_tutorial import *
 
+            def test_greet():
+                assert greet("Alice") in ["Hello Alice!", "Hallo Alice!"]
+                assert "Bob" in greet("Bob")
+
+            def test_describe_temperature():
+                assert describe_temperature(5) == "cold"
+                assert describe_temperature(20) == "warm"
+                assert describe_temperature(35) == "hot"
+
+            def test_print_alternating(capsys):
+                print_alternating(6)
+                out, _ = capsys.readouterr()
+                lines = out.strip().splitlines()
+                assert lines == ["odd", "even", "odd", "even", "ping!", "even"]
+
+            def test_collatz(capsys):
+                collatz(6)
+                out, _ = capsys.readouterr()
+                lines = [int(x) for x in out.strip().splitlines()]
+                assert lines[0] == 6
+                assert lines[-1] == 1
+                assert 3 in lines and 16 in lines
+
+            def test_shout():
+                assert shout("hello") == "HELLO!"
+                assert shout("Python") == "PYTHON!"
+
+            def test_count_a():
+                assert count_a("Ananas") == 3
+                assert count_a("Banaan") == 3
+                assert count_a("XYZ") == 0
+
+            def test_add_item():
+                data = [1, 2]
+                assert add_item(data, 3) == [1, 2, 3]
+
+            def test_find_largest():
+                assert find_largest([3, 1, 4, 1, 5]) == 5
+                assert find_largest([-5, -1, -9]) == -1
 
             def test_average_length():
                 assert round(average_length(["python", "is", "fun"]), 2) == 3.67
