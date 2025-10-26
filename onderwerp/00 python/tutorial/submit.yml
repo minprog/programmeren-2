@@ -3,10 +3,10 @@ exam: true
 buttons:
     'pytest': |
         import pytest
-        pytest.main(['--color=yes'])
+        pytest.main(['--color=yes', 'python_tutorial.py'])
     'mypy': |
         from mypy import api
-        print(api.run(["--strict", "--ignore-missing-imports", "opdracht.py"])[0])
+        print(api.run(["--strict", "--ignore-missing-imports", "python_tutorial.py"])[0])
     'pycodestyle': |
         import pycodestyle
         result = pycodestyle.StyleGuide(
@@ -24,7 +24,7 @@ buttons:
             ],
             max_line_length=99,
             max_doc_length=79
-        ).check_files(['opdracht.py'])
+        ).check_files(['python_tutorial.py'])
 
         if result.file_errors == 0:
             print("We ran pycodestyle and it did not give any errors :)")
