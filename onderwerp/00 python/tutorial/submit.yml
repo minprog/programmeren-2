@@ -3,7 +3,7 @@ exam: true
 buttons:
     'pytest': |
         import pytest
-        pytest.main(['--color=yes', 'python_tutorial.py'])
+        pytest.main(["-vv", "--color=yes", "--maxdiff=0", 'python_tutorial.py'])
     'mypy': |
         from mypy import api
         print(api.run(["--strict", "--ignore-missing-imports", "python_tutorial.py"])[0])
@@ -43,6 +43,12 @@ files:
             - lists
 
             Lees de uitleg, vul de TODO's in en RUN DE TESTS met de pytest-knop!
+
+            Pytest geeft als volgt output:
+
+                python_tutorial.py .FFFFFFFF
+
+            Die . betekent dat de eerste test geslaagd is. F betekent FAILURE.
             """
 
             # --- 1. Functies ------------------------------------------------------------
@@ -64,7 +70,8 @@ files:
 
             def describe_temperature(temp: int) -> str:
                 """
-                Een if-statement kiest welk pad de code neemt.
+                Geef een beschrijving van de gegeven temperatuur op basis
+                van enkele vastgelegde grenzen
 
                 Syntax:
                     if voorwaarde:
