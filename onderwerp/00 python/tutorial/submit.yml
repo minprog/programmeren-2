@@ -51,8 +51,8 @@ files:
 
             def uniq(lst: list[object]) -> list[object]:
                 new_lst = []
-                for i in lst:
-                    if i not in new_lst:
+                for element in lst:
+                    if element not in new_lst:
                         new_lst.append(i)
                 return new_lst
 
