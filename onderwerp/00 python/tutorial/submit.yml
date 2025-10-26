@@ -35,7 +35,7 @@ files:
             """
             tutorial_basics.py
 
-            Deze tutorial laat stap voor stap de belangrijkste programmeerbouwstenen zien:
+            Deze tutorial toont hoe de basisonderdelen van Python eruit zien:
             - functies
             - if-statements
             - loops (for en while)
@@ -43,13 +43,27 @@ files:
             - lists
 
             Lees de uitleg, vul de TODO's in en RUN DE TESTS met de pytest-knop!
+
+            Als voorbeeld hier een typische Python-functie die een lijst van
+            willekeurige waarden (objecten) aanneemt en dan  een nieuwe lijst
+            geeft met daarin alleen de unieke waarden uit het origineel (geen
+            dubbele meer).
+
+            def uniq(lst: list[object]) -> list[object]:
+                new_lst = []
+                for i in lst:
+                    if i not in new_lst:
+                        new_lst.append(i)
+                return new_lst
+
             """
 
             # --- 1. Functies ------------------------------------------------------------
 
             def greet(name: str) -> str:
                 """
-                Deze functie neemt een naam en maakt een groet
+                Deze functie neemt een naam en maakt een groet.
+                Bekijk de TESTs om te bekijken hoe de groet eruit moet zien!
                 Tip: twee strings kun je aan elkaar plakken met str1 + str2
                 """
                 return ...
