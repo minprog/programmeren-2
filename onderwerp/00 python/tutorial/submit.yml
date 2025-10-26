@@ -170,7 +170,7 @@ files:
 
             # --- 6. Lists ---------------------------------------------------------------
 
-            def add_item(xs: list, item):
+            def add_item(xs: list[object], item: object) -> list[object]:
                 """
                 Lijsten (lists) kunnen items bevatten en aangepast worden.
 
