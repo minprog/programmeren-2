@@ -49,21 +49,14 @@ files:
 
             def greet(name: str) -> str:
                 """
-                Een functie bundelt code die je vaker wilt gebruiken.
-
-                Syntax:
-                    def naam(parameters):
-                        # code
-                        return waarde
-
+                Deze functie neemt een naam en maakt een groet
                 Tip: twee strings kun je aan elkaar plakken met str1 + str2
                 """
-                # TODO: return bijvoorbeeld "Hello <name>!"
-                pass
+                return ...
 
 
             def test_greet():
-                assert greet("Alice") in ["Hello Alice!", "Hi Alice!"]
+                assert greet("Alice") in ["Hello Alice!", "Hallo Alice!"]
                 assert "Bob" in greet("Bob")
 
 
