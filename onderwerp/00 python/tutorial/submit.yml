@@ -165,8 +165,7 @@ files:
                     s.upper()   -> 'HELLO'
                     s.lower()   -> 'hello'
 
-                >>> shout("wow")
-                'WOW!'
+                Check de test voor het gewenste format!
                 """
                 pass
 
