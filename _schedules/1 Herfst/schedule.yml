@@ -4,7 +4,7 @@ Welkom:
 Python:
     Overzicht en puntentelling: /onderwerp/python
     Voorbereiding:
-        '[icon:layout-split] Python-Tutorial': /onderwerp/python/tutorial
+        '[icon:window-split] Python-Tutorial': /onderwerp/python/tutorial
         '[icon:journal-code] Studiemateriaal': /onderwerp/python/boek
         '[icon:terminal-fill] Installatie': /onderwerp/python/install
     Eisen:
