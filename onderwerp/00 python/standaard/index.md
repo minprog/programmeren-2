@@ -20,18 +20,18 @@ De ingeleverde code moet niet alleen aan de opdracht voldoen maar ook aan de **s
 
 1. Je code moet voldoen aan een aantal vaste stijlregels, bijvoorbeeld de maximale lengte van regels code.
 
-    * Om je uitwerking te controleren gebruik je [pycodestyle](/onderwerp/intro/pycodestyle).
+    * Om je uitwerking te controleren gebruik je [pycodestyle](/onderwerp/python/pycodestyle).
 
             pycodestyle --select=E101,E112,E113,E115,E116,E117,E501,E502,W505,W291 --max-line-length=99 --max-doc-length=79
 
 2. Je code moet types specificeren voor alle functies en variabelen.
 
-    * Om je uitwerking te controleren gebruik je [mypy](/onderwerp/intro/mypy).
+    * Om je uitwerking te controleren gebruik je [mypy](/onderwerp/python/mypy).
 
             mypy --strict
 
 3. Je inzending moet tests bevatten. Hoeveel tests minimaal wisselt per opdracht.
 
-    * Om je uitwerking te controleren gebruik je [pytest](/onderwerp/intro/pytest).
+    * Om je uitwerking te controleren gebruik je [pytest](/onderwerp/python/pytest).
 
 Deze tools moet je zelf draaien voordat je inlevert. Op die manier krijg je feedback als er iets nog niet klopt. De nakijkserver draait de tools ook, maar geeft alleen aan als er iets fout gaat, maar laat meestal niet zien wat het probleem is.
