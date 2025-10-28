@@ -1,0 +1,267 @@
+name: python_tutorial
+exam: true
+buttons:
+    'pytest': |
+        import pytest
+        pytest.main(["-vv", "--color=yes", 'test_python_tutorial.py'])
+    'mypy': |
+        from mypy import api
+        print(api.run(["--strict", "--ignore-missing-imports", "python_tutorial.py"])[0])
+    'pycodestyle': |
+        import pycodestyle
+        result = pycodestyle.StyleGuide(
+            select=[
+                'E101',
+                'E112',
+                'E113',
+                'E115',
+                'E116',
+                'E117',
+                'E501',
+                'E502',
+                'W505',
+                'W291'
+            ],
+            max_line_length=99,
+            max_doc_length=79
+        ).check_files(['python_tutorial.py'])
+
+        if result.file_errors == 0:
+            print("We ran pycodestyle and it did not give any errors :)")
+
+files:
+    required:
+        'python_tutorial.py': |
+            """
+            tutorial_basics.py
+
+            Deze tutorial toont hoe de basisonderdelen van Python eruit zien:
+            - functies
+            - if-statements
+            - loops (for en while)
+            - strings
+            - lists
+
+            Lees de uitleg, vul de TODO's in en RUN DE TESTS met de pytest-knop!
+
+            Als voorbeeld hier een typische Python-functie die een lijst van
+            willekeurige waarden (objecten) aanneemt en dan  een nieuwe lijst
+            geeft met daarin alleen de unieke waarden uit het origineel (geen
+            dubbele meer).
+
+            def uniq(lst: list[object]) -> list[object]:
+                new_lst = []
+                for element in lst:
+                    if element not in new_lst:
+                        new_lst.append(i)
+                return new_lst
+
+            """
+
+            # --- 1. Functies ------------------------------------------------------------
+
+            def greet(name: str) -> str:
+                """
+                Deze functie neemt een naam en maakt een groet.
+                Bekijk de TESTs om te bekijken hoe de groet eruit moet zien!
+                Tip: twee strings kun je aan elkaar plakken met str1 + str2
+                """
+                return ...
+
+
+            # --- 2. If-statements -------------------------------------------------------
+
+            def describe_temperature(temp: int) -> str:
+                """
+                Geef een beschrijving van de gegeven temperatuur op basis
+                van enkele vastgelegde grenzen
+
+                Syntax:
+                    if voorwaarde:
+                        ...
+                    elif andere_voorwaarde:
+                        ...
+                    else:
+                        ...
+
+                # TODO:
+                # - return "cold" bij temp < 10
+                # - return "warm" bij 10 <= temp < 30
+                # - anders "hot"
+
+
+                Tip: `pass` betekent "doe niks", dus haal die weg
+                """
+                pass
+
+
+            # --- 3. For-loop met if -----------------------------------------------------
+
+            def print_alternating(n: int) -> None:
+                """
+                Een for-loop herhaalt iets voor elk getal in een reeks.
+                Hier printen we afwisselend 'even' en 'odd'.
+                Als het getal deelbaar is door 5 dan printen we 'ping!'.
+
+                Syntax:
+                    range(n) genereert een reeks getallen van 0 tot n
+                    range(1,n) genereert een reeks getallen van 1 tot n
+                    range(1,n,2) genereert een reeks getallen van 1 tot n, in stappen van 2
+
+                    for i in range(1, n):
+                        if i % 2 == 0:
+                            print("even")
+                        else:
+                            print("odd")
+
+                Voor n = 5 moet de output zijn:
+                    odd
+                    even
+                    odd
+                    even
+                    ping!
+                """
+                pass
+
+
+            # --- 4. While-loop (Collatz) ------------------------------------------------
+
+            def collatz(n: int) -> None:
+                """
+                Een while-loop herhaalt zolang een voorwaarde True is.
+                De Collatz-reeks werkt als volgt:
+                    - als n even is, deel door 2
+                    - anders: n = 3 * n + 1
+                Stop wanneer n == 1.
+
+                Voorbeeld (start=6):
+                    6
+                    3
+                    10
+                    5
+                    16
+                    8
+                    4
+                    2
+                    1
+                """
+                while n != 1:
+                    print(n)
+                    # er staat nu een break om een infinite loop te voorkomen
+                    # haal de break weg en voeg code toe:
+                    # om het getal n aan te passen volgens de definitie van Collatz
+                    break
+
+
+            # --- 5. Strings -------------------------------------------------------------
+
+            def shout(text: str) -> str:
+                """
+                Strings zijn tekst tussen aanhalingstekens.
+                Je kunt er methodes op gebruiken.
+
+                Voorbeelden:
+                    s = "hello"
+                    s.upper()   -> 'HELLO'
+                    s.lower()   -> 'hello'
+
+                Check de test voor het gewenste format!
+                """
+                pass
+
+
+            def count_a(text: str) -> int:
+                """
+                Je kunt door een string loopen om tekens te tellen.
+                """
+                # TODO: tel hoeveel keer 'a' of 'A' voorkomt
+                count = 0
+                for ch in text:
+                    ...
+                return count
+
+
+            # --- 6. Lists ---------------------------------------------------------------
+
+            def add_item(xs: list[object], item: object) -> list[object]:
+                """
+                Lijsten (lists) kunnen items bevatten en aangepast worden.
+
+                Voorbeelden:
+                    xs = [1, 2]
+                    xs.append(3)  # [1, 2, 3]
+
+                """
+                # TODO: voeg item toe aan xs en return xs
+                pass
+
+
+            def find_largest(xs: list[int]) -> int:
+                """
+                Je kunt door een lijst loopen om de grootste waarde te vinden.
+                Gebruik hiervoor ook een for-in loop!
+
+                Bij "grootste" moet je altijd even bepalen met welke waarde
+                je het algoritme begint. Neem hier het eerste element van de lijst
+                als startwaarde: xs[0]
+                """
+                # TODO: gebruik een loop om de grootste waarde te vinden
+                pass
+
+
+            # --- 7. Alles combineren ----------------------------------------------------
+
+            def average_length(words: list[str]) -> float:
+                """
+                Combineer wat je weet: loops, strings, lijsten en berekeningen.
+
+                Tip: len(...) is een functie die de lengte geeft van bijv. een lijst
+                """
+                # TODO: bereken gemiddelde lengte, return 0 bij lege lijst
+                pass
+        test_python_tutorial.py: |
+            from python_tutorial import *
+
+            def test_greet():
+                assert greet("Alice") in ["Hello Alice!", "Hallo Alice!"]
+                assert "Bob" in greet("Bob")
+
+            def test_describe_temperature():
+                assert describe_temperature(5) == "cold"
+                assert describe_temperature(20) == "warm"
+                assert describe_temperature(35) == "hot"
+
+            def test_print_alternating(capsys):
+                print_alternating(6)
+                out, _ = capsys.readouterr()
+                lines = out.strip().splitlines()
+                assert lines == ["odd", "even", "odd", "even", "ping!", "even"]
+
+            def test_collatz(capsys):
+                collatz(6)
+                out, _ = capsys.readouterr()
+                lines = [int(x) for x in out.strip().splitlines()]
+                assert lines[0] == 6
+                assert lines[-1] == 1
+                assert 3 in lines and 16 in lines
+
+            def test_shout():
+                assert shout("hello") == "HELLO!"
+                assert shout("Python") == "PYTHON!"
+
+            def test_count_a():
+                assert count_a("Ananas") == 3
+                assert count_a("Banaan") == 3
+                assert count_a("XYZ") == 0
+
+            def test_add_item():
+                data = [1, 2]
+                assert add_item(data, 3) == [1, 2, 3]
+
+            def test_find_largest():
+                assert find_largest([3, 1, 4, 1, 5]) == 5
+                assert find_largest([-5, -1, -9]) == -1
+
+            def test_average_length():
+                assert round(average_length(["python", "is", "fun"]), 2) == 3.67
+                assert average_length([]) == 0.0

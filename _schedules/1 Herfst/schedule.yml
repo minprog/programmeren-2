@@ -4,8 +4,9 @@ Welkom:
 Python:
     Overzicht en puntentelling: /onderwerp/python
     Voorbereiding:
-        Studiemateriaal: /onderwerp/python/boek
-        Installatie: /onderwerp/python/install
+        '[icon:window-split] Python-Tutorial': /onderwerp/python/tutorial
+        '[icon:journal-code] Studiemateriaal': /onderwerp/python/boek
+        '[icon:terminal-fill] Installatie': /onderwerp/python/install
     Eisen:
         De standaard: /onderwerp/python/standaard
         pycodestyle: /onderwerp/python/pycodestyle

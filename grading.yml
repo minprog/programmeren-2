@@ -81,6 +81,7 @@ templates:
 grades:
 
     # Python
+    python_tutorial: *aftekenen
     weken: *automatisch
     isalpha: *automatisch
     lower: *automatisch

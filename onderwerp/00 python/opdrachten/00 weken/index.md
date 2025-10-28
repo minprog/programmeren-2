@@ -1,5 +1,7 @@
 # Weken
 
+**Grote kans dat we deze week niet alle informatie geven die je nodig hebt om elke opdracht precies goed te maken. Heb je het idee dat je iets mist, stel gerust een vraag!**
+
 Schrijf in een bestand genaamd `weken.py` een functie genaamd `weeks_elapsed`. Start met onderstaande code:
 
     def weeks_elapsed(day1: int, day2: int) -> int:
