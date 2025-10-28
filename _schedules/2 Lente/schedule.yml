@@ -29,57 +29,74 @@ Python:
         '[icon:star-fill] kenteken': /onderwerp/python/opdrachten/kenteken
         '[icon:star-fill] split real': /onderwerp/python/opdrachten/split_real
 
-Collection Types:
-    Overzicht: /modules/ds
-    Collection types:
-        Sets: /onderwerp/ds/sets
-        Dicts: /onderwerp/ds/dicts
-        Tuples: /onderwerp/ds/tuples
-    Opdracht:
-        Recommend: /onderwerp/ds/recommend
-    Algoritmische analyse:
-        "Boek: Big O": /onderwerp/ds/boek
-        Complexity: /onderwerp/ds/big-o-questions
+Collections:
+    Overzicht en puntentelling: /onderwerp/collections
+    Theorie:
+        "Boek: Data Abstraction": /onderwerp/collections/boek
+    Opdrachten:
+        Sets: /onderwerp/collections/sets
+        Dicts: /onderwerp/collections/dicts
+        Tuples: /onderwerp/collections/tuples
+        Recommend: /onderwerp/collections/recommend
+        Big-O: /onderwerp/collections/big-o-questions
+        '[icon:star-fill] Verminder de Cyclomatic Complexity van Hangman': /onderwerp/collections/cc
 
 Objects:
-    Overzicht: /modules/objects
-    Voorbereiding:
+    Overzicht en puntentelling: /onderwerp/objects
+    Theorie:
         "Videocollege: OOP": /onderwerp/objects/lecture
+        Assertions en exceptions: /onderwerp/objects/exceptions
     Opdrachten:
         Queue: /onderwerp/objects/queue
-        Game of Cards: /onderwerp/objects/cards
-        War: /onderwerp/objects/war
+        Cookie Jar: /onderwerp/objects/jar
 
 Abstract Data Types:
-    Overzicht: /modules/adt
-    Data Abstractions:
-        "Boek: Data Abstractions": /onderwerp/adt/boek
-        Testen met twee implementaties: /onderwerp/adt/card
-    Containers:
-        List structures: /onderwerp/adt/lists
-        Dictionary structures: /onderwerp/adt/dicts
-        Priority Queue*: /onderwerp/adt/priority_queue
-
-Refactoring:
-    Overzicht: /modules/refactor
+    Overzicht en puntentelling: /onderwerp/adt
+    Theorie:
+        "Boek: Data Abstraction": /onderwerp/adt/boek
     Opdrachten:
-        Verminder de Cyclomatic Complexity van Hangman: /onderwerp/refactor/cc
-        Wat is er mis met Cash: /onderwerp/refactor/cash
-        Profiling: /onderwerp/refactor/profiling
+        Game of Cards: /onderwerp/adt/cards
+        Testen met twee implementaties: /onderwerp/adt/testing
+        '[icon:star-fill] Wat is er mis met Cash': /onderwerp/adt/cash
 
-Adventure-week:
-    Overzicht: /modules/oop
-    Structuren bouwen:
-        "Boek: Structures": /onderwerp/oop/boek
-        Palindrome: /onderwerp/oop/palindrome
+Container classes:
+    Overzicht en puntentelling: /onderwerp/containers
+    Theorie:
+        "Boek: Container Classes": /onderwerp/containers/boek
+    Opdrachten:
+        War: /onderwerp/containers/war
+        Implementaties van dictionaries: /onderwerp/containers/dicts
+        '[icon:star-fill] Markov': /onderwerp/containers/markov
+
+Linked structures:
+    Overzicht en puntentelling: /onderwerp/linked
+    Theorie:
+        "Boek: Linked Structures": /onderwerp/linked/boek
+    Opdrachten:
+        Implementaties van lijsten: /onderwerp/linked/lists
+        Profiling: /onderwerp/linked/profiling
+
+Restricted lists:
+    Overzicht en puntentelling: /onderwerp/restricted
+    Theorie:
+        "Boek: Stacks and Queues": /onderwerp/restricted/boek
+        "Grafen en bomen": /onderwerp/linked/grafen
+    Opdrachten:
+        Palindrome: /onderwerp/restricted/palindrome
+        Priority Queue: /onderwerp/restricted/priority_queue
+
+Object graphs:
+    Overzicht en puntentelling: /onderwerp/oop
+    Police: /onderwerp/oop/police
     Adventure:
         1. Introduction: /adventure/steps/introduction
         2. Rooms: /adventure/steps/room
         3. Data files (big!): /adventure/steps/data
         4. Moving around: /adventure/steps/move
-        5. Forced movement: /adventure/steps/forced
-        6. Items (big!): /adventure/steps/items
-        7. Conditional movement: /adventure/steps/conditional
-        8. Other commands: /adventure/steps/commands
-        9. Synonyms: /adventure/steps/synonyms
+        5. Back: /adventure/steps/back
+        6. Forced movement: /adventure/steps/forced
+        7. Items (big!): /adventure/steps/items
+        8. Conditional movement: /adventure/steps/conditional
+        9. Other commands: /adventure/steps/commands
+        10. Synonyms: /adventure/steps/synonyms
         Submit: /adventure/steps/submit
