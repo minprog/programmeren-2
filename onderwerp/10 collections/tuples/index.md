@@ -97,7 +97,7 @@ Python dicts kennen een methode `items`. Deze methode geeft alle items (de keys 
     
     def items[KT, VT](dictionary: dict[KT, VT]) -> list[tuple[KT, VT]]:
         """
-        Returns a list of key-value tuples of all items in the dictionary. 
+        Returns a list of key-value tuples of all items in the dictionary.
         """
 
 **TODO** Schrijf minimaal drie pytest test in een bestand genaamd `test_tuples.py` voor deze functie.
