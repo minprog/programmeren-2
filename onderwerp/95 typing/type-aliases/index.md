@@ -2,20 +2,9 @@
 
 ## Generics
 
-How do you write your own generic functions? In Python that requires type variables. These are provided by `TypeVar` from the `typing` module. Here is how it works:
+How do you write your own generic functions? In Python that requires type variables. There is a special syntax for adding these type variables to a function:
 
-    from typing import TypeVar
-
-    T = TypeVar('T')  # Can be anything
-    N = TypeVar('N', int, float)  # Must be int or float
-
-Type variables can be unconstrained, like `T` above. In this case `T` can be any type at all. Or type variables can be constraint, like `N` above. In which case `N` can only be an `int` or a `float`. Type variables can come in place of actual types to create for instance generic functions:
-
-    from typing import Iterable, TypeVar
-
-    T = TypeVar('T')
-
-    def first(items: list[T]) -> T:
+    def first[T](items: list[T]) -> T:
         return items[0]
 
 `first` will return the first item in the list, but what type is returned is dependent on the list. For instance, if `first` is called like so:
@@ -26,7 +15,7 @@ Then `n` will be of type `int`. Because a `list[int]` is passed in and `T` will 
 
 Type variables can be used outside generic data structures too, for instance:
 
-    def longest(a: T, b: T) -> T:
+    def longest[T](a: T, b: T) -> T:
         return a if len(a) >= len(b) else b
 
 This function will work for any type T, and it will return that same type.

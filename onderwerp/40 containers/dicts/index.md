@@ -20,12 +20,7 @@ Om de keys en values op te slaan gebruiken we een `list[tuple[K, V]]`. Het idee 
 
 **TODO** Implementeer `ListDict` in `dict_adt.py`. Je kan met de volgende opzet beginnen:
 
-    from typing import TypeVar, Generic
-
-    K = TypeVar("K")
-    V = TypeVar("V")
-
-    class ListDict(Generic[K, V]):
+    class ListDict[K, V]:
         def __init__(self):
             self._pairs: list[tuple[K, V]] = []
 
@@ -66,7 +61,7 @@ Om de keys en values op te slaan gebruiken we een `list[tuple[K, V]]`. Het idee 
 **TODO** De implementatie op basis van een lijst van paren is niet per se efficiënt. Geef in de docstring van elke methode de computationele complexiteit aan. Bijvoorbeeld:
 
 
-    def add(self, key: Any, value: Any) -> None:
+    def add(self, key: K, value: V) -> None:
         """
         Complexity: O(n)
         """
@@ -83,7 +78,7 @@ Het idee van zo'n archiefkast is om in een la alleen documenten neer te leggen d
 
 **TODO** Implementeer `StrDict` in `dict_adt.py` volgens het idee van een archiefkast. Je kan beginnen met onderstaande code. Kijk goed naar de gebruikte datastructuur, dit is nu een `list[list[tuple[str, V]]]` geworden. Dat is een lijst van 26 lijsten (één voor iedere letter van het alfabet). Ieder van deze lijsten moet vervolgens alleen key-values bevatten waarvan de key begint met dezelfde letter.
 
-    class StrDict(Generic[V]):
+    class StrDict[V]:
         def __init__(self):
             self._filing_cabinet: list[list[tuple[str, V]]] = []
 
@@ -144,12 +139,8 @@ Je kan deze zo gebruiken:
     import string
     import sys
     import time
-    from typing import TypeVar, Generic
 
-    K = TypeVar("K")
-    V = TypeVar("V")
-
-    class DictLike(Protocol, Generic[K, V]):
+    class DictLike[K, V](Protocol):
         def add(self, key: K, value: V) -> None: ...
         def contains(self, key: K) -> bool: ...
         def get(self, key: K, default_value: V | None=None) -> V | None: ...
@@ -270,7 +261,7 @@ Nu is het jouw taak om een betere hash functie te schrijven. Eén die zoveel mog
 
 **TODO** Implementeer `HashStrDict` in `dict_adt.py`. Gebruik hierbij jouw nieuwe implementatie van `hash_key`. Kijk goed naar `self.number_of_drawers`. Bij deze implementatie is het aantal lades niet altijd `26`, maar wordt dit bepaald door deze variabele. Het staat je vrij om deze waarde te verhogen of te verlagen.
 
-    class HashStrDict(Generic[V]):
+    class HashStrDict[V]:
         def __init__(self):
             self._filing_cabinet: list[list[tuple[str, V]]] = []
             self.number_of_drawers = 8192
@@ -340,7 +331,7 @@ Omdat hash-functies moeten werken met de eigenschappen van de data, moeten deze 
 
 **TODO** Implementeer `HashDict` in `dict_adt.py`.
 
-    class HashDict(Generic[K, V]):
+    class HashDict[K, V]:
         def __init__(self):
             self._filing_cabinet: list[list[tuple[K, V]]] = []
             self.number_of_drawers = 8192

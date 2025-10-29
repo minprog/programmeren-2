@@ -70,9 +70,7 @@ These abstract data types are implemented as so called `Protocols`. See this [Py
 
 Annotate the code below with duck types instead:
 
-    T = TypeVar("T")
-
-    def reverse(items: list[T]) -> list[T]:
+    def reverse[T](items: list[T]) -> list[T]:
         new = []
         for item in items:
             new.insert(0, item)
@@ -80,9 +78,7 @@ Annotate the code below with duck types instead:
 
 <textarea name="form[q4.1]" rows="5" required=""></textarea>
 
-    T = TypeVar("T")
-
-    def select(items: list[T], indices: list[int]) -> list[T]:
+    def select[T](items: list[T], indices: list[int]) -> list[T]:
         selection = []
         for index in indices:
             selection.append(items[index])
@@ -90,9 +86,7 @@ Annotate the code below with duck types instead:
 
 <textarea name="form[q4.2]" rows="5" required=""></textarea>
 
-    T = TypeVar("T")
-
-    def filter(items: list[T], allowed: dict[T, bool]) -> list[T]:
+    def filter[T](items: list[T], allowed: dict[T, bool]) -> list[T]:
         new = []
         for item in items:
             if allowed[item]:

@@ -95,11 +95,7 @@ Python dicts kennen een methode `items`. Deze methode geeft alle items (de keys 
 
 **TODO** Implementeer de volgende functie in een bestand genaamd `tuples.py`:
     
-    from typing import TypeVar
-    KT = TypeVar("KT")
-    VT = TypeVar("VT")
-
-    def items(dictionary: dict[KT, VT]) -> list[tuple[KT, VT]]:
+    def items[KT, VT](dictionary: dict[KT, VT]) -> list[tuple[KT, VT]]:
         """
         Returns a list of key-value tuples of all items in the dictionary. 
         """
@@ -114,7 +110,7 @@ Python kent een functie [enumerate](https://docs.python.org/3/library/functions.
 
     from typing import Iterable
 
-    def list_enumerate(values: Iterable[VT]) -> list[tuple[int, VT]]:
+    def list_enumerate[VT](values: Iterable[VT]) -> list[tuple[int, VT]]:
         """
         Returns a list of tuples. Each tuple is a pair of an
         index (starting at 0) and a value at that index in values.
