@@ -126,7 +126,7 @@ Deze bestanden download je [hier](https://github.com/minprog/programmeren-2/raw/
 Implementeer nu de methode `load_from_file`:
 
     @staticmethod
-    def load_from_filefilename: str) -> Graph:
+    def load_from_file(filename: str) -> Graph:
         """
         Reads contacts from file and creates a graph.
         """
