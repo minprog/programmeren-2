@@ -3,7 +3,8 @@ files:
     required:
         - card_original.py
         - test_card.py
-        - card.py
+        - new_card.py
 check:
-    tool: check50
-    slug: minprog/checks/2022/test_kalender
+    tool: checkpy
+    repo: minprog/checks
+    args: new_card
