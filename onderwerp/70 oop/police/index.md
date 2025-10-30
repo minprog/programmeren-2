@@ -50,7 +50,7 @@ Implementeer in een bestand genaamd `politie.py` de class `Node` en `Edge`:
         def add_edge(self, edge: "Edge") -> None:
             pass
 
-Hier staat een `@property` bij de functie `edges`. Dit betekent dat de methode kan worden aangeroepen zonder gebruik van haakjes, alsof het een normale property (attribuut) is van het object.
+Hier staat een `@property` bij de methode `edges`. Dit betekent dat de methode kan worden aangeroepen zonder gebruik van haakjes, alsof het een normale property (attribuut) is van het object.
 
     class Edge:
         def __init__(self, node1: Node, node2: Node) -> None:
