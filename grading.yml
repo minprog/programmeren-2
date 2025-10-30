@@ -147,3 +147,6 @@ grades:
     # Meesterproef
     meesterproef1:
         exam: true
+        type: pass
+        subgrades:
+            voldoende: boolean
