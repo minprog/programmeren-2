@@ -131,7 +131,7 @@ grades:
 
     # Restricted lists
     palindrome: *aftekenen
-    priority_queue_adt: *punten
+    priority_queue_adt: *aftekenen
 
     # Object graphs
     police: *automatisch
