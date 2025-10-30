@@ -150,3 +150,4 @@ grades:
         type: pass
         subgrades:
             voldoende: boolean
+        calculation: voldoende
