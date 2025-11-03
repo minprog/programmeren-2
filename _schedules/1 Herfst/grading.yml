@@ -51,7 +51,7 @@ python:
 
 collections:
     type: points
-    show_overview: true
+    show_progress: true
     deadline: 7/11/25 17:00
     submits:
         sets: 1
@@ -63,7 +63,7 @@ collections:
 
 objects:
     type: points
-    show_overview: true
+    show_progress: true
     deadline: 14/11/25 17:00
     submits:
         queue: 1
@@ -71,7 +71,7 @@ objects:
 
 adt:
     type: points
-    show_overview: true
+    show_progress: true
     deadline: 14/11/25 17:00
     submits:
         cards: 2
