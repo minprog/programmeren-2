@@ -10,4 +10,10 @@
 
 ## Inleveren
 
-Lever je code in en 5 voorbeelden van interessante gegenereerde teksten. Geef bij elke tekst duidelijk aan welke input je hebt gebruikt en welke parameters.
+Lever je code in en 5 voorbeelden van interessante gegenereerde teksten.
+
+- Maak een los tekstbestand (.txt) voor elk voorbeeld
+- Geef in elk tekstbestand aan:
+    - welke input je hebt gebruikt (omschrijving, niet hele tekst)
+    - welke parameters je hebt gebruikt voor het model
+    - de exacte output die jouw model genereerde (van 1 zelfgekozen run)
