@@ -2,6 +2,12 @@ name: markov
 files:
     required:
         - markov.py
+        - tekst1.txt
+        - tekst2.txt
+        - tekst3.txt
+        - tekst4.txt
+        - tekst5.txt
+
 # check:
 #     tool: checkpy
 #     repo: minprog/checks
