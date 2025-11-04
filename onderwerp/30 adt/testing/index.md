@@ -16,7 +16,7 @@ In deze opdracht ga je tests schrijven voor de `Card`-class uit het boek en daar
 
     - Probeer zo compleet mogelijk alle combinaties van functie-aanroepen te testen, maar probeer tegelijk herhaling van soortgelijke tests te voorkomen. Dit is een balans die je moet vinden.
 
-3.  Pas nu de `Card`-class aan zodat deze gebruik maakt van de alternatieve implementatie zoals beschreven in paragraaf 2.3.3 van het boek (sla een nieuwe versie op als `card.py`!).
+3.  Pas nu de `Card`-class aan zodat deze gebruik maakt van de alternatieve implementatie zoals beschreven in paragraaf 2.3.3 van het boek (sla een nieuwe versie op als `new_card.py`!).
 
     Je alternatieve implementatie heeft niet meer de instance variables `_rank_num` en `_suit_char` , dus je moet deze regels verwijderen uit de __init__:
 
@@ -31,7 +31,7 @@ In deze opdracht ga je tests schrijven voor de `Card`-class uit het boek en daar
 
     Om beide implementaties tegelijk te kunnen testen, zonder daarvoor al je test code te moeten copy-pasten, gebruiken we een handige feature van pytest: een zogenaamde parametrized fixture. Neem daarvoor onderstaande code over en zet deze bovenin `test_card.py`
 
-        from card import Card as NewCard
+        from new_card import Card as NewCard
         from original_card import Card as OriginalCard
 
         import pytest

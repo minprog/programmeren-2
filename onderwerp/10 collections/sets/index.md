@@ -104,7 +104,7 @@ Python sets kennen een methode `intersection()`. Deze methode geeft een nieuwe s
 
 **TODO** Implementeer de volgende functie in een bestand genaamd `sets.py`:
 
-    def intersection[A, B](set_a: set[A], set_b: set[A]) -> set[A]:
+    def intersection[A](set_a: set[A], set_b: set[A]) -> set[A]:
         """
         Returns a new set with all elements that are both in
         set_a and set_b. In other words, this returns all the
@@ -148,7 +148,7 @@ Let op, gebruik deze operatie natuurlijk niet bij het implementeren van deze opd
 
 Python sets kennen een methode `difference()`. Deze methode geeft een nieuwe set met daarin alle elementen die alleen in één set zitten (`set_a`), maar niet in de andere (`set_b`). Deze operatie is niet symmetrisch, dus alleen elementen uit `set_a` kunnen in de resulterende set komen.
 
-    def difference[A, B](set_a: set[A], set_b: set[A]) -> set[A]:
+    def difference[A](set_a: set[A], set_b: set[A]) -> set[A]:
         """
         Returns a new set with all elements that are only in
         set_a and not in set_b. In other words, this returns

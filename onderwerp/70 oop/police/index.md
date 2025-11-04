@@ -31,7 +31,7 @@ In dit schema:
 
 ## Stap 1: Node en Edge
 
-Implementeer in een bestand genaamd `politie.py` de class `Node`:
+Implementeer in een bestand genaamd `politie.py` de class `Node` en `Edge`:
 
     class Node:
         def __init__(self, name: str) -> None:
@@ -50,7 +50,7 @@ Implementeer in een bestand genaamd `politie.py` de class `Node`:
         def add_edge(self, edge: "Edge") -> None:
             pass
 
-Hier staat een `@property` bij de functie `edges`. Dit 
+Hier staat een `@property` bij de methode `edges`. Dit betekent dat de methode kan worden aangeroepen zonder gebruik van haakjes, alsof het een normale property (attribuut) is van het object.
 
     class Edge:
         def __init__(self, node1: Node, node2: Node) -> None:
@@ -126,7 +126,7 @@ Deze bestanden download je [hier](https://github.com/minprog/programmeren-2/raw/
 Implementeer nu de methode `load_from_file`:
 
     @staticmethod
-    def load_from_filefilename: str) -> Graph:
+    def load_from_file(filename: str) -> Graph:
         """
         Reads contacts from file and creates a graph.
         """
