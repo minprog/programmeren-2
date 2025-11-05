@@ -2,11 +2,11 @@
 
 In deze opdracht ga je tests schrijven voor de `Card`-class uit het boek en daarna een *tweede* implementatie maken van de `Card`-class. De bedoeling is dat één set tests goed werkt met beide implementaties.
 
-1.  Neem de `Card`-class uit paragraaf 2.3 van het boek in een file `card_original.py` (download [card_original.py](card.py)).
+1.  Neem de `Card`-class uit paragraaf 2.3 van het boek in een file `original_card.py` (download [original_card.py](card.py)).
 
 2.  Schrijf tests voor de class `Card` in een file `test_card.py`.
 
-    - Bovenaan de file zet je `from card_original import Card`. Net als in eerdere modules gebruiken wij de module `pytest` om te testen.
+    - Bovenaan de file zet je `from original_card import Card`. Net als in eerdere modules gebruiken wij de module `pytest` om te testen.
 
     - Bedenk hoe de class gebruikt kan worden en schrijf tests die diverse gebruiksscenario's controleren. Bijvoorbeeld het aanmaken van een `Card`-object en dan met `suit_name()` opvragen van de naam. En misschien een andere test voor het aanmaken van een `Card`-object voor een *andere* kaart. Enzovoort.
 
