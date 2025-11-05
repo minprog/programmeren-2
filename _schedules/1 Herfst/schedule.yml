@@ -98,7 +98,7 @@ Object graphs:
         5. Back: /adventure/steps/back
         6. Forced movement: /adventure/steps/forced
         7. Items (big!): /adventure/steps/items
-        8. Userful commands: /adventure/steps/commands
+        8. Utility commands: /adventure/steps/commands
         9. Conditional movement: /adventure/steps/conditional
-        A. Winning the game (not small): /adventure/steps/winning
+        A. Winning the game (big!): /adventure/steps/winning
         Submit: /adventure/steps/submit
