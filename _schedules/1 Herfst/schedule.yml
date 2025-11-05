@@ -90,14 +90,15 @@ Object graphs:
     Overzicht en puntentelling: /onderwerp/oop
     Police: /onderwerp/oop/police
     Adventure:
-        1. Introduction: /adventure/steps/introduction
-        2. Rooms: /adventure/steps/room
-        3. Data files (big!): /adventure/steps/data
-        4. Moving around: /adventure/steps/move
+        0. Introduction: /adventure/steps/introduction
+        1. Rooms: /adventure/steps/room
+        2. Data files (big!): /adventure/steps/data
+        3. Moving around: /adventure/steps/move
+        4. Synonyms: /adventure/steps/synonyms
         5. Back: /adventure/steps/back
         6. Forced movement: /adventure/steps/forced
         7. Items (big!): /adventure/steps/items
-        8. Conditional movement: /adventure/steps/conditional
-        9. Other commands: /adventure/steps/commands
-        10. Synonyms: /adventure/steps/synonyms
+        8. Userful commands: /adventure/steps/commands
+        9. Conditional movement: /adventure/steps/conditional
+        A. Winning the game (not small): /adventure/steps/winning
         Submit: /adventure/steps/submit
