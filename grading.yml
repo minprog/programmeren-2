@@ -115,7 +115,7 @@ grades:
 
     # ADTs
     cards: *automatisch
-    card_implementations: *aftekenen
+    card_implementations: *automatisch
     # --steropdracht
     cash_tests: *punten
 
