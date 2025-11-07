@@ -25,7 +25,7 @@ python:
     show_progress: true
     deadline: 5/9/25 17:00
     submits:
-        weken: 1
+        weken: 0.5
         isalpha: 1
         lower: 1
         orakel: 1
