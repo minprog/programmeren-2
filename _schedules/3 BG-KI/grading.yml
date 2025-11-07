@@ -11,7 +11,8 @@ grades:
 
 calculation:
     eindcijfer:
-        python: 7
+        python: 6
+        python_ster: 1
         collections: 8
         objects: 2
         adt: 6
