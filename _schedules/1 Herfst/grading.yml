@@ -28,24 +28,30 @@ startup:
 
 python:
     type: points
+    maximum: 6  # totaal punten hieronder is 7, maar we maximeren op 6
     show_progress: true
-    # let op: ivm SurfDrive upgrade kan dit ook echt niet later
     deadline: 31/10/25 17:00
     submits:
-        weken: 1
-        isalpha: 1
-        lower: 1
-        orakel: 1
-        index: 1
-        slice: 1
-        capitalize: 1
-        title: 1
-        find: 1
-        split: 1
-        calculator: 1
-        join: 1
-        replace: 1
-        camelcase: 1
+        weken: 0.5
+        isalpha: 0.5
+        lower: 0.5
+        orakel: 0.5
+        index: 0.5
+        slice: 0.5
+        capitalize: 0.5
+        title: 0.5
+        find: 0.5
+        split: 0.5
+        calculator: 0.5
+        join: 0.5
+        replace: 0.5
+        camelcase: 0.5
+
+python_ster:  # deze tellen apart mee, bovenop de python-punten
+    type: points
+    show_progress: true
+    deadline: 31/10/25 17:00
+    submits:
         kenteken: 0.5
         split_real: 0.5
 
