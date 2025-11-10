@@ -49,8 +49,8 @@ Eigenlijk is het verwijderen dus hetzelfde als toevoegen, maar dan precies ander
 
 Nu is het aan jou om een priority queue te implementeren op basis van een heap. De priority queue moet de volgende operaties ondersteunen:
 
-- `add(value: Any) -> None` --- voegt een waarde toe aan de queue
-- `pop() -> Any` --- haalt de hoogste waarde uit de queue
+- `add(value: T) -> None` --- voegt een waarde toe aan de queue
+- `pop() -> T` --- haalt de hoogste waarde uit de queue
 
 Heaps kan je op verschillende manieren implementeren. Net zoals bij linked lists kan dat door middel van nodes die wijzen naar elkaar. Bij heaps kan dat ook door middel van een lijst en een handig trucje. Doen we als volgt, op iedere plek in de lijst staat een waarde van een node. De hoogste waarde staat op plek 0. De kinderen daarvan staan op plekken 1 en 2. De kinderen daarvan staan weer op plekken 3, 4, 5 en 6. De kinderen daarvan staan op plekken 7, 8, 9, 10, 11, 12, 13, 14. Etc. Je kan het je zo voorstellen:
 
@@ -74,16 +74,14 @@ In algemene zin, gegeven een node k:
 
 Je kan beginnen met de volgende code:
 
-    from typing import Any
-
-    class PriorityQueue:
+    class PriorityQueue[T]:
         def __init__(self):
-            self._heap: list[Any] = []
+            self._heap: list[T] = []
 
-        def add(self, value: Any) -> None:
+        def add(self, value: T) -> None:
             raise NotImplementedError()
 
-        def pop(self) -> Any:
+        def pop(self) -> T:
             raise NotImplementedError()
 
 ## Schrijf tests voor PriorityQueue
