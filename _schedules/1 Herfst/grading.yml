@@ -115,7 +115,7 @@ graphs:
     deadline: 12/12/25 17:00
     submits:
         police: 2
-        adventure-steps: 12
+        adventure-steps: 10
 
 tt:
     type: pass
