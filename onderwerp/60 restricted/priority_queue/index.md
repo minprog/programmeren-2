@@ -81,10 +81,10 @@ Je kan beginnen met de volgende code:
             self._heap: list[Any] = []
 
         def add(self, value: Any) -> None:
-            raise notImplementedError()
+            raise NotImplementedError()
 
         def pop(self) -> Any:
-            raise not ImplementedError()
+            raise NotImplementedError()
 
 ## Schrijf tests voor PriorityQueue
 
