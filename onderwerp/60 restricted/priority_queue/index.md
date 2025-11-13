@@ -74,7 +74,14 @@ In algemene zin, gegeven een node k:
 
 Je kan beginnen met de volgende code:
 
-    class PriorityQueue[T]:
+    from typing import Protocol
+
+    class Comparable(Protocol):
+        """Protocol for annotating comparable types."""
+        def __lt__[T](self: T, other: T) -> bool:
+            ...
+    
+    class PriorityQueue[T: Comparible]:
         def __init__(self):
             self._heap: list[T] = []
 
@@ -83,6 +90,10 @@ Je kan beginnen met de volgende code:
 
         def pop(self) -> T:
             raise NotImplementedError()
+
+> In de startercode staat een zogenaamd `Protocol`. Dit is Python's manier om een abstract type te definiëren. Een type dat niet zozeer beschrijft wat iets is, maar wat het kan. Bestaande abstracte types uit de `typing` module zijn bijvoorbeeld `Sequence`, `Iterable` & `Mapping`. Ieder van deze types is niet een bestaand type op zich, maar andere types kunnen er wel aan voldoen. Zo is een `list` zowel een `Sequence` als een `Iterable`. In de startercode staat een eigen `Comparable` gedefinieerd, ieder type dat vergelijkbaar is d.m.v. kleiner dan (`<`) voldoet hieraan. `class PriorityQueue[T: Comparible]:` stelt vervolgens dat `PriorityQueue` generiek is over een type `T` en dat type `T` moet de eigenschappen van een `Comparible` hebben.
+
+> **Let op!** gebruik je python 3.13 of ouder? Voeg dan `from __future__ import annotations` toe bovenaan je bestand. Python 3.14 verandert hoe type annotaties worden ingelezen en dat is noodzakelijk voor deze startercode. Achtergrond: <https://docs.python.org/3.14/whatsnew/3.14.html#whatsnew314-deferred-annotations> 
 
 ## Schrijf tests voor PriorityQueue
 
