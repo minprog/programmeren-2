@@ -86,7 +86,7 @@ adt:
 
 containers:
     type: points
-    show_overview: true
+    show_progress: true
     deadline: 21/11/25 17:00
     submits:
         war: 2
@@ -95,7 +95,7 @@ containers:
 
 linked:
     type: points
-    show_overview: true
+    show_progress: true
     deadline: 28/11/25 17:00
     submits:
         list_implementations: 2
@@ -103,7 +103,7 @@ linked:
 
 restricted:
     type: points
-    show_overview: true
+    show_progress: true
     deadline: 28/11/25 17:00
     submits:
         palindrome: 2
@@ -111,7 +111,7 @@ restricted:
 
 graphs:
     type: points
-    show_overview: true
+    show_progress: true
     deadline: 12/12/25 17:00
     submits:
         police: 2
