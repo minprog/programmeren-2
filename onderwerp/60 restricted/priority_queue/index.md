@@ -81,7 +81,7 @@ Je kan beginnen met de volgende code:
         def __lt__[T](self: T, other: T) -> bool:
             ...
     
-    class PriorityQueue[T: Comparible]:
+    class PriorityQueue[T: Comparable]:
         def __init__(self):
             self._heap: list[T] = []
 
