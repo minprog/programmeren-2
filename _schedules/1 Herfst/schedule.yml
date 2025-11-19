@@ -102,3 +102,6 @@ Object graphs:
         9. Conditional movement: /adventure/steps/conditional
         A. Winning the game (big!): /adventure/steps/winning
         Submit: /adventure/steps/submit
+
+Meesterproef:
+    Mini-meesterproef: /meesterproef/mini
