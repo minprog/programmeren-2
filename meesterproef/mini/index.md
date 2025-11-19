@@ -39,6 +39,8 @@ De klasse moet in ieder geval:
 
         Measurement(2025-11-19 13:45, 21.5°C)
 
+Vergeet niet om direct tests te schrijven vóórdat je doorgaat met de volgende stap!
+
 ## Analyse van metingen
 
 Definieer een klasse `MeasurementSeries` die meerdere Measurement-objecten kan bevatten.
@@ -50,6 +52,8 @@ De klasse moet minimaal:
 * Een methode `count()` die teruggeeft hoeveel metingen er zijn.
 * Een methode `average_temperature()` die de gemiddelde temperatuur van alle metingen berekent.
     * Als er geen metingen zijn, retourneer `None`.
+
+Vergeet niet om direct tests te schrijven vóórdat je doorgaat met de volgende stap!
 
 ## Verantwoording (doe dit in de laatste 15 minuten)
 
