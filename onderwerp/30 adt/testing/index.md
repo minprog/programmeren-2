@@ -70,4 +70,3 @@ Zie <https://docs.pytest.org/en/stable/how-to/fixtures.html#how-to-fixtures> voo
 ## Inleveren
 
 Lever hieronder de oude en de nieuwe implementatie, en ook de bijbehorende tests in.
-Zorg dat bij het inleveren `from card import Card` bovenaan je testfile staat, zodat de **nieuwe** implementatie wordt gebruikt voor testen.
