@@ -31,7 +31,7 @@ In dit schema:
 
 ## Stap 1: Node en Edge
 
-Implementeer in een bestand genaamd `politie.py` de class `Node` en `Edge`:
+Implementeer in een bestand genaamd `police.py` de class `Node` en `Edge`:
 
     class Node:
         def __init__(self, name: str) -> None:
@@ -139,7 +139,7 @@ Implementeer nu de methode `load_from_file`:
 
 Eenmaal geïmplementeerd zou het volgende moeten werken:
 
-    $ python -i politie.py
+    $ python -i police.py
     >>> graph = Graph.load_from_file("small_contacts.csv")
     >>> graph
     Alice - Bob
