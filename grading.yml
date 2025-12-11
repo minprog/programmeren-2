@@ -151,3 +151,6 @@ grades:
         subgrades:
             voldoende: boolean
         calculation: voldoende
+
+    minimeesterproef:
+        exam: true
