@@ -20,6 +20,12 @@ calculation:
         restricted: 4
         graphs: 12
 
+tt:
+    type: pass
+    show_progress: true
+    submits:
+        meesterproef1: 1
+
 startup:
     type: points
     show_overview: true
@@ -116,9 +122,3 @@ graphs:
     submits:
         police: 2
         adventure-steps: 10
-
-tt:
-    type: pass
-    show_overview: true
-    submits:
-        meesterproef1: 1
