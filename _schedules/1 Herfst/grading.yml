@@ -25,6 +25,7 @@ tt:
     show_progress: true
     submits:
         meesterproef1: 1
+        meesterproef2: 1
 
 startup:
     type: points

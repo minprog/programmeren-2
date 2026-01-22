@@ -153,5 +153,15 @@ grades:
         calculation: voldoende
         hide_calculated: true
 
+
+    # Meesterproef
+    meesterproef2:
+        exam: true
+        type: pass
+        subgrades:
+            voldoende: boolean
+        calculation: voldoende
+        hide_calculated: true
+
     minimeesterproef:
         exam: true
