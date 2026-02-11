@@ -20,6 +20,16 @@ calculation:
         restricted: 4
         graphs: 12
 
+    herkansing:
+        python: 7
+        collections: 8
+        objects: 2
+        adt: 6
+        containers: 5
+        linked: 4
+        restricted: 4
+        graphs: 12
+
 tt:
     type: pass
     show_progress: true
