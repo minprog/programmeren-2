@@ -38,18 +38,19 @@ Hieronder vind je de **deadlines**. Bij dit vak is het niet verplicht om alle op
 | 6+7  | Object graphs       |   12   |  -   | do 21 mei 17:00 | vrijdag = start tentamenweek |
 |      | **Totaal punten:**  |   42   |  6   |                 |                              |
 
-**Fulltime** --- Doe je tegelijk met dit vak het Programmeerproject? Dan doe je de minor programmeren in fulltime en bieden we een andere indeling van de twee vakken aan. Je doet dan eerst grotendeels programmeren 2 in vier weken en daarna het programmeerproject in vier weken. Voor programmeren 2 ziet het schema er dan zo uit:
+**Fulltime** --- Doe je tegelijk met dit vak het Programmeerproject? Dan doe je de minor programmeren in fulltime en bieden we een andere indeling van de twee vakken aan. Je doet dan eerst grotendeels programmeren 2 en daarna het programmeerproject in vier weken. Het schema ziet er dan zo uit:
 
 | Week              | Maandag           | Dinsdag             | Woensdag              | Donderdag             | Vrijdag                |
 | ----------------- | ----------------- | ------------------- | --------------------- | --------------------- | ---------------------- |
-| 0 (week 8 blok 1) |                   |                     |                       |                       | Python                 |
-| 1                 | Python            | **Tentamen DR**     | Collections           | Collections           | Objects                |
-| 2                 | ADT               | ADT                 | **Finance (project)** | **Finance (project)** | ✝ (vrij)               |
-| 3                 | 🐣 (vrij)         | Containers          | Containers            | **Hertentamen DR**    | Linked                 |
-| 4                 | Linked            | **Books (project)** | **Books (project)**   | **Books (project)**   | Restricted             |
-| 5                 | Restricted        | Restricted          | Graphs                | Graphs                | Graphs                 |
-| 6 (onderwijsvrij) |                   |                     |                       |                       |                        |
-| 7                 | 4 mei (vrij)      | 5 mei (vrij)        | Graphs                | Graphs                | Tentamen!              |
+| -1 (blok 1)       |                   |                     |                       |                       | Python                 |
+| 0 (blok 1)        | Python            | **Tentamen DR**     | Collections           | Collections           | Objects                |
+| 1                 | ADT               | ADT                 | **Finance (project)** | **Finance (project)** | ✝ (vrij)               |
+| 2                 | 🐣 (vrij)         | Containers          | Containers            | **Hertentamen DR**    | Linked                 |
+| 3                 | Linked            | **Books (project)** | **Books (project)**   | **Books (project)**   | Restricted             |
+| 4                 | Restricted        | Restricted          | Graphs                | Graphs                | Graphs                 |
+| 5 (onderwijsvrij) |                   |                     |                       |                       |                        |
+| 6                 | 4 mei (vrij)      | 5 mei (vrij)        | Graphs                | Graphs                | Tentamen!              |
+| 7                 | **project**       | **project**         | **project**           | Hemelvaart (vrij)     | Dag na hemelvaart (vrij) |
 | 8                 | **project**       | **project**         | **project**           | **project**           | **project**            |
 | 9                 | pinksteren (vrij) | Hertentamen prog2   | **project**           | **project**           | **projectpresentatie** |
 
