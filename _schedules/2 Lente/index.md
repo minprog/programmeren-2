@@ -1,19 +1,22 @@
-# Programmeren 2<br><small>Studiewijzer Lente 2025</small>
+# Programmeren 2
+
+## Studiewijzer<br><small>Lente 2025</small>
 
 Wat ga je doen?
 
-- De verschillende manieren van programmeren in Python leren kennen en beheersen.
+- De verschillende programmeerstijlen in Python beheersen.
 - Leren hoe je je eigen programma's op kwaliteit kunt toetsen en verbeteren.
 - Kennis maken met abstracte datatypes in diverse vormen.
-- Begrijpen waarom sommige algoritmen beter werken dan andere.
-- Kunnen analyseren hoe goed een algoritme werkt gegeven een bepaalde datastructuur.
-- Leren hoe je maatregelen kunt toepassen in code om latere fouten te voorkomen.
+- Implementeren van verschillende datastructuren op basis van Python classes.
+- Begrijpen waarom sommige algoritmen "beter" werken dan andere.
+- Analyseren hoe goed een algoritme werkt gegeven een bepaalde datastructuur.
+- Leren hoe je maatregelen kunt nemen in code om latere fouten te voorkomen.
+
+Bij dit vak werk je aan verschillende soorten **opdrachten**. De meeste opdrachten doe je individueel. Soms zijn het oefeningen, dan weer schrijf je een flink groot programma en op een aantal momenten ga je met tools aan de slag om te leren je Python-code zelf beter te maken.
 
 ## Docenten en assistenten
 
 De docenten bij dit vak zijn Jelle van Assema en Martijn Stegeman. Zij geven het vak vorm en verzorgen de organisatie. Je kunt ze bereiken via e-mail op <help@mprog.nl>.
-
-Daarnaast zijn er veel student-assistenten, die de cursus goed kennen omdat ze 'm zelf gedaan hebben, en jou gaan helpen op de momenten dat het nodig is.
 
 ## Ingangseisen
 
@@ -21,56 +24,76 @@ Je moet Programmeren 1 volledig hebben gehaald om dit vak te mogen volgen.
 
 ## Opdrachten en aftekenen
 
-Bij dit vak werk je aan verschillende soorten **opdrachten**. De meeste opdrachten doe je individueel. Soms zijn het oefeningen, dan weer schrijf je een flink groot programma en op een aantal momenten ga je met tools aan de slag om te leren je Python-code zelf beter te maken.
+Hieronder vind je de **deadlines**. Bij dit vak is het niet verplicht om alle opdrachten af te maken. Wel zijn de deadlines hard. Na het verstrijken van de deadline is er dus géén mogelijkheid meer om in te leveren.
 
-| Module                     | Punten    | Deadline PT     | Deadline FT     |
-| -------------------------- | --------: | --------------- | --------------- |
-| Python + steropdrachten    |     6 + 1 | vr  4 apr 17:00 | do 17 apr 17:00 |
-| Datastructures             |         6 | vr 11 apr 17:00 | do 17 apr 17:00 |
-| Objects                    |         6 | do 17 apr 17:00 | do 17 apr 17:00 |
-| ADT + steropdrachten       |     6 + 2 | vr 25 apr 17:00 | do 17 apr 17:00 |
-| Refactoring                |         6 | vr  9 mei 17:00 | do 17 apr 17:00 |
-| OOP + steropdrachten       |     9 + 3 | wo 21 mei 17:00 | vr 25 apr 17:00 |
-| **Totaal punten:**         |    **45** |                 |                 |
+| Week | Module              | Punten | Ster |        Deadline |                              |
+| ---- | ------------------- | :----: | :--: | --------------: | ---------------------------- |
+| 1    | Python              |   6    |  1   | do 2 apr  17:00 | let op goede vrijdag         |
+| 2    | Collections         |   6    |  2   | vr 10 apr 17:00 | let op paasmaandag           |
+| 3    | Objects             |   2    |  -   | vr 17 apr 17:00 |                              |
+| 3    | Abstract data types |   4    |  2   | vr 17 apr 17:00 | zelfde deadline!             |
+| 4    | Container classes   |   4    |  1   | vr 24 apr 17:00 |                              |
+| 4+5  | Linked structures   |   4    |  -   | vr 24 apr 17:00 | zelfde deadline!             |
+| 5    | Restricted lists    |   4    |  -   | vr 8  mei 17:00 | 4/5 mei roostervrij          |
+| 6+7  | Object graphs       |   12   |  -   | do 21 mei 17:00 | vrijdag = start tentamenweek |
+|      | **Totaal punten:**  |   42   |  6   |                 |                              |
 
-Let op de verschillende **deadlines**. PT betekent dat je nu alleen Programmeren 2 volgt bij onze minor. FT geldt als je in dezelfde periode het vak Programmeerproject doet.
+**Fulltime** --- Doe je tegelijk met dit vak het Programmeerproject? Dan doe je de minor programmeren in fulltime en bieden we een andere indeling van de twee vakken aan. Je doet dan eerst grotendeels programmeren 2 in vier weken en daarna het programmeerproject in vier weken. Voor programmeren 2 ziet het schema er dan zo uit:
 
-Bij dit vak is het niet verplicht om **alle opdrachten** af te maken. Wel zijn de deadlines hard. Na het verstrijken van de deadline is er geen mogelijkheid meer om in te leveren.
+| Week              | Maandag           | Dinsdag             | Woensdag              | Donderdag             | Vrijdag                |
+| ----------------- | ----------------- | ------------------- | --------------------- | --------------------- | ---------------------- |
+| 0 (week 8 blok 1) |                   |                     |                       |                       | Python                 |
+| 1                 | Python            | **Tentamen DR**     | Collections           | Collections           | Objects                |
+| 2                 | ADT               | ADT                 | **Finance (project)** | **Finance (project)** | ✝ (vrij)               |
+| 3                 | 🐣 (vrij)         | Containers          | Containers            | **Hertentamen DR**    | Linked                 |
+| 4                 | Linked            | **Books (project)** | **Books (project)**   | **Books (project)**   | Restricted             |
+| 5                 | Restricted        | Restricted          | Graphs                | Graphs                | Graphs                 |
+| 6 (onderwijsvrij) |                   |                     |                       |                       |                        |
+| 7                 | 4 mei (vrij)      | 5 mei (vrij)        | Graphs                | Graphs                | Tentamen!              |
+| 8                 | **project**       | **project**         | **project**           | **project**           | **project**            |
+| 9                 | pinksteren (vrij) | Hertentamen prog2   | **project**           | **project**           | **projectpresentatie** |
 
-Bij verschillende modules zijn er opdrachten gemarkeerd met een *. Dit zijn **steropdrachten** die een slag verder gaan. Deze opdrachten zijn bedoeld als extra uitdagend en dus ook voor diegenen die deze uitdaging zoeken.
+De deadlines blijven hetzelfde als bij het reguliere schema. Dat betekent dat de mogelijkheid blijft bestaan om te wisselen naar het reguliere schema bijvoorbeeld in geval van ziekte. Dit heeft vaak wel de consequentie dat er te weinig tijd overblijft om ook het programmeerproject te volgen in hetzelfde blok en je dat vak zal moeten laten vallen. Het is daarom extra belangrijk voor fulltime studenten om goed contact te houden bij bijvoorbeeld ziekte, zo kunnen we je het beste helpen.
+
+<hr>
+
+Bij verschillende modules zijn er opdrachten gemarkeerd met een `*`. Dit zijn **steropdrachten**, bedoeld als extra uitdaging en dus ook voor diegenen die daarnaar op zoek zijn. Als je ze niet maakt mis je slechts een bescheiden aantal punten.
 
 ## Eindcijfer
 
 De eindbeoordeling gaat als volgt:
 
-1.  Je maakt de **meesterproef** op 25 april (fulltime) of 22 mei (parttime). Hierin werk je een groter stuk Python-code uit, en je vult dit aan met allerlei technieken uit de cursus, zoals automatische tests. De meesterproef moet gehaald worden om het vak te kunnen halen.
+1.  Je maakt de **meesterproef** (tentamen). Hierin werk je een groter stuk Python-code uit, en je vult dit aan met allerlei technieken uit de cursus, zoals automatische tests. De meesterproef moet voldoende zijn om het vak te kunnen halen. Bij de meesterproef focussen we op een basisniveau, met een paar geavanceerdere onderdelen.
 
-2.  Je plant een **eindgesprek** kort na de meesterproef. Hier bespreken we jouw uitwerkingen van zowel de proef als je huiswerkopdrachten. Daar kunnen de docenten constateren dat je alles goed hebt begrepen en dat de huiswerkopdrachten kunnen meetellen.
+2.  Je hebt een **eindgesprek** kort na de meesterproef. Hier bespreken we jouw uitwerkingen van zowel de proef als je huiswerkopdrachten. Je resultaat bij de proef ondersteunt de beoordeling van het huiswerk. Zo kunnen de docenten constateren dat je alles goed hebt begrepen en dat de huiswerkopdrachten kunnen meetellen.
 
 3.  Het **eindcijfer** bestaat dan uit de punten voor de opdrachten. Het wordt berekend via:
 
-        behaalde_punten / 45 * 9 + 1
+        behaalde_punten / maximum * 9 + 1
 
-    De steropdrachten wegen mee in het puntentotaal en dus ook in het eindcijfer. Per saldo maken de opdrachten met een * het verschil tussen een 9 (8.8 afgerond) en een 10.
+    De steropdrachten wegen mee in het puntentotaal en dus ook in het eindcijfer. Per saldo maken de opdrachten met een `*` het verschil tussen een 9 (dus 8.875 maar dan afgerond) en een 10.
 
-## Weekschema fulltime
-
-Doe je ook het Programmeerproject deze periode? Dan doe je de minor programmeren in fulltime. Je doet dan eerst programmeren 2 in vier weken en daarna het programmeerproject in vier weken. Voor programmeren 2 ziet het schema er dit semester zo uit:
-
-| Week | Maandag        | Dinsdag        | Woensdag       | Donderdag      | Vrijdag        |
-| -----| -------------- | -------------- | -------------- | -------------- | -------------- |
-| 1    | Python         | Python         | Python / DS    | Datastructures | Datastructures |
-| 2    | Objects        | Objects        | Objects        | ADT            | ADT            |
-| 3    | ADT            | Refactoring    | Refactoring    | Refactoring    | -              |
-| 4    | -              | OOP            | OOP            | OOP            | OOP            |
-
-Mocht je het schema in de praktijk niet redden, dan ga je uiteindelijk deadlines missen. Eventueel kun je dan terugschakelen naar parttime, door het Programmeerproject op te geven. Het is daarom extra belangrijk voor fulltimestudenten om goed contact te houden bij bijvoorbeeld ziekte, zo kunnen we je het beste begeleiden.
+Het moet goed mogelijk zijn een groot deel van de opdrachten helemaal af te maken, mits je wekelijks genoeg tijd reserveert voor het vak.
 
 ## Aanwezigheid
 
-- Studenten die de Minor Programmeren fulltime volgen hebben een aanwezigheidsplicht zoals apart bekend gemaakt.
+Jouw aanwezigheid wordt verwacht bij de bijeenkomsten die in het rooster vermeld staan (voor fulltime-studenten is dit elke werkdag 10-16 uur). De aanwezigheid wordt bijgehouden om een goed beeld te vormen van je regelmatige inzet voor het vak.
 
-- Studenten die het vak Programmeren 2 parttime volgen (dus niet samen met Programmeerproject) moeten 2 dagdelen in de week aanwezig zijn, te kiezen uit dinsdagmiddag, donderdagmiddag en vrijdagochtend.
+Mocht je onverhoopt een keer niet kunnen, dan stuur je even een mailtje. Dit hoeft zeker niet via de studieadviseur, je mag het gewoon direct bij ons melden.
+
+Heb je meer systematisch problemen met aanwezig zijn, bespreek het dan even. Er is best wat mogelijk, maar voor ons is het belangrijk dat we de studenten op vaste momenten in de week kunnen zien en begeleiden, om de werkdruk redelijk te houden. Daarom is die aanwezigheid voor ons zo belangrijk.
+
+Als je wegblijft tijdens het vak, hou er dan rekening mee dat er weinig flexibiliteit is om alternatieve begeleiding te geven en dat er geen uitzonderingen worden verleend op de standaardregels (denk aan deadlines).
+
+### Ziekte en inhalen
+
+Als je ziek bent, meld het dan even aan je docenten (niet je studieadviseur) via een e-mail naar <mailto:help@mprog.nl>. Je hoeft het niet uitgebreid uit te leggen, maar wel meteen melden. Het contact hierover houden is het belangrijkste dat je kunt doen.
+
+- Ben je één of twee dagen ziek dan is dat geen probleem en kun je de deadline vaak nog halen. Het kan handig zijn om even te overleggen op welke opdrachten je je het best kunt richten.
+
+- Heb je een medisch noodgeval en ben je hierdoor bijvoorbeeld een hele week uit de running? Dan bespreek je naderhand met een docent hoe je dit kunt oplossen, bijvoorbeeld door een klein deel van de opdrachten nog te doen zodat je kennis op peil is.
+
+    Daarbij speelt natuurlijk ook mee hoe makkelijk het programmeren je afgaat en hoeveel energie je hebt. Op basis van al die informatie kijken we samen wat mogelijk is. Je krijgt ook bij inhalen geen punten voor de opdrachten; het is echt gericht om snel weer mee te doen met de groep.
 
 ## Vragen stellen
 
@@ -81,11 +104,12 @@ Tijdens dit vak zul je vaak de hulp inroepen van de assistenten en medestudenten
 - jouw eerste aanspreekpunt zijn je medestudenten in het lokaal
 - ook als parttime-student moet je zorgen dat je toegang hebt tot andere studenten
 - samen nadenken over de opdracht helpt je verder
+- controleer met elkaar je uitwerkingen, bijvoorbeeld door ideeën voor tests te delen
 - de beste manier is om vaak in het lokaal te komen zitten
 
 **Assistentie:** direct contact met een assistent, voor hulp bij programmeren.
 
-- hulp op locatie (lokalen L0.09)
+- hulp op locatie (lokaal L0.09)
 - je weet echt niet waar te beginnen of een onvindbare bug, of alles loopt vast
 - moeite met verzinnen oplossing
 - dagelijks beschikbaar na 10 uur, zet jezelf in de rij via het menu:
@@ -98,7 +122,6 @@ Tijdens dit vak zul je vaak de hulp inroepen van de assistenten en medestudenten
 - meedenken over grote problemen met het vak
 - andere officiële zaken
 - administratie na afloop van het vak
-- je kunt ook even een afspraak maken om iets door te spreken
 - mail <help@mprog.nl>
 
 <details markdown="1"><summary markdown="span">Kom je helemaal niet verder en heb je even geen hulp?</summary>
@@ -109,27 +132,15 @@ Juist even niet aan de opdracht werken kan je verder helpen!
 - Ga even door met de volgende opdracht van de module om te kijken hoe je daar mee gaat.
 </details>
 
+## Regels voor samenwerken, plagiaat en ChatGPT
 
-### Ziekte en inhalen
+De basis van alles wat je inlevert moet jouw eigen denkwerk zijn.
 
-Als je ziek bent dan meld je het in ieder geval meteen even aan je docenten (niet je mentor) via een e-mail naar <mailto:help@mprog.nl>. Je hoeft het niet uitgebreid uit te leggen, maar wel meteen melden. Het contact hierover houden is het belangrijkste dat je kunt doen.
-
--   Ben je één of twee dagen ziek dan is dat geen probleem en kun je de deadline vaak nog halen. Het kan handig zijn om even te overleggen op welke opdrachten je je het best kunt richten.
-
--   Heb je een medisch noodgeval en ben je hierdoor bijvoorbeeld een hele week uit de running? Dan bespreek je naderhand met een docent hoe je dit kunt oplossen, bijvoorbeeld door een klein deel van de opdrachten nog te doen zodat je kennis op peil is.
-
-    Daarbij speelt natuurlijk ook mee hoe makkelijk het programmeren je afgaat en hoeveel energie je hebt. Op basis van al die informatie kijken we samen wat mogelijk is. Je krijgt ook bij inhalen geen punten voor de opdrachten; het is echt gericht om snel weer mee te doen met de groep.
-
--   Raak je helemaal uit tempo omdat je bijvoorbeeld toch teveel andere dingen te doen hebt of niet genoeg focus kan vinden? Het is belangrijk dat je dit snel bespreekt met een docent (niet je mentor). Stuur maar een [mailtje](mailto:help@mprog.nl)!
-
-
-## Samenwerken
-
-De basis van alles wat je inlevert moet jouw eigen intellectuele werk zijn, behalve waar het gaat om de samenwerkopdrachten.
+### Samenwerken
 
 Natuurlijk is het nuttig om bij het maken van individuele opdrachten **interactie** te hebben met je medestudenten, en dat kan ook enorm helpen bij het beheersen van de stof. Maar er is een grens tussen het vragen van hulp aan een ander en het inleveren van werk van een ander. Hieronder karakteriseren we beide kanten van die grens.
 
-Je mag niet samenwerken aan de **implementatie** van je programma's. Uitzondering is dat je medestudenten om hulp mag vragen, zolang dat er niet op neer komt dat een ander een deel van het werk voor jou doet. Over het algemeen mag je, als je om hulp vraagt, jouw code laten zien, maar kijk je niet naar de code van een ander. Je laat je dus niks voorzeggen.
+Je mag niet samenwerken aan de **implementatie** van je programma's (dus het bedenken welke code je moet intikken). Uitzondering is dat je medestudenten om hulp mag vragen, zolang dat er niet op neer komt dat een ander een deel van het werk voor jou doet. Over het algemeen mag je, als je om hulp vraagt, jouw code laten zien, maar kijk je niet naar de code van een ander. Je laat je dus niks voorzeggen.
 
 Waar de grens **onduidelijk** is vragen we je om "redelijk" te handelen. Hieronder vind je een incomplete lijst van voorbeelden die een beeld schetsen van welke handelingen we als redelijk of onredelijk bestempelen. Twijfel je of een handeling redelijk is, vraag het, en wacht tot je per e-mail toestemming hebt gekregen van een docent (niet assistent). Als je onredelijk handelt dan kan dit leiden tot een melding bij de examencommissie.
 
@@ -187,8 +198,7 @@ Waar de grens **onduidelijk** is vragen we je om "redelijk" te handelen. Hierond
 - Naar de oplossing voor een opdracht van iemand anders kijken, en vervolgens jouw oplossing daarop baseren.
 </details>
 
-
-## Plagiaat
+### Plagiaat
 
 Alle inzendingen worden wekelijks gecontroleerd met behulp van een detectiesysteem dat zoekt naar overeenkomsten in programmacode. Dat kunnen overeenkomsten zijn binnen de groep, met studenten van vorige jaren, of zelfs met code van internet.
 
@@ -196,4 +206,12 @@ Vinden we overeenkomsten, dan gaat een docent direct met je in gesprek om je voo
 
 In alle gevallen is het ons doel om dit soort situaties te voorkomen, omdat ze niet leerzaam zijn en veel werk opleveren voor iedereen. Vraag daarom vooral om advies als je denkt dat het misgaat! Er is vaak meer te redden dan je denkt, zelfs al is de deadline nabij.
 
-De [plagiaatregeling](https://student.uva.nl/content/az/fraude-plagiaat-en-bronvermelding/plagiaat-en-fraude.html) van de Universiteit van Amsterdam geeft algemene aanwijzingen over plagiaat en is de basis voor bovenstaande regelingen.
+De [fraude- en plagiaatregeling](https://student.uva.nl/onderwerpen/plagiaat-en-fraude) van de Universiteit van Amsterdam geeft algemene aanwijzingen over plagiaat en andere vormen van fraude en is de basis voor bovenstaande regelingen.
+
+### ChatGPT en andere LLM's
+
+Hoewel LLM's bijzonder goed zijn in programmeren, zeker waar het kleine opdrachten betreft, kun je als student zelf niet beoordelen of het echt goed is zonder zelf te leren programmeren. Als jij code van een LLM overneemt zonder gedegen kennis, loop je het risico bugs en security-leaks over te nemen zonder dat je er erg in hebt. En als je wil bijdragen aan grotere software-projecten, dan merk je zonder deze kennis en ervaring dat je het overzicht niet kan houden.
+
+Bij deze cursus is het gebruik van ChatGPT dus ook niet toegestaan voor het genereren van (delen van) oplossingen voor de opdrachten, eigenlijk precies zoals je geen oplossingen van andere studenten mag overnemen, zoals hierboven vermeld. Als je dit toch doet wordt het gezien als fraude. Bij een vermoeden van fraude moet dit door de docent worden gerapporteerd, net als bij de plagiaatregeling.
+
+Dat gezegd hebbende is het voor een docent niet altijd makkelijk om gegenereerde code te herkennen (soms juist wel!) dus er ligt een grote verantwoordelijkheid bij jou om het vak gewoon serieus te doen en oprecht hulp te vragen als je er niks meer van begrijpt. We helpen hierbij door een meesterproef te doen en samen met jou je ingeleverde werk te bespreken. Zo heb je een beetje een stok achter de deur.
