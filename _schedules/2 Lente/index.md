@@ -48,7 +48,7 @@ Hieronder vind je de **deadlines**. Bij dit vak is het niet verplicht om alle op
 | 2                 | 🐣 (vrij)         | Containers          | Containers            | **Hertentamen DR**    | Linked                 |
 | 3                 | Linked            | **Books (project)** | **Books (project)**   | **Books (project)**   | Restricted             |
 | 4                 | Restricted        | Restricted          | Graphs                | Graphs                | Graphs                 |
-| 5 (onderwijsvrij) |                   |                     |                       |                       |                        |
+| 5 (vrij) |                   |                     |                       |                       |                        |
 | 6                 | 4 mei (vrij)      | 5 mei (vrij)        | Graphs                | Graphs                | Tentamen!              |
 | 7                 | **project**       | **project**         | **project**           | Hemelvaart (vrij)     | Dag na hemelvaart (vrij) |
 | 8                 | **project**       | **project**         | **project**           | **project**           | **project**            |
