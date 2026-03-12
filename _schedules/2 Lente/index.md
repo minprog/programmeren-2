@@ -33,9 +33,10 @@ Hieronder vind je de **deadlines**. Bij dit vak is het niet verplicht om alle op
 | 3    | Objects             |   2    |  -   | vr 17 apr 17:00 |                              |
 | 3    | Abstract data types |   4    |  2   | vr 17 apr 17:00 | zelfde deadline!             |
 | 4    | Container classes   |   4    |  1   | vr 24 apr 17:00 |                              |
-| 4+5  | Linked structures   |   4    |  -   | vr 24 apr 17:00 | zelfde deadline!             |
-| 5    | Restricted lists    |   4    |  -   | vr 8  mei 17:00 | 4/5 mei roostervrij          |
-| 6+7  | Object graphs       |   12   |  -   | do 21 mei 17:00 | vrijdag = start tentamenweek |
+| 4    | Linked structures   |   4    |  -   | vr 24 apr 17:00 | zelfde deadline!             |
+| 5    |                     |        |      |                 | roostervrije week            |
+| 6    | Restricted lists    |   4    |  -   | vr 8  mei 17:00 | 4/5 mei roostervrij          |
+| 7+8  | Object graphs       |   12   |  -   | do 21 mei 17:00 | vrijdag = start tentamenweek |
 |      | **Totaal punten:**  |   42   |  6   |                 |                              |
 
 **Fulltime** --- Doe je tegelijk met dit vak het Programmeerproject? Dan doe je de minor programmeren in fulltime en bieden we een andere indeling van de twee vakken aan. Je doet dan eerst grotendeels programmeren 2 en daarna het programmeerproject in vier weken. Het schema ziet er dan zo uit:
