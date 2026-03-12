@@ -42,8 +42,8 @@ Hieronder vind je de **deadlines**. Bij dit vak is het niet verplicht om alle op
 
 | Week              | Maandag           | Dinsdag             | Woensdag              | Donderdag             | Vrijdag                |
 | ----------------- | ----------------- | ------------------- | --------------------- | --------------------- | ---------------------- |
-| -1 (blok 1)       |                   |                     |                       |                       | Python                 |
-| 0 (blok 1)        | Python            | **Tentamen DR**     | Collections           | Collections           | Objects                |
+| -1 (blok 4)       |                   |                     |                       |                       | Python                 |
+| 0 (blok 4)        | Python            | **Tentamen DR**     | Collections           | Collections           | Objects                |
 | 1                 | ADT               | ADT                 | **Finance (project)** | **Finance (project)** | ✝ (vrij)               |
 | 2                 | 🐣 (vrij)         | Containers          | Containers            | **Hertentamen DR**    | Linked                 |
 | 3                 | Linked            | **Books (project)** | **Books (project)**   | **Books (project)**   | Restricted             |
