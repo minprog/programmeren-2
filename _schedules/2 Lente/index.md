@@ -79,7 +79,7 @@ Het moet goed mogelijk zijn een groot deel van de opdrachten helemaal af te make
 
 ## Aanwezigheid
 
-Jouw aanwezigheid wordt verwacht bij de bijeenkomsten die in het rooster vermeld staan (voor fulltime-studenten is dit elke werkdag 10-16 uur). De aanwezigheid wordt bijgehouden om een goed beeld te vormen van je regelmatige inzet voor het vak.
+Jouw aanwezigheid wordt verwacht bij de bijeenkomsten die in het rooster vermeld staan. De aanwezigheid wordt bijgehouden om een goed beeld te vormen van je regelmatige inzet voor het vak.
 
 Mocht je onverhoopt een keer niet kunnen, dan stuur je even een mailtje. Dit hoeft zeker niet via de studieadviseur, je mag het gewoon direct bij ons melden.
 
@@ -114,9 +114,7 @@ Tijdens dit vak zul je vaak de hulp inroepen van de assistenten en medestudenten
 - hulp op locatie (lokaal L0.09)
 - je weet echt niet waar te beginnen of een onvindbare bug, of alles loopt vast
 - moeite met verzinnen oplossing
-- dagelijks beschikbaar na 10 uur, zet jezelf in de rij via het menu:
-
-    ![](../hands-menu.png)
+- beschikbaar tijdens de ingeroosterde uren
 
 **E-mail:** contact met de docenten.
 
