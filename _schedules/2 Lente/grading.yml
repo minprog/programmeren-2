@@ -30,7 +30,7 @@ python:
     type: points
     show_progress: true
     # let op: ivm SurfDrive upgrade kan dit ook echt niet later
-    deadline: 31/10/25 17:00
+    deadline: 02/04/26 17:00
     submits:
         weken: 1
         isalpha: 1
@@ -52,7 +52,7 @@ python:
 collections:
     type: points
     show_overview: true
-    deadline: 7/11/25 17:00
+    deadline: 10/04/26 17:00
     submits:
         sets: 1
         dicts: 1
@@ -64,7 +64,7 @@ collections:
 objects:
     type: points
     show_overview: true
-    deadline: 14/11/25 17:00
+    deadline: 17/04/26 17:00
     submits:
         queue: 1
         jar: 1
@@ -72,7 +72,7 @@ objects:
 adt:
     type: points
     show_overview: true
-    deadline: 14/11/25 17:00
+    deadline: 17/04/26 17:00
     submits:
         cards: 2
         card_implementations: 2
@@ -81,7 +81,7 @@ adt:
 containers:
     type: points
     show_overview: true
-    deadline: 21/11/25 17:00
+    deadline: 24/04/26 17:00
     submits:
         war: 2
         dict_implementations: 2
@@ -90,7 +90,7 @@ containers:
 linked:
     type: points
     show_overview: true
-    deadline: 28/11/25 17:00
+    deadline: 24/04/26 17:00
     submits:
         list_implementations: 2
         profiling: 2
@@ -98,7 +98,7 @@ linked:
 restricted:
     type: points
     show_overview: true
-    deadline: 28/11/25 17:00
+    deadline: 08/05/26 17:00
     submits:
         palindrome: 2
         priority_queue_adt: 2
@@ -106,7 +106,7 @@ restricted:
 graphs:
     type: points
     show_overview: true
-    deadline: 12/12/25 17:00
+    deadline: 21/05/26 17:00
     submits:
         police: 2
         adventure-steps: 12
