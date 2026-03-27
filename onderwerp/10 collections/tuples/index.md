@@ -177,7 +177,7 @@ Als de lengte van beide verzamelingen verschillen, stopt `zip` bij de korste ver
         where the i-th tuple contains the i-th element from each of the argument sequences.
         """
 
-> `list_zip` maakt gebruik van een `Sequence` i.p.v. een `Iterable`. Want dit type ondersteunt wel `len()`. Strikt genomen is dat niet nodig voor deze opdracht, maar wel erg handig.
+> `list_zip` maakt gebruik van een `Sequence` i.p.v. een `Iterable`. Want dit type ondersteunt wel `len()` en dit type is indexeerbaar via `values1[i]`. Strikt genomen is dat niet nodig voor deze opdracht, maar wel erg handig.
 
 **TODO** Schrijf minimaal drie pytest test in een bestand genaamd `test_tuples.py` voor deze functie.
 
