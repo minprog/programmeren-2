@@ -160,3 +160,45 @@ Bovenstaande werkt via een zogenaamde `generator`. Deze wordt hier aangemaakt do
 De for-loop zorgt ervoor dat de `generator` de getallen gaat genereren. Omdat de generator nooit stopt, hebben we zelf maar een `break` in de loop gezet.
 </details>
 </details>
+
+### zip
+
+Python kent een functie [zip](https://docs.python.org/3/library/functions.html#zip). Deze functie neemt twee itereerbare verzamelingen als argumenten. Dit is bijvoorbeeld een list, set, tuple of dict. Een datastructuur waarmee je met een for-loop over kan itereren. De functie returned vervolgens een list met op iedere plek een tuple. Iedere `i`-ste tuple bestaat weer uit twee waardes: de `i`-ste waarde uit de eerste verzameling en de `i`-ste waarde uit de tweede verzameling.
+
+Als de lengte van beide verzamelingen verschillen, stopt `zip` bij de korste verzameling. De lengte van de output is dan gelijk aan de lengte van de kortste verzameling.
+
+**TODO** Implementeer de volgende functie in een bestand genaamd `tuples.py`:
+
+    from typing import Sequence
+
+    def list_zip[A, B](values1: Sequence[A], values2: Sequence[B]) -> list[tuple[A, B]]:
+        """
+        list_zip() returns a list of tuples,
+        where the i-th tuple contains the i-th element from each of the argument sequences.
+        """
+
+> `list_zip` maakt gebruik van een `Sequence` i.p.v. een `Iterable`. Want dit type ondersteunt wel `len()`. Strikt genomen is dat niet nodig voor deze opdracht, maar wel erg handig.
+
+**TODO** Schrijf minimaal drie pytest test in een bestand genaamd `test_tuples.py` voor deze functie.
+
+<details markdown="1"><summary markdown="span">zip in Python</summary>
+Python kent maar één vorm van een for-loop, een zogenaamde for-each loop. Je leest hem eigenlijk als: voor ieder (for each) element in een verzameling van elementen, doe iets. Handig als je door één verzameling wil gaan, maar zodra je tegelijkertijd door meerdere verzamelingen wil loop-en wordt het lastig en verbose. Een oplossing is uitwijken naar een loop met `range` zoals:
+
+    voornamen = ["Jelle", "Martijn", "Edwin"]
+    achternamen = ["van Assema", "Stegeman", "Steffens"]
+    for i in range(len(voornamen)):
+        voornaam = voornamen[i]
+        achternaam = achternamen[i]
+
+        print(voornaam, achternaam)
+
+Het werkt, maar het kost aardig wat regels code en je moet werken met indices. Daarnaast heb je een potentiële bug: wat nou als de tweede verzameling in het voorbeeld korter is dan de eerste. Voor deze situatie bestaat de `zip` functie in python. Met `zip` kan je twee (of meer) verzamelingen in elkaar ritsen, en daar tegelijkertijd over loop-en:
+
+    voornamen = ["Jelle", "Martijn", "Edwin"]
+    achternamen = ["van Assema", "Stegeman", "Steffens"]
+    
+    for voornaam, achternaam in zip(voornamen, achternamen):
+        print(voornaam, achternaam)
+
+Hierboven wordt tuple-unpacking, het uitpakken van een tuple in meerdere variabelen, op dezelfde regel van de for-loop gedaan. Daardoor heb je in één klap een variabele `voornaam` en een variabele `achternaam`.
+</details>
