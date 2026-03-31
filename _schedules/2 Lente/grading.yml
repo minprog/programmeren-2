@@ -29,7 +29,6 @@ startup:
 python:
     type: points
     show_progress: true
-    # let op: ivm SurfDrive upgrade kan dit ook echt niet later
     deadline: 02/04/26 17:00
     submits:
         weken: 1
@@ -51,7 +50,7 @@ python:
 
 collections:
     type: points
-    show_overview: true
+    show_progress: true
     deadline: 10/04/26 17:00
     submits:
         sets: 1
@@ -63,7 +62,7 @@ collections:
 
 objects:
     type: points
-    show_overview: true
+    show_progress: true
     deadline: 17/04/26 17:00
     submits:
         queue: 1
@@ -71,7 +70,7 @@ objects:
 
 adt:
     type: points
-    show_overview: true
+    show_progress: true
     deadline: 17/04/26 17:00
     submits:
         cards: 2
