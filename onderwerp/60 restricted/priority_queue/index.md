@@ -1,6 +1,6 @@
 # Priority Queue
 
-> Deze opdracht is best pittig, want hij vraag om een goed theoretisch inzicht! Neem de tijd voor het begrijpen, dat is belangrijker dan het oplossen.
+> Deze opdracht is best pittig, want hij vraagt om een goed theoretisch inzicht! Neem de tijd voor het begrijpen, dat is belangrijker dan het oplossen.
 
 Een normale queue (rij) houdt de volgorde van toevoegen aan. Het wat er als eerst bijkomt, gaat er ook alst eerste uit (FIFO: First In First Out). Dit kan goed worden geïmplementeerd met een linked-list, want specifiek het toevoegen aan het eind en weghalen aan het begin kan een linked-list in constante tijd. Dit idee breekt zodra er prioriteit komt kijken. Oftewel een andere volgorde niet op basis van binnenkomen, maar op basis van belangrijkheid. Want bij een linked-list zijn er dan twee opties:
 
