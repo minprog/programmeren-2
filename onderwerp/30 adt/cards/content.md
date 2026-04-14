@@ -49,9 +49,9 @@ In the parameter list of the `__init__` method, you define for which attributes 
 
 **Second**, write a `description` method. It doesn't take any parameters other than `self`, and should `return` a string that properly describes the object. In this case, the returned string might look like this:
 
-    Ace of spades
+    A of spades
 
-`Ace` comes from the attribute `self.value` and `spades` from `self.suit`.
+`A` comes from the attribute `self.value` and `Spades` from `self.suit`.
 
 Return a formatted string like this one:
 
