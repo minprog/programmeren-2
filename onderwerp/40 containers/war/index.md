@@ -210,7 +210,7 @@ Implementeer nu het spel zodat het programma output in de volgende vorm producee
     Round 1:
     Player 1 draws A of Diamonds
     Player 2 draws 2 of Clubs
-    Player 1 wins this round!
+    Player 2 wins this round!
 
     Round 2:
     Player 1 draws 3 of Diamonds
