@@ -1,6 +1,6 @@
 # Programmeren 2
 
-## Studiewijzer<br><small>Lente 2025</small>
+## Studiewijzer<br><small>Lente 2026</small>
 
 Wat ga je doen?
 
