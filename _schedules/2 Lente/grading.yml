@@ -28,25 +28,24 @@ startup:
 
 python:
     type: points
+    maximum: 7  # totaal punten hieronder is 7, maar we maximeren op 6
     show_progress: true
-    deadline: 02/04/26 17:00
+    deadline: 31/10/25 17:00
     submits:
-        weken: 1
-        isalpha: 1
-        lower: 1
-        orakel: 1
-        index: 1
-        slice: 1
-        capitalize: 1
-        title: 1
-        find: 1
-        split: 1
-        calculator: 1
-        join: 1
-        replace: 1
-        camelcase: 1
-        kenteken: 0.5
-        split_real: 0.5
+        weken: 0.5
+        isalpha: 0.5
+        lower: 0.5
+        orakel: 0.5
+        index: 0.5
+        slice: 0.5
+        capitalize: 0.5
+        title: 0.5
+        find: 0.5
+        split: 0.5
+        calculator: 0.5
+        join: 0.5
+        replace: 0.5
+        camelcase: 0.5
 
 collections:
     type: points
@@ -108,7 +107,7 @@ graphs:
     deadline: 21/05/26 17:00
     submits:
         police: 2
-        adventure-steps: 12
+        adventure-steps: 10
 
 tt:
     type: pass
