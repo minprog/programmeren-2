@@ -2,7 +2,7 @@ name: meesterproef2
 exam: true
 buttons:
     'mypy': |
-        print("Loading mypy... it takes a while..."
+        print("Loading mypy... it takes a while...")
         from mypy import api
         print(api.run(["--strict", "--ignore-missing-imports", "opdracht.py"])[0])
     'pytest': |
