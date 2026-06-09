@@ -2,11 +2,13 @@ name: meesterproef1
 exam: true
 buttons:
     'mypy': |
+        print("Loading mypy... it takes a while..."
         from mypy import api
         print(api.run(["--strict", "--ignore-missing-imports", "opdracht.py"])[0])
     'pytest': |
         import pytest
         pytest.main(['--color=yes'])
+        print()
     'pycodestyle': |
         import pycodestyle
         result = pycodestyle.StyleGuide(
