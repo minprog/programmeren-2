@@ -19,6 +19,7 @@ calculation:
         linked: 4
         restricted: 4
         graphs: 12
+        tt:
 
     herkansing:
         python: 7
@@ -30,12 +31,12 @@ calculation:
         restricted: 4
         graphs: 12
 
-tt:
+meesterproef:
     type: pass
+    required: true
     show_progress: true
     submits:
         meesterproef1: 1
-        meesterproef2: 1
 
 startup:
     type: points

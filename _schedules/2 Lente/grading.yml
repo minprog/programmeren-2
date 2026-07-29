@@ -19,6 +19,7 @@ calculation:
         linked: 4
         restricted: 4
         graphs: 12
+        meesterproef: 0
 
 startup:
     type: points
@@ -109,8 +110,9 @@ graphs:
         police: 2
         adventure-steps: 10
 
-tt:
+meesterproef:
     type: pass
+    required: true
     show_overview: true
     submits:
         meesterproef1: 1
