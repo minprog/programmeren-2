@@ -42,18 +42,18 @@ Hieronder vind je de **deadlines**. Bij dit vak is het niet verplicht om alle op
 
 | Week       | Dinsdag                    | Donderdag                          |
 | ---------- | -------------------------- | ---------------------------------- |
-| 1 (26 okt) | Python                     | Python & 🛠️ Workshop CC            |
-| 2 (2 nov)  | Collections                | Collections & Objects              |
+| 1 (26 okt) | Python                     | Python &                           |
+| 2 (2 nov)  | Collections & Objects      | Collections & 🛠️ Workshop CC       |
 | 3 (9 nov)  | ADT                        | ADT & 🛠️ Workshop Cash             |
 | 4 (16 nov) | Containers                 | Linked                             |
-| 5 (23 nov) | Restricted                 | Restricted & 🛠️ Workshop Profiling |
-| 6 (30 nov) | Graphs                     | Graphs                             |
-| 7 (7 dec)  | Graphs                     | Graphs & 🛠️ Workshop Police        |
-| 8 (14 dec) | Voorbereiding meesterproef | Eindgesprekken                     |
+| 5 (23 nov) | Restricted                 | Restricted & 🛠️ Workshop Police    |
+| 6 (30 nov) | Graphs                     | Graphs & 🛠️ Workshop Profiling     |
+| 7 (7 dec)  | Graphs                     | Graphs                             |
+| 8 (14 dec) | -                          | Eindgesprekken                     |
 
-De **meesterproef** voor parttime studenten is op woensdag 16 december (13:30--16:00, digitaal).
+De **meesterproef** voor parttime studenten is op woensdag 16 december (13:30--16:00).
 
-**Fulltime** --- Doe je tegelijk met dit vak het Programmeerproject? Dan doe je de minor programmeren in fulltime en bieden we een andere indeling van de twee vakken aan. Je doet dan eerst grotendeels programmeren 2, met daartussen de voorbereiding op het project (Finance en Books), en daarna werk je aan het programmeerproject. In dit blok van 8 weken zijn er geen vrije dagen. Het schema ziet er zo uit:
+**Fulltime** --- Doe je tegelijk met dit vak het Programmeerproject? Dan doe je de minor programmeren in fulltime en bieden we een andere indeling van de twee vakken aan. Je doet dan eerst grotendeels programmeren 2, met daartussen de voorbereiding op het project (Finance en Books), en daarna werk je aan het programmeerproject. Het schema ziet er zo uit:
 
 | Week       | Maandag     | Dinsdag             | Woensdag              | Donderdag             | Vrijdag                            |
 | ---------- | ----------- | ------------------- | --------------------- | --------------------- | ---------------------------------- |
@@ -66,7 +66,7 @@ De **meesterproef** voor parttime studenten is op woensdag 16 december (13:30--1
 | 7 (7 dec)  | **project** | **project**         | **project**           | **project**           | **project**                        |
 | 8 (14 dec) | **project** | **project**         | **Hertentamen prog2** | **project**           | **projectpresentatie**             |
 
-De **meesterproef** voor fulltime studenten is op donderdag 26 november (9:00--11:30, digitaal). De meesterproef van woensdag 16 december (13:30--16:00, digitaal) geldt voor fulltime studenten als hertentamen.
+De **meesterproef** voor fulltime studenten is op donderdag 26 november (9:00--11:30). De meesterproef van woensdag 16 december (13:30--16:00) is voor fulltime studenten een hertentamen.
 
 De deadlines blijven hetzelfde als bij het reguliere schema. Dat betekent dat de mogelijkheid blijft bestaan om te wisselen naar het reguliere schema bijvoorbeeld in geval van ziekte. Dit heeft vaak wel de consequentie dat er te weinig tijd overblijft om ook het programmeerproject te volgen in hetzelfde blok en je dat vak zal moeten laten vallen. Het is daarom extra belangrijk voor fulltime studenten om goed contact te houden bij bijvoorbeeld ziekte, zo kunnen we je het beste helpen.
 
