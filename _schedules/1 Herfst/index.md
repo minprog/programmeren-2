@@ -40,16 +40,16 @@ Hieronder vind je de **deadlines**. Bij dit vak is het niet verplicht om alle op
 
 **Parttime** --- Volg je alleen Programmeren 2, zonder het Programmeerproject? Dan ben je in dit blok van 8 weken op dinsdag en donderdag aanwezig. Het schema ziet er zo uit:
 
-| Week       | Dinsdag                    | Donderdag                          |
-| ---------- | -------------------------- | ---------------------------------- |
-| 1 (26 okt) | Python                     | Python &                           |
-| 2 (2 nov)  | Collections & Objects      | Collections & 🛠️ Workshop CC       |
-| 3 (9 nov)  | ADT                        | ADT & 🛠️ Workshop Cash             |
-| 4 (16 nov) | Containers                 | Linked                             |
-| 5 (23 nov) | Restricted                 | Restricted & 🛠️ Workshop Police    |
-| 6 (30 nov) | Graphs                     | Graphs & 🛠️ Workshop Profiling     |
-| 7 (7 dec)  | Graphs                     | Graphs                             |
-| 8 (14 dec) | -                          | Eindgesprekken                     |
+| Week       | Dinsdag                            | Donderdag                          |
+| ---------- | ---------------------------------- | ---------------------------------- |
+| 1 (26 okt) | Python                             | Python                            |
+| 2 (2 nov)  | Collections & 🛠️ Workshop CC       | Collections & Objects              |
+| 3 (9 nov)  | ADT & 🛠️ Workshop Cash             | ADT                                |
+| 4 (16 nov) | Containers                         | Linked                             |
+| 5 (23 nov) | Restricted & 🛠️ Workshop Profiling | Restricted                         |
+| 6 (30 nov) | Graphs & 🛠️ Workshop Police        | Graphs                             |
+| 7 (7 dec)  | Graphs                             | Graphs                             |
+| 8 (14 dec) | -                                  | Eindgesprekken                     |
 
 De **meesterproef** voor parttime studenten is op woensdag 16 december (13:30--16:00).
 
