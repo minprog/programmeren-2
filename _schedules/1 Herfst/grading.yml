@@ -4,7 +4,8 @@ _settings:
 
 calculation:
     eindcijfer:
-        python: 7
+        python: 6
+        python_ster: 1
         collections: 8
         objects: 2
         adt: 6
@@ -22,7 +23,7 @@ startup:
 
 python:
     type: points
-    maximum: 7  # totaal punten hieronder is 7, maar we maximeren op 6
+    maximum: 6  # 14 opdrachten van 0.5 punt, maximaal 6
     show_progress: true
     deadline: 30/10/26 17:00
     submits:
@@ -40,6 +41,14 @@ python:
         join: 0.5
         replace: 0.5
         camelcase: 0.5
+
+python_ster:
+    type: points
+    show_progress: true
+    deadline: 30/10/26 17:00
+    submits:
+        kenteken: 0.5
+        split_real: 0.5
 
 collections:
     type: points

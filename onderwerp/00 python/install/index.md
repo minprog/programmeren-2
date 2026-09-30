@@ -8,8 +8,8 @@ Heb je geen terminal geïnstalleerd? Of werk je op Windows en heb je geen Git Ba
 Je moet een map hebben op je eigen computer waarin je je uitwerkingen voor deze cursus maakt. **Zorg er voor dat de directory automatisch gebackupt wordt**. Doe dit bijvoorbeeld via OneDrive, Google Drive, Surf Drive of iCloud. Maak in deze map meteen een nieuwe map "module1" voor de huidige module.
 </details>
 
-<details markdown="1"><summary markdown="span">Je gebruikt de editor Pulsar.</summary>
- Deze kan je hier downloaden: <https://pulsar-edit.dev>
+<details markdown="1"><summary markdown="span">Je gebruikt de editor Zed.</summary>
+ Deze kan je hier downloaden: <https://zed.dev>
 </details>
 
 <details markdown="1"><summary markdown="span">Je gebruikt `uv` om je Python installatie te beheren.</summary>

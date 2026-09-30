@@ -45,15 +45,15 @@ files:
             Lees de uitleg, vul de TODO's in en RUN DE TESTS met de pytest-knop!
 
             Als voorbeeld hier een typische Python-functie die een lijst van
-            willekeurige waarden (objecten) aanneemt en dan  een nieuwe lijst
+            willekeurige waarden (objecten) aanneemt en dan een nieuwe lijst
             geeft met daarin alleen de unieke waarden uit het origineel (geen
             dubbele meer).
 
             def uniq(lst: list[object]) -> list[object]:
-                new_lst = []
+                new_lst: list[object] = []
                 for element in lst:
                     if element not in new_lst:
-                        new_lst.append(i)
+                        new_lst.append(element)
                 return new_lst
 
             """
@@ -104,16 +104,18 @@ files:
                 Als het getal deelbaar is door 5 dan printen we 'ping!'.
 
                 Syntax:
-                    range(n) genereert een reeks getallen van 0 tot n
-                    range(1,n) genereert een reeks getallen van 1 tot n
-                    range(1,n,2) genereert een reeks getallen van 1 tot n, in stappen van 2
+                    range(n) genereert de getallen 0 t/m n - 1
+                    range(1, n) genereert de getallen 1 t/m n - 1
+                    range(1, n + 1) genereert de getallen 1 t/m n
+                    range(1, n, 2) genereert 1 t/m n - 1, in stappen van 2
 
-                    for i in range(1, n):
+                    for i in range(1, n + 1):  # n doet zelf ook mee
                         if i % 2 == 0:
                             print("even")
                         else:
                             print("odd")
 
+                Tel van 1 t/m n, dus n zelf doet ook mee!
                 Voor n = 5 moet de output zijn:
                     odd
                     even
@@ -151,6 +153,8 @@ files:
                     # haal de break weg en voeg code toe:
                     # om het getal n aan te passen volgens de definitie van Collatz
                     break
+                # de reeks eindigt bij 1, dat getal moet ook geprint worden
+                print(n)
 
 
             # --- 5. Strings -------------------------------------------------------------

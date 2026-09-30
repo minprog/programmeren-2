@@ -6,7 +6,7 @@ Schrijf een programma `camelcase.py` dat camelCase convert naar snake_case en an
     openFile
     open_file
     
-    $ python3 camelCase.py
+    $ python3 camelcase.py
     open_file
     openFile
 

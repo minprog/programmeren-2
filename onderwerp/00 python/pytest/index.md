@@ -17,7 +17,7 @@ Omdat de testcode in een ander bestand staat (bijvoorbeeld `test_add.py`), zul j
 
 De regel hierboven lees je als: uit de module add (`add.py`) importeer de functie `add()`. Na deze import regel is de functie `add()` beschikbaar.
 
-Vervolgens kan je de tests runnen met `pytest test_add.py`. Een mogelijk uitkomst is:
+Vervolgens kan je de tests runnen met `pytest test_add.py`. Een mogelijke uitkomst is:
 
     =================== test session starts ====================
     platform darwin -- Python 3.12.1, pytest-7.4.0, pluggy-1.2.0
@@ -34,7 +34,7 @@ Dit betekent dat alle tests, in dit geval één, zijn geslaagd. Natuurlijk kan h
 
 Tot nu toe heb je waarschijnlijk veel code handmatig getest. Door bijvoorbeeld een programma of een functie uit te voeren met bepaalde input en te kijken wat de output is. Op zich geheel logisch, want terwijl je aan het programmeren bent weet je wat de functie moet doen en kan je makkelijk even nagaan of die functie het ook daadwerkelijk doet. Dit werkt, totdat programma's groter worden, of misschien ga je samenwerken, of schrijf je code binnen een groter bestaand project. Al heel snel wordt het onmogelijk om de code nog met de hand te testen. Daarom beginnen we direct met het schrijven van tests binnen dit vak. Maar wat zijn nou goede tests?
 
-Alles testen is vaak ondoenlijk. Het is te veel werk om ieder mogelijke input te contoleren. Dus is het taak om te kiezen voor representatieve en interessante gevallen. Dat kiezen, dat vraagt wat ervaring en een kritische houding. Stel we schrijven een functie om te kijken of een getal deelbaar is door een ander getal:
+Alles testen is vaak ondoenlijk. Het is te veel werk om iedere mogelijke input te controleren. Dus is het jouw taak om te kiezen voor representatieve en interessante gevallen. Dat kiezen, dat vraagt wat ervaring en een kritische houding. Stel we schrijven een functie om te kijken of een getal deelbaar is door een ander getal:
 
     is_deelbaar(noemer: float, deler: float) -> bool:
 
@@ -50,4 +50,4 @@ Ook zijn er zogenaamde "edge cases" (randgevallen). Interessante gevallen, bijvo
 
 Voor ieder van de hierboven genoemde gevallen is een eigen test, een eigen testfunctie, op zijn plaats. Je ziet al dat de gekozen tests hierboven sterk afhangen van het soort probleem dat de functie oplost. Om goede tests te kiezen moet je dus ook goed begrijpen wat je gaat testen. Om die reden is het slim om gelijk tests te schrijven, terwijl je nog met je neus in de code zit.
 
-In een latere module gaan we dieper in op het schrijven van tests. Tot die tijd is het voor de opdrachten voldoende om alleen te testen met "normale" input en output.
+In een latere module gaan we dieper in op het schrijven van tests. Tot die tijd geldt: test bij de opdrachten zowel "normale" input en output als de randgevallen die in de opdracht genoemd worden.

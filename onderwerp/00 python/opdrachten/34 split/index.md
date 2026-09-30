@@ -27,4 +27,4 @@ Implementeer de volgende functie in een bestand genaamd `split.py`:
 Schrijf in een apart bestand `test_split.py` minimaal zes tests (zes aparte test functies) voor de functie `split`. Dit is een functie met veel mogelijke combinaties van input. Kies de zes tests als volgt:
 
 * De tests voeren gezamenlijk zoveel mogelijk code uit, het zogenaamde "test coverage". Praktisch iedere regel code wordt uitgevoerd door de tests.
-* Kies voor belangrijke of wellicht verassende edge cases. Hier hebben tests ook een documentatie functie, je legt vast wat een functie moet doen met een eigennaardige input.
+* Kies voor belangrijke of wellicht verrassende edge cases. Hier hebben tests ook een documentatie functie, je legt vast wat een functie moet doen met een eigenaardige input.
