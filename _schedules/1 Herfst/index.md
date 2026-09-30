@@ -40,14 +40,18 @@ Hieronder vind je de **deadlines**. Bij dit vak is het niet verplicht om alle op
 
 De **meesterproef** voor parttime studenten is op woensdag 16 december (13:30--16:00, digitaal).
 
-**Fulltime** --- Doe je tegelijk met dit vak het Programmeerproject? Dan doe je de minor programmeren in fulltime en bieden we een andere indeling van de twee vakken aan. Je doet dan eerst programmeren 2 in vier weken en daarna het programmeerproject in vier weken. Voor programmeren 2 ziet het schema er dan zo uit:
+**Fulltime** --- Doe je tegelijk met dit vak het Programmeerproject? Dan doe je de minor programmeren in fulltime en bieden we een andere indeling van de twee vakken aan. Je doet dan eerst grotendeels programmeren 2, met daartussen de voorbereiding op het project (Finance en Books), en daarna werk je aan het programmeerproject. In dit blok van 8 weken zijn er geen vrije dagen. Het schema ziet er zo uit:
 
-| Week | Maandag    | Dinsdag    | Woensdag           | Donderdag       | Vrijdag     |
-| ---- | ---------- | ---------- | ------------------ | --------------- | ----------- |
-| 1    | Python     | Python     | Python/Collections | Collections     | Collections |
-| 2    | Objects    | ADT        | ADT                | Containers      | Containers  |
-| 3    | Linked     | Linked     | Restricted         | Restricted      | Restricted  |
-| 4    | Graphs     | Graphs     | Graphs             | Graphs          | Graphs      |
+| Week       | Maandag     | Dinsdag             | Woensdag              | Donderdag             | Vrijdag                            |
+| ---------- | ----------- | ------------------- | --------------------- | --------------------- | ---------------------------------- |
+| 1 (26 okt) | Python      | Python              | Collections           | Collections           | Objects & 🛠️ Workshop CC           |
+| 2 (2 nov)  | ADT         | ADT                 | **Finance (project)** | **Finance (project)** | Containers & 🛠️ Workshop Cash      |
+| 3 (9 nov)  | Containers  | Linked              | Linked                | Restricted            | Restricted & 🛠️ Workshop Profiling |
+| 4 (16 nov) | Restricted  | **Books (project)** | **Books (project)**   | **Books (project)**   | Graphs & 🛠️ Workshop Police        |
+| 5 (23 nov) | Graphs      | Graphs              | Graphs                | **Meesterproef!**     | **project**                        |
+| 6 (30 nov) | **project** | **project**         | **project**           | **project**           | **project**                        |
+| 7 (7 dec)  | **project** | **project**         | **project**           | **project**           | **project**                        |
+| 8 (14 dec) | **project** | **project**         | **Hertentamen prog2** | **project**           | **projectpresentatie**             |
 
 De **meesterproef** voor fulltime studenten is op donderdag 26 november (9:00--11:30, digitaal). De meesterproef van woensdag 16 december (13:30--16:00, digitaal) geldt voor fulltime studenten als hertentamen.
 
