@@ -1,6 +1,8 @@
 # Politie
 
-De politie is een onderzoek gestart naar een potentieel crimineel netwerk. Daarbij is in kaart gebracht welke personen contact onderhouden met elkaar via e-mail, telefoon en persoonlijke ontmoetingen. Aan jou de taak om dit netwerk te analyseren en ervoor te zorgen dat de politie hun aandacht richt op de juiste verdachten. Jij onderzoekt wie de sleutelpersonen zijn in het netwerk, welke groepen er bestaan en hoe informatie of invloed zich door dit netwerk verspreidt.
+Afgelopen zondagnacht is uit een museum het schilderij *De Gouden Kater* gestolen. Er zijn geen sporen van braak, geen getuigen en geen camerabeelden. Wat de politie wel heeft is een lijst met contacten tussen verdachten: wie mailde, belde of sprak met wie. Alle gegevens liggen op tafel, maar niemand heeft ze nog kunnen ordenen.
+
+Aan jou de taak om dat te doen. Jij zoekt uit wie de sleutelpersonen zijn, welke groepen er bestaan en hoe informatie door dit netwerk reist. Onderweg verzamel je aanwijzingen. Wie zit er achter de diefstal?
 
 Om dit te kunnen doen ga je het netwerk modelleren als een graaf. Dit is een verzameling van nodes (personen) en edges (contacten tussen personen). Met behulp van dit model kun je vervolgens analyseren wie met wie in verbinding staat, hoe informatie zich kan verspreiden, en welke personen of groepen een centrale rol spelen binnen het netwerk.
 
@@ -121,7 +123,7 @@ Bij deze opdracht zijn er twee data bestanden:
 * small_contacts.csv
 * contacts.csv
 
-Deze bestanden download je [hier](https://github.com/minprog/programmeren-2/raw/refs/heads/2025/onderwerp/70%20oop/police/contacts.zip). Kijk even goed in de bestanden om te zien hoe het in elkaar steekt.
+Deze bestanden download je [hier](https://github.com/minprog/programmeren-2/raw/refs/heads/2026/onderwerp/70%20oop/police/contacts.zip). Kijk even goed in de bestanden om te zien hoe het in elkaar steekt.
 
 Implementeer nu de methode `load_from_file`:
 
@@ -154,6 +156,8 @@ Eenmaal geïmplementeerd zou het volgende moeten werken:
 
 ### Wie heeft de meeste contacten en wie zijn die contacten?
 
+*Aanwijzing 1: een meesterbrein houdt de touwtjes in handen, en heeft dus contact met bijna iedereen. Wie is dat, en met wie praat diegene?*
+
 Voeg de volgende twee methodes toe aan Graph om je te helpen bij deze vraag.
 
     def get_most_contacts(self) -> Node:
@@ -172,12 +176,7 @@ Voeg de volgende twee methodes toe aan Graph om je te helpen bij deze vraag.
 
 ### Is er indirect contact?
 
-Hebben de volgende verdachten contact gehad?
-
-* Luca en Akira
-* Roel en Ivan
-* Marco en Peter
-* Hugo en Erik
+*Aanwijzing 2: slimme criminelen laten zich niet met elkaar zien. Toch moet informatie ergens doorheen zijn gegaan. Wie zijn de tussenpersonen?*
 
 Implementeer hiervoor de methode:
 
@@ -187,6 +186,8 @@ Implementeer hiervoor de methode:
         """
 
 ### Welke criminele groepen zijn er?
+
+*Aanwijzing 3: niet iedereen op de lijst is betrokken. Welke groepen horen bij de bende, en welke zijn alleen toevallig in beeld gekomen?*
 
 Een groep is een afgesloten stuk van de graaf. Zo kent de volgende graaf twee groepen:
 
@@ -206,6 +207,8 @@ Implementeer hiervoor:
 
 ### Tot welke driehoeken hoort Luca?
 
+*Aanwijzing 4: de kern van een bende is meestal een kleine kring die elkaar blind vertrouwt. Wie zit er bij Luca in de binnenste kring?*
+
 Een driehoek is een groep van drie personen die allemaal contact met elkaar hebben. Hieronder bijvoorbeeld zijn er twee driehoeken (Alice, Bob, Diana) en (Bob, Diana, Charlie).
 
        Alice
@@ -223,3 +226,27 @@ Implementeer:
         Returns all groups consisting of three connected
         persons of which name is a part.
         """
+
+## Stap 4: Zaak gesloten
+
+Je hebt nu alle aanwijzingen. Tijd om ze te combineren en de dader aan te wijzen. Implementeer:
+
+    def find_culprit(self) -> Node:
+        """
+        Returns the person who stole the painting.
+        """
+        pass
+
+De dader is als volgt te herkennen:
+
+* Het **brein** achter de diefstal is de persoon met de meeste contacten.
+* De dader heeft **geen direct contact** met het brein, maar zit wel in **dezelfde groep**.
+* Het brein laat alles lopen via de **binnenste kring**: de personen die met het brein in een **driehoek** zitten.
+* Van alle personen die aan bovenstaande eisen voldoen, is de dader degene met de meeste directe contacten in die binnenste kring.
+
+Gebruik voor de oplossing de methodes die je eerder hebt gemaakt: `get_most_contacts`, `get_direct_contacts`, `get_indirect_contacts`, `get_groups` en `get_triangles`. Roep je `find_culprit` aan op de graaf van `contacts.csv`, dan krijg je de dader terug.
+
+<details markdown="1"><summary markdown="span">Onthul de dader (spoilers!)</summary>
+
+Alleen kijken als je de code hebt ingeleverd! Het brein is **Luca**, met 14 contacten de spil van het netwerk. De dader is **Wiebe**: geen direct contact met Luca, maar wel contact met vijf personen uit Luca's binnenste kring (Alejandro, Jelle, Nikolai, Peter en Rick). Rik, Roger, Sien, Kim, Marit, Jonathan en Sjoerd zitten in kleine losse groepjes en hebben er niets mee te maken.
+</details>
