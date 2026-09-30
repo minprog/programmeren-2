@@ -1,6 +1,6 @@
 # Programmeren 2
 
-## Studiewijzer<br><small>Herfst 2025</small>
+## Studiewijzer<br><small>Herfst 2026</small>
 
 Wat ga je doen?
 
@@ -16,7 +16,7 @@ Bij dit vak werk je aan verschillende soorten **opdrachten**. De meeste opdracht
 
 ## Docenten en assistenten
 
-De docenten bij dit vak zijn Jelle van Assema en Martijn Stegeman. Zij geven het vak vorm en verzorgen de organisatie. Je kunt ze bereiken via e-mail op <help@mprog.nl>. Daarnaast zijn er veel student-assistenten, die de cursus goed kennen omdat ze 'm zelf gedaan hebben, en jou gaan helpen op de momenten dat het nodig is.
+De docenten bij dit vak zijn Jelle van Assema en Martijn Stegeman. Zij geven het vak vorm en verzorgen de organisatie. Je kunt ze bereiken via e-mail op <help@mprog.nl>.
 
 ## Ingangseisen
 
@@ -26,26 +26,30 @@ Je moet Programmeren 1 volledig hebben gehaald om dit vak te mogen volgen.
 
 Hieronder vind je de **deadlines**. Bij dit vak is het niet verplicht om alle opdrachten af te maken. Wel zijn de deadlines hard. Na het verstrijken van de deadline is er dus géén mogelijkheid meer om in te leveren.
 
-| Week | Module              | Punten | Ster |        Deadline |                  |
-| ---- | ------------------- | :----: | :--: | --------------: | ---------------- |
-| 1    | Python              |   6    |  1   | vr 31 okt 17:00 |                  |
-| 2    | Collections         |   6    |  2   |  vr 7 nov 17:00 |                  |
-| 3    | Objects             |   2    |  -   | vr 14 nov 17:00 |                  |
-| 3    | Abstract data types |   4    |  2   | vr 14 nov 17:00 | zelfde deadline! |
-| 4    | Container classes   |   4    |  1   | vr 21 nov 17:00 |                  |
-| 4+5  | Linked structures   |   4    |  -   | vr 28 nov 17:00 | graag eerder!    |
-| 5    | Restricted lists    |   4    |  -   | vr 28 nov 17:00 |                  |
-| 6+7  | Object graphs       |   12   |  -   | vr 12 dec 17:00 |                  |
-|      | **Totaal punten:**  |   42   |  6   |                 |                  |
+| Week | Module              | Punten | Ster |        Deadline |                              |
+| ---- | ------------------- | :----: | :--: | --------------: | ---------------------------- |
+| 1    | Python              |   6    |  1   | vr 30 okt 17:00 |                              |
+| 2    | Collections         |   6    |  2   |  vr 6 nov 17:00 |                              |
+| 3    | Objects             |   2    |  -   | vr 13 nov 17:00 |                              |
+| 3    | Abstract data types |   4    |  2   | vr 13 nov 17:00 | zelfde deadline!             |
+| 4    | Container classes   |   4    |  1   | vr 20 nov 17:00 |                              |
+| 4    | Linked structures   |   4    |  -   | vr 20 nov 17:00 | zelfde deadline!             |
+| 5    | Restricted lists    |   4    |  -   | vr 27 nov 17:00 |                              |
+| 6+7  | Object graphs       |   12   |  -   | vr 11 dec 17:00 |                              |
+|      | **Totaal punten:**  |   42   |  6   |                 |                              |
+
+De **meesterproef** voor parttime studenten is op woensdag 16 december (13:30--16:00, digitaal).
 
 **Fulltime** --- Doe je tegelijk met dit vak het Programmeerproject? Dan doe je de minor programmeren in fulltime en bieden we een andere indeling van de twee vakken aan. Je doet dan eerst programmeren 2 in vier weken en daarna het programmeerproject in vier weken. Voor programmeren 2 ziet het schema er dan zo uit:
 
-| Week | Maandag | Dinsdag | Woensdag           | Donderdag   | Vrijdag     |
-| ---- | ------- | ------- | ------------------ | ----------- | ----------- |
-| 1    | Python  | Python  | Python/Collections | Collections | Collections |
-| 2    | Objects | ADT     | ADT                | Containers  | Containers  |
-| 3    | Linked  | Linked  | Restricted         | Restricted  | Restricted  |
-| 4    | Graphs  | Graphs  | Graphs             | Graphs      | Graphs      |
+| Week | Maandag    | Dinsdag    | Woensdag           | Donderdag       | Vrijdag     |
+| ---- | ---------- | ---------- | ------------------ | --------------- | ----------- |
+| 1    | Python     | Python     | Python/Collections | Collections     | Collections |
+| 2    | Objects    | ADT        | ADT                | Containers      | Containers  |
+| 3    | Linked     | Linked     | Restricted         | Restricted      | Restricted  |
+| 4    | Graphs     | Graphs     | Graphs             | Graphs          | Graphs      |
+
+De **meesterproef** voor fulltime studenten is op donderdag 26 november (9:00--11:30, digitaal). De meesterproef van woensdag 16 december (13:30--16:00, digitaal) geldt voor fulltime studenten als hertentamen.
 
 De deadlines blijven hetzelfde als bij het reguliere schema. Dat betekent dat de mogelijkheid blijft bestaan om te wisselen naar het reguliere schema bijvoorbeeld in geval van ziekte. Dit heeft vaak wel de consequentie dat er te weinig tijd overblijft om ook het programmeerproject te volgen in hetzelfde blok en je dat vak zal moeten laten vallen. Het is daarom extra belangrijk voor fulltime studenten om goed contact te houden bij bijvoorbeeld ziekte, zo kunnen we je het beste helpen.
 
@@ -71,7 +75,7 @@ Het moet goed mogelijk zijn een groot deel van de opdrachten helemaal af te make
 
 ## Aanwezigheid
 
-Jouw aanwezigheid wordt verwacht bij de bijeenkomsten die in het rooster vermeld staan (voor fulltime-studenten is dit elke werkdag 10-16 uur). De aanwezigheid wordt bijgehouden om een goed beeld te vormen van je regelmatige inzet voor het vak.
+Jouw aanwezigheid wordt verwacht bij de bijeenkomsten die in het rooster vermeld staan. De aanwezigheid wordt bijgehouden om een goed beeld te vormen van je regelmatige inzet voor het vak.
 
 Mocht je onverhoopt een keer niet kunnen, dan stuur je even een mailtje. Dit hoeft zeker niet via de studieadviseur, je mag het gewoon direct bij ons melden.
 
@@ -106,9 +110,7 @@ Tijdens dit vak zul je vaak de hulp inroepen van de assistenten en medestudenten
 - hulp op locatie (lokaal L0.09)
 - je weet echt niet waar te beginnen of een onvindbare bug, of alles loopt vast
 - moeite met verzinnen oplossing
-- dagelijks beschikbaar na 10 uur, zet jezelf in de rij via het menu:
-
-    ![](../hands-menu.png)
+- beschikbaar tijdens de ingeroosterde uren
 
 **E-mail:** contact met de docenten.
 

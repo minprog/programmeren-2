@@ -1,6 +1,6 @@
 _settings:
-    start_date: 27/10/25
-    end_date: 19/12/25
+    start_date: 26/10/26
+    end_date: 18/12/26
 
 # let op: deze enablen als we "police" schrappen
 # grades:
@@ -21,24 +21,6 @@ calculation:
         graphs: 12
         meesterproef: 0
 
-    herkansing:
-        python: 7
-        collections: 8
-        objects: 2
-        adt: 6
-        containers: 5
-        linked: 4
-        restricted: 4
-        graphs: 12
-        meesterproef: 0
-
-meesterproef:
-    type: pass
-    required: true
-    show_progress: true
-    submits:
-        meesterproef1: 1
-
 startup:
     type: points
     show_overview: true
@@ -47,9 +29,9 @@ startup:
 
 python:
     type: points
-    maximum: 6  # totaal punten hieronder is 7, maar we maximeren op 6
+    maximum: 7  # totaal punten hieronder is 7, maar we maximeren op 6
     show_progress: true
-    deadline: 31/10/25 17:00
+    deadline: 30/10/26 17:00
     submits:
         weken: 0.5
         isalpha: 0.5
@@ -66,18 +48,10 @@ python:
         replace: 0.5
         camelcase: 0.5
 
-python_ster:  # deze tellen apart mee, bovenop de python-punten
-    type: points
-    show_progress: true
-    deadline: 31/10/25 17:00
-    submits:
-        kenteken: 0.5
-        split_real: 0.5
-
 collections:
     type: points
     show_progress: true
-    deadline: 7/11/25 17:00
+    deadline: 06/11/26 17:00
     submits:
         sets: 1
         dicts: 1
@@ -89,7 +63,7 @@ collections:
 objects:
     type: points
     show_progress: true
-    deadline: 14/11/25 17:00
+    deadline: 13/11/26 17:00
     submits:
         queue: 1
         jar: 1
@@ -97,7 +71,7 @@ objects:
 adt:
     type: points
     show_progress: true
-    deadline: 14/11/25 17:00
+    deadline: 13/11/26 17:00
     submits:
         cards: 2
         card_implementations: 2
@@ -105,8 +79,8 @@ adt:
 
 containers:
     type: points
-    show_progress: true
-    deadline: 21/11/25 17:00
+    show_overview: true
+    deadline: 20/11/26 17:00
     submits:
         war: 2
         dict_implementations: 2
@@ -114,24 +88,31 @@ containers:
 
 linked:
     type: points
-    show_progress: true
-    deadline: 28/11/25 17:00
+    show_overview: true
+    deadline: 20/11/26 17:00
     submits:
         list_implementations: 2
         profiling: 2
 
 restricted:
     type: points
-    show_progress: true
-    deadline: 28/11/25 17:00
+    show_overview: true
+    deadline: 27/11/26 17:00
     submits:
         palindrome: 2
         priority_queue_adt: 2
 
 graphs:
     type: points
-    show_progress: true
-    deadline: 12/12/25 17:00
+    show_overview: true
+    deadline: 11/12/26 17:00
     submits:
         police: 2
         adventure-steps: 10
+
+meesterproef:
+    type: pass
+    required: true
+    show_overview: true
+    submits:
+        meesterproef1: 1
