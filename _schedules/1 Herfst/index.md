@@ -38,6 +38,19 @@ Hieronder vind je de **deadlines**. Bij dit vak is het niet verplicht om alle op
 | 6+7  | Object graphs       |   12   |  -   | vr 11 dec 17:00 |                              |
 |      | **Totaal punten:**  |   42   |  6   |                 |                              |
 
+**Parttime** --- Volg je alleen Programmeren 2, zonder het Programmeerproject? Dan ben je in dit blok van 8 weken op dinsdag en donderdag aanwezig. Het schema ziet er zo uit:
+
+| Week       | Dinsdag                    | Donderdag                          |
+| ---------- | -------------------------- | ---------------------------------- |
+| 1 (26 okt) | Python                     | Python & 🛠️ Workshop CC            |
+| 2 (2 nov)  | Collections                | Collections & Objects              |
+| 3 (9 nov)  | ADT                        | ADT & 🛠️ Workshop Cash             |
+| 4 (16 nov) | Containers                 | Linked                             |
+| 5 (23 nov) | Restricted                 | Restricted & 🛠️ Workshop Profiling |
+| 6 (30 nov) | Graphs                     | Graphs                             |
+| 7 (7 dec)  | Graphs                     | Graphs & 🛠️ Workshop Police        |
+| 8 (14 dec) | Voorbereiding meesterproef | Eindgesprekken                     |
+
 De **meesterproef** voor parttime studenten is op woensdag 16 december (13:30--16:00, digitaal).
 
 **Fulltime** --- Doe je tegelijk met dit vak het Programmeerproject? Dan doe je de minor programmeren in fulltime en bieden we een andere indeling van de twee vakken aan. Je doet dan eerst grotendeels programmeren 2, met daartussen de voorbereiding op het project (Finance en Books), en daarna werk je aan het programmeerproject. In dit blok van 8 weken zijn er geen vrije dagen. Het schema ziet er zo uit:
