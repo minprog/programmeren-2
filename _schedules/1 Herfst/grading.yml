@@ -2,13 +2,6 @@ _settings:
     start_date: 26/10/26
     end_date: 18/12/26
 
-# let op: deze enablen als we "police" schrappen
-# grades:
-#     adventure-steps:
-#         automatic:
-#             # max points to give here is 9
-#             check_points: (correctness_score * 9).round
-
 calculation:
     eindcijfer:
         python: 7
@@ -107,8 +100,8 @@ graphs:
     show_overview: true
     deadline: 11/12/26 17:00
     submits:
-        police: 2
-        adventure-steps: 10
+        police: 3
+        adventure-steps: 9
 
 meesterproef:
     type: pass

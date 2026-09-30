@@ -141,7 +141,7 @@ grades:
             check_points: integer
             quality_points: integer
         automatic:
-            check_points: (correctness_score * 7).round
+            check_points: (correctness_score * 6).round
         calculation: check_points + quality_points
 
     # Meesterproef
