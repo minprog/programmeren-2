@@ -14,7 +14,7 @@ Adventure telt pas mee nadat je de opdracht hebt laten valideren in het eindgesp
 Basis-Adventure
 : tot 6 punten, afhankelijk van hoe ver je komt met de implementatie - het percentage geslaagde checks bepaalt het aantal punten
 
-Daarnaast kun je nog 1 tot 4 extra punten ontvangen voor een uitwerking waarin de ideeën van het vak verwerkt zijn:
+Daarnaast kun je nog 1, 2 of 4 extra punten ontvangen voor een uitwerking waarin de ideeën van het vak verwerkt zijn:
 
 Docstrings, type hints
 : 1 punt voor degelijke uitvoering waar basis op orde is: volledige docstrings, type hints die goedgekeurd worden volgens `mypy --strict`

@@ -28,7 +28,7 @@ Goedwerkend betekent altijd dat het ook "goed" moet zijn. Soms controleren we da
 
 ## Workshop
 
-Bij de workshop leer je een dieper begrip van de complexiteit van programmacode op te doen, en hoe je deze kunt verbeteren.
+Bij de workshop leer je een dieper begrip van de complexiteit van programmacode op te doen, en hoe je deze kunt verbeteren. In de workshop-opdracht moeten alle tests slagen en moet de cyclomatic complexity 3 of lager zijn.
 
 Cyclomatic Complexity
 : 2 punten voor aanwezigheid bij de workshop en het grotendeels afmaken van de opdracht. De docent vinkt dit handmatig af; de automatische checks tellen niet mee.

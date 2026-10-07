@@ -114,7 +114,7 @@ In de basismodules leer je een specifieke stijl van programmeren in Python, met 
 | Container classes   |   4    |  1   |
 | **Totaal:**         |   22   |  2   |
 
-Twee opdrachten zijn gemarkeerd met een `*` (ster). Die zijn bedoeld als extra uitdaging voor diegenen die daarnaar op zoek zijn. Als je ze niet maakt mis je een héél bescheiden aantal punten.
+Drie opdrachten zijn gemarkeerd met een `*` (ster). Die zijn bedoeld als extra uitdaging voor diegenen die daarnaar op zoek zijn. Als je ze niet maakt mis je een héél bescheiden aantal punten.
 
 ### Meesterproef
 
