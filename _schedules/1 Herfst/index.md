@@ -74,7 +74,7 @@ De deadlines blijven hetzelfde als bij het reguliere schema. Dat betekent dat de
 </div>
 </div>
 
-## Opdrachten en aftekenen
+## Deadlines
 
 Hieronder vind je de **deadlines**. Bij dit vak is het niet verplicht om alle opdrachten af te maken. Wel zijn de deadlines hard. Na het verstrijken van de deadline is er dus géén mogelijkheid meer om in te leveren.
 
@@ -91,8 +91,6 @@ Hieronder vind je de **deadlines**. Bij dit vak is het niet verplicht om alle op
 |      | **Totaal punten:**  |   38   |  2   |                 |                              |
 
 Daarnaast zijn er workshops (8 punten). Daarvoor is geen deadline: je krijgt de punten voor aanwezigheid.
-
-<hr>
 
 Bij verschillende modules zijn er opdrachten gemarkeerd met een `*`. Dit zijn **steropdrachten**, bedoeld als extra uitdaging en dus ook voor diegenen die daarnaar op zoek zijn. Als je ze niet maakt mis je slechts een bescheiden aantal punten.
 
