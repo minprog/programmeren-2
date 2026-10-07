@@ -22,6 +22,55 @@ De docenten bij dit vak zijn Jelle van Assema en Martijn Stegeman. Zij geven het
 
 Je moet Programmeren 1 volledig hebben gehaald om dit vak te mogen volgen.
 
+## Kalender
+
+<div class="tabs" markdown="1">
+<div class="tab-list" role="tablist" aria-label="Rooster">
+<button type="button" role="tab" id="tab-parttime" aria-controls="panel-parttime" data-tab="parttime">Parttime</button>
+<button type="button" role="tab" id="tab-fulltime" aria-controls="panel-fulltime" data-tab="fulltime">Fulltime</button>
+</div>
+
+<div role="tabpanel" id="panel-parttime" aria-labelledby="tab-parttime" markdown="1">
+
+Volg je alleen Programmeren 2, zonder het Programmeerproject? Dan ben je in dit blok van 8 weken op dinsdag en donderdag aanwezig. Het schema ziet er zo uit:
+
+| Week       | Dinsdag                            | Donderdag                          |
+| ---------- | ---------------------------------- | ---------------------------------- |
+| 1 (26 okt) | Python                             | Python                            |
+| 2 (2 nov)  | Collections & 🛠️ Workshop CC       | Collections & Objects              |
+| 3 (9 nov)  | ADT & 🛠️ Workshop Cash             | ADT                                |
+| 4 (16 nov) | Containers                         | Linked                             |
+| 5 (23 nov) | Restricted & 🛠️ Workshop Profiling | Restricted                         |
+| 6 (30 nov) | Graphs & 🛠️ Workshop Police        | Graphs                             |
+| 7 (7 dec)  | Graphs                             | Graphs                             |
+| 8 (14 dec) | -                                  | Eindgesprekken                     |
+
+De **meesterproef** voor parttime-studenten is op woensdag 16 december (13:30--16:00). Dit is de tweede meesterproef.
+
+</div>
+
+<div role="tabpanel" id="panel-fulltime" aria-labelledby="tab-fulltime" markdown="1">
+
+Doe je tegelijk met dit vak het Programmeerproject? Dan doe je de minor programmeren in fulltime en bieden we een andere indeling van de twee vakken aan. Je doet dan eerst grotendeels programmeren 2, met daartussen de voorbereiding op het project (Finance en Books), en daarna werk je aan het programmeerproject. Het schema ziet er zo uit:
+
+| Week       | Maandag     | Dinsdag             | Woensdag              | Donderdag             | Vrijdag                            |
+| ---------- | ----------- | ------------------- | --------------------- | --------------------- | ---------------------------------- |
+| 1 (26 okt) | Python      | Python              | Collections           | Collections           | Objects & 🛠️ Workshop CC           |
+| 2 (2 nov)  | ADT         | ADT                 | **Finance (project)** | **Finance (project)** | Containers & 🛠️ Workshop Cash      |
+| 3 (9 nov)  | Containers  | Linked              | Linked                | Restricted            | Restricted & 🛠️ Workshop Profiling |
+| 4 (16 nov) | Restricted  | **Books (project)** | **Books (project)**   | **Books (project)**   | Graphs & 🛠️ Workshop Police        |
+| 5 (23 nov) | Graphs      | Graphs              | Graphs                | **Meesterproef!**     | **project**                        |
+| 6 (30 nov) | **project** | **project**         | **project**           | **project**           | **project**                        |
+| 7 (7 dec)  | **project** | **project**         | **project**           | **project**           | **project**                        |
+| 8 (14 dec) | **project** | **project**         | **Herkansing prog2** | **project**           | **projectpresentatie**             |
+
+De **meesterproef** voor fulltime-studenten is op donderdag 26 november (9:00--11:30). Dit is de eerste meesterproef. De meesterproef van woensdag 16 december (13:30--16:00) is voor fulltime-studenten alleen als herkansing bedoeld, zie [Eindcijfer](#eindcijfer).
+
+De deadlines blijven hetzelfde als bij het reguliere schema. Dat betekent dat de mogelijkheid blijft bestaan om te wisselen naar het reguliere schema bijvoorbeeld in geval van ziekte. Dit heeft vaak wel de consequentie dat er te weinig tijd overblijft om ook het programmeerproject te volgen in hetzelfde blok en je dat vak zal moeten laten vallen. Het is daarom extra belangrijk voor fulltime-studenten om goed contact te houden bij bijvoorbeeld ziekte, zo kunnen we je het beste helpen.
+
+</div>
+</div>
+
 ## Opdrachten en aftekenen
 
 Hieronder vind je de **deadlines**. Bij dit vak is het niet verplicht om alle opdrachten af te maken. Wel zijn de deadlines hard. Na het verstrijken van de deadline is er dus géén mogelijkheid meer om in te leveren.
@@ -39,38 +88,6 @@ Hieronder vind je de **deadlines**. Bij dit vak is het niet verplicht om alle op
 |      | **Totaal punten:**  |   38   |  2   |                 |                              |
 
 Daarnaast zijn er workshops (8 punten). Daarvoor is geen deadline: je krijgt de punten voor aanwezigheid.
-
-**Parttime** --- Volg je alleen Programmeren 2, zonder het Programmeerproject? Dan ben je in dit blok van 8 weken op dinsdag en donderdag aanwezig. Het schema ziet er zo uit:
-
-| Week       | Dinsdag                            | Donderdag                          |
-| ---------- | ---------------------------------- | ---------------------------------- |
-| 1 (26 okt) | Python                             | Python                            |
-| 2 (2 nov)  | Collections & 🛠️ Workshop CC       | Collections & Objects              |
-| 3 (9 nov)  | ADT & 🛠️ Workshop Cash             | ADT                                |
-| 4 (16 nov) | Containers                         | Linked                             |
-| 5 (23 nov) | Restricted & 🛠️ Workshop Profiling | Restricted                         |
-| 6 (30 nov) | Graphs & 🛠️ Workshop Police        | Graphs                             |
-| 7 (7 dec)  | Graphs                             | Graphs                             |
-| 8 (14 dec) | -                                  | Eindgesprekken                     |
-
-De **meesterproef** voor parttime-studenten is op woensdag 16 december (13:30--16:00). Dit is de tweede meesterproef.
-
-**Fulltime** --- Doe je tegelijk met dit vak het Programmeerproject? Dan doe je de minor programmeren in fulltime en bieden we een andere indeling van de twee vakken aan. Je doet dan eerst grotendeels programmeren 2, met daartussen de voorbereiding op het project (Finance en Books), en daarna werk je aan het programmeerproject. Het schema ziet er zo uit:
-
-| Week       | Maandag     | Dinsdag             | Woensdag              | Donderdag             | Vrijdag                            |
-| ---------- | ----------- | ------------------- | --------------------- | --------------------- | ---------------------------------- |
-| 1 (26 okt) | Python      | Python              | Collections           | Collections           | Objects & 🛠️ Workshop CC           |
-| 2 (2 nov)  | ADT         | ADT                 | **Finance (project)** | **Finance (project)** | Containers & 🛠️ Workshop Cash      |
-| 3 (9 nov)  | Containers  | Linked              | Linked                | Restricted            | Restricted & 🛠️ Workshop Profiling |
-| 4 (16 nov) | Restricted  | **Books (project)** | **Books (project)**   | **Books (project)**   | Graphs & 🛠️ Workshop Police        |
-| 5 (23 nov) | Graphs      | Graphs              | Graphs                | **Meesterproef!**     | **project**                        |
-| 6 (30 nov) | **project** | **project**         | **project**           | **project**           | **project**                        |
-| 7 (7 dec)  | **project** | **project**         | **project**           | **project**           | **project**                        |
-| 8 (14 dec) | **project** | **project**         | **Herkansing prog2** | **project**           | **projectpresentatie**             |
-
-De **meesterproef** voor fulltime-studenten is op donderdag 26 november (9:00--11:30). Dit is de eerste meesterproef. De meesterproef van woensdag 16 december (13:30--16:00) is voor fulltime-studenten alleen als herkansing bedoeld, zie [Eindcijfer](#eindcijfer).
-
-De deadlines blijven hetzelfde als bij het reguliere schema. Dat betekent dat de mogelijkheid blijft bestaan om te wisselen naar het reguliere schema bijvoorbeeld in geval van ziekte. Dit heeft vaak wel de consequentie dat er te weinig tijd overblijft om ook het programmeerproject te volgen in hetzelfde blok en je dat vak zal moeten laten vallen. Het is daarom extra belangrijk voor fulltime-studenten om goed contact te houden bij bijvoorbeeld ziekte, zo kunnen we je het beste helpen.
 
 <hr>
 
@@ -268,3 +285,38 @@ Hoewel LLM's bijzonder goed zijn in programmeren, zeker waar het kleine opdracht
 Bij deze cursus is het gebruik van ChatGPT dus ook niet toegestaan voor het genereren van (delen van) oplossingen voor de opdrachten, eigenlijk precies zoals je geen oplossingen van andere studenten mag overnemen, zoals hierboven vermeld. Als je dit toch doet wordt het gezien als fraude. Bij een vermoeden van fraude moet dit door de docent worden gerapporteerd, net als bij de plagiaatregeling.
 
 Dat gezegd hebbende is het voor een docent niet altijd makkelijk om gegenereerde code te herkennen (soms juist wel!) dus er ligt een grote verantwoordelijkheid bij jou om het vak gewoon serieus te doen en oprecht hulp te vragen als je er niks meer van begrijpt. We helpen hierbij door een meesterproef te doen en samen met jou je ingeleverde werk te bespreken. Zo heb je een beetje een stok achter de deur.
+
+<script>
+(function () {
+  var KEY = "kalender-tab";
+  var tabs = Array.prototype.slice.call(document.querySelectorAll('.tab-list [role="tab"]'));
+  if (!tabs.length) return;
+
+  function show(name) {
+    tabs.forEach(function (tab) {
+      var on = tab.dataset.tab === name;
+      tab.setAttribute("aria-selected", on);
+      tab.tabIndex = on ? 0 : -1;
+      document.getElementById(tab.getAttribute("aria-controls")).hidden = !on;
+    });
+  }
+
+  var saved = null;
+  try { saved = localStorage.getItem(KEY); } catch (e) {}
+  show(tabs.some(function (t) { return t.dataset.tab === saved; }) ? saved : "fulltime");
+
+  tabs.forEach(function (tab) {
+    tab.addEventListener("click", function () {
+      show(tab.dataset.tab);
+      try { localStorage.setItem(KEY, tab.dataset.tab); } catch (e) {}
+    });
+  });
+})();
+</script>
+
+<style>
+.tab-list { display: flex; gap: 0.25rem; border-bottom: 1px solid #ccc; margin-bottom: 1rem; }
+.tab-list button { font: inherit; padding: 0.4rem 0.9rem; border: 1px solid transparent; border-bottom: 0; border-radius: 0.4rem 0.4rem 0 0; background: none; cursor: pointer; }
+.tab-list button[aria-selected="true"] { font-weight: bold; border-color: #ccc; background: #f4f4f4; }
+[role="tabpanel"][hidden] { display: none; }
+</style>
