@@ -99,7 +99,7 @@ Je eindcijfer wordt bepaald door het aantal punten dat je haalt. Het wordt berek
 
     behaalde_punten / maximum * 9 + 1
 
-Het maximum is 48 punten. De punten komen verschillende onderdelen, die hieronder worden uitgelegd. Het moet goed mogelijk zijn een groot deel van de opdrachten helemaal af te maken, mits je wekelijks genoeg tijd reserveert voor het vak.
+Het maximum is 48 punten. De punten komen van verschillende onderdelen, die hieronder worden uitgelegd. Het moet goed mogelijk zijn een groot deel van de opdrachten helemaal af te maken, mits je wekelijks genoeg tijd reserveert voor het vak.
 
 ### Basismodules
 
