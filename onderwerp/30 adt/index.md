@@ -30,8 +30,7 @@ Testen met twee implementaties
 
 Er zijn geen deelpunten mogelijk.
 
-## Steropdracht
+## Workshop
 
-Wat is er mis met Cash*
-: 2 punten in totaal
-    - Bij deze opdracht krijg je 1/6 punt per goede oplossing, met een maximum van 2 punten.
+Wat is er mis met Cash
+: 2 punten voor aanwezigheid bij de workshop en het grotendeels afmaken van de opdracht. De docent vinkt dit handmatig af; de automatische checks tellen niet mee.

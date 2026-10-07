@@ -29,14 +29,16 @@ Hieronder vind je de **deadlines**. Bij dit vak is het niet verplicht om alle op
 | Week | Module              | Punten | Ster |        Deadline |                              |
 | ---- | ------------------- | :----: | :--: | --------------: | ---------------------------- |
 | 1    | Python              |   6    |  1   | vr 30 okt 17:00 |                              |
-| 2    | Collections         |   6    |  2   |  vr 6 nov 17:00 |                              |
+| 2    | Collections         |   6    |  -   |  vr 6 nov 17:00 |                              |
 | 3    | Objects             |   2    |  -   | vr 13 nov 17:00 |                              |
-| 3    | Abstract data types |   4    |  2   | vr 13 nov 17:00 | zelfde deadline!             |
+| 3    | Abstract data types |   4    |  -   | vr 13 nov 17:00 | zelfde deadline!             |
 | 4    | Container classes   |   4    |  1   | vr 20 nov 17:00 |                              |
-| 4    | Linked structures   |   4    |  -   | vr 20 nov 17:00 | zelfde deadline!             |
+| 4    | Linked structures   |   2    |  -   | vr 20 nov 17:00 | zelfde deadline!             |
 | 5    | Restricted lists    |   4    |  -   | vr 27 nov 17:00 |                              |
-| 6+7  | Object graphs       |   12   |  -   | vr 11 dec 17:00 |                              |
-|      | **Totaal punten:**  |   42   |  6   |                 |                              |
+| 6+7  | Object graphs       |   10   |  -   | vr 11 dec 17:00 |                              |
+|      | **Totaal punten:**  |   38   |  2   |                 |                              |
+
+Daarnaast zijn er workshops (8 punten). Daarvoor is geen deadline: je krijgt de punten voor aanwezigheid.
 
 **Parttime** --- Volg je alleen Programmeren 2, zonder het Programmeerproject? Dan ben je in dit blok van 8 weken op dinsdag en donderdag aanwezig. Het schema ziet er zo uit:
 
@@ -51,7 +53,7 @@ Hieronder vind je de **deadlines**. Bij dit vak is het niet verplicht om alle op
 | 7 (7 dec)  | Graphs                             | Graphs                             |
 | 8 (14 dec) | -                                  | Eindgesprekken                     |
 
-De **meesterproef** voor parttime studenten is op woensdag 16 december (13:30--16:00).
+De **meesterproef** voor parttime-studenten is op woensdag 16 december (13:30--16:00). Dit is de tweede meesterproef.
 
 **Fulltime** --- Doe je tegelijk met dit vak het Programmeerproject? Dan doe je de minor programmeren in fulltime en bieden we een andere indeling van de twee vakken aan. Je doet dan eerst grotendeels programmeren 2, met daartussen de voorbereiding op het project (Finance en Books), en daarna werk je aan het programmeerproject. Het schema ziet er zo uit:
 
@@ -64,11 +66,11 @@ De **meesterproef** voor parttime studenten is op woensdag 16 december (13:30--1
 | 5 (23 nov) | Graphs      | Graphs              | Graphs                | **Meesterproef!**     | **project**                        |
 | 6 (30 nov) | **project** | **project**         | **project**           | **project**           | **project**                        |
 | 7 (7 dec)  | **project** | **project**         | **project**           | **project**           | **project**                        |
-| 8 (14 dec) | **project** | **project**         | **Hertentamen prog2** | **project**           | **projectpresentatie**             |
+| 8 (14 dec) | **project** | **project**         | **Herkansing prog2** | **project**           | **projectpresentatie**             |
 
-De **meesterproef** voor fulltime studenten is op donderdag 26 november (9:00--11:30). De meesterproef van woensdag 16 december (13:30--16:00) is voor fulltime studenten een hertentamen.
+De **meesterproef** voor fulltime-studenten is op donderdag 26 november (9:00--11:30). Dit is de eerste meesterproef. De meesterproef van woensdag 16 december (13:30--16:00) is voor fulltime-studenten alleen als herkansing bedoeld, zie [Eindcijfer](#eindcijfer).
 
-De deadlines blijven hetzelfde als bij het reguliere schema. Dat betekent dat de mogelijkheid blijft bestaan om te wisselen naar het reguliere schema bijvoorbeeld in geval van ziekte. Dit heeft vaak wel de consequentie dat er te weinig tijd overblijft om ook het programmeerproject te volgen in hetzelfde blok en je dat vak zal moeten laten vallen. Het is daarom extra belangrijk voor fulltime studenten om goed contact te houden bij bijvoorbeeld ziekte, zo kunnen we je het beste helpen.
+De deadlines blijven hetzelfde als bij het reguliere schema. Dat betekent dat de mogelijkheid blijft bestaan om te wisselen naar het reguliere schema bijvoorbeeld in geval van ziekte. Dit heeft vaak wel de consequentie dat er te weinig tijd overblijft om ook het programmeerproject te volgen in hetzelfde blok en je dat vak zal moeten laten vallen. Het is daarom extra belangrijk voor fulltime-studenten om goed contact te houden bij bijvoorbeeld ziekte, zo kunnen we je het beste helpen.
 
 <hr>
 
@@ -76,19 +78,57 @@ Bij verschillende modules zijn er opdrachten gemarkeerd met een `*`. Dit zijn **
 
 ## Eindcijfer
 
-De eindbeoordeling gaat als volgt:
+Je eindcijfer wordt bepaald door het aantal punten dat je haalt. Het wordt berekend via:
 
-1.  Je maakt de **meesterproef** (tentamen). Hierin werk je een groter stuk Python-code uit, en je vult dit aan met allerlei technieken uit de cursus, zoals automatische tests. De meesterproef moet voldoende zijn om het vak te kunnen halen. Bij de meesterproef focussen we op een basisniveau, met een paar geavanceerdere onderdelen.
+    behaalde_punten / maximum * 9 + 1
 
-2.  Je hebt een **eindgesprek** kort na de meesterproef. Hier bespreken we jouw uitwerkingen van zowel de proef als je huiswerkopdrachten. Je resultaat bij de proef ondersteunt de beoordeling van het huiswerk. Zo kunnen de docenten constateren dat je alles goed hebt begrepen en dat de huiswerkopdrachten kunnen meetellen.
+Het maximum is 48 punten. De steropdrachten wegen mee in het puntentotaal en dus ook in het eindcijfer. Per saldo maken de opdrachten met een `*` het verschil tussen een 9,6 (46 van 48 punten, dus 9,625 maar dan afgerond) en een 10.
 
-3.  Het **eindcijfer** bestaat dan uit de punten voor de opdrachten. Het wordt berekend via:
+De punten komen uit drie onderdelen, die hieronder worden uitgelegd. Het moet goed mogelijk zijn een groot deel van de opdrachten helemaal af te maken, mits je wekelijks genoeg tijd reserveert voor het vak.
 
-        behaalde_punten / maximum * 9 + 1
+### Modules tot en met Container classes
 
-    De steropdrachten wegen mee in het puntentotaal en dus ook in het eindcijfer. Per saldo maken de opdrachten met een `*` het verschil tussen een 9 (dus 8.875 maar dan afgerond) en een 10.
+| Module              | Punten | Ster |
+| ------------------- | :----: | :--: |
+| Python              |   6    |  1   |
+| Collections         |   6    |  -   |
+| Objects             |   2    |  -   |
+| Abstract data types |   4    |  -   |
+| Container classes   |   4    |  1   |
+| **Totaal:**         |   22   |  2   |
 
-Het moet goed mogelijk zijn een groot deel van de opdrachten helemaal af te maken, mits je wekelijks genoeg tijd reserveert voor het vak.
+Bij deze modules hoort de meesterproef.
+
+### Meesterproef
+
+De **meesterproef** (tentamen) is een algemene eis om het vak te kunnen halen, maar hoort bij de modules hierboven: hij laat zien dat je de stof tot en met Container classes beheerst. Hierin werk je een groter stuk Python-code uit, en je vult dit aan met allerlei technieken uit de cursus, zoals automatische tests. Bij de meesterproef focussen we op een basisniveau, met een paar geavanceerdere onderdelen.
+
+- De meesterproef wordt beoordeeld als voldoende of onvoldoende en moet voldoende zijn.
+- Fulltime-studenten doen de eerste meesterproef (donderdag 26 november), parttime-studenten de tweede (woensdag 16 december).
+- Een herkansing is alleen mogelijk als je voldoende opdrachten op tijd hebt ingeleverd. We spreken het dan samen met je af.
+
+### Workshops
+
+| Workshop              | Bij module          | Punten |
+| --------------------- | ------------------- | :----: |
+| Cyclomatic Complexity | Collections         |   2    |
+| Cash                  | Abstract data types |   2    |
+| Profiling             | Linked structures   |   2    |
+| Police                | Object graphs       |   2    |
+| **Totaal:**           |                     |   8    |
+
+Je krijgt de punten voor een workshop als je aanwezig bent en de opdracht grotendeels afmaakt. We vinken dat handmatig af; automatische checks tellen niet mee.
+
+### Opdrachten met eindgesprek
+
+| Opdracht          | Punten |
+| ----------------- | :----: |
+| Linked structures |   2    |
+| Restricted lists  |   4    |
+| Object graphs     |   10   |
+| **Totaal:**       |   16   |
+
+Je hebt een **eindgesprek** kort na de meesterproef. Hier valideren we jouw uitwerkingen van deze drie opdrachten. Alleen opdrachten die je in het gesprek kunt toelichten en uitleggen tellen mee. Opdrachten die we niet valideren leveren 0 punten op.
 
 ## Aanwezigheid
 

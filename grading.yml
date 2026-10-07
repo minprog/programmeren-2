@@ -43,6 +43,22 @@ templates:
             akkoord: -correctness_score.floor
         calculation: akkoord
         hide_subgrades: true
+    6: &gevalideerd_automatisch
+        # Counts only after validation in the eindgesprek.
+        type: points
+        subgrades:
+            akkoord: boolean
+            gevalideerd: boolean
+        automatic:
+            akkoord: -correctness_score.floor
+        calculation: akkoord && gevalideerd
+    7: &gevalideerd_aftekenen
+        # Counts only after validation in the eindgesprek.
+        type: points
+        subgrades:
+            akkoord: boolean
+            gevalideerd: boolean
+        calculation: akkoord && gevalideerd
 
 # GRADES - contains definitions of how grades are structured. The names of the
 # grades match the names of submits that may be defined in `submit.yml`
@@ -106,8 +122,6 @@ grades:
     tuples: *automatisch
     recommend: *automatisch
     big-o-questions: *aftekenen
-    # --steropdracht
-    cc_hangman: *automatisch
 
     # Objects
     queue: *automatisch
@@ -116,8 +130,6 @@ grades:
     # ADTs
     cards: *automatisch
     card_implementations: *automatisch
-    # --steropdracht
-    cash_tests: *punten
 
     # Containers
     war: *automatisch
@@ -125,24 +137,30 @@ grades:
     # --steropdracht
     markov: *automatisch
 
+    # Workshops: one hand-entered check for presence and mostly finishing the
+    # assignment. Automatic checks may run but are not used for the grade.
+    cc_hangman: *aftekenen
+    cash_tests: *aftekenen
+    profiling: *aftekenen
+    police: *aftekenen
+
     # Linked structures
-    list_implementations: *automatisch
-    profiling: *punten
+    list_implementations: *gevalideerd_automatisch
 
     # Restricted lists
-    palindrome: *aftekenen
-    priority_queue_adt: *aftekenen
+    palindrome: *gevalideerd_aftekenen
+    priority_queue_adt: *gevalideerd_aftekenen
 
     # Object graphs
-    police: *automatisch
     adventure-steps:
         <<: *semiautomatisch
         subgrades:
             check_points: integer
             quality_points: integer
+            gevalideerd: boolean
         automatic:
             check_points: (correctness_score * 6).round
-        calculation: check_points + quality_points
+        calculation: "gevalideerd ? check_points + quality_points : 0"
 
     # Meesterproef
     meesterproef1:

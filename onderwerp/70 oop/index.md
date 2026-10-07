@@ -9,13 +9,12 @@ Je gaat hier grafen bouwen met hulp van classes: een uitbreiding van het idee va
 
 ## Puntentelling
 
-Police
-: 3 punten voor een goede uitwerking
+Adventure telt pas mee nadat je de opdracht hebt laten valideren in het eindgesprek. Zonder validatie krijg je er geen punten voor.
 
 Basis-Adventure
 : tot 6 punten, afhankelijk van hoe ver je komt met de implementatie - het percentage geslaagde checks bepaalt het aantal punten
 
-Daarnaast kun je nog 1, 2 of 3 extra punten ontvangen voor een uitwerking waarin de ideeën van het vak verwerkt zijn:
+Daarnaast kun je nog 1 tot 4 extra punten ontvangen voor een uitwerking waarin de ideeën van het vak verwerkt zijn:
 
 Docstrings, type hints
 : 1 punt voor degelijke uitvoering waar basis op orde is: volledige docstrings, type hints die goedgekeurd worden volgens `mypy --strict`
@@ -24,4 +23,9 @@ Docstrings, type hints, tests (* extra pittig)
 : 2 punten voor een zeer goede uitvoering waar voldaan is aan de eisen voor 1 punt, maar waar ook zinvolle `pytest` tests aanwezig zijn voor alle classes die zinvol testbaar zijn (het is aan jou om uit te zoeken welke tests, de assistenten mogen hier niet bij helpen).
 
 Docstrings, type hints, tests, design (* mega extra pittig)
-: 3 punten voor een uitzonderlijk goede uitvoering waar voldaan is aan de eisen voor 2 punten, maar waar het (class)design substantieel ook is aangepast waardoor de code overzichtelijker wordt (met nadrukkelijke eis dat de checks nog slagen; assistenten mogen op geen enkele manier helpen met redesign, wel met debugging natuurlijk). De cyclomatic complexity voor ieder deel moet 2 of lager zijn, dit wordt gemeten via `flake8 --max-complexity 2 --select=C *.py`
+: 4 punten voor een uitzonderlijk goede uitvoering waar voldaan is aan de eisen voor 2 punten, maar waar het (class)design substantieel ook is aangepast waardoor de code overzichtelijker wordt (met nadrukkelijke eis dat de checks nog slagen; assistenten mogen op geen enkele manier helpen met redesign, wel met debugging natuurlijk). De cyclomatic complexity voor ieder deel moet 2 of lager zijn, dit wordt gemeten via `flake8 --max-complexity 2 --select=C *.py`
+
+## Workshop
+
+Police
+: 2 punten voor aanwezigheid bij de workshop en het grotendeels afmaken van de opdracht. De docent vinkt dit handmatig af; de automatische checks tellen niet mee.

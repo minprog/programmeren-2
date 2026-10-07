@@ -39,7 +39,7 @@ Collections:
         Tuples: /onderwerp/collections/tuples
         Recommend: /onderwerp/collections/recommend
         Big-O: /onderwerp/collections/big-o-questions
-        '[icon:star-fill] Verminder de Cyclomatic Complexity van Hangman': /onderwerp/collections/cc
+        '🛠️ Workshop: Verminder de Cyclomatic Complexity van Hangman': /onderwerp/collections/cc
 
 Objects:
     Overzicht en puntentelling: /onderwerp/objects
@@ -57,7 +57,7 @@ Abstract Data Types:
     Opdrachten:
         Game of Cards: /onderwerp/adt/cards
         Testen met twee implementaties: /onderwerp/adt/testing
-        '[icon:star-fill] Wat is er mis met Cash': /onderwerp/adt/cash
+        '🛠️ Workshop: Wat is er mis met Cash': /onderwerp/adt/cash
 
 Container classes:
     Overzicht en puntentelling: /onderwerp/containers
@@ -74,7 +74,7 @@ Linked structures:
         "Boek: Linked Structures": /onderwerp/linked/boek
     Opdrachten:
         Implementaties van lijsten: /onderwerp/linked/lists
-        Profiling: /onderwerp/linked/profiling
+        '🛠️ Workshop: Profiling': /onderwerp/linked/profiling
 
 Restricted lists:
     Overzicht en puntentelling: /onderwerp/restricted
@@ -87,7 +87,7 @@ Restricted lists:
 
 Object graphs:
     Overzicht en puntentelling: /onderwerp/oop
-    Police: /onderwerp/oop/police
+    '🛠️ Workshop: Police': /onderwerp/oop/police
     Adventure:
         1. Introduction: /adventure/steps/introduction
         2. Rooms: /adventure/steps/room

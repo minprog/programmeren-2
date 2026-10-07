@@ -26,12 +26,11 @@ Complexity
 
 Goedwerkend betekent altijd dat het ook "goed" moet zijn. Soms controleren we dat via automatische checks, soms handmatig. Check het dus zelf ook goed, omdat je anders misschien de punten mist. Er worden geen deelpunten gegeven.
 
-## Steropdracht
+## Workshop
 
-Als je tijd hebt kun je de steropdracht doen, waarmee je een dieper begrip opdoet van de complexiteit van programmacode, en hoe je deze kunt verbeteren.
+Bij de workshop leer je een dieper begrip van de complexiteit van programmacode op te doen, en hoe je deze kunt verbeteren.
 
 Cyclomatic Complexity
+: 2 punten voor aanwezigheid bij de workshop en het grotendeels afmaken van de opdracht. De docent vinkt dit handmatig af; de automatische checks tellen niet mee.
 
-: 2 punten: Alle tests moeten slagen en de cyclomatic complexity moet 3 of lager zijn.
-
-Er zijn ook hier geen deelpunten mogelijk.
+Er zijn geen deelpunten mogelijk.

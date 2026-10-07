@@ -18,3 +18,5 @@ Palindrome
 
 Priority queue
 : 2 punten voor een goedwerkende en complete uitwerking
+
+De punten voor deze module tellen pas mee nadat je de opdrachten hebt laten valideren in het eindgesprek.

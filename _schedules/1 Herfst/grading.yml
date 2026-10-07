@@ -2,17 +2,22 @@ _settings:
     start_date: 26/10/26
     end_date: 18/12/26
 
+# Maximum is 48 points: modules up to containers 24 (incl. 2 star points),
+# workshops 8, assignments validated in the eindgesprek 16.
+# The meesterproef is a requirement with weight 0. It belongs conceptually to
+# the modules up to and including containers.
 calculation:
     eindcijfer:
         python: 6
         python_ster: 1
-        collections: 8
+        collections: 6
         objects: 2
-        adt: 6
+        adt: 4
         containers: 5
-        linked: 4
+        workshops: 8
+        linked: 2
         restricted: 4
-        graphs: 12
+        graphs: 10
         meesterproef: 0
 
 startup:
@@ -60,7 +65,6 @@ collections:
         tuples: 1
         recommend: 2
         big-o-questions: 1
-        cc_hangman: 2
 
 objects:
     type: points
@@ -77,7 +81,6 @@ adt:
     submits:
         cards: 2
         card_implementations: 2
-        cash_tests: 2
 
 containers:
     type: points
@@ -88,13 +91,25 @@ containers:
         dict_implementations: 2
         markov: 1
 
+# Points depend on presence in class and mostly finishing the assignment.
+# Each is entered by hand as a single check, so there is no deadline.
+workshops:
+    type: points
+    show_progress: true
+    show_overview: true
+    submits:
+        cc_hangman: 2
+        cash_tests: 2
+        profiling: 2
+        police: 2
+
+# The following three only count after validation in the eindgesprek.
 linked:
     type: points
     show_overview: true
     deadline: 20/11/26 17:00
     submits:
         list_implementations: 2
-        profiling: 2
 
 restricted:
     type: points
@@ -109,12 +124,14 @@ graphs:
     show_overview: true
     deadline: 11/12/26 17:00
     submits:
-        police: 3
-        adventure-steps: 9
+        adventure-steps: 10
 
+# Fulltime students sit the first meesterproef, parttime students the second.
+# A resit is only possible if enough assignments were handed in on time, and
+# is agreed between teacher and student.
 meesterproef:
-    type: pass
-    required: true
+    type: pass_any
     show_overview: true
     submits:
-        meesterproef1: 1
+        - meesterproef1
+        - meesterproef2

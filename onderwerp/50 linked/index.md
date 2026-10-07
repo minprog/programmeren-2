@@ -18,7 +18,9 @@ Dan weet je zoveel over de verschillende structuren in Python dat we je een chal
 ## Puntentelling
 
 List structures
-: 2 punten voor een goedwerkende en complete uitwerking, geen deelpunten
+: 2 punten voor een goedwerkende en complete uitwerking, geen deelpunten. De punten tellen pas mee nadat je de opdracht hebt laten valideren in het eindgesprek.
+
+## Workshop
 
 Profiling
-: 1/4 punt per goed onderbouwde concrete optimalisatie, met een maximum van 2 punten
+: 2 punten voor aanwezigheid bij de workshop en het grotendeels afmaken van de opdracht. De docent vinkt dit handmatig af; de automatische checks tellen niet mee.
