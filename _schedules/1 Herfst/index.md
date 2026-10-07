@@ -92,7 +92,6 @@ Hieronder vind je de **deadlines**. Bij dit vak is het niet verplicht om alle op
 
 Daarnaast zijn er workshops (8 punten). Daarvoor is geen deadline: je krijgt de punten voor aanwezigheid.
 
-Bij verschillende modules zijn er opdrachten gemarkeerd met een `*`. Dit zijn **steropdrachten**, bedoeld als extra uitdaging en dus ook voor diegenen die daarnaar op zoek zijn. Als je ze niet maakt mis je slechts een bescheiden aantal punten.
 
 ## Eindcijfer
 
@@ -100,11 +99,11 @@ Je eindcijfer wordt bepaald door het aantal punten dat je haalt. Het wordt berek
 
     behaalde_punten / maximum * 9 + 1
 
-Het maximum is 48 punten. De steropdrachten wegen mee in het puntentotaal en dus ook in het eindcijfer. Per saldo maken de opdrachten met een `*` het verschil tussen een 9,6 (46 van 48 punten, dus 9,625 maar dan afgerond) en een 10.
+Het maximum is 48 punten. De punten komen verschillende onderdelen, die hieronder worden uitgelegd. Het moet goed mogelijk zijn een groot deel van de opdrachten helemaal af te maken, mits je wekelijks genoeg tijd reserveert voor het vak.
 
-De punten komen uit drie onderdelen, die hieronder worden uitgelegd. Het moet goed mogelijk zijn een groot deel van de opdrachten helemaal af te maken, mits je wekelijks genoeg tijd reserveert voor het vak.
+### Basismodules
 
-### Modules tot en met Container classes
+In de basismodules leer je een specifieke stijl van programmeren in Python, met type hints, uitgebreide tests, en gebruik makend van Python-datastructuren en classes.
 
 | Module              | Punten | Ster |
 | ------------------- | :----: | :--: |
@@ -115,17 +114,19 @@ De punten komen uit drie onderdelen, die hieronder worden uitgelegd. Het moet go
 | Container classes   |   4    |  1   |
 | **Totaal:**         |   22   |  2   |
 
-Bij deze modules hoort de meesterproef.
+Twee opdrachten zijn gemarkeerd met een `*` (ster). Die zijn bedoeld als extra uitdaging voor diegenen die daarnaar op zoek zijn. Als je ze niet maakt mis je een héél bescheiden aantal punten.
 
 ### Meesterproef
 
-De **meesterproef** (tentamen) is een algemene eis om het vak te kunnen halen, maar hoort bij de modules hierboven: hij laat zien dat je de stof tot en met Container classes beheerst. Hierin werk je een groter stuk Python-code uit, en je vult dit aan met allerlei technieken uit de cursus, zoals automatische tests. Bij de meesterproef focussen we op een basisniveau, met een paar geavanceerdere onderdelen.
+De meesterproef (in feite het tentamen) is een algemene eis om het vak te kunnen halen, en hoort bij de basismodules hierboven: met het maken van de proef laat je zien dat je deze stof beheerst. Tijdens de meesterproef werk je een groter stuk Python-code in stappen uit, en je vult dit aan met allerlei technieken uit de cursus, zoals automatische tests.
 
-- De meesterproef wordt beoordeeld als voldoende of onvoldoende en moet voldoende zijn.
-- Fulltime-studenten doen de eerste meesterproef (donderdag 26 november), parttime-studenten de tweede (woensdag 16 december).
-- Een herkansing is alleen mogelijk als je voldoende opdrachten op tijd hebt ingeleverd. We spreken het dan samen met je af.
+- De meesterproef wordt beoordeeld als voldoende of onvoldoende. Je hebt een voldoende nodig om een voldoende voor de cursus te krijgen (minimumeis).
+- Fulltime-studenten doen de meesterproef op donderdag 26 november, parttime-studenten op woensdag 16 december.
+- Een herkansing is alleen mogelijk als je ook voldoende opdrachten op tijd hebt ingeleverd. We spreken het dan samen met je af.
 
 ### Workshops
+
+De vier workshops vinden op locatie plaats. Je gaat per keer ongeveer drie uur aan de slag met een onderwerp om je te verdiepen.
 
 | Workshop              | Bij module          | Punten |
 | --------------------- | ------------------- | :----: |
@@ -135,9 +136,11 @@ De **meesterproef** (tentamen) is een algemene eis om het vak te kunnen halen, m
 | Police                | Object graphs       |   2    |
 | **Totaal:**           |                     |   8    |
 
-Je krijgt de punten voor een workshop als je aanwezig bent en de opdracht grotendeels afmaakt. We vinken dat handmatig af; automatische checks tellen niet mee.
+Je krijgt de punten voor een workshop als je aanwezig bent en de opdracht grotendeels afmaakt. We vinken dat handmatig af, dus je moet je werk laten zien tijdens het college.
 
 ### Opdrachten met eindgesprek
+
+In het tweede deel van de cursus ga je datastructuren bouwen. Hierbij werk je met classes in Python.
 
 | Opdracht          | Punten |
 | ----------------- | :----: |
@@ -146,7 +149,7 @@ Je krijgt de punten voor een workshop als je aanwezig bent en de opdracht groten
 | Object graphs     |   10   |
 | **Totaal:**       |   16   |
 
-Je hebt een **eindgesprek** kort na de meesterproef. Hier valideren we jouw uitwerkingen van deze drie opdrachten. Alleen opdrachten die je in het gesprek kunt toelichten en uitleggen tellen mee. Opdrachten die we niet valideren leveren 0 punten op.
+Deze modules zijn gekoppeld aan een eindgesprek. Je krijgt de opdrachtpunten alléén als je zorgvuldig en diepgaand de werking van je programma's kunt uitleggen, en bijvoorbeeld ter plaatse wegen waarom je bepaalde keuzes hebt gemaakt en welke andere opties je gehad zou hebben.
 
 ## Aanwezigheid
 
