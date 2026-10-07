@@ -315,8 +315,11 @@ Dat gezegd hebbende is het voor een docent niet altijd makkelijk om gegenereerde
 </script>
 
 <style>
-.tab-list { display: flex; gap: 0.25rem; border-bottom: 1px solid #ccc; margin-bottom: 1rem; }
+.tab-list { display: flex; gap: 0.25rem; margin-bottom: -1px; position: relative; z-index: 1; }
 .tab-list button { font: inherit; padding: 0.4rem 0.9rem; border: 1px solid transparent; border-bottom: 0; border-radius: 0.4rem 0.4rem 0 0; background: none; cursor: pointer; }
-.tab-list button[aria-selected="true"] { font-weight: bold; border-color: #ccc; background: #f4f4f4; }
+.tab-list button[aria-selected="true"] { font-weight: bold; border-color: #ccc; background: #fff; padding-bottom: calc(0.4rem + 1px); }
+[role="tabpanel"] { border: 1px solid #ccc; border-radius: 0 0.4rem 0.4rem 0.4rem; padding: 1rem; background: #fff; }
+[role="tabpanel"] > :first-child { margin-top: 0; }
+[role="tabpanel"] > :last-child { margin-bottom: 0; }
 [role="tabpanel"][hidden] { display: none; }
 </style>
