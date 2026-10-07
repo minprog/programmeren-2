@@ -290,6 +290,7 @@ Bij deze cursus is het gebruik van ChatGPT dus ook niet toegestaan voor het gene
 Dat gezegd hebbende is het voor een docent niet altijd makkelijk om gegenereerde code te herkennen (soms juist wel!) dus er ligt een grote verantwoordelijkheid bij jou om het vak gewoon serieus te doen en oprecht hulp te vragen als je er niks meer van begrijpt. We helpen hierbij door een meesterproef te doen en samen met jou je ingeleverde werk te bespreken. Zo heb je een beetje een stok achter de deur.
 
 <style>
+#rooster-tabs .nav-item { margin-bottom: 0; }
 .rooster-box { border: 1px solid var(--bs-border-color); border-top: 0; border-radius: 0 0 var(--bs-border-radius) var(--bs-border-radius); padding: 1rem; margin-bottom: 1rem; }
 .rooster-box > .tab-pane > :first-child { margin-top: 0; }
 .rooster-box > .tab-pane > :last-child { margin-bottom: 0; }
