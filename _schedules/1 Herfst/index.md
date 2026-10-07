@@ -24,13 +24,15 @@ Je moet Programmeren 1 volledig hebben gehaald om dit vak te mogen volgen.
 
 ## Kalender
 
-<div class="tabs" markdown="1">
-<div class="tab-list" role="tablist" aria-label="Rooster">
-<button type="button" role="tab" id="tab-parttime" aria-controls="panel-parttime" data-tab="parttime">Parttime</button>
-<button type="button" role="tab" id="tab-fulltime" aria-controls="panel-fulltime" data-tab="fulltime">Fulltime</button>
-</div>
+<div markdown="1">
+<ul class="nav nav-tabs" id="rooster-tabs" role="tablist">
+<li class="nav-item" role="presentation"><button class="nav-link" id="tab-parttime" data-bs-toggle="tab" data-bs-target="#panel-parttime" type="button" role="tab" aria-controls="panel-parttime" aria-selected="false">Parttime</button></li>
+<li class="nav-item" role="presentation"><button class="nav-link active" id="tab-fulltime" data-bs-toggle="tab" data-bs-target="#panel-fulltime" type="button" role="tab" aria-controls="panel-fulltime" aria-selected="true">Fulltime</button></li>
+</ul>
 
-<div role="tabpanel" id="panel-parttime" aria-labelledby="tab-parttime" markdown="1">
+<div class="tab-content rooster-box" markdown="1">
+
+<div class="tab-pane fade" role="tabpanel" id="panel-parttime" aria-labelledby="tab-parttime" tabindex="0" markdown="1">
 
 Volg je alleen Programmeren 2, zonder het Programmeerproject? Dan ben je in dit blok van 8 weken op dinsdag en donderdag aanwezig. Het schema ziet er zo uit:
 
@@ -49,7 +51,7 @@ De **meesterproef** voor parttime-studenten is op woensdag 16 december (13:30--1
 
 </div>
 
-<div role="tabpanel" id="panel-fulltime" aria-labelledby="tab-fulltime" markdown="1">
+<div class="tab-pane fade show active" role="tabpanel" id="panel-fulltime" aria-labelledby="tab-fulltime" tabindex="0" markdown="1">
 
 Doe je tegelijk met dit vak het Programmeerproject? Dan doe je de minor programmeren in fulltime en bieden we een andere indeling van de twee vakken aan. Je doet dan eerst grotendeels programmeren 2, met daartussen de voorbereiding op het project (Finance en Books), en daarna werk je aan het programmeerproject. Het schema ziet er zo uit:
 
@@ -68,6 +70,7 @@ De **meesterproef** voor fulltime-studenten is op donderdag 26 november (9:00--1
 
 De deadlines blijven hetzelfde als bij het reguliere schema. Dat betekent dat de mogelijkheid blijft bestaan om te wisselen naar het reguliere schema bijvoorbeeld in geval van ziekte. Dit heeft vaak wel de consequentie dat er te weinig tijd overblijft om ook het programmeerproject te volgen in hetzelfde blok en je dat vak zal moeten laten vallen. Het is daarom extra belangrijk voor fulltime-studenten om goed contact te houden bij bijvoorbeeld ziekte, zo kunnen we je het beste helpen.
 
+</div>
 </div>
 </div>
 
@@ -286,40 +289,8 @@ Bij deze cursus is het gebruik van ChatGPT dus ook niet toegestaan voor het gene
 
 Dat gezegd hebbende is het voor een docent niet altijd makkelijk om gegenereerde code te herkennen (soms juist wel!) dus er ligt een grote verantwoordelijkheid bij jou om het vak gewoon serieus te doen en oprecht hulp te vragen als je er niks meer van begrijpt. We helpen hierbij door een meesterproef te doen en samen met jou je ingeleverde werk te bespreken. Zo heb je een beetje een stok achter de deur.
 
-<script>
-(function () {
-  var KEY = "kalender-tab";
-  var tabs = Array.prototype.slice.call(document.querySelectorAll('.tab-list [role="tab"]'));
-  if (!tabs.length) return;
-
-  function show(name) {
-    tabs.forEach(function (tab) {
-      var on = tab.dataset.tab === name;
-      tab.setAttribute("aria-selected", on);
-      tab.tabIndex = on ? 0 : -1;
-      document.getElementById(tab.getAttribute("aria-controls")).hidden = !on;
-    });
-  }
-
-  var saved = null;
-  try { saved = localStorage.getItem(KEY); } catch (e) {}
-  show(tabs.some(function (t) { return t.dataset.tab === saved; }) ? saved : "fulltime");
-
-  tabs.forEach(function (tab) {
-    tab.addEventListener("click", function () {
-      show(tab.dataset.tab);
-      try { localStorage.setItem(KEY, tab.dataset.tab); } catch (e) {}
-    });
-  });
-})();
-</script>
-
 <style>
-.tab-list { display: flex; gap: 0.25rem; margin-bottom: -1px; position: relative; z-index: 1; }
-.tab-list button { font: inherit; padding: 0.4rem 0.9rem; border: 1px solid transparent; border-bottom: 0; border-radius: 0.4rem 0.4rem 0 0; background: none; cursor: pointer; }
-.tab-list button[aria-selected="true"] { font-weight: bold; border-color: #ccc; background: #fff; padding-bottom: calc(0.4rem + 1px); }
-[role="tabpanel"] { border: 1px solid #ccc; border-radius: 0 0.4rem 0.4rem 0.4rem; padding: 1rem; background: #fff; }
-[role="tabpanel"] > :first-child { margin-top: 0; }
-[role="tabpanel"] > :last-child { margin-bottom: 0; }
-[role="tabpanel"][hidden] { display: none; }
+.rooster-box { border: 1px solid var(--bs-border-color); border-top: 0; border-radius: 0 0 var(--bs-border-radius) var(--bs-border-radius); padding: 1rem; margin-bottom: 1rem; }
+.rooster-box > .tab-pane > :first-child { margin-top: 0; }
+.rooster-box > .tab-pane > :last-child { margin-bottom: 0; }
 </style>
