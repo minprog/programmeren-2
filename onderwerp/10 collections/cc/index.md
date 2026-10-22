@@ -185,3 +185,10 @@ Lees de code eerst goed door en ga vervolgens op zoek naar punten om de code op 
 * Hou een tweede bestand bij, bijvoorbeeld `hangman_old.py`, met de originele versie van de code. Dan kan je beide versies uitvoeren en makkelijker zien of het programma nog steeds precies hetzelfde doet.
 * Maak een kleinere `dictionary.txt` aan, bijvoorbeeld een woordenboek met maar één woord. Zo haal je tijdens het ontwikkelen de willekeur van het spel er even uit en is het daardoor makkelijker testen.
 * Lever je code ook eens vroegtijdig in. De checks geven feedback als de output niet helemaal klopt.
+## Meer oefenen
+
+Klaar met Hangman, of wil je de techniek nog verder oefenen? Er zijn drie extra opdrachten waarin je dezelfde stappen herhaalt, met oplopende moeilijkheid. Voor deze opdrachten zijn er geen extra punten, maar de checks geven wel feedback.
+
+* [Bioscoop](/onderwerp/collections/cc/cinema): veel losse beslissingen, in één functie.
+* [Tekstanalyse](/onderwerp/collections/cc/text): lussen binnen lussen en een bestand om te verwerken.
+* [Vier op een rij](/onderwerp/collections/cc/connect4): een spel verspreid over twee bestanden, waar het verbeteren van de code meer vraagt dan functies opknippen.
