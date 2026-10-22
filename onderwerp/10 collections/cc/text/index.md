@@ -1,8 +1,8 @@
 # Cyclomatic Complexity: Tekstanalyse
 
-Dit is een extra oefening bij de [workshop over Cyclomatic Complexity](/onderwerp/collections/cc). Je werkt hier met dezelfde tool (`flake8`) en hetzelfde doel als bij Hangman: elke functie krijgt een Cyclomatic Complexity van maximaal 3.
+In deze opdracht ga je de Cyclomatic Complexity van een bestaand programma verlagen. Je gebruikt hiervoor `flake8`, met als doel dat elke functie een Cyclomatic Complexity van maximaal 3 krijgt.
 
-Waar de bioscoop-opdracht vooral gaat over veel losse beslissingen, zit de complexiteit in deze opdracht in **lussen**: lussen binnen lussen, met `if`s erin. Dat vraagt meer overzicht over welke stukken code bij elkaar horen.
+De complexiteit zit in dit programma vooral in **lussen**: lussen binnen lussen, met `if`s erin. Dat vraagt meer overzicht over welke stukken code bij elkaar horen.
 
 ## De opdracht: Tekstanalyse
 
@@ -180,6 +180,23 @@ Het stukje `if word in counts: ... else: ...` kan korter. Kijk naar wat de metho
 ## Tips
 
 * Hou een tweede bestand bij, bijvoorbeeld `text_old.py`, met de originele versie van de code. Dan kan je beide versies uitvoeren en makkelijker zien of het programma nog steeds precies hetzelfde doet.
+
+  <details markdown="1"><summary markdown="span">vergelijken met het unix-programma diff</summary>
+
+  Met `diff` laat je de computer de vergelijking doen. Dit programma leest alleen `text.txt` en vraagt niets om invoer, dus je kan beide versies direct laten draaien en de output vergelijken:
+
+      python3 text_old.py > oud.txt
+      python3 text.py > nieuw.txt
+      diff oud.txt nieuw.txt
+
+  Geeft `diff` geen uitvoer, dan is de output van de twee bestanden identiek. Anders laat `diff` precies zien welke regels verschillen. Het kan ook in één keer, zonder tussenbestanden:
+
+      diff <(python3 text_old.py) <(python3 text.py)
+
+  Herhaal dit voor verschillende varianten van `text.txt`, zie de tips hieronder.
+
+  </details>
+
 * Probeer verschillende tekstbestanden: een leeg bestand, een bestand met alleen stopwoorden, en een bestand met minder dan vijf verschillende woorden.
 * Let op gelijke aantallen. Als twee woorden even vaak voorkomen, dan staat het woord dat het eerst in de tekst voorkwam bovenaan. Hetzelfde geldt voor het langste en het kortste woord.
 * Lever je code ook eens vroegtijdig in. De checks geven feedback als de output niet helemaal klopt.

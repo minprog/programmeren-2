@@ -1,8 +1,8 @@
 # Cyclomatic Complexity: Vier op een rij
 
-Dit is een extra oefening bij de [workshop over Cyclomatic Complexity](/onderwerp/collections/cc). Je werkt hier met dezelfde tool (`flake8`) en hetzelfde doel als bij Hangman: elke functie krijgt een Cyclomatic Complexity van maximaal 3.
+In deze opdracht ga je de Cyclomatic Complexity van een bestaand programma verlagen. Je gebruikt hiervoor `flake8`, met als doel dat elke functie een Cyclomatic Complexity van maximaal 3 krijgt.
 
-Dit is de moeilijkste van de extra opdrachten. De code is verdeeld over twee bestanden en je kan niet volstaan met het uitknippen van stukjes code in aparte functies: sommige functies vragen om een andere aanpak. Denk goed na over wat er eigenlijk gebeurt, voordat je begint met aanpassen.
+Dit is een lastige opdracht. De code is verdeeld over twee bestanden en je kan niet volstaan met het uitknippen van stukjes code in aparte functies: sommige functies vragen om een andere aanpak. Denk goed na over wat er eigenlijk gebeurt, voordat je begint met aanpassen.
 
 ## De opdracht: Vier op een rij
 
@@ -282,6 +282,21 @@ Je mag nieuwe functies toevoegen aan beide bestanden, en functies die in `board.
 ## Tips
 
 * Hou een kopie bij van de originele versie van de code, bijvoorbeeld in een map `old`. Dan kan je beide versies met dezelfde invoer uitvoeren en makkelijker zien of het programma nog steeds precies hetzelfde doet.
+
+  <details markdown="1"><summary markdown="span">vergelijken met het unix-programma diff</summary>
+
+  Met `diff` laat je de computer de vergelijking doen. Zet de zetten voor een heel spel in een bestand `invoer.txt`, met per regel één antwoord, en laat beide versies daarmee draaien. Heb je de oude versie in de map `old`, dan kan dat zo:
+
+      (cd old && python3 connect4.py < ../invoer.txt) > oud.txt
+      python3 connect4.py < invoer.txt > nieuw.txt
+      diff oud.txt nieuw.txt
+
+  Geeft `diff` geen uitvoer, dan is de output van de twee bestanden identiek. Anders laat `diff` precies zien welke regels verschillen. Het kan ook in één keer, zonder tussenbestanden:
+
+      diff <(cd old && python3 connect4.py < ../invoer.txt) <(python3 connect4.py < invoer.txt)
+
+  </details>
+
 * Maak een bestand `invoer.txt` met per regel één zet, en draai `python3 connect4.py < invoer.txt`. Voor een snelle winst: `1`, `1`, `2`, `2`, `3`, `3`, `4` en `n` (X wint horizontaal).
 * Test ook de randgevallen: een win op het laatste vakje van een rij, diagonalen aan de rand van het bord, een volle kolom en een gelijkspel.
 * Lever je code ook eens vroegtijdig in. De checks geven feedback als de output niet helemaal klopt.

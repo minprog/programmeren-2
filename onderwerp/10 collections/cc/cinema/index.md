@@ -1,8 +1,8 @@
 # Cyclomatic Complexity: Bioscoop
 
-Dit is een extra oefening bij de [workshop over Cyclomatic Complexity](/onderwerp/collections/cc). Heb je de opdracht over Hangman afgerond, of wil je de techniek nog eens oefenen? Dan is dit een goed vervolg. Je werkt hier met dezelfde tool (`flake8`) en hetzelfde doel: elke functie krijgt een Cyclomatic Complexity van maximaal 3.
+In deze opdracht ga je de Cyclomatic Complexity van een bestaand programma verlagen. Je gebruikt hiervoor `flake8`, met als doel dat elke functie een Cyclomatic Complexity van maximaal 3 krijgt.
 
-Deze opdracht is de makkelijkste van de extra opdrachten. Er komt geen bestand of willekeur aan te pas, maar het programma zit vol met beslissingen: leeftijdscategorieën, dagen, tijdstippen en kortingen.
+Het programma zit vol met beslissingen: leeftijdscategorieën, dagen, tijdstippen en kortingen.
 
 ## De opdracht: Bioscoop
 
@@ -183,6 +183,21 @@ Het uitrekenen van de prijs van één kaartje is een apart stukje werk: leeftijd
 ## Tips
 
 * Hou een tweede bestand bij, bijvoorbeeld `cinema_old.py`, met de originele versie van de code. Dan kan je beide versies met dezelfde invoer uitvoeren en makkelijker zien of het programma nog steeds precies hetzelfde doet.
+
+  <details markdown="1"><summary markdown="span">vergelijken met het unix-programma diff</summary>
+
+  Met `diff` laat je de computer de vergelijking doen. Zet de antwoorden voor een heel bezoek in een bestand `invoer.txt`, met per regel één antwoord, en laat beide versies daarmee draaien:
+
+      python3 cinema_old.py < invoer.txt > oud.txt
+      python3 cinema.py < invoer.txt > nieuw.txt
+      diff oud.txt nieuw.txt
+
+  Geeft `diff` geen uitvoer, dan is de output van de twee bestanden identiek. Anders laat `diff` precies zien welke regels verschillen. Het kan ook in één keer, zonder tussenbestanden:
+
+      diff <(python3 cinema_old.py < invoer.txt) <(python3 cinema.py < invoer.txt)
+
+  </details>
+
 * Maak een bestand `invoer.txt` met per regel één antwoord, en draai `python3 cinema.py < invoer.txt`. Dan hoef je niet steeds alles opnieuw in te typen.
 * Test ook de randgevallen: een ongeldige dag, een uur dat net op de grens zit (11, 12, 17, 18), en een leeftijd die precies op de grens tussen twee categorieën zit.
 * Lever je code ook eens vroegtijdig in. De checks geven feedback als de output niet helemaal klopt.
