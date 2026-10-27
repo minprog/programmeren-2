@@ -39,7 +39,7 @@ Collections:
         Tuples: /onderwerp/collections/tuples
         Recommend: /onderwerp/collections/recommend
         Big-O: /onderwerp/collections/big-o-questions
-        '🛠️ Workshop: Verminder de Cyclomatic Complexity': /onderwerp/collections/cc
+        # '🛠️ Workshop: Verminder de Cyclomatic Complexity': /onderwerp/collections/cc
 
 Objects:
     Overzicht en puntentelling: /onderwerp/objects
