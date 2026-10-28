@@ -1,7 +1,5 @@
 # Many submissions of cash
 
-> Inmiddels heb je ruim ervaring met Python. Als je het gevoel hebt dat je alles wel zo'n beetje begrijpt dan is onderstaande opgave zeker wat voor jou. Probleem: je krijgt 13 uitwerkingen van een opdracht en zelfs met jouw voorkennis ga je ze niet allemaal begrijpen. Dat is niet erg, want we proberen juist heel nauwkeurig te kijken naar hoe het moet werken "van buitenaf", en dit met tests vast te leggen. Hoe het intern dan precies werkt is minder van belang.
-
 We asked students to implement the following function:
 
     def number_of_coins(change: int, coins: list[int]) -> int:
@@ -24,13 +22,6 @@ To further restrict the assignment we added:
 * In case the change cannot be met exactly, give as much as possible, without exceeding the total. For instance if there are only quarters (25) as coins and the change is 97, give 3 quarters,
 
 At the end of the day, thirteen students submitted their work. You can find all thirteen implementations in the `submissions` folder. That leaves us with a challenge: grading. Which of these thirteen submissions are incorrect and why?
-
-## Individuele opdracht
-
-Samenwerken bij deze opdracht is niet toegestaan; het is prima om medestudenten en anderen om hulp te vragen, als het er maar niet op neerkomt dat iemand anders een deel van het werk voor je doet. Voorbeelden van "redelijke" en "onredelijke" manieren van samenwerken vind je in de studiewijzer.
-
-Het is **niet** erg als het niet lukt om alles op te lossen. Je verdient snel punten hier en een deel oplossen is ook prima.
-
 
 ## What to do
 
