@@ -162,6 +162,12 @@ grades:
             check_points: (correctness_score * 6).round
         calculation: "gevalideerd ? check_points + quality_points : 0"
 
+    ## Workshops
+    aftekenen_workshop_cc: *check
+    aftekenen_workshop_cash: *check
+    aftekenen_workshop_profiling: *check
+    aftekenen_workshop_police: *check
+
     # Meesterproef
     meesterproef1:
         exam: true

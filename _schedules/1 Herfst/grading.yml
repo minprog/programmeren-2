@@ -4,8 +4,6 @@ _settings:
 
 # Maximum is 48 points: modules up to containers 24 (incl. 2 star points),
 # workshops 8, assignments validated in the eindgesprek 16.
-# The meesterproef is a requirement with weight 0. It belongs conceptually to
-# the modules up to and including containers.
 calculation:
     eindcijfer:
         python: 6
@@ -91,19 +89,25 @@ containers:
         dict_implementations: 2
         markov: 1
 
-# Points depend on presence in class and mostly finishing the assignment.
-# Each is entered by hand as a single check, so there is no deadline.
+workshop_cc:
+    type: points
+    show_overview: true
+    submits:
+        cc_hangman: 0
+        cc_text: 0
+        cc_cinema: 0
+        cc_connect4: 0
+
 workshops:
     type: points
     show_progress: true
-    show_overview: true
     submits:
-        cc_hangman: 2
-        cash_tests: 2
-        profiling: 2
-        police: 2
+        aftekenen_workshop_cc: 2
+        aftekenen_workshop_cash: *check
+        aftekenen_workshop_profiling: *check
+        aftekenen_workshop_police: *check
 
-# The following three only count after validation in the eindgesprek.
+# Deze 3 zijn voor het eindgesprek.
 linked:
     type: points
     show_overview: true
@@ -126,9 +130,6 @@ graphs:
     submits:
         adventure-steps: 10
 
-# Fulltime students sit the first meesterproef, parttime students the second.
-# A resit is only possible if enough assignments were handed in on time, and
-# is agreed between teacher and student.
 meesterproef:
     type: pass_any
     show_overview: true
