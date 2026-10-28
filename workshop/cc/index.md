@@ -4,10 +4,10 @@ In deze workshop leer je code te herkennen die te ingewikkeld is en haal je die 
 
 ## Opbouw
 
-1. [Hangman](hangman): een spel in één grote functie. Hier leg je de basis: wat is Cyclomatic Complexity, hoe meet je het met `flake8`, en hoe breek je een functie op.
-2. [Bioscoop](cinema): een kassa met veel losse beslissingen. Je oefent met herhaalde code en met `dict`s en tuples in plaats van lange `if`/`elif`-ketens.
-3. [Tekstanalyse](text): een programma dat een bestand verwerkt met lussen binnen lussen. Je oefent met het verdelen van lussen over functies.
-4. [Vier op een rij](connect4): een spel verspreid over twee bestanden. Hier is functies opknippen niet genoeg, je moet ook slimmer naar de data kijken.
+1. [Hangman](./hangman): een spel in één grote functie. Hier leg je de basis: wat is Cyclomatic Complexity, hoe meet je het met `flake8`, en hoe breek je een functie op.
+2. [Bioscoop](./cinema): een kassa met veel losse beslissingen. Je oefent met herhaalde code en met `dict`s en tuples in plaats van lange `if`/`elif`-ketens.
+3. [Tekstanalyse](./text): een programma dat een bestand verwerkt met lussen binnen lussen. Je oefent met het verdelen van lussen over functies.
+4. [Vier op een rij](./connect4): een spel verspreid over twee bestanden. Hier is functies opknippen niet genoeg, je moet ook slimmer naar de data kijken.
 
 Begin dus met Hangman. Daar staat ook de uitleg over Cyclomatic Complexity en `flake8`, die je bij de andere opdrachten opnieuw nodig hebt.
 
