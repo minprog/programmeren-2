@@ -1,6 +1,6 @@
 # Workshop: Wat is er mis met Cash
 
-In deze workshop test je code die iemand anders heeft geschreven. Je krijgt dertien uitwerkingen van dezelfde opdracht, en precies één daarvan is correct. Het is aan jou en je team om te bewijzen welke dat is, en bij de andere twaalf aan te tonen *waarom* ze fout zijn. Je kijkt daarbij niet naar hoe de code werkt, maar naar wat de code doet: je schrijft tests die het gedrag van buitenaf vastleggen.
+In deze workshop test je code die iemand anders heeft geschreven. Je krijgt steeds dertien uitwerkingen van dezelfde opdracht, en precies één daarvan is correct. Het is aan jou en je team om te bewijzen welke dat is, en bij de andere twaalf aan te tonen *waarom* ze fout zijn. Je kijkt daarbij niet naar hoe de code werkt, maar naar wat de code doet: je schrijft tests die het gedrag van buitenaf vastleggen.
 
 ## Waar gaat het over?
 
@@ -12,7 +12,10 @@ Dat lijkt simpel, maar er zijn veel randgevallen: negatieve bedragen, munten van
 
 ## Opbouw
 
-1. [Many submissions of cash](/workshop/cash/tests): je krijgt de dertien uitwerkingen en wat hulpcode om ze in één keer te testen. Je schrijft een `test_cash.py` waarin elke foute uitwerking door minstens één test wordt ontmaskerd, en je beschrijft in een kort verslag per uitwerking wat er mis is.
+1. [Many submissions of cash](/workshop/cash/tests): de uitwerkingen van `number_of_coins`, een functie die munten telt. Je schrijft een `test_cash.py` waarin elke foute uitwerking door minstens één test wordt ontmaskerd, en je beschrijft in een kort verslag per uitwerking wat er mis is.
+2. [Many submissions of merge_intervals](/workshop/cash/merge): dezelfde aanpak met een lastigere functie, die overlappende tijdsblokken samenvoegt. De uitwerkingen zijn nu in veel verschillende programmeerstijlen geschreven, en sommige fouten vallen pas op als je goed kijkt naar wat er met de invoer gebeurt.
+
+Begin met de eerste opdracht. De werkwijze hieronder geldt voor beide.
 
 ## Werkwijze
 

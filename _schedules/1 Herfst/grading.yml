@@ -98,12 +98,19 @@ workshop_cc:
         cc_cinema: 0
         cc_connect4: 0
 
+workshop_tests:
+    type: points
+    show_overview: true
+    submits:
+        tests_cash: 0
+        tests_merge: 0
+
 workshops:
     type: points
     show_progress: true
     submits:
         aftekenen_workshop_cc: 2
-        aftekenen_workshop_cash: 2
+        aftekenen_workshop_tests: 2
         aftekenen_workshop_profiling: 2
         aftekenen_workshop_police: 2
 

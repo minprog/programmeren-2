@@ -1,0 +1,6 @@
+name: tests_merge
+form: true
+files:
+    required:
+        - test_merge.py
+        - verslag.pdf

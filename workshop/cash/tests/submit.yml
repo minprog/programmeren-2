@@ -1,4 +1,4 @@
-name: cash_tests
+name: tests_merge
 form: true
 files:
     required:

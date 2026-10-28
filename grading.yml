@@ -140,7 +140,8 @@ grades:
     # Workshops: one hand-entered check for presence and mostly finishing the
     # assignment. Automatic checks may run but are not used for the grade.
     cc_hangman: *aftekenen
-    cash_tests: *aftekenen
+    tests_cash: *aftekenen
+    tests_merge: *aftekenen
     profiling: *aftekenen
     police: *aftekenen
 
