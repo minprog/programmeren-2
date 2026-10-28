@@ -163,6 +163,11 @@ grades:
         calculation: "gevalideerd ? check_points + quality_points : 0"
 
     ## Workshops
+    cc_hangman: *automatisch
+    cc_text: *automatisch
+    cc_cinema: *automatisch
+    cc_connect4: *automatisch
+
     aftekenen_workshop_cc: *aftekenen
     aftekenen_workshop_cash: *aftekenen
     aftekenen_workshop_profiling: *aftekenen
