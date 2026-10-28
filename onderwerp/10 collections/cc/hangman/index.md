@@ -38,6 +38,10 @@ Naast een maat voor complexe code geeft de Cyclomatic Complexity ook een maat vo
 
 De Cyclomatic Complexity is een berekenbare metriek en er bestaan tools om deze te berekenen voor jou. Eén zo'n tool is de style checker `flake8`. Deze kan net zoals `pycodestyle` allerlei style regels checken, maar `flake8` heeft ook een ingebouwde Cyclomatic Complexity module. In deze opdracht ga je die module gebruiken om de Cyclomatic Complexity van een bestaand programma te berekenen en vervolgens te verbeteren. Daarvoor moet je `flake8` eerst installeren, dat doe je zo:
 
+    uv pip install flake8
+
+Gebruik je geen `uv`?
+
     python3 -m pip install flake8
 
 Vervolgens kan je met het volgende commando de cyclomatic complexity van iedere functie in een bestand berekenen.

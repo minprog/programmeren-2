@@ -34,9 +34,13 @@ Navigeer via de terminal naar de map die je eerder hebt aangemaakt waarin je gaa
 
     uv venv
 
-Nu is er een nieuwe map aangemaakt genaamd `.venv`. Om de virtual environment te activeren doe je:
+Nu is er een nieuwe map aangemaakt genaamd `.venv`. Om de virtual environment te activeren doe je op een Mac / Linux:
 
     source .venv/bin/activate
+
+op Windows:
+
+    source .venv/Scripts/activate
 
 Nu zie je de naam van de map tussen haakjes voor je prompt staan. Controleer of onderstaande hetzelfde versienummer laat zien als net geinstalleerd via `uv`:
 
