@@ -170,7 +170,7 @@ grades:
     cc_connect4: *automatisch
 
     aftekenen_workshop_cc: *aftekenen
-    aftekenen_workshop_cash: *aftekenen
+    aftekenen_workshop_tests: *aftekenen
     aftekenen_workshop_profiling: *aftekenen
     aftekenen_workshop_police: *aftekenen
 
