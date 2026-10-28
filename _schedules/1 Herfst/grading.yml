@@ -103,9 +103,9 @@ workshops:
     show_progress: true
     submits:
         aftekenen_workshop_cc: 2
-        aftekenen_workshop_cash: *check
-        aftekenen_workshop_profiling: *check
-        aftekenen_workshop_police: *check
+        aftekenen_workshop_cash: 2
+        aftekenen_workshop_profiling: 2
+        aftekenen_workshop_police: 2
 
 # Deze 3 zijn voor het eindgesprek.
 linked:
