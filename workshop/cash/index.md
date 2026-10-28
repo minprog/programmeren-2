@@ -12,7 +12,7 @@ Dat lijkt simpel, maar er zijn veel randgevallen: negatieve bedragen, munten van
 
 ## Opbouw
 
-1. [Many submissions of cash](/onderwerp/adt/cash/tests): je krijgt de dertien uitwerkingen en wat hulpcode om ze in één keer te testen. Je schrijft een `test_cash.py` waarin elke foute uitwerking door minstens één test wordt ontmaskerd, en je beschrijft in een kort verslag per uitwerking wat er mis is.
+1. [Many submissions of cash](/workshop/cash/tests): je krijgt de dertien uitwerkingen en wat hulpcode om ze in één keer te testen. Je schrijft een `test_cash.py` waarin elke foute uitwerking door minstens één test wordt ontmaskerd, en je beschrijft in een kort verslag per uitwerking wat er mis is.
 
 ## Werkwijze
 

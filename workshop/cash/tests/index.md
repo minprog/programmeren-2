@@ -1,6 +1,6 @@
 # Many submissions of cash
 
-We asked students to implement the following function:
+Aan studenten is gevraagd de volgende functie te implementeren:
 
     def number_of_coins(change: int, coins: list[int]) -> int:
         """
@@ -10,42 +10,42 @@ We asked students to implement the following function:
         Raises a ValueError in case of negative values, or coins of value 0.
         """
 
-For example:
+Bijvoorbeeld:
 
     print(number_of_coins(41, [25, 10, 5, 1])) # prints 4
 
-To further restrict the assignment we added:
+Om de opdracht verder af te bakenen is het volgende toegevoegd:
 
-* You may assume that a greedy strategy (exchanging as many as possible of the largest exchangable coin first) will always yield the correct answer.
-* You may assume that the user will never enter any other values than integers and floats.
-* You may assume that the user will always enter a `list` of integers or floats for coins.
-* In case the change cannot be met exactly, give as much as possible, without exceeding the total. For instance if there are only quarters (25) as coins and the change is 97, give 3 quarters,
+* Je mag aannemen dat een greedy strategie (zoveel mogelijk wisselen met de grootste munt die nog past) altijd het juiste antwoord oplevert.
+* Je mag aannemen dat de gebruiker nooit andere waardes invoert dan integers en floats.
+* Je mag aannemen dat de gebruiker voor de munten altijd een `list` van integers of floats invoert.
+* Als het bedrag niet exact gewisseld kan worden, geef dan zoveel mogelijk zonder het totaal te overschrijden. Als er bijvoorbeeld alleen kwartjes (25) zijn en het bedrag is 97, geef dan 3 kwartjes.
 
-At the end of the day, thirteen students submitted their work. You can find all thirteen implementations in the `submissions` folder. That leaves us with a challenge: grading. Which of these thirteen submissions are incorrect and why?
+Aan het eind van de dag hebben dertien studenten hun werk ingeleverd. Je vindt alle dertien uitwerkingen in de map `submissions`. Dat laat ons met een uitdaging zitten: nakijken. Welke van deze dertien uitwerkingen zijn fout, en waarom?
 
-## What to do
+## Wat te doen
 
-[Download the distribution code](testing_cash.zip).
+[Download de distributiecode](testing_cash.zip).
 
-Write unittests in Pytest to test this assignment. Find out which submissions are correct or incorrect. In case a submission is incorrect, write down why (see report below). Submit all your unittests in a file named `test_cash.py` on the bottom of this page.
+Schrijf unittests in Pytest voor deze opdracht. Zoek uit welke uitwerkingen correct of incorrect zijn. Als een uitwerking incorrect is, schrijf dan op waarom (zie het verslag hieronder). Lever al je unittests in, in een bestand genaamd `test_cash.py`, onderaan deze pagina.
 
-## A bit of help
+## Een beetje hulp
 
-Hold on, before you jump right in, we have added some scaffolding to get you going. You will find two additional files:
+Voordat je meteen begint: we hebben wat scaffolding toegevoegd om je op weg te helpen. Je vindt twee extra bestanden:
 
-1. `conftest.py`, long story short, this file contains some pytest specific code that adds a command line option to pytest (`--path`) and uses these paths to load in the student implementations of `number_of_coins`. These implementations are passed to any unittest requesting a `number_of_coins` fixture. Through this file you will able to write tests like so:
+1. `conftest.py`. Kort gezegd bevat dit bestand pytest-specifieke code die een command line optie (`--path`) aan pytest toevoegt en die paden gebruikt om de uitwerkingen van `number_of_coins` van de studenten in te laden. Deze uitwerkingen worden doorgegeven aan elke unittest die om een `number_of_coins` fixture vraagt. Hierdoor kan je tests schrijven zoals:
 
 
         def test_something(number_of_coins):
             assert number_of_coins(41, [25, 10, 5, 1]) == 4
 
 
-    And call them like so:
+    En deze zo draaien:
 
         pytest --path submissions/1/cash.py
         pytest --path submissions/1/cash.py --path submissions/2/cash.py
 
-2. Thirteen programs is a lot to test, and it is easy to get overwhelmed by the number of tests. `run_tests.py` is here to help. This script will run pytest for each submission in the `submissions` folder and dump the output of the test to `outputs/1.txt` (for each submission respectively). Just run it like so:
+2. Dertien programma's is veel om te testen, en het is makkelijk om het overzicht kwijt te raken. `run_tests.py` helpt daarbij. Dit script draait pytest voor elke uitwerking in de map `submissions` en schrijft de uitvoer van de tests naar `outputs/1.txt` (voor elke uitwerking apart). Draai het zo:
 
         $ python3 run_tests.py
         Testing - submissions/1/cash.py => outputs/1.txt   | SUCCESS
@@ -53,16 +53,16 @@ Hold on, before you jump right in, we have added some scaffolding to get you goi
         Testing - submissions/3/cash.py => outputs/3.txt   | SUCCESS
         ...
 
-## Some peace of mind
+## Wat gemoedsrust
 
-* You may assume all implementations are deterministic, there is no randomness in any implementation.
-* You may assume infinite loops do not exist.
-* You may assume the student code does not contain anything malicious, so you can safely run it on your computer.
-* We are pretty sure that only **one** submission is correct, but feel free to prove us wrong!
-* The `12` incorrect submissions are incorrect in fundamentally different ways. You will likely need to write at least 12 test cases.
+* Je mag aannemen dat alle uitwerkingen deterministisch zijn, er zit geen randomness in.
+* Je mag aannemen dat er geen oneindige loops bestaan.
+* Je mag aannemen dat de code van de studenten niets kwaadaardigs bevat, dus je kunt het veilig op je eigen computer draaien.
+* We zijn vrij zeker dat slechts **één** uitwerking correct is, maar je mag bewijzen dat we ongelijk hebben!
+* De `12` incorrecte uitwerkingen zijn op fundamenteel verschillende manieren fout. Je zult waarschijnlijk minstens 12 testcases moeten schrijven.
 
-## Report
+## Verslag
 
-In a report (`.pdf`), write down for each of the 13 submissions whether it is correct or incorrect. Provide reasoning for each incorrect submission: how can we know, without doubt, that that submission is indeed incorrect? For example, you probably have found a test case that very specifically shows a wrong behavior based on how the program is tested.
+Schrijf in een verslag (`.pdf`) voor elk van de 13 uitwerkingen op of deze correct of incorrect is. Geef voor elke incorrecte uitwerking een onderbouwing: hoe weten we zonder twijfel dat die uitwerking inderdaad incorrect is? Je hebt bijvoorbeeld waarschijnlijk een testcase gevonden die heel specifiek fout gedrag laat zien, op basis van hoe het programma getest wordt.
 
-Keep in mind that the wrong submissions are wrong in fundamentally different ways, so each submisison should require a different reasoning. This is why you need to write tests for each separate solution, but still keep all tests in the same test file. This way you can see that each test triggers on a different solution.
+Houd er rekening mee dat de foute uitwerkingen op fundamenteel verschillende manieren fout zijn, dus elke uitwerking vraagt om een andere redenering. Daarom moet je voor elke uitwerking aparte tests schrijven, maar wel alle tests in hetzelfde testbestand houden. Zo zie je dat elke test op een andere uitwerking afgaat.
