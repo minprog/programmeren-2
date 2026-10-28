@@ -163,10 +163,10 @@ grades:
         calculation: "gevalideerd ? check_points + quality_points : 0"
 
     ## Workshops
-    aftekenen_workshop_cc: *check
-    aftekenen_workshop_cash: *check
-    aftekenen_workshop_profiling: *check
-    aftekenen_workshop_police: *check
+    aftekenen_workshop_cc: *aftekenen
+    aftekenen_workshop_cash: *aftekenen
+    aftekenen_workshop_profiling: *aftekenen
+    aftekenen_workshop_police: *aftekenen
 
     # Meesterproef
     meesterproef1:
