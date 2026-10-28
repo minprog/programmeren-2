@@ -2,7 +2,7 @@
 
 In deze opdracht ga je de Cyclomatic Complexity van een bestaand programma verlagen. Je gebruikt hiervoor `flake8`, met als doel dat elke functie een Cyclomatic Complexity van maximaal 3 krijgt.
 
-De complexiteit zit in dit programma vooral in **lussen**: lussen binnen lussen, met `if`s erin. Dat vraagt meer overzicht over welke stukken code bij elkaar horen.
+De complexiteit zit in dit programma vooral in **loops**: loops binnen loops, met `if`s erin. Dat vraagt meer overzicht over welke stukken code bij elkaar horen.
 
 ## De opdracht: Tekstanalyse
 
@@ -157,9 +157,9 @@ Het programma doet eerst een aantal dingen achter elkaar: het bestand lezen, de 
 
 </details>
 
-<details markdown="1"><summary markdown="span">hint: een lus per functie</summary>
+<details markdown="1"><summary markdown="span">hint: een loop per functie</summary>
 
-Een lus binnen een lus telt dubbel. Als je elke lus in een eigen functie zet, met een duidelijke naam (`find_longest`, `count_long`, ...), blijft elke functie klein. Met `return` midden in een lus kan je een functie vaak ook korter maken.
+Een loop binnen een loop telt dubbel. Als je elke loop in een eigen functie zet, met een duidelijke naam (`find_longest`, `count_long`, ...), blijft elke functie klein. Met `return` midden in een loop kan je een functie vaak ook korter maken.
 
 </details>
 

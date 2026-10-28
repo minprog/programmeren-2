@@ -249,7 +249,7 @@ Begin met het onderdeel dat je het ingewikkeldst vindt, of juist met het onderde
 
 <details markdown="1"><summary markdown="span">hint: validatie van de invoer</summary>
 
-In `play` zit een lus met drie controles en `continue`s. Maak een functie die de tekst controleert en de foutmelding teruggeeft (of een lege tekst als de invoer in orde is). De lus zelf wordt dan heel klein.
+In `play` zit een loop met drie controles en `continue`s. Maak een functie die de tekst controleert en de foutmelding teruggeeft (of een lege tekst als de invoer in orde is). De loop zelf wordt dan heel klein.
 
 </details>
 
