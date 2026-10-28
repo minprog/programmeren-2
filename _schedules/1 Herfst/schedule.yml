@@ -39,7 +39,7 @@ Collections:
         Tuples: /onderwerp/collections/tuples
         Recommend: /onderwerp/collections/recommend
         Big-O: /onderwerp/collections/big-o-questions
-        # '🛠️ Workshop: Verminder de Cyclomatic Complexity': /onderwerp/collections/cc
+        # '🛠️ Workshop: Verminder de Cyclomatic Complexity': /workshop/cc
 
 Objects:
     Overzicht en puntentelling: /onderwerp/objects
@@ -57,7 +57,7 @@ Abstract Data Types:
     Opdrachten:
         Game of Cards: /onderwerp/adt/cards
         Testen met twee implementaties: /onderwerp/adt/testing
-        '🛠️ Workshop: Wat is er mis met Cash': /onderwerp/adt/cash
+        # '🛠️ Workshop: Wat is er mis met Cash': /workshop/tests
 
 Container classes:
     Overzicht en puntentelling: /onderwerp/containers

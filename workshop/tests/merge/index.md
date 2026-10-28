@@ -37,7 +37,7 @@ Schrijf unittests in Pytest voor deze opdracht. Zoek uit welke uitwerkingen corr
 
 ## Een beetje hulp
 
-Net als bij [Many submissions of cash](/workshop/cash/tests) hebben we scaffolding toegevoegd. Je vindt twee extra bestanden:
+Net als bij [Many submissions of cash](/workshop/tests/tests) hebben we scaffolding toegevoegd. Je vindt twee extra bestanden:
 
 1. `conftest.py`. Dit bestand voegt een command line optie (`--path`) aan pytest toe en laadt de uitwerkingen van `merge_intervals` in. Deze worden doorgegeven aan elke unittest die om een `merge_intervals` fixture vraagt. Hierdoor kan je tests schrijven zoals:
 

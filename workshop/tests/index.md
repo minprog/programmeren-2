@@ -1,10 +1,10 @@
-# Workshop: Wat is er mis met Cash
+# Workshop: Testen van andermans code
 
 In deze workshop test je code die iemand anders heeft geschreven. Je krijgt steeds dertien uitwerkingen van dezelfde opdracht, en precies één daarvan is correct. Het is aan jou en je team om te bewijzen welke dat is, en bij de andere twaalf aan te tonen *waarom* ze fout zijn. Je kijkt daarbij niet naar hoe de code werkt, maar naar wat de code doet: je schrijft tests die het gedrag van buitenaf vastleggen.
 
 ## Waar gaat het over?
 
-Studenten kregen de opdracht een functie `number_of_coins` te schrijven, die uitrekent hoeveel munten er nodig zijn om een bedrag te wisselen:
+In de eerste opdracht kregen studenten de opdracht een functie `number_of_coins` te schrijven, die uitrekent hoeveel munten er nodig zijn om een bedrag te wisselen:
 
     print(number_of_coins(41, [25, 10, 5, 1]))  # prints 4
 
@@ -12,8 +12,8 @@ Dat lijkt simpel, maar er zijn veel randgevallen: negatieve bedragen, munten van
 
 ## Opbouw
 
-1. [Many submissions of cash](/workshop/cash/tests): de uitwerkingen van `number_of_coins`, een functie die munten telt. Je schrijft een `test_cash.py` waarin elke foute uitwerking door minstens één test wordt ontmaskerd, en je beschrijft in een kort verslag per uitwerking wat er mis is.
-2. [Many submissions of merge_intervals](/workshop/cash/merge): dezelfde aanpak met een lastigere functie, die overlappende tijdsblokken samenvoegt. De uitwerkingen zijn nu in veel verschillende programmeerstijlen geschreven, en sommige fouten vallen pas op als je goed kijkt naar wat er met de invoer gebeurt.
+1. [Many submissions of cash](/workshop/tests/tests): de uitwerkingen van `number_of_coins`, een functie die munten telt. Je schrijft een `test_cash.py` waarin elke foute uitwerking door minstens één test wordt ontmaskerd, en je beschrijft in een kort verslag per uitwerking wat er mis is.
+2. [Many submissions of merge_intervals](/workshop/tests/merge): dezelfde aanpak met een lastigere functie, die overlappende tijdsblokken samenvoegt. De uitwerkingen zijn nu in veel verschillende programmeerstijlen geschreven, en sommige fouten vallen pas op als je goed kijkt naar wat er met de invoer gebeurt.
 
 Begin met de eerste opdracht. De werkwijze hieronder geldt voor beide.
 
