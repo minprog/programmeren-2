@@ -154,13 +154,13 @@ Eerst even opstarten:
 1. Kopieer de code van hangman hierboven, maak een bestand genaamd `hangman.py` en plak daar de code in.
 2. Download een woordenboek (`dictionary.txt`) en zorg dat deze in dezelfde map staat als `hangman.py`:
 
-    curl -LO https://github.com/minprog/hangman/raw/2020/classic/dictionary.zip
-    unzip dictionary.zip
-    rm -f dictionary.zip
+        curl -LO https://github.com/minprog/hangman/raw/2020/classic/dictionary.zip
+        unzip dictionary.zip
+        rm -f dictionary.zip
 
 3. Draai `python3 -m flake8 --max-complexity 3 --select=C hangman.py` om te kijken of de tool werkt. Je hoort het volgende te zien:
 
-    hangman.py:3:1: C901 'hangman_game' is too complex (17)
+        hangman.py:3:1: C901 'hangman_game' is too complex (17)
 
 Speel vervolgens even een spelletje Hangman om gevoel te krijgen voor het programma via:
 
