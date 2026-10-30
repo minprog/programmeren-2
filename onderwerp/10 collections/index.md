@@ -21,7 +21,7 @@ Sets, Dicts, Tuples
 Recommend
 : 2 punten voor een goedwerkende inzending
 
-Complexity
+(Big O) Complexity
 : 1 punt voor een volledige en grotendeels correcte uitwerking
 
 Goedwerkend betekent altijd dat het ook "goed" moet zijn. Soms controleren we dat via automatische checks, soms handmatig. Check het dus zelf ook goed, omdat je anders misschien de punten mist. Er worden geen deelpunten gegeven.
