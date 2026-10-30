@@ -9,7 +9,7 @@ In deze workshop leer je code te herkennen die te ingewikkeld is en haal je die 
 3. [Tekstanalyse](/workshop/cc/text): een programma dat een bestand verwerkt met loops binnen loops. Je oefent met het verdelen van loops over functies.
 4. [Vier op een rij](/workshop/cc/connect4): een spel verspreid over twee bestanden. Hier is functies opknippen niet genoeg, je moet ook slimmer naar de data kijken.
 
-Begin dus met Hangman. Daar staat ook de uitleg over Cyclomatic Complexity en `flake8`, die je bij de andere opdrachten opnieuw nodig hebt.
+Begin met Hangman. Daar staat ook de uitleg over Cyclomatic Complexity en `flake8`, die je bij de andere opdrachten opnieuw nodig hebt.
 
 ## Werkwijze
 
