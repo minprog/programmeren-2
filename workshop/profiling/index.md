@@ -70,9 +70,9 @@ Maak een profiel van je programma en sla het op in `solve.prof`:
 python3 -m cProfile -o solve.prof solve.py 2
 ```
 
-> `python3 -m` draait een module (hier `cProfile`) in plaats van een bestand. Een profiler maakt je programma wat trager. Vergelijk profielen dus met elkaar, niet met je gewone looptijd.
+> `python3 -m` draait een module (hier `cProfile`) in plaats van een bestand. Vervolgens draait `cProfile` jouw bestand `solve.py`.
 
-Je kunt zo'n profiel als tabel lezen, bijvoorbeeld met `python3 -m pstats solve.prof`, maar dat is onoverzichtelijk. Daarom gebruiken we **snakeviz**, dat het profiel in je browser visualiseert:
+Je kunt zo'n profiel als tabel lezen, bijvoorbeeld met `python3 -m pstats solve.prof`, maar dat is niet makkelijk leesbaar. Daarom gebruiken we **snakeviz**, dat het profiel in je browser visualiseert:
 
 ```
 snakeviz solve.prof
