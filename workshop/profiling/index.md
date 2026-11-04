@@ -1,161 +1,106 @@
-# Profiling: optimize a Sudoku solver
+# Profiling: een Sudoku-solver versnellen
 
-> Inmiddels weet je een heleboel over Python-structuren en over classes en zelfgebouwde datastructuren. Met deze kennis in het achterhoofd ga in in onderstaande opdracht aan de slag met het optimaliseren (sneller maken) van een Sudoku-solver.
+Je krijgt een Sudoku-solver die werkt, maar langzaam is: 15 seconden tot een paar minuten per puzzel. Te langzaam om bijvoorbeeld automatisch nieuwe puzzels te genereren, want dat vraagt om heel veel keer oplossen. Jouw taak: maak de solver **sneller** en laat met metingen zien dat het ook echt sneller is.
 
-![embed](https://api.eu.kaltura.com/p/120/sp/12000/embedIframeJs/uiconf_id/23449960/partner_id/120?iframeembed=true&playerId=kaltura_player&entry_id=0_eao7e3jd&flashvars[streamerType]=auto&flashvars[localizationCode]=en_US&flashvars[leadWithHTML5]=true&flashvars[sideBarContainer.plugin]=true&flashvars[sideBarContainer.position]=left&flashvars[sideBarContainer.clickToClose]=true&flashvars[chapters.plugin]=true&flashvars[chapters.layout]=vertical&flashvars[chapters.thumbnailRotator]=false&flashvars[streamSelector.plugin]=true&flashvars[EmbedPlayer.SpinnerTarget]=videoHolder&flashvars[dualScreen.plugin]=true&flashvars[hotspots.plugin]=1&flashvars[Kaltura.addCrossoriginToIframe]=true&&wid=0_xsk8klfk)
+Bij elke verbetering doorloop je dezelfde cyclus: **meten, aanpassen, opnieuw meten**. Verwacht niet dat elke verbetering werkt. Dat een aanpassing in theorie sneller zou moeten zijn, betekent niet dat dat in de praktijk ook zo is.
 
-<https://video.uva.nl/media/Platforms2021%20Profiling%20Intro/0_eao7e3jd>
+## Aan de slag
 
-[The distribution code (download)](sudoku_profiling.zip) contains a functional Sudoku solver and six Sudoku puzzles. This solver can solve any of these puzzles within 15 seconds to a couple minutes on a modern computer. While that may sound fast enough for a solver, it is actually too slow for some tasks, such as automatically generating new puzzles. As generation of puzzles involves solving many different puzzles, most of which are likely to be too easy, imperfect (containing more than one solution) or impossible to solve.
-
-This is where you step in. Your task is to take this solver and make it run faster. To do this you will analyze the program's runtime behavior to find hotspots. Then it is up to you to analyze what is making the code slow, and find creative solutions to make the code run faster. Every step of the way you will want to re-evaluate whether your changes to the code, actually do make the code run faster. Odds are that not every change works out the way you'd expect it to!
-
-## Profiling
-
-![embed](https://api.eu.kaltura.com/p/120/sp/12000/embedIframeJs/uiconf_id/23449960/partner_id/120?iframeembed=true&playerId=kaltura_player&entry_id=0_fy9i5u7c&flashvars[streamerType]=auto&flashvars[localizationCode]=en_US&flashvars[leadWithHTML5]=true&flashvars[sideBarContainer.plugin]=true&flashvars[sideBarContainer.position]=left&flashvars[sideBarContainer.clickToClose]=true&flashvars[chapters.plugin]=true&flashvars[chapters.layout]=vertical&flashvars[chapters.thumbnailRotator]=false&flashvars[streamSelector.plugin]=true&flashvars[EmbedPlayer.SpinnerTarget]=videoHolder&flashvars[dualScreen.plugin]=true&flashvars[hotspots.plugin]=1&flashvars[Kaltura.addCrossoriginToIframe]=true&&wid=0_9uiwssea)
-
-<https://video.uva.nl/media/Platforms2021%20Profiling%20Assignment/0_fy9i5u7c>
-
-Theoretical analysis of runtime complexity is a helpful tool to evaluate performance of individual functions, algorithms or generally small pieces of code. However, once the codebase grows it gets increasingly harder to do and it becomes less useful too. Odds are that not every function is equally important to the actual runtime of the code. Because afterall, who knows if a function actually gets called during execution and if so, how many times?
-
-This is where profilers step in. Profilers are programs that run your program to analyze its runtime behavior. Simply put, profilers build a profile of your program while it is running. They keep track of which functions are called, how many times, how much time is spent in them, etc. Through this profile you can get a grasp of what your program is actually doing and spending time on.
-
-> In some cases profilers might also keep track of memory usage of your program, but that is something this assignment does not focus on.
-
-Python comes with a [built-in profiler](https://docs.python.org/3/library/profile.html) called `cProfile`. This profiler can called be called from the command line like so:
+[Download de distributiecode](sudoku_profiling.zip), pak het zip-bestand uit en open de map in je editor. Installeer daarna de benodigde packages:
 
 ```
-python3 -m cProfile your_program.py
+python -m pip install -r requirements.txt
 ```
 
-> If unfamiliar, `python3 -m` is simply a way to run a specific module (-m) for that version of `python3`.
+Gebruik je [uv](https://docs.astral.sh/uv/)? Maak dan eerst een virtual environment en installeer daarin:
 
-Once your program finishes, cProfile will show you the profile in a table like below.
+```
+uv pip install -r requirements.txt
+```
 
-<table cellpadding="0" cellspacing="0" border="0" role="grid" aria-describedby="pstats-table_info">
-    <thead>
-        <tr role="row">
-            <th title="Total number of calls to the function. If there are two numbers, that means the function recursed and the first is the total number of calls and the second is the number of primitive (non-recursive) calls.">ncalls</th>
-            <th title="Total time spent in the function, not including time spent in calls to sub-functions.">tottime</th>
-            <th title="`tottime` divided by `ncalls`">percall</th>
-            <th title="Cumulative time spent in this function and all sub-functions.">cumtime</th>
-            <th title="`cumtime` divided by `ncalls`">percall</th>
-            <th title="File name and line number were the function is defined, and the function’s name.">filename:lineno(function)</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr role="row" class="odd">
-            <td>1</td>
-            <td>5.54e-05</td>
-            <td>5.54e-05</td>
-            <td>11.36</td>
-            <td>11.36</td>
-            <td>solve.py:1(&lt;module&gt;)</td>
-        </tr>
-        <tr role="row" class="even">
-            <td>10</td>
-            <td>0.26</td>
-            <td>0.026</td>
-            <td>11.34</td>
-            <td>1.134</td>
-            <td>solve.py:11(solve)</td>
-        </tr>
-        <tr role="row" class="odd">
-            <td>100270</td>
-            <td>0.4553</td>
-            <td>4.541e-06</td>
-            <td>3.875</td><td >3.865e-05</td>
-            <td>sudoku.py:45(options_at)</td>
-        </tr>
-        <tr role="row" class="even">
-            <td>354280</td>
-            <td>1.905</td>
-            <td>5.377e-06</td>
-            <td>3.701</td>
-            <td>1.045e-05</td>
-            <td>sudoku.py:92(column_values)</td>
-        </tr>
-        <tr role="row" class="odd">
-            <td>100280</td>
-            <td>0.1791</td>
-            <td>1.786e-06</td>
-            <td>3.676</td>
-            <td>3.665e-05</td>
-            <td>sudoku.py:122(is_solved)</td>
-        </tr>
-        <tr role="row" class="even">
-            <td>9189940</td>
-            <td>3.02</td>
-            <td>3.286e-07</td>
-            <td>3.02</td>
-            <td>3.286e-07</td>
-            <td>sudoku.py:39(value_at)</td>
-        </tr>
-        <tr role="row" class="odd">
-            <td>100270</td>
-            <td>1.137</td>
-            <td>1.134e-05</td>
-            <td>2.271</td>
-            <td>2.265e-05</td>
-            <td>sudoku.py:70(next_empty_index)</td>
-        </tr>
-        <tr>
-            <td>...</td>
-        </tr>
-    </tbody>
-</table>
+Dan werken `pytest` en `snakeviz` als hieronder. Of gebruik `uv run` zonder te activeren, bijvoorbeeld `uv run pytest` of `uv run python solve.py 2`.
 
-> You can hover over each table header to get a better understanding of each statistic
+> Lukt een commando als `pytest` of `snakeviz` niet? Probeer dan `python3 -m pytest` of `python3 -m snakeviz`.
 
-At a quick glance what you see here is how many times each function is called and how much time in seconds is spent within each function. For instance, the function `solve` is called just ten times, whereas `value_at` is called more than nine million times!
+### Wat staat waar?
 
-But what about time? This is where it gets a little tricky. Functions can call other functions, and it might just be that functions down the line are actually responsible for the time spent. To help you here, cProfile shows both the total time (time spent just within that function) and cumalative time (time spent within that function and all its sub functions). For instance, `solve` has a cumalative time of 11.34 seconds, but its total time is just 0.26 seconds. Meaning, 11.34 seconds of the runtime of this program is the result of a call to `solve`, but only a fraction of that (`0.26` seconds) is from the code of `solve` itself. The remainder (`11.34 - 0.26 = 11.08 seconds`) is all from functions `solve` calls.
+| Bestand | Wat |
+| --- | --- |
+| `sudoku.py` | De class `Sudoku` en `load_from_file`. **Dit is het enige bestand dat je aanpast en inlevert.** |
+| `solve.py` | De solver zelf: een recursieve Depth First Search solver die lege plekken invult. Dit bestand pas je niet aan. |
+| `puzzles/` | Zes puzzels (`1.csv` t/m `6.csv`). |
+| `tests/` | Tests voor `Sudoku` en `solve`. Deze moeten blijven slagen. |
 
-Okay, but what functions is `solve` calling? cProfile does not tell you this in the table above. Most likely because that is hard to do in table form. Luckily there is a Python module called [snakeviz](https://jiffyclub.github.io/snakeviz/) that takes a profile from cProfile and visualizes it in the browser like so:
+`solve.py` roept steeds dezelfde methodes van `Sudoku` aan: `is_solved`, `next_empty_index`, `options_at`, `place` en `unplace`. Die methodes (en wat ze weer aanroepen) bepalen dus bijna alle rekentijd.
+
+### Hoe draai je het?
+
+Los een puzzel op, bijvoorbeeld puzzel 2:
+
+```
+python3 solve.py 2
+```
+
+Met `-n` los je dezelfde puzzel meerdere keren op, handig voor een betrouwbaardere meting:
+
+```
+python3 solve.py -n 10 2
+```
+
+Kies een puzzel die bij je doel past. Puzzel 2 is binnen een seconde klaar en dus fijn om snel te itereren. Puzzel 1 duurt zo'n 15 seconden en is geschikt om te controleren of je echt winst boekt. Meet niet op iets dat korter duurt dan een seconde of twee: kleine schommelingen in de tijd zeggen dan niets.
+
+Controleer na elke aanpassing dat alles nog klopt:
+
+```
+pytest
+```
+
+## Profilen met cProfile
+
+Je zou kunnen gokken welk deel van de code traag is, maar dat gaat vaak mis. Een **profiler** draait je programma en houdt bij welke functies worden aangeroepen, hoe vaak, en hoeveel tijd ze kosten. Python heeft er een ingebouwd: `cProfile`.
+
+Maak een profiel van je programma en sla het op in `solve.prof`:
+
+```
+python3 -m cProfile -o solve.prof solve.py 2
+```
+
+> `python3 -m` draait een module (hier `cProfile`) in plaats van een bestand. Een profiler maakt je programma wat trager. Vergelijk profielen dus met elkaar, niet met je gewone looptijd.
+
+Je kunt zo'n profiel als tabel lezen, bijvoorbeeld met `python3 -m pstats solve.prof`, maar dat is onoverzichtelijk. Daarom gebruiken we **snakeviz**, dat het profiel in je browser visualiseert:
+
+```
+snakeviz solve.prof
+```
 
 ![](snakeviz_sunburst.png)
 
-> Note, the numbers aren't shown by snakeviz. That's just a visual aid for those color blind.
+Dit is een *sunburst*. In het midden staat `solve`. Elke ring daaromheen bestaat uit functies die door de vorige ring worden aangeroepen. Hoe groter een stuk, hoe meer tijd. Je kunt klikken om in te zoomen en met de muis over een stuk gaan voor de cijfers. Onderaan de pagina staat dezelfde informatie als tabel, die je kunt sorteren.
 
-The above is just an image, the real thing is interactive. What you see here is a sunburst graph. In the middle is the function `solve`, and each outer layer are functions `solve` calls either directly (the second most inner layer) or indirectly (all other layers). The size of each slice represents the cumalative time spend inside that function. So here you see that `solve` ends up calling four functions directly (2, 3, 4, 5) that are responsible for most of its runtime. Most of these functions then spend their time in other functions too, except for `4` (`next_empty_index`). That one spends about half its time in itself. Which makes sense, because its total time is `1.137` and its cumalative time is `2.271`.
+De belangrijkste kolommen:
 
-The colors in the graph identify a function. You might have noticed all the orange in the graph from number `7`. Turns out, that is the function that was called nine million times (`value_at`). Makes sense, because almost every function in this graph will at some point end up making calls to `value_at`.
+- **ncalls**: hoe vaak de functie is aangeroepen.
+- **tottime**: tijd in de functie zelf, *zonder* de functies die hij aanroept.
+- **cumtime**: tijd in de functie *inclusief* alles wat hij aanroept.
 
-## The distribution code
+Een functie met een hoge `tottime` is zelf traag. Een functie met een hoge `cumtime` maar lage `tottime` besteedt zijn tijd in andere functies. En een functie met een enorme `ncalls` is wellicht niet traag, maar wordt veel te vaak aangeroepen.
 
-![embed](https://api.eu.kaltura.com/p/120/sp/12000/embedIframeJs/uiconf_id/23449960/partner_id/120?iframeembed=true&playerId=kaltura_player&entry_id=0_odxtqxlg&flashvars[streamerType]=auto&flashvars[localizationCode]=en_US&flashvars[leadWithHTML5]=true&flashvars[sideBarContainer.plugin]=true&flashvars[sideBarContainer.position]=left&flashvars[sideBarContainer.clickToClose]=true&flashvars[chapters.plugin]=true&flashvars[chapters.layout]=vertical&flashvars[chapters.thumbnailRotator]=false&flashvars[streamSelector.plugin]=true&flashvars[EmbedPlayer.SpinnerTarget]=videoHolder&flashvars[dualScreen.plugin]=true&flashvars[hotspots.plugin]=1&flashvars[Kaltura.addCrossoriginToIframe]=true&&wid=0_2qc8wpe0)
+## Verbeteren
 
-<https://video.uva.nl/media/Platforms2021%20Profiling%20Distro/0_odxtqxlg>
+Het profiel vertelt je *waar* de tijd naartoe gaat, niet *waarom*. Dat uitzoeken is jouw werk. Let op:
 
-## Optimizing
+- Loops, vooral geneste.
+- Datastructuren en hun operaties, zie [de tijdcomplexiteit van Python-operaties](https://wiki.python.org/moin/TimeComplexity). Zijn er operaties die O(n) of erger zijn?
+- Dubbel of onnodig werk: wordt hetzelfde steeds opnieuw berekend?
+- Het aantal aanroepen: kan een functie minder vaak worden aangeroepen?
+- Caching, bijvoorbeeld met [`functools.lru_cache`](https://docs.python.org/3/library/functools.html#functools.lru_cache).
 
-A profile can tell you which parts of the code contribute most to the overall runtime, but not how or why. This is where you as a programmer step in. It is your job to try and figure out why some parts of the code are taking so much runtime. Then, improve the code so that it runs faster. Not just run faster in theory, but in practice too. You'll do this be reevaluating the code after each improvement. You might just find that a sensible change in theory, does not actually translate to practice.
+En een paar adviezen:
 
-Note that execution times fluctuate between runs and that a profiler will always add some overhead. Do be sure to run the code sufficiently long (> 10 seconds) before drawing any conclusions.
+- Als een aanpassing de code slechter maakt en nauwelijks sneller, laat hem dan weg.
+- Als een aanpassing wél flink sneller is, is dat een winst. Voor deze opdracht gaat snelheid voor leesbaarheid.
+- Kijk af en toe uit naar het geheel. Verdwaal niet in kleine functies. Moet je wel zoeken naar een lege plek, bijvoorbeeld?
 
-Here are some tips to get you started, look out for:
+## Inleveren
 
-- Loops
-- [Data structures and their operations](https://wiki.python.org/moin/TimeComplexity)
-- Complexity both in big O and big Ω (worst and best case respectively)
-- Duplicated or more generally unnecessary function calls
-- ...
-
-And here is some inspiration as to what you can try:
-
-- Try to avoid loops where reasonably possible.
-- If a function call is expensive, that is takes up a lot of runtime, it might be worth [caching](https://docs.python.org/dev/library/functools.html#functools.lru_cache) its results. Such that a subsequent call can pull from the cache instead.
-- Misuse of data structures is a common source of performance penalties. Look out for operations that run in O(n) or worse.
-- Besides improving the code within a function, you can also look into reducing the number of calls to the function.
-- ...
-
-And finally, some advice:
-
-- If performance does not meaningfully improve and the code quality degrades, the change is not worth it.
-- If performance does meaningfully improve, it's a win. Code quality comes second for this assignment.
-- Zoom out every now and then. Don't get too caught up in small functions, but think about the program as a whole.
-- Get creative. Is searching for an empty spot really needed?
-
-## What to do
-
-Take a look at the submit tab for further instructions.
+Ga naar het tabblad *Submit* voor wat je precies inlevert.

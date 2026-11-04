@@ -1,42 +1,28 @@
 # Submit
 
-Improve the code in at least **nine different ways**. Keep track of:
+Verbeter de code op minstens **acht verschillende manieren**. Houd per verbetering bij:
 
-- Why you selected that part of the code.
-- Why you think that code can be improved.
-- What you changed in the code.
-- What the performance gain is or isn't.
+- Waarom je dit deel van de code hebt gekozen.
+- Waarom je denkt dat deze code beter kan.
+- Wat je hebt aangepast.
+- Wat de winst in snelheid is, of juist niet.
 
-**Additionally**, as one of your improvements, change the internal data structure of the Sudoku puzzle from a `list[str]` to a better suited and better performing data structure.
-<!-- 
-<textarea name="form[1]" rows="5" required=""></textarea>
+**Daarnaast** moet één van je verbeteringen zijn dat je de interne datastructuur van de Sudoku aanpast van een `list[str]` naar een geschiktere, snellere datastructuur.
 
-<textarea name="form[2]" rows="5" required=""></textarea>
+## Spelregels
 
-<textarea name="form[3]" rows="5" required=""></textarea>
+#### Mag
 
-<textarea name="form[4]" rows="5" required=""></textarea>
+- De implementatie van functies en methodes aanpassen.
+- Datastructuren in het programma aanpassen, zolang je geen andere regel breekt.
+- Nieuwe attributen, functies en methodes toevoegen.
 
-<textarea name="form[5]" rows="5" required=""></textarea>
+#### Mag niet
 
-<textarea name="form[6]" rows="5" required=""></textarea>
+- De declaratie van bestaande functies en methodes aanpassen.
+- De signatuur van bestaande functies en methodes aanpassen (types van parameters en return values).
+- Testcases aanpassen of verwijderen.
 
-<textarea name="form[7]" rows="5" required=""></textarea>
+## Automatische controle
 
-<textarea name="form[8]" rows="5" required=""></textarea>
-
-<textarea name="form[9]" rows="5" required=""></textarea> -->
-
-## Rules of the game
-
-#### Do
-
-- Change the implementation of functions and methods.
-- Change the data structures used within the program, as long as it does not break any other rule.
-- Add new attributes, functions, and methods.
-
-#### Don't
-
-- Change the declaration of existing functions and methods.
-- Change the signature of existing functions and methods (types of parameters and return values).
-- Change test cases or remove test cases.
+Na het inleveren draait een automatische controle: stijl (pycodestyle), types (mypy) en de bestaande tests (pytest). Daarna meet hij hoeveel sneller jouw `sudoku.py` is dan het origineel en toont dat als getal, bijvoorbeeld "ongeveer 25x zo snel". Dat is een schatting: het getal kan een beetje schommelen tussen inzendingen.
