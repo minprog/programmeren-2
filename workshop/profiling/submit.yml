@@ -3,3 +3,8 @@ form: true
 files:
     required:
         - sudoku.py
+
+check:
+    tool: checkpy
+    repo: minprog/checks
+    args: sudoku

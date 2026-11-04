@@ -74,7 +74,7 @@ Linked structures:
         "Boek: Linked Structures": /onderwerp/linked/boek
     Opdrachten:
         Implementaties van lijsten: /onderwerp/linked/lists
-        '🛠️ Workshop: Profiling': /onderwerp/linked/profiling
+        # '🛠️ Workshop: Profiling': /onderwerp/linked/profiling
 
 Restricted lists:
     Overzicht en puntentelling: /onderwerp/restricted
@@ -87,7 +87,7 @@ Restricted lists:
 
 Object graphs:
     Overzicht en puntentelling: /onderwerp/oop
-    '🛠️ Workshop: Police': /onderwerp/oop/police
+    # '🛠️ Workshop: Police': /onderwerp/oop/police
     Adventure:
         1. Introduction: /adventure/steps/introduction
         2. Rooms: /adventure/steps/room
