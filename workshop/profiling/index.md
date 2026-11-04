@@ -24,12 +24,12 @@ Dan werken `pytest` en `snakeviz` als hieronder.
 
 ### Wat staat waar?
 
-| Bestand | Wat |
-| --- | --- |
+| Bestand     | Wat |
+| ----------- | --- |
 | `sudoku.py` | De class `Sudoku` en `load_from_file`. **Dit is het enige bestand dat je aanpast en inlevert.** |
 | `solve.py` | De solver zelf: een recursieve Depth First Search solver die lege plekken invult. Dit bestand pas je niet aan. |
 | `puzzles/` | Zes puzzels (`1.csv` t/m `6.csv`). |
-| `tests/` | Tests voor `Sudoku` en `solve`. Deze moeten blijven slagen. |
+| `tests/`.  | Tests voor `Sudoku` en `solve`. Deze moeten blijven slagen. |
 
 `solve.py` roept steeds dezelfde methodes van `Sudoku` aan: `is_solved`, `next_empty_index`, `options_at`, `place` en `unplace`. Die methodes (en wat ze weer aanroepen) bepalen dus bijna alle rekentijd.
 
