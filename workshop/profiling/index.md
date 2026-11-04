@@ -54,7 +54,7 @@ python3 solve.py -n 10 2
 
 Kies een puzzel die bij je doel past. Puzzel 2 is binnen een seconde klaar en dus fijn om snel te itereren. Puzzel 1 duurt zo'n 15 seconden en is geschikt om te controleren of je echt winst boekt. Meet niet op iets dat korter duurt dan een seconde of twee: kleine schommelingen in de tijd zeggen dan niets.
 
-Controleer na elke aanpassing dat alles nog klopt:
+Controleer na elke aanpassing dat alles nog klopt met:
 
 ```
 pytest
