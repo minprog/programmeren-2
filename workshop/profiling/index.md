@@ -18,7 +18,7 @@ Gebruik je [uv](https://docs.astral.sh/uv/)? Maak dan eerst een virtual environm
 uv pip install -r requirements.txt
 ```
 
-Dan werken `pytest` en `snakeviz` als hieronder. Of gebruik `uv run` zonder te activeren, bijvoorbeeld `uv run pytest` of `uv run python solve.py 2`.
+Dan werken `pytest` en `snakeviz` als hieronder.
 
 > Lukt een commando als `pytest` of `snakeviz` niet? Probeer dan `python3 -m pytest` of `python3 -m snakeviz`.
 
