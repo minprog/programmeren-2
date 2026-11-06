@@ -8,7 +8,7 @@ Het testen van je eigen code is lastig, maar het testen van andermans code is mi
 
 ## Opbouw
 
-1. [Many submissions of cash](/workshop/tests/tests): de uitwerkingen van `number_of_coins`, een functie die munten telt. Je schrijft een `test_cash.py` waarin elke foute uitwerking door minstens één test wordt ontmaskerd.
+1. [Many submissions of cash](/workshop/tests/cash): de uitwerkingen van `number_of_coins`, een functie die munten telt. Je schrijft een `test_cash.py` waarin elke foute uitwerking door minstens één test wordt ontmaskerd.
 2. [merge_intervals](/workshop/tests/merge): een functie die overlappende tijdsblokken samenvoegt. Eén inzending is correct!
 
 ## Werkwijze
