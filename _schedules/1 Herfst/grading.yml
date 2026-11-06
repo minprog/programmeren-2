@@ -82,7 +82,7 @@ adt:
 
 containers:
     type: points
-    show_overview: true
+    show_progress: true
     deadline: 20/11/26 17:00
     submits:
         war: 2
@@ -117,14 +117,14 @@ workshops:
 # Deze 3 zijn voor het eindgesprek.
 linked:
     type: points
-    show_overview: true
+    show_progress: true
     deadline: 20/11/26 17:00
     submits:
         list_implementations: 2
 
 restricted:
     type: points
-    show_overview: true
+    show_progress: true
     deadline: 27/11/26 17:00
     submits:
         palindrome: 2
@@ -132,7 +132,7 @@ restricted:
 
 graphs:
     type: points
-    show_overview: true
+    show_progress: true
     deadline: 11/12/26 17:00
     submits:
         adventure-steps: 10
