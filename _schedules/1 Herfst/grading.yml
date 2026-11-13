@@ -105,6 +105,12 @@ workshop_tests:
         tests_cash: 0
         tests_merge: 0
 
+workshop_profiling:
+    type: points
+    show_overview: true
+    submits:
+        profiling: 0
+
 workshops:
     type: points
     show_progress: true
