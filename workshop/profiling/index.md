@@ -6,7 +6,7 @@ Bij elke verbetering doorloop je dezelfde cyclus: **meten, aanpassen, opnieuw me
 
 ## Aan de slag
 
-[Download de distributiecode](sudoku_profiling.zip), pak het zip-bestand uit en open de map in je editor. Installeer daarna de benodigde packages:
+[Download de distributiecode](sudoku.zip), pak het zip-bestand uit en open de map in je editor. Installeer daarna de benodigde packages:
 
 ```
 python -m pip install -r requirements.txt
