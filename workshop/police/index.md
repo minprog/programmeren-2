@@ -248,5 +248,5 @@ Gebruik voor de oplossing de methodes die je eerder hebt gemaakt: `get_most_cont
 
 <details markdown="1"><summary markdown="span">Onthul de dader (spoilers!)</summary>
 
-Alleen kijken als je de code hebt ingeleverd! Het brein is **Luca**, met 14 contacten de spil van het netwerk. De dader is **Wiebe**: geen direct contact met Luca, maar wel contact met vijf personen uit Luca's binnenste kring (Alejandro, Jelle, Nikolai, Peter en Rick). Rik, Roger, Sien, Kim, Marit, Jonathan en Sjoerd zitten in kleine losse groepjes en hebben er niets mee te maken.
+Het brein is **Luca**, met 14 contacten de spil van het netwerk. De dader is **Wiebe**: geen direct contact met Luca, maar wel contact met vijf personen uit Luca's binnenste kring (Alejandro, Jelle, Nikolai, Peter en Rick). Rik, Roger, Sien, Kim, Marit, Jonathan en Sjoerd zitten in kleine losse groepjes en hebben er niets mee te maken.
 </details>
