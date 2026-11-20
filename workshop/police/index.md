@@ -123,7 +123,7 @@ Bij deze opdracht zijn er twee data bestanden:
 * small_contacts.csv
 * contacts.csv
 
-Deze bestanden download je [hier](https://github.com/minprog/programmeren-2/raw/refs/heads/2026/onderwerp/70%20oop/police/contacts.zip). Kijk even goed in de bestanden om te zien hoe het in elkaar steekt.
+Deze bestanden download je [hier](https://github.com/minprog/programmeren-2/raw/refs/heads/2026/workshop/police/contacts.zip). Kijk even goed in de bestanden om te zien hoe het in elkaar steekt.
 
 Implementeer nu de methode `load_from_file`:
 
